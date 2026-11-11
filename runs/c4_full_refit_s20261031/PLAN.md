@@ -1,0 +1,1 @@
+Frozen before official validation: initialize from development best; all 25,720 training maps; 8 epochs; lr=0.0001; no validation checkpoint selection. Official validation is evaluated once after freezing the epoch-8 model.

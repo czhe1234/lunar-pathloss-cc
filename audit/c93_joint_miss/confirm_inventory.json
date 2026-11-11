@@ -1,0 +1,104 @@
+{
+  "confirm": {
+    "terrains": 484,
+    "bands": [
+      {
+        "by_state": [
+          {
+            "n": 245919,
+            "miss": 5374,
+            "prevalence": 0.021852723864361843,
+            "sse_share": 0.5365990402727122,
+            "c82_miss_rmse": 10.862467135902408
+          },
+          {
+            "n": 182149,
+            "miss": 2754,
+            "prevalence": 0.015119490087785275,
+            "sse_share": 0.6478990958349098,
+            "c82_miss_rmse": 11.376495099696404
+          },
+          {
+            "n": 4253,
+            "miss": 307,
+            "prevalence": 0.07218434046555372,
+            "sse_share": 0.5328204130904141,
+            "c82_miss_rmse": 10.83383407780977
+          },
+          {
+            "n": 59517,
+            "miss": 2313,
+            "prevalence": 0.03886284590957206,
+            "sse_share": 0.42847284635319804,
+            "c82_miss_rmse": 10.22079555513091
+          }
+        ],
+        "sens": {
+          "3": 8961,
+          "5": 5374,
+          "8": 2735
+        },
+        "local_evaluable_miss": 5371,
+        "local_dip_miss": 5159,
+        "local_dip_share_sse": 0.5273978029485338,
+        "strict_clear": 4148,
+        "strict_severe_overlap": 1319,
+        "base_rmse": 2.1920795911847075,
+        "oracle_rmse_if_shared_perfect": 1.492226619971174,
+        "opposite_both_too_weak_5dB": 1193
+      },
+      {
+        "by_state": [
+          {
+            "n": 221199,
+            "miss": 4402,
+            "prevalence": 0.019900632462172073,
+            "sse_share": 0.4376213079098328,
+            "c82_miss_rmse": 11.692815366032162
+          },
+          {
+            "n": 182153,
+            "miss": 2622,
+            "prevalence": 0.014394492541983937,
+            "sse_share": 0.6524278593348892,
+            "c82_miss_rmse": 12.182221314091809
+          },
+          {
+            "n": 4223,
+            "miss": 645,
+            "prevalence": 0.15273502249585602,
+            "sse_share": 0.5999685591960378,
+            "c82_miss_rmse": 11.513369656806601
+          },
+          {
+            "n": 34823,
+            "miss": 1135,
+            "prevalence": 0.03259340091318956,
+            "sse_share": 0.1999353731996465,
+            "c82_miss_rmse": 10.58751453147228
+          }
+        ],
+        "sens": {
+          "3": 7421,
+          "5": 4402,
+          "8": 2372
+        },
+        "local_evaluable_miss": 4386,
+        "local_dip_miss": 4181,
+        "local_dip_share_sse": 0.42447201005505664,
+        "strict_clear": 3588,
+        "strict_severe_overlap": 1287,
+        "base_rmse": 2.493465144181113,
+        "oracle_rmse_if_shared_perfect": 1.8698971958994497,
+        "opposite_both_too_weak_5dB": 2068
+      }
+    ],
+    "dual_valid": 220923,
+    "both_missed": 2775,
+    "either_joint_valid": 5832,
+    "shared_rows": [
+      4257,
+      4350
+    ]
+  }
+}

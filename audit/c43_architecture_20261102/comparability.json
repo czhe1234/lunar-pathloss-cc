@@ -1,0 +1,10 @@
+{
+  "A_active_parameters": 5997890,
+  "B_C_active_parameters": 6089570,
+  "B_C_same_parameterization": true,
+  "A_effective_parameters_not_identical_to_B_C": true,
+  "C38_baseline_training_scale": "all5508 internal FIT terrains; A/B/C train64 then256 terrains",
+  "baseline_interpretation": "C38 is an established reference, not an equal-training-data architecture ablation",
+  "primary_causal_comparison": "path versus grid, differing only in reference coordinate choice",
+  "score_scope": "fixed DEV64,264 maps; not officialVAL"
+}

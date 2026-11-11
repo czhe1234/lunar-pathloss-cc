@@ -1,0 +1,122 @@
+{
+  "fit": [
+    {
+      "all": {
+        "points": 4294021,
+        "tail_points": 169806,
+        "tail_fraction": 0.03954475304149654,
+        "positive_fraction": 0.614595479547248,
+        "rmse": 9.547992205522512,
+        "fit_weighted_tail_mean": 3.030307352808671,
+        "unweighted_tail_mean": 3.077039798311399
+      },
+      "single": {
+        "points": 2604103,
+        "tail_points": 101461,
+        "tail_fraction": 0.03896197654240251,
+        "positive_fraction": 0.6175180611269355,
+        "rmse": 9.528819394661594,
+        "fit_weighted_tail_mean": 3.1151754997547356,
+        "unweighted_tail_mean": 3.1151754997547356
+      },
+      "multi": {
+        "points": 1689918,
+        "tail_points": 68345,
+        "tail_fraction": 0.04044279071528915,
+        "positive_fraction": 0.6102567854268783,
+        "rmse": 9.57638425121094,
+        "fit_weighted_tail_mean": 3.0204257606474534,
+        "unweighted_tail_mean": 3.0204257606474534
+      }
+    },
+    {
+      "all": {
+        "points": 3848975,
+        "tail_points": 182138,
+        "tail_fraction": 0.04732116992186231,
+        "positive_fraction": 0.5785942527094841,
+        "rmse": 9.98436780323189,
+        "fit_weighted_tail_mean": 2.5086715240552273,
+        "unweighted_tail_mean": 2.502113206107304
+      },
+      "single": {
+        "points": 2322595,
+        "tail_points": 109737,
+        "tail_fraction": 0.0472475829836885,
+        "positive_fraction": 0.5794490463562882,
+        "rmse": 9.954207389709293,
+        "fit_weighted_tail_mean": 2.4968598279217176,
+        "unweighted_tail_mean": 2.4968598279217176
+      },
+      "multi": {
+        "points": 1526380,
+        "tail_points": 72401,
+        "tail_fraction": 0.04743314246779963,
+        "positive_fraction": 0.5772986560959102,
+        "rmse": 10.029908538576777,
+        "fit_weighted_tail_mean": 2.5100756646638396,
+        "unweighted_tail_mean": 2.5100756646638396
+      }
+    }
+  ],
+  "monitor": [
+    {
+      "all": {
+        "points": 1276943,
+        "tail_points": 47962,
+        "tail_fraction": 0.03756001638287692,
+        "positive_fraction": 0.6141528710228932,
+        "rmse": 9.565766286632003,
+        "fit_weighted_tail_mean": 3.0088711503120615,
+        "unweighted_tail_mean": 3.0088711503120615
+      },
+      "single": {
+        "points": 240035,
+        "tail_points": 9848,
+        "tail_fraction": 0.041027350178099026,
+        "positive_fraction": 0.6117993501218522,
+        "rmse": 9.585840808220958,
+        "fit_weighted_tail_mean": 2.972549937005744,
+        "unweighted_tail_mean": 2.972549937005744
+      },
+      "multi": {
+        "points": 1036908,
+        "tail_points": 38114,
+        "tail_fraction": 0.03675735938000285,
+        "positive_fraction": 0.614760980217243,
+        "rmse": 9.560572524052779,
+        "fit_weighted_tail_mean": 3.0182559251622636,
+        "unweighted_tail_mean": 3.0182559251622636
+      }
+    },
+    {
+      "all": {
+        "points": 1182747,
+        "tail_points": 53681,
+        "tail_fraction": 0.04538671414934893,
+        "positive_fraction": 0.593766882137069,
+        "rmse": 9.904125454164275,
+        "fit_weighted_tail_mean": 2.7054288621138083,
+        "unweighted_tail_mean": 2.7054288621138083
+      },
+      "single": {
+        "points": 210105,
+        "tail_points": 10771,
+        "tail_fraction": 0.051264843768591896,
+        "positive_fraction": 0.5849967505338408,
+        "rmse": 10.042025261466186,
+        "fit_weighted_tail_mean": 2.586864903161103,
+        "unweighted_tail_mean": 2.586864903161103
+      },
+      "multi": {
+        "points": 972642,
+        "tail_points": 42910,
+        "tail_fraction": 0.04411695156080038,
+        "positive_fraction": 0.5959683057562339,
+        "rmse": 9.869208176795068,
+        "fit_weighted_tail_mean": 2.7351900460308345,
+        "unweighted_tail_mean": 2.7351900460308345
+      }
+    }
+  ]
+}

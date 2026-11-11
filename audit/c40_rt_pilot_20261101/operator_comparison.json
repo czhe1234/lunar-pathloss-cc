@@ -1,0 +1,306 @@
+{
+  "scope": "One FIT terrain/map; candidate input reconstruction and observation operators only; not DEV or official score",
+  "index": 0,
+  "rays_per_band": 4096000000,
+  "records": [
+    {
+      "band": "415",
+      "operator": "C37",
+      "zone": "all",
+      "n": 64415,
+      "RMSE": 1.9377276363315041,
+      "bias": 0.08973372557939954
+    },
+    {
+      "band": "415",
+      "operator": "C37",
+      "zone": "safe_LOS",
+      "n": 37212,
+      "RMSE": 1.2431468444810863,
+      "bias": -0.04343392994280055
+    },
+    {
+      "band": "415",
+      "operator": "C37",
+      "zone": "boundary",
+      "n": 27203,
+      "RMSE": 2.603281402554611,
+      "bias": 0.27189873669185444
+    },
+    {
+      "band": "415",
+      "operator": "C37",
+      "zone": "occluded",
+      "n": 0,
+      "RMSE": null,
+      "bias": null
+    },
+    {
+      "band": "415",
+      "operator": "power_with_zeros",
+      "zone": "all",
+      "n": 64415,
+      "RMSE": 11.587953423371394,
+      "bias": 4.377516465565499
+    },
+    {
+      "band": "415",
+      "operator": "power_with_zeros",
+      "zone": "safe_LOS",
+      "n": 37212,
+      "RMSE": 8.724752942969833,
+      "bias": 3.460966635343966
+    },
+    {
+      "band": "415",
+      "operator": "power_with_zeros",
+      "zone": "boundary",
+      "n": 27203,
+      "RMSE": 14.623235383752963,
+      "bias": 5.6312992204897245
+    },
+    {
+      "band": "415",
+      "operator": "power_with_zeros",
+      "zone": "occluded",
+      "n": 0,
+      "RMSE": null,
+      "bias": null
+    },
+    {
+      "band": "415",
+      "operator": "power_with_zeros",
+      "half_difference_RMSE": 7.10372937302115,
+      "stable_lt_half_db_valid_fraction": 0.7676162384537762,
+      "label_RMSE_on_stable_diagnostic": 8.697102483898531
+    },
+    {
+      "band": "415",
+      "operator": "power_positive",
+      "zone": "all",
+      "n": 64415,
+      "RMSE": 10.031139734034362,
+      "bias": 3.9635552939211847
+    },
+    {
+      "band": "415",
+      "operator": "power_positive",
+      "zone": "safe_LOS",
+      "n": 37212,
+      "RMSE": 8.663072591657023,
+      "bias": 3.4469282227918816
+    },
+    {
+      "band": "415",
+      "operator": "power_positive",
+      "zone": "boundary",
+      "n": 27203,
+      "RMSE": 11.645113869388576,
+      "bias": 4.67026876562885
+    },
+    {
+      "band": "415",
+      "operator": "power_positive",
+      "zone": "occluded",
+      "n": 0,
+      "RMSE": null,
+      "bias": null
+    },
+    {
+      "band": "415",
+      "operator": "power_positive",
+      "half_difference_RMSE": 3.561212713791577,
+      "stable_lt_half_db_valid_fraction": 0.7600248389350307,
+      "label_RMSE_on_stable_diagnostic": 6.227166141434192
+    },
+    {
+      "band": "415",
+      "operator": "db_positive",
+      "zone": "all",
+      "n": 64415,
+      "RMSE": 11.344880873844813,
+      "bias": 6.601043380799648
+    },
+    {
+      "band": "415",
+      "operator": "db_positive",
+      "zone": "safe_LOS",
+      "n": 37212,
+      "RMSE": 9.728963888797919,
+      "bias": 5.658012146308239
+    },
+    {
+      "band": "415",
+      "operator": "db_positive",
+      "zone": "boundary",
+      "n": 27203,
+      "RMSE": 13.239693780864567,
+      "bias": 7.891051037965929
+    },
+    {
+      "band": "415",
+      "operator": "db_positive",
+      "zone": "occluded",
+      "n": 0,
+      "RMSE": null,
+      "bias": null
+    },
+    {
+      "band": "415",
+      "operator": "db_positive",
+      "half_difference_RMSE": 3.004925653881804,
+      "stable_lt_half_db_valid_fraction": 0.6823255452922456,
+      "label_RMSE_on_stable_diagnostic": 7.1773148926015455
+    },
+    {
+      "band": "58",
+      "operator": "C37",
+      "zone": "all",
+      "n": 63580,
+      "RMSE": 2.130042069361637,
+      "bias": 0.08293087225209321
+    },
+    {
+      "band": "58",
+      "operator": "C37",
+      "zone": "safe_LOS",
+      "n": 37212,
+      "RMSE": 1.2455370190327741,
+      "bias": -0.040930359360736815
+    },
+    {
+      "band": "58",
+      "operator": "C37",
+      "zone": "boundary",
+      "n": 26368,
+      "RMSE": 2.958156537435913,
+      "bias": 0.25773078695084284
+    },
+    {
+      "band": "58",
+      "operator": "C37",
+      "zone": "occluded",
+      "n": 0,
+      "RMSE": null,
+      "bias": null
+    },
+    {
+      "band": "58",
+      "operator": "power_with_zeros",
+      "zone": "all",
+      "n": 63580,
+      "RMSE": 11.340762335224749,
+      "bias": 3.7038526714933995
+    },
+    {
+      "band": "58",
+      "operator": "power_with_zeros",
+      "zone": "safe_LOS",
+      "n": 37212,
+      "RMSE": 8.27479383872468,
+      "bias": 3.144895130760427
+    },
+    {
+      "band": "58",
+      "operator": "power_with_zeros",
+      "zone": "boundary",
+      "n": 26368,
+      "RMSE": 14.611187017951698,
+      "bias": 4.492684892585459
+    },
+    {
+      "band": "58",
+      "operator": "power_with_zeros",
+      "zone": "occluded",
+      "n": 0,
+      "RMSE": null,
+      "bias": null
+    },
+    {
+      "band": "58",
+      "operator": "power_with_zeros",
+      "half_difference_RMSE": 5.3188799302926455,
+      "stable_lt_half_db_valid_fraction": 0.7508021390374332,
+      "label_RMSE_on_stable_diagnostic": 9.792162206890389
+    },
+    {
+      "band": "58",
+      "operator": "power_positive",
+      "zone": "all",
+      "n": 63580,
+      "RMSE": 8.98258213133185,
+      "bias": 2.833604470801685
+    },
+    {
+      "band": "58",
+      "operator": "power_positive",
+      "zone": "safe_LOS",
+      "n": 37212,
+      "RMSE": 8.24600618793356,
+      "bias": 3.1364302323266617
+    },
+    {
+      "band": "58",
+      "operator": "power_positive",
+      "zone": "boundary",
+      "n": 26368,
+      "RMSE": 9.929544413701217,
+      "bias": 2.4062397773146014
+    },
+    {
+      "band": "58",
+      "operator": "power_positive",
+      "zone": "occluded",
+      "n": 0,
+      "RMSE": null,
+      "bias": null
+    },
+    {
+      "band": "58",
+      "operator": "power_positive",
+      "half_difference_RMSE": 3.661278677341025,
+      "stable_lt_half_db_valid_fraction": 0.7354513998112614,
+      "label_RMSE_on_stable_diagnostic": 5.987559539989669
+    },
+    {
+      "band": "58",
+      "operator": "db_positive",
+      "zone": "all",
+      "n": 63580,
+      "RMSE": 10.100271563158802,
+      "bias": 4.9629071276123895
+    },
+    {
+      "band": "58",
+      "operator": "db_positive",
+      "zone": "safe_LOS",
+      "n": 37212,
+      "RMSE": 9.241222620789692,
+      "bias": 5.203657444381652
+    },
+    {
+      "band": "58",
+      "operator": "db_positive",
+      "zone": "boundary",
+      "n": 26368,
+      "RMSE": 11.201067567689757,
+      "bias": 4.623146782208197
+    },
+    {
+      "band": "58",
+      "operator": "db_positive",
+      "zone": "occluded",
+      "n": 0,
+      "RMSE": null,
+      "bias": null
+    },
+    {
+      "band": "58",
+      "operator": "db_positive",
+      "half_difference_RMSE": 3.2611514854623507,
+      "stable_lt_half_db_valid_fraction": 0.6685435671594842,
+      "label_RMSE_on_stable_diagnostic": 6.84316022826888
+    }
+  ],
+  "limitations": "Positive-cell interpolation uses nearest positive extrapolation outside its convex hull; no target/mask-based filling. Original mesh/TX/interpolation not recovered. Half-difference quantifies Monte Carlo sensitivity, not missing-input error floor."
+}

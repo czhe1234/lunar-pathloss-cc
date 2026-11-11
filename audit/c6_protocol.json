@@ -1,0 +1,16 @@
+{
+  "created_utc": "2026-10-31T18:18:45.494481+00:00",
+  "question": "Does the compressed geometry or the C4 predictor limit performance?",
+  "C5_failure": "New observation head reused C4 decoder and prediction; equal conditional fields can exactly reproduce old output regardless of visibility. Failure of C5 does not end the competition task.",
+  "data": "same FIT and DEV terrain IDs; 64 uniform sampled pixels per FIT map, 256 per DEV map; per-band valid masks used in objectives and scores only",
+  "contrast": [
+    "CPU LightGBM with existing 31 point inputs",
+    "same CPU LightGBM with 31 inputs plus 128 ordered terrain clearances"
+  ],
+  "learner": "LightGBM 4.6.0 CPU, 127 leaves, depth<=12, learning rate .05, <=1200 trees per band, early stop 100, same seed and parameters",
+  "no_old_predictions_as_model_input": true,
+  "official_val_used": false,
+  "promotion_logic": "Compare same sampled DEV pixels first, then evaluate complete DEV maps for a convincing candidate. Stop an unhelpful branch, diagnose it and continue the overall task. No blind extra epochs, no automatic end of overall work after a branch gate.",
+  "GPU_policy": "GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0 only; currently occupied by unrelated hw work, use CPU for this contrast.",
+  "comparison_limit": "The 31-scalar point learner uses a subset of the C4 image-field information and fewer sampled supervised pixels. A positive result identifies recoverable error; a negative result does not establish input insufficiency. The summary-vs-profile contrast holds point sampling and learner settings fixed."
+}

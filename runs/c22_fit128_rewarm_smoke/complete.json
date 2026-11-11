@@ -1,0 +1,17 @@
+{
+  "status": "training_complete",
+  "steps": 2,
+  "best_step": 0,
+  "seconds": 34.1761360168457,
+  "query_order_sha256": "a285134210a1dab81604461e7d58ac132a1f04ce2b34fe4d8833ce2dde004d2e",
+  "clipped_steps": 0,
+  "final_model_sha256": "eb47b13f8a4615daf85b4cc6c6beb389faebd9cfc698b7ece65462a64b3491af",
+  "gpu": {
+    "uuid": "GPU-70b6fceb-c7c4-9467-3c81-097c9284c160",
+    "logical_device": 0,
+    "name": "NVIDIA A800 80GB PCIe",
+    "memory_bytes": 84974239744,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "mode": "small",
+  "name": "c21r1_small_a_s20261119",
+  "geometry": 0,
+  "steps": 6500,
+  "queries": 2048,
+  "chunk": 512,
+  "eval_chunk": 1024,
+  "eval_every": 250,
+  "seed": 20261119,
+  "lr": 0.001,
+  "resume": "",
+  "gpu": {
+    "uuid": "GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0",
+    "logical_device": 0,
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_bytes": 84929347584,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "scope": "four FIT terrains; full valid pixel evaluation; no DEV or officialVAL",
+  "gate_both_bands_db": 0.5,
+  "memory_fraction": 0.15,
+  "parameters": 8468226,
+  "trainable_parameters": 8468098,
+  "initial_state_sha256": "1e272233e131edb9435969a168a4711f8539548880a15af1c52b0cf6a5c72fec",
+  "source_hashes": {
+    "c21_train_r1.py": "f14ab5132d3bef2a2684d3bc42337da79dbf7c487f024ba387b5735453b0fa70",
+    "c21_model_r1.py": "3ce00e17040ffeafebf88a8e60aaeb8b43c1250da4edfebf000905bc51e6be95",
+    "c21_model.py": "3ad80f8b8a9c491fa7372bc5f334372822ce5575617ad9365e97d7870d7582b4",
+    "c21_data.py": "2d802eb8206fbe2b5ff92460b6145b63fac8d0c9d35e0ee55438b187026315a8",
+    "c21_phase.cpp": "f6283837b8bc19cf79092521dbc51aacac6b3e0efe306c99f4869fdb780a78c8"
+  }
+}

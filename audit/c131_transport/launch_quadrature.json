@@ -1,0 +1,30 @@
+[
+  {
+    "pid": 2657598,
+    "card": 3,
+    "uuid": "GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0",
+    "cmd": [
+      "./run_gpu.sh",
+      "3",
+      "src/c131_direct.py",
+      "--n",
+      "8"
+    ],
+    "log": "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/logs/c131_direct_n8.log",
+    "launch_time": 1794161822.0074916
+  },
+  {
+    "pid": 2657599,
+    "card": 4,
+    "uuid": "GPU-70b6fceb-c7c4-9467-3c81-097c9284c160",
+    "cmd": [
+      "./run_gpu.sh",
+      "4",
+      "src/c131_direct.py",
+      "--n",
+      "16"
+    ],
+    "log": "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/logs/c131_direct_n16.log",
+    "launch_time": 1794161822.0083423
+  }
+]

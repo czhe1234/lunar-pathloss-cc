@@ -1,0 +1,40 @@
+{
+  "adapter": {
+    "pid": 3485964,
+    "card": 1,
+    "args": [
+      "./run_gpu.sh",
+      "1",
+      "src/c52_train.py",
+      "--scope",
+      "full",
+      "--kind",
+      "adapter",
+      "--name",
+      "c52_adapter_full",
+      "--batch",
+      "2048",
+      "--steps",
+      "12000"
+    ]
+  },
+  "transport": {
+    "pid": 3485965,
+    "card": 3,
+    "args": [
+      "./run_gpu.sh",
+      "3",
+      "src/c52_train.py",
+      "--scope",
+      "full",
+      "--kind",
+      "transport",
+      "--name",
+      "c52_transport_full",
+      "--batch",
+      "2048",
+      "--steps",
+      "12000"
+    ]
+  }
+}

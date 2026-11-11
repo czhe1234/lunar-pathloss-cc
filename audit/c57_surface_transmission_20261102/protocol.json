@@ -1,0 +1,14 @@
+{
+  "question": "Do ordered terrain-crossing incidence angles and the actual slab transmission law explain low-band shadow residuals?",
+  "known_source": "Released metadata:epsilon3.411,d10m,sigma415=.0003562,sigma5775=.009324. Sionna1.1.0 single-layer slab transmits straight rays with frequency-dependent complex TE/TM coefficients.",
+  "new_representation": "Up to32ordered crossings of nominal/empirical-height128point profiles; sample local bilinear and two triangle-diagonal normals; accumulate complex3D Jones transmission along the straight ray. No inter-path interference assumption.",
+  "feature_only": "H/TX-derived294descriptors and releasedH; feature producer never opens PL or validity masks.",
+  "screen": "FIT64 selected264maps*1024existingpoints; DEV64 selected264maps*256existingpoints. Fit a bounded low-band calibration onFIT, then evaluateDEV; no neural training before evidence.",
+  "limits": "Approximate crossings and candidate local triangulations; no original simulator mesh. High-band transmitted field expected weak; total field also includes reflection/diffuse scattering.",
+  "sources": [
+    "../data/metadata.json",
+    "https://raw.githubusercontent.com/NVlabs/sionna-rt/v1.1.0/src/sionna/rt/utils/electromagnetics.py",
+    "https://raw.githubusercontent.com/NVlabs/sionna-rt/v1.1.0/src/sionna/rt/radio_materials/radio_material.py"
+  ],
+  "GPU": "1/3/4 only fullUUID"
+}

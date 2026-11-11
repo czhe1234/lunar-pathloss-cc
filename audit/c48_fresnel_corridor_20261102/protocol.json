@@ -1,0 +1,24 @@
+{
+  "created": "2026-11-02",
+  "question": "Does uncompressed transverse/local2D terrain explain C38 residuals that294 summaries and1D profiles fail to predict?",
+  "evidence": "C47 full5508-terrain point models fit4k tiny samples below0.13dB but early fullDEV gains only0.01-0.03dB; preserve all294 descriptors and add actual2D H samples.",
+  "models": [
+    "strip",
+    "patch",
+    "both"
+  ],
+  "inputs": "All294 descriptors plus raw H/normals in TX-aligned Fresnel corridor128x17 and/or RX neighborhood17x17, H/TX only.",
+  "physical_features": "Nominal and empirical raster-phase candidate clearances, two-band Fresnel scales, candidate surface-detour phases, distances, incidence slopes. These are input transforms, not recovered actual paths.",
+  "tiny": "Same4FITmaps/4096knownpoints asC47;1000updates, measure fitting only, no DEV claim.",
+  "full": "All5508FITterrains, same C38 sampled1024points/map; same frozen internalFIT C38 teacher; sampledDEV612; up to8000updates initially. Common batch chosen from throughput/memory probe.",
+  "promotion": "Both sampledDEV RMSE improve>=0.10dB over frozenC38, then completeDEV64 raw-input replay; require both fullDEV64 gains>=0.10dB before remaining548DEV confirmation.",
+  "hardware": "Onlyphysical1/3/4 fullUUID; shared GPUs: allocate within measured free memory; never stop unrelated jobs.",
+  "official_VAL_used_for_training_selection": false,
+  "independent_implementation": true,
+  "sources": [
+    "https://www.itu.int/rec/R-REC-P.526/en",
+    "https://arxiv.org/abs/2403.00229"
+  ],
+  "full_initial_screen": "Initial main runs: patch vs both, same2048batch and4000updates, all5508FITterrains; raw-strip increment compared with patch. Strip alone only throughput-probed. Choose continuation only from actual fitting/DEV evidence.",
+  "batch_choice": "2048; measured both17100points/s vs102416445, patch90097points/s vs102450021 on A800; common batch for main comparison."
+}

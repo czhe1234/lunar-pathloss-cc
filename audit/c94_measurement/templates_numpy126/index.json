@@ -1,0 +1,128 @@
+{
+  "numpy_mean_default": {
+    "numpy": "1.26.4",
+    "grid_dtype": "float64",
+    "changed_donor_rows": 0,
+    "zero_weight_fraction": 0.006495157877604167,
+    "outside": 2
+  },
+  "numpy_mean_f64": {
+    "numpy": "1.26.4",
+    "grid_dtype": "float64",
+    "changed_donor_rows": 0,
+    "zero_weight_fraction": 0.006495157877604167,
+    "outside": 2
+  },
+  "numpy_mean_f32": {
+    "numpy": "1.26.4",
+    "grid_dtype": "float32",
+    "changed_donor_rows": 0,
+    "zero_weight_fraction": 0.006495157877604167,
+    "outside": 2
+  },
+  "numpy_mean_reverse_default": {
+    "numpy": "1.26.4",
+    "grid_dtype": "float64",
+    "changed_donor_rows": 17185,
+    "zero_weight_fraction": 0.006495157877604167,
+    "outside": 2
+  },
+  "numpy_mean_reverse_f64": {
+    "numpy": "1.26.4",
+    "grid_dtype": "float64",
+    "changed_donor_rows": 17185,
+    "zero_weight_fraction": 0.006495157877604167,
+    "outside": 2
+  },
+  "numpy_mean_reverse_f32": {
+    "numpy": "1.26.4",
+    "grid_dtype": "float32",
+    "changed_donor_rows": 17185,
+    "zero_weight_fraction": 0.006495157877604167,
+    "outside": 2
+  },
+  "sionna_centers_default": {
+    "numpy": "1.26.4",
+    "grid_dtype": "float64",
+    "changed_donor_rows": 30218,
+    "zero_weight_fraction": 0.006500244140625,
+    "outside": 2
+  },
+  "sionna_centers_f64": {
+    "numpy": "1.26.4",
+    "grid_dtype": "float64",
+    "changed_donor_rows": 30218,
+    "zero_weight_fraction": 0.006500244140625,
+    "outside": 2
+  },
+  "sionna_centers_f32": {
+    "numpy": "1.26.4",
+    "grid_dtype": "float32",
+    "changed_donor_rows": 30219,
+    "zero_weight_fraction": 0.006500244140625,
+    "outside": 2
+  },
+  "sionna_centers_reverse_default": {
+    "numpy": "1.26.4",
+    "grid_dtype": "float64",
+    "changed_donor_rows": 30229,
+    "zero_weight_fraction": 0.006500244140625,
+    "outside": 2
+  },
+  "sionna_centers_reverse_f64": {
+    "numpy": "1.26.4",
+    "grid_dtype": "float64",
+    "changed_donor_rows": 30229,
+    "zero_weight_fraction": 0.006500244140625,
+    "outside": 2
+  },
+  "sionna_centers_reverse_f32": {
+    "numpy": "1.26.4",
+    "grid_dtype": "float32",
+    "changed_donor_rows": 30229,
+    "zero_weight_fraction": 0.006500244140625,
+    "outside": 2
+  },
+  "exact_mean_default": {
+    "numpy": "1.26.4",
+    "grid_dtype": "float64",
+    "changed_donor_rows": 29064,
+    "zero_weight_fraction": 0.006500244140625,
+    "outside": 2
+  },
+  "exact_mean_f64": {
+    "numpy": "1.26.4",
+    "grid_dtype": "float64",
+    "changed_donor_rows": 29064,
+    "zero_weight_fraction": 0.006500244140625,
+    "outside": 2
+  },
+  "exact_mean_f32": {
+    "numpy": "1.26.4",
+    "grid_dtype": "float32",
+    "changed_donor_rows": 29064,
+    "zero_weight_fraction": 0.006500244140625,
+    "outside": 2
+  },
+  "exact_mean_reverse_default": {
+    "numpy": "1.26.4",
+    "grid_dtype": "float64",
+    "changed_donor_rows": 29208,
+    "zero_weight_fraction": 0.006500244140625,
+    "outside": 2
+  },
+  "exact_mean_reverse_f64": {
+    "numpy": "1.26.4",
+    "grid_dtype": "float64",
+    "changed_donor_rows": 29208,
+    "zero_weight_fraction": 0.006500244140625,
+    "outside": 2
+  },
+  "exact_mean_reverse_f32": {
+    "numpy": "1.26.4",
+    "grid_dtype": "float32",
+    "changed_donor_rows": 29208,
+    "zero_weight_fraction": 0.006500244140625,
+    "outside": 2
+  }
+}

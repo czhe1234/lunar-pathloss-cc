@@ -1,0 +1,68 @@
+{
+  "time": 1793766394.1656363,
+  "runs": [
+    {
+      "tag": "c99_score",
+      "gpu_card": 4,
+      "pid": 94889,
+      "command": [
+        "./run_gpu.sh",
+        "4",
+        "src/c99_score.py"
+      ],
+      "log": "logs/c99_score.log"
+    },
+    {
+      "tag": "c100_local",
+      "gpu_card": 1,
+      "pid": 94890,
+      "command": [
+        "./run_gpu.sh",
+        "1",
+        "src/c100_train.py",
+        "--mode",
+        "local",
+        "--batch",
+        "16",
+        "--epochs",
+        "3"
+      ],
+      "log": "logs/c100_local.log"
+    },
+    {
+      "tag": "c100_global",
+      "gpu_card": 3,
+      "pid": 94891,
+      "command": [
+        "./run_gpu.sh",
+        "3",
+        "src/c100_train.py",
+        "--mode",
+        "global",
+        "--batch",
+        "16",
+        "--epochs",
+        "3"
+      ],
+      "log": "logs/c100_global.log"
+    },
+    {
+      "tag": "c100_continue",
+      "gpu_card": 4,
+      "pid": 98311,
+      "command": [
+        "./run_gpu.sh",
+        "4",
+        "src/c100_train.py",
+        "--mode",
+        "continue",
+        "--batch",
+        "16",
+        "--epochs",
+        "3"
+      ],
+      "log": "logs/c100_continue.log",
+      "time": 1793766556.272575
+    }
+  ]
+}

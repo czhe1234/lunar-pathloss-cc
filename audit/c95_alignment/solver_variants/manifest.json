@@ -1,0 +1,17 @@
+{
+  "normal": {
+    "original_sha256": "fc9edca842a1ea811edce5be49fc07cc7466f00f0aeeef5347c5556fcd2ca920",
+    "changed_statement": "ray_mp_int = si_mp.spawn_ray(d=ray.d)",
+    "new_statement": "ray_mp_int = mi.Ray3f(\n                dr.fma(dr.detach(dr.mulsign(self.c95_epsilon *\n                    dr.select(self.c95_position_scaled,\n                        1.0 + dr.max(dr.abs(si_mp.p-self.c95_origin)), 1.0),\n                    dr.dot(si_mp.n, ray.d))), dr.detach(si_mp.n), si_mp.p),\n                ray.d)"
+  },
+  "along": {
+    "original_sha256": "fc9edca842a1ea811edce5be49fc07cc7466f00f0aeeef5347c5556fcd2ca920",
+    "changed_statement": "ray_mp_int = si_mp.spawn_ray(d=ray.d)",
+    "new_statement": "ray_mp_int = mi.Ray3f(dr.fma(self.c95_epsilon, ray.d, si_mp.p), ray.d)"
+  },
+  "first": {
+    "changed_statement": "active &= si_scene.is_valid()",
+    "new_statement": "active &= si_scene.is_valid() & ~mp_int",
+    "question": "Does any hard counterexample already occur at the first measurement hit, before the normal offset can act?"
+  }
+}

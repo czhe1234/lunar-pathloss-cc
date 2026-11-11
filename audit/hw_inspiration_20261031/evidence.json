@@ -1,0 +1,228 @@
+{
+  "scope": "User explicitly requested ideas from hw. Read only original task, dataset headers, documentation and result records. No implementation source files or model weights opened, no hw outputs modified. All new work stays in CC. No training, model inference or propagation simulation.",
+  "sources": {
+    "task": {
+      "path": "/home/chenzhe/work/hw/datasets/round2/Problem-Round2.pdf",
+      "sha256": "5ad73a822bcd3df115a47e011a0551f23f119b51e620cc72eeff75660b21173b"
+    },
+    "setup": {
+      "path": "/home/chenzhe/work/hw/datasets/round2/Round2_Setup.json",
+      "sha256": "16e64a9ce18c5828f2b69ed25a28a534a9d411df24aebc6ccd216b5b1cb6f2c9"
+    },
+    "e83": {
+      "path": "/home/chenzhe/work/hw/analysis/results/round2_path_conditioned_scene_gnn/path_conditioned_scene_gnn.json",
+      "sha256": "b7dd0094f40458dbe1d654c5c14f2920d5dc3034c19632622842ee618ce993fe"
+    },
+    "e85": {
+      "path": "/home/chenzhe/work/hw/analysis/results/round2_surface_interaction_energy_model/surface_interaction_strict_holes.json",
+      "sha256": "b1df80e0fd47746315128f7b9cacf568dea16b75a0308066a56a4a19c13f726a"
+    },
+    "e124": {
+      "path": "/home/chenzhe/work/hw/analysis/results/round2_one_to_one_path_identity_ceiling/one_to_one_path_identity_ceiling.json",
+      "sha256": "91dc7c2ff44c66cf32f1eaca33152929258bd59e141d5e438fe0944303ef2dfe"
+    },
+    "e214": {
+      "path": "/home/chenzhe/work/hw/analysis/results/round2_e214_geometry_path_topology/four_variant_summary.json",
+      "sha256": "9ae4b4858af7cf650265634940e975ddf5c12dc7241f60742abdcf5ff4f51bdf"
+    },
+    "e216": {
+      "path": "/home/chenzhe/work/hw/analysis/results/round2_e216_v16_rt_information_ablation/summary.json",
+      "sha256": "a4ffe1c5ce2aae46b767c275143d66bffaddedec5cb925719df71c299cf86b40"
+    },
+    "record": {
+      "path": "/home/chenzhe/work/hw/experiment_records/EXPERIMENT_RECORD.md",
+      "sha256": "f3f8a0845620937b3040eb2013d9b70bc2ff0a70554c9b0370f9c0ea402ec708"
+    },
+    "cc_tx_response": {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/audit/geometry_model_diagnosis_20261031/matched_tx_change_response.json",
+      "sha256": "62006e59ff3e0d2c90fcff9d0ab89f40cc9618113a9ec0e142928233c4b7eb99"
+    }
+  },
+  "e83": {
+    "metric": "mean PAS/PDP cosine, 500 spatial-hole points, as recorded; not lunar RMSE",
+    "fixed_comparison": {
+      "heuristic": {
+        "pas": {
+          "mean": 0.5013505274219368,
+          "fold": [
+            0.657722933127513,
+            0.3549160096577807,
+            0.36422560812975585,
+            0.35698802595289114,
+            0.6242867238309768
+          ]
+        },
+        "pdp": {
+          "mean": 0.7043335714141926,
+          "fold": [
+            0.8231923277481483,
+            0.7168798748646089,
+            0.6098926833779398,
+            0.5766172189776722,
+            0.7492050437470305
+          ]
+        },
+        "pas_pdp_mean": 0.6028420494180646,
+        "nonzero_pas": 0.5344888352046234,
+        "nonzero_pdp": 0.7508886688850668,
+        "nonzero_pas_pdp_mean": 0.6426887520448451
+      },
+      "local": {
+        "pas": {
+          "mean": 0.5033561861616912,
+          "fold": [
+            0.6596136346234194,
+            0.3425236799551882,
+            0.3682094942624497,
+            0.3668528350088243,
+            0.6265862578320917
+          ]
+        },
+        "pdp": {
+          "mean": 0.703043348041681,
+          "fold": [
+            0.8245023052766963,
+            0.699472169883742,
+            0.6107426413001114,
+            0.5852653957824266,
+            0.7456172063896807
+          ]
+        },
+        "pas_pdp_mean": 0.6031997671016861,
+        "nonzero_pas": 0.5366270641382634,
+        "nonzero_pdp": 0.7495131642235405,
+        "nonzero_pas_pdp_mean": 0.643070114180902
+      },
+      "scene": {
+        "pas": {
+          "mean": 0.5029257670030889,
+          "fold": [
+            0.6570927150151469,
+            0.3523393875971882,
+            0.37239099557640476,
+            0.35503382095538927,
+            0.6290972830665206
+          ]
+        },
+        "pdp": {
+          "mean": 0.7026508900459949,
+          "fold": [
+            0.8211962545511693,
+            0.715885296517917,
+            0.614367822891311,
+            0.5744432267457406,
+            0.745231679524646
+          ]
+        },
+        "pas_pdp_mean": 0.6027883285245419,
+        "nonzero_pas": 0.5361681950992419,
+        "nonzero_pdp": 0.7490947655074572,
+        "nonzero_pas_pdp_mean": 0.6426314803033495
+      },
+      "scene_shuffle": {
+        "pas": {
+          "mean": 0.5025991794007688,
+          "fold": [
+            0.6574095492809657,
+            0.3486700835741145,
+            0.3708222630624604,
+            0.3568744993962268,
+            0.628842043687339
+          ]
+        },
+        "pdp": {
+          "mean": 0.7023802582076439,
+          "fold": [
+            0.8195517153467813,
+            0.7143687839813432,
+            0.6144468047977999,
+            0.5758797984382382,
+            0.7450927596729444
+          ]
+        },
+        "pas_pdp_mean": 0.6024897188042064,
+        "nonzero_pas": 0.5358200206831224,
+        "nonzero_pdp": 0.7488062454239274,
+        "nonzero_pas_pdp_mean": 0.6423131330535249
+      }
+    },
+    "gate": {
+      "minimum_scene_vs_local_delta": 0.002,
+      "minimum_scene_vs_local_positive_folds": 4,
+      "minimum_scene_vs_shuffle_delta": 0.002,
+      "minimum_scene_vs_shuffle_positive_folds": 4,
+      "minimum_scene_score": 0.6023741895074426,
+      "scene_vs_local_delta": -0.0004114385771442075,
+      "scene_vs_local_fold_delta": [
+        -0.0029134851668997097,
+        0.013114417138087586,
+        0.003903341452577369,
+        -0.011320591545060599,
+        0.001062749184697065
+      ],
+      "scene_vs_local_positive_folds": 3,
+      "scene_vs_shuffle_delta": 0.0002986097203354632,
+      "scene_vs_shuffle_fold_delta": [
+        0.000663852469284576,
+        0.0025929082798238356,
+        0.0007448753037277434,
+        -0.001638625066667565,
+        0.00019707961544157548
+      ],
+      "scene_vs_shuffle_positive_folds": 4,
+      "passed": false
+    }
+  },
+  "e85": {
+    "metric": "mean PAS/PDP cosine, 500 spatial-hole points",
+    "no_sequence": 0.651716107349525,
+    "correct_sequence": 0.6586074620412184,
+    "shuffled_sequence": 0.6118889686164141,
+    "delta_vs_no_sequence": 0.006891354691693441,
+    "fold_delta_vs_no_sequence": [
+      0.018494033433839485,
+      -0.0019319541608913138,
+      -0.015474020842877634,
+      0.02720509012877448,
+      -0.0022204964279699535
+    ],
+    "positive_folds_vs_no_sequence": 2,
+    "limits": "Inference-time shuffle demonstrates dependence, not by itself causal information value or cross-task generalization. Correct-vs-no-sequence is only2/5positive. Invalid initial leaky screen excluded."
+  },
+  "e124": {
+    "identity_conflict_mass": 0.7970573401362631,
+    "old_absolute_oracle": 0.8182395684609732,
+    "one_to_one_absolute_oracle": 0.9031241770122505,
+    "limits": "Held truth used for identity and coefficients; representation/supervision oracle only, not deployable model score."
+  },
+  "e214": {
+    "best_score": 0.6590443668078942,
+    "passed": false,
+    "limits": "Historical FULL_FOLD/canonical mismatch;376/500label-access risk disclosed. Engineering diagnostic only, not strict generalization evidence."
+  },
+  "e216": {
+    "best_score": 0.6718323483575681,
+    "limits": "Scope changed to3single-seedvariants. Same fold caveat. Does not individually isolate seed variance/count contributions."
+  },
+  "lunar_raw_input_limits": [
+    "heightmap and TX position, two scalar pathloss bands, original validity masks for scoring only",
+    "no observed CSI, no true per-path angle/delay/phase/power labels",
+    "preserve original terrain-disjoint split and no-new-propagation-data restriction"
+  ],
+  "candidate_hypotheses_not_tested": [
+    "TX-visible and RX-visible surface sets and their overlap",
+    "ordered candidate-surface geometry with normals and relative distances; not asserted true RF paths",
+    "same-terrain multi-TX excess-loss differences derived from existing training labels"
+  ],
+  "pdf_pages_visually_checked": [
+    5,
+    6
+  ],
+  "verification": {
+    "e85_positive_folds_recomputed": true,
+    "e83_scene_below_local": true,
+    "e124_oracle_labeled": true,
+    "training_run": false,
+    "gpu_used": false
+  }
+}

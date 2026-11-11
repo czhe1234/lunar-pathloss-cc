@@ -1,0 +1,33 @@
+{
+  "created": "2026-11-10",
+  "question": "Does preserving the three receiver donor cells before power aggregation supply transferable residual information that pooled receiver summaries lose?",
+  "parent": "C136/C137 direct-receiver attribution",
+  "fit": "exact C136 128 terrains/248 maps, existing C101 1536 queries/map",
+  "monitor": "original128 terrains/628 maps, existing2048 queries/map",
+  "arms": [
+    "pooled",
+    "donors"
+  ],
+  "fixed": "same original169features; same11physical power components; same C82 base; same native cache; same CatBoost params and FITweights; no mask as input",
+  "change": "only51columns for three donor descriptors: native three descriptors vs weighted pooled descriptor repeated3times",
+  "optimizer": {
+    "iterations": 256,
+    "depth": 8,
+    "learning_rate": 0.06,
+    "l2_leaf_reg": 10,
+    "border_count": 128,
+    "random_seed": 139041,
+    "loss_function": "RMSE",
+    "thread_count": 2,
+    "task_type": "CPU",
+    "bootstrap_type": "No",
+    "random_strength": 0,
+    "boost_from_average": false
+  },
+  "gate": {
+    "sampled_screen_gain_both": 0.2,
+    "required_next": "128 terrain full-map >=0.20 then484 frozen>=0.30 before expansion"
+  },
+  "official_VAL": false,
+  "scope": "CPU limited pilot while all allowed GPUs busy; not full model expansion; no data from outside CC except released raw arrays"
+}

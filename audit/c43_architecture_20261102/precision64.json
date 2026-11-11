@@ -1,0 +1,39 @@
+{
+  "precision": "FP32, TF32 disabled",
+  "gpu": {
+    "uuid": "GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0",
+    "logical_device": 0,
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_bytes": 84929347584,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "records": [
+    {
+      "index": 652,
+      "seconds": 0.684711093083024,
+      "same_single_input_interface_RMSE_db": 0.0,
+      "difference_from_old_BF16_batch_RMSE_db": 0.14115150973291568
+    },
+    {
+      "index": 16462,
+      "seconds": 0.09171323198825121,
+      "same_single_input_interface_RMSE_db": 0.0,
+      "difference_from_old_BF16_batch_RMSE_db": 0.1153690653171018
+    },
+    {
+      "index": 17312,
+      "seconds": 0.08577378559857607,
+      "same_single_input_interface_RMSE_db": 0.0,
+      "difference_from_old_BF16_batch_RMSE_db": 0.104495274616468
+    },
+    {
+      "index": 25000,
+      "seconds": 0.08590911515057087,
+      "same_single_input_interface_RMSE_db": 0.0,
+      "difference_from_old_BF16_batch_RMSE_db": 0.04787261265085376
+    }
+  ],
+  "warm_seconds_mean": 0.08779871091246605,
+  "cause": "BF16/TF32 arithmetic can vary with batch/kernel; input-only and resident single inputs agree. Keep original failures; final precision must be explicit."
+}

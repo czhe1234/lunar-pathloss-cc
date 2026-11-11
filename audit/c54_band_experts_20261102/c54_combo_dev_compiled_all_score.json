@@ -1,0 +1,38 @@
+{
+  "scope": "all",
+  "precision": "BF16_compiled_correction; compiled4096BF16teacher",
+  "maps": 2562,
+  "terrains": 612,
+  "C54_RMSE": [
+    2.5227672980659857,
+    2.8814645537926724
+  ],
+  "C38_RMSE": [
+    2.6441450259495274,
+    2.996100891912386
+  ],
+  "gain_db": [
+    0.12137772788354173,
+    0.11463633811971352
+  ],
+  "combined": 2.702115925929329,
+  "count": [
+    166639132,
+    152634019
+  ],
+  "delta_C54_minus_C38_CI95": [
+    [
+      -0.13334691591956893,
+      -0.10952858860659086
+    ],
+    [
+      -0.1417597387584743,
+      -0.09338728415133425
+    ]
+  ],
+  "both_gain010db": true,
+  "both_le_1db": false,
+  "independent_float64_masked_scoring": true,
+  "official_VAL": false,
+  "limits": "One seed. Terrain bootstrap conditions on trained model; internal DEV used for selection."
+}

@@ -1,0 +1,116 @@
+{
+  "model": "C65",
+  "official": {
+    "model": "c65_combo_full",
+    "scope": "complete official fixed validation,2330maps/band; not hidden test",
+    "RMSE": [
+      2.5434139063511645,
+      2.9327636193813333
+    ],
+    "combined_rmse_db_masked": 2.7380887628662487,
+    "valid_pixels": [
+      151537682,
+      135926253
+    ],
+    "goal_both_le_1db": false,
+    "C10_official_RMSE": [
+      2.96720214449994,
+      3.3879795086817914
+    ],
+    "relative_gain_vs_C10": [
+      0.14282418841409816,
+      0.13436205506377907
+    ],
+    "official_source_revision": "fa3ef9b89f964556753a18be102a5aadeb723377",
+    "scorer": "Reused previously verified unmodified official score_submission.py and metrics.py",
+    "source_and_groundtruth_adapter": "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/audit/c10_official_scorer_20261101",
+    "official_report": "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/audit/c65_combo_full_official/official_report.json",
+    "independent_score": "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/runs/c65_combo_full/score_val_complete.json",
+    "website_submission": false
+  },
+  "C38_official": {
+    "model": "c38_full_refit",
+    "scope": "complete official fixed validation,2330maps/band; not hidden test",
+    "RMSE": [
+      2.672718078485335,
+      3.0805375615822546
+    ],
+    "combined_rmse_db_masked": 2.8766278200337947,
+    "valid_pixels": [
+      151537682,
+      135926253
+    ],
+    "goal_both_le_1db": false,
+    "C10_official_RMSE": [
+      2.96720214449994,
+      3.3879795086817914
+    ],
+    "relative_gain_vs_C10": [
+      0.09924637812778148,
+      0.0907449252014979
+    ],
+    "official_source_revision": "fa3ef9b89f964556753a18be102a5aadeb723377",
+    "scorer": "Reused previously verified unmodified official score_submission.py and metrics.py",
+    "source_and_groundtruth_adapter": "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/audit/c10_official_scorer_20261101",
+    "official_report": "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/audit/c38_full_refit_official/official_report.json",
+    "independent_score": "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/runs/c38_full_refit/score_val_complete.json",
+    "website_submission": false
+  },
+  "gain_vs_C38_db": [
+    0.12930417213417034,
+    0.14777394220092122
+  ],
+  "relative_gain_vs_C38": [
+    0.04837927844879497,
+    0.04797018028406064
+  ],
+  "jointly_better_than_C38": true,
+  "goal_reached": false,
+  "weights_manifest_sha256": "9b5a178203665b27fd3d16ddc3c2cf9ba4efd309d58ec7d355d384b764dcd625",
+  "weights_roles": {
+    "low": {
+      "source": "runs/c65_low_full/best.pt",
+      "sha256": "78a91b260ff94ed711564728cd380751dcde187c0e55518f5c0d029225c8997c"
+    },
+    "high": {
+      "source": "runs/c65_high_full/best.pt",
+      "sha256": "31489fb4ef8b7c721f997146f83416e969c73f028d966bd2127fbe647c088645"
+    },
+    "teacher": {
+      "source": "runs/c38_full_refit/best.pt",
+      "sha256": "9d340ca23b215e7680826b6eab1113f3d20d4b540b7f20f16c61c3173405a64c"
+    }
+  },
+  "website_submission": false,
+  "package": "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/releases/C65_20261102.tar.gz",
+  "bytes": 38985361,
+  "sha256": "279c982d1566c6ba12a48e8bf6480d7e3afffefa52e820b63a82500687242f69",
+  "archive_weights_verified": true,
+  "package_interface": {
+    "actual_packaged_entry_executed": true,
+    "H_TX_only_input": true,
+    "max_abs_diff_from_frozen_public_interface_db": 0.0,
+    "RMS_diff_db": [
+      0.0,
+      0.0
+    ],
+    "source_data_or_label_cache_required": false
+  },
+  "CSV": {
+    "submission_file": "submission_C65.csv",
+    "row_count": 800000,
+    "bytes": 24981480,
+    "sha256": "0b695c028adee3abb14a2364888f7b687be05c680bd5895da8c2b3bfcfc61dc3",
+    "all_values_match_original_inference_float32": true,
+    "ground_truth_or_masks_read_for_export": false
+  },
+  "official_VAL_use": {
+    "gradients": false,
+    "update_or_checkpoint_selection": false,
+    "frequency_routing_selection": false,
+    "final_scoring": true,
+    "C65_vs_C38_final_comparison_and_delivery_choice": true,
+    "untouched_hidden_test": false
+  },
+  "frozen_manifest_scope_note": "The pre-VAL frozen manifest selection field refers to training update/checkpoint and routing decisions. It does not mean VAL was never used for final candidate comparison or delivery."
+}

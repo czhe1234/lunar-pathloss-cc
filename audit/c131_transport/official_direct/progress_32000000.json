@@ -1,0 +1,151 @@
+{
+  "maps": 8,
+  "total": 8,
+  "seconds": 9.529401556996163,
+  "records": [
+    {
+      "map": 9292,
+      "terrain": "02488",
+      "full_clear_points": 61486,
+      "direct_difference_clear_rms": 1.9756856706452397,
+      "direct_difference_clear_median": 0.02180123101797733,
+      "floor_native_then_official": [
+        [
+          1.4140635300120814,
+          1.4048188713169074
+        ],
+        [
+          1.0566221349793463,
+          1.0690731719913642
+        ]
+      ],
+      "seconds": 1.3729462809860706
+    },
+    {
+      "map": 7373,
+      "terrain": "01855",
+      "full_clear_points": 43546,
+      "direct_difference_clear_rms": 2.5752093546216552,
+      "direct_difference_clear_median": 0.011872877496926669,
+      "floor_native_then_official": [
+        [
+          2.4235260829879905,
+          2.6999362804694322
+        ],
+        [
+          1.6591040907954675,
+          1.9093253145071518
+        ]
+      ],
+      "seconds": 0.9463253769790754
+    },
+    {
+      "map": 10906,
+      "terrain": "02894",
+      "full_clear_points": 8247,
+      "direct_difference_clear_rms": 1.2290362299194606,
+      "direct_difference_clear_median": 0.0016116071503577878,
+      "floor_native_then_official": [
+        [
+          0.3867752594871551,
+          0.6841194323683015
+        ],
+        [
+          0.27927930546992386,
+          0.5691251690093966
+        ]
+      ],
+      "seconds": 1.322696575021837
+    },
+    {
+      "map": 6047,
+      "terrain": "01494",
+      "full_clear_points": 16902,
+      "direct_difference_clear_rms": 1.395945195189808,
+      "direct_difference_clear_median": 0.00208224513579329,
+      "floor_native_then_official": [
+        [
+          0.6656792184940642,
+          1.1280489914797605
+        ],
+        [
+          0.4962079376093919,
+          0.9188189235777237
+        ]
+      ],
+      "seconds": 1.1311630209675059
+    },
+    {
+      "map": 2922,
+      "terrain": "00747",
+      "full_clear_points": 50155,
+      "direct_difference_clear_rms": 2.54594029973821,
+      "direct_difference_clear_median": 0.031860033325812005,
+      "floor_native_then_official": [
+        [
+          2.7942602098417417,
+          3.1493903723115872
+        ],
+        [
+          1.8558775074434586,
+          2.0832439385522514
+        ]
+      ],
+      "seconds": 1.2718957719625905
+    },
+    {
+      "map": 24259,
+      "terrain": "06398",
+      "full_clear_points": 42750,
+      "direct_difference_clear_rms": 2.887045985147716,
+      "direct_difference_clear_median": 0.02158205203481704,
+      "floor_native_then_official": [
+        [
+          2.5384882726596865,
+          2.771132819114138
+        ],
+        [
+          1.7542017448177691,
+          1.8919056813284358
+        ]
+      ],
+      "seconds": 1.1980655689840205
+    },
+    {
+      "map": 17664,
+      "terrain": "04608",
+      "full_clear_points": 44706,
+      "direct_difference_clear_rms": 2.183867959136944,
+      "direct_difference_clear_median": 0.028876288254734594,
+      "floor_native_then_official": [
+        [
+          2.454492069373243,
+          2.7678148231618014
+        ],
+        [
+          1.7142632408045375,
+          1.932260966024051
+        ]
+      ],
+      "seconds": 1.2719875859911554
+    },
+    {
+      "map": 20332,
+      "terrain": "05410",
+      "full_clear_points": 57170,
+      "direct_difference_clear_rms": 2.2145576852029856,
+      "direct_difference_clear_median": 0.01604386294669464,
+      "floor_native_then_official": [
+        [
+          1.8103753389973007,
+          1.7707624546145981
+        ],
+        [
+          1.2958730272602246,
+          1.277997873996704
+        ]
+      ],
+      "seconds": 1.0073336700443178
+    }
+  ]
+}

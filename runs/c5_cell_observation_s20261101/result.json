@@ -1,0 +1,21 @@
+{
+  "rmse415": 3.7474794755883356,
+  "rmse58": 4.780683130866401,
+  "mse_mean": 18.4492668088532,
+  "valid_pixels": [
+    166639132.0,
+    152634019.0
+  ],
+  "maps_per_band": 2562,
+  "state": "stopped_by_development_gate",
+  "run": "c5_cell_observation_s20261101",
+  "best_epoch": 2,
+  "epochs_completed": 6,
+  "evaluation_split": "development",
+  "part": "fit",
+  "seconds": 586.050323009491,
+  "development_gate_passed": false,
+  "full_refit_promoted": false,
+  "large_gain_target_met": false,
+  "official_validation_evaluated_for_C5": false
+}

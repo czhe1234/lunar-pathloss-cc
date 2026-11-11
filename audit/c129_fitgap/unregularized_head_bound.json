@@ -1,0 +1,7 @@
+{
+  "sample_weighted_RMSE": [
+    2.1948218982386405,
+    2.454839841330344
+  ],
+  "meaning": "unregularizedgloballeast-squares optimum on same frozenfeatures and points"
+}

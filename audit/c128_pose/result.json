@@ -1,0 +1,51 @@
+{
+  "scope": "277FITterrains/1108maps; matched donor availability and query pixels; oracle diagnosis with otherTXlabels,not deployable",
+  "reference": [
+    2.0218473799201804,
+    2.1899282925270063
+  ],
+  "same_RX_donor": [
+    2.750208511068601,
+    3.013036300308473
+  ],
+  "TX_relative_donor": [
+    2.671492912838767,
+    2.916639721978782
+  ],
+  "relative_gain_vs_reference": [
+    -0.6496455329185866,
+    -0.7267114294517758
+  ],
+  "relative_gain_CI95": [
+    [
+      -0.6667236810894162,
+      -0.6318354311875903
+    ],
+    [
+      -0.74603443096803,
+      -0.7066950994345752
+    ]
+  ],
+  "direction_same_RX": [
+    0.5153085774627955,
+    0.5231120558872188
+  ],
+  "direction_TX_relative": [
+    0.4911503750394635,
+    0.4948223548875002
+  ],
+  "valid": [
+    54758432,
+    47721092
+  ],
+  "coverage": [
+    0.7594732156251137,
+    0.7325032658736594
+  ],
+  "cross_moment": [
+    0.0025262205819192745,
+    0.00502247808527664
+  ],
+  "official_val_used": false,
+  "train_launched": false
+}

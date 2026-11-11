@@ -1,0 +1,11 @@
+{
+  "mode": "mean",
+  "band": 0,
+  "conditional_sign_accuracy": 0.6658813227138151,
+  "majority_accuracy": 0.6141528710228932,
+  "logloss": 0.5483400138079981,
+  "trees": 357,
+  "seconds": 9.29117852798663,
+  "oracle_gate": true,
+  "official_val_used": false
+}

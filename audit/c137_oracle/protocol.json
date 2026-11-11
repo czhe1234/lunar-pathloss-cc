@@ -1,0 +1,13 @@
+{
+  "created": "2026-11-09",
+  "purpose": "Separate C136 native transport expressibility from H/TX-to-state learning after capacity16 stalled at1.469/1.537dB.",
+  "data": "Exactly the C13616 FIT maps and1536fixedpoints/map; no new labels or official VAL",
+  "initialization": "C136capacity16best source and direct-factor fields",
+  "variables": "Independent bounded positive source/diffuse/direct factors for each map; label-assisted; not a candidate predictor",
+  "max_steps": 1000,
+  "early_stop_both_training_RMSE_below": 0.5,
+  "batch_maps": 4,
+  "lr": ".03cosine to.003",
+  "seed": 137041,
+  "interpretation": "Success does not establish identifiability, a physically unique source-state target, or cross-terrain transfer. Failure is not a proved lower bound."
+}

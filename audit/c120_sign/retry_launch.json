@@ -1,0 +1,13 @@
+{
+  "pid": 2853417,
+  "command": [
+    "./run_gpu.sh",
+    "3",
+    "src/c120_sign.py",
+    "--mode",
+    "old"
+  ],
+  "time": 1793935023.113537,
+  "preserved_incomplete": "runs/c120_old_interrupted_gpu1",
+  "reason": "avoidexternalGPU1job; no modelresultfromfirstattempt"
+}

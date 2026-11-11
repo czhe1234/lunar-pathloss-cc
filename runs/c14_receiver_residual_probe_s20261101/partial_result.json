@@ -1,0 +1,282 @@
+{
+  "same_inputs": {
+    "415": {
+      "rmse_db": 2.9391676466211707,
+      "C10_rmse_db": 2.948508059683078,
+      "relative_RMSE_reduction_percent": 0.3167843829096184,
+      "best_iteration": 400,
+      "valid_pixels": 650982,
+      "top_features": [
+        {
+          "name": "incidence_cos",
+          "gain": 121995.21632957458
+        },
+        {
+          "name": "ordered_clearance_127",
+          "gain": 83650.25040245056
+        },
+        {
+          "name": "ordered_clearance_126",
+          "gain": 56658.95874977112
+        },
+        {
+          "name": "phase0_TX_height",
+          "gain": 44742.318616867065
+        },
+        {
+          "name": "phase0_critical_RX",
+          "gain": 39147.976680755615
+        },
+        {
+          "name": "highpass5",
+          "gain": 39057.48167800903
+        },
+        {
+          "name": "underground_length_TX2",
+          "gain": 38835.10114860535
+        },
+        {
+          "name": "TX_height_cos_1",
+          "gain": 38821.03347015381
+        },
+        {
+          "name": "ordered_clearance_125",
+          "gain": 38480.71984291077
+        },
+        {
+          "name": "dy",
+          "gain": 35509.87723350525
+        },
+        {
+          "name": "log_distance",
+          "gain": 34608.50269126892
+        },
+        {
+          "name": "phase0_buried_length",
+          "gain": 34134.8466835022
+        },
+        {
+          "name": "dx",
+          "gain": 34096.91258811951
+        },
+        {
+          "name": "TX_height_sin_0.25",
+          "gain": 33721.83703994751
+        },
+        {
+          "name": "TX_col",
+          "gain": 32620.06309890747
+        }
+      ]
+    },
+    "58": {
+      "rmse_db": 3.381797794710078,
+      "C10_rmse_db": 3.387646886271431,
+      "relative_RMSE_reduction_percent": 0.17265942282995717,
+      "best_iteration": 387,
+      "valid_pixels": 596173,
+      "top_features": [
+        {
+          "name": "incidence_cos",
+          "gain": 65562.25522232056
+        },
+        {
+          "name": "phase0_critical_RX",
+          "gain": 62600.378189086914
+        },
+        {
+          "name": "highpass5",
+          "gain": 54200.299980163574
+        },
+        {
+          "name": "underground_length_TX2",
+          "gain": 49200.52709579468
+        },
+        {
+          "name": "margin_tx2",
+          "gain": 48892.302043914795
+        },
+        {
+          "name": "ordered_clearance_127",
+          "gain": 47920.32542037964
+        },
+        {
+          "name": "critical_TX_floorphase_7",
+          "gain": 46336.96809768677
+        },
+        {
+          "name": "TX_col",
+          "gain": 45214.84239196777
+        },
+        {
+          "name": "surface_TX3_incidence_weighted",
+          "gain": 45105.69893074036
+        },
+        {
+          "name": "TX_height_sin_0.25",
+          "gain": 44723.15093803406
+        },
+        {
+          "name": "TX_row",
+          "gain": 43282.4094619751
+        },
+        {
+          "name": "phase0_buried_length",
+          "gain": 42700.60845565796
+        },
+        {
+          "name": "ordered_clearance_126",
+          "gain": 40835.72745132446
+        },
+        {
+          "name": "critical_TX_floorphase_2",
+          "gain": 40780.797843933105
+        },
+        {
+          "name": "dx",
+          "gain": 40467.35637664795
+        }
+      ]
+    }
+  },
+  "RX_observation": {
+    "415": {
+      "rmse_db": 2.9079152346524695,
+      "C10_rmse_db": 2.948508059683078,
+      "relative_RMSE_reduction_percent": 1.376724235068616,
+      "best_iteration": 400,
+      "valid_pixels": 650982,
+      "top_features": [
+        {
+          "name": "RX_cell_margin_std",
+          "gain": 248902.00095176697
+        },
+        {
+          "name": "phase0_crossings",
+          "gain": 161520.52569580078
+        },
+        {
+          "name": "RX_cell2_critical_RX",
+          "gain": 151878.40122318268
+        },
+        {
+          "name": "RX_cell_margin_min",
+          "gain": 147395.41658973694
+        },
+        {
+          "name": "RX_cell4_incidence_cos",
+          "gain": 127637.43795394897
+        },
+        {
+          "name": "RX_cell3_incidence_cos",
+          "gain": 126189.8214187622
+        },
+        {
+          "name": "RX_cell1_incidence_cos",
+          "gain": 122033.55556106567
+        },
+        {
+          "name": "incidence_cos",
+          "gain": 115076.83224105835
+        },
+        {
+          "name": "RX_cell2_incidence_cos",
+          "gain": 105082.4461593628
+        },
+        {
+          "name": "RX_cell0_incidence_cos",
+          "gain": 85114.39468765259
+        },
+        {
+          "name": "highpass5",
+          "gain": 80291.91662931442
+        },
+        {
+          "name": "phase0_TX_height",
+          "gain": 68333.71654891968
+        },
+        {
+          "name": "TX_height",
+          "gain": 63733.19019126892
+        },
+        {
+          "name": "ordered_clearance_127",
+          "gain": 61846.25820732117
+        },
+        {
+          "name": "RX_cell_margin_max",
+          "gain": 61588.27838516235
+        }
+      ]
+    },
+    "58": {
+      "rmse_db": 3.331541280223809,
+      "C10_rmse_db": 3.387646886271431,
+      "relative_RMSE_reduction_percent": 1.656182238916104,
+      "best_iteration": 400,
+      "valid_pixels": 596173,
+      "top_features": [
+        {
+          "name": "RX_cell_margin_std",
+          "gain": 367148.026638031
+        },
+        {
+          "name": "RX_cell2_critical_RX",
+          "gain": 331250.93379211426
+        },
+        {
+          "name": "RX_cell_margin_min",
+          "gain": 231897.57802963257
+        },
+        {
+          "name": "RX_cell3_critical_TX",
+          "gain": 166257.0447769165
+        },
+        {
+          "name": "TX_row",
+          "gain": 110536.71036529541
+        },
+        {
+          "name": "RX_cell3_incidence_cos",
+          "gain": 106289.58931732178
+        },
+        {
+          "name": "RX_cell3_margin",
+          "gain": 105210.78791809082
+        },
+        {
+          "name": "incidence_cos",
+          "gain": 104245.21257781982
+        },
+        {
+          "name": "phase0_critical_RX",
+          "gain": 104120.7657699585
+        },
+        {
+          "name": "highpass5",
+          "gain": 101192.0778388977
+        },
+        {
+          "name": "RX_cell1_incidence_cos",
+          "gain": 95306.65998458862
+        },
+        {
+          "name": "TX_height",
+          "gain": 89313.65371704102
+        },
+        {
+          "name": "RX_cell4_incidence_cos",
+          "gain": 83246.63523101807
+        },
+        {
+          "name": "RX_cell2_incidence_cos",
+          "gain": 83051.707862854
+        },
+        {
+          "name": "joint_visibility_near",
+          "gain": 79511.55000686646
+        }
+      ]
+    }
+  }
+}

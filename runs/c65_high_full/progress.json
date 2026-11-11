@@ -1,0 +1,12 @@
+{
+  "step": 17770,
+  "TRAIN_probe": {
+    "RMSE": [
+      2.4621693440632764,
+      2.5958078576565247
+    ],
+    "scope": "TRAIN probe only; unused other band is not part of combined predictor"
+  },
+  "lr": 1.5000002226946367e-05,
+  "seconds": 646.4872179031372
+}

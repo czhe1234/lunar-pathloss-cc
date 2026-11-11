@@ -1,0 +1,13 @@
+{
+  "created_utc": "2026-11-01T14:05:55.535899+00:00",
+  "question": "Can existing C10 and neural predictions correct complementary errors?",
+  "models": [
+    "C10",
+    "C21_B",
+    "C22_low"
+  ],
+  "weights": "Nonnegative sum1, separately by band; global or3 input-only clearance zones. Two-fold terrain cross-fitting of weights, seed20261204. Prior base-model selection used DEV; these folds are fresh only for blend weights.",
+  "main_score": "Complete2562DEV maps, not officialVAL",
+  "large_gain_threshold": "both bands>=10% RMSE reduction overC10; otherwise do not label the blend a large improvement",
+  "officialVAL_used": false
+}

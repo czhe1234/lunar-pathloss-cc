@@ -1,0 +1,738 @@
+{
+  "scope": "TRAIN 00414_00, map1819, target pixel(23,38), three frozen donor cells",
+  "gpu_used": false,
+  "numerical_method": "Double-precision ConvexHull lower facets; clip each candidate ground triangle against projected facet triangle; evaluate affine vertical gap at every intersection-polygon vertex.",
+  "assumptions": [
+    "Terrain vertices equal the published Float32 candidate reconstruction.",
+    "Each ground grid cell may independently use either diagonal, with the same fixed Float32 vertices. Every triangle in both complete diagonal meshes was checked.",
+    "Each RX point is anywhere on either triangulation of one of the three full donor cells shifted +1m along z.",
+    "TX XY belongs to the stated rectangle, a hypothesis covering legacy coordinates and nearest/floor pixel-cell encodings under this candidate grid.",
+    "For LOS only, TX z may be any value at least zmin. For the inverse-square power bound TX z is restricted to [zmin,zmax].",
+    "The geometric LOS certificate does not guarantee numerical receiver-hit coverage or recover original scene coordinates."
+  ],
+  "TX_domain": {
+    "published_pixel_row_col": [
+      69,
+      227
+    ],
+    "pixel_encoding_index_col_interval": [
+      226.5,
+      228.0
+    ],
+    "pixel_encoding_index_row_interval": [
+      68.5,
+      70.0
+    ],
+    "legacy_world_TX": [
+      99.0,
+      58.0,
+      7.0
+    ],
+    "xy_rectangle_corners_m": [
+      [
+        99.0,
+        57.72549057006836
+      ],
+      [
+        100.89411926269531,
+        57.72549057006836
+      ],
+      [
+        100.89411926269531,
+        59.23137283325195
+      ],
+      [
+        99.0,
+        59.23137283325195
+      ]
+    ],
+    "zmin_m": 7.0,
+    "finite_power_zmax_m": 7.822381973266602,
+    "min_touched_terrain_corner_z_m": 4.591982841491699,
+    "max_touched_terrain_corner_z_m": 4.822381973266602,
+    "source_rectangle_ground_clearance_lower_bound_m": 2.1776180267333984,
+    "touched_source_cells_row_col": [
+      [
+        68,
+        226
+      ],
+      [
+        68,
+        227
+      ],
+      [
+        68,
+        228
+      ],
+      [
+        69,
+        226
+      ],
+      [
+        69,
+        227
+      ],
+      [
+        69,
+        228
+      ],
+      [
+        70,
+        226
+      ],
+      [
+        70,
+        227
+      ],
+      [
+        70,
+        228
+      ]
+    ]
+  },
+  "RX_cells_row_col": [
+    [
+      22,
+      38
+    ],
+    [
+      23,
+      37
+    ],
+    [
+      23,
+      38
+    ]
+  ],
+  "source_donors": [
+    70673,
+    5902,
+    5903
+  ],
+  "source_weights": [
+    0.09020336509963066,
+    0.4026126456516609,
+    0.5071839892487084
+  ],
+  "all_expanded_domain_certificates_positive": true,
+  "minimum_certified_clearance_m": 0.3692231418237517,
+  "certificates": [
+    {
+      "name": "rx0_main",
+      "lower_facets": 8,
+      "intersected_ground_triangle_facet_polygons": 2141,
+      "intersection_polygon_vertices_evaluated": 7964,
+      "minimum_gap_m": 0.3692231418237517,
+      "positive_with_tolerance": true,
+      "minimum_witness": {
+        "gap_m": 0.3692231418237517,
+        "xy_m": [
+          -42.66666793823242,
+          94.06711241605356
+        ],
+        "terrain_z_m": 7.53188085780452,
+        "lower_hull_z_m": 7.901103999628272,
+        "ground_face": 8499,
+        "ground_vertex_ids": [
+          8532,
+          8789,
+          8533
+        ],
+        "ground_triangle_world": [
+          [
+            -43.670589447021484,
+            94.87059020996094,
+            7.494804859161377
+          ],
+          [
+            -42.66666793823242,
+            93.86666870117188,
+            7.542490005493164
+          ],
+          [
+            -42.66666793823242,
+            94.87059020996094,
+            7.489354133605957
+          ]
+        ],
+        "hull_facet": 3,
+        "hull_vertex_ids": [
+          6,
+          5,
+          0
+        ],
+        "hull_triangle_world": [
+          [
+            -88.84706115722656,
+            104.90980529785156,
+            8.483550071716309
+          ],
+          [
+            -88.84706115722656,
+            105.91372680664062,
+            8.194845199584961
+          ],
+          [
+            99.0,
+            57.72549057006836,
+            7.0
+          ]
+        ],
+        "ground_barycentric_xy": [
+          0.0,
+          0.8003392564788627,
+          0.19966074352113733
+        ],
+        "hull_barycentric_xy": [
+          -5.329070518200751e-15,
+          0.7541596182846827,
+          0.24584038171532266
+        ],
+        "intersection_polygon_xy": [
+          [
+            -42.93627326241693,
+            94.13627402535639
+          ],
+          [
+            -42.66666793823242,
+            93.86666870117188
+          ],
+          [
+            -42.66666793823242,
+            94.06711241605356
+          ]
+        ]
+      },
+      "rx_cell_row_col": [
+        22,
+        38
+      ],
+      "ground_diagonal": "main"
+    },
+    {
+      "name": "rx0_anti",
+      "lower_facets": 8,
+      "intersected_ground_triangle_facet_polygons": 2520,
+      "intersection_polygon_vertices_evaluated": 9480,
+      "minimum_gap_m": 0.3692231418237517,
+      "positive_with_tolerance": true,
+      "minimum_witness": {
+        "gap_m": 0.3692231418237517,
+        "xy_m": [
+          -42.66666793823242,
+          94.06711241605356
+        ],
+        "terrain_z_m": 7.53188085780452,
+        "lower_hull_z_m": 7.901103999628272,
+        "ground_face": 8500,
+        "ground_vertex_ids": [
+          8533,
+          8789,
+          8534
+        ],
+        "ground_triangle_world": [
+          [
+            -42.66666793823242,
+            94.87059020996094,
+            7.489354133605957
+          ],
+          [
+            -42.66666793823242,
+            93.86666870117188,
+            7.542490005493164
+          ],
+          [
+            -41.66274642944336,
+            94.87059020996094,
+            7.466544151306152
+          ]
+        ],
+        "hull_facet": 3,
+        "hull_vertex_ids": [
+          6,
+          5,
+          0
+        ],
+        "hull_triangle_world": [
+          [
+            -88.84706115722656,
+            104.90980529785156,
+            8.483550071716309
+          ],
+          [
+            -88.84706115722656,
+            105.91372680664062,
+            8.194845199584961
+          ],
+          [
+            99.0,
+            57.72549057006836,
+            7.0
+          ]
+        ],
+        "ground_barycentric_xy": [
+          0.19966074352113727,
+          0.8003392564788627,
+          0.0
+        ],
+        "hull_barycentric_xy": [
+          -5.329070518200751e-15,
+          0.7541596182846827,
+          0.24584038171532266
+        ],
+        "intersection_polygon_xy": [
+          [
+            -42.66666793823242,
+            94.06711241605356
+          ],
+          [
+            -42.66666793823242,
+            93.86666870117188
+          ],
+          [
+            -42.50714619218975,
+            94.02619044721455
+          ]
+        ]
+      },
+      "rx_cell_row_col": [
+        22,
+        38
+      ],
+      "ground_diagonal": "anti"
+    },
+    {
+      "name": "rx1_main",
+      "lower_facets": 6,
+      "intersected_ground_triangle_facet_polygons": 1789,
+      "intersection_polygon_vertices_evaluated": 6530,
+      "minimum_gap_m": 0.5880211340529273,
+      "positive_with_tolerance": true,
+      "minimum_witness": {
+        "gap_m": 0.5880211340529273,
+        "xy_m": [
+          -42.66666793823242,
+          93.12083007039493
+        ],
+        "terrain_z_m": 7.585259488821715,
+        "lower_hull_z_m": 8.173280622874643,
+        "ground_face": 8754,
+        "ground_vertex_ids": [
+          8788,
+          9045,
+          8789
+        ],
+        "ground_triangle_world": [
+          [
+            -43.670589447021484,
+            93.86666870117188,
+            7.552103042602539
+          ],
+          [
+            -42.66666793823242,
+            92.86274719238281,
+            7.6000590324401855
+          ],
+          [
+            -42.66666793823242,
+            93.86666870117188,
+            7.542490005493164
+          ]
+        ],
+        "hull_facet": 3,
+        "hull_vertex_ids": [
+          3,
+          5,
+          0
+        ],
+        "hull_triangle_world": [
+          [
+            99.0,
+            59.23137283325195,
+            7.0
+          ],
+          [
+            -89.85098266601562,
+            104.90980529785156,
+            8.56406021118164
+          ],
+          [
+            99.0,
+            57.72549057006836,
+            7.0
+          ]
+        ],
+        "ground_barycentric_xy": [
+          0.0,
+          0.7429252429072672,
+          0.2570747570927328
+        ],
+        "hull_barycentric_xy": [
+          -2.220446049250313e-15,
+          0.7501505469461655,
+          0.2498494530538368
+        ],
+        "intersection_polygon_xy": [
+          [
+            -43.50337321171102,
+            93.69945246586141
+          ],
+          [
+            -43.01070938306342,
+            93.20678863721382
+          ],
+          [
+            -42.66666793823242,
+            93.12083007039493
+          ],
+          [
+            -42.66666793823242,
+            93.49707393021482
+          ]
+        ]
+      },
+      "rx_cell_row_col": [
+        23,
+        37
+      ],
+      "ground_diagonal": "main"
+    },
+    {
+      "name": "rx1_anti",
+      "lower_facets": 6,
+      "intersected_ground_triangle_facet_polygons": 2068,
+      "intersection_polygon_vertices_evaluated": 7646,
+      "minimum_gap_m": 0.5880211340529273,
+      "positive_with_tolerance": true,
+      "minimum_witness": {
+        "gap_m": 0.5880211340529273,
+        "xy_m": [
+          -42.66666793823242,
+          93.12083007039493
+        ],
+        "terrain_z_m": 7.585259488821715,
+        "lower_hull_z_m": 8.173280622874643,
+        "ground_face": 8755,
+        "ground_vertex_ids": [
+          8789,
+          9045,
+          8790
+        ],
+        "ground_triangle_world": [
+          [
+            -42.66666793823242,
+            93.86666870117188,
+            7.542490005493164
+          ],
+          [
+            -42.66666793823242,
+            92.86274719238281,
+            7.6000590324401855
+          ],
+          [
+            -41.66274642944336,
+            93.86666870117188,
+            7.519079685211182
+          ]
+        ],
+        "hull_facet": 3,
+        "hull_vertex_ids": [
+          3,
+          5,
+          0
+        ],
+        "hull_triangle_world": [
+          [
+            99.0,
+            59.23137283325195,
+            7.0
+          ],
+          [
+            -89.85098266601562,
+            104.90980529785156,
+            8.56406021118164
+          ],
+          [
+            99.0,
+            57.72549057006836,
+            7.0
+          ]
+        ],
+        "ground_barycentric_xy": [
+          0.25707475709273275,
+          0.7429252429072672,
+          0.0
+        ],
+        "hull_barycentric_xy": [
+          -2.220446049250313e-15,
+          0.7501505469461655,
+          0.2498494530538368
+        ],
+        "intersection_polygon_xy": [
+          [
+            -42.66666793823242,
+            93.49707393021482
+          ],
+          [
+            -42.66666793823242,
+            93.12083007039493
+          ],
+          [
+            -42.46017676653047,
+            93.06923836408475
+          ],
+          [
+            -42.155886688451076,
+            93.37352844216416
+          ]
+        ]
+      },
+      "rx_cell_row_col": [
+        23,
+        37
+      ],
+      "ground_diagonal": "anti"
+    },
+    {
+      "name": "rx2_main",
+      "lower_facets": 8,
+      "intersected_ground_triangle_facet_polygons": 2175,
+      "intersection_polygon_vertices_evaluated": 8064,
+      "minimum_gap_m": 0.5444215896352569,
+      "positive_with_tolerance": true,
+      "minimum_witness": {
+        "gap_m": 0.5444215896352569,
+        "xy_m": [
+          -42.66666793823242,
+          93.30999535419741
+        ],
+        "terrain_z_m": 7.574411966156521,
+        "lower_hull_z_m": 8.118833555791777,
+        "ground_face": 8754,
+        "ground_vertex_ids": [
+          8788,
+          9045,
+          8789
+        ],
+        "ground_triangle_world": [
+          [
+            -43.670589447021484,
+            93.86666870117188,
+            7.552103042602539
+          ],
+          [
+            -42.66666793823242,
+            92.86274719238281,
+            7.6000590324401855
+          ],
+          [
+            -42.66666793823242,
+            93.86666870117188,
+            7.542490005493164
+          ]
+        ],
+        "hull_facet": 5,
+        "hull_vertex_ids": [
+          3,
+          5,
+          0
+        ],
+        "hull_triangle_world": [
+          [
+            99.0,
+            59.23137283325195,
+            7.0
+          ],
+          [
+            -88.84706115722656,
+            104.90980529785156,
+            8.483550071716309
+          ],
+          [
+            99.0,
+            57.72549057006836,
+            7.0
+          ]
+        ],
+        "ground_barycentric_xy": [
+          0.0,
+          0.5544988747635529,
+          0.4455011252364472
+        ],
+        "hull_barycentric_xy": [
+          -4.884981308350689e-15,
+          0.7541596182846774,
+          0.24584038171532763
+        ],
+        "intersection_polygon_xy": [
+          [
+            -43.433489724981065,
+            93.86666870117188
+          ],
+          [
+            -43.670589447021484,
+            93.86666870117188
+          ],
+          [
+            -43.26394230502425,
+            93.46002155917465
+          ],
+          [
+            -42.66666793823242,
+            93.30999535419741
+          ],
+          [
+            -42.66666793823242,
+            93.68020202459681
+          ]
+        ]
+      },
+      "rx_cell_row_col": [
+        23,
+        38
+      ],
+      "ground_diagonal": "main"
+    },
+    {
+      "name": "rx2_anti",
+      "lower_facets": 8,
+      "intersected_ground_triangle_facet_polygons": 2550,
+      "intersection_polygon_vertices_evaluated": 9564,
+      "minimum_gap_m": 0.5444215896352578,
+      "positive_with_tolerance": true,
+      "minimum_witness": {
+        "gap_m": 0.5444215896352578,
+        "xy_m": [
+          -42.66666793823242,
+          93.30999535419741
+        ],
+        "terrain_z_m": 7.57441196615652,
+        "lower_hull_z_m": 8.118833555791777,
+        "ground_face": 8755,
+        "ground_vertex_ids": [
+          8789,
+          9045,
+          8790
+        ],
+        "ground_triangle_world": [
+          [
+            -42.66666793823242,
+            93.86666870117188,
+            7.542490005493164
+          ],
+          [
+            -42.66666793823242,
+            92.86274719238281,
+            7.6000590324401855
+          ],
+          [
+            -41.66274642944336,
+            93.86666870117188,
+            7.519079685211182
+          ]
+        ],
+        "hull_facet": 5,
+        "hull_vertex_ids": [
+          3,
+          5,
+          0
+        ],
+        "hull_triangle_world": [
+          [
+            99.0,
+            59.23137283325195,
+            7.0
+          ],
+          [
+            -88.84706115722656,
+            104.90980529785156,
+            8.483550071716309
+          ],
+          [
+            99.0,
+            57.72549057006836,
+            7.0
+          ]
+        ],
+        "ground_barycentric_xy": [
+          0.44550112523644714,
+          0.5544988747635529,
+          0.0
+        ],
+        "hull_barycentric_xy": [
+          -4.884981308350689e-15,
+          0.7541596182846774,
+          0.24584038171532763
+        ],
+        "intersection_polygon_xy": [
+          [
+            -42.66666793823242,
+            93.68020202459681
+          ],
+          [
+            -42.66666793823242,
+            93.30999535419741
+          ],
+          [
+            -42.309208205511666,
+            93.22020692510357
+          ],
+          [
+            -42.00911023231084,
+            93.52030489830439
+          ]
+        ]
+      },
+      "rx_cell_row_col": [
+        23,
+        38
+      ],
+      "ground_diagonal": "anti"
+    }
+  ],
+  "nested_if_needed": [],
+  "clip_halfplane_tolerance_m2": 1e-10,
+  "positive_gap_tolerance_m": 1e-08,
+  "minimum_witness_is_actual_ray_obstruction": false,
+  "witness_limit": "A nonpositive hull lower-bound witness can be conservative and does not alone prove a realizable blocked TX/RX segment.",
+  "conditional_ideal_area_direct_power": {
+    "frequency_hz": [
+      415000000.0,
+      5775000000.0
+    ],
+    "max_endpoint_distance_m": 197.4763667504824,
+    "max_distance_TX_world": [
+      100.89411926269531,
+      57.72549057006836,
+      7.0
+    ],
+    "max_distance_RX_world": [
+      -90.85490417480469,
+      104.90980529785156,
+      8.6934814453125
+    ],
+    "normalized_inverse_square_gain_lower_bound": 2.564305379290759e-05,
+    "pathloss_upper_bound_dB": [
+      70.71904772205868,
+      93.58912555910045
+    ],
+    "published_label_pathloss_dB": [
+      88.125,
+      110.6875
+    ],
+    "minimum_direct_power_excess_above_label_dB": [
+      17.405952277941324,
+      17.098374440899548
+    ],
+    "limit": "Ideal geometric direct-area power with isotropic free-space normalization. Does not bound native numerical receiver stepping or a different release support."
+  },
+  "sources": {
+    "c141_replay_sha256": "36138bd67d433c5562a86f4547c0a94b8cc1613db074ecb7ad9b78c73793f80b",
+    "c142_geometry_source_sha256": "d1fdc0349a536ecb18a8e8c3f80e378a7aea368054c2be4372db72f34a7a9a94",
+    "published_height_sample_sha256": "be936e4a5e7b455389b671bfb8301a5bc893db9dd954ef8998bf00c7baee2af9",
+    "candidate_ground_ply_sha256": "9bc6c5c511964d22a08f387f7d651dc6f47f077a44d6048a5c072d69c2f89b81",
+    "candidate_receiver_ply_sha256": "4426d848b3c9c5549adc435c1fc85bf21c76ea9bbb894d86e1302f0e30e5fdd5",
+    "script_sha256": "9621417e162f2352c247ca7d14c0bac1144bf0ca89d8ded3ecaae9d6e1045df2",
+    "geometry_npz_sha256": "909bce3fa106ec0f43a83032febb535cdefe4ecc07dcd3c7336e9a71920270e8"
+  }
+}

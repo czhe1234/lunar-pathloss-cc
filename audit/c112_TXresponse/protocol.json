@@ -1,0 +1,1763 @@
+{
+  "question": "Does frozenC82 predict1mTX-inducedpowerchanges atcorrectreceiverlocations?",
+  "pairs": [
+    {
+      "terrain": "00051",
+      "ids": [
+        425,
+        436
+      ],
+      "distance_m": 1.0,
+      "category": "unit1m",
+      "bands": [
+        {
+          "count": 64985,
+          "sse": 111042.8076171875,
+          "change_over1": 4812,
+          "change_over5": 713,
+          "abs_quantiles": [
+            0.125,
+            0.8125,
+            5.28125,
+            37.125
+          ]
+        },
+        {
+          "count": 64567,
+          "sse": 126013.78125,
+          "change_over1": 5561,
+          "change_over5": 769,
+          "abs_quantiles": [
+            0.1875,
+            0.9375,
+            5.6875,
+            43.3125
+          ]
+        }
+      ]
+    },
+    {
+      "terrain": "00199",
+      "ids": [
+        1129,
+        1140
+      ],
+      "distance_m": 1.0,
+      "category": "unit1m",
+      "bands": [
+        {
+          "count": 64627,
+          "sse": 454232.01953125,
+          "change_over1": 10919,
+          "change_over5": 2698,
+          "abs_quantiles": [
+            0.3125,
+            1.8125,
+            13.4375,
+            42.9375
+          ]
+        },
+        {
+          "count": 61044,
+          "sse": 584904.98828125,
+          "change_over1": 12365,
+          "change_over5": 2682,
+          "abs_quantiles": [
+            0.375,
+            2.0,
+            15.9375,
+            43.3125
+          ]
+        }
+      ]
+    },
+    {
+      "terrain": "00492",
+      "ids": [
+        2102,
+        2112
+      ],
+      "distance_m": 0.0,
+      "category": "exact0",
+      "bands": [
+        {
+          "count": 64785,
+          "sse": 0.0009765625,
+          "change_over1": 0,
+          "change_over5": 0,
+          "abs_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.03125
+          ]
+        },
+        {
+          "count": 57196,
+          "sse": 2226.3203125,
+          "change_over1": 357,
+          "change_over5": 0,
+          "abs_quantiles": [
+            0.0,
+            0.1875,
+            0.875,
+            4.5
+          ]
+        }
+      ]
+    },
+    {
+      "terrain": "00856",
+      "ids": [
+        3498,
+        3517
+      ],
+      "distance_m": 1.0,
+      "category": "unit1m",
+      "bands": [
+        {
+          "count": 65048,
+          "sse": 114009.9697265625,
+          "change_over1": 6854,
+          "change_over5": 783,
+          "abs_quantiles": [
+            0.25,
+            1.0625,
+            5.8125,
+            33.5
+          ]
+        },
+        {
+          "count": 64543,
+          "sse": 141547.296875,
+          "change_over1": 10402,
+          "change_over5": 897,
+          "abs_quantiles": [
+            0.3125,
+            1.375,
+            6.348750000000109,
+            39.5
+          ]
+        }
+      ]
+    },
+    {
+      "terrain": "01036",
+      "ids": [
+        4143,
+        4144
+      ],
+      "distance_m": 1.0,
+      "category": "unit1m",
+      "bands": [
+        {
+          "count": 64506,
+          "sse": 268661.1103515625,
+          "change_over1": 9261,
+          "change_over5": 1969,
+          "abs_quantiles": [
+            0.1875,
+            1.625,
+            10.1875,
+            37.4375
+          ]
+        },
+        {
+          "count": 44991,
+          "sse": 194449.93359375,
+          "change_over1": 4505,
+          "change_over5": 1108,
+          "abs_quantiles": [
+            0.1875,
+            1.0625,
+            10.1875,
+            44.75
+          ]
+        }
+      ]
+    },
+    {
+      "terrain": "01144",
+      "ids": [
+        4702,
+        4706
+      ],
+      "distance_m": 1.0,
+      "category": "unit1m",
+      "bands": [
+        {
+          "count": 64542,
+          "sse": 183669.9560546875,
+          "change_over1": 8797,
+          "change_over5": 1390,
+          "abs_quantiles": [
+            0.25,
+            1.375,
+            7.75,
+            43.625
+          ]
+        },
+        {
+          "count": 40862,
+          "sse": 326158.5625,
+          "change_over1": 12155,
+          "change_over5": 2707,
+          "abs_quantiles": [
+            0.3125,
+            3.8125,
+            11.875,
+            36.4375
+          ]
+        }
+      ]
+    },
+    {
+      "terrain": "01342",
+      "ids": [
+        5388,
+        5411
+      ],
+      "distance_m": 1.0,
+      "category": "unit1m",
+      "bands": [
+        {
+          "count": 64540,
+          "sse": 1077240.1318359375,
+          "change_over1": 13558,
+          "change_over5": 4985,
+          "abs_quantiles": [
+            0.21875,
+            3.625,
+            20.9375,
+            47.875
+          ]
+        },
+        {
+          "count": 58422,
+          "sse": 1707914.01171875,
+          "change_over1": 11572,
+          "change_over5": 3885,
+          "abs_quantiles": [
+            0.25,
+            3.0,
+            31.625,
+            61.375
+          ]
+        }
+      ]
+    },
+    {
+      "terrain": "01352",
+      "ids": [
+        5425,
+        5435
+      ],
+      "distance_m": 1.0,
+      "category": "unit1m",
+      "bands": [
+        {
+          "count": 64504,
+          "sse": 558318.9384765625,
+          "change_over1": 12831,
+          "change_over5": 3414,
+          "abs_quantiles": [
+            0.3125,
+            2.5625,
+            15.310625000000073,
+            34.21875
+          ]
+        },
+        {
+          "count": 63236,
+          "sse": 1285641.44921875,
+          "change_over1": 32392,
+          "change_over5": 8645,
+          "abs_quantiles": [
+            1.125,
+            6.125,
+            19.29062500000009,
+            43.625
+          ]
+        }
+      ]
+    },
+    {
+      "terrain": "01489",
+      "ids": [
+        5960,
+        5977
+      ],
+      "distance_m": 1.0,
+      "category": "unit1m",
+      "bands": [
+        {
+          "count": 64545,
+          "sse": 427180.638671875,
+          "change_over1": 8592,
+          "change_over5": 2119,
+          "abs_quantiles": [
+            0.125,
+            1.4375,
+            12.3125,
+            45.8125
+          ]
+        },
+        {
+          "count": 63256,
+          "sse": 614127.40234375,
+          "change_over1": 10990,
+          "change_over5": 2920,
+          "abs_quantiles": [
+            0.1875,
+            2.375,
+            15.153124999999818,
+            55.125
+          ]
+        }
+      ]
+    },
+    {
+      "terrain": "01552",
+      "ids": [
+        6267,
+        6271
+      ],
+      "distance_m": 1.0,
+      "category": "unit1m",
+      "bands": [
+        {
+          "count": 65063,
+          "sse": 231383.62890625,
+          "change_over1": 9645,
+          "change_over5": 1644,
+          "abs_quantiles": [
+            0.1875,
+            1.5625,
+            9.3125,
+            36.25
+          ]
+        },
+        {
+          "count": 64604,
+          "sse": 277425.3984375,
+          "change_over1": 13346,
+          "change_over5": 1745,
+          "abs_quantiles": [
+            0.1875,
+            2.25,
+            8.6875,
+            39.0
+          ]
+        }
+      ]
+    },
+    {
+      "terrain": "01708",
+      "ids": [
+        6760,
+        6774
+      ],
+      "distance_m": 1.0,
+      "category": "unit1m",
+      "bands": [
+        {
+          "count": 64568,
+          "sse": 237722.75390625,
+          "change_over1": 8156,
+          "change_over5": 1643,
+          "abs_quantiles": [
+            0.125,
+            1.375,
+            9.125,
+            38.0625
+          ]
+        },
+        {
+          "count": 61111,
+          "sse": 415033.08984375,
+          "change_over1": 12542,
+          "change_over5": 2901,
+          "abs_quantiles": [
+            0.125,
+            2.75,
+            11.556250000000091,
+            48.375
+          ]
+        }
+      ]
+    },
+    {
+      "terrain": "01763",
+      "ids": [
+        6956,
+        6974
+      ],
+      "distance_m": 1.0,
+      "category": "unit1m",
+      "bands": [
+        {
+          "count": 64892,
+          "sse": 166583.5380859375,
+          "change_over1": 6799,
+          "change_over5": 1184,
+          "abs_quantiles": [
+            0.1875,
+            1.0625,
+            7.6875,
+            36.875
+          ]
+        },
+        {
+          "count": 64567,
+          "sse": 226898.52734375,
+          "change_over1": 9241,
+          "change_over5": 1436,
+          "abs_quantiles": [
+            0.25,
+            1.375,
+            8.3125,
+            39.25
+          ]
+        }
+      ]
+    },
+    {
+      "terrain": "01806",
+      "ids": [
+        7145,
+        7169
+      ],
+      "distance_m": 1.0,
+      "category": "unit1m",
+      "bands": [
+        {
+          "count": 65143,
+          "sse": 157628.51171875,
+          "change_over1": 6885,
+          "change_over5": 1067,
+          "abs_quantiles": [
+            0.1875,
+            1.0625,
+            7.0625,
+            29.4375
+          ]
+        },
+        {
+          "count": 64980,
+          "sse": 218238.59375,
+          "change_over1": 9314,
+          "change_over5": 1136,
+          "abs_quantiles": [
+            0.25,
+            1.3125,
+            8.125,
+            34.5625
+          ]
+        }
+      ]
+    },
+    {
+      "terrain": "01940",
+      "ids": [
+        7536,
+        7545
+      ],
+      "distance_m": 1.0,
+      "category": "unit1m",
+      "bands": [
+        {
+          "count": 64842,
+          "sse": 98146.3603515625,
+          "change_over1": 5244,
+          "change_over5": 754,
+          "abs_quantiles": [
+            0.125,
+            0.875,
+            5.5,
+            36.625
+          ]
+        },
+        {
+          "count": 64621,
+          "sse": 122075.5546875,
+          "change_over1": 7076,
+          "change_over5": 856,
+          "abs_quantiles": [
+            0.1875,
+            1.125,
+            6.0,
+            39.75
+          ]
+        }
+      ]
+    },
+    {
+      "terrain": "02027",
+      "ids": [
+        7920,
+        7931
+      ],
+      "distance_m": 1.0,
+      "category": "unit1m",
+      "bands": [
+        {
+          "count": 64892,
+          "sse": 381273.751953125,
+          "change_over1": 12408,
+          "change_over5": 2179,
+          "abs_quantiles": [
+            0.375,
+            1.875,
+            11.9375,
+            46.78125
+          ]
+        },
+        {
+          "count": 54570,
+          "sse": 740617.06640625,
+          "change_over1": 14117,
+          "change_over5": 2869,
+          "abs_quantiles": [
+            0.4375,
+            2.6875,
+            17.625,
+            66.875
+          ]
+        }
+      ]
+    },
+    {
+      "terrain": "02045",
+      "ids": [
+        7957,
+        7959
+      ],
+      "distance_m": 1.0,
+      "category": "unit1m",
+      "bands": [
+        {
+          "count": 64262,
+          "sse": 12964111.62109375,
+          "change_over1": 39184,
+          "change_over5": 26131,
+          "abs_quantiles": [
+            2.28125,
+            24.715625000000045,
+            43.8125,
+            64.9375
+          ]
+        },
+        {
+          "count": 43828,
+          "sse": 28102680.21875,
+          "change_over1": 26768,
+          "change_over5": 19242,
+          "abs_quantiles": [
+            2.4375,
+            48.1875,
+            59.0,
+            94.625
+          ]
+        }
+      ]
+    },
+    {
+      "terrain": "02284",
+      "ids": [
+        8758,
+        8785
+      ],
+      "distance_m": 1.0,
+      "category": "unit1m",
+      "bands": [
+        {
+          "count": 62765,
+          "sse": 3361546.330078125,
+          "change_over1": 26685,
+          "change_over5": 12322,
+          "abs_quantiles": [
+            0.6875,
+            12.4375,
+            27.4375,
+            50.25
+          ]
+        },
+        {
+          "count": 44141,
+          "sse": 7155291.27734375,
+          "change_over1": 17530,
+          "change_over5": 8551,
+          "abs_quantiles": [
+            0.5625,
+            18.3125,
+            47.8125,
+            114.0625
+          ]
+        }
+      ]
+    },
+    {
+      "terrain": "02479",
+      "ids": [
+        9233,
+        9237
+      ],
+      "distance_m": 1.0,
+      "category": "unit1m",
+      "bands": [
+        {
+          "count": 64491,
+          "sse": 1104759.81640625,
+          "change_over1": 20120,
+          "change_over5": 5092,
+          "abs_quantiles": [
+            0.5,
+            4.0,
+            21.625,
+            50.0625
+          ]
+        },
+        {
+          "count": 33156,
+          "sse": 1077150.01953125,
+          "change_over1": 12515,
+          "change_over5": 3245,
+          "abs_quantiles": [
+            0.625,
+            4.9375,
+            31.625,
+            65.5625
+          ]
+        }
+      ]
+    },
+    {
+      "terrain": "02511",
+      "ids": [
+        9340,
+        9347
+      ],
+      "distance_m": 1.0,
+      "category": "unit1m",
+      "bands": [
+        {
+          "count": 65166,
+          "sse": 121545.201171875,
+          "change_over1": 6785,
+          "change_over5": 924,
+          "abs_quantiles": [
+            0.25,
+            1.0625,
+            6.25,
+            28.8125
+          ]
+        },
+        {
+          "count": 63913,
+          "sse": 164969.56640625,
+          "change_over1": 9817,
+          "change_over5": 941,
+          "abs_quantiles": [
+            0.3125,
+            1.25,
+            6.6875,
+            26.9375
+          ]
+        }
+      ]
+    },
+    {
+      "terrain": "02606",
+      "ids": [
+        9699,
+        9707
+      ],
+      "distance_m": 0.0,
+      "category": "exact0",
+      "bands": [
+        {
+          "count": 65129,
+          "sse": 0.0,
+          "change_over1": 0,
+          "change_over5": 0,
+          "abs_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "count": 64785,
+          "sse": 0.0078125,
+          "change_over1": 0,
+          "change_over5": 0,
+          "abs_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.0625
+          ]
+        }
+      ]
+    },
+    {
+      "terrain": "02612",
+      "ids": [
+        9777,
+        9783
+      ],
+      "distance_m": 1.0,
+      "category": "unit1m",
+      "bands": [
+        {
+          "count": 64573,
+          "sse": 172422.05078125,
+          "change_over1": 9210,
+          "change_over5": 1314,
+          "abs_quantiles": [
+            0.1875,
+            1.5,
+            7.5,
+            37.8125
+          ]
+        },
+        {
+          "count": 52030,
+          "sse": 557414.30078125,
+          "change_over1": 11393,
+          "change_over5": 3827,
+          "abs_quantiles": [
+            0.1875,
+            3.75,
+            15.0,
+            55.75
+          ]
+        }
+      ]
+    },
+    {
+      "terrain": "02951",
+      "ids": [
+        11357,
+        11373
+      ],
+      "distance_m": 1.0,
+      "category": "unit1m",
+      "bands": [
+        {
+          "count": 64638,
+          "sse": 121668.923828125,
+          "change_over1": 4396,
+          "change_over5": 889,
+          "abs_quantiles": [
+            0.125,
+            0.6875,
+            6.1875,
+            38.25
+          ]
+        },
+        {
+          "count": 62231,
+          "sse": 225944.91015625,
+          "change_over1": 6807,
+          "change_over5": 1566,
+          "abs_quantiles": [
+            0.125,
+            1.1875,
+            8.75,
+            64.25
+          ]
+        }
+      ]
+    },
+    {
+      "terrain": "03031",
+      "ids": [
+        11779,
+        11800
+      ],
+      "distance_m": 1.0,
+      "category": "unit1m",
+      "bands": [
+        {
+          "count": 64240,
+          "sse": 430763.7373046875,
+          "change_over1": 11844,
+          "change_over5": 2864,
+          "abs_quantiles": [
+            0.1875,
+            2.25,
+            12.875,
+            50.8125
+          ]
+        },
+        {
+          "count": 47137,
+          "sse": 256675.08203125,
+          "change_over1": 6750,
+          "change_over5": 1673,
+          "abs_quantiles": [
+            0.125,
+            1.875,
+            10.789999999999964,
+            41.875
+          ]
+        }
+      ]
+    },
+    {
+      "terrain": "03246",
+      "ids": [
+        12641,
+        12664
+      ],
+      "distance_m": 1.0,
+      "category": "unit1m",
+      "bands": [
+        {
+          "count": 64530,
+          "sse": 532464.654296875,
+          "change_over1": 11985,
+          "change_over5": 3589,
+          "abs_quantiles": [
+            0.1875,
+            2.625,
+            14.231874999999945,
+            42.625
+          ]
+        },
+        {
+          "count": 61536,
+          "sse": 851878.4375,
+          "change_over1": 12956,
+          "change_over5": 4219,
+          "abs_quantiles": [
+            0.25,
+            3.375,
+            18.875,
+            64.125
+          ]
+        }
+      ]
+    },
+    {
+      "terrain": "03306",
+      "ids": [
+        13008,
+        13018
+      ],
+      "distance_m": 1.0,
+      "category": "unit1m",
+      "bands": [
+        {
+          "count": 64600,
+          "sse": 168962.6728515625,
+          "change_over1": 7035,
+          "change_over5": 1317,
+          "abs_quantiles": [
+            0.125,
+            1.125,
+            7.6875,
+            36.125
+          ]
+        },
+        {
+          "count": 61741,
+          "sse": 165123.63671875,
+          "change_over1": 8981,
+          "change_over5": 1286,
+          "abs_quantiles": [
+            0.1875,
+            1.5,
+            7.4375,
+            30.5
+          ]
+        }
+      ]
+    },
+    {
+      "terrain": "03530",
+      "ids": [
+        13736,
+        13747
+      ],
+      "distance_m": 1.0,
+      "category": "unit1m",
+      "bands": [
+        {
+          "count": 64372,
+          "sse": 7128866.744140625,
+          "change_over1": 34937,
+          "change_over5": 18882,
+          "abs_quantiles": [
+            1.3125,
+            19.25,
+            38.875,
+            60.4375
+          ]
+        },
+        {
+          "count": 42147,
+          "sse": 7289016.921875,
+          "change_over1": 18978,
+          "change_over5": 8149,
+          "abs_quantiles": [
+            0.8125,
+            19.375,
+            50.875,
+            81.3125
+          ]
+        }
+      ]
+    },
+    {
+      "terrain": "03692",
+      "ids": [
+        14331,
+        14364
+      ],
+      "distance_m": 1.0,
+      "category": "unit1m",
+      "bands": [
+        {
+          "count": 64582,
+          "sse": 2336361.7548828125,
+          "change_over1": 23145,
+          "change_over5": 8139,
+          "abs_quantiles": [
+            0.625,
+            6.9375,
+            27.1875,
+            49.0625
+          ]
+        },
+        {
+          "count": 64398,
+          "sse": 5685435.71875,
+          "change_over1": 26878,
+          "change_over5": 9256,
+          "abs_quantiles": [
+            0.8125,
+            8.6875,
+            41.75,
+            70.9375
+          ]
+        }
+      ]
+    },
+    {
+      "terrain": "03692",
+      "ids": [
+        14359,
+        14363
+      ],
+      "distance_m": 1.0,
+      "category": "unit1m",
+      "bands": [
+        {
+          "count": 64970,
+          "sse": 959811.607421875,
+          "change_over1": 14768,
+          "change_over5": 4362,
+          "abs_quantiles": [
+            0.40625,
+            3.0,
+            20.125,
+            53.0
+          ]
+        },
+        {
+          "count": 64789,
+          "sse": 2036201.65625,
+          "change_over1": 17979,
+          "change_over5": 4057,
+          "abs_quantiles": [
+            0.5,
+            2.8125,
+            35.9375,
+            70.6875
+          ]
+        }
+      ]
+    },
+    {
+      "terrain": "03824",
+      "ids": [
+        14704,
+        14730
+      ],
+      "distance_m": 1.0,
+      "category": "unit1m",
+      "bands": [
+        {
+          "count": 64612,
+          "sse": 935577.822265625,
+          "change_over1": 13653,
+          "change_over5": 4264,
+          "abs_quantiles": [
+            0.25,
+            3.0625,
+            19.805624999999964,
+            40.5
+          ]
+        },
+        {
+          "count": 64714,
+          "sse": 1034687.09765625,
+          "change_over1": 14401,
+          "change_over5": 3583,
+          "abs_quantiles": [
+            0.3125,
+            2.5625,
+            23.0,
+            41.875
+          ]
+        }
+      ]
+    },
+    {
+      "terrain": "03826",
+      "ids": [
+        14755,
+        14774
+      ],
+      "distance_m": 1.0,
+      "category": "unit1m",
+      "bands": [
+        {
+          "count": 65159,
+          "sse": 305127.6669921875,
+          "change_over1": 6467,
+          "change_over5": 1526,
+          "abs_quantiles": [
+            0.15625,
+            1.0,
+            10.625,
+            32.0
+          ]
+        },
+        {
+          "count": 64323,
+          "sse": 458314.73828125,
+          "change_over1": 7612,
+          "change_over5": 1676,
+          "abs_quantiles": [
+            0.1875,
+            1.1875,
+            12.923749999999927,
+            31.875
+          ]
+        }
+      ]
+    },
+    {
+      "terrain": "04021",
+      "ids": [
+        15500,
+        15501
+      ],
+      "distance_m": 1.0,
+      "category": "unit1m",
+      "bands": [
+        {
+          "count": 64581,
+          "sse": 580106.2548828125,
+          "change_over1": 14643,
+          "change_over5": 3768,
+          "abs_quantiles": [
+            0.3125,
+            2.875,
+            15.0,
+            39.34375
+          ]
+        },
+        {
+          "count": 61184,
+          "sse": 952428.015625,
+          "change_over1": 15804,
+          "change_over5": 3388,
+          "abs_quantiles": [
+            0.375,
+            2.875,
+            22.0,
+            45.375
+          ]
+        }
+      ]
+    },
+    {
+      "terrain": "04067",
+      "ids": [
+        15731,
+        15740
+      ],
+      "distance_m": 0.0,
+      "category": "exact0",
+      "bands": [
+        {
+          "count": 64843,
+          "sse": 0.0,
+          "change_over1": 0,
+          "change_over5": 0,
+          "abs_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "count": 42105,
+          "sse": 8.90625,
+          "change_over1": 0,
+          "change_over5": 0,
+          "abs_quantiles": [
+            0.0,
+            0.0,
+            0.0625,
+            0.25
+          ]
+        }
+      ]
+    },
+    {
+      "terrain": "04186",
+      "ids": [
+        16140,
+        16150
+      ],
+      "distance_m": 0.0,
+      "category": "exact0",
+      "bands": [
+        {
+          "count": 64651,
+          "sse": 0.0,
+          "change_over1": 0,
+          "change_over5": 0,
+          "abs_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "count": 61592,
+          "sse": 0.0,
+          "change_over1": 0,
+          "change_over5": 0,
+          "abs_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "terrain": "04464",
+      "ids": [
+        17140,
+        17161
+      ],
+      "distance_m": 0.0,
+      "category": "exact0",
+      "bands": [
+        {
+          "count": 65207,
+          "sse": 0.0048828125,
+          "change_over1": 0,
+          "change_over5": 0,
+          "abs_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.0625
+          ]
+        },
+        {
+          "count": 64972,
+          "sse": 0.00390625,
+          "change_over1": 0,
+          "change_over5": 0,
+          "abs_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.0625
+          ]
+        }
+      ]
+    },
+    {
+      "terrain": "04540",
+      "ids": [
+        17375,
+        17377
+      ],
+      "distance_m": 1.0,
+      "category": "unit1m",
+      "bands": [
+        {
+          "count": 64790,
+          "sse": 119971.17578125,
+          "change_over1": 4163,
+          "change_over5": 746,
+          "abs_quantiles": [
+            0.125,
+            0.6875,
+            5.625,
+            42.25
+          ]
+        },
+        {
+          "count": 64554,
+          "sse": 166739.19140625,
+          "change_over1": 6219,
+          "change_over5": 1164,
+          "abs_quantiles": [
+            0.1875,
+            1.0,
+            7.5,
+            46.1875
+          ]
+        }
+      ]
+    },
+    {
+      "terrain": "04559",
+      "ids": [
+        17492,
+        17504
+      ],
+      "distance_m": 1.0,
+      "category": "unit1m",
+      "bands": [
+        {
+          "count": 64664,
+          "sse": 119928.9736328125,
+          "change_over1": 6412,
+          "change_over5": 880,
+          "abs_quantiles": [
+            0.125,
+            1.0,
+            6.125,
+            45.1875
+          ]
+        },
+        {
+          "count": 59320,
+          "sse": 397458.34765625,
+          "change_over1": 11081,
+          "change_over5": 3011,
+          "abs_quantiles": [
+            0.1875,
+            2.6875,
+            12.25,
+            44.5
+          ]
+        }
+      ]
+    },
+    {
+      "terrain": "05408",
+      "ids": [
+        20288,
+        20328
+      ],
+      "distance_m": 1.0,
+      "category": "unit1m",
+      "bands": [
+        {
+          "count": 64548,
+          "sse": 481785.283203125,
+          "change_over1": 8843,
+          "change_over5": 2506,
+          "abs_quantiles": [
+            0.1875,
+            1.5625,
+            14.658124999999927,
+            40.8125
+          ]
+        },
+        {
+          "count": 64576,
+          "sse": 754670.5,
+          "change_over1": 11446,
+          "change_over5": 1998,
+          "abs_quantiles": [
+            0.25,
+            1.75,
+            18.3125,
+            47.1875
+          ]
+        }
+      ]
+    },
+    {
+      "terrain": "05569",
+      "ids": [
+        21206,
+        21222
+      ],
+      "distance_m": 1.0,
+      "category": "unit1m",
+      "bands": [
+        {
+          "count": 64502,
+          "sse": 1474459.23828125,
+          "change_over1": 18817,
+          "change_over5": 6672,
+          "abs_quantiles": [
+            0.3125,
+            5.25,
+            22.030937499999936,
+            48.6875
+          ]
+        },
+        {
+          "count": 63129,
+          "sse": 2657692.8828125,
+          "change_over1": 19264,
+          "change_over5": 5963,
+          "abs_quantiles": [
+            0.375,
+            4.637500000000273,
+            32.5625,
+            66.5
+          ]
+        }
+      ]
+    },
+    {
+      "terrain": "05853",
+      "ids": [
+        22049,
+        22067
+      ],
+      "distance_m": 1.0,
+      "category": "unit1m",
+      "bands": [
+        {
+          "count": 64001,
+          "sse": 1410133.1650390625,
+          "change_over1": 14598,
+          "change_over5": 5655,
+          "abs_quantiles": [
+            0.3125,
+            4.125,
+            23.4375,
+            55.875
+          ]
+        },
+        {
+          "count": 62704,
+          "sse": 3688881.98828125,
+          "change_over1": 16456,
+          "change_over5": 5838,
+          "abs_quantiles": [
+            0.375,
+            4.5,
+            42.5625,
+            60.5625
+          ]
+        }
+      ]
+    },
+    {
+      "terrain": "05867",
+      "ids": [
+        22211,
+        22241
+      ],
+      "distance_m": 1.0,
+      "category": "unit1m",
+      "bands": [
+        {
+          "count": 64487,
+          "sse": 95258.9775390625,
+          "change_over1": 5791,
+          "change_over5": 692,
+          "abs_quantiles": [
+            0.1875,
+            0.9375,
+            5.1875,
+            36.125
+          ]
+        },
+        {
+          "count": 56093,
+          "sse": 121728.12890625,
+          "change_over1": 6089,
+          "change_over5": 809,
+          "abs_quantiles": [
+            0.25,
+            1.125,
+            6.25,
+            56.25
+          ]
+        }
+      ]
+    },
+    {
+      "terrain": "05867",
+      "ids": [
+        22245,
+        22246
+      ],
+      "distance_m": 1.0,
+      "category": "unit1m",
+      "bands": [
+        {
+          "count": 65090,
+          "sse": 211385.6142578125,
+          "change_over1": 11236,
+          "change_over5": 1711,
+          "abs_quantiles": [
+            0.1875,
+            1.8125,
+            8.75,
+            32.5625
+          ]
+        },
+        {
+          "count": 64731,
+          "sse": 201145.77734375,
+          "change_over1": 15245,
+          "change_over5": 1419,
+          "abs_quantiles": [
+            0.25,
+            2.1875,
+            7.625,
+            29.8125
+          ]
+        }
+      ]
+    },
+    {
+      "terrain": "06159",
+      "ids": [
+        23306,
+        23349
+      ],
+      "distance_m": 1.0,
+      "category": "unit1m",
+      "bands": [
+        {
+          "count": 65034,
+          "sse": 66543.6630859375,
+          "change_over1": 5636,
+          "change_over5": 423,
+          "abs_quantiles": [
+            0.25,
+            0.9375,
+            3.8125,
+            26.625
+          ]
+        },
+        {
+          "count": 64642,
+          "sse": 115839.1484375,
+          "change_over1": 9698,
+          "change_over5": 747,
+          "abs_quantiles": [
+            0.3125,
+            1.3125,
+            5.5,
+            40.625
+          ]
+        }
+      ]
+    },
+    {
+      "terrain": "06315",
+      "ids": [
+        23945,
+        23981
+      ],
+      "distance_m": 0.0,
+      "category": "exact0",
+      "bands": [
+        {
+          "count": 64753,
+          "sse": 0.0,
+          "change_over1": 0,
+          "change_over5": 0,
+          "abs_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "count": 63369,
+          "sse": 0.0,
+          "change_over1": 0,
+          "change_over5": 0,
+          "abs_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "terrain": "06325",
+      "ids": [
+        24081,
+        24085
+      ],
+      "distance_m": 0.0,
+      "category": "exact0",
+      "bands": [
+        {
+          "count": 64757,
+          "sse": 0.00390625,
+          "change_over1": 0,
+          "change_over5": 0,
+          "abs_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.0625
+          ]
+        },
+        {
+          "count": 30657,
+          "sse": 11.875,
+          "change_over1": 0,
+          "change_over5": 0,
+          "abs_quantiles": [
+            0.0,
+            0.0,
+            0.125,
+            0.25
+          ]
+        }
+      ]
+    },
+    {
+      "terrain": "06497",
+      "ids": [
+        24733,
+        24745
+      ],
+      "distance_m": 1.0,
+      "category": "unit1m",
+      "bands": [
+        {
+          "count": 64540,
+          "sse": 269553.4287109375,
+          "change_over1": 9620,
+          "change_over5": 2085,
+          "abs_quantiles": [
+            0.15625,
+            1.75,
+            9.9375,
+            52.0625
+          ]
+        },
+        {
+          "count": 57149,
+          "sse": 308308.75,
+          "change_over1": 10998,
+          "change_over5": 2597,
+          "abs_quantiles": [
+            0.1875,
+            2.625,
+            10.6875,
+            44.625
+          ]
+        }
+      ]
+    },
+    {
+      "terrain": "06519",
+      "ids": [
+        24824,
+        24848
+      ],
+      "distance_m": 1.0,
+      "category": "unit1m",
+      "bands": [
+        {
+          "count": 65011,
+          "sse": 324418.576171875,
+          "change_over1": 10644,
+          "change_over5": 2082,
+          "abs_quantiles": [
+            0.375,
+            1.5,
+            10.875,
+            41.125
+          ]
+        },
+        {
+          "count": 64582,
+          "sse": 678420.34375,
+          "change_over1": 14662,
+          "change_over5": 2519,
+          "abs_quantiles": [
+            0.4375,
+            1.875,
+            16.8125,
+            46.9375
+          ]
+        }
+      ]
+    },
+    {
+      "terrain": "06741",
+      "ids": [
+        25582,
+        25602
+      ],
+      "distance_m": 0.0,
+      "category": "exact0",
+      "bands": [
+        {
+          "count": 64705,
+          "sse": 231.8583984375,
+          "change_over1": 46,
+          "change_over5": 0,
+          "abs_quantiles": [
+            0.0,
+            0.0,
+            0.125,
+            3.6875
+          ]
+        },
+        {
+          "count": 64663,
+          "sse": 20.30859375,
+          "change_over1": 0,
+          "change_over5": 0,
+          "abs_quantiles": [
+            0.0,
+            0.0,
+            0.0625,
+            0.5
+          ]
+        }
+      ]
+    }
+  ],
+  "ids": [
+    425,
+    436,
+    1129,
+    1140,
+    2102,
+    2112,
+    3498,
+    3517,
+    4143,
+    4144,
+    4702,
+    4706,
+    5388,
+    5411,
+    5425,
+    5435,
+    5960,
+    5977,
+    6267,
+    6271,
+    6760,
+    6774,
+    6956,
+    6974,
+    7145,
+    7169,
+    7536,
+    7545,
+    7920,
+    7931,
+    7957,
+    7959,
+    8758,
+    8785,
+    9233,
+    9237,
+    9340,
+    9347,
+    9699,
+    9707,
+    9777,
+    9783,
+    11357,
+    11373,
+    11779,
+    11800,
+    12641,
+    12664,
+    13008,
+    13018,
+    13736,
+    13747,
+    14331,
+    14359,
+    14363,
+    14364,
+    14704,
+    14730,
+    14755,
+    14774,
+    15500,
+    15501,
+    15731,
+    15740,
+    16140,
+    16150,
+    17140,
+    17161,
+    17375,
+    17377,
+    17492,
+    17504,
+    20288,
+    20328,
+    21206,
+    21222,
+    22049,
+    22067,
+    22211,
+    22241,
+    22245,
+    22246,
+    23306,
+    23349,
+    23945,
+    23981,
+    24081,
+    24085,
+    24733,
+    24745,
+    24824,
+    24848,
+    25582,
+    25602
+  ],
+  "model": "developmentC82rawH/TXinterface;samecomponentweightsasC101/C106baseline",
+  "input_only": true,
+  "labels_opened_during_prediction": false,
+  "selection": "allFITunit1mpairsandFITexactrepeatcontrols;notselectedbylabelerrors",
+  "sourcefiles": {
+    "runs/c54_combo_dev/teacher.pt": "78184224e9758e4083f32d5673431cca9a2f0802756646fab945e12d555b8b4c",
+    "runs/c54_combo_dev/low.pt": "9f7d8cb1e67ddd58571cbdacc5412a98f66a1478150f34ac89927b8977f4d1b1",
+    "runs/c54_combo_dev/high.pt": "d65f29e9360d69b2b0b0e7ab01ec25fa28c9600dadcb5288590615a9988d5ee5",
+    "runs/c72_observed/best.pt": "02b16bd1e9a9956ebc09b8aa846c85e751935294313397e9988bef952c9d34a4",
+    "runs/c73_wide_real/best.pt": "2538e77cb5e3d85d73815f01ea956432e3b1a9cdc1ecb15420028d562f9b16e5",
+    "audit/c112_TXresponse/interface/spectrum.json": "e9f3a73d67b99691f4d5e9eb005280144fb677e5f3fbd63cdbf08e7b1a9496ae"
+  },
+  "official_VAL_used": false,
+  "GPU": [
+    1,
+    3
+  ]
+}

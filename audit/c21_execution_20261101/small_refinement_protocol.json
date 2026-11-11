@@ -1,0 +1,16 @@
+{
+  "created_unix": 1793516087.5685802,
+  "reason": "A decreases from1.617/1.735 at1500 to0.803/0.880 at3500 and0.753/0.825 at4000; still optimizing, no measured floor. Finish matching B4000 first. Then check numerical precision and extend smallFIT only, not generalization training.",
+  "initial_stage_preserved": true,
+  "refinement_both_models": {
+    "start": "own best initial4000-step checkpoint",
+    "optimizer": "AdamW reset",
+    "lr": 0.0003,
+    "max_steps": 4000,
+    "queries_per_map": 4096,
+    "maps": 4,
+    "seed": 20261129,
+    "gate_both_bands_db": 0.5
+  },
+  "no_DEV_or_VAL": true
+}

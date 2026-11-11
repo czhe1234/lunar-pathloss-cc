@@ -1,0 +1,38 @@
+{
+  "coverage": "dynamic",
+  "name": "c63_dynamic_full",
+  "steps": 6000,
+  "variant": "path",
+  "gpu": {
+    "uuid": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+    "logical_device": 0,
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_bytes": 84929347584,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "seed": 20261210,
+  "fit_terrains": 5508,
+  "fit_maps": 23158,
+  "batch_maps": 16,
+  "points_per_map": 256,
+  "parameters": 13389424,
+  "trainable_parameters": 8394992,
+  "initial_state_sha256": "240792c39179e59c42a3f409c78b94c9a09ce6a9253df861d75347af3e832d54",
+  "pretrain": "runs/c62_dense_4maps_continue3000/best.pt",
+  "reset": "Both final correction layers zeroed to preserve C38 initial prediction",
+  "input_features": "H/TX-derived294 features computed at requested pixels + full13channel terrain; no target/mask inputs",
+  "official_VAL_used": false,
+  "selection": "minimum mean band RMSE on same sampledDEV612; minimum4000updates and patience2000",
+  "lr": 0.0005,
+  "weight_decay": 0.0001,
+  "source_hashes": {
+    "c63_full_train.py": "a560f156ba4d9447f6595694f13035b41da1013ac65bb64420ecd8f6fd4a8973",
+    "c63_point_features.py": "31e8feaa83ad48df54f849f69c54052008ba428c90d76d78c9a18b59e84bb9e7",
+    "c61_inference.py": "b4d5f683af88d79140015b168a3d528b4d46f1d7dc8a4c19adeca51e8d63d9b9",
+    "c61_model.py": "f798c8a201f35abec0b5bb4ffd84b2bde7e067bb9bb309c759600052c0f8779e",
+    "c46_model.py": "978b475af99f3d7657469b59710c9874bab8ae6e8e5962307f8d2fb44e09cf4b",
+    "c52_model.py": "8ccf5446f26c78533273d05cb368d73539c2cdc624469eb9c2dab8cedcf6deb2",
+    "c34_model.py": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af"
+  }
+}

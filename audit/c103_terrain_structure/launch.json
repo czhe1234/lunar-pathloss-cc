@@ -1,0 +1,39 @@
+{
+  "time": 1793779536.1293879,
+  "runs": [
+    {
+      "mode": "local",
+      "card": 4,
+      "pid": 327132,
+      "command": [
+        "./run_gpu.sh",
+        "4",
+        "src/c103_train.py",
+        "--mode",
+        "local",
+        "--batch",
+        "16384",
+        "--steps",
+        "2000"
+      ],
+      "log": "logs/c103_local.log"
+    },
+    {
+      "mode": "terrain",
+      "card": 1,
+      "pid": 327133,
+      "command": [
+        "./run_gpu.sh",
+        "1",
+        "src/c103_train.py",
+        "--mode",
+        "terrain",
+        "--batch",
+        "16384",
+        "--steps",
+        "2000"
+      ],
+      "log": "logs/c103_terrain.log"
+    }
+  ]
+}

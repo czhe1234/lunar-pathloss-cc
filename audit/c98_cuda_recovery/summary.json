@@ -1,0 +1,86 @@
+{
+  "status": "recovered_before_this_session",
+  "host_boot_local": "2026-11-04 11:11:18 Asia/Shanghai",
+  "checks": [
+    {
+      "requested_uuid": "GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0",
+      "boot_id": "31b0d965-1578-4ed7-a922-6d28efa6be7f",
+      "timestamp_utc": "2026-11-04T03:38:55Z",
+      "uptime_seconds": 1657.65,
+      "cuInit": 0,
+      "uvm_open": "OK",
+      "gpu": {
+        "uuid": "GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0",
+        "logical_device": 0,
+        "name": "NVIDIA H100 80GB HBM3",
+        "memory_bytes": 84929347584,
+        "torch": "2.6.0+cu124",
+        "cuda_runtime": "12.4"
+      },
+      "forward_backward_finite": true,
+      "elapsed_seconds": 8.217730906000043,
+      "peak_memory_bytes": 71041536
+    },
+    {
+      "requested_uuid": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+      "boot_id": "31b0d965-1578-4ed7-a922-6d28efa6be7f",
+      "timestamp_utc": "2026-11-04T03:38:55Z",
+      "uptime_seconds": 1657.65,
+      "cuInit": 0,
+      "uvm_open": "OK",
+      "gpu": {
+        "uuid": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+        "logical_device": 0,
+        "name": "NVIDIA H100 80GB HBM3",
+        "memory_bytes": 84929347584,
+        "torch": "2.6.0+cu124",
+        "cuda_runtime": "12.4"
+      },
+      "forward_backward_finite": true,
+      "elapsed_seconds": 8.218997209000008,
+      "peak_memory_bytes": 71041536
+    },
+    {
+      "requested_uuid": "GPU-70b6fceb-c7c4-9467-3c81-097c9284c160",
+      "boot_id": "31b0d965-1578-4ed7-a922-6d28efa6be7f",
+      "timestamp_utc": "2026-11-04T03:38:55Z",
+      "uptime_seconds": 1657.65,
+      "cuInit": 0,
+      "uvm_open": "OK",
+      "gpu": {
+        "uuid": "GPU-70b6fceb-c7c4-9467-3c81-097c9284c160",
+        "logical_device": 0,
+        "name": "NVIDIA A800 80GB PCIe",
+        "memory_bytes": 84974239744,
+        "torch": "2.6.0+cu124",
+        "cuda_runtime": "12.4"
+      },
+      "forward_backward_finite": true,
+      "elapsed_seconds": 8.156602566999936,
+      "peak_memory_bytes": 20972032
+    }
+  ],
+  "other_compute_processes_unchanged": true,
+  "other_process_memory_MiB": {
+    "24493": [
+      "GPU-afc40fcf-3e50-8388-a0e5-29cbbd9fd57c",
+      59484
+    ],
+    "24492": [
+      "GPU-7495c722-c917-4f31-1d27-8432fee43245",
+      59120
+    ],
+    "24494": [
+      "GPU-4a54bdbd-11dd-f819-59c1-ea9a1c07d09e",
+      59120
+    ],
+    "24495": [
+      "GPU-8b21ba1a-8c04-a939-e9c5-e68210a0501a",
+      59120
+    ]
+  },
+  "system_mutations_this_turn": [],
+  "old_failure": "/dev/nvidia-uvm open EIO and cuInit999 in previous session",
+  "causal_limit": "Host restart preceded this connection. Old kernel log unavailable without admin; initiating cause of old UVM error not established.",
+  "diagnosis": "Old failure occurred before model execution and no longer reproduces with unchanged550.135 driver and existing2.6.0+cu124 environment."
+}

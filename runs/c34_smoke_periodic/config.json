@@ -1,0 +1,27 @@
+{
+  "mode": "periodic",
+  "members": 8,
+  "width": 512,
+  "steps": 30,
+  "batch": 4096,
+  "name": "c34_smoke_periodic",
+  "smoke": true,
+  "gpu": {
+    "uuid": "GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0",
+    "logical_device": 0,
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_bytes": 84929347584,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "seed": 20261205,
+  "features": 294,
+  "train_rows": 32768,
+  "dev_rows": 32768,
+  "parameters": 1983520,
+  "targets": "(PL-FSPL)/20, separate valid mask per band",
+  "normalization": "FIT only",
+  "official_VAL_used": false,
+  "architecture": "Independent implementation of numerical embeddings and BatchEnsemble-style MLP; 3 hidden layers",
+  "selection": "mean of band RMSE on same sampled DEV as C10; patience6000 steps; no official validation selection"
+}

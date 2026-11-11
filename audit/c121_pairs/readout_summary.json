@@ -1,0 +1,74 @@
+{
+  "old": [
+    {
+      "mode": "old",
+      "band": 0,
+      "conditional_sign_accuracy": 0.6659438722321838,
+      "majority_accuracy": 0.6141528710228932,
+      "logloss": 0.5492393756390277,
+      "trees": 363,
+      "seconds": 8.137267842015717,
+      "oracle_gate": true,
+      "official_val_used": false
+    },
+    {
+      "mode": "old",
+      "band": 1,
+      "conditional_sign_accuracy": 0.6329427544196271,
+      "majority_accuracy": 0.593766882137069,
+      "logloss": 0.5858422575018974,
+      "trees": 123,
+      "seconds": 4.516269094980089,
+      "oracle_gate": true,
+      "official_val_used": false
+    }
+  ],
+  "mean": [
+    {
+      "mode": "mean",
+      "band": 0,
+      "conditional_sign_accuracy": 0.6658813227138151,
+      "majority_accuracy": 0.6141528710228932,
+      "logloss": 0.5483400138079981,
+      "trees": 357,
+      "seconds": 9.29117852798663,
+      "oracle_gate": true,
+      "official_val_used": false
+    },
+    {
+      "mode": "mean",
+      "band": 1,
+      "conditional_sign_accuracy": 0.6280434418136771,
+      "majority_accuracy": 0.593766882137069,
+      "logloss": 0.5866508937867712,
+      "trees": 150,
+      "seconds": 5.530431432998739,
+      "oracle_gate": true,
+      "official_val_used": false
+    }
+  ],
+  "donor": [
+    {
+      "mode": "donor",
+      "band": 0,
+      "conditional_sign_accuracy": 0.6672991117968392,
+      "majority_accuracy": 0.6141528710228932,
+      "logloss": 0.5487282604527054,
+      "trees": 429,
+      "seconds": 13.753981456015026,
+      "oracle_gate": true,
+      "official_val_used": false
+    },
+    {
+      "mode": "donor",
+      "band": 1,
+      "conditional_sign_accuracy": 0.6293846984966748,
+      "majority_accuracy": 0.593766882137069,
+      "logloss": 0.5878245940954052,
+      "trees": 107,
+      "seconds": 6.872731160983676,
+      "oracle_gate": true,
+      "official_val_used": false
+    }
+  ]
+}

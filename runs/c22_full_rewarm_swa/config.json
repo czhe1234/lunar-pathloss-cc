@@ -1,0 +1,23 @@
+{
+  "sources": {
+    "4000": {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/audit/c22_scale_diagnosis_20261101/late_checkpoints/c22_full_rewarm/4000.pt",
+      "sha256": "754e5c9b072ac4c5978df1d3d9e8bb2c476d3566fc744397e70d332a2f16f3f3"
+    },
+    "5000": {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/audit/c22_scale_diagnosis_20261101/late_checkpoints/c22_full_rewarm/5000.pt",
+      "sha256": "2a86c921e8d062d3bb444c8b3d16e258845e38755d2296ddd1319c8fbdb4add4"
+    },
+    "6000": {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/audit/c22_scale_diagnosis_20261101/late_checkpoints/c22_full_rewarm/6000.pt",
+      "sha256": "a70dbd97e9e8e9e3a479e39d042f986c3a522484a792ee58003a0c05c0c4635f"
+    }
+  },
+  "averaged_steps": [
+    4000,
+    5000,
+    6000
+  ],
+  "parameters_updated": false,
+  "selection": "fixed arithmetic mean of4000,5000,6000 weights; selected prospectively before5000/6000 evaluation"
+}

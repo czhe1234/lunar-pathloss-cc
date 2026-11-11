@@ -1,0 +1,161 @@
+"""Consolidate the diagnostic evidence without turning negative probes into noise bounds."""
+import os
+os.environ['CUDA_VISIBLE_DEVICES']=''
+from pathlib import Path
+import json,csv,hashlib,shutil
+import numpy as np
+R=Path(__file__).resolve().parents[1];O=R/'audit/c18_identifiability_20261101'
+a=json.loads((O/'identical_input_audit.json').read_text());d=json.loads((O/'duplicate_prediction_decomposition.json').read_text())
+p=json.loads((O/'residual_probe/result.json').read_text());man=json.loads((O/'residual_probe/manifest.json').read_text())
+c=json.loads((O/'terrain_crossover/result.json').read_text());cm=json.loads((O/'terrain_crossover/manifest.json').read_text())
+sp=json.loads((O/'spatial_observation_control.json').read_text());co=json.loads((O/'conditional_privileged_control.json').read_text());v=json.loads((O/'verification.json').read_text())
+rows=list(csv.DictReader((R.parent/'data/train_index.csv').open()))
+# Most diagnostic existing examples, selected for source investigation only.
+rank=sorted(d['records'],key=lambda r:sum(r['zones']['occluded_proxy'][b]['model_SSE']/max(1,r['zones']['occluded_proxy'][b]['observations']) for b in ['415','58']),reverse=True)
+selected=[]
+for r in rank[:2]:
+ selected.append({'reason':'large frozen model error at exactly repeated input','index_rows':r['index_rows'],'sample_ids':[rows[i]['sample_id'] for i in r['index_rows']],'terrain_id':r['terrain_id']})
+for r in [a['records'][0],a['records'][-1]]:
+ if not any(z['index_rows']==r['index_rows'] for z in selected):selected.append({'reason':'nonzero duplicate-label difference, for distinguishing seed/export changes','index_rows':r['index_rows'],'sample_ids':r['sample_ids'],'terrain_id':r['terrain_ids'][0]})
+needed={'scope':'A concrete source-record request and decisive test design; nothing sent and no new propagation simulation launched.',
+ 'selected_cases':selected,
+ 'records_needed':['Exact terrain and RX mesh vertices, triangle indices and all coordinate transforms used for each selected sample',
+ 'Actual TX three-dimensional coordinates and antenna configuration before integer-index export',
+ 'Per-seed pre-interpolation cell_centers, path_gain, triangle IDs and validity; exact seeds and averaging/stopping schedule',
+ 'Exact aggregation/interpolation/flip/fill export parameters and mapping from these original records to released sample_id'],
+ 'tests':[
+ {'name':'Export replay','hold_fixed':'Recorded original powers, mesh and TX','change':'Reproduce only the official export steps','decision':'A discrepancy beyond final dtype quantization identifies an export/alignment problem, not an ML fitting problem.'},
+ {'name':'Independent-seed variation','hold_fixed':'Actual mesh, TX, frequency and fixed sampling budget','change':'Use genuinely independent already-recorded seed groups, applying exactly the same export and common validity mask','decision':'Measures seed variation. Identical or shared seed schedules must not be used as independent noise replicates.'},
+ {'name':'Published-input ambiguity','hold_fixed':'Exactly identical released H and TX','change':'Compare original physical states only where different states actually occur under the real generator','decision':'If Y differs materially beyond seed/export uncertainty for identical published inputs, omitted case-specific physics is demonstrated. Hypothetical alternate meshes outside the real generator do not establish this.'},
+ {'name':'Representation versus raw-data sufficiency','hold_fixed':'Same terrain-disjoint splits, target maps, learner budget and inference information rule','change':'Compare current descriptors, descriptors reconstructed from H using verified generator rules, and actual original-state descriptors','decision':'Gains from reconstructible descriptors show representation/model insufficiency. Gains from actual-state descriptors alone identify useful omitted information, but require checking whether those states are deterministically reconstructible from H before calling it fundamental information loss.'}],
+ 'current_block':'Original meshes, actual TX coordinates and pre-interpolation per-seed fields were not found in the prior official-source/server audit. This turn does not invent substitutes or claim those decisive interventions were executed.'}
+(O/'decisive_followup_requirements.json').write_text(json.dumps(needed,ensure_ascii=False,indent=2)+'\n')
+B=['415','58']
+main=p['statistics'];cross=c['statistics']
+def pair(stats,zone,keyfmt='{b}_band_valid'):
+ return [stats[zone][keyfmt.format(b=b)]['RMSE'] for b in B]
+assert not any(x['existing_information_predictability_supported'] for x in p['decision'].values())
+summary={'state':'diagnostic_controls_completed_root_cause_not_fully_identified',
+ 'question':'Is occluded error missed learning or missing physical input?',
+ 'judgment':'Existing controls localize a short-range, band-dependent residual structure. They do not establish that missing irrecoverable raw physical information dominates, and do not establish that current inputs suffice. Failure of a finite probe is not an information-theoretic bound.',
+ 'confirmed':{
+ 'repeat_pairs':a['identical_H_TX_groups'],'repeat_terrains_base_fit_unseen':d['duplicate_terrain_counts'],
+ 'duplicate_occluded_model_RMSE':[d['pooled']['all']['occluded_proxy'][b]['model_RMSE'] for b in B],
+ 'duplicate_empirical_inconsistency_RMSE':[d['pooled']['all']['occluded_proxy'][b]['empirical_inconsistency_RMSE'] for b in B],
+ 'same_input_probe_occluded_C10':pair(main['C10'],'occluded_proxy'),
+ 'same_input_probe_occluded_corrected':pair(main['same_C10_inputs'],'occluded_proxy'),
+ 'extra_geometry_probe_occluded_corrected':pair(main['C10_plus_receiver_geometry'],'occluded_proxy'),
+ 'heldout_TX_crossover_occluded_C10':[cross['C10']['occluded_proxy'][b]['RMSE'] for b in B],
+ 'heldout_TX_crossover_same_terrain':[cross['same_terrain_other_TX_support']['occluded_proxy'][b]['RMSE'] for b in B],
+ 'crossband_correlation_height_sensitive':co['zones']['height_sensitive']['confirmation_residual_correlation'],
+ 'crossband_correlation_nominal_blocked':co['zones']['nominal_blocked']['confirmation_residual_correlation'],
+ 'same_band_local_oracle_SSE_reduction_percent':[sp['statistics']['residual_interpolation_radius1']['occluded_proxy'][b]['SSE_reduction_percent'] for b in B]},
+ 'not_established':['A dominant irreducible noise floor','Sufficiency of the released raw heightmap/TX','A dominant hidden-mesh or hidden-TX contribution','An effective new competition model'],
+ 'official_score_unchanged':{'combined_RMSE':3.1775908265908654,'415_RMSE':2.96720214449994,'58_RMSE':3.3879795086817914},
+ 'constraints':'All files inCC; no new officialVAL evaluation, no website submission, no long training, no new simulation. Diagnostic CPU fits fixed in advance. Only frozen9-map inference used GPU3.',
+ 'verification':v['checks'],'maximum_independent_score_difference':v['max_saved_prediction_RMSE_difference_db']}
+(O/'summary.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n')
+report=f"""# C18：遮挡误差的可学习性与输入可辨识性对照
+
+本轮完成了对照，但**仍不能严格判定“模型没学会”和“原始输入缺信息”哪一个占主导**。可以确认的是：剩余误差含有明显的米级空间结构，而且在遮挡内部明显依赖频段。当前输入描述与固定诊断学习器没有可靠恢复这部分结构。不能把有限模型的失败写成输入不足的证明，也不能把标签局部可预测写成可由高度图预测。
+
+这次不训练新参赛版本。C10保持冻结。新结果均为诊断指标，官方固定验证综合RMSE仍为3.1775908266 dB，分频2.967202 /3.387980 dB。
+
+## 1. 完全相同输入：直接检查标签冲突
+
+扫描全部25,720张官方TRAIN图、6,120张高度图。高度图按完整float32字节哈希，TX按完整整数坐标匹配。找到9对完全相同H+TX的样本，涉及9块地形。其中8块进入过C10拟合，1块没有。所有比较只用两个副本共同有效的接收像素。
+
+| 重复输入的遮挡候选区 | 415 MHz | 5.775 GHz |
+|---|---:|---:|
+| C10 RMSE | 5.049650 | 5.815577 |
+| 两副本不能同时拟合的最小经验RMSE | 0.016194 | 0.064227 |
+| 该冲突占C10平方误差 | 0.00103% | 0.01220% |
+
+这里有一个精确分解：两个标签的均值记为m，则总误差等于“模型偏离m的误差”加“标签偏离m的误差”。在这些重复输入上，后一项很小。大误差主要是模型对相同结果持续失配。
+
+限制：只有9块多TX地形，其中仅1块未参与C10拟合。副本可能共享仿真种子或原始结果，因此这不是独立种子噪声估计，不能推广成全数据的不可约噪声下限。记录：identical_input_audit.json、duplicate_prediction_decomposition.json。
+
+## 2. 未参与基模型拟合的残差：检查现有信息是否可预测
+
+此前残差修正主要使用C10训练内误差，其失败不能可靠说明新地形误差不可预测。本轮固定C10，在未进入其权重拟合的612块内部DEV地形中，按固定种子分306块校准、306块确认。原DEV以前用于过选型与诊断，这里不称全新盲测。
+
+使用原有每图256个均匀采样点。两个频段各400棵树、31叶、同样超参数，不用确认集早停。比较原有294个输入、增加103个接收细几何输入，以及打乱校准残差的阴性对照。掩码只用于损失和计分。按地形整体重采样1000次计算配对95%区间。
+
+遮挡候选区由输入几何预先定义：TX2m假设的最大遮挡量非负，包含高度敏感区与TX3m几何遮挡区；它不是真实射线路径标注。
+
+| 同一306块确认地形的遮挡候选区 | 415 MHz RMSE | 5.775 GHz RMSE |
+|---|---:|---:|
+| 固定C10 | 4.678991 | 6.317872 |
+| 现有294个输入预测残差 | 4.693239 | 6.460353 |
+| 增加接收细几何 | 4.664496 | 6.393578 |
+| 打乱残差对照 | 4.681524 | 6.321933 |
+
+现有输入修正的平方误差变化为恶化0.61% /4.56%。细几何相对C10为改善0.62% /恶化2.41%，95%区间分别[-0.25%,1.47%]、[-5.67%,0.67%]。细几何相对“现有输入修正器”有小增量，但未带来相对C10的可靠双频收益。均未通过预定“遮挡平方误差下降至少5%，且95%区间下限>0”的门槛。
+
+这否定了本次固定残差修正方案，不证明所有学习器或所有从H提取的表征都无效。记录：residual_probe/protocol来源、manifest.json、result.json和保存预测。
+
+## 3. 固定待测TX：同地形其他TX能否提供可迁移校准
+
+对39块内部DEV多TX地形，先去掉重复TX坐标，再在每块地形内固定分校准TX和待测TX。两组地形交叉训练：同一个待测TX，分别接受“用本地形其他TX校准”的模型和“仅用别的地形校准”的模型。待测TX标签从未参与拟合。同输入、同学习器、相同校准点数；按地形做配对区间。
+
+| 相同待测TX的遮挡候选区 | 415 MHz RMSE | 5.775 GHz RMSE |
+|---|---:|---:|
+| 固定C10 | 4.842169 | 6.448070 |
+| 同地形其他TX校准 | 4.892949 | 6.456790 |
+| 别的地形校准 | 4.872563 | 6.573748 |
+| 同地形常量偏差校准 | 4.843949 | 6.438187 |
+
+整体没有可靠改善。5.775GHz的TX3m几何遮挡子区，同地形校准比别的地形校准好，但相对原C10的改善只有1.99%，95%区间[-0.23%,4.38%]。不能只挑前一个比较宣称有效。0–8、8–16、16–32、32米以上的全部距离分组均已保存。
+
+本对照没有证明“只差一个地形偏差”或“只要给同地形几个TX就能恢复”。即使它成功，也仍需排除隐含的固定地形参数被额外标签校准的可能。记录：terrain_crossover/。
+
+## 4. 两类额外观测参照：把残差结构与输入充分性分开
+
+这些参照使用真实标签，不允许用于比赛推理，只用于诊断。
+
+**另一频段的真实残差。** 先在校准地形拟合线性关系，再在确认地形评价。双频残差在高度敏感区相关系数0.771，在TX3m几何遮挡区只有0.179。按几何区分别校准后，另一频段观测可减少高度敏感区约59.5%–59.7%的平方误差，而几何遮挡区仅2.3%–3.2%。
+
+因此，全局共同残差较多不能被直接解释为“遮挡内部主要都是共同几何误差”。边界附近与遮挡内部需要分开研究。该相关性也不能单独确定反射、折射或观测网格的因果贡献。记录：conditional_privileged_control.json。
+
+**同频邻近接收点。** 在既有128块DEV地形中固定每图225个待测位置，仅使用四个对角邻点标签。待测位置标签不参与计算。所有距离使用完全相同的有效像素交集。
+
+| 四邻点行列偏移d；实际距离sqrt(2)d | 415 MHz RMSE | 5.775 GHz RMSE |
+|---|---:|---:|
+| 无邻点观测，C10 | 4.064690 | 6.257278 |
+| d=1米 | 2.507588 | 3.412046 |
+| d=2米 | 3.335153 | 4.546278 |
+| d=4米 | 3.799195 | 5.233060 |
+| d=8米 | 4.091555 | 5.754226 |
+
+d=1的平方误差下降61.94% /70.27%，按地形配对95%区间[54.38%,68.91%] /[57.96%,79.72%]。在待测点和全部邻点都属于TX3m几何遮挡区的更严格子集，仍下降56.70% /59.19%。
+
+这确认了短距离空间相关结构。它不证明H能恢复该结构，且原始三角单元噪声经过插值后也可能具有空间相关性。要求所有邻点有效，会筛选接收位置：主表低/高频最终8286/3931点，原有效待测点9142/5634；更严格子集4307/997点。不能把这些局部参照数值称为官方分数或噪声下限。记录：spatial_observation_control.json。
+
+## 5. 当前可作出的判断
+
+1. **已确认**：重复样本没有表现出足以解释其5–6dB模型误差的大规模标签冲突；遮挡残差含米级空间结构；高度敏感区和遮挡内部的双频关联不同。
+2. **未获支持**：固定现有特征的通用残差修正、这组接收细几何增量、同地形其他TX校准，能可靠恢复主要误差。
+3. **仍未辨识**：米级结构是公开H中存在但尚未被模型提取的传播结构，还是实际网格、连续TX及接收单元记录中存在而H没有保留的信息。现有数据不能给出二者占比。
+
+当前应把问题表述为：**遮挡内部的、随TX与频段变化的细尺度功率结构未被现有表示和模型恢复。** 不能进一步把它直接等同于“原始数据缺信息”，也不能继续以“多训练就会好”为依据追加训练。
+
+严格区分需要两类证据之一：在新地形上，从现有合法输入稳定恢复这部分残差；或在真实生成流程中，发现相同发布输入、不同未记录物理状态造成超出独立种子波动的标签差异。后者所需原始网格、实际TX和逐种子插值前记录在此前来源核查中未找到。本轮已列出具体样本和逐项对照，见decisive_followup_requirements.json；没有向外发送或启动新仿真。
+
+发布metadata明确包含镜面反射、漫反射和折射，不含绕射。下一步物理归因应核对这些实际机制与接收单元插值，不能仅凭误差形状断言绕射或相干干涉。
+
+## 验证和文件
+
+所有新增文件均在CC。诊断树只在CPU做固定短拟合；GPU仅实体3完整UUID，用于9个重复输入的冻结C10推理。没有新的官方验证、网站提交或长训练队列。原始18文件大小/mtime及C10拟合权重SHA256不变。
+
+独立读取保存预测后，分区计分与主程序的最大RMSE差为{v['max_saved_prediction_RMSE_difference_db']:.3g} dB。校准/确认地形互斥、校准/待测TX互斥、重复输入剔除均核验通过。协议、脚本、预测和来源哈希保存在audit/c18_identifiability_20261101/，总表summary.json，核验verification.json。
+"""
+reportpath=R/'results/C18遮挡误差可辨识性对照_20261101.md';reportpath.write_text(report)
+pstatus=R/'STATUS.md';s=pstatus.read_text();start=s.index('当前工作：');end=s.index('\n已核验版本',start)
+s=s[:start]+"""当前工作：C18遮挡误差可辨识性对照已完成，严格的“模型未学会/原始输入缺信息”主因归属仍未完全辨识。
+9对相同H+TX的遮挡区：C10误差5.05/5.82dB，标签冲突对应最小经验误差0.016/0.064dB；重复种子不独立，不能作为全局噪声下限。
+306/306地形的训练外残差对照、接收细几何增量、39地形的待测TX交叉对照均未得到可靠双频改善。短距离同频标签参照可消除局部遮挡子集62%/70%平方误差，表明残差含米级结构，但不证明可由H恢复。
+高度敏感区双频残差相关0.771，TX3m几何遮挡区仅0.179；不能把全局共同残差直接归因为遮挡内部共同几何误差。
+报告：results/C18遮挡误差可辨识性对照_20261101.md。证据：audit/c18_identifiability_20261101/。没有新官方分数，没有参赛模型训练队列。下一步严格归因所需原始记录与可执行对照已列出，未对外发送。
+""" +s[end:];pstatus.write_text(s)
+source=O/'source';shutil.copy2(Path(__file__),source/Path(__file__).name)
+print(json.dumps({'report':str(reportpath),'judgment':summary['judgment'],'decisive_cases':selected,'official_score_unchanged':summary['official_score_unchanged'],'diagnostic_seconds':{'main_residual':p['seconds'],'crossover':c['seconds'],'frozen_GPU':d['seconds']},'frozen_GPU_peak_GB':d['GPU_peak_GB']},ensure_ascii=False,indent=2))

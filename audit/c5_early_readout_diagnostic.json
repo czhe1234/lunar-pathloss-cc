@@ -1,0 +1,78 @@
+{
+  "checkpoint_epoch": 2,
+  "scope": "four fixed FIT inputs, CPU FP32 diagnostic, not a score",
+  "results": [
+    {
+      "index_row": 0,
+      "sample_id": "00000_00",
+      "visibility_mean": 0.7445772886276245,
+      "visibility_lt_001_fraction": 0.2444305419921875,
+      "visibility_gt_099_fraction": 0.725433349609375,
+      "calibration_mean": 0.16629524528980255,
+      "calibration_min_max": [
+        -0.488868772983551,
+        1.407993197441101
+      ],
+      "power_domain_weight_mean": 0.47320830821990967,
+      "direct_excess_min_mean_max": [
+        -2.4449820518493652,
+        0.9029952883720398,
+        13.171368598937988
+      ]
+    },
+    {
+      "index_row": 500,
+      "sample_id": "00073_35",
+      "visibility_mean": 0.8953163623809814,
+      "visibility_lt_001_fraction": 0.0930023193359375,
+      "visibility_gt_099_fraction": 0.86737060546875,
+      "calibration_mean": 0.03546183556318283,
+      "calibration_min_max": [
+        -0.5054623484611511,
+        1.41878342628479
+      ],
+      "power_domain_weight_mean": 0.4916488528251648,
+      "direct_excess_min_mean_max": [
+        -2.6712071895599365,
+        0.28502777218818665,
+        13.523075103759766
+      ]
+    },
+    {
+      "index_row": 1000,
+      "sample_id": "00176_45",
+      "visibility_mean": 0.8919737339019775,
+      "visibility_lt_001_fraction": 0.0947723388671875,
+      "visibility_gt_099_fraction": 0.8690643310546875,
+      "calibration_mean": 0.10209150612354279,
+      "calibration_min_max": [
+        -0.46357789635658264,
+        1.400048017501831
+      ],
+      "power_domain_weight_mean": 0.4829246997833252,
+      "direct_excess_min_mean_max": [
+        -2.432338237762451,
+        0.5597654581069946,
+        12.895753860473633
+      ]
+    },
+    {
+      "index_row": 1500,
+      "sample_id": "00328_08",
+      "visibility_mean": 0.7351112365722656,
+      "visibility_lt_001_fraction": 0.2560272216796875,
+      "visibility_gt_099_fraction": 0.7135009765625,
+      "calibration_mean": 0.06679942458868027,
+      "calibration_min_max": [
+        -0.5211601853370667,
+        1.4085177183151245
+      ],
+      "power_domain_weight_mean": 0.4871886968612671,
+      "direct_excess_min_mean_max": [
+        -2.707061767578125,
+        0.3937491476535797,
+        13.028825759887695
+      ]
+    }
+  ]
+}

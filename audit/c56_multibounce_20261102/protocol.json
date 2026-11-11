@@ -1,0 +1,14 @@
+{
+  "question": "Does multi-hop illumination of surfaces explain shadow residuals left by directTX-to-surface-to-RX transport?",
+  "evidence": "Official renderer includes up to100 interactions. C49 one-bounce branch improved high band~.1dB but stalled; C54 fixed-band fullDEV64 gains .109/.083dB. CoarseH-only graph prototype generates nonzero secondary illumination on unlit surfaces.",
+  "operator": "32x32terrain nodes,128nearest-neighbor edges/node,128terrain samples/edge; diffuse nonnegative transfer K, row cap.95. Solve B=rho(E+KB) for4rho and two TXheight candidates. No inter-path phase or diffraction model.",
+  "new_inputs": "8log10radiance channels plus2direct irradiance channels, sampled in linear power at receiver-centered surface nodes. All H/TX-only; no target masks.",
+  "network": "Warm C49 directional cross-attention; append18radiance/enhancement features with zero new input weights; trainable band transport-bias gamma initially0. Initial function equals parent up to numerical precision.",
+  "parent": "c49_transport_full/best.pt",
+  "data": "Same5508FITterrains, sampledDEV612; no officialVAL training/selection",
+  "budget": "Probe then8000updates,2048batch,lr3e-4; warm-start and normal mean-band selection; stop3000 no improvement after4000.",
+  "promotion": "Whole fixed-band predictor must improve both sampledDEV by>=.10dB vsC38, then fullDEV64. FullDEV64 joint>=.10 before broader confirmation.",
+  "limitations": "Coarse candidate diffuse operator, not true simulator mesh, material or full specular/refraction paths. No claim that prototype power gain is prediction-score gain.",
+  "GPU": "Only1/3/4fullUUID",
+  "seed": 20261203
+}

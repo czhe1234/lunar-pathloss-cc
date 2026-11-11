@@ -1,0 +1,35 @@
+{
+  "question": "Does explicitly retaining global terrain modal coefficients explain C82 residuals beyond local geometry?",
+  "arms": [
+    "local",
+    "terrain"
+  ],
+  "features": 235,
+  "shared": 169,
+  "terrain_modes": 64,
+  "extra66": "heightmean,std,64PCA coefficients ofnormalized32x32meanpooledterrain; noD4invariance imposed",
+  "baseline": "SameC82/point pool/protocol asC101. Original C90C54 fields replaced withC82 in all splits.",
+  "PCA_fit": "5508FIT H only, noPL/masks; explains99.2percent normalized32x32terrain variance, not all nativegeometry variance.",
+  "architecture": "8member512numeric residual,zero correction. Identical params/init/budget; only actual66globalcoefficients versus constants.",
+  "steps": 2000,
+  "batch": 16384,
+  "initial_state_sha256": "9409757854212b14512958ca2a5033e3028c1978e3d4a1b5fa1802d3102053d7",
+  "parameters": 1698904,
+  "seeds": {
+    "initial": 103041,
+    "sampling": 103073
+  },
+  "selection": "minjointmean128monitorRMSE includingC82;freeze choicebefore484terrainconfirm",
+  "fit_terrains": 1984,
+  "fit_points": 4323840,
+  "monitor_terrains": 128,
+  "confirmation_terrains": 484,
+  "confirmation_points_permap": 2048,
+  "promotion": "bothband confirmationgains>=.30dB plus positivepaired95CI, then fullnative check before expansion",
+  "official_target": "both official fixedVAL RMSE<=1dB",
+  "official_val_used": false,
+  "GPU": {
+    "local": 4,
+    "terrain": 1
+  }
+}

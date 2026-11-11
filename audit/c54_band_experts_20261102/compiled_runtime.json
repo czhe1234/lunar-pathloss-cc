@@ -1,0 +1,87 @@
+{
+  "gpu": {
+    "uuid": "GPU-70b6fceb-c7c4-9467-3c81-097c9284c160",
+    "logical_device": 0,
+    "name": "NVIDIA A800 80GB PCIe",
+    "memory_bytes": 84974239744,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "mode": "torch.compile default fullgraph=True dynamic=False;BF16correction4096;teacherBF164096",
+  "uncompiled_canonical_seconds": [
+    3.0243557728827,
+    2.2826301334425807
+  ],
+  "uncompiled_BF16": [
+    {
+      "index": 0,
+      "seconds": 1.0354833016172051,
+      "RMSE": [
+        1.8586973827342952,
+        2.0262964326222104
+      ]
+    },
+    {
+      "index": 154,
+      "seconds": 1.0325526604428887,
+      "RMSE": [
+        1.5368019201676495,
+        1.6331688334040197
+      ]
+    }
+  ],
+  "records": [
+    {
+      "index": 0,
+      "all_seconds": [
+        34.70615661889315,
+        0.6417980762198567,
+        0.566064927726984,
+        0.5160020682960749
+      ],
+      "warm_seconds_both_bands": 0.5746216907476386,
+      "RMS_diff_db": [
+        0.007610831541751655,
+        0.009051551670100704
+      ],
+      "max_abs_diff_db": 0.13837432861328125,
+      "RMSE": [
+        1.8586761446291569,
+        2.026111962043287
+      ],
+      "RMSE_delta_vs_canonical": [
+        -2.589026486132795e-05,
+        -0.00011782829595263777
+      ]
+    },
+    {
+      "index": 154,
+      "all_seconds": [
+        0.5147500541061163,
+        0.5131209529936314,
+        0.5624200934544206,
+        0.5304966904222965
+      ],
+      "warm_seconds_both_bands": 0.5353459122901162,
+      "RMS_diff_db": [
+        0.005118294064895831,
+        0.008415269401994139
+      ],
+      "max_abs_diff_db": 0.11107635498046875,
+      "RMSE": [
+        1.5368310011712742,
+        1.6331803440914796
+      ],
+      "RMSE_delta_vs_canonical": [
+        0.00011495807190176066,
+        6.373308607443562e-05
+      ]
+    }
+  ],
+  "seconds_including_compile": 38.56108593940735,
+  "two_different_FIT_terrains": true,
+  "fixed_buffer_addresses": true,
+  "official_VAL_used": false,
+  "both_maps_under_500ms": false,
+  "limit": "FIT numerical QA only; no full DEV compiled replay or official hardware test"
+}

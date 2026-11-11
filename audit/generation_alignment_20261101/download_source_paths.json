@@ -1,0 +1,42 @@
+[
+  {
+    "file": "/home/chenzhe/work/kaggle_data_dl.log",
+    "source_urls_without_query": []
+  },
+  {
+    "file": "/home/chenzhe/work/aria2_lunar.log",
+    "source_urls_without_query": []
+  },
+  {
+    "file": "/tmp/lunar_aria2.txt",
+    "source_urls_without_query": [
+      "https://www.kaggle.com/api/v1/competitions/data/download/the-first-lunar-pathloss-radio-map-prediction-challenge/sample_submission.csv",
+      "https://www.kaggle.com/api/v1/competitions/data/download/the-first-lunar-pathloss-radio-map-prediction-challenge/train_hm.npy",
+      "https://www.kaggle.com/api/v1/competitions/data/download/the-first-lunar-pathloss-radio-map-prediction-challenge/train_mask415.npy",
+      "https://www.kaggle.com/api/v1/competitions/data/download/the-first-lunar-pathloss-radio-map-prediction-challenge/train_mask58.npy",
+      "https://www.kaggle.com/api/v1/competitions/data/download/the-first-lunar-pathloss-radio-map-prediction-challenge/train_pl415.npy",
+      "https://www.kaggle.com/api/v1/competitions/data/download/the-first-lunar-pathloss-radio-map-prediction-challenge/train_pl58.npy",
+      "https://www.kaggle.com/api/v1/competitions/data/download/the-first-lunar-pathloss-radio-map-prediction-challenge/val_hm.npy",
+      "https://www.kaggle.com/api/v1/competitions/data/download/the-first-lunar-pathloss-radio-map-prediction-challenge/val_mask415.npy",
+      "https://www.kaggle.com/api/v1/competitions/data/download/the-first-lunar-pathloss-radio-map-prediction-challenge/val_mask58.npy",
+      "https://www.kaggle.com/api/v1/competitions/data/download/the-first-lunar-pathloss-radio-map-prediction-challenge/val_pl415.npy",
+      "https://www.kaggle.com/api/v1/competitions/data/download/the-first-lunar-pathloss-radio-map-prediction-challenge/val_pl58.npy"
+    ]
+  },
+  {
+    "file": "/tmp/lunar_gcs.txt",
+    "source_urls_without_query": [
+      "https://storage.googleapis.com:443/kagglesdsdata/competitions/160486/20320008/sample_submission.csv",
+      "https://storage.googleapis.com:443/kagglesdsdata/competitions/160486/20320008/train_hm.npy",
+      "https://storage.googleapis.com:443/kagglesdsdata/competitions/160486/20320008/train_mask415.npy",
+      "https://storage.googleapis.com:443/kagglesdsdata/competitions/160486/20320008/train_mask58.npy",
+      "https://storage.googleapis.com:443/kagglesdsdata/competitions/160486/20320008/train_pl415.npy",
+      "https://storage.googleapis.com:443/kagglesdsdata/competitions/160486/20320008/train_pl58.npy",
+      "https://storage.googleapis.com:443/kagglesdsdata/competitions/160486/20320008/val_hm.npy",
+      "https://storage.googleapis.com:443/kagglesdsdata/competitions/160486/20320008/val_mask415.npy",
+      "https://storage.googleapis.com:443/kagglesdsdata/competitions/160486/20320008/val_mask58.npy",
+      "https://storage.googleapis.com:443/kagglesdsdata/competitions/160486/20320008/val_pl415.npy",
+      "https://storage.googleapis.com:443/kagglesdsdata/competitions/160486/20320008/val_pl58.npy"
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "band": "415",
+    "pid": 2057110,
+    "CPU_threads": 12,
+    "GPU_used": false
+  },
+  {
+    "band": "58",
+    "pid": 2057111,
+    "CPU_threads": 12,
+    "GPU_used": false
+  }
+]

@@ -1,0 +1,74 @@
+{
+  "state": "completed",
+  "scope": "small terrain-disjoint dense internalDEV pilot only; not official score",
+  "baseline": {
+    "fit": {
+      "rmse": [
+        2.7247421450219083,
+        3.049021900092508
+      ],
+      "valid_pixels": [
+        33324282.0,
+        29786911.0
+      ]
+    },
+    "dev": {
+      "rmse": [
+        2.950714830863171,
+        3.541784157593353
+      ],
+      "valid_pixels": [
+        8330967.0,
+        7234074.0
+      ]
+    }
+  },
+  "results": {
+    "point": {
+      "dev_RMSE": [
+        2.9507221155268035,
+        3.5416403988572465
+      ],
+      "fit_RMSE": [
+        2.7246196101606963,
+        3.0489331283936614
+      ],
+      "relative_RMSE_reduction_percent": [
+        -0.000246877927878586,
+        0.0040589355451925435
+      ],
+      "best_epoch": 1,
+      "last_epoch": 10,
+      "valid_DEV_pixels": [
+        8330967.0,
+        7234074.0
+      ],
+      "weights_sha256": "b452ff266d64cd0394ab3708e49bdf793f55d2dd2c0f49fee78368df946e06d9"
+    },
+    "spatial": {
+      "dev_RMSE": [
+        2.9230796258413947,
+        3.480820173860395
+      ],
+      "fit_RMSE": [
+        2.6521756502769698,
+        2.8906289754950802
+      ],
+      "relative_RMSE_reduction_percent": [
+        0.936559667939596,
+        1.721278909734103
+      ],
+      "best_epoch": 18,
+      "last_epoch": 26,
+      "valid_DEV_pixels": [
+        8330967.0,
+        7234074.0
+      ],
+      "weights_sha256": "95dd47632ca7c261aa610aaf3f9bed4eb535e279344c81c20747e7b221408749"
+    }
+  },
+  "promote": false,
+  "seconds": 83.59065842628479,
+  "peak_GPU_GB": 9.7586816,
+  "source_unchanged": true
+}

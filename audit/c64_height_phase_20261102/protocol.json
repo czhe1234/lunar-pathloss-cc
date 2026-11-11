@@ -1,0 +1,8 @@
+{
+  "question": "Does a terrain-shared raster-height phase explain large residuals?",
+  "prediction": "C38 only,16rigid-height-translation feature counterfactuals; no training",
+  "valid_candidate": "Global delta or uniform average selected on first512FITpixels only; evaluate completeinternalDEV612sampledpoints",
+  "diagnostic": "Per-terrain phase calibrated on first512FITpixels, tested on remaining512; and on otherTX for multiTXterrains. Never a test input.",
+  "gate_for_new_training": "Only if both heldout same-terrain gains>=.3dB or crossTX gains>=.5dB; otherwise end this hypothesis.",
+  "official_VAL_used": false
+}

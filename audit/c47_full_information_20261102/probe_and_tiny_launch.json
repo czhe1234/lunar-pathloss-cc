@@ -1,0 +1,26 @@
+{
+  "c47_probe": {
+    "pid": 3352739,
+    "card": 3,
+    "args": [
+      "--scope",
+      "probe"
+    ]
+  },
+  "c47_flat_tiny": {
+    "pid": 3352740,
+    "card": 4,
+    "args": [
+      "--scope",
+      "tiny",
+      "--kind",
+      "flat",
+      "--name",
+      "c47_flat_tiny",
+      "--steps",
+      "1000",
+      "--batch",
+      "1024"
+    ]
+  }
+}

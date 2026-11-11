@@ -1,0 +1,56 @@
+{
+  "slope_0.1to0.3": {
+    "tx2.0_rx1.0": {
+      "maps": 72,
+      "cp_n": 53125,
+      "cp_hit": 51140,
+      "bp_n": 10028,
+      "bp_hit": 9495,
+      "balanced_accuracy": 0.9547420587062108
+    },
+    "tx3.0_rx1.0": {
+      "maps": 72,
+      "cp_n": 53125,
+      "cp_hit": 53115,
+      "bp_n": 10028,
+      "bp_hit": 7473,
+      "balanced_accuracy": 0.8725125835894789
+    }
+  },
+  "slope_ge0.3": {
+    "tx2.0_rx1.0": {
+      "maps": 19,
+      "cp_n": 13481,
+      "cp_hit": 13126,
+      "bp_n": 3188,
+      "bp_hit": 3062,
+      "balanced_accuracy": 0.9670717149476697
+    },
+    "tx3.0_rx1.0": {
+      "maps": 19,
+      "cp_n": 13481,
+      "cp_hit": 13481,
+      "bp_n": 3188,
+      "bp_hit": 2419,
+      "balanced_accuracy": 0.8793914680050188
+    }
+  },
+  "slope_lt0.1": {
+    "tx2.0_rx1.0": {
+      "maps": 37,
+      "cp_n": 26425,
+      "cp_hit": 25385,
+      "bp_n": 5498,
+      "bp_hit": 5239,
+      "balanced_accuracy": 0.9567676454463703
+    },
+    "tx3.0_rx1.0": {
+      "maps": 37,
+      "cp_n": 26425,
+      "cp_hit": 26421,
+      "bp_n": 5498,
+      "bp_hit": 4428,
+      "balanced_accuracy": 0.9026162020557574
+    }
+  }
+}

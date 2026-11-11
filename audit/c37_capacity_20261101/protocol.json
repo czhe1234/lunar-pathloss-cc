@@ -1,0 +1,7 @@
+{
+  "hypothesis": "Dense C35 still has FIT error around2.5/2.7dB with much smaller FIT/DEV gap; test capacity after increasing point coverage",
+  "change": "width512 to1024 only",
+  "fixed": "same dense data, numerical embedding,8members,3layers,seed,batch,20000steps,lr schedule",
+  "parent": "c35_periodic8",
+  "official_VAL_used": false
+}

@@ -1,0 +1,23 @@
+{
+  "scope": "complete internal DEV",
+  "run": "c37_wide_periodic8",
+  "split": "train",
+  "maps": 2562,
+  "terrains": 612,
+  "RMSE": [
+    2.690645907435645,
+    3.041642312198183
+  ],
+  "combined_rmse_db_masked": 2.866144109816914,
+  "valid_pixels": [
+    166639132,
+    152634019
+  ],
+  "SSE": [
+    1206396560.5712724,
+    1412107051.7577205
+  ],
+  "complete_requested_split": true,
+  "formula": "Per band sqrt(sum(valid*(prediction-label)^2)/sum(valid)); combined arithmetic mean of two band RMSE",
+  "website_submission": false
+}

@@ -1,0 +1,13 @@
+{
+  "question": "Can continued, frequency-specific optimization of the empirically complementary sequence/transport branches produce a jointly stronger complete predictor?",
+  "basis": "C47 attention still improved low-band DEV up to final12000updates, gain.080916dB; C49 transport still improved high-band up to final8000updates, gain.099125dB. Not stalled. C53 gradient conflict is not supported; this is specialization by observed representation utility, not proof of negative transfer.",
+  "low_expert": "C47 attention, parentbeststep12000; update only415MHz residual loss",
+  "high_expert": "C49 transport, parentbeststep8000; update only5.775GHz residual loss",
+  "routing": "Fixed band routing; same H/TX inputs; no per-pixel target-based selection. Full predictor returns low expert415 and high expert5775.",
+  "training": "All5508FITterrains; same raw descriptor caches and frozen internalFIT C38 baseline. AdamW3e-4, cosine16000updates, batch4096low/2048high; seed20261202.",
+  "selection": "Each expert selected by its intended-band DEV RMSE; stop4000 no improvement after6000; max16000 new updates.",
+  "promotion": "Combined two-band sampledDEV gains>=.10dB each -> whole-pipeline FP32 completeDEV64. Same gains on fullDEV64 -> remaining548DEV. OfficialVAL only after fullTRAIN fixed-exposure refit.",
+  "scope_change": "Earlier per-single-model two-band gate remains true for those models. New predeclared fixed-band composition is evaluated as one complete model; never claim individual branches jointly win.",
+  "GPU": "physical1 low, physical4 high; only authorized UUIDs. C52 transport remains on3.",
+  "officialVAL_training_selection": false
+}

@@ -1,0 +1,26 @@
+{
+  "source_sha256": "1a9b181116e93d3755fcaf1f5590434359ab0d38d5c5d335238153b0c87bf53a",
+  "protocol_sha256": "f200999159688ea5a7c5d7b1efa0cfa4cfd93ae6f69e60777e34711dfc1e2bb6",
+  "raw_files": {
+    "train_index.csv": {
+      "size": 2054173,
+      "mtime_ns": 1787759512000000000
+    },
+    "train_pl415.npy": {
+      "size": 3371171968,
+      "mtime_ns": 1793377347070405523
+    },
+    "train_pl58.npy": {
+      "size": 3371171968,
+      "mtime_ns": 1793380248000000000
+    },
+    "train_mask415.npy": {
+      "size": 210698368,
+      "mtime_ns": 1793375810454867638
+    },
+    "train_mask58.npy": {
+      "size": 210698368,
+      "mtime_ns": 1793374733048800513
+    }
+  }
+}

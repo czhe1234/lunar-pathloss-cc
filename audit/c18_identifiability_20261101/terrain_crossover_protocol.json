@@ -1,0 +1,12 @@
+{
+  "reason": "Out-of-base-fitting residual probe did not transfer across terrains. Follow-up tests whether residuals generalize to new TX on the same terrain versus new terrain.",
+  "scope": "Exploratory follow-up chosen after phase2; separate from preregistered phase2. Uses only39 multi-TX internalDEV terrains, never officialVAL.",
+  "design": "Deduplicate exact TX coordinates within every terrain before deterministic support/query TX split. Each terrain has disjoint support and query TX. Two terrain folds. Train one frozen-setting residual model per fold on support TX only. For each identical query map, compare prediction from model whose support includes other TX on its terrain, versus model trained entirely on other terrains.",
+  "inputs": "Same294 C10 descriptors; no terrainID, query label or valid mask in inputs. C10 weights remain frozen.",
+  "matching": "Same query pixels and masks, same algorithms, seeds and tree counts. Fit folds subsampled input-only to equal support-point counts. Terrain count19vs20 remains a design limitation.",
+  "learner": "Identical400-tree31-leaf LightGBM settings as phase2. No early stopping or hyperparameter selection.",
+  "controls": "No identical H+TX can appear in support and query. Paired terrain bootstrap1000. Report baseline C10, same-terrain support, different-terrain support on identical query observations.",
+  "evidence": "At least5% occluded SSE reduction versusC10 with95%CI lower>0, and same-terrain support beats other-terrain support with95%CI lower>0, supports scene-conditioned learnability. This cannot by itself distinguish hidden fixed per-terrain physics from an unlearned function of the visible heightmap.",
+  "constraint": "No new production model, no long run, CPU only.",
+  "added_before_crossover_result_inspection": "Also compare a per-terrain constant residual correction estimated solely from support TX, to distinguish field learning from a simple terrain bias. Report all nearest-support-TX distance bins0-8,8-16,16-32,32+metres; no bin drives selection."
+}

@@ -1,0 +1,5 @@
+{
+  "error": "FIT monitoring probe float32 linspace rounded the last index 23713791 to out-of-bounds 23713792. No best post-update checkpoint was saved. Training indices were int64 randint and unaffected.",
+  "fix": "Generate monitoring indices with numpy float64 linspace and int64 output; assert max in range.",
+  "action": "Preserve failed run; restart matched continuation from same C37 parent and seed. C39 control remains valid because its rows are below float32 exact-integer limit."
+}

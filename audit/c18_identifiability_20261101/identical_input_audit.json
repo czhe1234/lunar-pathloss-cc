@@ -1,0 +1,499 @@
+{
+  "scope": "All official TRAIN inputs, no official VAL and no model training",
+  "maps": 25720,
+  "heightmaps": 6120,
+  "unique_heightmaps": 6120,
+  "duplicate_heightmap_rows": [],
+  "identical_H_TX_groups": 9,
+  "maps_in_repeated_groups": 18,
+  "records": [
+    {
+      "index_rows": [
+        2102,
+        2112
+      ],
+      "sample_ids": [
+        "00492_14",
+        "00492_24"
+      ],
+      "terrain_ids": [
+        "00492",
+        "00492"
+      ],
+      "TX_row_col": [
+        38,
+        86
+      ],
+      "bands": {
+        "415": {
+          "replicate_pixel_observations": 130180,
+          "best_constant_per_input_SSE": 0.00048828125,
+          "best_constant_RMSE": 6.124390726921533e-05,
+          "pairs": [
+            {
+              "rows": [
+                2102,
+                2112
+              ],
+              "joint_valid": 65090,
+              "RMSE": 0.00012248781453843066,
+              "max_abs": 0.03125,
+              "different_valid_labels": 1
+            }
+          ]
+        },
+        "58": {
+          "replicate_pixel_observations": 115002,
+          "best_constant_per_input_SSE": 1113.16015625,
+          "best_constant_RMSE": 0.09838437474383704,
+          "pairs": [
+            {
+              "rows": [
+                2102,
+                2112
+              ],
+              "joint_valid": 57501,
+              "RMSE": 0.1967687494876741,
+              "max_abs": 4.5,
+              "different_valid_labels": 10360
+            }
+          ]
+        }
+      }
+    },
+    {
+      "index_rows": [
+        9699,
+        9707
+      ],
+      "sample_ids": [
+        "02606_00",
+        "02606_08"
+      ],
+      "terrain_ids": [
+        "02606",
+        "02606"
+      ],
+      "TX_row_col": [
+        217,
+        177
+      ],
+      "bands": {
+        "415": {
+          "replicate_pixel_observations": 130868,
+          "best_constant_per_input_SSE": 0.0,
+          "best_constant_RMSE": 0.0,
+          "pairs": [
+            {
+              "rows": [
+                9699,
+                9707
+              ],
+              "joint_valid": 65434,
+              "RMSE": 0.0,
+              "max_abs": 0.0,
+              "different_valid_labels": 0
+            }
+          ]
+        },
+        "58": {
+          "replicate_pixel_observations": 130180,
+          "best_constant_per_input_SSE": 0.0078125,
+          "best_constant_RMSE": 0.0002449756290768613,
+          "pairs": [
+            {
+              "rows": [
+                9699,
+                9707
+              ],
+              "joint_valid": 65090,
+              "RMSE": 0.0004899512581537227,
+              "max_abs": 0.0625,
+              "different_valid_labels": 7
+            }
+          ]
+        }
+      }
+    },
+    {
+      "index_rows": [
+        15731,
+        15740
+      ],
+      "sample_ids": [
+        "04067_09",
+        "04067_18"
+      ],
+      "terrain_ids": [
+        "04067",
+        "04067"
+      ],
+      "TX_row_col": [
+        112,
+        199
+      ],
+      "bands": {
+        "415": {
+          "replicate_pixel_observations": 130296,
+          "best_constant_per_input_SSE": 0.0,
+          "best_constant_RMSE": 0.0,
+          "pairs": [
+            {
+              "rows": [
+                15731,
+                15740
+              ],
+              "joint_valid": 65148,
+              "RMSE": 0.0,
+              "max_abs": 0.0,
+              "different_valid_labels": 0
+            }
+          ]
+        },
+        "58": {
+          "replicate_pixel_observations": 84820,
+          "best_constant_per_input_SSE": 4.45556640625,
+          "best_constant_RMSE": 0.00724773534319018,
+          "pairs": [
+            {
+              "rows": [
+                15731,
+                15740
+              ],
+              "joint_valid": 42410,
+              "RMSE": 0.01449547068638036,
+              "max_abs": 0.25,
+              "different_valid_labels": 1127
+            }
+          ]
+        }
+      }
+    },
+    {
+      "index_rows": [
+        16140,
+        16150
+      ],
+      "sample_ids": [
+        "04186_08",
+        "04186_18"
+      ],
+      "terrain_ids": [
+        "04186",
+        "04186"
+      ],
+      "TX_row_col": [
+        8,
+        129
+      ],
+      "bands": {
+        "415": {
+          "replicate_pixel_observations": 129894,
+          "best_constant_per_input_SSE": 0.0,
+          "best_constant_RMSE": 0.0,
+          "pairs": [
+            {
+              "rows": [
+                16140,
+                16150
+              ],
+              "joint_valid": 64947,
+              "RMSE": 0.0,
+              "max_abs": 0.0,
+              "different_valid_labels": 0
+            }
+          ]
+        },
+        "58": {
+          "replicate_pixel_observations": 123776,
+          "best_constant_per_input_SSE": 0.00048828125,
+          "best_constant_RMSE": 6.280826576018862e-05,
+          "pairs": [
+            {
+              "rows": [
+                16140,
+                16150
+              ],
+              "joint_valid": 61888,
+              "RMSE": 0.00012561653152037724,
+              "max_abs": 0.03125,
+              "different_valid_labels": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "index_rows": [
+        17140,
+        17161
+      ],
+      "sample_ids": [
+        "04464_08",
+        "04464_29"
+      ],
+      "terrain_ids": [
+        "04464",
+        "04464"
+      ],
+      "TX_row_col": [
+        167,
+        163
+      ],
+      "bands": {
+        "415": {
+          "replicate_pixel_observations": 131024,
+          "best_constant_per_input_SSE": 0.0030517578125,
+          "best_constant_RMSE": 0.00015261583797844265,
+          "pairs": [
+            {
+              "rows": [
+                17140,
+                17161
+              ],
+              "joint_valid": 65512,
+              "RMSE": 0.0003052316759568853,
+              "max_abs": 0.0625,
+              "different_valid_labels": 4
+            }
+          ]
+        },
+        "58": {
+          "replicate_pixel_observations": 130554,
+          "best_constant_per_input_SSE": 0.00390625,
+          "best_constant_RMSE": 0.00017297563200161236,
+          "pairs": [
+            {
+              "rows": [
+                17140,
+                17161
+              ],
+              "joint_valid": 65277,
+              "RMSE": 0.0003459512640032247,
+              "max_abs": 0.0625,
+              "different_valid_labels": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "index_rows": [
+        23856,
+        23858
+      ],
+      "sample_ids": [
+        "06290_44",
+        "06290_46"
+      ],
+      "terrain_ids": [
+        "06290",
+        "06290"
+      ],
+      "TX_row_col": [
+        198,
+        74
+      ],
+      "bands": {
+        "415": {
+          "replicate_pixel_observations": 129596,
+          "best_constant_per_input_SSE": 0.0,
+          "best_constant_RMSE": 0.0,
+          "pairs": [
+            {
+              "rows": [
+                23856,
+                23858
+              ],
+              "joint_valid": 64798,
+              "RMSE": 0.0,
+              "max_abs": 0.0,
+              "different_valid_labels": 0
+            }
+          ]
+        },
+        "58": {
+          "replicate_pixel_observations": 125972,
+          "best_constant_per_input_SSE": 6.998046875,
+          "best_constant_RMSE": 0.007453348210111203,
+          "pairs": [
+            {
+              "rows": [
+                23856,
+                23858
+              ],
+              "joint_valid": 62986,
+              "RMSE": 0.014906696420222406,
+              "max_abs": 0.625,
+              "different_valid_labels": 1075
+            }
+          ]
+        }
+      }
+    },
+    {
+      "index_rows": [
+        23945,
+        23981
+      ],
+      "sample_ids": [
+        "06315_11",
+        "06315_47"
+      ],
+      "terrain_ids": [
+        "06315",
+        "06315"
+      ],
+      "TX_row_col": [
+        212,
+        124
+      ],
+      "bands": {
+        "415": {
+          "replicate_pixel_observations": 130116,
+          "best_constant_per_input_SSE": 0.0020751953125,
+          "best_constant_RMSE": 0.00012628859655518248,
+          "pairs": [
+            {
+              "rows": [
+                23945,
+                23981
+              ],
+              "joint_valid": 65058,
+              "RMSE": 0.00025257719311036497,
+              "max_abs": 0.03125,
+              "different_valid_labels": 5
+            }
+          ]
+        },
+        "58": {
+          "replicate_pixel_observations": 127348,
+          "best_constant_per_input_SSE": 0.0,
+          "best_constant_RMSE": 0.0,
+          "pairs": [
+            {
+              "rows": [
+                23945,
+                23981
+              ],
+              "joint_valid": 63674,
+              "RMSE": 0.0,
+              "max_abs": 0.0,
+              "different_valid_labels": 0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "index_rows": [
+        24081,
+        24085
+      ],
+      "sample_ids": [
+        "06325_37",
+        "06325_41"
+      ],
+      "terrain_ids": [
+        "06325",
+        "06325"
+      ],
+      "TX_row_col": [
+        233,
+        191
+      ],
+      "bands": {
+        "415": {
+          "replicate_pixel_observations": 130124,
+          "best_constant_per_input_SSE": 0.00244140625,
+          "best_constant_RMSE": 0.0001369750045465358,
+          "pairs": [
+            {
+              "rows": [
+                24081,
+                24085
+              ],
+              "joint_valid": 65062,
+              "RMSE": 0.0002739500090930716,
+              "max_abs": 0.0625,
+              "different_valid_labels": 2
+            }
+          ]
+        },
+        "58": {
+          "replicate_pixel_observations": 61924,
+          "best_constant_per_input_SSE": 5.9375,
+          "best_constant_RMSE": 0.009792020416951997,
+          "pairs": [
+            {
+              "rows": [
+                24081,
+                24085
+              ],
+              "joint_valid": 30962,
+              "RMSE": 0.019584040833903995,
+              "max_abs": 0.25,
+              "different_valid_labels": 1237
+            }
+          ]
+        }
+      }
+    },
+    {
+      "index_rows": [
+        25582,
+        25602
+      ],
+      "sample_ids": [
+        "06741_12",
+        "06741_32"
+      ],
+      "terrain_ids": [
+        "06741",
+        "06741"
+      ],
+      "TX_row_col": [
+        124,
+        116
+      ],
+      "bands": {
+        "415": {
+          "replicate_pixel_observations": 130020,
+          "best_constant_per_input_SSE": 115.9296875,
+          "best_constant_RMSE": 0.02986016833727311,
+          "pairs": [
+            {
+              "rows": [
+                25582,
+                25602
+              ],
+              "joint_valid": 65010,
+              "RMSE": 0.05972033667454622,
+              "max_abs": 3.6875,
+              "different_valid_labels": 5012
+            }
+          ]
+        },
+        "58": {
+          "replicate_pixel_observations": 129936,
+          "best_constant_per_input_SSE": 10.15478515625,
+          "best_constant_RMSE": 0.008840373685754658,
+          "pairs": [
+            {
+              "rows": [
+                25582,
+                25602
+              ],
+              "joint_valid": 64968,
+              "RMSE": 0.017680747371509316,
+              "max_abs": 0.5,
+              "different_valid_labels": 2159
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "seconds": 4.896542310714722,
+  "interpretation": "Only byte-identical normalized float32 H and identical integer TX count. Different labels establish missing observation information or label inconsistency for those repeated inputs. No repeats, or equal labels, cannot prove all inputs sufficient."
+}

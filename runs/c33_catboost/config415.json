@@ -1,0 +1,36 @@
+{
+  "gpu": {
+    "uuid": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+    "logical_device": 0,
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_bytes": 84929347584,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "params": {
+    "iterations": 6000,
+    "depth": 10,
+    "learning_rate": 0.05,
+    "loss_function": "RMSE",
+    "eval_metric": "RMSE",
+    "l2_leaf_reg": 5,
+    "border_count": 254,
+    "random_seed": 20261204,
+    "task_type": "GPU",
+    "devices": "0",
+    "gpu_ram_part": 0.12,
+    "thread_count": 8,
+    "early_stopping_rounds": 300,
+    "boosting_type": "Plain",
+    "bootstrap_type": "Bayesian",
+    "bagging_temperature": 1.0,
+    "train_dir": "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/runs/c33_catboost/logs415",
+    "allow_writing_files": true
+  },
+  "rows": {
+    "fit": 1471088,
+    "dev": 650982
+  },
+  "catboost": "1.2.8",
+  "source_sha256": "c9c60db109193e5d2ed23f8e64ca5702bb7082570506f098e37aa31614cf576e"
+}

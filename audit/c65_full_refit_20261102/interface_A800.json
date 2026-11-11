@@ -1,0 +1,71 @@
+{
+  "complete": true,
+  "gpu": {
+    "uuid": "GPU-70b6fceb-c7c4-9467-3c81-097c9284c160",
+    "logical_device": 0,
+    "name": "NVIDIA A800 80GB PCIe",
+    "memory_bytes": 84974239744,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "records": [
+    {
+      "map": 0,
+      "seconds_all": [
+        11.122367434203625,
+        0.534747620113194,
+        0.527119449339807,
+        0.5102792559191585
+      ],
+      "warm_seconds_both_bands": 0.5240487751240531,
+      "RMS_diff_vs_canonical_db": [
+        0.00856032525403345,
+        0.010552780180755962
+      ],
+      "score_change_db": [
+        8.603816724184199e-06,
+        0.0003489865658465874
+      ],
+      "repeat_max_abs_diff": 0.0,
+      "canonical_FIT_RMSE": [
+        1.8557598158571724,
+        2.006656188714358
+      ],
+      "compiled_FIT_RMSE": [
+        1.8557684196738966,
+        2.0070051752802045
+      ]
+    },
+    {
+      "map": 154,
+      "seconds_all": [
+        0.5200904114171863,
+        0.5070327343419194,
+        0.5109418984502554,
+        0.5140757719054818
+      ],
+      "warm_seconds_both_bands": 0.5106834682325522,
+      "RMS_diff_vs_canonical_db": [
+        0.005145494706035141,
+        0.008461880230044048
+      ],
+      "score_change_db": [
+        3.953381792087818e-05,
+        -6.60794622957539e-05
+      ],
+      "repeat_max_abs_diff": 0.0,
+      "canonical_FIT_RMSE": [
+        1.5372208560646579,
+        1.6338275476296513
+      ],
+      "compiled_FIT_RMSE": [
+        1.5372603898825787,
+        1.6337614681673556
+      ]
+    }
+  ],
+  "rawH_TX_interface_verified": true,
+  "numerical_quality_bound_db": 0.01,
+  "warm_both_outputs_under500ms": false,
+  "limit": "Two FIT terrains on the recorded GPU; startup/compilation reported separately, official hardware unmeasured. No officialVAL labels read."
+}

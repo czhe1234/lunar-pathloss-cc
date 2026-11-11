@@ -1,0 +1,61 @@
+{
+  "status": "complete",
+  "mode": "shuffled",
+  "best_step": 1000,
+  "last_step": 2000,
+  "monitor": {
+    "tail_RMSE": [
+      8.486492219243663,
+      9.066857597370236
+    ],
+    "sign_accuracy": [
+      0.6377340394478963,
+      0.6167359028334047
+    ],
+    "classification_accuracy": [
+      0.6621909011300613,
+      0.626720813695721
+    ],
+    "squared_residual_weighted_sign_accuracy": [
+      0.7196378282950976,
+      0.6810221792657208
+    ],
+    "n": [
+      47962.0,
+      53681.0
+    ],
+    "truth_gated_all_RMSE": [
+      1.9616019340135997,
+      2.2568808424031954
+    ],
+    "truth_gated_gain_vs_C82": [
+      0.17841594188275156,
+      0.1544309104091206
+    ]
+  },
+  "fit_panel": {
+    "tail_RMSE": [
+      8.337354010809463,
+      9.032732423557995
+    ],
+    "sign_accuracy": [
+      0.6537836804892031,
+      0.6252695702438916
+    ],
+    "classification_accuracy": [
+      0.6711255493980508,
+      0.6365192645456769
+    ],
+    "squared_residual_weighted_sign_accuracy": [
+      0.736338831216406,
+      0.6845013079920385
+    ],
+    "n": [
+      41864.0,
+      44979.0
+    ]
+  },
+  "seconds": 110.17042064294219,
+  "oracle_gate": true,
+  "official_val_used": false
+}

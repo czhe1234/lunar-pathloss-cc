@@ -1,0 +1,173 @@
+{
+  "train": {
+    "repeated_coordinate_groups": 9,
+    "details": [
+      {
+        "band": "415",
+        "sample_ids": [
+          "00492_14",
+          "00492_24"
+        ],
+        "common_valid_pixels": 65090,
+        "pair_rmse_db": 0.00012248780694790184
+      },
+      {
+        "band": "415",
+        "sample_ids": [
+          "02606_00",
+          "02606_08"
+        ],
+        "common_valid_pixels": 65434,
+        "pair_rmse_db": 0.0
+      },
+      {
+        "band": "415",
+        "sample_ids": [
+          "04067_09",
+          "04067_18"
+        ],
+        "common_valid_pixels": 65148,
+        "pair_rmse_db": 0.0
+      },
+      {
+        "band": "415",
+        "sample_ids": [
+          "04186_08",
+          "04186_18"
+        ],
+        "common_valid_pixels": 64947,
+        "pair_rmse_db": 0.0
+      },
+      {
+        "band": "415",
+        "sample_ids": [
+          "04464_08",
+          "04464_29"
+        ],
+        "common_valid_pixels": 65512,
+        "pair_rmse_db": 0.0003052316897083074
+      },
+      {
+        "band": "415",
+        "sample_ids": [
+          "06290_44",
+          "06290_46"
+        ],
+        "common_valid_pixels": 64798,
+        "pair_rmse_db": 0.0
+      },
+      {
+        "band": "415",
+        "sample_ids": [
+          "06315_11",
+          "06315_47"
+        ],
+        "common_valid_pixels": 65058,
+        "pair_rmse_db": 0.00025257718516513705
+      },
+      {
+        "band": "415",
+        "sample_ids": [
+          "06325_37",
+          "06325_41"
+        ],
+        "common_valid_pixels": 65062,
+        "pair_rmse_db": 0.0002739500196184963
+      },
+      {
+        "band": "415",
+        "sample_ids": [
+          "06741_12",
+          "06741_32"
+        ],
+        "common_valid_pixels": 65010,
+        "pair_rmse_db": 0.05972033739089966
+      },
+      {
+        "band": "58",
+        "sample_ids": [
+          "00492_14",
+          "00492_24"
+        ],
+        "common_valid_pixels": 57501,
+        "pair_rmse_db": 0.19676874577999115
+      },
+      {
+        "band": "58",
+        "sample_ids": [
+          "02606_00",
+          "02606_08"
+        ],
+        "common_valid_pixels": 65090,
+        "pair_rmse_db": 0.0004899512277916074
+      },
+      {
+        "band": "58",
+        "sample_ids": [
+          "04067_09",
+          "04067_18"
+        ],
+        "common_valid_pixels": 42410,
+        "pair_rmse_db": 0.014495470561087132
+      },
+      {
+        "band": "58",
+        "sample_ids": [
+          "04186_08",
+          "04186_18"
+        ],
+        "common_valid_pixels": 61888,
+        "pair_rmse_db": 0.00012561652692966163
+      },
+      {
+        "band": "58",
+        "sample_ids": [
+          "04464_08",
+          "04464_29"
+        ],
+        "common_valid_pixels": 65277,
+        "pair_rmse_db": 0.0003459512663539499
+      },
+      {
+        "band": "58",
+        "sample_ids": [
+          "06290_44",
+          "06290_46"
+        ],
+        "common_valid_pixels": 62986,
+        "pair_rmse_db": 0.014906696043908596
+      },
+      {
+        "band": "58",
+        "sample_ids": [
+          "06315_11",
+          "06315_47"
+        ],
+        "common_valid_pixels": 63674,
+        "pair_rmse_db": 0.0
+      },
+      {
+        "band": "58",
+        "sample_ids": [
+          "06325_37",
+          "06325_41"
+        ],
+        "common_valid_pixels": 30962,
+        "pair_rmse_db": 0.019584041088819504
+      },
+      {
+        "band": "58",
+        "sample_ids": [
+          "06741_12",
+          "06741_32"
+        ],
+        "common_valid_pixels": 64968,
+        "pair_rmse_db": 0.01768074743449688
+      }
+    ]
+  },
+  "val": {
+    "repeated_coordinate_groups": 0,
+    "details": []
+  }
+}

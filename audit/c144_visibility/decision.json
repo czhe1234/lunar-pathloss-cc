@@ -1,0 +1,36 @@
+{
+  "updated": "2026-11-11T22:31:38.208799+08:00",
+  "state": "complete_positive_continuous_LOS_certificate",
+  "question": "Can the declared subpixel TX family and per-cell diagonal choice create terrain occlusion for the target's three full RX cells?",
+  "selected_experiment": "C144 continuous convex-corridor clearance plus independent interval verification",
+  "geometry_uses_labels_or_masks": false,
+  "gpu_used": false,
+  "minimum_hull_clearance_m": 0.3692231418237517,
+  "minimum_independent_interval_clearance_m": 0.2514573517255485,
+  "conditional_ideal_direct_pathloss_upper_dB": [
+    70.71904772205868,
+    93.58912555910047
+  ],
+  "conditional_minimum_excess_above_label_dB": [
+    17.405952277941324,
+    17.098374440899534
+  ],
+  "excluded_in_declared_domain": [
+    "Terrain occlusion from the declared source XY variation and height lower bound",
+    "Terrain occlusion from either diagonal or per-cell mixtures with the same candidate vertices",
+    "Ideal geometric direct-power attenuation through nonnegative convex interpolation within the three declared full RX cells"
+  ],
+  "remaining_distinctions": [
+    "Original numerical receiver stepping over untested source conditions",
+    "Release support outside the three declared RX cells",
+    "Different vertex coordinates/heights or source outside the declared domain"
+  ],
+  "conditions": [
+    "Terrain vertices equal the published Float32 candidate reconstruction.",
+    "Each ground grid cell may independently use either diagonal, with the same fixed Float32 vertices. Every triangle in both complete diagonal meshes was checked.",
+    "Each RX point is anywhere on either triangulation of one of the three full donor cells shifted +1m along z.",
+    "TX XY belongs to the stated rectangle, a hypothesis covering legacy coordinates and nearest/floor pixel-cell encodings under this candidate grid.",
+    "For LOS only, TX z may be any value at least zmin. For the inverse-square power bound TX z is restricted to [zmin,zmax].",
+    "The geometric LOS certificate does not guarantee numerical receiver-hit coverage or recover original scene coordinates."
+  ]
+}

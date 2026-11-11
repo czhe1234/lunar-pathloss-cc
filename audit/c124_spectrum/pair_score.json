@@ -1,0 +1,45 @@
+{
+  "scope": "posthoc failure diagnostic on same 24 maps frozen before C122; no fitting or candidate selection",
+  "bands": [
+    {
+      "band": 0,
+      "pairs": 357,
+      "C82_endpoint_rmse": 9.461312750909734,
+      "C82_correct_pathloss_order_fraction": 0.41456582633053224,
+      "total": {
+        "endpoint_rmse": 9.424974756099015,
+        "both_correction_signs_correct": 0.18207282913165265,
+        "predicted_anchor_pathloss_greater": 0.43137254901960786,
+        "median_true_pathloss_contrast_db": 15.375,
+        "median_predicted_pathloss_contrast_db": -0.27505213022232056
+      },
+      "spectrum": {
+        "endpoint_rmse": 9.476873279739944,
+        "both_correction_signs_correct": 0.15406162464985995,
+        "predicted_anchor_pathloss_greater": 0.42016806722689076,
+        "median_true_pathloss_contrast_db": 15.375,
+        "median_predicted_pathloss_contrast_db": -0.41901328558742534
+      }
+    },
+    {
+      "band": 1,
+      "pairs": 288,
+      "C82_endpoint_rmse": 9.746649864045182,
+      "C82_correct_pathloss_order_fraction": 0.4618055555555556,
+      "total": {
+        "endpoint_rmse": 9.7231148829961,
+        "both_correction_signs_correct": 0.21875,
+        "predicted_anchor_pathloss_greater": 0.4548611111111111,
+        "median_true_pathloss_contrast_db": 15.65625,
+        "median_predicted_pathloss_contrast_db": -0.14844653569161892
+      },
+      "spectrum": {
+        "endpoint_rmse": 9.693175089799054,
+        "both_correction_signs_correct": 0.2326388888888889,
+        "predicted_anchor_pathloss_greater": 0.46875,
+        "median_true_pathloss_contrast_db": 15.65625,
+        "median_predicted_pathloss_contrast_db": -0.109068363904953
+      }
+    }
+  ]
+}

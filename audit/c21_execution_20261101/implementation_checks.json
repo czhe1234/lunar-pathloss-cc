@@ -1,0 +1,31 @@
+{
+  "source_frozen_checks": {
+    "c21_pair.py": true,
+    "c21_model.py": true,
+    "c21_data.py": true,
+    "c21_phase.cpp": true,
+    "c21_train.py": true
+  },
+  "initialization": {
+    "sha256": [
+      "c49a77b9f94bd0c9f53da871cd37911944bac37f347b2c2ce241ab6c3f8a4958",
+      "c49a77b9f94bd0c9f53da871cd37911944bac37f347b2c2ce241ab6c3f8a4958"
+    ],
+    "all_parameters_equal_at_start": true,
+    "total_parameters": [
+      8468226,
+      8468226
+    ],
+    "trainable_parameters": [
+      8468098,
+      8468226
+    ]
+  },
+  "input_information": "45 H/TX-derived channels plus TX coordinates and uniform RX queries; masks and labels only used in loss; C10 predictions only scoring anchor",
+  "geometry_bias": "128 trainable parameters only in B; both models total8,468,226; A includes128 frozen zeros",
+  "attention_bias_extra_multiply_adds_per_update": 5284823040,
+  "note_compute": "above is bias projection only; geometry construction and kernel differences add overhead. Same optimizer updates and data, not equal wall time.",
+  "training_order": "both nets updated sequentially on the exact same loaded batch and RX tensor",
+  "numerical_precision_check": "FP32 improves small A RMSE less than0.0005dB; BF16 not the dominant small-fit residual",
+  "main_uses_small_checkpoints": false
+}

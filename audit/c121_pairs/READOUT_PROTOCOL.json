@@ -1,0 +1,29 @@
+{
+  "question": "Does feature aggregation hide opposite correction direction?",
+  "fixed_input_source": "Existing C72 47-channel donor descriptors and frozen lookup; no new simulation, mesh, receiver shift or official VAL use",
+  "arms": {
+    "old": "C101 common121+precise48=169",
+    "mean": "old169 + weighted mean47 + frozen donor weights/relative coordinates9 =225",
+    "donor": "old169 + individual donor47x3 + same metadata9 =319"
+  },
+  "data": "Intersection of existing C120 true-tail rows with available C72 native cache. Same FIT and full128monitor points for all arms. Not unconditional deployed score.",
+  "training": {
+    "algorithm": "CatBoostClassifier",
+    "iterations": 2000,
+    "depth": 9,
+    "learning_rate": 0.05,
+    "l2_leaf_reg": 10,
+    "border_count": 254,
+    "random_seed": 121041,
+    "early_stopping_rounds": 150,
+    "boost_from_average": false
+  },
+  "screen_gate": {
+    "both_accuracy_at_least": 0.8,
+    "both_gain_vs_old_at_least": 0.08,
+    "both_logloss_drop_at_least": 0.05
+  },
+  "after_screen": "Only if clearly passing, fit continuous power on all fixed sampled pixels and evaluate same484confirmation; no expand for diagnostic accuracy alone",
+  "feature_lineage": "C82 native branch already read unaveraged features. Positive result means corrective readout underused information, not missing original raw input.",
+  "recorded_before_fitting": true
+}

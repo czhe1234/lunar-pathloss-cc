@@ -1,0 +1,59 @@
+{
+  "patch": {
+    "pid": 3397419,
+    "card": 4,
+    "args": [
+      "./run_gpu.sh",
+      "4",
+      "src/c48_train.py",
+      "--scope",
+      "full",
+      "--kind",
+      "patch",
+      "--name",
+      "c48_patch_full",
+      "--batch",
+      "2048",
+      "--steps",
+      "4000"
+    ]
+  },
+  "both": {
+    "pid": 3399051,
+    "card": 3,
+    "args": [
+      "./run_gpu.sh",
+      "3",
+      "src/c48_train.py",
+      "--scope",
+      "full",
+      "--kind",
+      "both",
+      "--name",
+      "c48_both_full",
+      "--batch",
+      "2048",
+      "--steps",
+      "4000"
+    ]
+  },
+  "both_retry_after_tiny_process_exit": {
+    "pid": 3407612,
+    "card": 3,
+    "args": [
+      "./run_gpu.sh",
+      "3",
+      "src/c48_train.py",
+      "--scope",
+      "full",
+      "--kind",
+      "both",
+      "--name",
+      "c48_both_full",
+      "--batch",
+      "2048",
+      "--steps",
+      "4000"
+    ]
+  }
+}

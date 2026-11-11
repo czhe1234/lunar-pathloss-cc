@@ -1,0 +1,321 @@
+{
+  "method": "Interval enclosure of all continuous TX-to-RX segments; no sampled-ray acceptance and no convex-hull algorithm",
+  "scope": "Candidate float32 heightfield; declared TX rectangle and receiver cell regions of 00414_00",
+  "source_xy_rectangle": [
+    99.0,
+    100.89411926269531,
+    57.72549057006836,
+    59.23137283325195
+  ],
+  "source_height_lower_bound": 7.0,
+  "source_height_finite_upper_bound_for_distance_only": 7.822381973266602,
+  "source_touched_vertex_range_rows_cols": [
+    68,
+    71,
+    226,
+    229
+  ],
+  "intervals_per_receiver_region": 8192,
+  "results": [
+    {
+      "receiver_cell_row_col": [
+        22,
+        38
+      ],
+      "receiver_corners": [
+        [
+          -89.85098266601562,
+          105.91372680664062,
+          8.32086181640625
+        ],
+        [
+          -88.84706115722656,
+          105.91372680664062,
+          8.194845199584961
+        ],
+        [
+          -88.84706115722656,
+          104.90980529785156,
+          8.483550071716309
+        ],
+        [
+          -89.85098266601562,
+          104.90980529785156,
+          8.56406021118164
+        ]
+      ],
+      "all_intervals_certified_clear": true,
+      "nonpositive_or_tolerance_intervals": 0,
+      "minimum_conservative_gap_m": 0.2514573517255485,
+      "worst_interval": {
+        "t": [
+          0.739501953125,
+          0.7396240234375
+        ],
+        "world_xy_rectangle": [
+          -40.67872362956405,
+          -39.41985424607992,
+          92.61838346812874,
+          93.75876330258325
+        ],
+        "candidate_vertex_range_rows_cols": [
+          34,
+          36,
+          86,
+          89
+        ],
+        "minimum_ray_z": 7.883590358775109,
+        "maximum_ground_vertex_z": 7.6321330070495605
+      },
+      "finite_source_box_max_squared_distance_m2": 38707.54469732406,
+      "geometric_area_direct_normalized_lower_bound_if_clear": 2.5834756707498738e-05
+    },
+    {
+      "receiver_cell_row_col": [
+        23,
+        37
+      ],
+      "receiver_corners": [
+        [
+          -90.85490417480469,
+          104.90980529785156,
+          8.6934814453125
+        ],
+        [
+          -89.85098266601562,
+          104.90980529785156,
+          8.56406021118164
+        ],
+        [
+          -89.85098266601562,
+          103.9058837890625,
+          8.863597869873047
+        ],
+        [
+          -90.85490417480469,
+          103.9058837890625,
+          8.931587219238281
+        ]
+      ],
+      "all_intervals_certified_clear": true,
+      "nonpositive_or_tolerance_intervals": 0,
+      "minimum_conservative_gap_m": 0.268635559361428,
+      "worst_interval": {
+        "t": [
+          0.9998779296875,
+          1.0
+        ],
+        "world_xy_rectangle": [
+          -90.85490417480469,
+          -89.82769835181534,
+          103.90024653403088,
+          104.90980529785156
+        ],
+        "candidate_vertex_range_rows_cols": [
+          22,
+          25,
+          36,
+          39
+        ],
+        "minimum_ray_z": 8.563869285862893,
+        "maximum_ground_vertex_z": 8.295233726501465
+      },
+      "finite_source_box_max_squared_distance_m2": 38996.91542497104,
+      "geometric_area_direct_normalized_lower_bound_if_clear": 2.5643053792907586e-05
+    },
+    {
+      "receiver_cell_row_col": [
+        23,
+        38
+      ],
+      "receiver_corners": [
+        [
+          -89.85098266601562,
+          104.90980529785156,
+          8.56406021118164
+        ],
+        [
+          -88.84706115722656,
+          104.90980529785156,
+          8.483550071716309
+        ],
+        [
+          -88.84706115722656,
+          103.9058837890625,
+          8.71287727355957
+        ],
+        [
+          -89.85098266601562,
+          103.9058837890625,
+          8.863597869873047
+        ]
+      ],
+      "all_intervals_certified_clear": true,
+      "nonpositive_or_tolerance_intervals": 0,
+      "minimum_conservative_gap_m": 0.26087484892923385,
+      "worst_interval": {
+        "t": [
+          0.9998779296875,
+          1.0
+        ],
+        "world_xy_rectangle": [
+          -89.85098266601562,
+          -88.82389939203858,
+          103.90024653403088,
+          104.90980529785156
+        ],
+        "candidate_vertex_range_rows_cols": [
+          22,
+          25,
+          37,
+          40
+        ],
+        "minimum_ray_z": 8.483368974295445,
+        "maximum_ground_vertex_z": 8.222494125366211
+      },
+      "finite_source_box_max_squared_distance_m2": 38612.499750469025,
+      "geometric_area_direct_normalized_lower_bound_if_clear": 2.5898349147619042e-05
+    }
+  ],
+  "all_regions_certified": true,
+  "proof": "For each closed t interval, endpoint-linear extrema enclose all possible segment XY positions. Every triangular or bilinear candidate height within each touched cell is no larger than its maximum corner height. The segment z is at least the reported endpoint-linear floor. A positive gap therefore excludes every ground intersection throughout every interval.",
+  "visibility_monotonicity": "Any source z above zmin raises every interior segment point for fixed XY and RX, so the visibility result, if positive, extends to all z>=zmin. Finite inverse-square bounds use the separately declared finite zmax.",
+  "limits": "The TX footprint is an explicit reconstruction uncertainty set, not a recovered original TX. No claim about arbitrary original meshes or native numerical receiver stepping.",
+  "labels_or_masks_used": false,
+  "gpu_used": false,
+  "height_sha256": "be936e4a5e7b455389b671bfb8301a5bc893db9dd954ef8998bf00c7baee2af9",
+  "index_sha256": "5e02847afc733c950de5a81685f35fb27a87626695f9e12d59012bc6fd6015cb",
+  "main_cross_method_checks": {
+    "same_TX_and_RX_domains": true,
+    "same_candidate_height_hash": true,
+    "lower_hull_projection_covers_full_domain": true,
+    "facet_checks": [
+      {
+        "name": "rx0_main",
+        "lower_projection_area_m2": 307.4854574818746,
+        "whole_projection_area_m2": 307.48545748187576,
+        "area_difference_m2": -1.1368683772161603e-12,
+        "minimum_lower_facet_projected_area_m2": 0.5039291979046538,
+        "omitted_downward_facets": 0,
+        "witness_gap_independently_recomputed_m": 0.3692231418237508,
+        "witness_ground_barycentric": [
+          0.0,
+          0.8003392564788627,
+          0.19966074352113733
+        ],
+        "witness_hull_barycentric": [
+          -5.329070518200751e-15,
+          0.7541596182846827,
+          0.24584038171532266
+        ]
+      },
+      {
+        "name": "rx0_anti",
+        "lower_projection_area_m2": 307.4854574818746,
+        "whole_projection_area_m2": 307.48545748187576,
+        "area_difference_m2": -1.1368683772161603e-12,
+        "minimum_lower_facet_projected_area_m2": 0.5039291979046538,
+        "omitted_downward_facets": 0,
+        "witness_gap_independently_recomputed_m": 0.3692231418237517,
+        "witness_ground_barycentric": [
+          0.19966074352113727,
+          0.8003392564788627,
+          0.0
+        ],
+        "witness_hull_barycentric": [
+          -5.329070518200751e-15,
+          0.7541596182846827,
+          0.24584038171532266
+        ]
+      },
+      {
+        "name": "rx1_main",
+        "lower_projection_area_m2": 307.29057774471585,
+        "whole_projection_area_m2": 307.29057774471755,
+        "area_difference_m2": -1.7053025658242404e-12,
+        "minimum_lower_facet_projected_area_m2": 0.5039291979046538,
+        "omitted_downward_facets": 0,
+        "witness_gap_independently_recomputed_m": 0.5880211340529273,
+        "witness_ground_barycentric": [
+          0.0,
+          0.7429252429072672,
+          0.2570747570927328
+        ],
+        "witness_hull_barycentric": [
+          -2.220446049250313e-15,
+          0.7501505469461655,
+          0.2498494530538368
+        ]
+      },
+      {
+        "name": "rx1_anti",
+        "lower_projection_area_m2": 307.29057774471585,
+        "whole_projection_area_m2": 307.29057774471755,
+        "area_difference_m2": -1.7053025658242404e-12,
+        "minimum_lower_facet_projected_area_m2": 0.5039291979046538,
+        "omitted_downward_facets": 0,
+        "witness_gap_independently_recomputed_m": 0.5880211340529273,
+        "witness_ground_barycentric": [
+          0.25707475709273275,
+          0.7429252429072672,
+          0.0
+        ],
+        "witness_hull_barycentric": [
+          -2.220446049250313e-15,
+          0.7501505469461655,
+          0.2498494530538368
+        ]
+      },
+      {
+        "name": "rx2_main",
+        "lower_projection_area_m2": 306.0307547499542,
+        "whole_projection_area_m2": 306.0307547499515,
+        "area_difference_m2": 2.7284841053187847e-12,
+        "minimum_lower_facet_projected_area_m2": 0.5039291979046538,
+        "omitted_downward_facets": 0,
+        "witness_gap_independently_recomputed_m": 0.5444215896352569,
+        "witness_ground_barycentric": [
+          0.0,
+          0.5544988747635529,
+          0.4455011252364472
+        ],
+        "witness_hull_barycentric": [
+          -4.884981308350689e-15,
+          0.7541596182846774,
+          0.24584038171532763
+        ]
+      },
+      {
+        "name": "rx2_anti",
+        "lower_projection_area_m2": 306.0307547499542,
+        "whole_projection_area_m2": 306.0307547499515,
+        "area_difference_m2": 2.7284841053187847e-12,
+        "minimum_lower_facet_projected_area_m2": 0.5039291979046538,
+        "omitted_downward_facets": 0,
+        "witness_gap_independently_recomputed_m": 0.5444215896352569,
+        "witness_ground_barycentric": [
+          0.44550112523644714,
+          0.5544988747635529,
+          0.0
+        ],
+        "witness_hull_barycentric": [
+          -4.884981308350689e-15,
+          0.7541596182846774,
+          0.24584038171532763
+        ]
+      }
+    ],
+    "independent_max_endpoint_distance_m": 197.4763667504824,
+    "independent_ideal_area_pathloss_upper_bound_dB": [
+      70.71904772205868,
+      93.58912555910047
+    ],
+    "independent_ideal_direct_excess_above_label_dB": [
+      17.405952277941324,
+      17.098374440899534
+    ],
+    "raw_label_and_masks_match": true,
+    "main_result_sha256": "5d69b2b4a58ecaefc649b2db823e8282e87ce7e7815e061d0e5cb8b73a65312b",
+    "main_geometry_sha256": "909bce3fa106ec0f43a83032febb535cdefe4ecc07dcd3c7336e9a71920270e8"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "map_weight_range": [
+    1.0,
+    12.75
+  ],
+  "denominator_ratio_quantiles": [
+    [
+      0.7506200248686556,
+      0.7090695497952527
+    ],
+    [
+      0.8569075750594913,
+      0.8320878783502544
+    ],
+    [
+      1.5207989069975778,
+      1.5395547403568814
+    ],
+    [
+      2.229336200272097,
+      2.2535829619052086
+    ],
+    [
+      5.251494650402528,
+      4.986933334571609
+    ]
+  ],
+  "full_objective_multiTX_pixel_mass": [
+    0.8921775507810575,
+    0.8934189842807195
+  ],
+  "batch_objective_multiTX_pixel_mass": [
+    0.797890784900542,
+    0.798002683144699
+  ],
+  "max_objective_mass_error": 5.551115123125783e-16,
+  "normalization": "ratio of per-batch weighted sums differs from full-dataset ratio; no claim yet that correcting this changes score"
+}

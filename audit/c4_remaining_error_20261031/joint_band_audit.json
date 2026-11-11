@@ -1,0 +1,118 @@
+{
+  "frequency_reference_db": 22.870077837041784,
+  "results": {
+    "all": {
+      "joint_valid_pixels": 135750001,
+      "rmse_by_band": [
+        3.5137731349510597,
+        4.976906022832877
+      ],
+      "high_minus_low_sse": 1686421165.0480063,
+      "share_of_total_high_minus_low_sse": 1.0,
+      "band_difference_error_rmse": 3.3485965269406734,
+      "common_error_energy_fraction": 0.8489460107830975,
+      "target_excess_band_difference_mean": 3.5846020477303773,
+      "prediction_excess_band_difference_mean": 3.5020903651260302,
+      "target_excess_band_difference_std": 9.467977079513341,
+      "prediction_excess_band_difference_std": 8.808857299156571,
+      "band_difference_correlation": 0.9354221480493993
+    },
+    "height_sensitive": {
+      "joint_valid_pixels": 10931255,
+      "rmse_by_band": [
+        8.895031213986785,
+        14.50900586696716
+      ],
+      "high_minus_low_sse": 1436253997.5193205,
+      "share_of_total_high_minus_low_sse": 0.8516579531177999,
+      "band_difference_error_rmse": 7.676352226990162,
+      "common_error_energy_fraction": 0.898273991939408,
+      "target_excess_band_difference_mean": 6.15774283633927,
+      "prediction_excess_band_difference_mean": 5.6494172517695675,
+      "target_excess_band_difference_std": 9.191671410098628,
+      "prediction_excess_band_difference_std": 6.094853553378848,
+      "band_difference_correlation": 0.5619774095173453
+    },
+    "clear_near_boundary": {
+      "joint_valid_pixels": 21921281,
+      "rmse_by_band": [
+        3.1392100363866042,
+        3.6460835284706357
+      ],
+      "high_minus_low_sse": 75393542.6578899,
+      "share_of_total_high_minus_low_sse": 0.04470623603430862,
+      "band_difference_error_rmse": 1.1302443762276793,
+      "common_error_energy_fraction": 0.9724075258263687,
+      "target_excess_band_difference_mean": 0.05016264611018181,
+      "prediction_excess_band_difference_mean": 0.03331868797581265,
+      "target_excess_band_difference_std": 1.168532015441547,
+      "prediction_excess_band_difference_std": 0.4510455067611359,
+      "band_difference_correlation": 0.276761537580972
+    },
+    "clear_grazing": {
+      "joint_valid_pixels": 27183504,
+      "rmse_by_band": [
+        2.4010723457776333,
+        2.3571868522130184
+      ],
+      "high_minus_low_sse": -5676419.981954485,
+      "share_of_total_high_minus_low_sse": -0.0033659563219445828,
+      "band_difference_error_rmse": 0.39943468532481224,
+      "common_error_energy_fraction": 0.9929537440211751,
+      "target_excess_band_difference_mean": -0.4232704127211368,
+      "prediction_excess_band_difference_mean": -0.43067029295254794,
+      "target_excess_band_difference_std": 0.4499058542854076,
+      "prediction_excess_band_difference_std": 0.23519738436556117,
+      "band_difference_correlation": 0.4641979770620297
+    },
+    "clear_robust": {
+      "joint_valid_pixels": 56534172,
+      "rmse_by_band": [
+        0.6146988579931496,
+        0.750274317654972
+      ],
+      "high_minus_low_sse": 10462036.67608736,
+      "share_of_total_high_minus_low_sse": 0.006203691517231133,
+      "band_difference_error_rmse": 0.24084500591371166,
+      "common_error_energy_fraction": 0.9691707065230875,
+      "target_excess_band_difference_mean": -0.31758742911646703,
+      "prediction_excess_band_difference_mean": -0.314818269962876,
+      "target_excess_band_difference_std": 0.31100002985303715,
+      "prediction_excess_band_difference_std": 0.19846468267278491,
+      "band_difference_correlation": 0.6327560619377187
+    },
+    "shallow_blocked": {
+      "joint_valid_pixels": 17120032,
+      "rmse_by_band": [
+        4.7860630685863335,
+        5.530582347880042
+      ],
+      "high_minus_low_sse": 131497962.73268569,
+      "share_of_total_high_minus_low_sse": 0.07797456854672624,
+      "band_difference_error_rmse": 6.630423655106266,
+      "common_error_energy_fraction": 0.5890872727712765,
+      "target_excess_band_difference_mean": 22.32114923324057,
+      "prediction_excess_band_difference_mean": 22.10119854458635,
+      "target_excess_band_difference_std": 10.041924129022847,
+      "prediction_excess_band_difference_std": 7.559706875038515,
+      "band_difference_correlation": 0.7513453670329454
+    },
+    "deep_blocked": {
+      "joint_valid_pixels": 2059757,
+      "rmse_by_band": [
+        3.4761806815013836,
+        5.547118577608279
+      ],
+      "high_minus_low_sse": 38490045.44397394,
+      "share_of_total_high_minus_low_sse": 0.022823507105876648,
+      "band_difference_error_rmse": 6.602070438527247,
+      "common_error_energy_fraction": 0.49144804066403786,
+      "target_excess_band_difference_mean": 31.809563499290626,
+      "prediction_excess_band_difference_mean": 31.098354416611084,
+      "target_excess_band_difference_std": 9.43583483085483,
+      "prediction_excess_band_difference_std": 6.678366949205745,
+      "band_difference_correlation": 0.7185008179623509
+    }
+  },
+  "note": "Same valid pixels in both bands. Common/difference error energies are algebraic descriptors, not causal shares or noisefloors."
+}

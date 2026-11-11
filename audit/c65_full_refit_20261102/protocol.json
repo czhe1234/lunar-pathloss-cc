@@ -1,0 +1,9 @@
+{
+  "date": "2026-11-02",
+  "basis": "Frozen C54 experts passed complete internalDEV612 both .10dB gate:2.522767/2.881465 vs C38 2.644145/2.996101; gain .121378/.114636. Paired terrain intervals positive.",
+  "model": "Keep selected low ordered-profile attention and high directional surface-power attention; frequency-fixed routing.",
+  "refit": "All6120TRAINterrains/25720maps,1024points/map. FullTRAIN C38 baseline weights fixed. Warm C54 corrections, fixed17770updates = round16000*25720/23158; no early stopping. Low4096batch/high2048batch,lr.0003cosine,warm200,wd1e-4,seed20261211.",
+  "official_eval": "Freeze final checkpoints and fixed routing before any new officialVAL scoring. Input-only H/TX producer; independent float64 official masked RMSE and arithmetic mean of two band RMSEs.",
+  "goal": "Both officialVAL band RMSE<=1dB. Current confirmed gains are modest and do not meet the goal.",
+  "limits": "Warm fullTRAIN refit, not a rerun from random initial weights. Original internalDEV now TRAIN. OfficialVAL excluded from gradients, step selection and routing."
+}

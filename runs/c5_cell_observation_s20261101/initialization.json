@@ -1,0 +1,12 @@
+{
+  "run": "c4_critical_length_fast_s20261031",
+  "checkpoint_sha256": "48b5745d6214c03009ee8b2bffa17eb6de1e10bc743a4116220159a1668f4c8f",
+  "missing_initialized_observation_parameters": [
+    "observation.0.weight",
+    "observation.0.bias",
+    "observation.2.weight",
+    "observation.2.bias",
+    "observation.4.weight",
+    "observation.4.bias"
+  ]
+}

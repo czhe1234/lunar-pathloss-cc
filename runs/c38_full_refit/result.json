@@ -1,0 +1,10 @@
+{
+  "status": "full_TRAIN_continuation_complete",
+  "maps": 25720,
+  "terrains": 6120,
+  "sampled_pixels": 26337280,
+  "steps": 35540,
+  "seconds": 454.351943731308,
+  "gpu_peak_GB": 33.322891264,
+  "official_validation_not_loaded": true
+}

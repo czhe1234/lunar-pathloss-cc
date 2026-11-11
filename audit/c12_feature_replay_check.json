@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "index_row": 0,
+      "surface_maxdiff": 0.0,
+      "material_maxdiff": 0.0
+    },
+    {
+      "index_row": 64,
+      "surface_maxdiff": 0.0,
+      "material_maxdiff": 0.0
+    },
+    {
+      "index_row": 154,
+      "surface_maxdiff": 0.0,
+      "material_maxdiff": 0.0
+    },
+    {
+      "index_row": 1167,
+      "surface_maxdiff": 0.0,
+      "material_maxdiff": 0.0
+    }
+  ]
+}

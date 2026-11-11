@@ -1,0 +1,6 @@
+{
+  "error": "Replay helper retained C43 Predictor import and rejected C44 extra profile parameters",
+  "prediction_files_produced": false,
+  "training_affected": false,
+  "fix": "Explicit C44/C45 Predictor imports; rerun canonical replay and independent score; preserve failed log/empty folder"
+}

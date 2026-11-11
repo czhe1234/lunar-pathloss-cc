@@ -1,0 +1,2774 @@
+{
+  "date": "2026-11-02",
+  "goal": "Both official fixedVAL band maskedRMSE<=1dB",
+  "goal_reached": false,
+  "official_C38": {
+    "model": "c38_full_refit",
+    "scope": "complete official fixed validation,2330maps/band; not hidden test",
+    "RMSE": [
+      2.672718078485335,
+      3.0805375615822546
+    ],
+    "combined_rmse_db_masked": 2.8766278200337947,
+    "valid_pixels": [
+      151537682,
+      135926253
+    ],
+    "goal_both_le_1db": false,
+    "C10_official_RMSE": [
+      2.96720214449994,
+      3.3879795086817914
+    ],
+    "relative_gain_vs_C10": [
+      0.09924637812778148,
+      0.0907449252014979
+    ],
+    "official_source_revision": "fa3ef9b89f964556753a18be102a5aadeb723377",
+    "scorer": "Reused previously verified unmodified official score_submission.py and metrics.py",
+    "source_and_groundtruth_adapter": "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/audit/c10_official_scorer_20261101",
+    "official_report": "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/audit/c38_full_refit_official/official_report.json",
+    "independent_score": "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/runs/c38_full_refit/score_val_complete.json",
+    "website_submission": false
+  },
+  "official_C65": {
+    "model": "c65_combo_full",
+    "scope": "complete official fixed validation,2330maps/band; not hidden test",
+    "RMSE": [
+      2.5434139063511645,
+      2.9327636193813333
+    ],
+    "combined_rmse_db_masked": 2.7380887628662487,
+    "valid_pixels": [
+      151537682,
+      135926253
+    ],
+    "goal_both_le_1db": false,
+    "C10_official_RMSE": [
+      2.96720214449994,
+      3.3879795086817914
+    ],
+    "relative_gain_vs_C10": [
+      0.14282418841409816,
+      0.13436205506377907
+    ],
+    "official_source_revision": "fa3ef9b89f964556753a18be102a5aadeb723377",
+    "scorer": "Reused previously verified unmodified official score_submission.py and metrics.py",
+    "source_and_groundtruth_adapter": "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/audit/c10_official_scorer_20261101",
+    "official_report": "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/audit/c65_combo_full_official/official_report.json",
+    "independent_score": "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/runs/c65_combo_full/score_val_complete.json",
+    "website_submission": false
+  },
+  "C65_delivery": {
+    "model": "C65",
+    "official": {
+      "model": "c65_combo_full",
+      "scope": "complete official fixed validation,2330maps/band; not hidden test",
+      "RMSE": [
+        2.5434139063511645,
+        2.9327636193813333
+      ],
+      "combined_rmse_db_masked": 2.7380887628662487,
+      "valid_pixels": [
+        151537682,
+        135926253
+      ],
+      "goal_both_le_1db": false,
+      "C10_official_RMSE": [
+        2.96720214449994,
+        3.3879795086817914
+      ],
+      "relative_gain_vs_C10": [
+        0.14282418841409816,
+        0.13436205506377907
+      ],
+      "official_source_revision": "fa3ef9b89f964556753a18be102a5aadeb723377",
+      "scorer": "Reused previously verified unmodified official score_submission.py and metrics.py",
+      "source_and_groundtruth_adapter": "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/audit/c10_official_scorer_20261101",
+      "official_report": "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/audit/c65_combo_full_official/official_report.json",
+      "independent_score": "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/runs/c65_combo_full/score_val_complete.json",
+      "website_submission": false
+    },
+    "C38_official": {
+      "model": "c38_full_refit",
+      "scope": "complete official fixed validation,2330maps/band; not hidden test",
+      "RMSE": [
+        2.672718078485335,
+        3.0805375615822546
+      ],
+      "combined_rmse_db_masked": 2.8766278200337947,
+      "valid_pixels": [
+        151537682,
+        135926253
+      ],
+      "goal_both_le_1db": false,
+      "C10_official_RMSE": [
+        2.96720214449994,
+        3.3879795086817914
+      ],
+      "relative_gain_vs_C10": [
+        0.09924637812778148,
+        0.0907449252014979
+      ],
+      "official_source_revision": "fa3ef9b89f964556753a18be102a5aadeb723377",
+      "scorer": "Reused previously verified unmodified official score_submission.py and metrics.py",
+      "source_and_groundtruth_adapter": "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/audit/c10_official_scorer_20261101",
+      "official_report": "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/audit/c38_full_refit_official/official_report.json",
+      "independent_score": "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/runs/c38_full_refit/score_val_complete.json",
+      "website_submission": false
+    },
+    "gain_vs_C38_db": [
+      0.12930417213417034,
+      0.14777394220092122
+    ],
+    "relative_gain_vs_C38": [
+      0.04837927844879497,
+      0.04797018028406064
+    ],
+    "jointly_better_than_C38": true,
+    "goal_reached": false,
+    "weights_manifest_sha256": "9b5a178203665b27fd3d16ddc3c2cf9ba4efd309d58ec7d355d384b764dcd625",
+    "weights_roles": {
+      "low": {
+        "source": "runs/c65_low_full/best.pt",
+        "sha256": "78a91b260ff94ed711564728cd380751dcde187c0e55518f5c0d029225c8997c"
+      },
+      "high": {
+        "source": "runs/c65_high_full/best.pt",
+        "sha256": "31489fb4ef8b7c721f997146f83416e969c73f028d966bd2127fbe647c088645"
+      },
+      "teacher": {
+        "source": "runs/c38_full_refit/best.pt",
+        "sha256": "9d340ca23b215e7680826b6eab1113f3d20d4b540b7f20f16c61c3173405a64c"
+      }
+    },
+    "website_submission": false,
+    "package": "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/releases/C65_20261102.tar.gz",
+    "bytes": 38985361,
+    "sha256": "279c982d1566c6ba12a48e8bf6480d7e3afffefa52e820b63a82500687242f69",
+    "archive_weights_verified": true,
+    "package_interface": {
+      "actual_packaged_entry_executed": true,
+      "H_TX_only_input": true,
+      "max_abs_diff_from_frozen_public_interface_db": 0.0,
+      "RMS_diff_db": [
+        0.0,
+        0.0
+      ],
+      "source_data_or_label_cache_required": false
+    },
+    "CSV": {
+      "submission_file": "submission_C65.csv",
+      "row_count": 800000,
+      "bytes": 24981480,
+      "sha256": "0b695c028adee3abb14a2364888f7b687be05c680bd5895da8c2b3bfcfc61dc3",
+      "all_values_match_original_inference_float32": true,
+      "ground_truth_or_masks_read_for_export": false
+    },
+    "official_VAL_use": {
+      "gradients": false,
+      "update_or_checkpoint_selection": false,
+      "frequency_routing_selection": false,
+      "final_scoring": true,
+      "C65_vs_C38_final_comparison_and_delivery_choice": true,
+      "untouched_hidden_test": false
+    },
+    "frozen_manifest_scope_note": "The pre-VAL frozen manifest selection field refers to training update/checkpoint and routing decisions. It does not mean VAL was never used for final candidate comparison or delivery."
+  },
+  "complete_internalDEV612_C54": {
+    "scope": "all",
+    "precision": "BF16_compiled_correction; compiled4096BF16teacher",
+    "maps": 2562,
+    "terrains": 612,
+    "C54_RMSE": [
+      2.5227672980659857,
+      2.8814645537926724
+    ],
+    "C38_RMSE": [
+      2.6441450259495274,
+      2.996100891912386
+    ],
+    "gain_db": [
+      0.12137772788354173,
+      0.11463633811971352
+    ],
+    "combined": 2.702115925929329,
+    "count": [
+      166639132,
+      152634019
+    ],
+    "delta_C54_minus_C38_CI95": [
+      [
+        -0.13334691591956893,
+        -0.10952858860659086
+      ],
+      [
+        -0.1417597387584743,
+        -0.09338728415133425
+      ]
+    ],
+    "both_gain010db": true,
+    "both_le_1db": false,
+    "independent_float64_masked_scoring": true,
+    "official_VAL": false,
+    "limits": "One seed. Terrain bootstrap conditions on trained model; internal DEV used for selection."
+  },
+  "sampled_DEV612_runs": {
+    "c47_flat_full": {
+      "status": "complete",
+      "scope": "full",
+      "kind": "flat",
+      "initial_C38": {
+        "RMSE": [
+          2.6446351803304653,
+          2.998740339824098
+        ],
+        "SSE": [
+          4553030.105599784,
+          5361052.093657498
+        ],
+        "count": [
+          650982.0,
+          596173.0
+        ],
+        "rows": 655872,
+        "combined": 2.821687760077282
+      },
+      "DEV": {
+        "RMSE": [
+          2.634611518058449,
+          2.990014852552257
+        ],
+        "SSE": [
+          4518581.839855826,
+          5329899.188481524
+        ],
+        "count": [
+          650982.0,
+          596173.0
+        ],
+        "rows": 655872,
+        "combined": 2.812313185305353
+      },
+      "FIT_probe": {
+        "RMSE": [
+          2.4447976037925843,
+          2.708346922950268
+        ],
+        "SSE": [
+          388824.0789002935,
+          429942.07502894604
+        ],
+        "count": [
+          65053.0,
+          58614.0
+        ],
+        "rows": 65536,
+        "combined": 2.576572263371426
+      },
+      "gain_db": [
+        0.010023662272016232,
+        0.008725487271840748
+      ],
+      "best_step": 12000,
+      "last_step": 12000,
+      "seconds": 174.71846795082092,
+      "tiny_both_le_080db": false,
+      "sampled_DEV_both_gain010db": false,
+      "evaluation_scope": "terrain-disjoint sampled DEV612",
+      "official_VAL_used": false,
+      "gpu_peak_GB": 30.175531008
+    },
+    "c47_conv_full": {
+      "status": "complete",
+      "scope": "full",
+      "kind": "conv",
+      "initial_C38": {
+        "RMSE": [
+          2.6446351803304653,
+          2.998740339824098
+        ],
+        "SSE": [
+          4553030.105599784,
+          5361052.093657498
+        ],
+        "count": [
+          650982.0,
+          596173.0
+        ],
+        "rows": 655872,
+        "combined": 2.821687760077282
+      },
+      "DEV": {
+        "RMSE": [
+          2.6148934001064066,
+          2.983917898224628
+        ],
+        "SSE": [
+          4451198.460527058,
+          5308184.901435827
+        ],
+        "count": [
+          650982.0,
+          596173.0
+        ],
+        "rows": 655872,
+        "combined": 2.799405649165517
+      },
+      "FIT_probe": {
+        "RMSE": [
+          2.420047094492233,
+          2.7019109912769927
+        ],
+        "SSE": [
+          380991.2173522161,
+          427901.1326023755
+        ],
+        "count": [
+          65053.0,
+          58614.0
+        ],
+        "rows": 65536,
+        "combined": 2.560979042884613
+      },
+      "gain_db": [
+        0.02974178022405871,
+        0.014822441599469993
+      ],
+      "best_step": 12000,
+      "last_step": 12000,
+      "seconds": 701.0898280143738,
+      "tiny_both_le_080db": false,
+      "sampled_DEV_both_gain010db": false,
+      "evaluation_scope": "terrain-disjoint sampled DEV612",
+      "official_VAL_used": false,
+      "gpu_peak_GB": 32.738861056
+    },
+    "c47_attention_full": {
+      "status": "complete",
+      "scope": "full",
+      "kind": "attention",
+      "initial_C38": {
+        "RMSE": [
+          2.6446351803304653,
+          2.998740339824098
+        ],
+        "SSE": [
+          4553030.105599784,
+          5361052.093657498
+        ],
+        "count": [
+          650982.0,
+          596173.0
+        ],
+        "rows": 655872,
+        "combined": 2.821687760077282
+      },
+      "DEV": {
+        "RMSE": [
+          2.5637193516910886,
+          2.9815462237121593
+        ],
+        "SSE": [
+          4278681.343342773,
+          5299750.162836769
+        ],
+        "count": [
+          650982.0,
+          596173.0
+        ],
+        "rows": 655872,
+        "combined": 2.7726327877016237
+      },
+      "FIT_probe": {
+        "RMSE": [
+          2.3662827390378762,
+          2.7017487653339423
+        ],
+        "SSE": [
+          364250.87265151524,
+          427849.75076110585
+        ],
+        "count": [
+          65053.0,
+          58614.0
+        ],
+        "rows": 65536,
+        "combined": 2.5340157521859092
+      },
+      "gain_db": [
+        0.08091582863937674,
+        0.017194116111938662
+      ],
+      "best_step": 12000,
+      "last_step": 12000,
+      "seconds": 432.03892254829407,
+      "tiny_both_le_080db": false,
+      "sampled_DEV_both_gain010db": false,
+      "evaluation_scope": "terrain-disjoint sampled DEV612",
+      "official_VAL_used": false,
+      "gpu_peak_GB": 30.994939392
+    },
+    "c48_patch_full": {
+      "status": "complete",
+      "scope": "full",
+      "kind": "patch",
+      "initial_C38": {
+        "RMSE": [
+          2.6446351803304657,
+          2.9987403398240984
+        ],
+        "SSE": [
+          4553030.105599785,
+          5361052.0936575
+        ],
+        "count": [
+          650982.0,
+          596173.0
+        ],
+        "rows": 655872,
+        "combined": 2.821687760077282
+      },
+      "DEV": {
+        "RMSE": [
+          2.6440423076320667,
+          2.998295815420345
+        ],
+        "SSE": [
+          4550988.943405904,
+          5359462.798432063
+        ],
+        "count": [
+          650982.0,
+          596173.0
+        ],
+        "rows": 655872,
+        "combined": 2.8211690615262057
+      },
+      "FIT_probe": {
+        "RMSE": [
+          2.457134406840739,
+          2.7182496229467636
+        ],
+        "SSE": [
+          392758.10506638215,
+          433091.87167548016
+        ],
+        "count": [
+          65053.0,
+          58614.0
+        ],
+        "rows": 65536,
+        "combined": 2.5876920148937512
+      },
+      "gain_db": [
+        0.0005928726983990273,
+        0.00044452440375319924
+      ],
+      "best_step": 4000,
+      "last_step": 4000,
+      "seconds": 142.7278368473053,
+      "tiny_both_le_080db": false,
+      "sampled_DEV_both_gain010db": false,
+      "evaluation_scope": "terrain-disjoint sampled DEV612",
+      "official_VAL_used": false,
+      "gpu_peak_GB": 35.714893824
+    },
+    "c48_both_full": {
+      "status": "complete",
+      "scope": "full",
+      "kind": "both",
+      "initial_C38": {
+        "RMSE": [
+          2.6446351803304657,
+          2.9987403398240984
+        ],
+        "SSE": [
+          4553030.105599785,
+          5361052.0936575
+        ],
+        "count": [
+          650982.0,
+          596173.0
+        ],
+        "rows": 655872,
+        "combined": 2.821687760077282
+      },
+      "DEV": {
+        "RMSE": [
+          2.641685506594374,
+          2.9944531484575285
+        ],
+        "SSE": [
+          4542879.394512069,
+          5345734.044041981
+        ],
+        "count": [
+          650982.0,
+          596173.0
+        ],
+        "rows": 655872,
+        "combined": 2.818069327525951
+      },
+      "FIT_probe": {
+        "RMSE": [
+          2.454690825888156,
+          2.7145733250471595
+        ],
+        "SSE": [
+          391977.31016915315,
+          431921.19326829363
+        ],
+        "count": [
+          65053.0,
+          58614.0
+        ],
+        "rows": 65536,
+        "combined": 2.584632075467658
+      },
+      "gain_db": [
+        0.0029496737360918956,
+        0.0042871913665698536
+      ],
+      "best_step": 4000,
+      "last_step": 4000,
+      "seconds": 447.5765528678894,
+      "tiny_both_le_080db": false,
+      "sampled_DEV_both_gain010db": false,
+      "evaluation_scope": "terrain-disjoint sampled DEV612",
+      "official_VAL_used": false,
+      "gpu_peak_GB": 40.94141184
+    },
+    "c49_unweighted_full": {
+      "status": "complete",
+      "scope": "full",
+      "kind": "unweighted",
+      "initial_C38": {
+        "RMSE": [
+          2.6446351803304657,
+          2.9987403398240984
+        ],
+        "SSE": [
+          4553030.105599785,
+          5361052.0936575
+        ],
+        "count": [
+          650982.0,
+          596173.0
+        ],
+        "rows": 655872,
+        "combined": 2.821687760077282
+      },
+      "DEV": {
+        "RMSE": [
+          2.643848430941485,
+          2.9213552998779244
+        ],
+        "SSE": [
+          4550321.557468966,
+          5087929.242526749
+        ],
+        "count": [
+          650982.0,
+          596173.0
+        ],
+        "rows": 655872,
+        "combined": 2.7826018654097044
+      },
+      "FIT_probe": {
+        "RMSE": [
+          2.4570502439373705,
+          2.654064569053176
+        ],
+        "SSE": [
+          392731.1996628903,
+          412880.45879313437
+        ],
+        "count": [
+          65053.0,
+          58614.0
+        ],
+        "rows": 65536,
+        "combined": 2.5555574064952733
+      },
+      "gain_db": [
+        0.000786749388980823,
+        0.07738503994617396
+      ],
+      "best_step": 8000,
+      "last_step": 8000,
+      "seconds": 459.7139096260071,
+      "tiny_both_le_080db": false,
+      "sampled_DEV_both_gain010db": false,
+      "evaluation_scope": "terrain-disjoint sampled DEV612",
+      "official_VAL_used": false,
+      "gpu_peak_GB": 44.746743296
+    },
+    "c49_transport_full": {
+      "status": "complete",
+      "scope": "full",
+      "kind": "transport",
+      "initial_C38": {
+        "RMSE": [
+          2.6446351803304657,
+          2.9987403398240984
+        ],
+        "SSE": [
+          4553030.105599785,
+          5361052.0936575
+        ],
+        "count": [
+          650982.0,
+          596173.0
+        ],
+        "rows": 655872,
+        "combined": 2.821687760077282
+      },
+      "DEV": {
+        "RMSE": [
+          2.638160036251712,
+          2.89961551607333
+        ],
+        "SSE": [
+          4530762.055355255,
+          5012485.548302113
+        ],
+        "count": [
+          650982.0,
+          596173.0
+        ],
+        "rows": 655872,
+        "combined": 2.7688877761625212
+      },
+      "FIT_probe": {
+        "RMSE": [
+          2.451427283209377,
+          2.6364034974447903
+        ],
+        "SSE": [
+          390935.72538953274,
+          407403.84004609135
+        ],
+        "count": [
+          65053.0,
+          58614.0
+        ],
+        "rows": 65536,
+        "combined": 2.5439153903270837
+      },
+      "gain_db": [
+        0.006475144078753825,
+        0.09912482375076825
+      ],
+      "best_step": 8000,
+      "last_step": 8000,
+      "seconds": 396.5818541049957,
+      "tiny_both_le_080db": false,
+      "sampled_DEV_both_gain010db": false,
+      "evaluation_scope": "terrain-disjoint sampled DEV612",
+      "official_VAL_used": false,
+      "gpu_peak_GB": 44.813591552
+    },
+    "c52_adapter_full": {
+      "status": "complete",
+      "scope": "full",
+      "kind": "adapter",
+      "initial_C38": {
+        "RMSE": [
+          2.6446351803304657,
+          2.9987403398240984
+        ],
+        "SSE": [
+          4553030.105599785,
+          5361052.0936575
+        ],
+        "count": [
+          650982.0,
+          596173.0
+        ],
+        "rows": 655872,
+        "combined": 2.821687760077282
+      },
+      "DEV": {
+        "RMSE": [
+          2.644042091090157,
+          2.998537257873585
+        ],
+        "SSE": [
+          4550988.197971693,
+          5360325.991410025
+        ],
+        "count": [
+          650982.0,
+          596173.0
+        ],
+        "rows": 655872,
+        "combined": 2.821289674481871
+      },
+      "FIT_probe": {
+        "RMSE": [
+          2.4549233888442137,
+          2.717635407878699
+        ],
+        "SSE": [
+          392051.5873199233,
+          432896.17110608506
+        ],
+        "count": [
+          65053.0,
+          58614.0
+        ],
+        "rows": 65536,
+        "combined": 2.586279398361456
+      },
+      "gain_db": [
+        0.000593089240308764,
+        0.00020308195051343958
+      ],
+      "best_step": 5000,
+      "last_step": 8000,
+      "seconds": 80.17874574661255,
+      "tiny_both_le_080db": false,
+      "sampled_DEV_both_gain010db": false,
+      "evaluation_scope": "terrain-disjoint sampled DEV612",
+      "official_VAL_used": false,
+      "gpu_peak_GB": 41.926413312
+    },
+    "c52_transport_full": {
+      "status": "complete",
+      "scope": "full",
+      "kind": "transport",
+      "initial_C38": {
+        "RMSE": [
+          2.6446351803304657,
+          2.9987403398240984
+        ],
+        "SSE": [
+          4553030.105599785,
+          5361052.0936575
+        ],
+        "count": [
+          650982.0,
+          596173.0
+        ],
+        "rows": 655872,
+        "combined": 2.821687760077282
+      },
+      "DEV": {
+        "RMSE": [
+          2.6374587749322487,
+          2.8855671269381293
+        ],
+        "SSE": [
+          4528353.690544884,
+          4964033.079955742
+        ],
+        "count": [
+          650982.0,
+          596173.0
+        ],
+        "rows": 655872,
+        "combined": 2.761512950935189
+      },
+      "FIT_probe": {
+        "RMSE": [
+          2.44296381433496,
+          2.6290439098078333
+        ],
+        "SSE": [
+          388241.00070625305,
+          405132.4583565986
+        ],
+        "count": [
+          65053.0,
+          58614.0
+        ],
+        "rows": 65536,
+        "combined": 2.5360038620713965
+      },
+      "gain_db": [
+        0.007176405398217067,
+        0.11317321288596904
+      ],
+      "best_step": 11000,
+      "last_step": 12000,
+      "seconds": 499.629412651062,
+      "tiny_both_le_080db": false,
+      "sampled_DEV_both_gain010db": false,
+      "evaluation_scope": "terrain-disjoint sampled DEV612",
+      "official_VAL_used": false,
+      "gpu_peak_GB": 44.751184384
+    },
+    "c54_low_attention": {
+      "status": "complete",
+      "scope": "full",
+      "kind": "attention",
+      "initial_C38": {
+        "RMSE": [
+          2.5637193516910886,
+          2.9815462237121593
+        ],
+        "SSE": [
+          4278681.343342773,
+          5299750.162836769
+        ],
+        "count": [
+          650982.0,
+          596173.0
+        ],
+        "rows": 655872,
+        "combined": 2.7726327877016237
+      },
+      "DEV": {
+        "RMSE": [
+          2.5265930866835404,
+          2.9830805387025765
+        ],
+        "SSE": [
+          4155655.9732085047,
+          5305206.109353655
+        ],
+        "count": [
+          650982.0,
+          596173.0
+        ],
+        "rows": 655872,
+        "combined": 2.7548368126930587
+      },
+      "FIT_probe": {
+        "RMSE": [
+          2.323080023956966,
+          2.7034802645968306
+        ],
+        "SSE": [
+          351071.5769932918,
+          428398.3279839575
+        ],
+        "count": [
+          65053.0,
+          58614.0
+        ],
+        "rows": 65536,
+        "combined": 2.513280144276898
+      },
+      "gain_db": [
+        0.1180420936469253,
+        0.01565980112152099
+      ],
+      "gain_vs_parent_db": [
+        0.03712626500754812,
+        -0.0015343149904172293
+      ],
+      "target_band": 0,
+      "routing": "Only intended band enters combined submission; other head is not used",
+      "best_step": 16000,
+      "last_step": 16000,
+      "seconds": 437.08807039260864,
+      "tiny_both_le_080db": false,
+      "intended_band_gain010db": true,
+      "evaluation_scope": "terrain-disjoint sampled DEV612",
+      "official_VAL_used": false,
+      "gpu_peak_GB": 30.994939392
+    },
+    "c54_high_transport": {
+      "status": "complete",
+      "scope": "full",
+      "kind": "transport",
+      "initial_C38": {
+        "RMSE": [
+          2.6381601195763036,
+          2.8996155705424655
+        ],
+        "SSE": [
+          4530762.3415576825,
+          5012485.736620705
+        ],
+        "count": [
+          650982.0,
+          596173.0
+        ],
+        "rows": 655872,
+        "combined": 2.7688878450593846
+      },
+      "DEV": {
+        "RMSE": [
+          2.6405700888371513,
+          2.8847981356553265
+        ],
+        "SSE": [
+          4539043.859546905,
+          4961387.64538339
+        ],
+        "count": [
+          650982.0,
+          596173.0
+        ],
+        "rows": 655872,
+        "combined": 2.762684112246239
+      },
+      "FIT_probe": {
+        "RMSE": [
+          2.4539620074693134,
+          2.616191894627899
+        ],
+        "SSE": [
+          391744.58198199095,
+          401181.18017009285
+        ],
+        "count": [
+          65053.0,
+          58614.0
+        ],
+        "rows": 65536,
+        "combined": 2.535076951048606
+      },
+      "gain_db": [
+        0.0040650914933144655,
+        0.11394220416877099
+      ],
+      "gain_vs_parent_db": [
+        -0.0024099692608476886,
+        0.014817434887139047
+      ],
+      "target_band": 1,
+      "routing": "Only intended band enters combined submission; other head is not used",
+      "best_step": 16000,
+      "last_step": 16000,
+      "seconds": 905.2569246292114,
+      "tiny_both_le_080db": false,
+      "intended_band_gain010db": true,
+      "evaluation_scope": "terrain-disjoint sampled DEV612",
+      "official_VAL_used": false,
+      "gpu_peak_GB": 44.765881344
+    },
+    "c56_multibounce_full": {
+      "status": "complete",
+      "scope": "full",
+      "kind": "multibounce",
+      "initial_C38": {
+        "RMSE": [
+          2.638160095606483,
+          2.899615590423756
+        ],
+        "SSE": [
+          4530762.259226394,
+          5012485.805357185
+        ],
+        "count": [
+          650982.0,
+          596173.0
+        ],
+        "rows": 655872,
+        "combined": 2.7688878430151194
+      },
+      "DEV": {
+        "RMSE": [
+          2.6354605423563173,
+          2.888655769958384
+        ],
+        "SSE": [
+          4521494.606235537,
+          4974665.535222279
+        ],
+        "count": [
+          650982.0,
+          596173.0
+        ],
+        "rows": 655872,
+        "combined": 2.7620581561573507
+      },
+      "FIT_probe": {
+        "RMSE": [
+          2.447568816573688,
+          2.6253883377121303
+        ],
+        "SSE": [
+          389706.05370608385,
+          404006.60322931205
+        ],
+        "count": [
+          65053.0,
+          58614.0
+        ],
+        "rows": 65536,
+        "combined": 2.5364785771429093
+      },
+      "gain_db": [
+        0.009174637974148414,
+        0.11008456986571336
+      ],
+      "gain_vs_parent_db": [
+        0.002699553250165465,
+        0.010959820465371806
+      ],
+      "best_step": 8000,
+      "last_step": 8000,
+      "seconds": 509.5281322002411,
+      "tiny_both_le_080db": false,
+      "sampled_DEV_both_gain010db": false,
+      "evaluation_scope": "terrain-disjoint sampled DEV612",
+      "official_VAL_used": false,
+      "gpu_peak_GB": 45.552178688
+    },
+    "c59_narrow1024": {
+      "status": "complete",
+      "DEV": {
+        "RMSE": [
+          2.6446351803304653,
+          2.998740339824098
+        ],
+        "SSE": [
+          4553030.105599784,
+          5361052.093657498
+        ],
+        "count": [
+          650982.0,
+          596173.0
+        ]
+      },
+      "FIT_probe": {
+        "RMSE": [
+          2.476054473348111,
+          2.689489356873478
+        ],
+        "SSE": [
+          797745.6496389334,
+          846873.7359731365
+        ],
+        "count": [
+          130120.0,
+          117079.0
+        ]
+      },
+      "initial": {
+        "RMSE": [
+          2.6446351803304653,
+          2.998740339824098
+        ],
+        "SSE": [
+          4553030.105599784,
+          5361052.093657498
+        ],
+        "count": [
+          650982.0,
+          596173.0
+        ]
+      },
+      "gain_vs_C38_db": [
+        4.440892098500626e-16,
+        -4.440892098500626e-16
+      ],
+      "best_step": 0,
+      "last_step": 6000,
+      "seconds": 83.8035180568695,
+      "parameters": 4952096,
+      "gpu": {
+        "uuid": "GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0",
+        "logical_device": 0,
+        "name": "NVIDIA H100 80GB HBM3",
+        "memory_bytes": 84929347584,
+        "torch": "2.6.0+cu124",
+        "cuda_runtime": "12.4"
+      },
+      "official_VAL_used": false
+    },
+    "c59_wide2048": {
+      "status": "complete",
+      "DEV": {
+        "RMSE": [
+          2.628499282757253,
+          2.993054348027371
+        ],
+        "SSE": [
+          4497640.15797283,
+          5340740.89958548
+        ],
+        "count": [
+          650982.0,
+          596173.0
+        ]
+      },
+      "FIT_probe": {
+        "RMSE": [
+          2.436121435009346,
+          2.641631405743014
+        ],
+        "SSE": [
+          772221.5565120927,
+          817002.607707735
+        ],
+        "count": [
+          130120.0,
+          117079.0
+        ]
+      },
+      "initial": {
+        "RMSE": [
+          2.644635487368658,
+          2.998740405357172
+        ],
+        "SSE": [
+          4553031.16279983,
+          5361052.3279733695
+        ],
+        "count": [
+          650982.0,
+          596173.0
+        ]
+      },
+      "gain_vs_C38_db": [
+        0.016135897573212876,
+        0.005685991796726686
+      ],
+      "best_step": 19000,
+      "last_step": 20000,
+      "seconds": 500.42633175849915,
+      "parameters": 14034976,
+      "gpu": {
+        "uuid": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+        "logical_device": 0,
+        "name": "NVIDIA H100 80GB HBM3",
+        "memory_bytes": 84929347584,
+        "torch": "2.6.0+cu124",
+        "cuda_runtime": "12.4"
+      },
+      "official_VAL_used": false
+    },
+    "c61_local_full": {
+      "status": "complete; metrics recovered after numpy-bool serialization error",
+      "scope": "full",
+      "DEV": {
+        "RMSE": [
+          2.6448846309525087,
+          2.998085225147366
+        ],
+        "SSE": [
+          4553889.059427963,
+          5358709.963377155
+        ],
+        "count": [
+          650982,
+          596173
+        ]
+      },
+      "FIT_probe": {
+        "RMSE": [
+          2.5390117272060793,
+          2.690069250377958
+        ],
+        "SSE": [
+          839196.5163732073,
+          842954.9804746483
+        ],
+        "count": [
+          130177.0,
+          116487.0
+        ]
+      },
+      "initial": {
+        "RMSE": [
+          2.6446351803304653,
+          2.998740339824098
+        ],
+        "SSE": [
+          4553030.105599784,
+          5361052.093657498
+        ],
+        "count": [
+          650982.0,
+          596173.0
+        ]
+      },
+      "gain_vs_C38_db": [
+        -0.0002494506220429571,
+        0.0006551146767312943
+      ],
+      "best_step": 500,
+      "last_step": 3000,
+      "training_and_monitor_seconds": 422.6538121700287,
+      "both_sampledDEV_gain015db": false,
+      "official_VAL_used": false,
+      "evaluation_scope": "terrain-disjoint sampled internal DEV612",
+      "recovery": "Independent CPUfloat64 saved-prediction scoring. FIT probe reused from selected-weight monitor. No retraining; original error log and source preserved."
+    },
+    "c61_path_full": {
+      "status": "complete; metrics recovered after numpy-bool serialization error",
+      "scope": "full",
+      "DEV": {
+        "RMSE": [
+          2.6446351803304653,
+          2.9987403398240984
+        ],
+        "SSE": [
+          4553030.105599784,
+          5361052.0936575
+        ],
+        "count": [
+          650982,
+          596173
+        ]
+      },
+      "FIT_probe": {
+        "RMSE": [
+          2.53988702796538,
+          2.6923568795060095
+        ],
+        "SSE": [
+          839775.2265498099,
+          844389.2842992528
+        ],
+        "count": [
+          130177.0,
+          116487.0
+        ]
+      },
+      "initial": {
+        "RMSE": [
+          2.6446351803304653,
+          2.998740339824098
+        ],
+        "SSE": [
+          4553030.105599784,
+          5361052.093657498
+        ],
+        "count": [
+          650982.0,
+          596173.0
+        ]
+      },
+      "gain_vs_C38_db": [
+        4.440892098500626e-16,
+        -8.881784197001252e-16
+      ],
+      "best_step": 0,
+      "last_step": 3000,
+      "training_and_monitor_seconds": 462.65314650535583,
+      "both_sampledDEV_gain015db": false,
+      "official_VAL_used": false,
+      "evaluation_scope": "terrain-disjoint sampled internal DEV612",
+      "recovery": "Independent CPUfloat64 saved-prediction scoring. FIT probe reused from selected-weight monitor. No retraining; original error log and source preserved."
+    },
+    "c63_fixed_full": {
+      "status": "complete",
+      "coverage": "fixed",
+      "scope": "all5508FITterrains; terrain-disjoint internal sampledDEV612",
+      "DEV": {
+        "RMSE": [
+          2.643423288352012,
+          2.999121046935096
+        ],
+        "SSE": [
+          4548858.251232283,
+          5362413.412065134
+        ],
+        "count": [
+          650982.0,
+          596173.0
+        ]
+      },
+      "FIT_probe": {
+        "RMSE": [
+          2.585412608455558,
+          2.799201622449408
+        ],
+        "SSE": [
+          217422.1242443426,
+          228092.2702401221
+        ],
+        "count": [
+          32527.0,
+          29110.0
+        ],
+        "scope": "Uniform random FIT pixels; not a heldout set"
+      },
+      "initial_C38": {
+        "RMSE": [
+          2.6446351803304653,
+          2.998740339824098
+        ],
+        "SSE": [
+          4553030.105599784,
+          5361052.093657498
+        ],
+        "count": [
+          650982.0,
+          596173.0
+        ]
+      },
+      "gain_vs_C38_db": [
+        0.0012118919784533944,
+        -0.00038070711099802423
+      ],
+      "both_gain015db": false,
+      "best_step": 3000,
+      "last_step": 5000,
+      "seconds": 1145.801998615265,
+      "gpu_peak_GB": 65.49837056,
+      "official_VAL_used": false
+    },
+    "c63_dynamic_full": {
+      "status": "complete",
+      "coverage": "dynamic",
+      "scope": "all5508FITterrains; terrain-disjoint internal sampledDEV612",
+      "DEV": {
+        "RMSE": [
+          2.62999553719639,
+          2.959127477098991
+        ],
+        "SSE": [
+          4502762.114435614,
+          5220350.377059105
+        ],
+        "count": [
+          650982.0,
+          596173.0
+        ]
+      },
+      "FIT_probe": {
+        "RMSE": [
+          2.568688964139145,
+          2.754051140054033
+        ],
+        "SSE": [
+          214618.4477217838,
+          220793.46052397822
+        ],
+        "count": [
+          32527.0,
+          29110.0
+        ],
+        "scope": "Uniform random FIT pixels; not a heldout set"
+      },
+      "initial_C38": {
+        "RMSE": [
+          2.6446351803304653,
+          2.998740339824098
+        ],
+        "SSE": [
+          4553030.105599784,
+          5361052.093657498
+        ],
+        "count": [
+          650982.0,
+          596173.0
+        ]
+      },
+      "gain_vs_C38_db": [
+        0.014639643134075175,
+        0.03961286272510689
+      ],
+      "both_gain015db": false,
+      "best_step": 6000,
+      "last_step": 6000,
+      "seconds": 1337.063909292221,
+      "gpu_peak_GB": 65.498337792,
+      "official_VAL_used": false
+    }
+  },
+  "C38_pixel_coverage": {
+    "maps": 264,
+    "terrains": 64,
+    "groups": {
+      "seen1024": {
+        "RMSE": [
+          2.4323122023933426,
+          2.6448464023795757
+        ],
+        "SSE": [
+          1588549.3790704007,
+          1637663.186969287
+        ],
+        "count": [
+          268511.0,
+          234112.0
+        ]
+      },
+      "unseen64512": {
+        "RMSE": [
+          2.477630178020804,
+          2.7473577107408804
+        ],
+        "SSE": [
+          103858662.70739819,
+          111421107.16760167
+        ],
+        "count": [
+          16918808.0,
+          14761723.0
+        ]
+      },
+      "all": {
+        "RMSE": [
+          2.4769285678771773,
+          2.7457867327426917
+        ],
+        "SSE": [
+          105447212.08646849,
+          113058770.35457097
+        ],
+        "count": [
+          17187319.0,
+          14995835.0
+        ]
+      }
+    },
+    "gpu": {
+      "uuid": "GPU-70b6fceb-c7c4-9467-3c81-097c9284c160",
+      "logical_device": 0,
+      "name": "NVIDIA A800 80GB PCIe",
+      "memory_bytes": 84974239744,
+      "torch": "2.6.0+cu124",
+      "cuda_runtime": "12.4"
+    },
+    "seconds": 84.38664746284485,
+    "scope": "Same 64 FIT terrains, all264maps; no official VAL; frozen C38 model; masks only scorer"
+  },
+  "C61_tiny_pixel_generalization": {
+    "scope": "Only the same four FIT terrains, all pixels; no official VAL; frozen tiny checkpoint",
+    "maps": [
+      0,
+      2,
+      3,
+      4
+    ],
+    "gpu": {
+      "uuid": "GPU-70b6fceb-c7c4-9467-3c81-097c9284c160",
+      "logical_device": 0,
+      "name": "NVIDIA A800 80GB PCIe",
+      "memory_bytes": 84974239744,
+      "torch": "2.6.0+cu124",
+      "cuda_runtime": "12.4"
+    },
+    "groups": {
+      "seen1024": {
+        "C38": {
+          "RMSE": [
+            1.8175218779058713,
+            2.082629739754813
+          ],
+          "SSE": [
+            13471.207197245923,
+            16499.266591594205
+          ],
+          "count": [
+            4078.0,
+            3804.0
+          ]
+        },
+        "C61": {
+          "RMSE": [
+            0.6506863457279466,
+            0.642866733960337
+          ],
+          "SSE": [
+            1726.5955142674648,
+            1572.108133555288
+          ],
+          "count": [
+            4078.0,
+            3804.0
+          ]
+        }
+      },
+      "unseen64512": {
+        "C38": {
+          "RMSE": [
+            1.9605858959021325,
+            2.1972635138284393
+          ],
+          "SSE": [
+            987435.6511306602,
+            1157258.8497566981
+          ],
+          "count": [
+            256884.0,
+            239699.0
+          ]
+        },
+        "C61": {
+          "RMSE": [
+            2.435380363931363,
+            2.5521012852720535
+          ],
+          "SSE": [
+            1523598.9168827971,
+            1561212.5533568875
+          ],
+          "count": [
+            256884.0,
+            239699.0
+          ]
+        }
+      },
+      "all": {
+        "C38": {
+          "RMSE": [
+            1.9584306461031329,
+            2.1955187283213946
+          ],
+          "SSE": [
+            1000906.8583279061,
+            1173758.1163482924
+          ],
+          "count": [
+            260962.0,
+            243503.0
+          ]
+        },
+        "C61": {
+          "RMSE": [
+            2.4176455590018566,
+            2.533362933412997
+          ],
+          "SSE": [
+            1525325.5123970648,
+            1562784.6614904427
+          ],
+          "count": [
+            260962.0,
+            243503.0
+          ]
+        }
+      }
+    },
+    "limit": "Unseen pixels on known terrains are not unseen-terrain validation"
+  },
+  "C62_fixed": {
+    "status": "complete",
+    "scope": "fourFITterrains_pixelcoverage_control",
+    "coverage": "fixed",
+    "initial_holdout": {
+      "RMSE": [
+        2.392386939171241,
+        2.6363709553534536
+      ],
+      "C38_RMSE": [
+        1.9659202572155856,
+        2.225524280231679
+      ],
+      "SSE": [
+        93327.63993908965,
+        105966.58835977012
+      ],
+      "count": [
+        16306.0,
+        15246.0
+      ]
+    },
+    "FIT_probe": {
+      "RMSE": [
+        0.20880155499740685,
+        0.2732930733892165
+      ],
+      "C38_RMSE": [
+        1.8175218779058713,
+        2.082629739754813
+      ],
+      "SSE": [
+        177.7930084481486,
+        284.11735147344007
+      ],
+      "count": [
+        4078.0,
+        3804.0
+      ]
+    },
+    "holdout4096": {
+      "RMSE": [
+        2.4594255946201113,
+        2.641120403730514
+      ],
+      "C38_RMSE": [
+        1.9659202572155856,
+        2.225524280231679
+      ],
+      "SSE": [
+        98631.31300973438,
+        106348.73198382687
+      ],
+      "count": [
+        16306.0,
+        15246.0
+      ]
+    },
+    "all_pixels": {
+      "RMSE": [
+        2.448230059834109,
+        2.6103150805805186
+      ],
+      "C38_RMSE": [
+        1.9584306461031333,
+        2.1955187283213937
+      ],
+      "SSE": [
+        1564161.9755972764,
+        1659167.3048815904
+      ],
+      "count": [
+        260962.0,
+        243503.0
+      ]
+    },
+    "seconds": 154.61037039756775,
+    "official_VAL_used": false,
+    "limit": "Only known FIT terrains; pixel holdout is not unseen-terrain validation. Fixed budget, one seed."
+  },
+  "C62_dense": {
+    "status": "complete",
+    "scope": "fourFITterrains_pixelcoverage_control",
+    "coverage": "dense",
+    "initial_holdout": {
+      "RMSE": [
+        1.8719807352499676,
+        2.040557359715009
+      ],
+      "C38_RMSE": [
+        1.9659202572155856,
+        2.225524280231679
+      ],
+      "SSE": [
+        57141.309403535124,
+        63482.428161524964
+      ],
+      "count": [
+        16306.0,
+        15246.0
+      ]
+    },
+    "FIT_probe": {
+      "RMSE": [
+        1.5928372628089762,
+        1.707338629695388
+      ],
+      "C38_RMSE": [
+        1.78886413933367,
+        2.0336523791354453
+      ],
+      "SSE": [
+        10323.584190830868,
+        11030.379663367275
+      ],
+      "count": [
+        4069.0,
+        3784.0
+      ]
+    },
+    "holdout4096": {
+      "RMSE": [
+        1.7926156940048945,
+        1.9458319335027305
+      ],
+      "C38_RMSE": [
+        1.9659202572155856,
+        2.225524280231679
+      ],
+      "SSE": [
+        52398.858556358544,
+        57725.349132290605
+      ],
+      "count": [
+        16306.0,
+        15246.0
+      ]
+    },
+    "all_pixels": {
+      "RMSE": [
+        1.6860683876008111,
+        1.738402409032911
+      ],
+      "C38_RMSE": [
+        1.9584306461031333,
+        2.1955187283213937
+      ],
+      "SSE": [
+        741869.7171899432,
+        735876.52097941
+      ],
+      "count": [
+        260962.0,
+        243503.0
+      ]
+    },
+    "seconds": 156.55444979667664,
+    "official_VAL_used": false,
+    "limit": "Only known FIT terrains; pixel holdout is not unseen-terrain validation. Fixed budget, one seed."
+  },
+  "C63_comparison": {
+    "c63_fixed_full": {
+      "result": {
+        "status": "complete",
+        "coverage": "fixed",
+        "scope": "all5508FITterrains; terrain-disjoint internal sampledDEV612",
+        "DEV": {
+          "RMSE": [
+            2.643423288352012,
+            2.999121046935096
+          ],
+          "SSE": [
+            4548858.251232283,
+            5362413.412065134
+          ],
+          "count": [
+            650982.0,
+            596173.0
+          ]
+        },
+        "FIT_probe": {
+          "RMSE": [
+            2.585412608455558,
+            2.799201622449408
+          ],
+          "SSE": [
+            217422.1242443426,
+            228092.2702401221
+          ],
+          "count": [
+            32527.0,
+            29110.0
+          ],
+          "scope": "Uniform random FIT pixels; not a heldout set"
+        },
+        "initial_C38": {
+          "RMSE": [
+            2.6446351803304653,
+            2.998740339824098
+          ],
+          "SSE": [
+            4553030.105599784,
+            5361052.093657498
+          ],
+          "count": [
+            650982.0,
+            596173.0
+          ]
+        },
+        "gain_vs_C38_db": [
+          0.0012118919784533944,
+          -0.00038070711099802423
+        ],
+        "both_gain015db": false,
+        "best_step": 3000,
+        "last_step": 5000,
+        "seconds": 1145.801998615265,
+        "gpu_peak_GB": 65.49837056,
+        "official_VAL_used": false
+      },
+      "independent_CPU_RMSE": [
+        2.6434232883520115,
+        2.999121046935095
+      ],
+      "config": {
+        "coverage": "fixed",
+        "name": "c63_fixed_full",
+        "steps": 6000,
+        "variant": "path",
+        "gpu": {
+          "uuid": "GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0",
+          "logical_device": 0,
+          "name": "NVIDIA H100 80GB HBM3",
+          "memory_bytes": 84929347584,
+          "torch": "2.6.0+cu124",
+          "cuda_runtime": "12.4"
+        },
+        "seed": 20261210,
+        "fit_terrains": 5508,
+        "fit_maps": 23158,
+        "batch_maps": 16,
+        "points_per_map": 256,
+        "parameters": 13389424,
+        "trainable_parameters": 8394992,
+        "initial_state_sha256": "240792c39179e59c42a3f409c78b94c9a09ce6a9253df861d75347af3e832d54",
+        "pretrain": "runs/c62_dense_4maps_continue3000/best.pt",
+        "reset": "Both final correction layers zeroed to preserve C38 initial prediction",
+        "input_features": "H/TX-derived294 features computed at requested pixels + full13channel terrain; no target/mask inputs",
+        "official_VAL_used": false,
+        "selection": "minimum mean band RMSE on same sampledDEV612; minimum4000updates and patience2000",
+        "lr": 0.0005,
+        "weight_decay": 0.0001,
+        "source_hashes": {
+          "c63_full_train.py": "a560f156ba4d9447f6595694f13035b41da1013ac65bb64420ecd8f6fd4a8973",
+          "c63_point_features.py": "31e8feaa83ad48df54f849f69c54052008ba428c90d76d78c9a18b59e84bb9e7",
+          "c61_inference.py": "b4d5f683af88d79140015b168a3d528b4d46f1d7dc8a4c19adeca51e8d63d9b9",
+          "c61_model.py": "f798c8a201f35abec0b5bb4ffd84b2bde7e067bb9bb309c759600052c0f8779e",
+          "c46_model.py": "978b475af99f3d7657469b59710c9874bab8ae6e8e5962307f8d2fb44e09cf4b",
+          "c52_model.py": "8ccf5446f26c78533273d05cb368d73539c2cdc624469eb9c2dab8cedcf6deb2",
+          "c34_model.py": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af"
+        }
+      }
+    },
+    "c63_dynamic_full": {
+      "result": {
+        "status": "complete",
+        "coverage": "dynamic",
+        "scope": "all5508FITterrains; terrain-disjoint internal sampledDEV612",
+        "DEV": {
+          "RMSE": [
+            2.62999553719639,
+            2.959127477098991
+          ],
+          "SSE": [
+            4502762.114435614,
+            5220350.377059105
+          ],
+          "count": [
+            650982.0,
+            596173.0
+          ]
+        },
+        "FIT_probe": {
+          "RMSE": [
+            2.568688964139145,
+            2.754051140054033
+          ],
+          "SSE": [
+            214618.4477217838,
+            220793.46052397822
+          ],
+          "count": [
+            32527.0,
+            29110.0
+          ],
+          "scope": "Uniform random FIT pixels; not a heldout set"
+        },
+        "initial_C38": {
+          "RMSE": [
+            2.6446351803304653,
+            2.998740339824098
+          ],
+          "SSE": [
+            4553030.105599784,
+            5361052.093657498
+          ],
+          "count": [
+            650982.0,
+            596173.0
+          ]
+        },
+        "gain_vs_C38_db": [
+          0.014639643134075175,
+          0.03961286272510689
+        ],
+        "both_gain015db": false,
+        "best_step": 6000,
+        "last_step": 6000,
+        "seconds": 1337.063909292221,
+        "gpu_peak_GB": 65.498337792,
+        "official_VAL_used": false
+      },
+      "independent_CPU_RMSE": [
+        2.62999553719639,
+        2.9591274770989924
+      ],
+      "config": {
+        "coverage": "dynamic",
+        "name": "c63_dynamic_full",
+        "steps": 6000,
+        "variant": "path",
+        "gpu": {
+          "uuid": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+          "logical_device": 0,
+          "name": "NVIDIA H100 80GB HBM3",
+          "memory_bytes": 84929347584,
+          "torch": "2.6.0+cu124",
+          "cuda_runtime": "12.4"
+        },
+        "seed": 20261210,
+        "fit_terrains": 5508,
+        "fit_maps": 23158,
+        "batch_maps": 16,
+        "points_per_map": 256,
+        "parameters": 13389424,
+        "trainable_parameters": 8394992,
+        "initial_state_sha256": "240792c39179e59c42a3f409c78b94c9a09ce6a9253df861d75347af3e832d54",
+        "pretrain": "runs/c62_dense_4maps_continue3000/best.pt",
+        "reset": "Both final correction layers zeroed to preserve C38 initial prediction",
+        "input_features": "H/TX-derived294 features computed at requested pixels + full13channel terrain; no target/mask inputs",
+        "official_VAL_used": false,
+        "selection": "minimum mean band RMSE on same sampledDEV612; minimum4000updates and patience2000",
+        "lr": 0.0005,
+        "weight_decay": 0.0001,
+        "source_hashes": {
+          "c63_full_train.py": "a560f156ba4d9447f6595694f13035b41da1013ac65bb64420ecd8f6fd4a8973",
+          "c63_point_features.py": "31e8feaa83ad48df54f849f69c54052008ba428c90d76d78c9a18b59e84bb9e7",
+          "c61_inference.py": "b4d5f683af88d79140015b168a3d528b4d46f1d7dc8a4c19adeca51e8d63d9b9",
+          "c61_model.py": "f798c8a201f35abec0b5bb4ffd84b2bde7e067bb9bb309c759600052c0f8779e",
+          "c46_model.py": "978b475af99f3d7657469b59710c9874bab8ae6e8e5962307f8d2fb44e09cf4b",
+          "c52_model.py": "8ccf5446f26c78533273d05cb368d73539c2cdc624469eb9c2dab8cedcf6deb2",
+          "c34_model.py": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af"
+        }
+      }
+    },
+    "shared_steps": [
+      {
+        "step": 0,
+        "fixed_DEV": [
+          2.6446351803304653,
+          2.998740339824098
+        ],
+        "dynamic_DEV": [
+          2.6446351803304653,
+          2.998740339824098
+        ]
+      },
+      {
+        "step": 500,
+        "fixed_DEV": [
+          2.6454033571280084,
+          2.998751070766951
+        ],
+        "dynamic_DEV": [
+          2.6442559074626515,
+          2.998421456661477
+        ]
+      },
+      {
+        "step": 1000,
+        "fixed_DEV": [
+          2.645357607223795,
+          2.9991497975207517
+        ],
+        "dynamic_DEV": [
+          2.6435110952352985,
+          2.9978751841720914
+        ]
+      },
+      {
+        "step": 1500,
+        "fixed_DEV": [
+          2.644209421838002,
+          2.9993929006357076
+        ],
+        "dynamic_DEV": [
+          2.643356041813903,
+          2.997327807432471
+        ]
+      },
+      {
+        "step": 2000,
+        "fixed_DEV": [
+          2.645495161755685,
+          3.001915226185524
+        ],
+        "dynamic_DEV": [
+          2.642855373468455,
+          2.9951030078228356
+        ]
+      },
+      {
+        "step": 2500,
+        "fixed_DEV": [
+          2.645970045314562,
+          2.997635284493874
+        ],
+        "dynamic_DEV": [
+          2.642123479352053,
+          2.9923433122337473
+        ]
+      },
+      {
+        "step": 3000,
+        "fixed_DEV": [
+          2.643423288352012,
+          2.999121046935096
+        ],
+        "dynamic_DEV": [
+          2.63993239442786,
+          2.9880940660430237
+        ]
+      },
+      {
+        "step": 3500,
+        "fixed_DEV": [
+          2.6449460089993604,
+          3.00047561670642
+        ],
+        "dynamic_DEV": [
+          2.637610488137229,
+          2.981484723592856
+        ]
+      },
+      {
+        "step": 4000,
+        "fixed_DEV": [
+          2.6448602239640295,
+          2.9999602299541355
+        ],
+        "dynamic_DEV": [
+          2.6356824012783777,
+          2.9796004468747883
+        ]
+      },
+      {
+        "step": 4500,
+        "fixed_DEV": [
+          2.644248175339357,
+          2.999689554190859
+        ],
+        "dynamic_DEV": [
+          2.6335414338322707,
+          2.969773756301214
+        ]
+      },
+      {
+        "step": 5000,
+        "fixed_DEV": [
+          2.6445873842118317,
+          3.0001877838707216
+        ],
+        "dynamic_DEV": [
+          2.6312832955471324,
+          2.963878413515364
+        ]
+      }
+    ]
+  },
+  "C64_height_phase": {
+    "gpu": {
+      "uuid": "GPU-70b6fceb-c7c4-9467-3c81-097c9284c160",
+      "logical_device": 0,
+      "name": "NVIDIA A800 80GB PCIe",
+      "memory_bytes": 84974239744,
+      "torch": "2.6.0+cu124",
+      "cuda_runtime": "12.4"
+    },
+    "seconds": 30.282906532287598,
+    "parity": {
+      "maximum_feature_difference": 0.21490108966827393,
+      "prediction_RMS_db": [
+        0.00046390556963160634,
+        0.0008233218104578555
+      ],
+      "meaning": "Analytical input-translation approximation; not a recovered mesh or TX"
+    },
+    "phase_grid": [
+      -0.5,
+      -0.4375,
+      -0.375,
+      -0.3125,
+      -0.25,
+      -0.1875,
+      -0.125,
+      -0.0625,
+      0.0,
+      0.0625,
+      0.125,
+      0.1875,
+      0.25,
+      0.3125,
+      0.375,
+      0.4375
+    ],
+    "FIT_selected_candidate": 8,
+    "FIT_selected_delta": 0.0,
+    "global_FIT_selected_evaluation": {
+      "fit": {
+        "C38": {
+          "RMSE": [
+            2.432312064264591,
+            2.6448473241507773
+          ],
+          "SSE": [
+            1588549.1986459175,
+            1637664.328473025
+          ],
+          "count": [
+            268511,
+            234112
+          ]
+        },
+        "FIT_selected_candidate": {
+          "RMSE": [
+            2.432312064264591,
+            2.6448473241507773
+          ],
+          "SSE": [
+            1588549.1986459175,
+            1637664.328473025
+          ],
+          "count": [
+            268511,
+            234112
+          ]
+        },
+        "uniform_phase_ensemble": {
+          "RMSE": [
+            3.372388716487433,
+            4.529516520542509
+          ],
+          "SSE": [
+            3053777.1214543423,
+            4803163.509138903
+          ],
+          "count": [
+            268511,
+            234112
+          ]
+        }
+      },
+      "dev": {
+        "C38": {
+          "RMSE": [
+            2.644635686127936,
+            2.9987406950278976
+          ],
+          "SSE": [
+            4553031.847171815,
+            5361053.363701565
+          ],
+          "count": [
+            650982,
+            596173
+          ]
+        },
+        "FIT_selected_candidate": {
+          "RMSE": [
+            2.644635686127936,
+            2.9987406950278976
+          ],
+          "SSE": [
+            4553031.847171815,
+            5361053.363701565
+          ],
+          "count": [
+            650982,
+            596173
+          ]
+        },
+        "uniform_phase_ensemble": {
+          "RMSE": [
+            3.53614401119065,
+            4.730289516028398
+          ],
+          "SSE": [
+            8140083.640929132,
+            13339751.773177754
+          ],
+          "count": [
+            650982,
+            596173
+          ]
+        }
+      }
+    },
+    "same_terrain_oracle_pixel_confirmation": {
+      "C38": {
+        "RMSE": [
+          2.456078109166723,
+          2.6760171953931304
+        ],
+        "SSE": [
+          809977.6601681337,
+          838281.7846644793
+        ],
+        "count": [
+          134273,
+          117061
+        ]
+      },
+      "phase_chosen_on_other_pixels": {
+        "RMSE": [
+          2.458582680159827,
+          2.68001789620505
+        ],
+        "SSE": [
+          811630.4422154564,
+          840790.1553569459
+        ],
+        "count": [
+          134273,
+          117061
+        ]
+      },
+      "selected": [
+        {
+          "terrain": "00248",
+          "candidate": 8,
+          "phase": 0.0,
+          "maps": 51
+        },
+        {
+          "terrain": "00317",
+          "candidate": 8,
+          "phase": 0.0,
+          "maps": 1
+        },
+        {
+          "terrain": "00409",
+          "candidate": 6,
+          "phase": -0.125,
+          "maps": 1
+        },
+        {
+          "terrain": "00530",
+          "candidate": 8,
+          "phase": 0.0,
+          "maps": 1
+        },
+        {
+          "terrain": "00870",
+          "candidate": 7,
+          "phase": -0.0625,
+          "maps": 1
+        },
+        {
+          "terrain": "01024",
+          "candidate": 8,
+          "phase": 0.0,
+          "maps": 1
+        },
+        {
+          "terrain": "01058",
+          "candidate": 8,
+          "phase": 0.0,
+          "maps": 1
+        },
+        {
+          "terrain": "01123",
+          "candidate": 8,
+          "phase": 0.0,
+          "maps": 1
+        },
+        {
+          "terrain": "01144",
+          "candidate": 8,
+          "phase": 0.0,
+          "maps": 51
+        },
+        {
+          "terrain": "01175",
+          "candidate": 7,
+          "phase": -0.0625,
+          "maps": 1
+        },
+        {
+          "terrain": "01223",
+          "candidate": 7,
+          "phase": -0.0625,
+          "maps": 1
+        },
+        {
+          "terrain": "01245",
+          "candidate": 8,
+          "phase": 0.0,
+          "maps": 1
+        },
+        {
+          "terrain": "01255",
+          "candidate": 7,
+          "phase": -0.0625,
+          "maps": 1
+        },
+        {
+          "terrain": "01399",
+          "candidate": 8,
+          "phase": 0.0,
+          "maps": 1
+        },
+        {
+          "terrain": "01429",
+          "candidate": 8,
+          "phase": 0.0,
+          "maps": 1
+        },
+        {
+          "terrain": "01491",
+          "candidate": 9,
+          "phase": 0.0625,
+          "maps": 1
+        },
+        {
+          "terrain": "01566",
+          "candidate": 7,
+          "phase": -0.0625,
+          "maps": 1
+        },
+        {
+          "terrain": "01678",
+          "candidate": 8,
+          "phase": 0.0,
+          "maps": 1
+        },
+        {
+          "terrain": "02000",
+          "candidate": 8,
+          "phase": 0.0,
+          "maps": 1
+        },
+        {
+          "terrain": "02271",
+          "candidate": 8,
+          "phase": 0.0,
+          "maps": 1
+        },
+        {
+          "terrain": "02454",
+          "candidate": 8,
+          "phase": 0.0,
+          "maps": 1
+        },
+        {
+          "terrain": "02476",
+          "candidate": 7,
+          "phase": -0.0625,
+          "maps": 1
+        },
+        {
+          "terrain": "02495",
+          "candidate": 8,
+          "phase": 0.0,
+          "maps": 1
+        },
+        {
+          "terrain": "02496",
+          "candidate": 8,
+          "phase": 0.0,
+          "maps": 1
+        },
+        {
+          "terrain": "02518",
+          "candidate": 7,
+          "phase": -0.0625,
+          "maps": 1
+        },
+        {
+          "terrain": "02725",
+          "candidate": 8,
+          "phase": 0.0,
+          "maps": 1
+        },
+        {
+          "terrain": "02734",
+          "candidate": 8,
+          "phase": 0.0,
+          "maps": 1
+        },
+        {
+          "terrain": "02819",
+          "candidate": 8,
+          "phase": 0.0,
+          "maps": 1
+        },
+        {
+          "terrain": "02843",
+          "candidate": 5,
+          "phase": -0.1875,
+          "maps": 1
+        },
+        {
+          "terrain": "02919",
+          "candidate": 4,
+          "phase": -0.25,
+          "maps": 1
+        },
+        {
+          "terrain": "02927",
+          "candidate": 8,
+          "phase": 0.0,
+          "maps": 1
+        },
+        {
+          "terrain": "03344",
+          "candidate": 7,
+          "phase": -0.0625,
+          "maps": 1
+        },
+        {
+          "terrain": "03385",
+          "candidate": 8,
+          "phase": 0.0,
+          "maps": 1
+        },
+        {
+          "terrain": "03606",
+          "candidate": 8,
+          "phase": 0.0,
+          "maps": 1
+        },
+        {
+          "terrain": "03821",
+          "candidate": 8,
+          "phase": 0.0,
+          "maps": 51
+        },
+        {
+          "terrain": "03889",
+          "candidate": 7,
+          "phase": -0.0625,
+          "maps": 1
+        },
+        {
+          "terrain": "03986",
+          "candidate": 8,
+          "phase": 0.0,
+          "maps": 1
+        },
+        {
+          "terrain": "04207",
+          "candidate": 9,
+          "phase": 0.0625,
+          "maps": 1
+        },
+        {
+          "terrain": "04226",
+          "candidate": 8,
+          "phase": 0.0,
+          "maps": 51
+        },
+        {
+          "terrain": "04253",
+          "candidate": 8,
+          "phase": 0.0,
+          "maps": 1
+        },
+        {
+          "terrain": "04342",
+          "candidate": 8,
+          "phase": 0.0,
+          "maps": 1
+        },
+        {
+          "terrain": "04442",
+          "candidate": 7,
+          "phase": -0.0625,
+          "maps": 1
+        },
+        {
+          "terrain": "04560",
+          "candidate": 8,
+          "phase": 0.0,
+          "maps": 1
+        },
+        {
+          "terrain": "04564",
+          "candidate": 9,
+          "phase": 0.0625,
+          "maps": 1
+        },
+        {
+          "terrain": "04653",
+          "candidate": 8,
+          "phase": 0.0,
+          "maps": 1
+        },
+        {
+          "terrain": "04840",
+          "candidate": 8,
+          "phase": 0.0,
+          "maps": 1
+        },
+        {
+          "terrain": "05118",
+          "candidate": 7,
+          "phase": -0.0625,
+          "maps": 1
+        },
+        {
+          "terrain": "05188",
+          "candidate": 8,
+          "phase": 0.0,
+          "maps": 1
+        },
+        {
+          "terrain": "05200",
+          "candidate": 8,
+          "phase": 0.0,
+          "maps": 1
+        },
+        {
+          "terrain": "05317",
+          "candidate": 8,
+          "phase": 0.0,
+          "maps": 1
+        },
+        {
+          "terrain": "05578",
+          "candidate": 8,
+          "phase": 0.0,
+          "maps": 1
+        },
+        {
+          "terrain": "05657",
+          "candidate": 8,
+          "phase": 0.0,
+          "maps": 1
+        },
+        {
+          "terrain": "05663",
+          "candidate": 8,
+          "phase": 0.0,
+          "maps": 1
+        },
+        {
+          "terrain": "05736",
+          "candidate": 8,
+          "phase": 0.0,
+          "maps": 1
+        },
+        {
+          "terrain": "05738",
+          "candidate": 8,
+          "phase": 0.0,
+          "maps": 1
+        },
+        {
+          "terrain": "05745",
+          "candidate": 7,
+          "phase": -0.0625,
+          "maps": 1
+        },
+        {
+          "terrain": "05895",
+          "candidate": 9,
+          "phase": 0.0625,
+          "maps": 1
+        },
+        {
+          "terrain": "05969",
+          "candidate": 8,
+          "phase": 0.0,
+          "maps": 1
+        },
+        {
+          "terrain": "05992",
+          "candidate": 8,
+          "phase": 0.0,
+          "maps": 1
+        },
+        {
+          "terrain": "06003",
+          "candidate": 8,
+          "phase": 0.0,
+          "maps": 1
+        },
+        {
+          "terrain": "06044",
+          "candidate": 8,
+          "phase": 0.0,
+          "maps": 1
+        },
+        {
+          "terrain": "06283",
+          "candidate": 8,
+          "phase": 0.0,
+          "maps": 1
+        },
+        {
+          "terrain": "06636",
+          "candidate": 8,
+          "phase": 0.0,
+          "maps": 1
+        },
+        {
+          "terrain": "06798",
+          "candidate": 8,
+          "phase": 0.0,
+          "maps": 1
+        }
+      ]
+    },
+    "same_terrain_oracle_TX_confirmation": {
+      "C38": {
+        "RMSE": [
+          2.446662051030213,
+          2.6241332982916905
+        ],
+        "SSE": [
+          609097.2769362435,
+          609837.7383070849
+        ],
+        "count": [
+          101751,
+          88561
+        ]
+      },
+      "phase_chosen_on_other_TX": {
+        "RMSE": [
+          2.446662051030213,
+          2.6241332982916905
+        ],
+        "SSE": [
+          609097.2769362435,
+          609837.7383070849
+        ],
+        "count": [
+          101751,
+          88561
+        ]
+      },
+      "terrains": [
+        {
+          "terrain": "00248",
+          "calibration_TX": 26,
+          "confirmation_TX": 25,
+          "phase": 0.0
+        },
+        {
+          "terrain": "01144",
+          "calibration_TX": 26,
+          "confirmation_TX": 25,
+          "phase": 0.0
+        },
+        {
+          "terrain": "03821",
+          "calibration_TX": 26,
+          "confirmation_TX": 25,
+          "phase": 0.0
+        },
+        {
+          "terrain": "04226",
+          "calibration_TX": 26,
+          "confirmation_TX": 25,
+          "phase": 0.0
+        }
+      ]
+    },
+    "official_VAL_used": false,
+    "limits": "Unobserved phase per terrain uses calibration labels and is diagnostic only; cannot be supplied as test input. The model counterfactual does not identify actual TX coordinates or the source mesh. Uniform ensemble exceeds original single-pass runtime."
+  },
+  "runtime": {
+    "H100": {
+      "complete": true,
+      "gpu": {
+        "uuid": "GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0",
+        "logical_device": 0,
+        "name": "NVIDIA H100 80GB HBM3",
+        "memory_bytes": 84929347584,
+        "torch": "2.6.0+cu124",
+        "cuda_runtime": "12.4"
+      },
+      "records": [
+        {
+          "map": 0,
+          "seconds_all": [
+            33.717492025345564,
+            0.41097812820225954,
+            0.38337956089526415,
+            0.38542392011731863
+          ],
+          "warm_seconds_both_bands": 0.39326053640494746,
+          "RMS_diff_vs_canonical_db": [
+            0.008541413142133358,
+            0.01055085292412752
+          ],
+          "score_change_db": [
+            1.9060050069574785e-05,
+            0.00034722246872798124
+          ],
+          "repeat_max_abs_diff": 0.0,
+          "canonical_FIT_RMSE": [
+            1.855753069814435,
+            2.0066497862138952
+          ],
+          "compiled_FIT_RMSE": [
+            1.8557721298645047,
+            2.006997008682623
+          ]
+        },
+        {
+          "map": 154,
+          "seconds_all": [
+            0.38310349080711603,
+            0.3758563818410039,
+            0.377419495023787,
+            0.37694837898015976
+          ],
+          "warm_seconds_both_bands": 0.37674141861498356,
+          "RMS_diff_vs_canonical_db": [
+            0.0051565023103932826,
+            0.008460640141501661
+          ],
+          "score_change_db": [
+            4.2500669334977204e-05,
+            -6.595147159860204e-05
+          ],
+          "repeat_max_abs_diff": 0.0,
+          "canonical_FIT_RMSE": [
+            1.5372183378128514,
+            1.6338230058971477
+          ],
+          "compiled_FIT_RMSE": [
+            1.5372608384821864,
+            1.633757054425549
+          ]
+        }
+      ],
+      "rawH_TX_interface_verified": true,
+      "numerical_quality_bound_db": 0.01,
+      "warm_both_outputs_under500ms": true,
+      "limit": "Two FIT terrains on the recorded GPU; startup/compilation reported separately, official hardware unmeasured. No officialVAL labels read."
+    },
+    "A800": {
+      "complete": true,
+      "gpu": {
+        "uuid": "GPU-70b6fceb-c7c4-9467-3c81-097c9284c160",
+        "logical_device": 0,
+        "name": "NVIDIA A800 80GB PCIe",
+        "memory_bytes": 84974239744,
+        "torch": "2.6.0+cu124",
+        "cuda_runtime": "12.4"
+      },
+      "records": [
+        {
+          "map": 0,
+          "seconds_all": [
+            11.122367434203625,
+            0.534747620113194,
+            0.527119449339807,
+            0.5102792559191585
+          ],
+          "warm_seconds_both_bands": 0.5240487751240531,
+          "RMS_diff_vs_canonical_db": [
+            0.00856032525403345,
+            0.010552780180755962
+          ],
+          "score_change_db": [
+            8.603816724184199e-06,
+            0.0003489865658465874
+          ],
+          "repeat_max_abs_diff": 0.0,
+          "canonical_FIT_RMSE": [
+            1.8557598158571724,
+            2.006656188714358
+          ],
+          "compiled_FIT_RMSE": [
+            1.8557684196738966,
+            2.0070051752802045
+          ]
+        },
+        {
+          "map": 154,
+          "seconds_all": [
+            0.5200904114171863,
+            0.5070327343419194,
+            0.5109418984502554,
+            0.5140757719054818
+          ],
+          "warm_seconds_both_bands": 0.5106834682325522,
+          "RMS_diff_vs_canonical_db": [
+            0.005145494706035141,
+            0.008461880230044048
+          ],
+          "score_change_db": [
+            3.953381792087818e-05,
+            -6.60794622957539e-05
+          ],
+          "repeat_max_abs_diff": 0.0,
+          "canonical_FIT_RMSE": [
+            1.5372208560646579,
+            1.6338275476296513
+          ],
+          "compiled_FIT_RMSE": [
+            1.5372603898825787,
+            1.6337614681673556
+          ]
+        }
+      ],
+      "rawH_TX_interface_verified": true,
+      "numerical_quality_bound_db": 0.01,
+      "warm_both_outputs_under500ms": false,
+      "limit": "Two FIT terrains on the recorded GPU; startup/compilation reported separately, official hardware unmeasured. No officialVAL labels read."
+    }
+  },
+  "source_root": "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC",
+  "official_VAL_training": false,
+  "website_submission": false
+}

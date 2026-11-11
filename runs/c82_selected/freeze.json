@@ -1,0 +1,141 @@
+{
+  "model": "C82",
+  "parent_freeze": "96b5494966ccd330dcb341ccfdfae0f60f20bdc76cf159f77c01e87be6db3070",
+  "official_VAL_used_for_selection": false,
+  "selection": "Fixed C76 plus TRAIN-only multiscale local/graph readout; selected full on 48 terrains. No official validation used in this fitting/selection.",
+  "major_internal": false,
+  "confirmation": {
+    "mode": "full",
+    "base": [
+      [
+        2.3058686001931195,
+        1.8722737586479306,
+        3.315108114919317
+      ],
+      [
+        2.606780586340374,
+        1.966693365757567,
+        4.598361231744228
+      ]
+    ],
+    "rmse": [
+      [
+        2.302314301000701,
+        1.868582732802817,
+        3.3114213410420645
+      ],
+      [
+        2.5955397975007175,
+        1.9612047013827325,
+        4.572250777200511
+      ]
+    ],
+    "gain": [
+      [
+        0.003554299192418675,
+        0.0036910258451134936,
+        0.0036867738772525804
+      ],
+      [
+        0.011240788839656624,
+        0.005488664374834418,
+        0.02611045454371652
+      ]
+    ],
+    "gain95": [
+      [
+        [
+          0.002941261535777606,
+          0.0033822386592953337,
+          0.0022302453673657464
+        ],
+        [
+          0.0067650849789951395,
+          0.004642122580463148,
+          0.011464495195416414
+        ]
+      ],
+      [
+        [
+          0.0041536594450580664,
+          0.004021287094027447,
+          0.005136516812419567
+        ],
+        [
+          0.017671829626542356,
+          0.0067887520333539,
+          0.04467993117921682
+        ]
+      ]
+    ],
+    "upper_bound_any_convex_blend": [
+      [
+        0.20620534531437062,
+        0.1452304425166835,
+        0.3362370232258276
+      ],
+      [
+        0.26227023594295806,
+        0.1503571855397421,
+        0.564855966758981
+      ]
+    ],
+    "terrains": 484,
+    "maps": 1934
+  },
+  "files": {
+    "model.json": "459364e44177814596ef78b770571f89b77ed5da00920f151c4dcfcfe3170d68",
+    "weights/base/high.pt": "31489fb4ef8b7c721f997146f83416e969c73f028d966bd2127fbe647c088645",
+    "weights/base/low.pt": "78a91b260ff94ed711564728cd380751dcde187c0e55518f5c0d029225c8997c",
+    "weights/base/manifest.json": "9b5a178203665b27fd3d16ddc3c2cf9ba4efd309d58ec7d355d384b764dcd625",
+    "weights/base/teacher.pt": "9d340ca23b215e7680826b6eab1113f3d20d4b540b7f20f16c61c3173405a64c",
+    "weights/graph.pt": "2538e77cb5e3d85d73815f01ea956432e3b1a9cdc1ecb15420028d562f9b16e5",
+    "weights/post.pt": "02b16bd1e9a9956ebc09b8aa846c85e751935294313397e9988bef952c9d34a4",
+    "spectrum.json": "e9f3a73d67b99691f4d5e9eb005280144fb677e5f3fbd63cdbf08e7b1a9496ae"
+  },
+  "implementation": {
+    "c10_phase_geometry.py": "811a13597a0a215075909bed45a89b97449b64e1794041c52c3f96ad94852826",
+    "c34_model.py": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+    "c3_geometry.py": "f441476c0725eeb8bc92005b6d10fd2226e7696a5760df448af3824203d30cc9",
+    "c47_inference.py": "08d82671875a20b5c4443140386872db4d990ab3dec0e1f187912c7e4bec38c5",
+    "c47_model.py": "58ae38dcad4effc468cf436a46095ea1b664d9ddcff8c2748dfe97a730a4bb36",
+    "c48_model.py": "42353d80cc1525c57f70187d9af120aeb27688ab1e4a806c88a104b0a7281a6b",
+    "c49_model.py": "b5eb5b6bd0a8a4c58593aa8639b572dc5b8e9111a9411f5da4a309576a607329",
+    "c4_geometry.py": "5f4145162e155d2af2df46abd21e1db072f51c425ad3a4ad39fb9a202e800d47",
+    "c52_model.py": "8ccf5446f26c78533273d05cb368d73539c2cdc624469eb9c2dab8cedcf6deb2",
+    "c54_inference.py": "aec458030969922c82a2afa9dd7f5b8c7eef8afe584a53640cd8d8b58a70c5fe",
+    "c57_transmission.py": "fa10d0a21c3beec88d9337e89a41dda3a4201e6fde3c8bd6d545fc06729d9b51",
+    "c60_inference.py": "d51f36349098b361819fa2cc799fcbc18a7c2b58031ac94f68556357331151f2",
+    "c66_lattice.cpp": "59114104f4d228dd3430b1aa9239f437c75c306cf09777eda04701bd2dcc1231",
+    "c66_lattice.py": "ce4432e88d1adc85da87511f3806bf7d7efb0b5251fa60db266a25944fcfc30c",
+    "c67_dense.py": "2e04e09fe0bf68e1608f89644fa3e781b9771b6151e04d8a1cc4ca67dbab700c",
+    "c67_physics.py": "a652e3f120abbbe94a5b60903541b2deb575e0caa0ed89ff98403f83561ac2d5",
+    "c67_transport.cu": "6d177abc834b00931f32873c6b6a54b38388b67b9fefea5ba1297a90db4738b5",
+    "c69_registered.py": "6f170939b6f06029e41e657b984065ae77611f4b7382a82654274797e307cd46",
+    "c70_centroid_lookup0.npz": "f213534f2689bf1c03ad7d25d9c32af79c9554fdd227b6ac68189eb32e923d27",
+    "c70_field.py": "78ce203610d09c444e2e575c17d3c27bf6e5c6f6eb022885ed385e819424e61b",
+    "c70_geometry.cu": "19e1acaa79e1f64e6c10bf83ef6a09bfa3c148050df8436d4ae0081987a3609b",
+    "c70_geometry.py": "cdc47920ebbca03a636b67d73581b447d4f3dfc6a408eefe7d40cd501ca372b8",
+    "c72_native.py": "b42d5f19b5fa690b1ce1f88ba8cad94437c3f62dceea18e0c51bb8eac586c8e7",
+    "c72_native_features.py": "7177efb8e761043d4529cc2a7ea735f21a548ceb7a53d9c89409324456d08327",
+    "c73_compact.py": "b78d27abf25a520463d3a109dd1e8f9eb242a77a34e6ad74c6b5b04824b43de3",
+    "c73_graph.py": "0e088cf575a9b10955849c20fc70aeeb0e99e974c4e922ee1903124297d01eb2",
+    "c73_visibility.cu": "956a02bbc3c5f64707e6fcaccc91aaabe918211fe7012cf067ada12c7a65014c",
+    "c74_features.py": "ab69854a1ed9c49a7dbefa947f47b21a246414f283663b822aabd9e702cca1e4",
+    "c74_inference.py": "2ce9d80b18064746f637e5c262aec020ea5c254ddae146ed95dfa90e3fe82593",
+    "c74_surface.cu": "bc39b34d55228658c000b09fb51b9b1c977eb3564c9e881a668225581487e317",
+    "c7_surface_features.py": "d6048599ef969d04ff73611f25877d98a084ca4160db1f6343872035be0b7383",
+    "c8_tx_context.py": "3ffb3dec22666ce9093c51a09184a392cc74cef8a45050fcdeb36dd549ee0227",
+    "c9_extra_gpu.py": "6a1e1a35768ff9e6160e0a799059f0bcecbaba7373065439e3083f658163bc23",
+    "cc_core.py": "6c256bb62bf08a44bbd7223cd149346b7b39c41df84a58028efd46fc9c14b093",
+    "libc66_lattice.so": "8895d617ec3d4001876eb1814edc47cca751f2258cf8a5d5d62e1c54c0d45368",
+    "libc67_transport.so": "bfb640372229d55a41a255acb7460bdbfad708acb079595735a8ad1e0621b525",
+    "libc70_geometry.so": "4c38d7ed1d28dcb638450845cc700126f33d7b8601f053a62c59576a04ee483a",
+    "libc73_visibility.so": "3340a1d33ba243e723025540958703de178df47da473adf1ebd6b97793d555a3",
+    "libc74_surface.so": "c37d8cca4c21079e4c73d406496217db8c91873f21fdb10bcd6a74a8dfc943e0",
+    "c82_blend.py": "d871d39f9c86c0d2ada97271b197cf734aa564d871a9d2943fec406c565048c2",
+    "c82_inference.py": "f9297142a98e0d7d6d8ba7d147075610cf949dda2693d5299ba45520d0ad089c",
+    "c82_predict.py": "6443a8fdef3a7335263ffd1a8a741906cdbb19ca49c81401745b63e46e7bce51",
+    "c76_predict.py": "6beda3598d4bc873209e4490fa4cd121ee18fdd2e19d5cab539cb73116685ef7"
+  }
+}

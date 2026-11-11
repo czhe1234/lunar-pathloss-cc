@@ -1,0 +1,22 @@
+{
+  "mode": "coarse",
+  "steps": 4000,
+  "GPU": {
+    "uuid": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+    "logical_device": 0,
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_bytes": 84929347584,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "parameters": 338658,
+  "initial_state_sha256": "01b9b1c2ae89c862c02122fae7bd5a339253a3ff3fac7bc8c45de87c76bd93c3",
+  "source_scale": 4,
+  "train_map_batch": 8,
+  "query_per_map": 128,
+  "monitor_points_per_map": 256,
+  "frozen_point": "runs/c101_coarse/best.pt",
+  "frozen_source": "runs/c99_global/best.pt",
+  "input": "H/TX-derived fields and frozenC82, no masks/labels in inputs",
+  "official_val_used": false
+}

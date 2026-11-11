@@ -1,0 +1,9 @@
+{
+  "C43_relative_gate_passed": true,
+  "full_FIT_started": false,
+  "reason": "Relative path-guided attention gains and scaling are real in this trial, but FIT panel errors remain4.1/4.75dB at selected checkpoint (last monitor3.69/3.87), well above1dB. Resolve fit/representation before a much costlier all-FIT expansion.",
+  "next": "One bounded C44 dense-profile64-terrain screening based on nominal sampling-resolution audit",
+  "claim": "Path reference choice improves this CNN at fixed data/budget. No new model beats C38; unequal training-set size prevents a blanket CNN-vs-MLP conclusion.",
+  "official_VAL_loaded": false,
+  "website_submission": false
+}

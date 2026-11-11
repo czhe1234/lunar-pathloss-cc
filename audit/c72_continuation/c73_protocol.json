@@ -1,0 +1,9 @@
+{
+  "seed": 73113,
+  "fit_terrains": 5508,
+  "fit_maps": 7979,
+  "monitor": 64,
+  "confirmation": 64,
+  "training_target": "Raw official TRAIN labels, no simulated labels. Fix up to eight TX per FIT terrain. Whole-map supervised field with raw H, TX, candidate receiver geometry and transport features; no previous model prediction as input.",
+  "screen": "Record both same-panel RMSEs and separately the additional 484 internal terrains for candidates advanced. Preserve 0.30 dB gain criterion for a major improvement."
+}

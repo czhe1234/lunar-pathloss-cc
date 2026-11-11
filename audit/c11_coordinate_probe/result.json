@@ -1,0 +1,51 @@
+{
+  "scope": "1024 FIT terrains, one map each, 64 fixed uniform pixels/map; split first/last512 selected terrains; no official VAL or DEV labels",
+  "classes": "joint-valid, clear: both excess<3dB; blocked: low>6dB and high>12dB. Attenuation proxies, not path labels.",
+  "confirm_clear_count": 22757,
+  "confirm_blocked_count": 4955,
+  "hypotheses": {
+    "original_constant": {
+      "calibrated_height_offset_m": -0.7500000000000027,
+      "calibration_BA": 0.9599049602087915,
+      "confirmation_BA": 0.960516002283947,
+      "confirmation_clear_recall": 0.974513336555785,
+      "confirmation_blocked_recall": 0.9465186680121089
+    },
+    "original_phase0": {
+      "calibrated_height_offset_m": -0.07500000000000506,
+      "calibration_BA": 0.958840662060614,
+      "confirmation_BA": 0.9637969035996377,
+      "confirmation_clear_recall": 0.9901568748077515,
+      "confirmation_blocked_recall": 0.9374369323915237
+    },
+    "TX_half_constant": {
+      "calibrated_height_offset_m": -0.8000000000000025,
+      "calibration_BA": 0.9596683116183808,
+      "confirmation_BA": 0.9610173505567332,
+      "confirmation_clear_recall": 0.9704706244232544,
+      "confirmation_blocked_recall": 0.9515640766902119
+    },
+    "TX_half_phase0": {
+      "calibrated_height_offset_m": -0.07500000000000506,
+      "calibration_BA": 0.9597447180373384,
+      "confirmation_BA": 0.9643632832594018,
+      "confirmation_clear_recall": 0.9906841850859076,
+      "confirmation_blocked_recall": 0.9380423814328961
+    },
+    "RX_half_constant": {
+      "calibrated_height_offset_m": -0.7750000000000026,
+      "calibration_BA": 0.9592570988455889,
+      "confirmation_BA": 0.9591716803341512,
+      "confirmation_clear_recall": 0.9722283253504416,
+      "confirmation_blocked_recall": 0.9461150353178608
+    },
+    "RX_half_phase0": {
+      "calibrated_height_offset_m": -0.05000000000000515,
+      "calibration_BA": 0.9571345902424039,
+      "confirmation_BA": 0.9604010200873201,
+      "confirmation_clear_recall": 0.9900250472382124,
+      "confirmation_blocked_recall": 0.9307769929364279
+    }
+  },
+  "seconds": 1.662890911102295
+}

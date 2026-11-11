@@ -1,0 +1,11 @@
+{
+  "fit_terrains": 128,
+  "monitor_terrains": 128,
+  "overlap": 0,
+  "fit_maps": 248,
+  "monitor_maps": 628,
+  "official_VAL_used": false,
+  "physical_active_flag": "H/TX-derived nonzero computed power, not target validity mask",
+  "files_ready": 863,
+  "files_GiB": 48.07847582176328
+}

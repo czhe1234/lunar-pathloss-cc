@@ -1,0 +1,14 @@
+{
+  "question": "Does the shared BatchEnsemble weight constraint limit C38? Unshare its8 pretrained nonlinear experts, keep learned numeric embeddings, optimize the final two-band mixture.",
+  "evidence": "C38 has3.5%FIT member-variance loss term; C47/48 residual towers cannot yield substantial joint gains. This is a capacity/cooperation test, not a claim that variance alone explains the error.",
+  "initialization": "Each expert receives an exact copy of C38 shared weights and its own original r/s/bias/head; uniform initial band-dependent gate. Mathematical initial function equals C38; float32 identity and BF16 differences measured.",
+  "data": "All original5508FITterrains/23.7Mpoints; original612terrain sampledDEV; no officialVAL training/selection.",
+  "design": "Eight independent width1024 three-layer experts plus shared294 numerical embeddings and two-band learned gate. Optimize final mixture MSE; dropout.02; expertLR3e-4, embeddingLR1e-4, gateLR1e-3.",
+  "budget": "12000updates,4096batch; monitor1000, stop after3000 no improvement following4000.",
+  "promotion": "Both sampledDEV gains>=.10dB before completeDEV64 replay; require both fullDEV64 gains>=.10 before remainingDEV548.",
+  "GPU": "physical1 fullUUID only in run_gpu.sh; no other process terminated.",
+  "limits": "Changes capacity, objective and routing together. This is an engineering candidate, not an isolated causal ablation.",
+  "sources": [
+    "https://arxiv.org/abs/2410.24210"
+  ]
+}

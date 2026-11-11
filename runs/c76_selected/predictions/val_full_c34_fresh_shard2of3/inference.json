@@ -1,0 +1,25 @@
+{
+  "complete": true,
+  "maps": 530,
+  "source": "raw released VAL height and TX only",
+  "target_or_masks_used": false,
+  "gpu": {
+    "uuid": "GPU-70b6fceb-c7c4-9467-3c81-097c9284c160",
+    "logical_device": 0,
+    "name": "NVIDIA A800 80GB PCIe",
+    "memory_bytes": 84974239744,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "freeze_sha256": "96b5494966ccd330dcb341ccfdfae0f60f20bdc76cf159f77c01e87be6db3070",
+  "resumed_at": 0,
+  "warm_mean": 0.36445486416867695,
+  "warm_p95": 0.3896192155778408,
+  "first_seconds": 9.36718104314059,
+  "elapsed_seconds": 204.12423972878605,
+  "all_map_count": 530,
+  "all_over_500ms": 1,
+  "warm_run_over_500ms": 0,
+  "warm_run_count": 529,
+  "warm_max": 0.4462052509188652
+}

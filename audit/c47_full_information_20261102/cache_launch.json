@@ -1,0 +1,12 @@
+{
+  "fit": {
+    "pid": 3348101,
+    "card": 4,
+    "log": "logs/c47_cache_fit.log"
+  },
+  "dev": {
+    "pid": 3348102,
+    "card": 1,
+    "log": "logs/c47_cache_dev.log"
+  }
+}

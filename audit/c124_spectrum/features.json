@@ -1,0 +1,16 @@
+{
+  "fit": {
+    "maps": 2815,
+    "points": 4323840,
+    "source_ids_sha256": "9bf04ea906127c4c5d89c7aa108b563c12887a9752d713b5b2a03a247fb7b49c",
+    "sample_min": -9.5,
+    "sample_max": -0.17431640625
+  },
+  "monitor": {
+    "maps": 628,
+    "points": 1286144,
+    "source_ids_sha256": "e9a2a9e559a777fced568a8287b6f7b34e78a50dd15b61c4ed211acd3b519997",
+    "sample_min": -9.5,
+    "sample_max": -0.28466796875
+  }
+}

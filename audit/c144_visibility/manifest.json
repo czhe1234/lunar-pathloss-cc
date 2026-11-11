@@ -1,0 +1,14 @@
+{
+  "created": "2026-11-11T22:32:16.972458+08:00",
+  "sha256": {
+    "src/c144_visibility_certificate.py": "9621417e162f2352c247ca7d14c0bac1144bf0ca89d8ded3ecaae9d6e1045df2",
+    "audit/c144_visibility/independent_check.py": "7e40300f94263d1c7e51aaaf5e0b6c1af23a79c7fb8db19123953043cf397ad5",
+    "audit/c144_visibility/result.json": "300dc72d9dac091ebe01f979752afc010d1b8c84f781faf64e8b179fd488f9fc",
+    "audit/c144_visibility/certificate_geometry.npz": "909bce3fa106ec0f43a83032febb535cdefe4ecc07dcd3c7336e9a71920270e8",
+    "audit/c144_visibility/independent_check.json": "895c60b50ecf225ac1c8a5c336d7a72fc95f0938a7cdb8a06cd8049aee22e379",
+    "audit/c144_visibility/verification.json": "31f4cbc3500151a3cd4675562f06633dc9e554aceae87e850c5a79254c0714b9",
+    "audit/c144_visibility/cross_check.json": "4893adfd6a3dca9dd86b9e1f385acedc3c940a89ea1854f980da79ab5a024917",
+    "audit/c144_visibility/decision.json": "dcf7b04bf5eff7475f63a2b0f1f41c2b57bb85293d30e98988c5651db7d337cf",
+    "results/C144_00414\u8fde\u7eed\u89c6\u7ebf\u51c0\u7a7a\u6838\u67e5_20261111.md": "7a4151560133deabfe7630d032a9688afc49c299c7b1b6ad03f587f64fe1cc64"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "predictions": "runs/c5_cell_observation_s20261101/predictions/train_dev_bf16",
+  "split": "development",
+  "maps_per_band": 2562,
+  "regions_are_input_geometry_hypotheses_not_true_path_mechanism_labels": true,
+  "bands": {
+    "415": {
+      "both_clear_geometry": {
+        "sse": 477550992.3173229,
+        "count": 121967661,
+        "rmse": 1.9787345105656977,
+        "fraction_of_all_sse": 0.20406321728302532
+      },
+      "height_sensitive_geometry": {
+        "sse": 1021732090.8819366,
+        "count": 12566707,
+        "rmse": 9.01691077740192,
+        "fraction_of_all_sse": 0.43659827122322836
+      },
+      "blocked_at_3m_geometry": {
+        "sse": 840927948.8309956,
+        "count": 32104764,
+        "rmse": 5.117933664187493,
+        "fraction_of_all_sse": 0.3593385114937462
+      }
+    },
+    "58": {
+      "both_clear_geometry": {
+        "sse": 561863218.4987866,
+        "count": 121980976,
+        "rmse": 2.1461953488110983,
+        "fraction_of_all_sse": 0.16106562845151873
+      },
+      "height_sensitive_geometry": {
+        "sse": 2360790887.5260963,
+        "count": 11957192,
+        "rmse": 14.051224045792816,
+        "fraction_of_all_sse": 0.6767523757080222
+      },
+      "blocked_at_3m_geometry": {
+        "sse": 565757567.5303428,
+        "count": 18695851,
+        "rmse": 5.5010116763113315,
+        "fraction_of_all_sse": 0.16218199584045917
+      }
+    }
+  }
+}

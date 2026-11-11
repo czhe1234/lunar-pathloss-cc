@@ -1,0 +1,24 @@
+{
+  "GPU": {
+    "uuid": "GPU-70b6fceb-c7c4-9467-3c81-097c9284c160",
+    "logical_device": 0,
+    "name": "NVIDIA A800 80GB PCIe",
+    "memory_bytes": 84974239744,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "maps": 16,
+  "seconds": 235.88707832799992,
+  "median_seconds": 14.796571019018302,
+  "parameters": {
+    "source": 8,
+    "receiver": 2,
+    "light": 8192,
+    "angular": 128,
+    "tag": "mis8192",
+    "check_count": 8,
+    "shard": 0,
+    "of": 1
+  },
+  "labels_read": false
+}

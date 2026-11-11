@@ -1,0 +1,30 @@
+{
+  "releases/C65_20261102.tar.gz": {
+    "bytes": 38985361,
+    "sha256": "279c982d1566c6ba12a48e8bf6480d7e3afffefa52e820b63a82500687242f69"
+  },
+  "submissions/C65_Kaggle_20261102/submission_C65.csv": {
+    "bytes": 24981480,
+    "sha256": "0b695c028adee3abb14a2364888f7b687be05c680bd5895da8c2b3bfcfc61dc3"
+  },
+  "submissions/C65_Kaggle_20261102/manifest.json": {
+    "bytes": 22288,
+    "sha256": "593a771abd9e19fb020f4c371d6adbf3167d2476b5f34f8d293df8a43df13a30"
+  },
+  "submissions/C65_Kaggle_20261102/README_上传说明.md": {
+    "bytes": 1240,
+    "sha256": "2ce8ecc343b91c063656dc9319cc01a7852d5af9781b7b3d015e6e8eab892e8f"
+  },
+  "results/C47_C65实验与正式验证_20261102.md": {
+    "bytes": 8139,
+    "sha256": "12e27a22ba0777e6bb0e0151fcce1b7bfee11a3505cad3b06dd385fd86c6440c"
+  },
+  "results/C47_C65_results_20261102.json": {
+    "bytes": 67838,
+    "sha256": "7ba5316291d51ba0a4e762a817550ef85c948a5fa220de297c4cc33e773192aa"
+  },
+  "audit/c65_final_delivery.json": {
+    "bytes": 4327,
+    "sha256": "037702a4d8334db7dde6ba8ee81d09dfb1f4d2f23f8299c9ecde891a94e958bf"
+  }
+}

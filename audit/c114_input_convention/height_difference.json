@@ -1,0 +1,13 @@
+{
+  "maps": 384,
+  "correct_minus_old_TXheight_quantiles": [
+    -1.513885498046875,
+    -0.9471208095550537,
+    -0.5221710205078125,
+    -0.0897945880889893,
+    0.34026336669921875
+  ],
+  "mean_abs_difference": 0.5320517464230458,
+  "fraction_abs_difference_gt0_5": 0.5260416666666666,
+  "scope": "twoexistingderivedconventions,notmeasuredactualTXheight"
+}

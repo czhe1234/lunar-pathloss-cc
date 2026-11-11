@@ -1,0 +1,1027 @@
+{
+  "gpu": {
+    "uuid": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+    "logical_device": 0,
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_bytes": 84929347584,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "records": [
+    {
+      "group": "confirm",
+      "terrain": "00001",
+      "pos": 0,
+      "index": 1
+    },
+    {
+      "group": "confirm",
+      "terrain": "00008",
+      "pos": 53,
+      "index": 58
+    },
+    {
+      "group": "confirm",
+      "terrain": "00094",
+      "pos": 106,
+      "index": 634
+    },
+    {
+      "group": "confirm",
+      "terrain": "00139",
+      "pos": 110,
+      "index": 823
+    },
+    {
+      "group": "confirm",
+      "terrain": "00160",
+      "pos": 113,
+      "index": 890
+    },
+    {
+      "group": "confirm",
+      "terrain": "00232",
+      "pos": 169,
+      "index": 1256
+    },
+    {
+      "group": "confirm",
+      "terrain": "00253",
+      "pos": 172,
+      "index": 1324
+    },
+    {
+      "group": "confirm",
+      "terrain": "00305",
+      "pos": 175,
+      "index": 1473
+    },
+    {
+      "group": "confirm",
+      "terrain": "00314",
+      "pos": 179,
+      "index": 1482
+    },
+    {
+      "group": "confirm",
+      "terrain": "00351",
+      "pos": 184,
+      "index": 1562
+    },
+    {
+      "group": "confirm",
+      "terrain": "00367",
+      "pos": 187,
+      "index": 1627
+    },
+    {
+      "group": "confirm",
+      "terrain": "00444",
+      "pos": 190,
+      "index": 1947
+    },
+    {
+      "group": "confirm",
+      "terrain": "00469",
+      "pos": 244,
+      "index": 2067
+    },
+    {
+      "group": "confirm",
+      "terrain": "00533",
+      "pos": 249,
+      "index": 2225
+    },
+    {
+      "group": "confirm",
+      "terrain": "00542",
+      "pos": 285,
+      "index": 2266
+    },
+    {
+      "group": "confirm",
+      "terrain": "00551",
+      "pos": 305,
+      "index": 2342
+    },
+    {
+      "group": "confirm",
+      "terrain": "00561",
+      "pos": 329,
+      "index": 2423
+    },
+    {
+      "group": "confirm",
+      "terrain": "00576",
+      "pos": 361,
+      "index": 2465
+    },
+    {
+      "group": "confirm",
+      "terrain": "00634",
+      "pos": 364,
+      "index": 2567
+    },
+    {
+      "group": "confirm",
+      "terrain": "00676",
+      "pos": 369,
+      "index": 2658
+    },
+    {
+      "group": "confirm",
+      "terrain": "00715",
+      "pos": 374,
+      "index": 2793
+    },
+    {
+      "group": "confirm",
+      "terrain": "00790",
+      "pos": 430,
+      "index": 3160
+    },
+    {
+      "group": "confirm",
+      "terrain": "00819",
+      "pos": 433,
+      "index": 3388
+    },
+    {
+      "group": "confirm",
+      "terrain": "00899",
+      "pos": 488,
+      "index": 3658
+    },
+    {
+      "group": "confirm",
+      "terrain": "00948",
+      "pos": 492,
+      "index": 3802
+    },
+    {
+      "group": "confirm",
+      "terrain": "01005",
+      "pos": 495,
+      "index": 4005
+    },
+    {
+      "group": "confirm",
+      "terrain": "01027",
+      "pos": 548,
+      "index": 4126
+    },
+    {
+      "group": "confirm",
+      "terrain": "01044",
+      "pos": 551,
+      "index": 4193
+    },
+    {
+      "group": "confirm",
+      "terrain": "01088",
+      "pos": 554,
+      "index": 4333
+    },
+    {
+      "group": "confirm",
+      "terrain": "01147",
+      "pos": 659,
+      "index": 4734
+    },
+    {
+      "group": "confirm",
+      "terrain": "01190",
+      "pos": 663,
+      "index": 4924
+    },
+    {
+      "group": "confirm",
+      "terrain": "01224",
+      "pos": 667,
+      "index": 5054
+    },
+    {
+      "group": "confirm",
+      "terrain": "01254",
+      "pos": 671,
+      "index": 5133
+    },
+    {
+      "group": "confirm",
+      "terrain": "01274",
+      "pos": 674,
+      "index": 5150
+    },
+    {
+      "group": "confirm",
+      "terrain": "01369",
+      "pos": 679,
+      "index": 5485
+    },
+    {
+      "group": "confirm",
+      "terrain": "01459",
+      "pos": 683,
+      "index": 5815
+    },
+    {
+      "group": "confirm",
+      "terrain": "01523",
+      "pos": 687,
+      "index": 6174
+    },
+    {
+      "group": "confirm",
+      "terrain": "01570",
+      "pos": 742,
+      "index": 6314
+    },
+    {
+      "group": "confirm",
+      "terrain": "01611",
+      "pos": 745,
+      "index": 6402
+    },
+    {
+      "group": "confirm",
+      "terrain": "01662",
+      "pos": 748,
+      "index": 6648
+    },
+    {
+      "group": "confirm",
+      "terrain": "01701",
+      "pos": 752,
+      "index": 6733
+    },
+    {
+      "group": "confirm",
+      "terrain": "01772",
+      "pos": 757,
+      "index": 6997
+    },
+    {
+      "group": "confirm",
+      "terrain": "01832",
+      "pos": 767,
+      "index": 7205
+    },
+    {
+      "group": "confirm",
+      "terrain": "01865",
+      "pos": 818,
+      "index": 7382
+    },
+    {
+      "group": "confirm",
+      "terrain": "01905",
+      "pos": 824,
+      "index": 7472
+    },
+    {
+      "group": "confirm",
+      "terrain": "01937",
+      "pos": 827,
+      "index": 7500
+    },
+    {
+      "group": "confirm",
+      "terrain": "01968",
+      "pos": 830,
+      "index": 7680
+    },
+    {
+      "group": "confirm",
+      "terrain": "02007",
+      "pos": 834,
+      "index": 7865
+    },
+    {
+      "group": "confirm",
+      "terrain": "02040",
+      "pos": 837,
+      "index": 7943
+    },
+    {
+      "group": "confirm",
+      "terrain": "02105",
+      "pos": 892,
+      "index": 8303
+    },
+    {
+      "group": "confirm",
+      "terrain": "02132",
+      "pos": 946,
+      "index": 8375
+    },
+    {
+      "group": "confirm",
+      "terrain": "02178",
+      "pos": 950,
+      "index": 8413
+    },
+    {
+      "group": "confirm",
+      "terrain": "02222",
+      "pos": 953,
+      "index": 8502
+    },
+    {
+      "group": "confirm",
+      "terrain": "02236",
+      "pos": 956,
+      "index": 8514
+    },
+    {
+      "group": "confirm",
+      "terrain": "02309",
+      "pos": 959,
+      "index": 8826
+    },
+    {
+      "group": "confirm",
+      "terrain": "02342",
+      "pos": 963,
+      "index": 8905
+    },
+    {
+      "group": "confirm",
+      "terrain": "02375",
+      "pos": 966,
+      "index": 9087
+    },
+    {
+      "group": "confirm",
+      "terrain": "02394",
+      "pos": 969,
+      "index": 9103
+    },
+    {
+      "group": "confirm",
+      "terrain": "02433",
+      "pos": 972,
+      "index": 9139
+    },
+    {
+      "group": "confirm",
+      "terrain": "02483",
+      "pos": 975,
+      "index": 9287
+    },
+    {
+      "group": "confirm",
+      "terrain": "02498",
+      "pos": 980,
+      "index": 9301
+    },
+    {
+      "group": "confirm",
+      "terrain": "02554",
+      "pos": 989,
+      "index": 9551
+    },
+    {
+      "group": "confirm",
+      "terrain": "02583",
+      "pos": 992,
+      "index": 9679
+    },
+    {
+      "group": "confirm",
+      "terrain": "02660",
+      "pos": 995,
+      "index": 9995
+    },
+    {
+      "group": "confirm",
+      "terrain": "02695",
+      "pos": 999,
+      "index": 10077
+    },
+    {
+      "group": "confirm",
+      "terrain": "02741",
+      "pos": 1004,
+      "index": 10170
+    },
+    {
+      "group": "confirm",
+      "terrain": "02784",
+      "pos": 1007,
+      "index": 10509
+    },
+    {
+      "group": "confirm",
+      "terrain": "02802",
+      "pos": 1016,
+      "index": 10682
+    },
+    {
+      "group": "confirm",
+      "terrain": "02813",
+      "pos": 1063,
+      "index": 10736
+    },
+    {
+      "group": "confirm",
+      "terrain": "02826",
+      "pos": 1066,
+      "index": 10748
+    },
+    {
+      "group": "confirm",
+      "terrain": "02895",
+      "pos": 1071,
+      "index": 10907
+    },
+    {
+      "group": "confirm",
+      "terrain": "03008",
+      "pos": 1075,
+      "index": 11706
+    },
+    {
+      "group": "confirm",
+      "terrain": "03029",
+      "pos": 1078,
+      "index": 11773
+    },
+    {
+      "group": "confirm",
+      "terrain": "03072",
+      "pos": 1081,
+      "index": 11912
+    },
+    {
+      "group": "confirm",
+      "terrain": "03103",
+      "pos": 1085,
+      "index": 12140
+    },
+    {
+      "group": "confirm",
+      "terrain": "03232",
+      "pos": 1142,
+      "index": 12558
+    },
+    {
+      "group": "confirm",
+      "terrain": "03283",
+      "pos": 1169,
+      "index": 12775
+    },
+    {
+      "group": "confirm",
+      "terrain": "03296",
+      "pos": 1200,
+      "index": 12866
+    },
+    {
+      "group": "confirm",
+      "terrain": "03320",
+      "pos": 1253,
+      "index": 13037
+    },
+    {
+      "group": "confirm",
+      "terrain": "03354",
+      "pos": 1257,
+      "index": 13070
+    },
+    {
+      "group": "confirm",
+      "terrain": "03377",
+      "pos": 1313,
+      "index": 13241
+    },
+    {
+      "group": "confirm",
+      "terrain": "03432",
+      "pos": 1317,
+      "index": 13492
+    },
+    {
+      "group": "confirm",
+      "terrain": "03463",
+      "pos": 1320,
+      "index": 13570
+    },
+    {
+      "group": "confirm",
+      "terrain": "03480",
+      "pos": 1323,
+      "index": 13586
+    },
+    {
+      "group": "confirm",
+      "terrain": "03551",
+      "pos": 1327,
+      "index": 13848
+    },
+    {
+      "group": "confirm",
+      "terrain": "03594",
+      "pos": 1331,
+      "index": 13939
+    },
+    {
+      "group": "confirm",
+      "terrain": "03662",
+      "pos": 1336,
+      "index": 14199
+    },
+    {
+      "group": "confirm",
+      "terrain": "03669",
+      "pos": 1339,
+      "index": 14205
+    },
+    {
+      "group": "confirm",
+      "terrain": "03697",
+      "pos": 1342,
+      "index": 14383
+    },
+    {
+      "group": "confirm",
+      "terrain": "03708",
+      "pos": 1345,
+      "index": 14394
+    },
+    {
+      "group": "confirm",
+      "terrain": "03741",
+      "pos": 1349,
+      "index": 14426
+    },
+    {
+      "group": "confirm",
+      "terrain": "03810",
+      "pos": 1353,
+      "index": 14637
+    },
+    {
+      "group": "confirm",
+      "terrain": "03892",
+      "pos": 1357,
+      "index": 15061
+    },
+    {
+      "group": "confirm",
+      "terrain": "03951",
+      "pos": 1360,
+      "index": 15215
+    },
+    {
+      "group": "confirm",
+      "terrain": "03981",
+      "pos": 1364,
+      "index": 15344
+    },
+    {
+      "group": "confirm",
+      "terrain": "04009",
+      "pos": 1368,
+      "index": 15420
+    },
+    {
+      "group": "confirm",
+      "terrain": "04026",
+      "pos": 1372,
+      "index": 15535
+    },
+    {
+      "group": "confirm",
+      "terrain": "04054",
+      "pos": 1376,
+      "index": 15611
+    },
+    {
+      "group": "confirm",
+      "terrain": "04088",
+      "pos": 1379,
+      "index": 15841
+    },
+    {
+      "group": "confirm",
+      "terrain": "04152",
+      "pos": 1382,
+      "index": 16049
+    },
+    {
+      "group": "confirm",
+      "terrain": "04203",
+      "pos": 1435,
+      "index": 16248
+    },
+    {
+      "group": "confirm",
+      "terrain": "04214",
+      "pos": 1488,
+      "index": 16359
+    },
+    {
+      "group": "confirm",
+      "terrain": "04277",
+      "pos": 1542,
+      "index": 16515
+    },
+    {
+      "group": "confirm",
+      "terrain": "04329",
+      "pos": 1545,
+      "index": 16713
+    },
+    {
+      "group": "confirm",
+      "terrain": "04406",
+      "pos": 1550,
+      "index": 16931
+    },
+    {
+      "group": "confirm",
+      "terrain": "04510",
+      "pos": 1606,
+      "index": 17271
+    },
+    {
+      "group": "confirm",
+      "terrain": "04528",
+      "pos": 1661,
+      "index": 17338
+    },
+    {
+      "group": "confirm",
+      "terrain": "04597",
+      "pos": 1666,
+      "index": 17603
+    },
+    {
+      "group": "confirm",
+      "terrain": "04627",
+      "pos": 1720,
+      "index": 17729
+    },
+    {
+      "group": "confirm",
+      "terrain": "04677",
+      "pos": 1723,
+      "index": 17924
+    },
+    {
+      "group": "confirm",
+      "terrain": "04820",
+      "pos": 1729,
+      "index": 18349
+    },
+    {
+      "group": "confirm",
+      "terrain": "04867",
+      "pos": 1734,
+      "index": 18590
+    },
+    {
+      "group": "confirm",
+      "terrain": "04936",
+      "pos": 1738,
+      "index": 18852
+    },
+    {
+      "group": "confirm",
+      "terrain": "04959",
+      "pos": 1741,
+      "index": 18874
+    },
+    {
+      "group": "confirm",
+      "terrain": "04989",
+      "pos": 1744,
+      "index": 18951
+    },
+    {
+      "group": "confirm",
+      "terrain": "05028",
+      "pos": 1747,
+      "index": 19184
+    },
+    {
+      "group": "confirm",
+      "terrain": "05115",
+      "pos": 1751,
+      "index": 19614
+    },
+    {
+      "group": "confirm",
+      "terrain": "05146",
+      "pos": 1754,
+      "index": 19692
+    },
+    {
+      "group": "confirm",
+      "terrain": "05204",
+      "pos": 1758,
+      "index": 19794
+    },
+    {
+      "group": "confirm",
+      "terrain": "05238",
+      "pos": 1762,
+      "index": 19826
+    },
+    {
+      "group": "confirm",
+      "terrain": "05274",
+      "pos": 1816,
+      "index": 19909
+    },
+    {
+      "group": "confirm",
+      "terrain": "05320",
+      "pos": 1819,
+      "index": 20052
+    },
+    {
+      "group": "confirm",
+      "terrain": "05395",
+      "pos": 1822,
+      "index": 20219
+    },
+    {
+      "group": "confirm",
+      "terrain": "05476",
+      "pos": 1832,
+      "index": 20546
+    },
+    {
+      "group": "confirm",
+      "terrain": "05490",
+      "pos": 1929,
+      "index": 20651
+    },
+    {
+      "group": "confirm",
+      "terrain": "05523",
+      "pos": 1985,
+      "index": 20933
+    },
+    {
+      "group": "confirm",
+      "terrain": "05546",
+      "pos": 2038,
+      "index": 21103
+    },
+    {
+      "group": "confirm",
+      "terrain": "05580",
+      "pos": 2041,
+      "index": 21237
+    },
+    {
+      "group": "confirm",
+      "terrain": "05625",
+      "pos": 2045,
+      "index": 21428
+    },
+    {
+      "group": "confirm",
+      "terrain": "05653",
+      "pos": 2094,
+      "index": 21549
+    },
+    {
+      "group": "confirm",
+      "terrain": "05693",
+      "pos": 2153,
+      "index": 21737
+    },
+    {
+      "group": "confirm",
+      "terrain": "05732",
+      "pos": 2157,
+      "index": 21875
+    },
+    {
+      "group": "confirm",
+      "terrain": "05788",
+      "pos": 2160,
+      "index": 21926
+    },
+    {
+      "group": "confirm",
+      "terrain": "05844",
+      "pos": 2165,
+      "index": 22026
+    },
+    {
+      "group": "confirm",
+      "terrain": "05865",
+      "pos": 2168,
+      "index": 22145
+    },
+    {
+      "group": "confirm",
+      "terrain": "05897",
+      "pos": 2221,
+      "index": 22424
+    },
+    {
+      "group": "confirm",
+      "terrain": "05925",
+      "pos": 2224,
+      "index": 22450
+    },
+    {
+      "group": "confirm",
+      "terrain": "05935",
+      "pos": 2227,
+      "index": 22460
+    },
+    {
+      "group": "confirm",
+      "terrain": "05957",
+      "pos": 2230,
+      "index": 22529
+    },
+    {
+      "group": "confirm",
+      "terrain": "05981",
+      "pos": 2233,
+      "index": 22651
+    },
+    {
+      "group": "confirm",
+      "terrain": "06009",
+      "pos": 2236,
+      "index": 22726
+    },
+    {
+      "group": "confirm",
+      "terrain": "06077",
+      "pos": 2240,
+      "index": 22984
+    },
+    {
+      "group": "confirm",
+      "terrain": "06092",
+      "pos": 2243,
+      "index": 22997
+    },
+    {
+      "group": "confirm",
+      "terrain": "06108",
+      "pos": 2246,
+      "index": 23012
+    },
+    {
+      "group": "confirm",
+      "terrain": "06239",
+      "pos": 2252,
+      "index": 23617
+    },
+    {
+      "group": "confirm",
+      "terrain": "06289",
+      "pos": 2256,
+      "index": 23811
+    },
+    {
+      "group": "confirm",
+      "terrain": "06317",
+      "pos": 2310,
+      "index": 24036
+    },
+    {
+      "group": "confirm",
+      "terrain": "06351",
+      "pos": 2314,
+      "index": 24116
+    },
+    {
+      "group": "confirm",
+      "terrain": "06380",
+      "pos": 2317,
+      "index": 24242
+    },
+    {
+      "group": "confirm",
+      "terrain": "06410",
+      "pos": 2321,
+      "index": 24271
+    },
+    {
+      "group": "confirm",
+      "terrain": "06420",
+      "pos": 2324,
+      "index": 24280
+    },
+    {
+      "group": "confirm",
+      "terrain": "06472",
+      "pos": 2378,
+      "index": 24677
+    },
+    {
+      "group": "confirm",
+      "terrain": "06539",
+      "pos": 2432,
+      "index": 24883
+    },
+    {
+      "group": "confirm",
+      "terrain": "06578",
+      "pos": 2486,
+      "index": 25022
+    },
+    {
+      "group": "confirm",
+      "terrain": "06597",
+      "pos": 2539,
+      "index": 25091
+    },
+    {
+      "group": "confirm",
+      "terrain": "06617",
+      "pos": 2542,
+      "index": 25107
+    },
+    {
+      "group": "confirm",
+      "terrain": "06661",
+      "pos": 2545,
+      "index": 25348
+    },
+    {
+      "group": "confirm",
+      "terrain": "06693",
+      "pos": 2548,
+      "index": 25377
+    },
+    {
+      "group": "confirm",
+      "terrain": "06707",
+      "pos": 2551,
+      "index": 25540
+    },
+    {
+      "group": "confirm",
+      "terrain": "06721",
+      "pos": 2554,
+      "index": 25552
+    },
+    {
+      "group": "confirm",
+      "terrain": "06751",
+      "pos": 2557,
+      "index": 25627
+    },
+    {
+      "group": "confirm",
+      "terrain": "06763",
+      "pos": 2560,
+      "index": 25639
+    }
+  ],
+  "names": [
+    [
+      "native",
+      "centroid"
+    ],
+    [
+      "native",
+      "integer"
+    ],
+    [
+      "native",
+      "sharp"
+    ],
+    [
+      "smooth",
+      "centroid"
+    ],
+    [
+      "warp",
+      "centroid"
+    ]
+  ],
+  "columns": [
+    "direct_lo",
+    "direct_hi",
+    "total_lo",
+    "total_hi",
+    "native_db_lo",
+    "native_db_hi",
+    "visible",
+    "weak_face",
+    "shadow_area",
+    "log_cos_min",
+    "edge_on",
+    "weighted_weak_lo",
+    "weighted_weak_hi",
+    "slope_x",
+    "slope_y",
+    "fractional_weight",
+    "min_cos",
+    "mixed_sign"
+  ],
+  "seconds": 9.212471104227006
+}

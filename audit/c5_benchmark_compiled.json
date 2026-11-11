@@ -1,0 +1,23 @@
+{
+  "device": {
+    "uuid": "GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0",
+    "logical_device": 0,
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_bytes": 84929347584,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "fit_only_discarded_updates": true,
+  "cache_storage_reserved_GB": 69.02775808,
+  "records": [
+    {
+      "batch": 32,
+      "mode": "compiled",
+      "steps": 4,
+      "seconds": 0.3149605644866824,
+      "maps_per_second": 406.4000844315615,
+      "peak_allocated_GB": 78.608837632,
+      "last_discarded_fit_loss": 0.16742117702960968
+    }
+  ]
+}

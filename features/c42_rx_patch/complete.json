@@ -1,0 +1,8 @@
+{
+  "complete": true,
+  "extra_features": 81,
+  "input": "9x9 heights relative to RX centre,asinh(delta/2)/3; edge clamp",
+  "FIT": "Same256points/map and targets as C37",
+  "DEV": "unchanged256points/map,never used to fit normalization",
+  "seconds": 31.296574592590332
+}

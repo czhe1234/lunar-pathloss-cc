@@ -1,0 +1,24 @@
+{
+  "criterion": "At least 3 percent relative RMSE reduction in each band on unchanged sampled internal DEV, declared before training.",
+  "bands": {
+    "415": {
+      "C10_RMSE_db": 2.948508059683078,
+      "C12_RMSE_db": 2.898083776637797,
+      "relative_reduction_percent": 1.7101626322398755,
+      "C12_fit_RMSE_db": 2.2656943603140576,
+      "best_iteration": 1197,
+      "meets_3_percent_gate": false
+    },
+    "58": {
+      "C10_RMSE_db": 3.387646886271431,
+      "C12_RMSE_db": 3.3841621634843726,
+      "relative_reduction_percent": 0.10286558499295051,
+      "C12_fit_RMSE_db": 2.519522373655492,
+      "best_iteration": 1200,
+      "meets_3_percent_gate": false
+    }
+  },
+  "promote_to_full_validation": false,
+  "official_validation_used_to_fit_or_select_C12": false,
+  "source": "audit/c12_protocol.json"
+}

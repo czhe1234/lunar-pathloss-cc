@@ -1,0 +1,26 @@
+{
+  "aim": "Learn nonlinear combinations of all294 C10 input-only descriptors with numerical embeddings and shared-weight ensembles",
+  "hypothesis": "Existing MLP mixes raw scalars directly; per-feature nonlinear encoding and ensemble training may improve both bands",
+  "references": [
+    "https://arxiv.org/abs/2410.24210",
+    "https://arxiv.org/abs/2203.05556"
+  ],
+  "implementation": "Independent; paper text only; no external repository code read/copied",
+  "data": "Original C10 FIT/DEV point samples; terrain-disjoint; normalization on FIT only",
+  "candidates": {
+    "gpu1": "PLE8",
+    "gpu3": "periodic8",
+    "gpu4": "PLE1"
+  },
+  "common": {
+    "seed": 20261205,
+    "steps": 20000,
+    "batch": 4096,
+    "width": 512,
+    "layers": 3,
+    "lr": 0.001,
+    "dropout": 0.05
+  },
+  "full_DEV_promotion": "both band sampled RMSE at least3% below C10; improvements below this remain candidates only",
+  "official_goal": "Both official fixed-validation RMSE<=1dB"
+}

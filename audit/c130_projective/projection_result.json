@@ -1,0 +1,170 @@
+{
+  "scope": "277FITterrains, fourTX each, first512C101querypoints/map, all three methods on identical valid support; no officialVAL, no prediction-input masks",
+  "buckets": {
+    "all_common": {
+      "same_RX": {
+        "valid": [
+          781288,
+          653641
+        ],
+        "C82_RMSE": [
+          1.8944122861850115,
+          2.0253732877184776
+        ],
+        "direct_label_transfer_RMSE": [
+          2.920820977727093,
+          3.123712683769052
+        ],
+        "residual_correlation": [
+          0.028417743712528143,
+          0.03577136944014223
+        ],
+        "tail_direction": [
+          0.5110310275116463,
+          0.5142196418027948
+        ],
+        "tail_count": [
+          22754,
+          20324
+        ]
+      },
+      "TX_translation": {
+        "valid": [
+          781288,
+          653641
+        ],
+        "C82_RMSE": [
+          1.8944122861850115,
+          2.0253732877184776
+        ],
+        "direct_label_transfer_RMSE": [
+          2.6889294912685,
+          2.8796218478116073
+        ],
+        "residual_correlation": [
+          0.0007912149647234176,
+          0.0020024900928408635
+        ],
+        "tail_direction": [
+          0.4996484134657643,
+          0.5007380436921866
+        ],
+        "tail_count": [
+          22754,
+          20324
+        ]
+      },
+      "source_direction": {
+        "valid": [
+          781288,
+          653641
+        ],
+        "C82_RMSE": [
+          1.8944122861850115,
+          2.0253732877184776
+        ],
+        "direct_label_transfer_RMSE": [
+          2.545101608513767,
+          2.670482867569957
+        ],
+        "residual_correlation": [
+          -0.0011314377689406435,
+          0.0005414719885251757
+        ],
+        "tail_direction": [
+          0.4874307814010723,
+          0.49621137571344226
+        ],
+        "tail_count": [
+          22754,
+          20324
+        ]
+      }
+    },
+    "near_direction_match": {
+      "same_RX": {
+        "valid": [
+          610439,
+          505587
+        ],
+        "C82_RMSE": [
+          1.8511601830924973,
+          1.89725338537597
+        ],
+        "direct_label_transfer_RMSE": [
+          2.9463024701921943,
+          3.115959416377166
+        ],
+        "residual_correlation": [
+          0.03264199248115251,
+          0.042861650965978666
+        ],
+        "tail_direction": [
+          0.5123240482271189,
+          0.517004795278495
+        ],
+        "tail_count": [
+          16837,
+          13555
+        ]
+      },
+      "TX_translation": {
+        "valid": [
+          610439,
+          505587
+        ],
+        "C82_RMSE": [
+          1.8511601830924973,
+          1.89725338537597
+        ],
+        "direct_label_transfer_RMSE": [
+          2.649608700565135,
+          2.7780982568391277
+        ],
+        "residual_correlation": [
+          0.0017777354520599879,
+          0.0027338845214771503
+        ],
+        "tail_direction": [
+          0.49931698045970185,
+          0.5015123570638141
+        ],
+        "tail_count": [
+          16837,
+          13555
+        ]
+      },
+      "source_direction": {
+        "valid": [
+          610439,
+          505587
+        ],
+        "C82_RMSE": [
+          1.8511601830924973,
+          1.89725338537597
+        ],
+        "direct_label_transfer_RMSE": [
+          2.3370879337268593,
+          2.46809520286695
+        ],
+        "residual_correlation": [
+          -0.0022055340288304995,
+          -0.00041644975963622675
+        ],
+        "tail_direction": [
+          0.4962879372809883,
+          0.5055699004057543
+        ],
+        "tail_count": [
+          16837,
+          13555
+        ]
+      }
+    }
+  },
+  "seconds": 24.787289362982847,
+  "geometry": "publishedH/TX; source+3 receiver+1; no mesh/coordinate reconstruction",
+  "interpretation": "OtherTX true residuals are privileged diagnostics, not available prediction inputs",
+  "status": "complete",
+  "train_launched": false
+}

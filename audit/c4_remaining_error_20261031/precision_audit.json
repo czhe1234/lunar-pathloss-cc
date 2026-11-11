@@ -1,0 +1,34 @@
+{
+  "maps": 128,
+  "device": {
+    "uuid": "GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0",
+    "logical_device": 0,
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_bytes": 84929347584,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "seconds": 8.336677074432373,
+  "tf32_enabled": false,
+  "autocast_enabled": false,
+  "checkpoint_before_after_sha256": "4355f5e831aa280bf502c01488f823d67eee389e769e8d616644fa9d9a9ca907",
+  "model_updated": false,
+  "bands": {
+    "415": {
+      "valid_pixels": 8332657,
+      "saved_bf16_rmse": 3.6507837720603105,
+      "strict_fp32_rmse": 3.6509222280180955,
+      "prediction_difference_rms": 0.012011924544720633,
+      "prediction_difference_max_abs": 0.21697235107421875,
+      "bf16_batch_replay_difference_rms": 0.006487630008416678
+    },
+    "58": {
+      "valid_pixels": 7550138,
+      "saved_bf16_rmse": 4.509427299788462,
+      "strict_fp32_rmse": 4.510080022232467,
+      "prediction_difference_rms": 0.014256315425070307,
+      "prediction_difference_max_abs": 0.29892730712890625,
+      "bf16_batch_replay_difference_rms": 0.008092256304534955
+    }
+  }
+}

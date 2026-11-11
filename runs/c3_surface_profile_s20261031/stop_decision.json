@@ -1,0 +1,22 @@
+{
+  "reason": "Development gains slowed far above 1 dB. Preserve best checkpoint and investigate more direct critical-height and continuous penetration-length geometry rather than finish the 60-epoch cap.",
+  "last_completed_epoch": 20,
+  "best_complete_epoch": 16,
+  "best_dev": {
+    "rmse415": 3.7871232375127013,
+    "rmse58": 4.805843750879549,
+    "mse_mean": 18.71921828698835,
+    "valid_pixels": [
+      166639132.0,
+      152634019.0
+    ],
+    "maps_per_band": 2562
+  },
+  "stopped_owned_processes": [
+    {
+      "pid": 3668901,
+      "command": ".venv/bin/python scripts/c3_train.py --run c3_surface_profile_s20261031 --epochs 60 --batch 32 --compile "
+    }
+  ],
+  "official_validation_read": false
+}

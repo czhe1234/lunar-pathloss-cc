@@ -1,0 +1,37 @@
+{
+  "kind": "transport",
+  "scope": "full",
+  "name": "c54_high_transport",
+  "steps": 16000,
+  "batch": 2048,
+  "lr": 0.0003,
+  "seed": 20261202,
+  "parent": "c49_transport_full",
+  "target_band": 1,
+  "gpu": {
+    "uuid": "GPU-70b6fceb-c7c4-9467-3c81-097c9284c160",
+    "logical_device": 0,
+    "name": "NVIDIA A800 80GB PCIe",
+    "memory_bytes": 84974239744,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "fit_rows": 23713792,
+  "dev_rows": 655872,
+  "fit_maps": 23158,
+  "fit_terrains": 5508,
+  "parameters": 2711218,
+  "teacher": "c38_1024_continue/best.pt",
+  "target": "(PL-C38prediction)/20",
+  "official_VAL_used": false,
+  "zero_correction_initialization": true,
+  "source_hashes": {
+    "c49_model.py": "b5eb5b6bd0a8a4c58593aa8639b572dc5b8e9111a9411f5da4a309576a607329",
+    "c54_high_train.py": "8bc200ada15ed5fda5da426254691fc76412d6d0ccad63610fe946ca00153402",
+    "c48_model.py": "42353d80cc1525c57f70187d9af120aeb27688ab1e4a806c88a104b0a7281a6b",
+    "c47_model.py": "58ae38dcad4effc468cf436a46095ea1b664d9ddcff8c2748dfe97a730a4bb36",
+    "c34_model.py": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af"
+  },
+  "parent_checkpoint_sha256": "92ae3b90c7f6f1ddb3184c3315acb8a8907f79ba1ac1293fc75b8c678eab24aa",
+  "selection": "minimum intended-band DEV RMSE"
+}

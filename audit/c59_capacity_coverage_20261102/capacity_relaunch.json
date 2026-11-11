@@ -1,0 +1,15 @@
+{
+  "reason": "FP32 GPU linspace endpoint rounded 23713791 to23713792; replaced with int64 NumPy linspace and bounds assertion. No training steps had run. Failed source/logs preserved.",
+  "jobs": [
+    {
+      "name": "c59_wide2048",
+      "pid": 3682335,
+      "card": 1
+    },
+    {
+      "name": "c59_narrow1024",
+      "pid": 3682336,
+      "card": 3
+    }
+  ]
+}

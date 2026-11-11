@@ -1,0 +1,1 @@
+{"reason": "Path-disabled parameters have no gradient, by design; logging now preserves null rather than requesting norm. Failed at step20, before any selection. Source/log retained.", "pid": 3717154}

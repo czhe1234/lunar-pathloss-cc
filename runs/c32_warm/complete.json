@@ -1,0 +1,54 @@
+{
+  "status": "training_complete",
+  "steps": 6000,
+  "stop_reason": "fixed_budget",
+  "best_step": 1000,
+  "baseline_DEV": {
+    "rmse": [
+      2.9586114767041702,
+      3.555015125015796
+    ],
+    "score": 3.2568133008599833,
+    "sse": [
+      9115815.646416526,
+      11437181.356431408
+    ],
+    "count": [
+      1041405.0,
+      904974.0
+    ],
+    "maps": 128
+  },
+  "best_DEV": {
+    "rmse": [
+      2.8986087499848585,
+      3.4213034882753597
+    ],
+    "score": 3.159956119130109,
+    "sse": [
+      8749814.708331447,
+      10593008.052534524
+    ],
+    "count": [
+      1041405.0,
+      904974.0
+    ],
+    "maps": 128
+  },
+  "gain_db": [
+    0.06000272671931173,
+    0.1337116367404363
+  ],
+  "full_DEV_gate": false,
+  "query_order_sha256": "9fbbcdd09c602789b0f60b2762c7ca14a01a5aee95550d9b4ca9a57379b51cde",
+  "map_order_sha256": "572b836ec78f7ac441f0598eaa456e6800f4ef05e3e3ddd0669291a0217b03f5",
+  "gpu": {
+    "uuid": "GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0",
+    "logical_device": 0,
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_bytes": 84929347584,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "seconds": 569.804792881012
+}

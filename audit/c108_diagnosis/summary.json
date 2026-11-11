@@ -1,0 +1,158 @@
+{
+  "status": "bounded_diagnostic_round_complete",
+  "official_goal_achieved": false,
+  "new_official_score": false,
+  "expanded_training": false,
+  "eligible": "C82",
+  "three_hypotheses": [
+    {
+      "name": "too_few_residual_training_terrains",
+      "verdict": "not_supported_as_a_sufficient_explanation_in8to128range_at_matched_anchor_fit",
+      "evidence": "C108fixedupdatesoverfitreduceswithmoredata,butC110same24mapanchorSSEratio~.85doesnotimproveoriginal484confirm",
+      "limitation": "samepretrainedparents,singlenestedsubset/seed,notfromscratchfullFITcapacitytest"
+    },
+    {
+      "name": "inappropriate_architecture",
+      "verdict": "specificorderedpath_reader_failed;generalarchitecturalmismatch_remains_possible",
+      "evidence": "C109orderedworsethansameparameterpermutedcontrol;C114heightconventionalignmentnobothbandgain",
+      "limitation": "doesnotexcludeotheroperators,nativefullpathgeometryorlongerconvergence"
+    },
+    {
+      "name": "missing_physical_input",
+      "verdict": "not_identified",
+      "evidence": "9exactH/TXrepeatgroupsmostlyreproduce;matchedworld-inputnonidentifiabilityminimumobservedissmall;frozenC82alreadycapturesmost1mresponseenergy",
+      "limitation": "sameHrepeatsretainunobservedscenegeometry;cannotexcludehiddenmesh/receiverstateorproveirreducible1dBfloor"
+    }
+  ],
+  "core_failure_mode": "localpowercorrectiondoesnottransferacrossTXconditionsornewterrains;globalmapbias/coarsecrossTXstateinsufficient",
+  "matched_fit_confirmation": {
+    "C82": [
+      2.3037996846821955,
+      2.5966541900570164
+    ],
+    "C105": [
+      2.299147525160222,
+      2.592267982045097
+    ],
+    "c110_n8": [
+      2.3645808621712523,
+      2.6888186423275746
+    ],
+    "c110_n32": [
+      2.4071442385848374,
+      2.7390126449143635
+    ],
+    "c110_n128": [
+      2.3847160808456493,
+      2.7335475396213402
+    ]
+  },
+  "architecture_confirmation": {
+    "C82": [
+      2.3037996846821955,
+      2.5966541900570164
+    ],
+    "C105": [
+      2.299147525160222,
+      2.592267982045097
+    ],
+    "c109_ordered_last": [
+      2.5098862325303473,
+      2.876286651122003
+    ],
+    "c109_permuted_last": [
+      2.495324400429949,
+      2.8685823413879237
+    ]
+  },
+  "input_convention_confirmation": {
+    "C82": [
+      2.3037996846821955,
+      2.5966541900570164
+    ],
+    "C105": [
+      2.299147525160222,
+      2.592267982045097
+    ],
+    "c114_old_last": [
+      2.4972252895991995,
+      2.8564757490900883
+    ],
+    "c114_consistent_last": [
+      2.491056329892451,
+      2.865625784644645
+    ]
+  },
+  "new_response_evidence": {
+    "pairs": 39,
+    "terrains": 37,
+    "bands": [
+      {
+        "count": 2520905,
+        "label_delta_RMSE": 3.996534915201832,
+        "prediction_delta_RMSE": 3.4084380503664415,
+        "response_error_RMSE": 2.0981528121367337,
+        "response_energy_explained": 0.7243823611429993,
+        "base_permap_RMSE_on_commonpairs": 2.2243629794077058,
+        "error_shared_between_TX_fraction": 0.7775651032002038,
+        "error_differential_between_TX_fraction": 0.2224348967997966,
+        "fraction_baseSSE_on_actual_changes_gt5": 0.39704503248410944,
+        "fraction_baseSSE_on_bad_responses": 0.3517561309249702,
+        "large_change_count": 145377,
+        "precision": 0.8603313009704441,
+        "recall": 0.5348094953121884,
+        "sign_correct_among_TP": 0.9897233404931253,
+        "AP": 0.7100797821361812
+      },
+      {
+        "count": 2288122,
+        "label_delta_RMSE": 5.612848133356688,
+        "prediction_delta_RMSE": 4.888094041935343,
+        "response_error_RMSE": 2.5037560698477437,
+        "response_energy_explained": 0.8010163252637768,
+        "base_permap_RMSE_on_commonpairs": 2.540483277821693,
+        "error_shared_between_TX_fraction": 0.7571761404037671,
+        "error_differential_between_TX_fraction": 0.24282385959623276,
+        "fraction_baseSSE_on_actual_changes_gt5": 0.43013336233720645,
+        "fraction_baseSSE_on_bad_responses": 0.39378625273024,
+        "large_change_count": 135280,
+        "precision": 0.8351418730995922,
+        "recall": 0.4283929627439385,
+        "sign_correct_among_TP": 0.9928735354511414,
+        "AP": 0.5918008166778121
+      }
+    ]
+  },
+  "parent_exposure": {
+    "queryTX_count": 128,
+    "queryTX_seenbyC99parent": 128,
+    "inside32_maps": 128,
+    "inside32_seenbyparent": 128,
+    "original_monitor_seenbyparent": 0,
+    "interpretation": "TXand32internalterrainholdoutsarefortheadditionalresidualstageonly;original128monitorand484confirmarethegenuinenewterraincontrols"
+  },
+  "independent_saved_array_and_freeze_checks": {
+    "c108_diagnosis": true,
+    "c109_architecture": true,
+    "c110_matched_fit": true,
+    "c114_input_convention": true
+  },
+  "no_information_floor_claim": true,
+  "official_C82": {
+    "RMSE": [
+      2.246377454774535,
+      2.5791498899052434
+    ],
+    "combined": 2.4127636723398895
+  },
+  "evidence_paths": [
+    "audit/c108_diagnosis/",
+    "audit/c109_architecture/",
+    "audit/c110_matched_fit/",
+    "audit/c111_TXcoverage/",
+    "audit/c112_TXresponse/",
+    "audit/c113_residual_state/",
+    "audit/c114_input_convention/",
+    "audit/c115_TXsensitivity/"
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "near": {
+    "terrains": 13,
+    "pairs": 21,
+    "results": {
+      "0": {
+        "all_same_state": {
+          "n_changed_positions": 2366,
+          "true_direction": 0.5684699915469146,
+          "rotated_direction": 0.5059171597633136,
+          "true_direction95": [
+            0.5378571428571428,
+            0.6026046696985324
+          ],
+          "true_minus_rot95": [
+            0.02388876786929884,
+            0.11322046799658113
+          ],
+          "power_MAE": 10.294563609467456
+        },
+        "same_clear": {
+          "n_changed_positions": 1181,
+          "true_direction": 0.6147332768839966,
+          "rotated_direction": 0.5012701100762066,
+          "true_direction95": [
+            0.572080314351485,
+            0.648752047283344
+          ],
+          "true_minus_rot95": [
+            0.06939842676856289,
+            0.16715903853244837
+          ],
+          "power_MAE": 9.675089966130399
+        },
+        "same_shadow": {
+          "n_changed_positions": 1120,
+          "true_direction": 0.5241071428571429,
+          "rotated_direction": 0.5151785714285714,
+          "true_direction95": [
+            0.5020239134852504,
+            0.5572164805052092
+          ],
+          "true_minus_rot95": [
+            -0.04272621008104881,
+            0.06840179525139137
+          ],
+          "power_MAE": 10.984654017857142
+        }
+      },
+      "1": {
+        "all_same_state": {
+          "n_changed_positions": 1735,
+          "true_direction": 0.5711815561959654,
+          "rotated_direction": 0.5095100864553314,
+          "true_direction95": [
+            0.536732110475659,
+            0.6072895071223166
+          ],
+          "true_minus_rot95": [
+            0.015469218329339295,
+            0.11547110292017373
+          ],
+          "power_MAE": 10.153350144092219
+        },
+        "same_clear": {
+          "n_changed_positions": 1106,
+          "true_direction": 0.6075949367088608,
+          "rotated_direction": 0.49819168173598555,
+          "true_direction95": [
+            0.567738960867266,
+            0.6461118970802205
+          ],
+          "true_minus_rot95": [
+            0.07066888439469236,
+            0.1607991195545628
+          ],
+          "power_MAE": 10.315212477396022
+        },
+        "same_shadow": {
+          "n_changed_positions": 534,
+          "true_direction": 0.5056179775280899,
+          "rotated_direction": 0.5430711610486891,
+          "true_direction95": [
+            0.4575223546944858,
+            0.5644178595773688
+          ],
+          "true_minus_rot95": [
+            -0.11784146740910585,
+            0.06096419796419787
+          ],
+          "power_MAE": 9.662687265917603
+        }
+      }
+    }
+  },
+  "far": {
+    "terrains": 13,
+    "pairs": 21,
+    "results": {
+      "0": {
+        "all_same_state": {
+          "n_changed_positions": 2199,
+          "true_direction": 0.8340154615734425,
+          "rotated_direction": 0.5488858572078218,
+          "true_direction95": [
+            0.8082141998832698,
+            0.8565460573651696
+          ],
+          "true_minus_rot95": [
+            0.25352602933560225,
+            0.3175957802580051
+          ],
+          "power_MAE": 16.390021032287404
+        },
+        "same_clear": {
+          "n_changed_positions": 1620,
+          "true_direction": 0.8641975308641975,
+          "rotated_direction": 0.5358024691358024,
+          "true_direction95": [
+            0.8460486755289621,
+            0.8795189868786888
+          ],
+          "true_minus_rot95": [
+            0.3022871447913011,
+            0.35702512802321634
+          ],
+          "power_MAE": 15.767341820987655
+        },
+        "same_shadow": {
+          "n_changed_positions": 575,
+          "true_direction": 0.7530434782608696,
+          "rotated_direction": 0.5860869565217391,
+          "true_direction95": [
+            0.7183350610809602,
+            0.7953676796532531
+          ],
+          "true_minus_rot95": [
+            0.09562534536747098,
+            0.26056487651119176
+          ],
+          "power_MAE": 18.20663043478261
+        }
+      },
+      "1": {
+        "all_same_state": {
+          "n_changed_positions": 1659,
+          "true_direction": 0.8390596745027125,
+          "rotated_direction": 0.538878842676311,
+          "true_direction95": [
+            0.8093882247143461,
+            0.8593506010369922
+          ],
+          "true_minus_rot95": [
+            0.2708119522978995,
+            0.33233884583687967
+          ],
+          "power_MAE": 16.480843128390596
+        },
+        "same_clear": {
+          "n_changed_positions": 1538,
+          "true_direction": 0.8589076723016905,
+          "rotated_direction": 0.5416124837451235,
+          "true_direction95": [
+            0.8404322162569566,
+            0.8750664783795541
+          ],
+          "true_minus_rot95": [
+            0.2891470314790926,
+            0.3486846241231747
+          ],
+          "power_MAE": 16.742461801040314
+        },
+        "same_shadow": {
+          "n_changed_positions": 110,
+          "true_direction": 0.5818181818181818,
+          "rotated_direction": 0.5,
+          "true_direction95": [
+            0.4854143729356421,
+            0.6880758607082963
+          ],
+          "true_minus_rot95": [
+            -0.07877165354330705,
+            0.23638674884437585
+          ],
+          "power_MAE": 12.541477272727272
+        }
+      }
+    }
+  }
+}

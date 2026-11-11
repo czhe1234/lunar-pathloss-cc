@@ -1,0 +1,20 @@
+{
+  "parent": "runs/c117_factorized/best.pt",
+  "parent_sha256": "cd8986573cfb142b92edb1908a1f64d7031bf884735770be3c37309db20eb22f",
+  "parent_selection": {
+    "status": "complete",
+    "best_epoch": 8,
+    "last_epoch": 8,
+    "seconds": 219.35450902499724,
+    "official_val_used": false
+  },
+  "epochs": 8,
+  "batch": 8,
+  "auxweight": 0.25,
+  "initial_sha256": "1480d8da30e7532d4e2ec71fc13a795a01aa65a8ed5d4a15e2f3131bd2b8df01",
+  "official_val_used": false,
+  "source_sha256": {
+    "src/c117_factorized.py": "2241009007a72b9d27feac9e6833de14c6245591707da9d37f6b14f3bf2597ba",
+    "src/c118_location.py": "43dfffbc29d3da1c721493c809ed907c644b5a5029d12862c7bc83bb905de601"
+  }
+}

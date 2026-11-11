@@ -1,0 +1,10 @@
+{
+  "actual_packaged_entry_executed": true,
+  "H_TX_only_input": true,
+  "max_abs_diff_from_frozen_public_interface_db": 0.0,
+  "RMS_diff_db": [
+    0.0,
+    0.0
+  ],
+  "source_data_or_label_cache_required": false
+}

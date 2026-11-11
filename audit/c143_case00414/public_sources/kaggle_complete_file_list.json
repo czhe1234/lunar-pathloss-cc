@@ -1,0 +1,104 @@
+{
+  "url": "https://www.kaggle.com/api/v1/competitions/data/list/the-first-lunar-pathloss-radio-map-prediction-challenge",
+  "utc": "2026-11-11T06:16:00.854461+00:00",
+  "status": 200,
+  "complete": true,
+  "pages": 1,
+  "files": [
+    {
+      "name": "README.md",
+      "totalBytes": 12130,
+      "creationDate": "2026-08-26T23:47:19.215Z"
+    },
+    {
+      "name": "lunar_dataset.py",
+      "totalBytes": 12541,
+      "creationDate": "2026-08-26T23:47:18.928Z"
+    },
+    {
+      "name": "manifest.json",
+      "totalBytes": 2617,
+      "creationDate": "2026-08-26T23:47:19.225Z"
+    },
+    {
+      "name": "metadata.json",
+      "totalBytes": 6611,
+      "creationDate": "2026-08-26T23:47:19.099Z"
+    },
+    {
+      "name": "sample_submission.csv",
+      "totalBytes": 17870760,
+      "creationDate": "2026-08-26T23:47:19.756Z"
+    },
+    {
+      "name": "subset_index.csv",
+      "totalBytes": 3275,
+      "creationDate": "2026-08-26T23:47:19.326Z"
+    },
+    {
+      "name": "train_hm.npy",
+      "totalBytes": 1604321408,
+      "creationDate": "2026-08-26T23:47:45.595Z"
+    },
+    {
+      "name": "train_index.csv",
+      "totalBytes": 2054173,
+      "creationDate": "2026-08-26T23:47:19.506Z"
+    },
+    {
+      "name": "train_mask415.npy",
+      "totalBytes": 210698368,
+      "creationDate": "2026-08-26T23:47:21.427Z"
+    },
+    {
+      "name": "train_mask58.npy",
+      "totalBytes": 210698368,
+      "creationDate": "2026-08-26T23:47:22.662Z"
+    },
+    {
+      "name": "train_pl415.npy",
+      "totalBytes": 3371171968,
+      "creationDate": "2026-08-26T23:48:15.599Z"
+    },
+    {
+      "name": "train_pl58.npy",
+      "totalBytes": 3371171968,
+      "creationDate": "2026-08-26T23:48:23.514Z"
+    },
+    {
+      "name": "val_hm.npy",
+      "totalBytes": 178258048,
+      "creationDate": "2026-08-26T23:47:22.51Z"
+    },
+    {
+      "name": "val_index.csv",
+      "totalBytes": 183832,
+      "creationDate": "2026-08-26T23:47:19.409Z"
+    },
+    {
+      "name": "val_mask415.npy",
+      "totalBytes": 19087488,
+      "creationDate": "2026-08-26T23:47:19.534Z"
+    },
+    {
+      "name": "val_mask58.npy",
+      "totalBytes": 19087488,
+      "creationDate": "2026-08-26T23:47:19.461Z"
+    },
+    {
+      "name": "val_pl415.npy",
+      "totalBytes": 305397888,
+      "creationDate": "2026-08-26T23:47:24.189Z"
+    },
+    {
+      "name": "val_pl58.npy",
+      "totalBytes": 305397888,
+      "creationDate": "2026-08-26T23:47:24.061Z"
+    },
+    {
+      "name": "val_terrains.txt",
+      "totalBytes": 5187,
+      "creationDate": "2026-08-26T23:47:19.054Z"
+    }
+  ]
+}

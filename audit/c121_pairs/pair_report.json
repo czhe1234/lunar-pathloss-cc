@@ -1,0 +1,1100 @@
+{
+  "pairs": 11679,
+  "matched_controls": 5659,
+  "bands": [
+    {
+      "band": 0,
+      "n": 5972,
+      "control_n": 2933,
+      "old_tail_classifier": {
+        "both_signs_correct": 0.23241795043536503,
+        "anchor_probability_higher": 0.6058271935699933,
+        "anchor_probability_mean": 0.5420640510058811,
+        "opposite_probability_mean": 0.481459700500058
+      },
+      "geometry_strata": {
+        "0.1": 360,
+        "0.2": 1466,
+        "0.4": 2876
+      },
+      "feature_groups": {
+        "raw_H_7x7": {
+          "opposite_mean": 0.07181433588266373,
+          "same_mean": 0.06601770222187042,
+          "ratio": 1.0878041982650757,
+          "opposite_larger_fraction": 0.5843845891578588
+        },
+        "compact_physics": {
+          "opposite_mean": 0.371915727853775,
+          "same_mean": 0.3446635603904724,
+          "ratio": 1.079068899154663,
+          "opposite_larger_fraction": 0.5335833617456529
+        },
+        "C82_power": {
+          "opposite_mean": 0.2053796648979187,
+          "same_mean": 0.19389626383781433,
+          "ratio": 1.0592244863510132,
+          "opposite_larger_fraction": 0.5192635526764405
+        },
+        "ray_geometry": {
+          "opposite_mean": 0.011455487459897995,
+          "same_mean": 0.009840649552643299,
+          "ratio": 1.1640987396240234,
+          "opposite_larger_fraction": 0.6334810773951586
+        },
+        "C82_spatial_difference": {
+          "opposite_mean": 1.7302957773208618,
+          "same_mean": 1.6430069208145142,
+          "ratio": 1.0531275272369385,
+          "opposite_larger_fraction": 0.5424480054551654
+        },
+        "absolute_geometry": {
+          "opposite_mean": 0.17391330003738403,
+          "same_mean": 0.16757597029209137,
+          "ratio": 1.0378175973892212,
+          "opposite_larger_fraction": 0.5407432662802591
+        },
+        "precise_grazing": {
+          "opposite_mean": 0.5645284652709961,
+          "same_mean": 0.5884150266647339,
+          "ratio": 0.959405243396759,
+          "opposite_larger_fraction": 0.45755199454483464
+        }
+      },
+      "donor_features": {
+        "donor_mean": [
+          {
+            "channel": 18,
+            "ratio": 1.3960121870040894,
+            "opposite_mean": 0.0459565743803978,
+            "same_mean": 0.032919786870479584
+          },
+          {
+            "channel": 37,
+            "ratio": 1.3731409311294556,
+            "opposite_mean": 0.04583039507269859,
+            "same_mean": 0.03337623551487923
+          },
+          {
+            "channel": 28,
+            "ratio": 1.3661926984786987,
+            "opposite_mean": 0.1437184363603592,
+            "same_mean": 0.1051962748169899
+          },
+          {
+            "channel": 14,
+            "ratio": 1.263413667678833,
+            "opposite_mean": 0.04173869639635086,
+            "same_mean": 0.03303636983036995
+          },
+          {
+            "channel": 38,
+            "ratio": 1.2442972660064697,
+            "opposite_mean": 0.02814251370728016,
+            "same_mean": 0.022617105394601822
+          },
+          {
+            "channel": 15,
+            "ratio": 1.2217124700546265,
+            "opposite_mean": 0.007211657240986824,
+            "same_mean": 0.005902806296944618
+          },
+          {
+            "channel": 12,
+            "ratio": 1.217655897140503,
+            "opposite_mean": 0.03916553407907486,
+            "same_mean": 0.03216461464762688
+          },
+          {
+            "channel": 33,
+            "ratio": 1.208297610282898,
+            "opposite_mean": 0.07825766503810883,
+            "same_mean": 0.06476682424545288
+          },
+          {
+            "channel": 17,
+            "ratio": 1.207444190979004,
+            "opposite_mean": 0.006348361261188984,
+            "same_mean": 0.005257593933492899
+          },
+          {
+            "channel": 10,
+            "ratio": 1.20696222782135,
+            "opposite_mean": 0.016183480620384216,
+            "same_mean": 0.013408320024609566
+          },
+          {
+            "channel": 34,
+            "ratio": 1.1981620788574219,
+            "opposite_mean": 0.14442157745361328,
+            "same_mean": 0.12053592503070831
+          },
+          {
+            "channel": 27,
+            "ratio": 1.1925277709960938,
+            "opposite_mean": 0.09686862677335739,
+            "same_mean": 0.08122970908880234
+          }
+        ],
+        "donor_spread": [
+          {
+            "channel": 9,
+            "ratio": 1.281721830368042,
+            "opposite_mean": 0.005929865408688784,
+            "same_mean": 0.004626380279660225
+          },
+          {
+            "channel": 25,
+            "ratio": 1.2543951272964478,
+            "opposite_mean": 0.006286678370088339,
+            "same_mean": 0.00501161627471447
+          },
+          {
+            "channel": 26,
+            "ratio": 1.242902398109436,
+            "opposite_mean": 0.006095027085393667,
+            "same_mean": 0.004903767257928848
+          },
+          {
+            "channel": 21,
+            "ratio": 1.2372208833694458,
+            "opposite_mean": 0.012959776446223259,
+            "same_mean": 0.010474803857505322
+          },
+          {
+            "channel": 13,
+            "ratio": 1.2107975482940674,
+            "opposite_mean": 0.002712241606786847,
+            "same_mean": 0.002239945810288191
+          },
+          {
+            "channel": 22,
+            "ratio": 1.17781662940979,
+            "opposite_mean": 0.0162991750985384,
+            "same_mean": 0.013838366605341434
+          },
+          {
+            "channel": 11,
+            "ratio": 1.1719542741775513,
+            "opposite_mean": 0.0019121026853099465,
+            "same_mean": 0.0016314509557560086
+          },
+          {
+            "channel": 8,
+            "ratio": 1.1580551862716675,
+            "opposite_mean": 0.0034259259700775146,
+            "same_mean": 0.0029582451097667217
+          },
+          {
+            "channel": 12,
+            "ratio": 1.142668604850769,
+            "opposite_mean": 0.00941209215670824,
+            "same_mean": 0.008236834779381752
+          },
+          {
+            "channel": 10,
+            "ratio": 1.138512134552002,
+            "opposite_mean": 0.003948977217078209,
+            "same_mean": 0.00346844713203609
+          },
+          {
+            "channel": 3,
+            "ratio": 1.1327239274978638,
+            "opposite_mean": 0.0005522550200112164,
+            "same_mean": 0.00048744515515863895
+          },
+          {
+            "channel": 14,
+            "ratio": 1.1093820333480835,
+            "opposite_mean": 0.016131605952978134,
+            "same_mean": 0.014540980570018291
+          }
+        ]
+      }
+    },
+    {
+      "band": 1,
+      "n": 5707,
+      "control_n": 2726,
+      "old_tail_classifier": {
+        "both_signs_correct": 0.19362186788154898,
+        "anchor_probability_higher": 0.5820921675135798,
+        "anchor_probability_mean": 0.5280669651634381,
+        "opposite_probability_mean": 0.47593465676567126
+      },
+      "geometry_strata": {
+        "0.1": 722,
+        "0.2": 1800,
+        "0.4": 3136
+      },
+      "feature_groups": {
+        "raw_H_7x7": {
+          "opposite_mean": 0.07150033116340637,
+          "same_mean": 0.06437771767377853,
+          "ratio": 1.110637903213501,
+          "opposite_larger_fraction": 0.5957446808510638
+        },
+        "compact_physics": {
+          "opposite_mean": 0.47651126980781555,
+          "same_mean": 0.42975324392318726,
+          "ratio": 1.108802080154419,
+          "opposite_larger_fraction": 0.5487894350696992
+        },
+        "C82_power": {
+          "opposite_mean": 0.2511778473854065,
+          "same_mean": 0.23684081435203552,
+          "ratio": 1.0605344772338867,
+          "opposite_larger_fraction": 0.5227439471753484
+        },
+        "ray_geometry": {
+          "opposite_mean": 0.011743487790226936,
+          "same_mean": 0.010196917690336704,
+          "ratio": 1.1516703367233276,
+          "opposite_larger_fraction": 0.632428466617755
+        },
+        "C82_spatial_difference": {
+          "opposite_mean": 1.9155625104904175,
+          "same_mean": 1.7831785678863525,
+          "ratio": 1.0742404460906982,
+          "opposite_larger_fraction": 0.5399853264856933
+        },
+        "absolute_geometry": {
+          "opposite_mean": 0.16717076301574707,
+          "same_mean": 0.16361235082149506,
+          "ratio": 1.0217490196228027,
+          "opposite_larger_fraction": 0.5253118121790169
+        },
+        "precise_grazing": {
+          "opposite_mean": 0.43310269713401794,
+          "same_mean": 0.4519067704677582,
+          "ratio": 0.9583894610404968,
+          "opposite_larger_fraction": 0.450476889214967
+        }
+      },
+      "donor_features": {
+        "donor_mean": [
+          {
+            "channel": 15,
+            "ratio": 1.1899867057800293,
+            "opposite_mean": 0.009702218696475029,
+            "same_mean": 0.00815311074256897
+          },
+          {
+            "channel": 17,
+            "ratio": 1.1892776489257812,
+            "opposite_mean": 0.00763950077816844,
+            "same_mean": 0.006423553451895714
+          },
+          {
+            "channel": 44,
+            "ratio": 1.165619969367981,
+            "opposite_mean": 0.0012851738138124347,
+            "same_mean": 0.0011024681152775884
+          },
+          {
+            "channel": 16,
+            "ratio": 1.1574547290802002,
+            "opposite_mean": 0.009567059576511383,
+            "same_mean": 0.008265497162938118
+          },
+          {
+            "channel": 28,
+            "ratio": 1.1570848226547241,
+            "opposite_mean": 0.2828305959701538,
+            "same_mean": 0.24443382024765015
+          },
+          {
+            "channel": 3,
+            "ratio": 1.1527886390686035,
+            "opposite_mean": 0.009889467619359493,
+            "same_mean": 0.008578646928071976
+          },
+          {
+            "channel": 2,
+            "ratio": 1.1466823816299438,
+            "opposite_mean": 0.006789881270378828,
+            "same_mean": 0.005921220872551203
+          },
+          {
+            "channel": 1,
+            "ratio": 1.143028736114502,
+            "opposite_mean": 0.004137624986469746,
+            "same_mean": 0.003619783092290163
+          },
+          {
+            "channel": 8,
+            "ratio": 1.1425561904907227,
+            "opposite_mean": 0.052039071917533875,
+            "same_mean": 0.04554615914821625
+          },
+          {
+            "channel": 4,
+            "ratio": 1.1362369060516357,
+            "opposite_mean": 0.012779759243130684,
+            "same_mean": 0.011247348971664906
+          },
+          {
+            "channel": 34,
+            "ratio": 1.1362276077270508,
+            "opposite_mean": 0.26352038979530334,
+            "same_mean": 0.23192547261714935
+          },
+          {
+            "channel": 6,
+            "ratio": 1.1358882188796997,
+            "opposite_mean": 0.01575413905084133,
+            "same_mean": 0.013869340531527996
+          }
+        ],
+        "donor_spread": [
+          {
+            "channel": 18,
+            "ratio": 1.211958885192871,
+            "opposite_mean": 0.0392720028758049,
+            "same_mean": 0.03240364044904709
+          },
+          {
+            "channel": 12,
+            "ratio": 1.1970570087432861,
+            "opposite_mean": 0.01790497452020645,
+            "same_mean": 0.014957384206354618
+          },
+          {
+            "channel": 28,
+            "ratio": 1.183397889137268,
+            "opposite_mean": 0.16069939732551575,
+            "same_mean": 0.13579481840133667
+          },
+          {
+            "channel": 37,
+            "ratio": 1.1789885759353638,
+            "opposite_mean": 0.04021154344081879,
+            "same_mean": 0.03410671651363373
+          },
+          {
+            "channel": 14,
+            "ratio": 1.1776714324951172,
+            "opposite_mean": 0.024591391906142235,
+            "same_mean": 0.02088126540184021
+          },
+          {
+            "channel": 25,
+            "ratio": 1.1469155550003052,
+            "opposite_mean": 0.010567381978034973,
+            "same_mean": 0.00921365711838007
+          },
+          {
+            "channel": 33,
+            "ratio": 1.1371667385101318,
+            "opposite_mean": 0.04077599570155144,
+            "same_mean": 0.0358574315905571
+          },
+          {
+            "channel": 8,
+            "ratio": 1.1344002485275269,
+            "opposite_mean": 0.004492270760238171,
+            "same_mean": 0.003959936555474997
+          },
+          {
+            "channel": 11,
+            "ratio": 1.1249643564224243,
+            "opposite_mean": 0.001982582500204444,
+            "same_mean": 0.0017622529994696379
+          },
+          {
+            "channel": 34,
+            "ratio": 1.1157288551330566,
+            "opposite_mean": 0.14302286505699158,
+            "same_mean": 0.12818767130374908
+          },
+          {
+            "channel": 27,
+            "ratio": 1.109671711921692,
+            "opposite_mean": 0.04679315164685249,
+            "same_mean": 0.042168330401182175
+          },
+          {
+            "channel": 13,
+            "ratio": 1.1055384874343872,
+            "opposite_mean": 0.003849591128528118,
+            "same_mean": 0.0034819922875612974
+          }
+        ]
+      }
+    }
+  ],
+  "examples": [
+    {
+      "row_index": 10260,
+      "mapid": 9435,
+      "terrain_id": "02536",
+      "band": 1,
+      "tx_row": 9,
+      "tx_col": 224,
+      "anchor_row": 102,
+      "anchor_col": 105,
+      "opposite_row": 103,
+      "opposite_col": 104,
+      "same_pixel": 26218,
+      "anchor_pixel": 26217,
+      "opposite_pixel": 26472,
+      "anchor_cache_row": 1168188,
+      "cost": 0.22865894645338386,
+      "same_cost": 0.2097581019901067,
+      "height_delta": 0.015632808208465576,
+      "patch7_delta_rms": 0.011724689044058323,
+      "ray_angle": 0.0015440810238942504,
+      "relative_distance": 0.009170638397336006,
+      "incidence_delta_rms": 0.003827633102126579,
+      "old_geometry_rms_z": 0.02209024503827095,
+      "anchor_residual": 5.089752197265625,
+      "opposite_residual": -5.454315185546875,
+      "same_residual": 10.464202880859375,
+      "target": [
+        [
+          81.3125,
+          149.375
+        ],
+        [
+          81.3125,
+          139.125
+        ],
+        [
+          81.5,
+          154.625
+        ]
+      ],
+      "base": [
+        [
+          81.19506072998047,
+          144.28524780273438
+        ],
+        [
+          81.28653717041016,
+          144.57931518554688
+        ],
+        [
+          81.06330108642578,
+          144.16079711914062
+        ]
+      ],
+      "very_tight": true
+    },
+    {
+      "row_index": 6185,
+      "mapid": 4604,
+      "terrain_id": "01128",
+      "band": 1,
+      "tx_row": 106,
+      "tx_col": 233,
+      "anchor_row": 14,
+      "anchor_col": 90,
+      "opposite_row": 13,
+      "opposite_col": 90,
+      "same_pixel": 3930,
+      "anchor_pixel": 3674,
+      "opposite_pixel": 3418,
+      "anchor_cache_row": 755828,
+      "cost": 0.13922459712275795,
+      "same_cost": 0.13990121311296133,
+      "height_delta": 0.0008642673492431641,
+      "patch7_delta_rms": 0.013940964825451374,
+      "ray_angle": 0.004821395501494408,
+      "relative_distance": 0.002981876488775015,
+      "incidence_delta_rms": 0.00174348879797829,
+      "old_geometry_rms_z": 0.023355698212981224,
+      "anchor_residual": 14.638656616210938,
+      "opposite_residual": -7.484214782714844,
+      "same_residual": 18.43109893798828,
+      "target": [
+        [
+          88.3125,
+          142.0
+        ],
+        [
+          87.1875,
+          120.375
+        ],
+        [
+          88.625,
+          145.375
+        ]
+      ],
+      "base": [
+        [
+          87.38192749023438,
+          127.36134338378906
+        ],
+        [
+          87.79597473144531,
+          127.85921478271484
+        ],
+        [
+          87.15702819824219,
+          126.94390106201172
+        ]
+      ],
+      "very_tight": true
+    },
+    {
+      "row_index": 2491,
+      "mapid": 22003,
+      "terrain_id": "05819",
+      "band": 1,
+      "tx_row": 116,
+      "tx_col": 123,
+      "anchor_row": 132,
+      "anchor_col": 54,
+      "opposite_row": 131,
+      "opposite_col": 54,
+      "same_pixel": 34102,
+      "anchor_pixel": 33846,
+      "opposite_pixel": 33590,
+      "anchor_cache_row": 252973,
+      "cost": 0.272918583826003,
+      "same_cost": 0.31152460626720685,
+      "height_delta": 0.022479891777038574,
+      "patch7_delta_rms": 0.015318529680371284,
+      "ray_angle": 0.013715509325265884,
+      "relative_distance": 0.0030922270379960537,
+      "incidence_delta_rms": 0.0017106409606691307,
+      "old_geometry_rms_z": 0.03096609003841877,
+      "anchor_residual": 7.4325103759765625,
+      "opposite_residual": -7.793243408203125,
+      "same_residual": 8.426116943359375,
+      "target": [
+        [
+          81.125,
+          137.75
+        ],
+        [
+          77.625,
+          122.0
+        ],
+        [
+          81.875,
+          138.25
+        ]
+      ],
+      "base": [
+        [
+          81.32294464111328,
+          130.31748962402344
+        ],
+        [
+          81.30501556396484,
+          129.79324340820312
+        ],
+        [
+          81.32167053222656,
+          129.82388305664062
+        ]
+      ],
+      "very_tight": false
+    },
+    {
+      "row_index": 5039,
+      "mapid": 17305,
+      "terrain_id": "04518",
+      "band": 1,
+      "tx_row": 154,
+      "tx_col": 88,
+      "anchor_row": 222,
+      "anchor_col": 55,
+      "opposite_row": 221,
+      "opposite_col": 55,
+      "same_pixel": 57142,
+      "anchor_pixel": 56887,
+      "opposite_pixel": 56631,
+      "anchor_cache_row": 556776,
+      "cost": 0.3552030719826284,
+      "same_cost": 0.3612764032845895,
+      "height_delta": 0.009882450103759766,
+      "patch7_delta_rms": 0.013952621258795261,
+      "ray_angle": 0.005849202163517475,
+      "relative_distance": 0.01187122706323862,
+      "incidence_delta_rms": 0.006312609573785427,
+      "old_geometry_rms_z": 0.031231747940182686,
+      "anchor_residual": 7.1144866943359375,
+      "opposite_residual": -6.4243011474609375,
+      "same_residual": 6.9810333251953125,
+      "target": [
+        [
+          80.375,
+          116.3125
+        ],
+        [
+          80.9375,
+          102.6875
+        ],
+        [
+          87.4375,
+          133.375
+        ]
+      ],
+      "base": [
+        [
+          75.68842315673828,
+          109.19801330566406
+        ],
+        [
+          76.39945220947266,
+          109.11180114746094
+        ],
+        [
+          86.659423828125,
+          126.39396667480469
+        ]
+      ],
+      "very_tight": false
+    },
+    {
+      "row_index": 7472,
+      "mapid": 16814,
+      "terrain_id": "04386",
+      "band": 0,
+      "tx_row": 79,
+      "tx_col": 214,
+      "anchor_row": 176,
+      "anchor_col": 138,
+      "opposite_row": 175,
+      "opposite_col": 138,
+      "same_pixel": 45449,
+      "anchor_pixel": 45194,
+      "opposite_pixel": 44938,
+      "anchor_cache_row": 863599,
+      "cost": 0.2240927692305947,
+      "same_cost": 0.2540124803882759,
+      "height_delta": 0.0710219144821167,
+      "patch7_delta_rms": 0.013107876293361187,
+      "ray_angle": 0.00508610624819994,
+      "relative_distance": 0.006369364447891712,
+      "incidence_delta_rms": 0.002583300187151841,
+      "old_geometry_rms_z": 0.03400232642889023,
+      "anchor_residual": 17.15216064453125,
+      "opposite_residual": -7.038612365722656,
+      "same_residual": 15.751274108886719,
+      "target": [
+        [
+          120.9375,
+          138.125
+        ],
+        [
+          97.1875,
+          137.75
+        ],
+        [
+          119.3125,
+          140.5
+        ]
+      ],
+      "base": [
+        [
+          103.78533935546875,
+          137.6241455078125
+        ],
+        [
+          104.22611236572266,
+          137.27227783203125
+        ],
+        [
+          103.56122589111328,
+          137.5760498046875
+        ]
+      ],
+      "very_tight": true
+    },
+    {
+      "row_index": 4126,
+      "mapid": 13206,
+      "terrain_id": "03376",
+      "band": 0,
+      "tx_row": 83,
+      "tx_col": 12,
+      "anchor_row": 192,
+      "anchor_col": 165,
+      "opposite_row": 194,
+      "opposite_col": 165,
+      "same_pixel": 48805,
+      "anchor_pixel": 49317,
+      "opposite_pixel": 49829,
+      "anchor_cache_row": 505339,
+      "cost": 0.3026711075644147,
+      "same_cost": 0.2919547605804705,
+      "height_delta": 0.031980499625205994,
+      "patch7_delta_rms": 0.0189705491065979,
+      "ray_angle": 0.008617879822850227,
+      "relative_distance": 0.00621597608551383,
+      "incidence_delta_rms": 0.004938995068714887,
+      "old_geometry_rms_z": 0.03414062783122063,
+      "anchor_residual": 8.047805786132812,
+      "opposite_residual": -12.372810363769531,
+      "same_residual": 7.077362060546875,
+      "target": [
+        [
+          115.8125,
+          145.0
+        ],
+        [
+          94.75,
+          145.0
+        ],
+        [
+          116.5,
+          145.0
+        ]
+      ],
+      "base": [
+        [
+          107.76469421386719,
+          142.977294921875
+        ],
+        [
+          107.12281036376953,
+          142.68798828125
+        ],
+        [
+          109.42263793945312,
+          142.77127075195312
+        ]
+      ],
+      "very_tight": true
+    },
+    {
+      "row_index": 2511,
+      "mapid": 23523,
+      "terrain_id": "06182",
+      "band": 1,
+      "tx_row": 171,
+      "tx_col": 62,
+      "anchor_row": 232,
+      "anchor_col": 161,
+      "opposite_row": 231,
+      "opposite_col": 162,
+      "same_pixel": 59809,
+      "anchor_pixel": 59553,
+      "opposite_pixel": 59298,
+      "anchor_cache_row": 255802,
+      "cost": 0.34602646861755826,
+      "same_cost": 0.27905717400888147,
+      "height_delta": 0.05632638931274414,
+      "patch7_delta_rms": 0.017879804596304893,
+      "ray_angle": 0.011810016818344593,
+      "relative_distance": 0.0028834990225732327,
+      "incidence_delta_rms": 0.005324842262799758,
+      "old_geometry_rms_z": 0.035573191940784454,
+      "anchor_residual": 11.404708862304688,
+      "opposite_residual": -6.3249969482421875,
+      "same_residual": 11.657394409179688,
+      "target": [
+        [
+          82.4375,
+          147.875
+        ],
+        [
+          82.125,
+          130.0
+        ],
+        [
+          82.1875,
+          148.125
+        ]
+      ],
+      "base": [
+        [
+          82.2151107788086,
+          136.4702911376953
+        ],
+        [
+          82.37635803222656,
+          136.3249969482422
+        ],
+        [
+          82.03492736816406,
+          136.4676055908203
+        ]
+      ],
+      "very_tight": false
+    },
+    {
+      "row_index": 9253,
+      "mapid": 17186,
+      "terrain_id": "04469",
+      "band": 1,
+      "tx_row": 220,
+      "tx_col": 142,
+      "anchor_row": 123,
+      "anchor_col": 12,
+      "opposite_row": 124,
+      "opposite_col": 12,
+      "same_pixel": 31244,
+      "anchor_pixel": 31500,
+      "opposite_pixel": 31756,
+      "anchor_cache_row": 1074125,
+      "cost": 0.2580213357698717,
+      "same_cost": 0.23320720432885544,
+      "height_delta": 0.013595819473266602,
+      "patch7_delta_rms": 0.012292888946831226,
+      "ray_angle": 0.004955518525093794,
+      "relative_distance": 0.003591253189370036,
+      "incidence_delta_rms": 0.005110620526951915,
+      "old_geometry_rms_z": 0.03606569021940231,
+      "anchor_residual": 7.371734619140625,
+      "opposite_residual": -9.174209594726562,
+      "same_residual": 11.565841674804688,
+      "target": [
+        [
+          84.4375,
+          150.625
+        ],
+        [
+          83.9375,
+          133.875
+        ],
+        [
+          84.0,
+          154.875
+        ]
+      ],
+      "base": [
+        [
+          84.44759368896484,
+          143.25326538085938
+        ],
+        [
+          84.12024688720703,
+          143.04920959472656
+        ],
+        [
+          84.25615692138672,
+          143.3091583251953
+        ]
+      ],
+      "very_tight": false
+    },
+    {
+      "row_index": 3595,
+      "mapid": 4660,
+      "terrain_id": "01132",
+      "band": 1,
+      "tx_row": 199,
+      "tx_col": 118,
+      "anchor_row": 39,
+      "anchor_col": 196,
+      "opposite_row": 40,
+      "opposite_col": 197,
+      "same_pixel": 9923,
+      "anchor_pixel": 10180,
+      "opposite_pixel": 10437,
+      "anchor_cache_row": 465216,
+      "cost": 0.27487540352454654,
+      "same_cost": 0.32266060190634294,
+      "height_delta": 0.1241929829120636,
+      "patch7_delta_rms": 0.008405318483710289,
+      "ray_angle": 0.007564438506960869,
+      "relative_distance": 0.0025607303250581026,
+      "incidence_delta_rms": 0.0015841734573723864,
+      "old_geometry_rms_z": 0.03993861749768257,
+      "anchor_residual": 10.207916259765625,
+      "opposite_residual": -5.411376953125,
+      "same_residual": 14.371841430664062,
+      "target": [
+        [
+          84.25,
+          156.125
+        ],
+        [
+          84.375,
+          140.625
+        ],
+        [
+          84.8125,
+          160.375
+        ]
+      ],
+      "base": [
+        [
+          85.19366455078125,
+          145.91708374023438
+        ],
+        [
+          84.8887939453125,
+          146.036376953125
+        ],
+        [
+          85.17761993408203,
+          146.00315856933594
+        ]
+      ],
+      "very_tight": true
+    },
+    {
+      "row_index": 9761,
+      "mapid": 2962,
+      "terrain_id": "00747",
+      "band": 0,
+      "tx_row": 184,
+      "tx_col": 246,
+      "anchor_row": 81,
+      "anchor_col": 101,
+      "opposite_row": 81,
+      "opposite_col": 100,
+      "same_pixel": 20838,
+      "anchor_pixel": 20837,
+      "opposite_pixel": 20836,
+      "anchor_cache_row": 1114760,
+      "cost": 0.2077935283247969,
+      "same_cost": 0.2301580552736336,
+      "height_delta": 0.007471442222595215,
+      "patch7_delta_rms": 0.009060596115887165,
+      "ray_angle": 0.003257243661209941,
+      "relative_distance": 0.004499496426433325,
+      "incidence_delta_rms": 0.004090449492706913,
+      "old_geometry_rms_z": 0.042257972061634064,
+      "anchor_residual": 11.87139892578125,
+      "opposite_residual": -7.873817443847656,
+      "same_residual": 13.967605590820312,
+      "target": [
+        [
+          115.5,
+          145.0
+        ],
+        [
+          96.5,
+          145.0
+        ],
+        [
+          117.1875,
+          145.0
+        ]
+      ],
+      "base": [
+        [
+          103.62860107421875,
+          141.12184143066406
+        ],
+        [
+          104.37381744384766,
+          140.95880126953125
+        ],
+        [
+          103.21989440917969,
+          141.43035888671875
+        ]
+      ],
+      "very_tight": true
+    },
+    {
+      "row_index": 11358,
+      "mapid": 12562,
+      "terrain_id": "03236",
+      "band": 0,
+      "tx_row": 57,
+      "tx_col": 246,
+      "anchor_row": 25,
+      "anchor_col": 22,
+      "opposite_row": 26,
+      "opposite_col": 22,
+      "same_pixel": 6166,
+      "anchor_pixel": 6422,
+      "opposite_pixel": 6678,
+      "anchor_cache_row": 1272013,
+      "cost": 0.24900659869160413,
+      "same_cost": 0.22558926333102022,
+      "height_delta": 0.07920414209365845,
+      "patch7_delta_rms": 0.021421832963824272,
+      "ray_angle": 0.0043945349752902985,
+      "relative_distance": 0.0005884459242224693,
+      "incidence_delta_rms": 0.0036397164103861112,
+      "old_geometry_rms_z": 0.04308800399303436,
+      "anchor_residual": 12.046165466308594,
+      "opposite_residual": -7.5234222412109375,
+      "same_residual": 13.821388244628906,
+      "target": [
+        [
+          116.0,
+          145.0
+        ],
+        [
+          98.375,
+          145.0
+        ],
+        [
+          114.5,
+          145.0
+        ]
+      ],
+      "base": [
+        [
+          103.9538345336914,
+          142.80245971679688
+        ],
+        [
+          105.89842224121094,
+          142.78408813476562
+        ],
+        [
+          100.6786117553711,
+          142.34156799316406
+        ]
+      ],
+      "very_tight": true
+    },
+    {
+      "row_index": 3695,
+      "mapid": 6047,
+      "terrain_id": "01494",
+      "band": 1,
+      "tx_row": 183,
+      "tx_col": 70,
+      "anchor_row": 168,
+      "anchor_col": 144,
+      "opposite_row": 167,
+      "opposite_col": 145,
+      "same_pixel": 43151,
+      "anchor_pixel": 43152,
+      "opposite_pixel": 42897,
+      "anchor_cache_row": 476518,
+      "cost": 0.3347635846741618,
+      "same_cost": 0.35324642698724873,
+      "height_delta": 0.05580484867095947,
+      "patch7_delta_rms": 0.016376368701457977,
+      "ray_angle": 0.010189807042479515,
+      "relative_distance": 0.01567205786705017,
+      "incidence_delta_rms": 0.0021131165017127976,
+      "old_geometry_rms_z": 0.0432455949485302,
+      "anchor_residual": 13.3212890625,
+      "opposite_residual": -5.0907440185546875,
+      "same_residual": 9.497604370117188,
+      "target": [
+        [
+          78.0625,
+          139.625
+        ],
+        [
+          80.125,
+          121.5625
+        ],
+        [
+          78.1875,
+          135.625
+        ]
+      ],
+      "base": [
+        [
+          80.5137939453125,
+          126.3037109375
+        ],
+        [
+          80.62635040283203,
+          126.65324401855469
+        ],
+        [
+          79.92786407470703,
+          126.12739562988281
+        ]
+      ],
+      "very_tight": false
+    }
+  ]
+}

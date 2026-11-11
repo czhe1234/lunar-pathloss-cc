@@ -1,0 +1,17 @@
+[
+  {
+    "task": "C34 DEV shard0/3",
+    "gpu": 4,
+    "pid": 2121512
+  },
+  {
+    "task": "c35_ple8",
+    "gpu": 1,
+    "pid": 2121513
+  },
+  {
+    "task": "c35_periodic8",
+    "gpu": 3,
+    "pid": 2121514
+  }
+]

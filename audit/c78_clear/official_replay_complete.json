@@ -1,0 +1,10 @@
+{
+  "official_predictions": "runs/c76_selected/predictions",
+  "official_maps": 2330,
+  "terrains": 680,
+  "uniform_locations_per_map": 2048,
+  "marker_and_radiometry_fit_on": "official TRAIN internal calibration terrains only",
+  "official_USED_for_new_model_selection": false,
+  "official_new_training": false,
+  "coefficient_hash_unchanged": "7c9f4a14ae5995f47ce86473b7d22e1d03b8415cc80e48a53bc206012bfc58e1"
+}

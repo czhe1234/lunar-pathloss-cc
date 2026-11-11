@@ -1,0 +1,17 @@
+{
+  "pid": 2191977,
+  "args": [
+    "./run_gpu.sh",
+    "1",
+    "src/c38_continue.py",
+    "--mode",
+    "periodic",
+    "--points",
+    "1024",
+    "--steps",
+    "40000",
+    "--name",
+    "c38_1024_continue"
+  ],
+  "time": 1793546803.6296449
+}

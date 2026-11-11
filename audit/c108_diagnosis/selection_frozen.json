@@ -1,0 +1,45 @@
+{
+  "candidates": {
+    "c108_n8_last": {
+      "checkpoint": "runs/c108_n8/step4000.pt",
+      "sha256": "9f255886c7b5e9d8e6b4ecc0818a8bfc325b68f359f7b2f55e722fbd00f8041f",
+      "step": 4000,
+      "kind": "base",
+      "mode": null
+    },
+    "c108_n32_last": {
+      "checkpoint": "runs/c108_n32/step4000.pt",
+      "sha256": "62f5da189f219a2e6dde419fa7e5e0dd549a3933f3e755de232eb8eb26106517",
+      "step": 4000,
+      "kind": "base",
+      "mode": null
+    },
+    "c108_n128_last": {
+      "checkpoint": "runs/c108_n128/step4000.pt",
+      "sha256": "934720dce52849beabd6412b446c9ba089d9c4fab61c38e9330e33a8f9aa91ff",
+      "step": 4000,
+      "kind": "base",
+      "mode": null
+    }
+  },
+  "eligible": "C82",
+  "monitor_selected": {
+    "n8": {
+      "step": 0,
+      "predictor": "C82"
+    },
+    "n32": {
+      "step": 0,
+      "predictor": "C82"
+    },
+    "n128": {
+      "step": 0,
+      "predictor": "C82"
+    }
+  },
+  "monitor_mean": {
+    "C82": 2.2822024962495258
+  },
+  "selection": "Checkpointandarmsfrozenbeforeconfirmation;C108/C109monitorselectedzeroC82,lastendpointsdiagnosticonly;C110stepbyFITanchorandarmbyoriginalmonitor",
+  "official_val_used": false
+}

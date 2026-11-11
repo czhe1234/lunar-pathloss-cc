@@ -1,0 +1,104 @@
+{
+  "question": "Can a direct residual to frozenC82 use full-precision physical grazing descriptors to predict remaining large errors?",
+  "arms": [
+    "old",
+    "coarse",
+    "precise"
+  ],
+  "shared_inputs": 121,
+  "incidence_inputs": 48,
+  "arm_definition": {
+    "old": "shared121 plus constant48",
+    "coarse": "same121 plus48 descriptors from oldFP16 patch/ray inputs",
+    "precise": "same121 plus same48 descriptors recomputed from rawH/TXfloat64"
+  },
+  "baseline": "C82 development predictor frozen; FIT reconstructed input-only, monitor/confirmation use original frozenC82 cache. C54 centre andedge features replaced consistently in all splits.",
+  "fit_maps": 2815,
+  "fit_terrains": 1984,
+  "fit_points": 4323840,
+  "fit_sampling": "1536uniform points/map excluding originalC38teaching1024. Same immutableC90 H/TX-only point selection.",
+  "monitor_maps": 628,
+  "monitor_terrains": 128,
+  "monitor_points": 1286144,
+  "confirmation_maps": 1934,
+  "confirmation_terrains": 484,
+  "confirmation_points_per_map": 2048,
+  "model": "169feature,8member width512 numeric-embedding sharedMLP,logarithmic frequency init,zero output correction",
+  "batch": 16384,
+  "steps": 2000,
+  "evaluate_every": 250,
+  "seeds": {
+    "initial": 101041,
+    "sampling": 101073
+  },
+  "optimizer": "AdamW lr.0005 wd.001,100updatewarmup,cosine2000steps,minfactor.1,clip5",
+  "selection": "Same fixed2000updates. For each arm min jointmean monitor maskedRMSE including unchangedC82. Choose eligible arm amongC82/three arms by monitor only; freeze all before confirmation.",
+  "promotion": "Both confirmation bands>=.30dB gain versus sameC82 and pairedterrain95CI lowerbound>0. Then require fullnative map verification before fullTRAIN refit.",
+  "official_target": "both official fixedVAL bandRMSE<=1dB",
+  "official_val_used": false,
+  "history": "Development terrains have been repeatedly used. Original C82 calibration used80monitor terrains. No officialVAL targets read in this round.",
+  "geometry": "Published raster only; no C95 epsilon/offset or topology hypotheses. Same preexistingC90 height convention for its incidence variables.",
+  "cache_replay": {
+    "ids": [
+      647,
+      951,
+      1009,
+      1010,
+      1011,
+      1012,
+      1013,
+      1014
+    ],
+    "point_rms": [
+      0.0009783367675514946,
+      0.0007645376960453339
+    ],
+    "max_abs": 0.0659637451171875,
+    "GPU": {
+      "uuid": "GPU-70b6fceb-c7c4-9467-3c81-097c9284c160",
+      "logical_device": 0,
+      "name": "NVIDIA A800 80GB PCIe",
+      "memory_bytes": 84974239744,
+      "torch": "2.6.0+cu124",
+      "cuda_runtime": "12.4"
+    }
+  },
+  "precision_probe": {
+    "near_grazing": {
+      "point_fraction": 0.039157357185509556,
+      "SSE_fraction": [
+        0.18875193041183905,
+        0.13600190391417394
+      ],
+      "affected_rmse": [
+        4.7176479860914,
+        4.481258689664855
+      ]
+    },
+    "signflip": {
+      "point_fraction": 0.001048094148089172,
+      "SSE_fraction": [
+        0.005534987786439401,
+        0.004148422547845171
+      ],
+      "affected_rmse": [
+        4.951930317980957,
+        4.760229796797028
+      ]
+    }
+  },
+  "notes": "Lowprecision signflip alone carries<1percent monitoredSSE; not treated as a sufficient explanation. This is a bounded directC82 residual information screen, not a promise of1dB.",
+  "GPU": {
+    "old": 4,
+    "coarse": 1,
+    "precise": 3
+  },
+  "input_masks_labels_read_by_features": false,
+  "initial_state_sha256": "e4a31e8f12904402855d081ef41047fc5e546b24eb70ee62edceba53917f7202",
+  "parameters": 1380520,
+  "frozen_baseline_sha256": {
+    "runs/c72_observed/best.pt": "02b16bd1e9a9956ebc09b8aa846c85e751935294313397e9988bef952c9d34a4",
+    "runs/c73_wide_real/best.pt": "2538e77cb5e3d85d73815f01ea956432e3b1a9cdc1ecb15420028d562f9b16e5",
+    "runs/c82_selected/spectrum.json": "e9f3a73d67b99691f4d5e9eb005280144fb677e5f3fbd63cdbf08e7b1a9496ae"
+  }
+}

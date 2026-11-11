@@ -1,0 +1,92 @@
+{
+  "scope": "512fit and512dev maps, same original masks, no training; not official validation",
+  "scores": {
+    "fit": {
+      "415": {
+        "n": 33289131,
+        "canonical_sse": 697074181.7975392,
+        "ensemble_sse": 664151851.9235525,
+        "orientation_variance": 30433285.214199517,
+        "old_sse": 697067321.4979154,
+        "canonical_rmse": 4.5760237489450395,
+        "ensemble_rmse": 4.466655571698399,
+        "old_rmse": 4.576001231276145,
+        "orientation_std_rms": 0.9561437465289646,
+        "mean_orientation_rmse": 4.567846632737444,
+        "gain_db": 0.10936817724664039,
+        "orientation_variance_share_of_mean_mse": 0.043815053889015056,
+        "terrain_bootstrap_gain_95pct": [
+          0.08758568851256147,
+          0.13161929120473442
+        ],
+        "terrain_count": 370
+      },
+      "58": {
+        "n": 30059548,
+        "canonical_sse": 1148122116.2290285,
+        "ensemble_sse": 1059374224.8793058,
+        "orientation_variance": 79415279.44673042,
+        "old_sse": 1148085749.9213498,
+        "canonical_rmse": 6.180204109262142,
+        "ensemble_rmse": 5.936541089702577,
+        "old_rmse": 6.180106230743503,
+        "orientation_std_rms": 1.6254020803541744,
+        "mean_orientation_rmse": 6.155034689792312,
+        "gain_db": 0.24366301955956526,
+        "orientation_variance_share_of_mean_mse": 0.06973657479722764,
+        "terrain_bootstrap_gain_95pct": [
+          0.19867945681450755,
+          0.290893913742853
+        ],
+        "terrain_count": 370
+      }
+    },
+    "dev": {
+      "415": {
+        "n": 33318920,
+        "canonical_sse": 715609808.9877815,
+        "ensemble_sse": 674535273.9906425,
+        "orientation_variance": 34429539.95022393,
+        "old_sse": 715607128.7221607,
+        "canonical_rmse": 4.634391133227085,
+        "ensemble_rmse": 4.499423527126685,
+        "old_rmse": 4.634382454327843,
+        "orientation_std_rms": 1.0165298872640083,
+        "mean_orientation_rmse": 4.612823981918464,
+        "gain_db": 0.1349676061004006,
+        "orientation_variance_share_of_mean_mse": 0.048563115225483726,
+        "terrain_bootstrap_gain_95pct": [
+          0.10201191849965088,
+          0.17148249780899544
+        ],
+        "terrain_count": 153
+      },
+      "58": {
+        "n": 30633127,
+        "canonical_sse": 1240138807.1347976,
+        "ensemble_sse": 1129867387.696229,
+        "orientation_variance": 90092113.36720392,
+        "old_sse": 1240118869.952866,
+        "canonical_rmse": 6.3626712322260985,
+        "ensemble_rmse": 6.0732068191692425,
+        "old_rmse": 6.362620087046605,
+        "orientation_std_rms": 1.7149352277853225,
+        "mean_orientation_rmse": 6.310692822812951,
+        "gain_db": 0.289464413056856,
+        "orientation_variance_share_of_mean_mse": 0.07384844602519268,
+        "terrain_bootstrap_gain_95pct": [
+          0.2238789058647377,
+          0.36057825554035455
+        ],
+        "terrain_count": 153
+      }
+    }
+  },
+  "replay_against_previous_frozen_b1": {
+    "max_abs": 0.3132591247558594,
+    "square": 24841.202090331033,
+    "n": 134217728,
+    "rmse": 0.013604461705576007
+  },
+  "seconds": 2.9623751640319824
+}

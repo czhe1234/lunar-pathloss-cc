@@ -1,0 +1,42 @@
+[
+  {
+    "epoch": 1,
+    "lr": 0.00014937119731097504,
+    "train_rmse_proxy": 4.1905012130737305,
+    "pair_mse_normalized": 0.015410359017550945,
+    "processed_maps": 26470,
+    "train_seconds": 222.50680470466614,
+    "elapsed_seconds": 233.51736974716187,
+    "dev": {
+      "rmse415": 3.75318156553631,
+      "rmse58": 4.7866812152977145,
+      "mse_mean": 18.499344460382797,
+      "valid_pixels": [
+        166639132.0,
+        152634019.0
+      ],
+      "maps_per_band": 2562
+    },
+    "peak_memory_GB": 79.699106304
+  },
+  {
+    "epoch": 2,
+    "lr": 0.000294991096464493,
+    "train_rmse_proxy": 4.196111679077148,
+    "pair_mse_normalized": 0.014920055866241455,
+    "processed_maps": 26470,
+    "train_seconds": 63.1200635433197,
+    "elapsed_seconds": 300.94054794311523,
+    "dev": {
+      "rmse415": 3.760774552298483,
+      "rmse58": 4.803097374725589,
+      "mse_mean": 18.60658481215585,
+      "valid_pixels": [
+        166639132.0,
+        152634019.0
+      ],
+      "maps_per_band": 2562
+    },
+    "peak_memory_GB": 79.699106304
+  }
+]

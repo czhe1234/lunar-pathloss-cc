@@ -1,0 +1,263 @@
+{
+  "maps": [
+    {
+      "map": 1011,
+      "correction_change_RMS": [
+        1.298314442118272,
+        24.009039754143615
+      ],
+      "source_total_relative_L1": [
+        0.2048731779175442,
+        0.22373929679743781
+      ],
+      "mean_absolute_correction": [
+        0.2749198378725153,
+        5.870292093693075
+      ]
+    },
+    {
+      "map": 1014,
+      "correction_change_RMS": [
+        1.6552022464132736,
+        29.845003945438954
+      ],
+      "source_total_relative_L1": [
+        0.1920912853078991,
+        0.21579055235221065
+      ],
+      "mean_absolute_correction": [
+        0.4226331941915742,
+        9.973994304502856
+      ]
+    },
+    {
+      "map": 1017,
+      "correction_change_RMS": [
+        0.5978805395064372,
+        22.044560731594547
+      ],
+      "source_total_relative_L1": [
+        0.14482603138299383,
+        0.16608981952791788
+      ],
+      "mean_absolute_correction": [
+        0.19087597111745838,
+        5.317044978330981
+      ]
+    },
+    {
+      "map": 1020,
+      "correction_change_RMS": [
+        1.2419787673356562,
+        36.17228439163223
+      ],
+      "source_total_relative_L1": [
+        0.15284228250314708,
+        0.14864941578030447
+      ],
+      "mean_absolute_correction": [
+        0.33288273135897933,
+        17.08066365047241
+      ]
+    },
+    {
+      "map": 1023,
+      "correction_change_RMS": [
+        1.8420148732622605,
+        27.1762462304475
+      ],
+      "source_total_relative_L1": [
+        0.27802378943002143,
+        0.3002934806823902
+      ],
+      "mean_absolute_correction": [
+        0.207359943779948,
+        11.152749237252621
+      ]
+    },
+    {
+      "map": 1026,
+      "correction_change_RMS": [
+        0.9120236494317315,
+        24.5122453749758
+      ],
+      "source_total_relative_L1": [
+        0.21281923837919023,
+        0.22926700350575363
+      ],
+      "mean_absolute_correction": [
+        0.23878033982924313,
+        8.985899054745076
+      ]
+    },
+    {
+      "map": 1029,
+      "correction_change_RMS": [
+        3.45181818627843,
+        22.708034799384006
+      ],
+      "source_total_relative_L1": [
+        0.11200050233269282,
+        0.11735413198242457
+      ],
+      "mean_absolute_correction": [
+        0.6349225840698633,
+        4.97725113457717
+      ]
+    },
+    {
+      "map": 170,
+      "correction_change_RMS": [
+        1.0971140466255145,
+        38.485783022597545
+      ],
+      "source_total_relative_L1": [
+        0.12700919742059266,
+        0.15252691238649072
+      ],
+      "mean_absolute_correction": [
+        0.22366701612820653,
+        19.281527311929327
+      ]
+    },
+    {
+      "map": 215,
+      "correction_change_RMS": [
+        0.13142125624161505,
+        5.110265108649447
+      ],
+      "source_total_relative_L1": [
+        0.2442616268139189,
+        0.2748982298404967
+      ],
+      "mean_absolute_correction": [
+        0.05192759911192932,
+        0.5845867352445572
+      ]
+    },
+    {
+      "map": 231,
+      "correction_change_RMS": [
+        0.17996959185854627,
+        22.672475928993702
+      ],
+      "source_total_relative_L1": [
+        0.16543337703324532,
+        0.18817147947639887
+      ],
+      "mean_absolute_correction": [
+        0.09643653654898433,
+        6.027827018391361
+      ]
+    },
+    {
+      "map": 271,
+      "correction_change_RMS": [
+        0.1052446124975094,
+        20.80821012269538
+      ],
+      "source_total_relative_L1": [
+        0.16708649036110593,
+        0.19269999952522224
+      ],
+      "mean_absolute_correction": [
+        0.03917838136735523,
+        6.887954810382284
+      ]
+    },
+    {
+      "map": 303,
+      "correction_change_RMS": [
+        0.32294583641097296,
+        23.411304734212877
+      ],
+      "source_total_relative_L1": [
+        0.16861377189270826,
+        0.19639919474153714
+      ],
+      "mean_absolute_correction": [
+        0.06688267492953096,
+        6.461199184201006
+      ]
+    },
+    {
+      "map": 4,
+      "correction_change_RMS": [
+        0.777968595388342,
+        33.89678282717489
+      ],
+      "source_total_relative_L1": [
+        0.24180217286311867,
+        0.2744680401111648
+      ],
+      "mean_absolute_correction": [
+        0.12584376838248235,
+        25.500932812175403
+      ]
+    },
+    {
+      "map": 61,
+      "correction_change_RMS": [
+        0.3115259507680827,
+        21.563713807654675
+      ],
+      "source_total_relative_L1": [
+        0.24910523234678064,
+        0.23423294894881222
+      ],
+      "mean_absolute_correction": [
+        0.0625923030980686,
+        4.58457534186964
+      ]
+    },
+    {
+      "map": 84,
+      "correction_change_RMS": [
+        0.91117967389216,
+        35.530569133235296
+      ],
+      "source_total_relative_L1": [
+        0.1445638865989185,
+        0.16478417105549903
+      ],
+      "mean_absolute_correction": [
+        0.2138745549943807,
+        14.862891408642694
+      ]
+    },
+    {
+      "map": 951,
+      "correction_change_RMS": [
+        0.8190897372480769,
+        33.152902769081074
+      ],
+      "source_total_relative_L1": [
+        0.1761298496292018,
+        0.20421737039850907
+      ],
+      "mean_absolute_correction": [
+        0.13717989943391598,
+        17.53958747780664
+      ]
+    }
+  ],
+  "scope": "Numerical comparison; 8 FIT and 8 monitor maps selected before labels. source4/rx1/64dirs vs source8/rx2/256dirs, both pre6/post3.",
+  "valid_pixel_summary": {
+    "valid_count": [
+      28313.0,
+      27106.0
+    ],
+    "valid_correction_change_RMS": [
+      1.1289543872423677,
+      24.68403621762787
+    ],
+    "fine_mean_abs_correction": [
+      0.1928823062951501,
+      7.286485154936109
+    ],
+    "fine_zero_path_valid": [
+      0.0,
+      1.0
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "maps": 58,
+  "counts_columns": [
+    "full_direct_hard",
+    "first_hit_hard",
+    "full_hard_not_first_hard",
+    "first_hard_not_full_hard"
+  ],
+  "counts": [
+    [
+      96,
+      3,
+      93,
+      0
+    ],
+    [
+      99,
+      2,
+      97,
+      0
+    ]
+  ],
+  "max_negative_full_minus_first": 7.926239243942479e-11,
+  "interpretation": "Same fixed donor set, any convex interpolation; zero first-direct donors give infinite bound. Most reconstructed hard violations require the post-first receiver component. This is component localization, not proof all official residuals are from offset.",
+  "first_hit_examples": [
+    [
+      58,
+      "00008_00",
+      0,
+      219,
+      161,
+      70.5,
+      64.48272759203562,
+      64.48272794685492,
+      1,
+      1
+    ],
+    [
+      1762,
+      "00407_00",
+      0,
+      101,
+      182,
+      77.6875,
+      65.03509936317852,
+      65.03509936317852,
+      1,
+      1
+    ],
+    [
+      1762,
+      "00407_00",
+      1,
+      101,
+      182,
+      99.4375,
+      87.9051772002203,
+      87.9051772002203,
+      1,
+      1
+    ],
+    [
+      2630,
+      "00648_00",
+      0,
+      21,
+      36,
+      88.125,
+      72.33801494233155,
+      72.33801494233155,
+      1,
+      1
+    ],
+    [
+      2630,
+      "00648_00",
+      1,
+      21,
+      36,
+      111.4375,
+      95.20809277937335,
+      95.20809277937335,
+      1,
+      1
+    ]
+  ]
+}

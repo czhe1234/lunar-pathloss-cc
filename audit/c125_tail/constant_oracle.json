@@ -1,0 +1,12 @@
+[
+  {
+    "band": 0,
+    "fit_tail_mean": 3.030307352808671,
+    "constant_true_tail_gate_rmse": 2.0590413938959404
+  },
+  {
+    "band": 1,
+    "fit_tail_mean": 2.5086715240552273,
+    "constant_true_tail_gate_rmse": 2.3417900015590805
+  }
+]

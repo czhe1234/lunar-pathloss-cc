@@ -1,0 +1,112 @@
+{
+  "scope": "Illustrative only. Pair comprised opposite mistakes at joint-valid, conservatively certified sites in the same map within 12 grid pixels. Choose a terrain in the middle half of terrain RMSE and prefer moderate 10 dB actual weak excess and a short separation.",
+  "allowed_terrain_rmse": [
+    1.9299669502059118,
+    2.725945493577895
+  ],
+  "n_pairs": 273,
+  "n_maps": 192,
+  "n_terrains": 85,
+  "clear_pair": {
+    "index": 2035,
+    "sample_id": "06039_00",
+    "terrain": "06039",
+    "tx": [
+      100,
+      52
+    ],
+    "terrain_combined_rmse": 2.3665330173426833,
+    "positions_distance_pixels": 2.23606797749979,
+    "A": {
+      "pixel": [
+        39,
+        247
+      ],
+      "flat": 10231,
+      "distance_nominal": 205.15048217773438,
+      "safest_distance_upper": 207.90264892578125,
+      "true_PL": [
+        82.1875,
+        103.4375
+      ],
+      "pred_PL": [
+        71.63201904296875,
+        94.61518859863281
+      ],
+      "signed_error": [
+        -10.55548095703125,
+        -8.822311401367188
+      ],
+      "label_excess_over_conservative_direct": [
+        11.021554388027411,
+        9.40147655098562
+      ],
+      "prediction_excess_over_same_reference": [
+        0.46607343099616116,
+        0.5791651496184329
+      ],
+      "min_visibility": 1.0,
+      "certificate": true,
+      "grazing_fraction": 0.0313718318939209
+    },
+    "B": {
+      "pixel": [
+        37,
+        248
+      ],
+      "flat": 9720,
+      "distance_nominal": 206.7152862548828,
+      "safest_distance_upper": 209.47923278808594,
+      "true_PL": [
+        72.6875,
+        95.5
+      ],
+      "pred_PL": [
+        79.79130554199219,
+        102.98577117919922
+      ],
+      "signed_error": [
+        7.1038055419921875,
+        7.485771179199219
+      ],
+      "label_excess_over_conservative_direct": [
+        1.455935351058855,
+        1.3983575140170643
+      ],
+      "prediction_excess_over_same_reference": [
+        8.559740893051043,
+        8.884128693216283
+      ],
+      "min_visibility": 1.0,
+      "certificate": true,
+      "grazing_fraction": 0.9725388884544373
+    }
+  },
+  "blocked_example": {
+    "index": 543,
+    "sample_id": "01458_00",
+    "terrain": "01458",
+    "tx": [
+      190,
+      123
+    ],
+    "pixel": [
+      60,
+      153
+    ],
+    "group": "blocked beyond two pixels from boundary",
+    "terrain_combined_rmse": 2.392639406804324,
+    "true_PL": [
+      81.375,
+      147.75
+    ],
+    "pred_PL": [
+      81.73472595214844,
+      136.74395751953125
+    ],
+    "signed_error": [
+      0.3597259521484375,
+      -11.00604248046875
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "predictions": "runs/c4_critical_length_fast_s20261031/predictions/train_dev_bf16",
+  "no_model_forward": true,
+  "bands": {
+    "415": {
+      "rmse_fp32_error_fp64_sum": 3.753180573923027,
+      "rmse_fp64_error_fp64_sum": 3.7531805737854538,
+      "valid_pixels": 166639132,
+      "sse_fp64": 2347339539.89125
+    },
+    "58": {
+      "rmse_fp32_error_fp64_sum": 4.7866783166800175,
+      "rmse_fp64_error_fp64_sum": 4.78667831655749,
+      "valid_pixels": 152634019,
+      "sse_fp64": 3497194801.296279
+    }
+  },
+  "seconds": 6.03302264213562,
+  "device": {
+    "uuid": "GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0",
+    "logical_device": 0,
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_bytes": 84929347584,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  }
+}

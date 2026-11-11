@@ -1,0 +1,46 @@
+{
+  "affine_plane_clearance_max_difference": 5.662441253662109e-07,
+  "positional_channels_equal": true,
+  "zero_terrain_channels": true,
+  "initial_state_equal": true,
+  "parameter_count": 8765458,
+  "smoke": {
+    "none": {
+      "gpu": {
+        "uuid": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+        "logical_device": 0,
+        "name": "NVIDIA H100 80GB HBM3",
+        "memory_bytes": 84929347584,
+        "torch": "2.6.0+cu124",
+        "cuda_runtime": "12.4"
+      },
+      "max_initial_difference_db": 0.0,
+      "complete": "smoke_complete"
+    },
+    "coarse": {
+      "gpu": {
+        "uuid": "GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0",
+        "logical_device": 0,
+        "name": "NVIDIA H100 80GB HBM3",
+        "memory_bytes": 84929347584,
+        "torch": "2.6.0+cu124",
+        "cuda_runtime": "12.4"
+      },
+      "max_initial_difference_db": 0.0,
+      "complete": "smoke_complete"
+    },
+    "fine": {
+      "gpu": {
+        "uuid": "GPU-70b6fceb-c7c4-9467-3c81-097c9284c160",
+        "logical_device": 0,
+        "name": "NVIDIA A800 80GB PCIe",
+        "memory_bytes": 84974239744,
+        "torch": "2.6.0+cu124",
+        "cuda_runtime": "12.4"
+      },
+      "max_initial_difference_db": 0.0,
+      "complete": "smoke_complete"
+    }
+  },
+  "numerics": "Initialization function preserved exactly against parent on each GPU. Cross-device BF16 reductions need not be bit-identical."
+}

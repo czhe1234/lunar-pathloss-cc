@@ -1,0 +1,24 @@
+{
+  "coverage": "dense",
+  "name": "c62_dense_4maps",
+  "variant": "path",
+  "scope": "fourFITterrains_pixelcoverage_control",
+  "gpu": {
+    "uuid": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+    "logical_device": 0,
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_bytes": 84929347584,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "steps": 1000,
+  "seed": 20261208,
+  "holdout_seed": 20261209,
+  "pixels_per_map": 61440,
+  "holdout_pixels_per_map": 4096,
+  "batch_maps": 4,
+  "points_per_map": 256,
+  "official_VAL_used": false,
+  "selection": "fixed1000updates; holdout never selects checkpoints",
+  "initial_state_sha256": "1e405d703792270024199550e114e1fa9ff4adfc5e6cef8100076e09d0ed2abe"
+}

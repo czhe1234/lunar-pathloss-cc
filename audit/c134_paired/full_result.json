@@ -1,0 +1,90 @@
+{
+  "status": "complete",
+  "scope": "original128TRAINmonitor;all628fullmaps;not officialVAL",
+  "GPU": {
+    "uuid": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+    "logical_device": 0,
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_bytes": 84929347584,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "checkpoint_info": {
+    "plain": {
+      "checkpoint": "best.pt",
+      "epoch": 24,
+      "reason": "If no trained checkpoint beat C82, evaluate last trained checkpoint rather than relabel untouched C82 as a new model."
+    },
+    "paired": {
+      "checkpoint": "best.pt",
+      "epoch": 22,
+      "reason": "If no trained checkpoint beat C82, evaluate last trained checkpoint rather than relabel untouched C82 as a new model."
+    }
+  },
+  "seconds": 32.124593815999106,
+  "two_models_plus_geometry_median_seconds": 0.04746119349147193,
+  "results": {
+    "plain": {
+      "RMSE": [
+        2.146224024523677,
+        2.417668834373908
+      ],
+      "SSE": [
+        188235408.26058802,
+        221162768.61824304
+      ],
+      "count": [
+        40864973.0,
+        37837148.0
+      ],
+      "tail_RMSE": [
+        9.568201909210117,
+        9.923961312187659
+      ],
+      "gain_vs_C82": [
+        0.00016648282558939798,
+        0.0003456505516230557
+      ]
+    },
+    "paired": {
+      "RMSE": [
+        2.14610533332621,
+        2.4178583174746717
+      ],
+      "SSE": [
+        188214589.1215069,
+        221197436.93077278
+      ],
+      "count": [
+        40864973.0,
+        37837148.0
+      ],
+      "tail_RMSE": [
+        9.569790400245111,
+        9.923312248966456
+      ],
+      "gain_vs_C82": [
+        0.00028517402305627826,
+        0.00015616745085944572
+      ]
+    },
+    "C82": {
+      "RMSE": [
+        2.1463905073492664,
+        2.418014484925531
+      ],
+      "SSE": [
+        188264612.2744558,
+        221226011.7692497
+      ],
+      "count": [
+        40864973.0,
+        37837148.0
+      ],
+      "tail_RMSE": [
+        9.56825135882866,
+        9.920739386550443
+      ]
+    }
+  }
+}

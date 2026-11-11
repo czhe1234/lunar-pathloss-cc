@@ -1,0 +1,11 @@
+{
+  "mode": "donor",
+  "band": 1,
+  "conditional_sign_accuracy": 0.6293846984966748,
+  "majority_accuracy": 0.593766882137069,
+  "logloss": 0.5878245940954052,
+  "trees": 107,
+  "seconds": 6.872731160983676,
+  "oracle_gate": true,
+  "official_val_used": false
+}

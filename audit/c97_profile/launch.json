@@ -1,0 +1,41 @@
+{
+  "time": 1793757202.5188303,
+  "runs": [
+    {
+      "variant": "mean",
+      "pid": 3970635,
+      "command": [
+        ".venv/bin/python",
+        "-u",
+        "scripts/c97_profile_cpu.py",
+        "--variant",
+        "mean",
+        "--threads",
+        "12",
+        "--steps",
+        "1200",
+        "--batch",
+        "2048"
+      ],
+      "log": "logs/c97_mean.log"
+    },
+    {
+      "variant": "strip",
+      "pid": 3970636,
+      "command": [
+        ".venv/bin/python",
+        "-u",
+        "scripts/c97_profile_cpu.py",
+        "--variant",
+        "strip",
+        "--threads",
+        "12",
+        "--steps",
+        "1200",
+        "--batch",
+        "2048"
+      ],
+      "log": "logs/c97_strip.log"
+    }
+  ]
+}

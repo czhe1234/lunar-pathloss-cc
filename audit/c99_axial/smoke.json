@@ -1,0 +1,65 @@
+{
+  "gpu_uuid": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+  "same_initial_state_sha256": "d5c4488d3410753e8eb678e032edcb3710956842e3fdc3b58ed7f4091990541f",
+  "parameters": 1214114,
+  "throughput": [
+    {
+      "mode": "local",
+      "batch": 4,
+      "seconds_per_step": 0.13771116400009,
+      "maps_per_second": 29.046301576518413,
+      "peak_GiB": 2.5754241943359375
+    },
+    {
+      "mode": "local",
+      "batch": 8,
+      "seconds_per_step": 0.0977483441666512,
+      "maps_per_second": 81.84281859916518,
+      "peak_GiB": 5.0722551345825195
+    },
+    {
+      "mode": "local",
+      "batch": 16,
+      "seconds_per_step": 0.17949814566668465,
+      "maps_per_second": 89.13741108897507,
+      "peak_GiB": 10.065918445587158
+    },
+    {
+      "mode": "local",
+      "batch": 32,
+      "seconds_per_step": 0.3402666215000257,
+      "maps_per_second": 94.04389963062417,
+      "peak_GiB": 20.053244590759277
+    },
+    {
+      "mode": "global",
+      "batch": 4,
+      "seconds_per_step": 0.05013717000004666,
+      "maps_per_second": 79.78112845212998,
+      "peak_GiB": 2.5754241943359375
+    },
+    {
+      "mode": "global",
+      "batch": 8,
+      "seconds_per_step": 0.08565731083338808,
+      "maps_per_second": 93.39541391348124,
+      "peak_GiB": 5.0722551345825195
+    },
+    {
+      "mode": "global",
+      "batch": 16,
+      "seconds_per_step": 0.15537390616661165,
+      "maps_per_second": 102.97739430482468,
+      "peak_GiB": 10.065918445587158
+    },
+    {
+      "mode": "global",
+      "batch": 32,
+      "seconds_per_step": 0.2937468216668246,
+      "maps_per_second": 108.93734889937038,
+      "peak_GiB": 20.053244590759277
+    }
+  ],
+  "computation_checks_passed_before_log_records": true,
+  "note": "All8forward/backward benchmark records completed. JSON save failed because output directory was absent. Records recovered from log; code directory creation fixed; identical initialization recomputed onCPU."
+}

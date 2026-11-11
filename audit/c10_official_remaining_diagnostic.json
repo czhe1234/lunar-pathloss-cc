@@ -1,0 +1,121 @@
+{
+  "prediction_directory": "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/runs/c10_full_refit_s20261101/predictions/val_full_gpu_c10_fast_fresh",
+  "scope": "All requested maps and valid pixels; accounting of frozen errors, not causal attribution or model updates",
+  "maps_per_band": 2330,
+  "bands": {
+    "415": {
+      "valid_pixels": 151537682,
+      "RMSE_db": 2.967202139344822,
+      "mean_error_db": 0.0017508290359655038,
+      "RMSE_if_all_errors_over_10db_were_perfectly_removed": 2.0008577910194414,
+      "8x8_residual_mean_projection_SSE_fraction": 0.3086707041614413,
+      "tails": {
+        "5": {
+          "pixel_fraction": 0.06852152456707104,
+          "SSE_fraction": 0.8166377123237455
+        },
+        "10": {
+          "pixel_fraction": 0.020714365948926155,
+          "SSE_fraction": 0.5452861541696253
+        }
+      },
+      "state_pair_counts": [
+        [
+          101101927,
+          3807704,
+          292273
+        ],
+        [
+          2815881,
+          2571959,
+          999645
+        ],
+        [
+          418403,
+          1247966,
+          38281924
+        ]
+      ],
+      "state_pair_SSE_fraction": [
+        [
+          0.04125741004741524,
+          0.05545031633922613,
+          0.039255493147300397
+        ],
+        [
+          0.03641492199442565,
+          0.01154127062971062,
+          0.033929216923451855
+        ],
+        [
+          0.055963203951203376,
+          0.14332950570795455,
+          0.5828586612592273
+        ]
+      ],
+      "class_mismatch_SSE_fraction": 0.36434265806364696,
+      "both_high_loss_SSE_fraction": 0.5828586612592273,
+      "both_high_loss_RMSE_db": 4.507048195780468
+    },
+    "58": {
+      "valid_pixels": 135926253,
+      "RMSE_db": 3.38797949887001,
+      "mean_error_db": -0.017592174005341743,
+      "RMSE_if_all_errors_over_10db_were_perfectly_removed": 2.0768000919801746,
+      "8x8_residual_mean_projection_SSE_fraction": 0.34685240407709617,
+      "tails": {
+        "5": {
+          "pixel_fraction": 0.07902154854515117,
+          "SSE_fraction": 0.8534350170457541
+        },
+        "10": {
+          "pixel_fraction": 0.026597076872265434,
+          "SSE_fraction": 0.6242423411442327
+        }
+      },
+      "state_pair_counts": [
+        [
+          101856380,
+          3507213,
+          452961
+        ],
+        [
+          2424585,
+          1719586,
+          604697
+        ],
+        [
+          434817,
+          1022245,
+          23903769
+        ]
+      ],
+      "state_pair_SSE_fraction": [
+        [
+          0.045850851076058095,
+          0.04653271762454898,
+          0.07378475428506916
+        ],
+        [
+          0.029916027987913266,
+          0.007696193616433724,
+          0.05467097939099601
+        ],
+        [
+          0.05613535141081057,
+          0.1393552821962986,
+          0.5460578424118556
+        ]
+      ],
+      "class_mismatch_SSE_fraction": 0.40039511289565255,
+      "both_high_loss_SSE_fraction": 0.5460578424118556,
+      "both_high_loss_RMSE_db": 5.970058393531254
+    }
+  },
+  "joint_valid_pixels": 135750001,
+  "common_residual_energy_fraction": 0.8081944907446409,
+  "dual_band_difference_error_RMSE_db": 2.6825687932798084,
+  "state_definition": "extra loss relative to nominal TX3/RX1 FSPL: <3, 3-10, >=10 dB; labels and prediction binned separately. Not actual propagation state.",
+  "seconds": 20.275858402252197,
+  "no_training_or_GPU": true
+}

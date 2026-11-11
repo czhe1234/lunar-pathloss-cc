@@ -1,0 +1,380 @@
+{
+  "files_examined_by_name": 139,
+  "roots": [
+    "/home/chenzhe/work",
+    "/home/chenzhe/Desktop"
+  ],
+  "pruned_directories": [
+    "/home/chenzhe/work/math",
+    "/home/chenzhe/work/grokking",
+    "/home/chenzhe/work/tglt_experiments",
+    "/home/chenzhe/work/risk_\u5168\u666f\u6587\u6863_20261001",
+    "/home/chenzhe/work/runs",
+    "/home/chenzhe/work/clean_tglt_experiment",
+    "/home/chenzhe/work/training_clean",
+    "/home/chenzhe/work/RF-3DGS",
+    "/home/chenzhe/work/risk",
+    "/home/chenzhe/work/risk1",
+    "/home/chenzhe/work/hw",
+    "/home/chenzhe/work/risk_bundle_v2",
+    "/home/chenzhe/work/risk_bundle_20261001",
+    "/home/chenzhe/work/2DInteraction",
+    "/home/chenzhe/work/lunar-pathloss-rm-challenge/tests",
+    "/home/chenzhe/work/lunar-pathloss-rm-challenge/folds",
+    "/home/chenzhe/work/lunar-pathloss-rm-challenge/runs",
+    "/home/chenzhe/work/lunar-pathloss-rm-challenge/checkpoints",
+    "/home/chenzhe/work/lunar-pathloss-rm-challenge/tools",
+    "/home/chenzhe/work/lunar-pathloss-rm-challenge/features",
+    "/home/chenzhe/work/lunar-pathloss-rm-challenge/scripts",
+    "/home/chenzhe/work/lunar-pathloss-rm-challenge/.venv",
+    "/home/chenzhe/work/lunar-pathloss-rm-challenge/src",
+    "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC",
+    "/home/chenzhe/work/lunar-pathloss-rm-challenge/handoff",
+    "/home/chenzhe/work/lunar-pathloss-rm-challenge/notebooks",
+    "/home/chenzhe/work/lunar-pathloss-rm-challenge/logs",
+    "/home/chenzhe/work/lunar-pathloss-rm-challenge/baselines"
+  ],
+  "matches": [
+    {
+      "path": "/home/chenzhe/work/lunar-code-slim.tgz",
+      "size": 65456,
+      "link": null
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/lunar_code_slim.tgz",
+      "size": 513000,
+      "link": null
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/NOTES.md",
+      "size": 4255,
+      "link": null
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/PLAN.md",
+      "size": 32144,
+      "link": null
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/STATUS.md",
+      "size": 93869,
+      "link": null
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/OPERATOR_DIRECTION.md",
+      "size": 524,
+      "link": null
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/DATA_READY.md",
+      "size": 519,
+      "link": null
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/val_terrains.txt",
+      "size": 5187,
+      "link": null
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/train_index.csv",
+      "size": 2054173,
+      "link": null
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/metadata.json",
+      "size": 6611,
+      "link": null
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/train_mask415.npy",
+      "size": 210698368,
+      "link": null
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/val_mask415.npy",
+      "size": 19087488,
+      "link": null
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/manifest.json",
+      "size": 2617,
+      "link": null
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/val_pl415.npy",
+      "size": 305397888,
+      "link": null
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/sample_submission.csv",
+      "size": 17870760,
+      "link": null
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/train_pl58.npy",
+      "size": 3371171968,
+      "link": null
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/README.md",
+      "size": 12130,
+      "link": null
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/train_pl415.npy",
+      "size": 3371171968,
+      "link": null
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/val_mask58.npy",
+      "size": 19087488,
+      "link": null
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/train_hm.npy.mac",
+      "size": 398295040,
+      "link": null
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/val_index.csv",
+      "size": 183832,
+      "link": null
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/subset_index.csv",
+      "size": 3275,
+      "link": null
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/val_hm.npy",
+      "size": 178258048,
+      "link": null
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/train_mask58.npy",
+      "size": 210698368,
+      "link": null
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/val_pl58.npy",
+      "size": 305397888,
+      "link": null
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/train_hm.npy",
+      "size": 1604321408,
+      "link": null
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/training_complete/train_index.csv",
+      "size": 67,
+      "link": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/train_index.csv"
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/training_complete/metadata.json",
+      "size": 65,
+      "link": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/metadata.json"
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/training_complete/train_mask415.npy",
+      "size": 69,
+      "link": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/train_mask415.npy"
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/training_complete/val_mask415.npy",
+      "size": 67,
+      "link": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/val_mask415.npy"
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/training_complete/val_pl415.npy",
+      "size": 65,
+      "link": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/val_pl415.npy"
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/training_complete/train_pl58.npy",
+      "size": 66,
+      "link": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/train_pl58.npy"
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/training_complete/train_pl415.npy",
+      "size": 67,
+      "link": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/train_pl415.npy"
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/training_complete/val_mask58.npy",
+      "size": 66,
+      "link": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/val_mask58.npy"
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/training_complete/val_index.csv",
+      "size": 65,
+      "link": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/val_index.csv"
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/training_complete/val_hm.npy",
+      "size": 62,
+      "link": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/val_hm.npy"
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/training_complete/train_mask58.npy",
+      "size": 68,
+      "link": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/train_mask58.npy"
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/training_complete/val_pl58.npy",
+      "size": 64,
+      "link": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/val_pl58.npy"
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/training_complete/train_hm.npy",
+      "size": 64,
+      "link": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/train_hm.npy"
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/recovered/train_hm.npy.part",
+      "size": 8388608,
+      "link": null
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/recovered/train_pl58.npy.part",
+      "size": 12582912,
+      "link": null
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/pilot_58/train_index.csv",
+      "size": 349314,
+      "link": null
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/pilot_58/metadata.json",
+      "size": 65,
+      "link": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/metadata.json"
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/pilot_58/val_mask415.npy",
+      "size": 67,
+      "link": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/val_mask415.npy"
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/pilot_58/subset_provenance.json",
+      "size": 28648,
+      "link": null
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/pilot_58/val_pl415.npy",
+      "size": 65,
+      "link": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/val_pl415.npy"
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/pilot_58/train_pl58.npy",
+      "size": 573702272,
+      "link": null
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/pilot_58/val_mask58.npy",
+      "size": 66,
+      "link": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/val_mask58.npy"
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/pilot_58/val_index.csv",
+      "size": 65,
+      "link": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/val_index.csv"
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/pilot_58/val_hm.npy",
+      "size": 62,
+      "link": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/val_hm.npy"
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/pilot_58/train_mask58.npy",
+      "size": 35856512,
+      "link": null
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/pilot_58/val_pl58.npy",
+      "size": 64,
+      "link": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/val_pl58.npy"
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/pilot_58/train_hm.npy",
+      "size": 64,
+      "link": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/train_hm.npy"
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/pilot_415/train_index.csv",
+      "size": 67,
+      "link": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/train_index.csv"
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/pilot_415/metadata.json",
+      "size": 65,
+      "link": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/metadata.json"
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/pilot_415/train_mask415.npy",
+      "size": 69,
+      "link": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/train_mask415.npy"
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/pilot_415/val_mask415.npy",
+      "size": 67,
+      "link": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/val_mask415.npy"
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/pilot_415/val_pl415.npy",
+      "size": 65,
+      "link": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/val_pl415.npy"
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/pilot_415/train_pl415.npy",
+      "size": 67,
+      "link": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/train_pl415.npy"
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/pilot_415/val_mask58.npy",
+      "size": 66,
+      "link": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/val_mask58.npy"
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/pilot_415/val_index.csv",
+      "size": 65,
+      "link": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/val_index.csv"
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/pilot_415/val_hm.npy",
+      "size": 62,
+      "link": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/val_hm.npy"
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/pilot_415/val_pl58.npy",
+      "size": 64,
+      "link": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/val_pl58.npy"
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/pilot_415/train_hm.npy",
+      "size": 64,
+      "link": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/train_hm.npy"
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/recovered_parallel/train_hm.npy.parallel.part",
+      "size": 1604321408,
+      "link": null
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/recovered_parallel/train_pl58.npy.parallel.part",
+      "size": 3371171968,
+      "link": null
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/recovered_parallel/train_pl58.npy.ranges.json",
+      "size": 315,
+      "link": null
+    },
+    {
+      "path": "/home/chenzhe/work/lunar-pathloss-rm-challenge/data/recovered_parallel/train_hm.npy.ranges.json",
+      "size": 299,
+      "link": null
+    }
+  ],
+  "scope": "Data/archive names only; unrelated research and all other AI implementation/result directories excluded."
+}

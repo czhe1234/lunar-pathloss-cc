@@ -1,0 +1,28 @@
+{
+  "model": "c37_full_refit",
+  "scope": "complete official fixed validation,2330maps/band; not hidden test",
+  "RMSE": [
+    2.7165042516842797,
+    3.1194313665646227
+  ],
+  "combined_rmse_db_masked": 2.917967809124451,
+  "valid_pixels": [
+    151537682,
+    135926253
+  ],
+  "goal_both_le_1db": false,
+  "C10_official_RMSE": [
+    2.96720214449994,
+    3.3879795086817914
+  ],
+  "relative_gain_vs_C10": [
+    0.0844896574641395,
+    0.07926498416799943
+  ],
+  "official_source_revision": "fa3ef9b89f964556753a18be102a5aadeb723377",
+  "scorer": "Reused previously verified unmodified official score_submission.py and metrics.py",
+  "source_and_groundtruth_adapter": "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/audit/c10_official_scorer_20261101",
+  "official_report": "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/audit/c37_full_refit_official/official_report.json",
+  "independent_score": "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/runs/c37_full_refit/score_val_complete.json",
+  "website_submission": false
+}

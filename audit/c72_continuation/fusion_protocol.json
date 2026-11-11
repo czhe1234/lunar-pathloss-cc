@@ -1,0 +1,11 @@
+{
+  "comparison": "C72 early observation is the selected local model by original monitor mean. Keep the opposite order as an ablation. Use the true graph for deployable C73 candidate. Shuffled graph is only a control.",
+  "mixture": "Choose one common convex weight on C73 relative to C72 from 0,1/8,...,1 by minimum mean of both global band RMSEs on the original monitor64 terrains (73 maps) only. Evaluate the fixed weight on complete DEV and on 484 outside terrains separately. No official labels until after package freeze.",
+  "timing": "Normal end-to-end raw-H/TX inference must be timed on a named physical GPU, separately including first call, warm mean and p95. Check numerical agreement versus independent stored components.",
+  "secondary_gate": {
+    "time_order": "Predeclared before any C73 training epoch result, motivated by C69 error-zone audit.",
+    "bins": "Per band, compact channel 16 native visible fraction >.99 clear, >=.01 partial, otherwise shadow with two strata at compact linear-power log channel 41+b < -.8.",
+    "fit": "Per band and input-defined stratum choose bounded least-squares graph weight on monitor64 only. Regularize each to prespecified common global weight with 1 percent of total band disagreement energy.",
+    "promotion": "Use stratified over primary common weight only if BOTH band RMSEs improve by at least .03 dB on the 64-terrain confirmation, then check full and remaining484. Otherwise use the primary common weight. Official VAL used only after selection and freeze."
+  }
+}

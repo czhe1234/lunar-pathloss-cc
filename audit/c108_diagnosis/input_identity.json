@@ -1,0 +1,440 @@
+{
+  "exact_H_TX_duplicate_groups": [
+    {
+      "ids": [
+        2102,
+        2112
+      ],
+      "sample_id": [
+        "00492_14",
+        "00492_24"
+      ],
+      "terrain": [
+        "00492",
+        "00492"
+      ],
+      "tx": [
+        38,
+        86
+      ],
+      "bands": [
+        {
+          "valid": 130180,
+          "common_firstpair": 65090,
+          "first_pair_difference_RMSE": 0.00012248781453843066,
+          "first_pair_abs_difference_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.03125
+          ],
+          "minimum_duplicate_SSE": 0.00048828125,
+          "minimum_duplicate_RMSE": 6.124390726921533e-05
+        },
+        {
+          "valid": 115002,
+          "common_firstpair": 57501,
+          "first_pair_difference_RMSE": 0.1967687494876741,
+          "first_pair_abs_difference_quantiles": [
+            0.0,
+            0.1875,
+            0.875,
+            4.5
+          ],
+          "minimum_duplicate_SSE": 1113.16015625,
+          "minimum_duplicate_RMSE": 0.09838437474383704
+        }
+      ]
+    },
+    {
+      "ids": [
+        9699,
+        9707
+      ],
+      "sample_id": [
+        "02606_00",
+        "02606_08"
+      ],
+      "terrain": [
+        "02606",
+        "02606"
+      ],
+      "tx": [
+        217,
+        177
+      ],
+      "bands": [
+        {
+          "valid": 130868,
+          "common_firstpair": 65434,
+          "first_pair_difference_RMSE": 0.0,
+          "first_pair_abs_difference_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "minimum_duplicate_SSE": 0.0,
+          "minimum_duplicate_RMSE": 0.0
+        },
+        {
+          "valid": 130180,
+          "common_firstpair": 65090,
+          "first_pair_difference_RMSE": 0.0004899512581537227,
+          "first_pair_abs_difference_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.0625
+          ],
+          "minimum_duplicate_SSE": 0.0078125,
+          "minimum_duplicate_RMSE": 0.0002449756290768613
+        }
+      ]
+    },
+    {
+      "ids": [
+        15731,
+        15740
+      ],
+      "sample_id": [
+        "04067_09",
+        "04067_18"
+      ],
+      "terrain": [
+        "04067",
+        "04067"
+      ],
+      "tx": [
+        112,
+        199
+      ],
+      "bands": [
+        {
+          "valid": 130296,
+          "common_firstpair": 65148,
+          "first_pair_difference_RMSE": 0.0,
+          "first_pair_abs_difference_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "minimum_duplicate_SSE": 0.0,
+          "minimum_duplicate_RMSE": 0.0
+        },
+        {
+          "valid": 84820,
+          "common_firstpair": 42410,
+          "first_pair_difference_RMSE": 0.01449547068638036,
+          "first_pair_abs_difference_quantiles": [
+            0.0,
+            0.0,
+            0.0625,
+            0.25
+          ],
+          "minimum_duplicate_SSE": 4.45556640625,
+          "minimum_duplicate_RMSE": 0.00724773534319018
+        }
+      ]
+    },
+    {
+      "ids": [
+        16140,
+        16150
+      ],
+      "sample_id": [
+        "04186_08",
+        "04186_18"
+      ],
+      "terrain": [
+        "04186",
+        "04186"
+      ],
+      "tx": [
+        8,
+        129
+      ],
+      "bands": [
+        {
+          "valid": 129894,
+          "common_firstpair": 64947,
+          "first_pair_difference_RMSE": 0.0,
+          "first_pair_abs_difference_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "minimum_duplicate_SSE": 0.0,
+          "minimum_duplicate_RMSE": 0.0
+        },
+        {
+          "valid": 123776,
+          "common_firstpair": 61888,
+          "first_pair_difference_RMSE": 0.00012561653152037724,
+          "first_pair_abs_difference_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.03125
+          ],
+          "minimum_duplicate_SSE": 0.00048828125,
+          "minimum_duplicate_RMSE": 6.280826576018862e-05
+        }
+      ]
+    },
+    {
+      "ids": [
+        17140,
+        17161
+      ],
+      "sample_id": [
+        "04464_08",
+        "04464_29"
+      ],
+      "terrain": [
+        "04464",
+        "04464"
+      ],
+      "tx": [
+        167,
+        163
+      ],
+      "bands": [
+        {
+          "valid": 131024,
+          "common_firstpair": 65512,
+          "first_pair_difference_RMSE": 0.0003052316759568853,
+          "first_pair_abs_difference_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.0625
+          ],
+          "minimum_duplicate_SSE": 0.0030517578125,
+          "minimum_duplicate_RMSE": 0.00015261583797844265
+        },
+        {
+          "valid": 130554,
+          "common_firstpair": 65277,
+          "first_pair_difference_RMSE": 0.0003459512640032247,
+          "first_pair_abs_difference_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.0625
+          ],
+          "minimum_duplicate_SSE": 0.00390625,
+          "minimum_duplicate_RMSE": 0.00017297563200161236
+        }
+      ]
+    },
+    {
+      "ids": [
+        23856,
+        23858
+      ],
+      "sample_id": [
+        "06290_44",
+        "06290_46"
+      ],
+      "terrain": [
+        "06290",
+        "06290"
+      ],
+      "tx": [
+        198,
+        74
+      ],
+      "bands": [
+        {
+          "valid": 129596,
+          "common_firstpair": 64798,
+          "first_pair_difference_RMSE": 0.0,
+          "first_pair_abs_difference_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "minimum_duplicate_SSE": 0.0,
+          "minimum_duplicate_RMSE": 0.0
+        },
+        {
+          "valid": 125972,
+          "common_firstpair": 62986,
+          "first_pair_difference_RMSE": 0.014906696420222406,
+          "first_pair_abs_difference_quantiles": [
+            0.0,
+            0.0,
+            0.125,
+            0.625
+          ],
+          "minimum_duplicate_SSE": 6.998046875,
+          "minimum_duplicate_RMSE": 0.007453348210111203
+        }
+      ]
+    },
+    {
+      "ids": [
+        23945,
+        23981
+      ],
+      "sample_id": [
+        "06315_11",
+        "06315_47"
+      ],
+      "terrain": [
+        "06315",
+        "06315"
+      ],
+      "tx": [
+        212,
+        124
+      ],
+      "bands": [
+        {
+          "valid": 130116,
+          "common_firstpair": 65058,
+          "first_pair_difference_RMSE": 0.00025257719311036497,
+          "first_pair_abs_difference_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.03125
+          ],
+          "minimum_duplicate_SSE": 0.0020751953125,
+          "minimum_duplicate_RMSE": 0.00012628859655518248
+        },
+        {
+          "valid": 127348,
+          "common_firstpair": 63674,
+          "first_pair_difference_RMSE": 0.0,
+          "first_pair_abs_difference_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "minimum_duplicate_SSE": 0.0,
+          "minimum_duplicate_RMSE": 0.0
+        }
+      ]
+    },
+    {
+      "ids": [
+        24081,
+        24085
+      ],
+      "sample_id": [
+        "06325_37",
+        "06325_41"
+      ],
+      "terrain": [
+        "06325",
+        "06325"
+      ],
+      "tx": [
+        233,
+        191
+      ],
+      "bands": [
+        {
+          "valid": 130124,
+          "common_firstpair": 65062,
+          "first_pair_difference_RMSE": 0.0002739500090930716,
+          "first_pair_abs_difference_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.0625
+          ],
+          "minimum_duplicate_SSE": 0.00244140625,
+          "minimum_duplicate_RMSE": 0.0001369750045465358
+        },
+        {
+          "valid": 61924,
+          "common_firstpair": 30962,
+          "first_pair_difference_RMSE": 0.019584040833903995,
+          "first_pair_abs_difference_quantiles": [
+            0.0,
+            0.0,
+            0.125,
+            0.25
+          ],
+          "minimum_duplicate_SSE": 5.9375,
+          "minimum_duplicate_RMSE": 0.009792020416951997
+        }
+      ]
+    },
+    {
+      "ids": [
+        25582,
+        25602
+      ],
+      "sample_id": [
+        "06741_12",
+        "06741_32"
+      ],
+      "terrain": [
+        "06741",
+        "06741"
+      ],
+      "tx": [
+        124,
+        116
+      ],
+      "bands": [
+        {
+          "valid": 130020,
+          "common_firstpair": 65010,
+          "first_pair_difference_RMSE": 0.05972033667454622,
+          "first_pair_abs_difference_quantiles": [
+            0.0,
+            0.0,
+            0.125,
+            3.6875
+          ],
+          "minimum_duplicate_SSE": 115.9296875,
+          "minimum_duplicate_RMSE": 0.02986016833727311
+        },
+        {
+          "valid": 129936,
+          "common_firstpair": 64968,
+          "first_pair_difference_RMSE": 0.017680747371509316,
+          "first_pair_abs_difference_quantiles": [
+            0.0,
+            0.0,
+            0.0625,
+            0.5
+          ],
+          "minimum_duplicate_SSE": 10.15478515625,
+          "minimum_duplicate_RMSE": 0.008840373685754658
+        }
+      ]
+    }
+  ],
+  "group_count": 9,
+  "maps_in_groups": 18,
+  "full_TRAIN_valid_pixels": [
+    1673271766,
+    1510602286
+  ],
+  "minimum_unavoidable_duplicate_SSE": [
+    115.937744140625,
+    1140.71826171875
+  ],
+  "full_TRAIN_RMSE_lower_bound_from_duplicates": [
+    0.000263226240708648,
+    0.0008689886984575072
+  ],
+  "duplicate_only_RMSE_lower_bound": [
+    0.009945503057188507,
+    0.03328691067142294
+  ],
+  "inference_inputs": "exactreleasedHbytes+integerTXrow/col;frequencyfixed;notID",
+  "official_VAL_used": false,
+  "interpretation": "Ifduplicateoutputsconflict,thisprovesH/TXnonidentifiabilityforthesecasesonly. Smallglobalbounddoesnotprove1dBimpossible.",
+  "seconds": 4.269322236999869
+}

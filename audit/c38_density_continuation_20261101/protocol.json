@@ -1,0 +1,7 @@
+{
+  "evidence": "Increasing per-map points64to256 improved both bands; larger model still has substantial FIT error",
+  "candidate": "Continue same selected C37 weights on1024points/map vs256points/map, matched updates and optimizer reset",
+  "new_data": "256 retained,768 new uniform points/map, no target/mask-driven selection",
+  "official_VAL_used": false,
+  "builder_pid": 2147303
+}

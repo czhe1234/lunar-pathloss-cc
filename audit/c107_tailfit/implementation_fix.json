@@ -1,0 +1,5 @@
+{
+  "error": "duplicatedGPUfieldinconfigdict;beforeoptimizerupdates",
+  "fix": "dictunpackingoverride",
+  "source_sha256": "c0685e91f8324180a1d75e1d575281a3b9eac4f12c6797c056af585e85f6d313"
+}

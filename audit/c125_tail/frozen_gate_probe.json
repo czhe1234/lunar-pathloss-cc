@@ -1,0 +1,33 @@
+{
+  "scope": "fixed C101 TRAIN monitor; frozen C118 probability and C125 old169 conditional mean; no fit or threshold selection",
+  "bands": [
+    {
+      "band": 0,
+      "valid": 1276943,
+      "mu_nontail_fit": -0.12987087231825406,
+      "C82_RMSE": 2.1400178758994066,
+      "actual_RMSE": 2.1563531149706625,
+      "true_membership_RMSE": 1.9445453043070253,
+      "mean_gate_on_tail": 0.2854364475836234,
+      "mean_gate_on_nontail": 0.02647548172224255,
+      "precision_at_true_tail_prevalence": 0.4378674784204162,
+      "tail_recall_at_gate_half": 0.14384304240857346,
+      "nontail_falsepositive_at_gate_half": 0.0037323603863688697,
+      "actual_tail_RMSE": 9.38145585314303
+    },
+    {
+      "band": 1,
+      "valid": 1182747,
+      "mu_nontail_fit": -0.1369232481814118,
+      "C82_RMSE": 2.4113117528162946,
+      "actual_RMSE": 2.4288387930129525,
+      "true_membership_RMSE": 2.2368985473970957,
+      "mean_gate_on_tail": 0.2986857319963071,
+      "mean_gate_on_nontail": 0.032777256387543,
+      "precision_at_true_tail_prevalence": 0.43909390659637487,
+      "tail_recall_at_gate_half": 0.2405320318175891,
+      "nontail_falsepositive_at_gate_half": 0.007482290672113056,
+      "actual_tail_RMSE": 9.761474037393777
+    }
+  ]
+}

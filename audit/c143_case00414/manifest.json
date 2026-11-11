@@ -1,0 +1,24 @@
+{
+  "created": "2026-11-11T14:25:25.937597+08:00",
+  "sha256": {
+    "src/c142_backend.py": "d1fdc0349a536ecb18a8e8c3f80e378a7aea368054c2be4372db72f34a7a9a94",
+    "src/c142_compare.py": "8156a9e9383d68e97de5d48cab6423067079e5fa59acc6ff36a13b4d3b265e13",
+    "scripts/c142_run_cuda.sh": "12848286c5011a3c09b7b844222027d3df39ea02bd933f43962c66c5f07cd367",
+    "src/c143_agl_control.py": "b5051e9ed2f8e071fa49356a29430776d3146f823dbb5b44d95fa27373a67d96",
+    "src/c143_native_cuda.py": "03bbd1b9e650ca9cd6e18acc81bdd77b12c39575111fb4ed1ec713c93de23249",
+    "audit/c142_backend/compare.json": "d81f3d131218aa83b4fb12db1688b10e95ea620488fe3fbb478bb9b92710961a",
+    "audit/c142_backend/decision.json": "b6ae68999ceac9ba19f8eb431869569f85e9c5062c7e665cbab249d149d5cc11",
+    "audit/c143_case00414/stage_ledger.py": "7aaf87ecc67a61693174a0232e7bf386fcdbd944955c9c930c9cbf063bff5e2f",
+    "audit/c143_case00414/stage_ledger.json": "4071677802bd0996f0da5edf87127fec6dc47aba5c5ada0e8d9390a3cf7f37fa",
+    "audit/c143_case00414/agl_control/result.json": "58f1b774e62e6a25bf45194f04047fffce406e7b619c7d8765ff9825dca6e480",
+    "audit/c143_case00414/native_cuda/1819.npz": "4622dbc03319e21d6b2271d5b5ad47b1cabfc5e9d5d4662b662931a1d77fe33c",
+    "audit/c143_case00414/native_cuda/comparison.json": "157d49ada294e276882d7f1b6b68472881bead2bcd1dd819cfbff8025d895b3d",
+    "audit/c143_case00414/native_cuda_agl3/1819.npz": "ce43f822bad63cb5d976bf135af8cad7fde70bc5743785eaa6863ce9f4026a92",
+    "audit/c143_case00414/native_cuda_agl3/comparison.json": "f527d260a0dd8711e464f419e9c9767a67b5595692640eb39864a968e9c4519e",
+    "audit/c143_case00414/public_sources/inventory.json": "313cf97d3c7f3403043ac9a26af50d6931325825db65fd59d7d42fd5c4e14a2e",
+    "audit/c143_case00414/public_sources/kaggle_complete_file_list.json": "f954f38a909f0c43b580baf8e0c0d2d99a977c08bc3d5949fd75990bf1d5978f",
+    "audit/c143_case00414/decision.json": "6b3b97b65204c0723f48064d1ac47a239c63f652b90309f5f5be5eadd03f5220",
+    "audit/c143_case00414/verification.json": "4c318ff2df2a77d7553a9e424bc75fdd8dff24978b3d3932a79811e85bc4d312",
+    "results/C142_C143_CUDA\u4e0e00414\u9010\u7ea7\u6838\u67e5_20261111.md": "adebb4a3bbc480bd3ff20908fcf7a49eb94f59ae69ac3c29c898a2ea0969245e"
+  }
+}

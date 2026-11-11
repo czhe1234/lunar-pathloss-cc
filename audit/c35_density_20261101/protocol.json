@@ -1,0 +1,7 @@
+{
+  "purpose": "Separate sparse-point sampling from model capacity after C34",
+  "FIT": "same23158maps,64 original+192 newuniformpoints/map",
+  "DEV": "unchanged655872points; no officialVAL",
+  "features": "same294, replay four existing maps",
+  "builder_pid": 2114337
+}

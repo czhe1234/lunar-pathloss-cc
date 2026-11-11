@@ -1,0 +1,18 @@
+{
+  "question": "Does dense lateral terrain along the TX-RX corridor improve held-out masked RMSE beyond old294 features?",
+  "fit_maps": 7979,
+  "fit_terrains": 5508,
+  "points_per_fit_map": 32,
+  "fit_points": 255328,
+  "development": "same128terrain monitor /484terrain confirmation asC82; previously used in research; no officialVAL targets.",
+  "features_A": "old294H/TX descriptors plus frozenC38 two-band predicted excess; excludes target/mask.",
+  "features_B": "A plus6lateral profiles at offsets[-12,-4,-1,1,4,12]m,64normalized distance samples and24one-meter samples near each endpoint;672raw+30summary.",
+  "target": "Residual to frozenC38, trained onFIT only. Compare the resulting predictor toC82 on identical held-out pixels.",
+  "criterion": "Expand only if frozen candidate beatsC82 by>=0.30dB in each band on confirmation with positive terrain-paired gain. Also reportA/Bchange.",
+  "raw_sampling": "32uniform draws from each original1024input-onlyFIT pixel cache; same rows/order forA/B; multiTX inclusion weights preserve sample objective.",
+  "sample_selection_reads_targets": false,
+  "feature_extractor_reads_targets": false,
+  "official_val_used": false,
+  "GPU": "Only physical1/3/4 byUUID; all three currentcuInit999. Pilot usesCPU. No driver reset.",
+  "scope": "Small information screen, not a final model or official validation score."
+}

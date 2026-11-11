@@ -1,0 +1,34 @@
+{
+  "candidates": {
+    "c109_ordered_last": {
+      "checkpoint": "runs/c109_ordered/step2000.pt",
+      "sha256": "c9a16f2a5d9d8eef076309a956f16b8cafdbff57b155df05eadf89a2602ebff8",
+      "step": 2000,
+      "kind": "ray",
+      "mode": "ordered"
+    },
+    "c109_permuted_last": {
+      "checkpoint": "runs/c109_permuted/step2000.pt",
+      "sha256": "2d36f67ee4bd9fd8bcbae7ee08d2df4c6dd692754bc55c61e7336258dc84c202",
+      "step": 2000,
+      "kind": "ray",
+      "mode": "permuted"
+    }
+  },
+  "eligible": "C82",
+  "monitor_selected": {
+    "ordered": {
+      "step": 0,
+      "predictor": "C82"
+    },
+    "permuted": {
+      "step": 0,
+      "predictor": "C82"
+    }
+  },
+  "monitor_mean": {
+    "C82": 2.2822024962495258
+  },
+  "selection": "Checkpointandarmsfrozenbeforeconfirmation;C108/C109monitorselectedzeroC82,lastendpointsdiagnosticonly;C110stepbyFITanchorandarmbyoriginalmonitor",
+  "official_val_used": false
+}

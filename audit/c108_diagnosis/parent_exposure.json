@@ -1,0 +1,8 @@
+{
+  "queryTX_count": 128,
+  "queryTX_seenbyC99parent": 128,
+  "inside32_maps": 128,
+  "inside32_seenbyparent": 128,
+  "original_monitor_seenbyparent": 0,
+  "interpretation": "TXand32internalterrainholdoutsarefortheadditionalresidualstageonly;original128monitorand484confirmarethegenuinenewterraincontrols"
+}

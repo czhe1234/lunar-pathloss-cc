@@ -1,0 +1,5 @@
+{
+  "rationale": "In the 484-terrain C91 confirmation sample, after straight, exact facet specular and the existing one-bounce diffuse estimator, 21.53% of high-band valid shadow points were still >10dB too weak, representing 41.20% of C82 shadow SSE. Test whether two/three terrain diffuse encounters, instead of a further learned readout alone, fill this missing power.",
+  "physics": "Use all 130050 triangles, two-sided irradiance, LOS-tested ground paths, 2-band Fresnel reflectances, 96 sphere + 48 source draws per ground face; 384 sphere + 128 source draws per sampled RX face. Depth 1/2/3 retained separately. Include condition on baseline single-bounce, matched spatially permuted multibounce channels, flat no-exchange and concave positive reference. Approximate diffuse paths only, not full Sionna.",
+  "budget": "80 separate calibration and 48 selector TRAIN terrain maps at 512 frozen C91 positions; if physical missing group improves or high-shadow correction improves, report paired confirm on 484 terrains, then consider dense promotion. Global major and submission gates unchanged. No official VAL label use."
+}

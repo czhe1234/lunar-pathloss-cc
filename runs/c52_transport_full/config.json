@@ -1,0 +1,34 @@
+{
+  "kind": "transport",
+  "scope": "full",
+  "name": "c52_transport_full",
+  "steps": 12000,
+  "batch": 2048,
+  "lr": 0.001,
+  "seed": 20261102,
+  "gpu": {
+    "uuid": "GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0",
+    "logical_device": 0,
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_bytes": 84929347584,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "fit_rows": 23713792,
+  "dev_rows": 655872,
+  "fit_maps": 23158,
+  "fit_terrains": 5508,
+  "parameters": 7548114,
+  "trainable_parameters": 2553682,
+  "teacher": "c38_1024_continue/best.pt",
+  "target": "(PL-C38prediction)/20",
+  "official_VAL_used": false,
+  "zero_correction_initialization": true,
+  "source_hashes": {
+    "c52_model.py": "8ccf5446f26c78533273d05cb368d73539c2cdc624469eb9c2dab8cedcf6deb2",
+    "c52_train.py": "eedefe044477f10df481eb98a6c5e774ec3710096d5cd015d44fbbe1d3a0c5e0",
+    "c48_model.py": "42353d80cc1525c57f70187d9af120aeb27688ab1e4a806c88a104b0a7281a6b",
+    "c47_model.py": "58ae38dcad4effc468cf436a46095ea1b664d9ddcff8c2748dfe97a730a4bb36",
+    "c34_model.py": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af"
+  }
+}

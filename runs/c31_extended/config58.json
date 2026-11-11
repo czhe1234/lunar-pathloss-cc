@@ -1,0 +1,29 @@
+{
+  "parameters": {
+    "objective": "regression",
+    "metric": "rmse",
+    "learning_rate": 0.05,
+    "num_leaves": 127,
+    "max_depth": 12,
+    "min_data_in_leaf": 100,
+    "max_bin": 511,
+    "lambda_l2": 1.0,
+    "feature_fraction": 1.0,
+    "bagging_fraction": 0.85,
+    "bagging_freq": 1,
+    "seed": 20261101,
+    "num_threads": 12,
+    "device_type": "cpu",
+    "deterministic": true,
+    "force_col_wise": true,
+    "verbosity": -1
+  },
+  "max_total_trees": 6000,
+  "parent_sha256": "6dfbbf0b0debbbc8155401a6860295d87fdb0cedb5e0ebb5e1c0d4deb44024a4",
+  "baseline_rmse": 3.3876468954955024,
+  "valid_counts": {
+    "fit": 1325639,
+    "dev": 596173
+  },
+  "no_GPU_used": true
+}

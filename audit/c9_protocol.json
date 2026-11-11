@@ -1,0 +1,7 @@
+{
+  "purpose": "Test complementary input information after C8 improves low-band DEV sample RMSE by over 15 percent",
+  "fixed_protocol": "Same point sampling and FIT/DEV, same GBDT settings; 280 input channels; no official validation",
+  "added_inputs": "Ordered profile, weighted co-visible surface geometry, 8 phase-conditioned critical clearance descriptors",
+  "phase_warning": "The floor-phase family is an input transformation suggested by FIT proxy evidence; it does not establish actual TX quantization",
+  "target_definition": "Unchanged original masked pathloss minus free-space reference"
+}

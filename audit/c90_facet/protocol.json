@@ -1,0 +1,7 @@
+{
+  "name": "C90 transferable angular receiving surface",
+  "rationale": "C87 clear-weak rates at grazing vs non-grazing were 18.52% vs 0.27% (415 MHz) and 14.98% vs 0.23% (5.775 GHz). Existing per-cell spatial-only calibration and data-derived shooting probability failed on new TRAIN terrains. Test a surface orientation predicted only from the local H patch and shared across different TX positions.",
+  "train": "TRAIN FIT 2815 maps/1984 terrains with cached frozen base and compact H/TX features. 1536 random pixels/map, excluding all C38 training pixels from the same map; no DEV terrain. Calibrate blend on 80 separate TRAIN terrains. Select epoch on distinct 48 TRAIN terrains; hold back 484 TRAIN terrains until freezing.",
+  "controls": "Free subfacet orientations vs fixed slopes vs wrong azimuth with otherwise identical network, seed, samples and update budget. Shared two-band amplitude and differential heads, weak-region auxiliary supervision. Report against internal C82; mixture weights fit on 80 calib terrains only.",
+  "promotion": "For full map expansion paired sampled gains over C82 >=0.08 dB per band, then same on complete internal confirmation before official VAL. Major requires official gains >=0.30 each; target official <=1 both. No official validation fitting or submission."
+}

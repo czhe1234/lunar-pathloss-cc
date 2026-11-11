@@ -1,0 +1,16 @@
+{
+  "angle": 0.013,
+  "threshold": [
+    0.09667765349149704,
+    0.09647802263498306
+  ],
+  "gpu": {
+    "uuid": "GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0",
+    "logical_device": 0,
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_bytes": 84929347584,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "selection": "azimuth fixed a priori, F1 from 5 terrain folds"
+}

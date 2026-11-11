@@ -1,0 +1,25 @@
+{
+  "flat_surface_zero_hits_and_loss": true,
+  "analytic_two_facet_ridge": {
+    "crossings": 2,
+    "first_t": 0.4,
+    "last_t": 0.6153846153846154,
+    "expected_losses": [
+      {
+        "V_dB": 7.262699818837952,
+        "H_dB": 13.995767661451355
+      },
+      {
+        "V_dB": 188.83104731547917,
+        "H_dB": 195.56375143899425
+      }
+    ],
+    "max_rotation_difference": 0.0
+  },
+  "slab_passivity_and_normal_incidence_polarization": true,
+  "real_data_feature_shape": [
+    8,
+    67
+  ],
+  "feature_count": 67
+}

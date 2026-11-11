@@ -1,0 +1,146 @@
+{
+  "base__step_formula": {
+    "maps": 16,
+    "points": 1470,
+    "changed_zero": 0,
+    "positive_both": 1444,
+    "change5percent": 0,
+    "change1dB_finite": 0,
+    "change3dB_finite": 0,
+    "finite_dB_quantiles": [
+      0.0,
+      0.0,
+      2.1184457860144438e-07,
+      2.983763572865434e-07,
+      4.777416917987676e-07,
+      2.8500876957011052e-06
+    ],
+    "max_abs": 5.394639995945274e-11
+  },
+  "base__origin_xy128": {
+    "maps": 16,
+    "points": 1470,
+    "changed_zero": 64,
+    "positive_both": 1384,
+    "change5percent": 426,
+    "change1dB_finite": 223,
+    "change3dB_finite": 110,
+    "finite_dB_quantiles": [
+      0.0,
+      0.02255205438887175,
+      2.181646313312478,
+      6.176832539433307,
+      16.5467690365089,
+      25.77270881791366
+    ],
+    "max_abs": 0.00015518203556537282
+  },
+  "base__origin_z128": {
+    "maps": 16,
+    "points": 1470,
+    "changed_zero": 31,
+    "positive_both": 1414,
+    "change5percent": 384,
+    "change1dB_finite": 199,
+    "change3dB_finite": 98,
+    "finite_dB_quantiles": [
+      1.323770410818505e-06,
+      0.026161644653903745,
+      1.8596584095562263,
+      4.764226263913748,
+      10.219585764169693,
+      16.86067508277779
+    ],
+    "max_abs": 0.00010978774812277285
+  },
+  "base__origin_z1024": {
+    "maps": 16,
+    "points": 1470,
+    "changed_zero": 422,
+    "positive_both": 1029,
+    "change5percent": 721,
+    "change1dB_finite": 208,
+    "change3dB_finite": 142,
+    "finite_dB_quantiles": [
+      2.0279215228312727e-06,
+      0.01881727939709355,
+      4.957541259239024,
+      10.825022651470821,
+      20.741676611869458,
+      34.458144013140334
+    ],
+    "max_abs": 0.00019136810194786234
+  },
+  "base__origin_xy128_localstep": {
+    "maps": 16,
+    "points": 1470,
+    "changed_zero": 0,
+    "positive_both": 1444,
+    "change5percent": 4,
+    "change1dB_finite": 1,
+    "change3dB_finite": 0,
+    "finite_dB_quantiles": [
+      0.0,
+      0.0,
+      0.0030132665260099657,
+      0.009284655663112245,
+      0.08114376292971574,
+      1.753314482419687
+    ],
+    "max_abs": 5.102503333172226e-06
+  },
+  "base__origin_z1024_localstep": {
+    "maps": 16,
+    "points": 1470,
+    "changed_zero": 0,
+    "positive_both": 1444,
+    "change5percent": 116,
+    "change1dB_finite": 23,
+    "change3dB_finite": 5,
+    "finite_dB_quantiles": [
+      1.677212214670348e-06,
+      0.013067044553978913,
+      0.1715604206107903,
+      0.32173268084046946,
+      1.399645109352967,
+      23.207567048011594
+    ],
+    "max_abs": 5.424737099991376e-05
+  },
+  "first_base__first_xy128": {
+    "maps": 16,
+    "points": 1470,
+    "changed_zero": 0,
+    "positive_both": 405,
+    "change5percent": 0,
+    "change1dB_finite": 0,
+    "change3dB_finite": 0,
+    "finite_dB_quantiles": [
+      0.0,
+      7.979888208671511e-08,
+      1.152143626579222e-06,
+      1.794745666442711e-05,
+      0.0010368777487490888,
+      0.016242367418869773
+    ],
+    "max_abs": 9.618312366412455e-08
+  },
+  "first_base__first_z1024": {
+    "maps": 16,
+    "points": 1470,
+    "changed_zero": 0,
+    "positive_both": 405,
+    "change5percent": 3,
+    "change1dB_finite": 0,
+    "change3dB_finite": 0,
+    "finite_dB_quantiles": [
+      1.9296767991577943e-06,
+      0.0022073295622888154,
+      0.015649851160135477,
+      0.03131071025193746,
+      0.11109189198967191,
+      0.45081238415746683
+    ],
+    "max_abs": 1.3727436273055848e-05
+  }
+}

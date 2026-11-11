@@ -1,0 +1,93 @@
+{
+  "utc": "2026-10-31T16:48:58.900759+00:00",
+  "scope": "Shallow source-data-location inventory plus CC source-like filenames; no contents of other AI implementations read. Large CC derived feature/run folders excluded.",
+  "root_entries": {
+    "/home/chenzhe": [
+      {
+        "name": "File",
+        "dir": false,
+        "bytes": 0
+      },
+      {
+        "name": "gpu-observatory-server.log",
+        "dir": false,
+        "bytes": 55
+      },
+      {
+        "name": "gpu-observatory-server.mjs",
+        "dir": false,
+        "bytes": 5013
+      },
+      {
+        "name": "runs",
+        "dir": true,
+        "bytes": null
+      },
+      {
+        "name": "Desktop",
+        "dir": true,
+        "bytes": null
+      },
+      {
+        "name": "snap",
+        "dir": true,
+        "bytes": null
+      },
+      {
+        "name": "codex-exports",
+        "dir": true,
+        "bytes": null
+      },
+      {
+        "name": "Applications",
+        "dir": true,
+        "bytes": null
+      },
+      {
+        "name": "models",
+        "dir": true,
+        "bytes": null
+      },
+      {
+        "name": "conda_pkgs",
+        "dir": true,
+        "bytes": null
+      },
+      {
+        "name": "work",
+        "dir": true,
+        "bytes": null
+      }
+    ],
+    "/mnt": [
+      {
+        "name": "test",
+        "dir": true,
+        "bytes": null
+      }
+    ],
+    "/data": {
+      "exists": false
+    },
+    "/datasets": {
+      "exists": false
+    },
+    "/home/chenzhe/Downloads": {
+      "exists": false
+    },
+    "/home/chenzhe/data": {
+      "exists": false
+    }
+  },
+  "cc_files_examined_by_name": 40631,
+  "cc_source_like_names": [
+    ".cache/uv/archive-v0/UuRYPoP-nMYVqkDB/torch/include/ATen/ops/meshgrid.h",
+    ".cache/uv/archive-v0/UuRYPoP-nMYVqkDB/torch/include/ATen/ops/meshgrid_compositeimplicitautograd_dispatch.h",
+    ".cache/uv/archive-v0/UuRYPoP-nMYVqkDB/torch/include/ATen/ops/meshgrid_ops.h",
+    ".cache/uv/archive-v0/UuRYPoP-nMYVqkDB/torch/include/ATen/ops/meshgrid_native.h",
+    ".cache/uv/archive-v0/UuRYPoP-nMYVqkDB/torch/distributed/device_mesh.py",
+    ".cache/uv/archive-v0/UuRYPoP-nMYVqkDB/torch/distributed/tensor/device_mesh.py",
+    ".cache/uv/archive-v0/mbLBlbmK3ZpKAFRq/setuptools/command/launcher manifest.xml",
+    ".tools/python/cpython-3.11.16-linux-x86_64-gnu/lib/python3.11/site-packages/setuptools/launcher manifest.xml"
+  ]
+}

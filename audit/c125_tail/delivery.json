@@ -1,0 +1,29 @@
+{
+  "local_root": "/Users/chenzhe/Desktop/transformer/CC/results",
+  "remote_root": "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC",
+  "verification": "SHA256 and byte counts matched",
+  "files": [
+    {
+      "local": "C125-C126_大误差方向与状态判别对照_20261108.md",
+      "remote": "results/C125-C126_大误差方向与状态判别对照_20261108.md",
+      "sha256": "adc01313bfffac9fab8cce6367bba34c4cfd68991a30662232fb308993561258",
+      "bytes": 8940,
+      "matches": true
+    },
+    {
+      "local": "C125_20261108/summary.json",
+      "remote": "audit/c125_tail/summary.json",
+      "sha256": "f2db0f3e991aa5bbc051d79322b98097906d92cdac78eaa6a61674daac4f2b61",
+      "bytes": 10436,
+      "matches": true
+    },
+    {
+      "local": "C125_20261108/score.json",
+      "remote": "audit/c126_statefield/score.json",
+      "sha256": "70350118f5ea87f7ec70f7259221b20d658bec402aef1856747db92aa2a65930",
+      "bytes": 1767,
+      "matches": true
+    }
+  ],
+  "verified_at_utc": "2026-11-08T12:39:07.236748+00:00"
+}

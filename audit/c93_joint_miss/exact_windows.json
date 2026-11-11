@@ -1,0 +1,782 @@
+{
+  "count": 60,
+  "eligible": 118,
+  "windows": 117,
+  "maps": [
+    {
+      "index": 1947,
+      "terrain": "00444",
+      "patch_map": 9,
+      "windows": [
+        7,
+        13
+      ],
+      "arms": [
+        "uniform",
+        "grazing"
+      ]
+    },
+    {
+      "index": 20114,
+      "terrain": "05333",
+      "patch_map": 88,
+      "windows": [
+        4,
+        13
+      ],
+      "arms": [
+        "uniform",
+        "grazing"
+      ]
+    },
+    {
+      "index": 2230,
+      "terrain": "00539",
+      "patch_map": 14,
+      "windows": [
+        7,
+        9
+      ],
+      "arms": [
+        "uniform",
+        "grazing"
+      ]
+    },
+    {
+      "index": 23012,
+      "terrain": "06108",
+      "patch_map": 104,
+      "windows": [
+        7,
+        11
+      ],
+      "arms": [
+        "uniform",
+        "grazing"
+      ]
+    },
+    {
+      "index": 5217,
+      "terrain": "01292",
+      "patch_map": 29,
+      "windows": [
+        2,
+        15
+      ],
+      "arms": [
+        "uniform",
+        "grazing"
+      ]
+    },
+    {
+      "index": 22984,
+      "terrain": "06077",
+      "patch_map": 103,
+      "windows": [
+        4,
+        12
+      ],
+      "arms": [
+        "uniform",
+        "grazing"
+      ]
+    },
+    {
+      "index": 21875,
+      "terrain": "05732",
+      "patch_map": 94,
+      "windows": [
+        3,
+        9
+      ],
+      "arms": [
+        "uniform",
+        "grazing"
+      ]
+    },
+    {
+      "index": 9109,
+      "terrain": "02400",
+      "patch_map": 44,
+      "windows": [
+        5,
+        14
+      ],
+      "arms": [
+        "uniform",
+        "grazing"
+      ]
+    },
+    {
+      "index": 17345,
+      "terrain": "04535",
+      "patch_map": 80,
+      "windows": [
+        3,
+        9
+      ],
+      "arms": [
+        "uniform",
+        "grazing"
+      ]
+    },
+    {
+      "index": 3818,
+      "terrain": "00964",
+      "patch_map": 20,
+      "windows": [
+        0,
+        11
+      ],
+      "arms": [
+        "uniform",
+        "grazing"
+      ]
+    },
+    {
+      "index": 15837,
+      "terrain": "04084",
+      "patch_map": 75,
+      "windows": [
+        7,
+        8
+      ],
+      "arms": [
+        "uniform",
+        "grazing"
+      ]
+    },
+    {
+      "index": 21742,
+      "terrain": "05699",
+      "patch_map": 93,
+      "windows": [
+        1,
+        11
+      ],
+      "arms": [
+        "uniform",
+        "grazing"
+      ]
+    },
+    {
+      "index": 18530,
+      "terrain": "04854",
+      "patch_map": 82,
+      "windows": [
+        2,
+        15
+      ],
+      "arms": [
+        "uniform",
+        "grazing"
+      ]
+    },
+    {
+      "index": 16248,
+      "terrain": "04203",
+      "patch_map": 77,
+      "windows": [
+        7,
+        13
+      ],
+      "arms": [
+        "uniform",
+        "grazing"
+      ]
+    },
+    {
+      "index": 25488,
+      "terrain": "06704",
+      "patch_map": 117,
+      "windows": [
+        1,
+        8
+      ],
+      "arms": [
+        "uniform",
+        "grazing"
+      ]
+    },
+    {
+      "index": 7740,
+      "terrain": "01980",
+      "patch_map": 37,
+      "windows": [
+        0,
+        9
+      ],
+      "arms": [
+        "uniform",
+        "grazing"
+      ]
+    },
+    {
+      "index": 13779,
+      "terrain": "03532",
+      "patch_map": 67,
+      "windows": [
+        4,
+        8
+      ],
+      "arms": [
+        "uniform",
+        "grazing"
+      ]
+    },
+    {
+      "index": 10907,
+      "terrain": "02895",
+      "patch_map": 55,
+      "windows": [
+        4,
+        9
+      ],
+      "arms": [
+        "uniform",
+        "grazing"
+      ]
+    },
+    {
+      "index": 24677,
+      "terrain": "06472",
+      "patch_map": 111,
+      "windows": [
+        0,
+        10
+      ],
+      "arms": [
+        "uniform",
+        "grazing"
+      ]
+    },
+    {
+      "index": 19832,
+      "terrain": "05245",
+      "patch_map": 87,
+      "windows": [
+        1,
+        8
+      ],
+      "arms": [
+        "uniform",
+        "grazing"
+      ]
+    },
+    {
+      "index": 25115,
+      "terrain": "06627",
+      "patch_map": 115,
+      "windows": [
+        5,
+        11
+      ],
+      "arms": [
+        "uniform",
+        "grazing"
+      ]
+    },
+    {
+      "index": 12866,
+      "terrain": "03296",
+      "patch_map": 60,
+      "windows": [
+        0,
+        9
+      ],
+      "arms": [
+        "uniform",
+        "grazing"
+      ]
+    },
+    {
+      "index": 22424,
+      "terrain": "05897",
+      "patch_map": 99,
+      "windows": [
+        3,
+        15
+      ],
+      "arms": [
+        "uniform",
+        "grazing"
+      ]
+    },
+    {
+      "index": 9220,
+      "terrain": "02465",
+      "patch_map": 46,
+      "windows": [
+        3,
+        10
+      ],
+      "arms": [
+        "uniform",
+        "grazing"
+      ]
+    },
+    {
+      "index": 24185,
+      "terrain": "06373",
+      "patch_map": 108,
+      "windows": [
+        0,
+        9
+      ],
+      "arms": [
+        "uniform",
+        "grazing"
+      ]
+    },
+    {
+      "index": 22085,
+      "terrain": "05854",
+      "patch_map": 98,
+      "windows": [
+        0,
+        15
+      ],
+      "arms": [
+        "uniform",
+        "grazing"
+      ]
+    },
+    {
+      "index": 6197,
+      "terrain": "01548",
+      "patch_map": 30,
+      "windows": [
+        1,
+        11
+      ],
+      "arms": [
+        "uniform",
+        "grazing"
+      ]
+    },
+    {
+      "index": 21926,
+      "terrain": "05788",
+      "patch_map": 96,
+      "windows": [
+        5,
+        14
+      ],
+      "arms": [
+        "uniform",
+        "grazing"
+      ]
+    },
+    {
+      "index": 4854,
+      "terrain": "01170",
+      "patch_map": 25,
+      "windows": [
+        1,
+        10
+      ],
+      "arms": [
+        "uniform",
+        "grazing"
+      ]
+    },
+    {
+      "index": 13492,
+      "terrain": "03432",
+      "patch_map": 65,
+      "windows": [
+        3,
+        8
+      ],
+      "arms": [
+        "uniform",
+        "grazing"
+      ]
+    },
+    {
+      "index": 15533,
+      "terrain": "04024",
+      "patch_map": 74,
+      "windows": [
+        7,
+        12
+      ],
+      "arms": [
+        "uniform",
+        "grazing"
+      ]
+    },
+    {
+      "index": 7860,
+      "terrain": "02002",
+      "patch_map": 38,
+      "windows": [
+        1,
+        14
+      ],
+      "arms": [
+        "uniform",
+        "grazing"
+      ]
+    },
+    {
+      "index": 8514,
+      "terrain": "02236",
+      "patch_map": 42,
+      "windows": [
+        6,
+        15
+      ],
+      "arms": [
+        "uniform",
+        "grazing"
+      ]
+    },
+    {
+      "index": 2266,
+      "terrain": "00542",
+      "patch_map": 15,
+      "windows": [
+        1,
+        12
+      ],
+      "arms": [
+        "uniform",
+        "grazing"
+      ]
+    },
+    {
+      "index": 1555,
+      "terrain": "00343",
+      "patch_map": 6,
+      "windows": [
+        5,
+        9
+      ],
+      "arms": [
+        "uniform",
+        "grazing"
+      ]
+    },
+    {
+      "index": 3595,
+      "terrain": "00884",
+      "patch_map": 18,
+      "windows": [
+        6,
+        13
+      ],
+      "arms": [
+        "uniform",
+        "grazing"
+      ]
+    },
+    {
+      "index": 1569,
+      "terrain": "00358",
+      "patch_map": 7,
+      "windows": [
+        13
+      ],
+      "arms": [
+        "grazing"
+      ]
+    },
+    {
+      "index": 15419,
+      "terrain": "04008",
+      "patch_map": 73,
+      "windows": [
+        3,
+        12
+      ],
+      "arms": [
+        "uniform",
+        "grazing"
+      ]
+    },
+    {
+      "index": 15841,
+      "terrain": "04088",
+      "patch_map": 76,
+      "windows": [
+        7,
+        11
+      ],
+      "arms": [
+        "uniform",
+        "grazing"
+      ]
+    },
+    {
+      "index": 9139,
+      "terrain": "02433",
+      "patch_map": 45,
+      "windows": [
+        6,
+        11
+      ],
+      "arms": [
+        "uniform",
+        "grazing"
+      ]
+    },
+    {
+      "index": 18868,
+      "terrain": "04953",
+      "patch_map": 84,
+      "windows": [
+        1,
+        12
+      ],
+      "arms": [
+        "uniform",
+        "grazing"
+      ]
+    },
+    {
+      "index": 21928,
+      "terrain": "05791",
+      "patch_map": 97,
+      "windows": [
+        3,
+        11
+      ],
+      "arms": [
+        "uniform",
+        "grazing"
+      ]
+    },
+    {
+      "index": 14380,
+      "terrain": "03694",
+      "patch_map": 68,
+      "windows": [
+        4,
+        8
+      ],
+      "arms": [
+        "uniform",
+        "grazing"
+      ]
+    },
+    {
+      "index": 2344,
+      "terrain": "00553",
+      "patch_map": 16,
+      "windows": [
+        12
+      ],
+      "arms": [
+        "grazing"
+      ]
+    },
+    {
+      "index": 25112,
+      "terrain": "06622",
+      "patch_map": 114,
+      "windows": [
+        6,
+        9
+      ],
+      "arms": [
+        "uniform",
+        "grazing"
+      ]
+    },
+    {
+      "index": 4201,
+      "terrain": "01052",
+      "patch_map": 22,
+      "windows": [
+        6,
+        9
+      ],
+      "arms": [
+        "uniform",
+        "grazing"
+      ]
+    },
+    {
+      "index": 25431,
+      "terrain": "06697",
+      "patch_map": 116,
+      "windows": [
+        1,
+        14
+      ],
+      "arms": [
+        "uniform",
+        "grazing"
+      ]
+    },
+    {
+      "index": 20933,
+      "terrain": "05523",
+      "patch_map": 90,
+      "windows": [
+        1,
+        15
+      ],
+      "arms": [
+        "uniform",
+        "grazing"
+      ]
+    },
+    {
+      "index": 24255,
+      "terrain": "06393",
+      "patch_map": 109,
+      "windows": [
+        2,
+        8
+      ],
+      "arms": [
+        "uniform",
+        "grazing"
+      ]
+    },
+    {
+      "index": 15002,
+      "terrain": "03883",
+      "patch_map": 70,
+      "windows": [
+        6,
+        12
+      ],
+      "arms": [
+        "uniform",
+        "grazing"
+      ]
+    },
+    {
+      "index": 22529,
+      "terrain": "05957",
+      "patch_map": 101,
+      "windows": [
+        6,
+        12
+      ],
+      "arms": [
+        "uniform",
+        "grazing"
+      ]
+    },
+    {
+      "index": 9806,
+      "terrain": "02615",
+      "patch_map": 49,
+      "windows": [
+        2,
+        15
+      ],
+      "arms": [
+        "uniform",
+        "grazing"
+      ]
+    },
+    {
+      "index": 3723,
+      "terrain": "00916",
+      "patch_map": 19,
+      "windows": [
+        7,
+        9
+      ],
+      "arms": [
+        "uniform",
+        "grazing"
+      ]
+    },
+    {
+      "index": 20603,
+      "terrain": "05489",
+      "patch_map": 89,
+      "windows": [
+        6,
+        9
+      ],
+      "arms": [
+        "uniform",
+        "grazing"
+      ]
+    },
+    {
+      "index": 543,
+      "terrain": "00092",
+      "patch_map": 1,
+      "windows": [
+        0,
+        8
+      ],
+      "arms": [
+        "uniform",
+        "grazing"
+      ]
+    },
+    {
+      "index": 2226,
+      "terrain": "00534",
+      "patch_map": 13,
+      "windows": [
+        7,
+        12
+      ],
+      "arms": [
+        "uniform",
+        "grazing"
+      ]
+    },
+    {
+      "index": 15216,
+      "terrain": "03952",
+      "patch_map": 71,
+      "windows": [
+        10
+      ],
+      "arms": [
+        "grazing"
+      ]
+    },
+    {
+      "index": 7880,
+      "terrain": "02026",
+      "patch_map": 39,
+      "windows": [
+        3,
+        11
+      ],
+      "arms": [
+        "uniform",
+        "grazing"
+      ]
+    },
+    {
+      "index": 7256,
+      "terrain": "01836",
+      "patch_map": 34,
+      "windows": [
+        7,
+        12
+      ],
+      "arms": [
+        "uniform",
+        "grazing"
+      ]
+    },
+    {
+      "index": 12687,
+      "terrain": "03265",
+      "patch_map": 59,
+      "windows": [
+        6,
+        14
+      ],
+      "arms": [
+        "uniform",
+        "grazing"
+      ]
+    }
+  ],
+  "selection": "No measured power or model outputs. 7x7 patches, all cells >=65 m, >=80% geometrically clear, <=1 random and 1 grazing window per terrain, 60 seeded distinct terrains. Nominal lattice and +/- azimuth shifts, same candidate scene. Every fifth terrain repeats nominal at 2.4 m angular padding as a support check. No training or fitted fusion."
+}

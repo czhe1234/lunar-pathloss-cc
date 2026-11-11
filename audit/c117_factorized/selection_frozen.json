@@ -1,0 +1,30 @@
+{
+  "choices": {
+    "early": {
+      "mode": "early",
+      "checkpoint": "runs/c117_early/best.pt",
+      "sha256": "5d38a08e7977fd4f825748180aa2f42a29fdb2d0e841579589c8d4b0835778f4",
+      "step": 1056,
+      "epoch": 3,
+      "kind": "model",
+      "monitor": [
+        2.146098649477299,
+        2.4178738394838946
+      ]
+    },
+    "factorized": {
+      "mode": "factorized",
+      "checkpoint": "runs/c117_factorized/best.pt",
+      "sha256": "cd8986573cfb142b92edb1908a1f64d7031bf884735770be3c37309db20eb22f",
+      "step": 2816,
+      "epoch": 8,
+      "kind": "model",
+      "monitor": [
+        2.1451715691009223,
+        2.417509904511879
+      ]
+    }
+  },
+  "eligible": "factorized",
+  "selection": "native128monitor selectedcheckpoint andarm beforeconfirmation"
+}

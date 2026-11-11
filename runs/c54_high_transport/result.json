@@ -1,0 +1,71 @@
+{
+  "status": "complete",
+  "scope": "full",
+  "kind": "transport",
+  "initial_C38": {
+    "RMSE": [
+      2.6381601195763036,
+      2.8996155705424655
+    ],
+    "SSE": [
+      4530762.3415576825,
+      5012485.736620705
+    ],
+    "count": [
+      650982.0,
+      596173.0
+    ],
+    "rows": 655872,
+    "combined": 2.7688878450593846
+  },
+  "DEV": {
+    "RMSE": [
+      2.6405700888371513,
+      2.8847981356553265
+    ],
+    "SSE": [
+      4539043.859546905,
+      4961387.64538339
+    ],
+    "count": [
+      650982.0,
+      596173.0
+    ],
+    "rows": 655872,
+    "combined": 2.762684112246239
+  },
+  "FIT_probe": {
+    "RMSE": [
+      2.4539620074693134,
+      2.616191894627899
+    ],
+    "SSE": [
+      391744.58198199095,
+      401181.18017009285
+    ],
+    "count": [
+      65053.0,
+      58614.0
+    ],
+    "rows": 65536,
+    "combined": 2.535076951048606
+  },
+  "gain_db": [
+    0.0040650914933144655,
+    0.11394220416877099
+  ],
+  "gain_vs_parent_db": [
+    -0.0024099692608476886,
+    0.014817434887139047
+  ],
+  "target_band": 1,
+  "routing": "Only intended band enters combined submission; other head is not used",
+  "best_step": 16000,
+  "last_step": 16000,
+  "seconds": 905.2569246292114,
+  "tiny_both_le_080db": false,
+  "intended_band_gain010db": true,
+  "evaluation_scope": "terrain-disjoint sampled DEV612",
+  "official_VAL_used": false,
+  "gpu_peak_GB": 44.765881344
+}

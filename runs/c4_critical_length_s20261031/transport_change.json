@@ -1,0 +1,6 @@
+{
+  "reason": "Continue same model, optimizer, epoch schedule and data with RAM-resident CPU labels and pinned asynchronous transfers; avoid repeated mmap/unpack and noncontiguous bulk GPU copies.",
+  "last_completed_epoch": 2,
+  "successor": "c4_critical_length_fast_s20261031",
+  "owned_pid_stopped": 3735476
+}

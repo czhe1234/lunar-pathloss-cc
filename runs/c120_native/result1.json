@@ -1,0 +1,11 @@
+{
+  "mode": "native",
+  "band": 1,
+  "conditional_sign_accuracy": 0.6717460554013525,
+  "majority_accuracy": 0.593766882137069,
+  "logloss": 0.5562958197168816,
+  "trees": 278,
+  "seconds": 8.960978629998863,
+  "oracle_gate": true,
+  "official_val_used": false
+}

@@ -1,0 +1,46 @@
+{
+  "parent": "C124",
+  "tail_threshold_db": 5,
+  "seed": 125041,
+  "tree_depth": 10,
+  "max_trees": 3000,
+  "learning_rate": 0.05,
+  "early_stop": 200,
+  "monitor_terrains": 128,
+  "confirmation_terrains": 484,
+  "monitor_gate": 0.2,
+  "confirmation_gate": 0.3,
+  "source_sha256": {
+    "src/c125_conditional_tree.py": "a6ae06e24b96e633f1b87626381541ef626d9e4fb55674d048fe3bc8245fdf3b",
+    "scripts/c125_diagnose.py": "5d675423adf44380465e0f406ee87ea179a06febed2bbb362d0ce23de64b8aba"
+  },
+  "official_val_used": false,
+  "neural": {
+    "modes": [
+      "old",
+      "raw",
+      "shuffled"
+    ],
+    "batch": 2048,
+    "steps": 4000,
+    "eval_interval": 250,
+    "min_stop_step": 1500,
+    "patience_steps": 1000,
+    "initial_sha256": "b944cf41f691d3bf799238af4d89274ec00633b8aaabe212f965a23f55d40f33",
+    "parameters": 1907908,
+    "init_seed": 125123,
+    "sample_seed": 125173,
+    "optimizer": "AdamW",
+    "learning_rate": 0.0003,
+    "weight_decay": 0.01,
+    "criterion": "minimum mean conditional tail RMSE on fixed monitor",
+    "objective": "conditional tail MSE/100 +0.1 sign BCE",
+    "source_sha256": {
+      "src/c125_net.py": "d8e915abef710c98505728c02fbb9cda4023221dfa33779edd365160fd540cb3",
+      "src/c125_neural.py": "d9c4a5492b68da4b9a15c73791d0e3ab4984f8da49f47f9a0a9c0490c38e0509",
+      "src/c125_views.py": "f1ef7374940a9b530f8a695239c039a4931ec3bbe498deaa523d1789d086ded8"
+    },
+    "sampling_sha256": "e0f371d93826b9e635d1ebd9b2d7b808f9d1d54180e5c3b6f7ded5267cb2f5e0",
+    "tag": "fixed"
+  }
+}

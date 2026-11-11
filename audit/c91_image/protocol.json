@@ -1,0 +1,5 @@
+{
+  "hypothesis": "High-band total exceeds the candidate straight path by >=10dB on 99.84% of valid shadowed confirmation positions. Independently enumerate once-reflected terrain paths across the complete surface, unlike prior forward launch quadrature. Frozen flat-facet image and local shading-plane approximation. Compare aligned, geometry-matched permuted and no reflected features. This is a candidate scene, not official component labels.",
+  "split": "Same C79 one map per TRAIN terrain, independent maps, 512 independently prespecified uniform indices into the sorted list of 2048 uniform positions/map; seed [91037,TRAIN map index]; 80 calibration, 48 model selection and 484 confirmation, no official VAL.",
+  "decision": "Expand if at least .08 dB both across confirmation, or >=.25 dB in high shadow and >=.04 dB high overall for possible combination. Major only on full official VAL improving both bands .30. Higher-order/diffuse energy not measured by this one-reflection test."
+}

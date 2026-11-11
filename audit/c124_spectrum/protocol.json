@@ -1,0 +1,21 @@
+{
+  "source_sha256": {
+    "src/c124_spectrum.cu": "5cef227ca8025363c753a6d354bb38de36b7a7ce438d5161f6a0a92c3a0a7121",
+    "src/c124_spectrum.py": "2601ca2ab5e309cfee41df5d715d441adba14697a1f4b04e44028ed158df9d3c",
+    "src/c124_train.py": "2b9fe502dc983106270160dd8d21e7a02e0e8dd23f7d080432f1aac798473ec8",
+    "scripts/c124_merge.py": "c7c18fd5d0b2d2710acae1893ed915c3e85712f2e7b6913b04534bdc1e516837"
+  },
+  "dirs": 8192,
+  "delay_bins": 8,
+  "azimuth_bins": 16,
+  "input_features": 427,
+  "seed": 124041,
+  "monitor_gate_db": 0.2,
+  "confirmation_gate_db": 0.3,
+  "official_val_used": false,
+  "posthoc_source_sha256": {
+    "src/c124_pair_predict.py": "18f8ca311fdf0fa6cd21c6e3b8e01048be3eaec82eb0d8ce0fd09df7263e8ce8",
+    "scripts/c124_pair_score.py": "a4f746fcc77ae22a0753622840ca2965814599d4d0670ca737c0e43ab5410313",
+    "scripts/c124_score.py": "4518cdd3b9450286ed40ee6f739e75e16fb650dc5ab5516b6ed96cb34d8f4706"
+  }
+}

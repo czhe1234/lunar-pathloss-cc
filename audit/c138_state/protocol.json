@@ -1,0 +1,13 @@
+{
+  "created": "2026-11-09",
+  "hypothesis": "C137free states demonstrate representability of these16sampled maps. Intermediate native-state supervision may ease end-to-end inversion; it does not add new input information.",
+  "control": "Identical C136capacity16checkpoint,1000updates,batch4,lr.0007cosine,wd0,seed138041; aux0vsaux1",
+  "target": "Fixed C137states learned from FIT labels only",
+  "auxiliary": "Squared log-state errors weighted by each state contribution to valid training receivers; masks affect loss weights only",
+  "no_expansion": "First compare small-set fitting. No full-data training merely because oracle error is low.",
+  "limits": [
+    "Inverse states need not be unique or physical.",
+    "Oracle low error does not show that terrain/TX determines those states.",
+    "Small-set fitting improvement would not prove generalization."
+  ]
+}

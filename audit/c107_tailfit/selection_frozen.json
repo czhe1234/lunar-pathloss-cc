@@ -1,0 +1,19 @@
+{
+  "candidates": {
+    "c107_control": {
+      "checkpoint": "runs/c107_control/best.pt",
+      "sha256": "5b9665ae69407bcd73678b2f078bea9820e001f823b1254bca297c4fdd80ff5d",
+      "step": 3000,
+      "tailfit_passed": false
+    },
+    "c107_tail8": {
+      "checkpoint": "runs/c107_tail8/first_pass.pt",
+      "sha256": "4b87b402e91f46afa5d47c3f769d8e0b14ae97bdd84e64e6a34cc77a6ca05f2e",
+      "step": 1100,
+      "tailfit_passed": true
+    }
+  },
+  "eligible": "c107_tail8",
+  "selection": "Onlytail8passedpredeclaredFITtailpowergate;choiceandthresholdfrozenbeforeheldout;controlselectedbyFITonly",
+  "official_val_used": false
+}

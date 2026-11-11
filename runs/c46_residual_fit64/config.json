@@ -1,0 +1,39 @@
+{
+  "variant": "path",
+  "stage": "fit64",
+  "batch": 16,
+  "presentations": 64000,
+  "name": "c46_residual_fit64",
+  "parent": null,
+  "seed": 20261102,
+  "screen_steps": 1000,
+  "gpu": {
+    "uuid": "GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0",
+    "logical_device": 0,
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_bytes": 84929347584,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "fit_maps": 264,
+  "fit_terrains": 64,
+  "dev_maps": 264,
+  "parameters": 6099922,
+  "steps": 4000,
+  "points_per_map": 2048,
+  "initial_state_sha256": "06c774d05e97324eb3aa3fd3c7a6865da48de2aadb402c387f06488c70c1a2cc",
+  "starting_state_sha256": "06c774d05e97324eb3aa3fd3c7a6865da48de2aadb402c387f06488c70c1a2cc",
+  "order_sha256": "6d4c6692611d09f6503557f40f03b448cb04a675e96935ec4ff7f7b9753045d6",
+  "initial_lr": 0.0001,
+  "target": "(PL-C38)/20",
+  "warm_features": "C44 selected checkpoint; input2 extra model-prediction channels; zero residual output heads",
+  "loss": "per-band valid-pixel MSE, then band mean",
+  "official_VAL_loaded": false,
+  "augmentation": false,
+  "source_hashes": {
+    "c46_model.py": "978b475af99f3d7657469b59710c9874bab8ae6e8e5962307f8d2fb44e09cf4b",
+    "c46_data.py": "3aef3ccf3ac7005f04eb61d3eff8cc3465e4885912deef61205d97c8f4f794b9",
+    "c43_data.py": "834661a53bd55def9cc4fa61263593ea53e2b558cba781bf5742830a99f3a268",
+    "c46_train.py": "240ba0e7d7d2266fecb5544a1170518e7b65c588e96863239b918dbf41074b0a"
+  }
+}

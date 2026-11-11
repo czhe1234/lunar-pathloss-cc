@@ -1,0 +1,8 @@
+{
+  "question": "Does the successful numeric-embedding network lose useful local receiver geometry in the294descriptor compression?",
+  "change": "Append9x9RXheight differences; base294features unchanged",
+  "control": "Completed C37 periodic8 width1024, same FIT256points/map, same seed,batch4096,AdamW schedule and20kstep ceiling. Input dimension and first-layer parameter count necessarily increase; not an exact parameter-matched causal proof.",
+  "gate": "Require each sampledDEV band to improve by>=0.10dB vs C37 before completeDEV promotion. No officialVAL selection.",
+  "normalization": "Only FIT data; existing294normalization retained",
+  "no_automatic_extension": "If gate fails, retain result and stop this feature branch."
+}

@@ -1,0 +1,54 @@
+{
+  "status": "training_complete",
+  "steps": 6000,
+  "stop_reason": "fixed_budget",
+  "best_step": 500,
+  "baseline_DEV": {
+    "rmse": [
+      2.9586114767041702,
+      3.555015125015796
+    ],
+    "score": 3.2568133008599833,
+    "sse": [
+      9115815.646416526,
+      11437181.356431408
+    ],
+    "count": [
+      1041405.0,
+      904974.0
+    ],
+    "maps": 128
+  },
+  "best_DEV": {
+    "rmse": [
+      2.930103195038959,
+      3.516844529899642
+    ],
+    "score": 3.2234738624693007,
+    "sse": [
+      8940987.557071295,
+      11192895.30689232
+    ],
+    "count": [
+      1041405.0,
+      904974.0
+    ],
+    "maps": 128
+  },
+  "gain_db": [
+    0.028508281665211133,
+    0.03817059511615417
+  ],
+  "full_DEV_gate": false,
+  "query_order_sha256": "9fbbcdd09c602789b0f60b2762c7ca14a01a5aee95550d9b4ca9a57379b51cde",
+  "map_order_sha256": "572b836ec78f7ac441f0598eaa456e6800f4ef05e3e3ddd0669291a0217b03f5",
+  "gpu": {
+    "uuid": "GPU-70b6fceb-c7c4-9467-3c81-097c9284c160",
+    "logical_device": 0,
+    "name": "NVIDIA A800 80GB PCIe",
+    "memory_bytes": 84974239744,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "seconds": 599.5448780059814
+}

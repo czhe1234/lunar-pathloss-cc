@@ -1,0 +1,76 @@
+{
+  "question": "Do C82 signed rare residual states become predictable with direct class and conditional-amplitude supervision?",
+  "arms": [
+    "mse",
+    "state"
+  ],
+  "features": 235,
+  "steps": 2000,
+  "batch": 16384,
+  "parameters": 1739944,
+  "initial_state_sha256": {
+    "mse": "2a1edeb45adf98f50f74ad47678b9f03f2d718f0edef170a4c9c851bd23f2aac",
+    "state": "1931d95a930542d25f806d9c0be0310a49f172a0344154396c80a54989844d3c"
+  },
+  "inputs": "C101coarse169 + C103terrain66. Same features/backbone, all head weights zero; bias gives functional C82 at initialization.",
+  "sampler": "Half each band; valid signed3class proposal q=sqrt(pi)/sum; withinclass weighted CDF. Same seed104073. True maskedMSE importance pi/q. No mask/label input.",
+  "state": "prior-corrected softmax(logits+log(pi/q)); signed conditional means constrained inside class; expectedmean prediction. MSE/25 +.25proposalCE +.25conditionalMSE/25",
+  "control": "Same sampling,backbone,12outputlayout; direct residualMSE/25, unused output slots. Seed104041.",
+  "priors": {
+    "prior": [
+      [
+        0.9597168823121371,
+        0.02461355188177333,
+        0.01566956580608957
+      ],
+      [
+        0.9525866418104346,
+        0.027382500594474644,
+        0.020030857595090695
+      ]
+    ],
+    "proposal": [
+      [
+        0.776443298864035,
+        0.12434414017834007,
+        0.09921256095762497
+      ],
+      [
+        0.7607139366044037,
+        0.1289750432367182,
+        0.11031102015887807
+      ]
+    ],
+    "class_mean": [
+      [
+        -0.12987081768638256,
+        9.570179632433609,
+        -7.242439680945324
+      ],
+      [
+        -0.13692324653182078,
+        9.933157287923681,
+        -7.640718479726884
+      ]
+    ],
+    "definition": "0:absresidual<5;1:Y-C82>=5;2:Y-C82<=-5; validbandonly; FITweightedpriors"
+  },
+  "fit_terrains": 1984,
+  "fit_points": 4323840,
+  "monitor_terrains": 128,
+  "confirmation_terrains": 484,
+  "confirmation_points_permap": 2048,
+  "selection": "Min jointmean monitorRMSE incl unchangedC82; freeze checkpoint/model before confirmation",
+  "promotion": "Both bands gain>=.30dB versus same C82 pixels and pairedterrain95percentlower>0; fullnative check before fullTRAIN.",
+  "official_target": "bothofficialfixedVALRMSE<=1dB",
+  "official_val_used": false,
+  "GPU": {
+    "mse": 1,
+    "state": 3,
+    "check_and_confirmation": 4
+  },
+  "source_sha256": {
+    "src/c104_train.py": "197e0d477b8f8d6fe3227d0a243e092c19cdb4fe2351a17c859b98c78b0d6598",
+    "audit/c104_tail/priors.json": "9cad4cd2c271b3a86c05f67c9aef3858a38cc65fad1ea636cf930828998b647f"
+  }
+}

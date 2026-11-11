@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-11-10T22:02:59.198540+08:00",
+  "allowed_gpu_rows": [
+    "1, GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009, 19786 MiB, 100 %",
+    "3, GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0, 20728 MiB, 100 %",
+    "4, GPU-70b6fceb-c7c4-9467-3c81-097c9284c160, 5427 MiB, 100 %"
+  ],
+  "this_round_GPU_used": false,
+  "CPU_threads_max": 2
+}

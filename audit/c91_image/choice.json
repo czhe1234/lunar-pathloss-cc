@@ -1,0 +1,43 @@
+{
+  "shared0": {
+    "trees": 25,
+    "scale": 0.3
+  },
+  "shared1": {
+    "trees": 55,
+    "scale": 0.3
+  },
+  "flat0": {
+    "trees": 25,
+    "scale": 1.0
+  },
+  "flat1": {
+    "trees": 25,
+    "scale": 0.3
+  },
+  "tangent0": {
+    "trees": 55,
+    "scale": 0.3
+  },
+  "tangent1": {
+    "trees": 25,
+    "scale": 0.3
+  },
+  "flat_permuted0": {
+    "trees": 25,
+    "scale": 0.3
+  },
+  "flat_permuted1": {
+    "trees": 25,
+    "scale": 0.3
+  },
+  "tangent_permuted0": {
+    "trees": 25,
+    "scale": 0.3
+  },
+  "tangent_permuted1": {
+    "trees": 25,
+    "scale": 0.3
+  },
+  "mirror": "flat"
+}

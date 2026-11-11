@@ -1,0 +1,19 @@
+{
+  "question": "Which published-input physical descriptors explain metre-scale power structure and signed C10 residual?",
+  "scope": "No new neural/tree-model training. Frozen C10, input-only descriptor extraction, fixed analytic filters, and small closed-form statistical calibrations. Official VAL excluded.",
+  "split": "Use the same306 calibration/306 confirmation internalDEV terrains as C18, selecting one TX per terrain using onlyIDs and seed20261108. Existing DEV has been used for prior selection; do not call it pristine.",
+  "sampling": "256 uniform pixels per selected map, excluding outer2pixels, deterministic map seed20261109+104729*index_row; no masks/labels in selection.",
+  "stage0": "Decompose local curvature of truth versus prediction; fixed input-only smoothing controls and pixel/TX-relative parity diagnostics.",
+  "physical_families": {
+    "surface_projection": "Candidate incident triangle normals and projected area, direct and surface-arrival grazing sensitivity. Motivation: official Sionna1.1.0 measurement contribution contains solid_angle/(cell_area*abs(n.dot(k))). This estimator factor is not an extra physical propagation gain.",
+    "polarization_transmission": "Exact line intersections with two candidate1m triangulations, retaining ordered facet normals. Complex TE/TM transfer of publishedV polarization, H counterfactual and polarization-reset controls. No sampled-profile aliasing. Not recovered actual paths.",
+    "surface_arrival_structure": "16azimuth x16range visible-surface contribution proxy; directional concentration, receiver-grazing sensitivity, and one-bounce diffuse relative-power proxy. Not a measuredPAS/PDP or complete propagation simulation.",
+    "registration": "Local centre-versus-neighbour operators, raster periodicity and fixed grid-phase controls. No label-dependent feature extraction."
+  },
+  "evaluation": "Separate prediction of signed residual/local curvature from prediction of error magnitude. A descriptor that only locates large errors is not a score-improvement method. Terrain-paired1000 bootstrap. Conditional comparisons use only input geometry.",
+  "statistical_calibration": "Fixed small ridge/linear coefficients or prespecified bins on calibration terrains only; all transformations/groups locked before confirmation. No confirmation-based search or early stopping.",
+  "continue_gate": "Require >=5% reduction in confirmation occluded SSE,95%CI lower>0, and improvement beyond a C10-local-curvature-only control; corroborating physical control required before training a new candidate.",
+  "limitations": "Original triangles, actual continuousTX, independent seed powers and interpolation weights remain unavailable. Reconstructed triangles and effectiveTX floor(height)+3 are hypotheses, not recovered original state.",
+  "constraints": "All new workCC; raw release read-only; no unrelated AI code; GPU3 exactUUID only if needed; no website submission.",
+  "implementation_note": "C++ CPU kernel compiled insideCC, no external dependency installed. RX incident triangles and two direct-line triangulations are geometry hypotheses."
+}

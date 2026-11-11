@@ -1,0 +1,26 @@
+{
+  "checks": [
+    {
+      "map": 0,
+      "max_visibility_probability_difference": 9.734183549880981e-05,
+      "mean_difference": 1.3161353308532853e-05
+    },
+    {
+      "map": 100,
+      "max_visibility_probability_difference": 9.734183549880981e-05,
+      "mean_difference": 1.0526125151955057e-05
+    },
+    {
+      "map": 1000,
+      "max_visibility_probability_difference": 9.734183549880981e-05,
+      "mean_difference": 1.6451425835839473e-05
+    },
+    {
+      "map": 25719,
+      "max_visibility_probability_difference": 9.734183549880981e-05,
+      "mean_difference": 1.5067412277858239e-05
+    }
+  ],
+  "CPU_GPU_formula_checked": true,
+  "mask_source": "PhysicalH/TXgeometry, not label validity"
+}

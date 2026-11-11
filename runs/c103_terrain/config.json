@@ -1,0 +1,25 @@
+{
+  "mode": "terrain",
+  "smoke": false,
+  "steps": 2000,
+  "batch": 16384,
+  "GPU": {
+    "uuid": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+    "logical_device": 0,
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_bytes": 84929347584,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "initial_state_sha256": "9409757854212b14512958ca2a5033e3028c1978e3d4a1b5fa1802d3102053d7",
+  "parameters": 1698904,
+  "fit_points": 4323840,
+  "monitor_points": 1286144,
+  "seed": 103041,
+  "sample_seed": 103073,
+  "method": "FrozenC82 plus8member512numeric residual;235features,identicalweights.",
+  "labels": "Y-C82FIT prediction, normalized/20. Masks loss/score only; inclusion weights loss only.",
+  "precision_ablation": "local:common169plusconstant66;terrain:common169plus66terrainmean/std/PCA64. PCAfitonly5508FIT heightmaps, no labels.",
+  "selection": "Min jointmean monitor bandRMSE including unchangedC82. Fixed2000updates; no confirmation choice.",
+  "official_val_used": false
+}

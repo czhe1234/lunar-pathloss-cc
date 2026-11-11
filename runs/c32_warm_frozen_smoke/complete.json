@@ -1,0 +1,54 @@
+{
+  "status": "smoke_complete",
+  "steps": 2,
+  "stop_reason": "fixed_budget",
+  "best_step": 2,
+  "baseline_DEV": {
+    "rmse": [
+      3.594645336663123,
+      4.2605548002940425
+    ],
+    "score": 3.927600068478583,
+    "sse": [
+      420942.89421522524,
+      515870.9868760843
+    ],
+    "count": [
+      32577.0,
+      28419.0
+    ],
+    "maps": 4
+  },
+  "best_DEV": {
+    "rmse": [
+      3.594577298843164,
+      4.260254434157551
+    ],
+    "score": 3.9274158665003576,
+    "sse": [
+      420926.9595328717,
+      515798.25235178904
+    ],
+    "count": [
+      32577.0,
+      28419.0
+    ],
+    "maps": 4
+  },
+  "gain_db": [
+    6.803781995889935e-05,
+    0.00030036613649198074
+  ],
+  "full_DEV_gate": false,
+  "query_order_sha256": "d0e65e614f4e28f903eeebe9a76fbcb267c254721d8a06665dbccefd32236040",
+  "map_order_sha256": "7dc5b39d3784141a5c6637de8e15d299d7b70ebf1dbcdc4ef77d86ab6ba8b7b8",
+  "gpu": {
+    "uuid": "GPU-70b6fceb-c7c4-9467-3c81-097c9284c160",
+    "logical_device": 0,
+    "name": "NVIDIA A800 80GB PCIe",
+    "memory_bytes": 84974239744,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "seconds": 5.400078296661377
+}

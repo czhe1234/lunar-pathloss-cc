@@ -1,0 +1,11 @@
+{
+  "baseline": "Frozen deployed C82, complete published official fixed validation only. No training, no model choice, and no changes to the predictions.",
+  "score": "Per-band sqrt(sum of squared errors over that band's valid pixels / valid count). Group SSE divided by all valid SSE in the same band. Signed error = predicted minus true pathloss; positive means predicted received power too low.",
+  "predeclared_checks": [
+    "Exact canonical clear/partial/blocked states with C76 double-rounding verified against C78 frozen uniform sites; within 2 m of partial regions or a transition in these states vs further away.",
+    "Error tail, signed over- and under-prediction, per-map bias, terrain and distance concentration, joint versus single-valid frequencies. Block-scale variance and covariance of predicted vs true textures on common valid pixels.",
+    "Diagnostic 0, global integer shift, local integer shift, local offset and joint shift/offset, same interior pixels. Estimate parameters on one checkerboard parity and score the other, then swap. This uses labels only as a diagnostic.",
+    "Re-evaluate weak-site localization and power mismatch within the C78 preselected, conservative geometry sites using actual C82 official predictions. Select examples from validation, expressly identified as illustrative."
+  ],
+  "no_official_tuning": true
+}

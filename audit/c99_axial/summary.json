@@ -1,0 +1,108 @@
+{
+  "primary_fullmap_RMSE": {
+    "C82": [
+      2.302314301000699,
+      2.595539797500716
+    ],
+    "local": [
+      2.373070844369879,
+      2.8775886566285336
+    ],
+    "global": [
+      2.3663959854322782,
+      2.801571597128135
+    ]
+  },
+  "old256pixel_RMSE": {
+    "C82": [
+      2.3095090287265845,
+      2.6018317654538037
+    ],
+    "local": [
+      2.380765184590585,
+      2.8783252847014538
+    ],
+    "global": [
+      2.375287702127128,
+      2.807032337913047
+    ]
+  },
+  "gain_vs_C82": {
+    "local": [
+      -0.07075654336918014,
+      -0.2820488591278174
+    ],
+    "global": [
+      -0.06408168443157924,
+      -0.2060317996274188
+    ]
+  },
+  "terrain_paired_95ci": {
+    "C82-minus-local": [
+      [
+        -0.07399695289543964,
+        -0.06717075729827492
+      ],
+      [
+        -0.32760033725971743,
+        -0.23667142740750918
+      ]
+    ],
+    "C82-minus-global": [
+      [
+        -0.06733204188082889,
+        -0.060571599942910316
+      ],
+      [
+        -0.23391923844125934,
+        -0.1805368753253394
+      ]
+    ],
+    "local-minus-global": [
+      [
+        0.004781746206007087,
+        0.008501699341576805
+      ],
+      [
+        0.052831228531793076,
+        0.09957992406195501
+      ]
+    ]
+  },
+  "eligible_selected_by_monitor": "C82",
+  "promote": false,
+  "promotion_rule": "Both bands>=.30dB gain versusC82 primaryconfirmation and pairedterrain95CI lowerbound>0. Final official target both<=1dB.",
+  "confirmation_terrains": 484,
+  "confirmation_maps": 1934,
+  "valid_pixels": [
+    125774159,
+    114796871
+  ],
+  "point_valid_pixels": [
+    491358,
+    448404
+  ],
+  "GPU": {
+    "uuid": "GPU-70b6fceb-c7c4-9467-3c81-097c9284c160",
+    "logical_device": 0,
+    "name": "NVIDIA A800 80GB PCIe",
+    "memory_bytes": 84974239744,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "seconds": 142.33872122499997,
+  "independent_float64_rmse": [
+    [
+      2.3730708442490696,
+      2.8775886564307003
+    ],
+    [
+      2.366395985317615,
+      2.80157159694338
+    ]
+  ],
+  "independent_max_difference_db": 1.9783330529321574e-10,
+  "confirmation_selection_frozen": true,
+  "official_val_used": false,
+  "website_submission": false
+}

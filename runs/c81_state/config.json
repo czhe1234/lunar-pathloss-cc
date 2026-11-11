@@ -1,0 +1,19 @@
+{
+  "gpu": {
+    "uuid": "GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0",
+    "logical_device": 0,
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_bytes": 84929347584,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "mode": "state",
+  "epochs": 32,
+  "fit_maps": 480,
+  "select_maps": 148,
+  "channels": 64,
+  "init": "cd0929f3c179471a46d119ee1065ea3febf3a29715753348638abe8bf9c83d90",
+  "seed": 81032,
+  "features": "H,TX,C76,compact_h_tx only",
+  "protocol": "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/audit/c79_receiver/c81_protocol.json"
+}

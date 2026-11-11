@@ -1,0 +1,57 @@
+{
+  "status": "complete; metrics recovered after numpy-bool serialization error",
+  "scope": "full",
+  "DEV": {
+    "RMSE": [
+      2.6448846309525087,
+      2.998085225147366
+    ],
+    "SSE": [
+      4553889.059427963,
+      5358709.963377155
+    ],
+    "count": [
+      650982,
+      596173
+    ]
+  },
+  "FIT_probe": {
+    "RMSE": [
+      2.5390117272060793,
+      2.690069250377958
+    ],
+    "SSE": [
+      839196.5163732073,
+      842954.9804746483
+    ],
+    "count": [
+      130177.0,
+      116487.0
+    ]
+  },
+  "initial": {
+    "RMSE": [
+      2.6446351803304653,
+      2.998740339824098
+    ],
+    "SSE": [
+      4553030.105599784,
+      5361052.093657498
+    ],
+    "count": [
+      650982.0,
+      596173.0
+    ]
+  },
+  "gain_vs_C38_db": [
+    -0.0002494506220429571,
+    0.0006551146767312943
+  ],
+  "best_step": 500,
+  "last_step": 3000,
+  "training_and_monitor_seconds": 422.6538121700287,
+  "both_sampledDEV_gain015db": false,
+  "official_VAL_used": false,
+  "evaluation_scope": "terrain-disjoint sampled internal DEV612",
+  "recovery": "Independent CPUfloat64 saved-prediction scoring. FIT probe reused from selected-weight monitor. No retraining; original error log and source preserved."
+}

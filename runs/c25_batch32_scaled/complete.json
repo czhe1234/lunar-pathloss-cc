@@ -1,0 +1,19 @@
+{
+  "status": "training_complete",
+  "steps": 6000,
+  "best_step": 2000,
+  "seconds": 701.0419516563416,
+  "query_order_sha256": "64dc2c05306203a90a32a2f913ce3418edcbe2221504a43ff60cc7971359d96f",
+  "clipped_steps": 0,
+  "optimizer_updates": 1500,
+  "accumulation": 4,
+  "final_model_sha256": "e86fc02d3198112e75b77e75c963d12a8535b39ccae15dc7f24e86192d01d37e",
+  "gpu": {
+    "uuid": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+    "logical_device": 0,
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_bytes": 84929347584,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  }
+}

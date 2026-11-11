@@ -1,0 +1,61 @@
+{
+  "scope": "Full dev maps at fixed 1024 receiver samples per map; E3 192-point and E2 384-point existing diagnostic geometry, not official evaluation",
+  "states": {
+    "all": {
+      "415": {
+        "valid_pixels": 2607489,
+        "c4_rmse": 3.7422997558667133,
+        "b0_rmse": 4.816592602667412,
+        "c4_sse_fraction": 1.0
+      },
+      "58": {
+        "valid_pixels": 2388382,
+        "c4_rmse": 4.775588908864457,
+        "b0_rmse": 6.659409856369688,
+        "c4_sse_fraction": 1.0
+      }
+    },
+    "height_sensitive": {
+      "415": {
+        "valid_pixels": 197133,
+        "c4_rmse": 9.037412643876143,
+        "b0_rmse": 10.77169033728618,
+        "c4_sse_fraction": 0.4409079487424457
+      },
+      "58": {
+        "valid_pixels": 187576,
+        "c4_rmse": 14.063531828893419,
+        "b0_rmse": 17.58832738323215,
+        "c4_sse_fraction": 0.6810961290637182
+      }
+    },
+    "deep_blocked": {
+      "415": {
+        "valid_pixels": 106050,
+        "c4_rmse": 4.093192321339259,
+        "b0_rmse": 5.285950888279903,
+        "c4_sse_fraction": 0.04865588169167155
+      },
+      "58": {
+        "valid_pixels": 28145,
+        "c4_rmse": 5.354080073804672,
+        "b0_rmse": 5.639651688146107,
+        "c4_sse_fraction": 0.014811986851615918
+      }
+    },
+    "strong_clear": {
+      "415": {
+        "valid_pixels": 1515083,
+        "c4_rmse": 1.4770703257107538,
+        "b0_rmse": 1.8338084871945655,
+        "c4_sse_fraction": 0.09051887426496215
+      },
+      "58": {
+        "valid_pixels": 1515120,
+        "c4_rmse": 1.494751013314594,
+        "b0_rmse": 1.8949599312811163,
+        "c4_sse_fraction": 0.062147989658303794
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "n": 32,
+  "GPU": {
+    "uuid": "GPU-70b6fceb-c7c4-9467-3c81-097c9284c160",
+    "logical_device": 0,
+    "name": "NVIDIA A800 80GB PCIe",
+    "memory_bytes": 84974239744,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "initial_state_sha256": "ea08f5b7a3ca0da82c2f7ed48d30b84c9f4298650789ec480d66761330b020e0",
+  "sample_seed": 108073,
+  "batch": 8,
+  "max_steps": 2000,
+  "stop": "firstcommon24mapmeanrelativeC82SSE<=.85;checkpointusesFITonly",
+  "official_val_used": false
+}

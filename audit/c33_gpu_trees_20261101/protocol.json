@@ -1,0 +1,36 @@
+{
+  "created_utc": "2026-11-01T14:17:20.730964+00:00",
+  "question": "Use a different conditional regression model with much deeper per-tree interactions on the proven294 physical descriptors.",
+  "library": "catboost1.2.8",
+  "official_docs": [
+    "https://catboost.ai/docs/en/features/training-on-gpu",
+    "https://catboost.ai/docs/en/concepts/parameter-tuning"
+  ],
+  "data": "IdenticalFIT/DEV points asC10, H/TX-only294descriptors, targetPL-FSPL; train one model per band using only valid targets.",
+  "params": {
+    "iterations": 6000,
+    "depth": 10,
+    "learning_rate": 0.05,
+    "loss_function": "RMSE",
+    "eval_metric": "RMSE",
+    "l2_leaf_reg": 5,
+    "border_count": 254,
+    "random_seed": 20261204,
+    "task_type": "GPU",
+    "devices": "0",
+    "gpu_ram_part": 0.12,
+    "thread_count": 8,
+    "early_stopping_rounds": 300,
+    "boosting_type": "Plain",
+    "bootstrap_type": "Bayesian",
+    "bagging_temperature": 1.0
+  },
+  "gpu_assignment": {
+    "415": 1,
+    "58": 3
+  },
+  "scope": "New algorithm candidate, not pure capacity ablation. Same inputs/split asC10. GPUtraining may be nondeterministic; seed and provenance retained.",
+  "screening": "FixedDEV sampled pixels select iteration, then completeDEV before any fulltrain refit or officialVAL. Keep all negative results; report actual gain.",
+  "authorization": "User requests a substantially better scoring version;CC-only,physical1/3/4allowed. Queue behind existingCCgpu jobs, never use other cards.",
+  "officialVAL_used": false
+}

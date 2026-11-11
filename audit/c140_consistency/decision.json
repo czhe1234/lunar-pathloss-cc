@@ -1,0 +1,40 @@
+{
+  "status": "compatibility_failed_no_training",
+  "new_network_arms_run": false,
+  "expansion": false,
+  "official_VAL_labels_used": false,
+  "GPU_used": false,
+  "direct_fixed_floor": [
+    2.5250143638557527,
+    2.2662913672057656
+  ],
+  "same_sampled_holdout_RMSE": {
+    "C82": [
+      2.1400178758963513,
+      2.411311752812316
+    ],
+    "necessary_soft_lambda1": [
+      2.2941628331821193,
+      2.522439567191161
+    ],
+    "necessary_hard": [
+      2.7083228403655806,
+      2.8294176584486834
+    ]
+  },
+  "scope": "Zero-training necessary-condition probe, not the requested full neural ablation. Fixed TRAIN monitor 128 terrains,628 maps,2048 fixed points/map.",
+  "gate_failed": [
+    "Candidate direct component positivity floor already exceeds both 1dB targets.",
+    "Native path refinements do not meet paired 0.10dB stability in both bands.",
+    "Applying the necessary direct bound worsens both bands on the same holdout."
+  ],
+  "allowed_GPU_physical": [
+    1,
+    3,
+    4
+  ],
+  "best_official_RMSE": [
+    2.246377454774535,
+    2.5791498899052434
+  ]
+}

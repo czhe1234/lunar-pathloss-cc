@@ -1,0 +1,26 @@
+[
+  {
+    "index_row": 15977,
+    "sample_id": "04126_00",
+    "terrain_id": "04126",
+    "relief_m": 9.99989128112793,
+    "valid_fraction415": 0.9924163818359375,
+    "valid_fraction58": 0.8218994140625
+  },
+  {
+    "index_row": 13930,
+    "sample_id": "03584_00",
+    "terrain_id": "03584",
+    "relief_m": 35.0166015625,
+    "valid_fraction415": 0.9924163818359375,
+    "valid_fraction58": 0.9924774169921875
+  },
+  {
+    "index_row": 6179,
+    "sample_id": "01528_00",
+    "terrain_id": "01528",
+    "relief_m": 149.7489471435547,
+    "valid_fraction415": 0.9918975830078125,
+    "valid_fraction58": 0.9918975830078125
+  }
+]

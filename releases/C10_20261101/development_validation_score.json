@@ -1,0 +1,62 @@
+{
+  "evaluation_split": "dev",
+  "source_split": "train",
+  "maps_per_band": 2562,
+  "complete_requested_split": true,
+  "bands": {
+    "415": {
+      "rmse_db": 2.952572673204581,
+      "sse": 1452707526.5310738,
+      "valid_pixels": 166639132,
+      "torch_CPU_rmse_db": 2.952572673204581,
+      "same_prediction_scorer_difference_db": 0.0,
+      "all_pixel_rmse_diagnostic": 3.011238235116086,
+      "groups": {
+        "single": {
+          "rmse_db": 2.8318423839417264,
+          "valid_pixels": 37280666,
+          "maps": 573
+        },
+        "multi": {
+          "rmse_db": 2.986460889851854,
+          "valid_pixels": 129358466,
+          "maps": 1989
+        }
+      }
+    },
+    "58": {
+      "rmse_db": 3.39307351342246,
+      "sse": 1757267503.5523312,
+      "valid_pixels": 152634019,
+      "torch_CPU_rmse_db": 3.3930735134224603,
+      "same_prediction_scorer_difference_db": 4.440892098500626e-16,
+      "all_pixel_rmse_diagnostic": 4.243784077174908,
+      "groups": {
+        "single": {
+          "rmse_db": 3.2873260375296844,
+          "valid_pixels": 33254112,
+          "maps": 573
+        },
+        "multi": {
+          "rmse_db": 3.4219483353433198,
+          "valid_pixels": 119379907,
+          "maps": 1989
+        }
+      }
+    }
+  },
+  "goal_met_on_official_validation": false,
+  "calculation": "Each band: pooled FP64 squared error over official valid masks, divided by pooled count, square root. Independent NumPy and Torch CPU.",
+  "seconds": 4.70743727684021,
+  "scoring_GPU_used": false,
+  "C4_reference": {
+    "415": {
+      "rmse_db": 3.7531805737854538,
+      "relative_RMSE_reduction_percent": 21.33145168055105
+    },
+    "58": {
+      "rmse_db": 4.786678316557489,
+      "relative_RMSE_reduction_percent": 29.114235613336348
+    }
+  }
+}

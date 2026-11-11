@@ -1,0 +1,9 @@
+{
+  "hypothesis": "The C72 training fit still improved at epoch20; train its selected early-aggregation model on 960 more FIT terrains. Same official TRAIN-only inputs, leave the monitor and confirmation terrains fixed.",
+  "seed": 75096,
+  "new_terrains": 960,
+  "new_maps": 1536,
+  "all_fit_maps": 2815,
+  "start": "c72_observed epoch20 weights, new AdamW, lr .00045, 12 epochs. Larger data and additional optimization are both changed.",
+  "promotion": "If each internal confirmation band drops at least .02 dB vs fixed C72 and full DEV confirms both, use this as additional candidate local component. Keep the original C72 comparison and never select on official VAL."
+}

@@ -1,0 +1,80 @@
+{
+  "total_terrains": 484,
+  "replayed_terrains": 323,
+  "bands": [
+    {
+      "original_events": 5374,
+      "certified_any_diffuse_seed": 5305,
+      "certified_fraction": 0.9871604019352438,
+      "empirically_stable_on_replayed": 3517,
+      "replayed_original": 3522,
+      "original_still_positive_in_two_extra_seeds_on_replay": 0.998580352072686,
+      "confirmed_or_certified_all_maps": 5344,
+      "uncertain_on_unreplayed": 25,
+      "all_terrain_stable_fraction_bounds": [
+        0.9944175660588016,
+        0.9990695943431336
+      ],
+      "known_stable_detection_precision": 0.15714285714285714,
+      "known_stable_recall": 0.39520958083832336,
+      "known_stable_depth_MAE": 5.097841457692449,
+      "original_alternate_stats": [
+        {
+          "retained_fraction": 0.9991482112436116,
+          "max_change_dB": 26.34754180908203,
+          "median_p95_p99_change_dB": [
+            0.00034332275390625,
+            0.00777435302734375,
+            0.10197387695312532
+          ]
+        },
+        {
+          "retained_fraction": 0.9988642816581488,
+          "max_change_dB": 27.20923614501953,
+          "median_p95_p99_change_dB": [
+            0.00034332275390625,
+            0.00774383544921875,
+            0.09925079345703125
+          ]
+        }
+      ]
+    },
+    {
+      "original_events": 4402,
+      "certified_any_diffuse_seed": 3277,
+      "certified_fraction": 0.7444343480236256,
+      "empirically_stable_on_replayed": 2700,
+      "replayed_original": 2898,
+      "original_still_positive_in_two_extra_seeds_on_replay": 0.9316770186335404,
+      "confirmed_or_certified_all_maps": 3776,
+      "uncertain_on_unreplayed": 428,
+      "all_terrain_stable_fraction_bounds": [
+        0.8577919127669241,
+        0.9550204452521581
+      ],
+      "known_stable_detection_precision": 0.1582676265569649,
+      "known_stable_recall": 0.3667902542372881,
+      "known_stable_depth_MAE": 5.1655353853258035,
+      "original_alternate_stats": [
+        {
+          "retained_fraction": 0.9485852311939268,
+          "max_change_dB": 83.1337890625,
+          "median_p95_p99_change_dB": [
+            0.00049591064453125,
+            2.3670944213867005,
+            17.779355468749976
+          ]
+        },
+        {
+          "retained_fraction": 0.9499654934437544,
+          "max_change_dB": 82.79512023925781,
+          "median_p95_p99_change_dB": [
+            0.00049591064453125,
+            2.3767562866210907,
+            18.02998138427734
+          ]
+        }
+      ]
+    }
+  ]
+}

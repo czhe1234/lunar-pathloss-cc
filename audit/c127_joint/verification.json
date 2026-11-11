@@ -1,0 +1,9 @@
+{
+  "config_and_source_hashes_passed": true,
+  "all_grouped_TX_same_hm_row": true,
+  "independent_residual_scoring_passed": true,
+  "capacity_scoring_passed": true,
+  "official_val_used": false,
+  "independent_full_scoring_passed": true,
+  "monitor_gate_passed": false
+}

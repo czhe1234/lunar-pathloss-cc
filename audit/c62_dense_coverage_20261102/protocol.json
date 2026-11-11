@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-02",
+  "hypothesis": "C61 tiny network memorizes fixed1024 pixels: unseen pixels2.435/2.552 vs C38 1.961/2.197. Test whether denser pixel coverage improves interpolation on same terrain before any full-scale training.",
+  "variants": [
+    "fixed1024",
+    "dense61440"
+  ],
+  "same": "fourFITmaps0,2,3,4; C61path same exact initial weights;13image+294features+frozenC38;1000updates;4maps x256points; same seed/map-order/optimizer/lr; C38 input-only dense4096-batch predictions",
+  "holdout": "4096pixels per map sampled from outside fixed1024; both variants exclude these. Holdout never selects a checkpoint. Report final1000steps.",
+  "gate": "Both heldout RMSE reduction >=.25dB vs fixed and both improve beyond C38 before any full-scale expansion.",
+  "official_VAL_used": false
+}

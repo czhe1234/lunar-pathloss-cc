@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-02",
+  "question": "Does sampling all receiver pixels instead of a fixed1024 per map let the full-terrain network learn transferable propagation structure?",
+  "evidence": "On four FIT terrains, dense vs fixed coverage improved untouched-pixel RMSE .667/.695dB after matched4000updates; dense beats frozenC38 by .173/.280dB. This is not unseen-terrain validation.",
+  "variants": [
+    "fixed1024",
+    "dynamic65536"
+  ],
+  "shared": "C61path model; same dense-fourFIT warm encoder with output heads zeroed; all5508FITterrains/23158maps; seed20261210;16maps x256points;6000updates;AdamW.0005wd1e-4;cosine,warm200; stop >=4000 and patience2000.",
+  "features": "Arbitrary-pixel pipeline matches original294 features max4.58e-6, C38prediction RMSdifference .000238/.000345dB on4096knownpoints; input-only.",
+  "evaluation": "Unchanged sampledDEV612 (256points/map), minimum mean band RMSE selection; full-map DEV check only if both >=.15dB gain. OfficialVAL excluded from gradients/selection.",
+  "limits": "One seed. Common stopping rule may end at different steps; compare shared steps as well. FITmonitor pixels are not heldout."
+}

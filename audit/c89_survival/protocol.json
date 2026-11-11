@@ -1,0 +1,6 @@
+{
+  "base": "frozen internal C82; C88 result does not replace the baseline",
+  "evidence": "Pinned Sionna chooses interaction types using transmission/(reflection+transmission); finite observable positive power need not equal unconditional incident energy. C86 direct only had no such scene interaction.",
+  "scope": "TRAIN C79 terrain partition, across all 2562 maps and 2048 uniform points/map. Baseline, continuum, actual probability and permuted same-stratum probability at the identical points. Select on 48 terrains, never train on 484 confirmation terrains or official VAL. Masks only for loss/scoring.",
+  "gate": ">=0.08 dB on each band on confirmation sampled points to expand to dense internal confirmation; >=0.08 dB on both complete map confirmation bands to promote to official full VAL; major is >=0.30 dB on both full official VAL. Probe RMSE is not official."
+}

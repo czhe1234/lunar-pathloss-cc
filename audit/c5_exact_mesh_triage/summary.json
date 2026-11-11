@@ -1,0 +1,293 @@
+{
+  "scope": "64 distinct FIT terrains, 1024 fixed pixels per map, input-only geometric diagnostic; no official validation and no fitting",
+  "exactness": "For each hypothetical piecewise-planar mesh, maxima at grid-axis/diagonal breakpoints plus endpoints. Does not establish actual organizer mesh.",
+  "selection": [
+    {
+      "index_row": 0,
+      "terrain_id": "00000"
+    },
+    {
+      "index_row": 644,
+      "terrain_id": "00104"
+    },
+    {
+      "index_row": 1242,
+      "terrain_id": "00216"
+    },
+    {
+      "index_row": 1543,
+      "terrain_id": "00329"
+    },
+    {
+      "index_row": 1889,
+      "terrain_id": "00436"
+    },
+    {
+      "index_row": 2343,
+      "terrain_id": "00552"
+    },
+    {
+      "index_row": 2642,
+      "terrain_id": "00660"
+    },
+    {
+      "index_row": 3090,
+      "terrain_id": "00767"
+    },
+    {
+      "index_row": 3535,
+      "terrain_id": "00873"
+    },
+    {
+      "index_row": 3881,
+      "terrain_id": "00979"
+    },
+    {
+      "index_row": 4328,
+      "terrain_id": "01082"
+    },
+    {
+      "index_row": 4925,
+      "terrain_id": "01191"
+    },
+    {
+      "index_row": 5227,
+      "terrain_id": "01303"
+    },
+    {
+      "index_row": 5566,
+      "terrain_id": "01402"
+    },
+    {
+      "index_row": 6110,
+      "terrain_id": "01508"
+    },
+    {
+      "index_row": 6407,
+      "terrain_id": "01616"
+    },
+    {
+      "index_row": 6803,
+      "terrain_id": "01723"
+    },
+    {
+      "index_row": 7200,
+      "terrain_id": "01830"
+    },
+    {
+      "index_row": 7501,
+      "terrain_id": "01938"
+    },
+    {
+      "index_row": 7998,
+      "terrain_id": "02046"
+    },
+    {
+      "index_row": 8397,
+      "terrain_id": "02159"
+    },
+    {
+      "index_row": 8693,
+      "terrain_id": "02267"
+    },
+    {
+      "index_row": 9091,
+      "terrain_id": "02379"
+    },
+    {
+      "index_row": 9285,
+      "terrain_id": "02481"
+    },
+    {
+      "index_row": 9690,
+      "terrain_id": "02597"
+    },
+    {
+      "index_row": 10086,
+      "terrain_id": "02705"
+    },
+    {
+      "index_row": 10735,
+      "terrain_id": "02812"
+    },
+    {
+      "index_row": 11132,
+      "terrain_id": "02922"
+    },
+    {
+      "index_row": 11826,
+      "terrain_id": "03033"
+    },
+    {
+      "index_row": 12172,
+      "terrain_id": "03140"
+    },
+    {
+      "index_row": 12617,
+      "terrain_id": "03244"
+    },
+    {
+      "index_row": 13066,
+      "terrain_id": "03350"
+    },
+    {
+      "index_row": 13566,
+      "terrain_id": "03458"
+    },
+    {
+      "index_row": 13863,
+      "terrain_id": "03566"
+    },
+    {
+      "index_row": 14213,
+      "terrain_id": "03677"
+    },
+    {
+      "index_row": 14560,
+      "terrain_id": "03780"
+    },
+    {
+      "index_row": 15003,
+      "terrain_id": "03884"
+    },
+    {
+      "index_row": 15400,
+      "terrain_id": "03988"
+    },
+    {
+      "index_row": 15902,
+      "terrain_id": "04099"
+    },
+    {
+      "index_row": 16244,
+      "terrain_id": "04199"
+    },
+    {
+      "index_row": 16590,
+      "terrain_id": "04303"
+    },
+    {
+      "index_row": 16935,
+      "terrain_id": "04410"
+    },
+    {
+      "index_row": 17278,
+      "terrain_id": "04517"
+    },
+    {
+      "index_row": 17728,
+      "terrain_id": "04625"
+    },
+    {
+      "index_row": 18023,
+      "terrain_id": "04732"
+    },
+    {
+      "index_row": 18463,
+      "terrain_id": "04835"
+    },
+    {
+      "index_row": 18860,
+      "terrain_id": "04944"
+    },
+    {
+      "index_row": 19257,
+      "terrain_id": "05052"
+    },
+    {
+      "index_row": 19700,
+      "terrain_id": "05156"
+    },
+    {
+      "index_row": 19899,
+      "terrain_id": "05262"
+    },
+    {
+      "index_row": 20142,
+      "terrain_id": "05363"
+    },
+    {
+      "index_row": 20537,
+      "terrain_id": "05469"
+    },
+    {
+      "index_row": 21236,
+      "terrain_id": "05579"
+    },
+    {
+      "index_row": 21735,
+      "terrain_id": "05691"
+    },
+    {
+      "index_row": 21932,
+      "terrain_id": "05796"
+    },
+    {
+      "index_row": 22431,
+      "terrain_id": "05905"
+    },
+    {
+      "index_row": 22732,
+      "terrain_id": "06015"
+    },
+    {
+      "index_row": 23129,
+      "terrain_id": "06131"
+    },
+    {
+      "index_row": 23673,
+      "terrain_id": "06247"
+    },
+    {
+      "index_row": 24122,
+      "terrain_id": "06358"
+    },
+    {
+      "index_row": 24622,
+      "terrain_id": "06467"
+    },
+    {
+      "index_row": 25018,
+      "terrain_id": "06574"
+    },
+    {
+      "index_row": 25366,
+      "terrain_id": "06681"
+    },
+    {
+      "index_row": 25719,
+      "terrain_id": "06799"
+    }
+  ],
+  "summary": {
+    "sum_diagonal": {
+      "clearance_abs_difference_m": {
+        "0.5": 0.0018948192989967222,
+        "0.9": 0.024603081344439337,
+        "0.99": 0.07321909111475948,
+        "1.0": 0.16573188414210382
+      },
+      "visibility_sign_changed_pixels": 26,
+      "sampled_pixels": 65536,
+      "visibility_sign_change_fraction": 0.000396728515625
+    },
+    "difference_diagonal": {
+      "clearance_abs_difference_m": {
+        "0.5": 0.00194692018872509,
+        "0.9": 0.024603081344439337,
+        "0.99": 0.07423088449980542,
+        "1.0": 0.26888525511783534
+      },
+      "visibility_sign_changed_pixels": 21,
+      "sampled_pixels": 65536,
+      "visibility_sign_change_fraction": 0.0003204345703125
+    },
+    "between_triangulations": {
+      "sign_change_fraction": 0.0002899169921875,
+      "max_abs_clearance_m": 0.313407822642489
+    }
+  },
+  "plane_check_passed": true,
+  "seconds": 3.7990400791168213,
+  "script_sha256": "f679391fec2fa1a425f0b40b2bc85b86c73a709d2b59123fd6bf9138678da650"
+}

@@ -1,0 +1,30 @@
+{
+  "index": 0,
+  "sample_id": "00000_00",
+  "terrain_id": "00000",
+  "tx": [
+    62,
+    95,
+    23.0
+  ],
+  "tx_hypothesis": "floor",
+  "vertex_count": 65536,
+  "face_count": 130050,
+  "sionna": "1.1.0",
+  "backend": "LLVM CPU8",
+  "sampling": {
+    "map": -1,
+    "batches": 1024,
+    "samples": 4000000,
+    "resume": "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/audit/c40_rt_pilot_20261101/map0_floor_128x4000000",
+    "tx_height": "floor"
+  },
+  "scope": "Reconstructed 1m mesh, not recovered original mesh; TRAIN only",
+  "interactions": {
+    "max_depth": 100,
+    "los": true,
+    "specular_reflection": true,
+    "diffuse_reflection": true,
+    "refraction": true
+  }
+}

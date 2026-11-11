@@ -1,0 +1,80 @@
+{
+  "scope": "Frozen C10 FIT-point prediction on439 FIT confirmation terrains; not DEV or official score; coordinate thresholds calibrated on disjoint438 FIT terrains",
+  "baseline_RMSE": [
+    2.406018380836503,
+    2.614349838121832
+  ],
+  "groups": {
+    "unchanged": {
+      "valid_pixels": [
+        27533,
+        24381
+      ],
+      "fraction_valid": [
+        0.987872699221413,
+        0.9867254846412239
+      ],
+      "mean_truth_minus_C10": [
+        -0.004970763072815817,
+        -0.02460628046550761
+      ],
+      "RMSE": [
+        2.370881890516666,
+        2.559219121790694
+      ],
+      "SSE_fraction": [
+        0.9592304146528464,
+        0.9455486632411738
+      ]
+    },
+    "original_clear_new_blocked": {
+      "valid_pixels": [
+        82,
+        77
+      ],
+      "fraction_valid": [
+        0.002942126224390944,
+        0.003116273422639524
+      ],
+      "mean_truth_minus_C10": [
+        0.8419058264755621,
+        1.0377095210087763
+      ],
+      "RMSE": [
+        5.492611063885395,
+        6.498355035650865
+      ],
+      "SSE_fraction": [
+        0.015332787409917855,
+        0.01925373641768815
+      ]
+    },
+    "original_blocked_new_clear": {
+      "valid_pixels": [
+        256,
+        251
+      ],
+      "fraction_valid": [
+        0.009185174554196119,
+        0.01015824193613663
+      ],
+      "mean_truth_minus_C10": [
+        -0.5694553405046463,
+        -0.6663326552189679
+      ],
+      "RMSE": [
+        4.00392979419138,
+        4.866435301427122
+      ],
+      "SSE_fraction": [
+        0.025436797937249653,
+        0.03519760034113809
+      ]
+    }
+  },
+  "oracle_RMSE_if_every_pixel_with_changed_visibility_were_perfect": [
+    2.3564618391848646,
+    2.542176176857523
+  ],
+  "warning": "Oracle accounting is not an achievable predictor or an irreducible noise bound. Coordinate changes may also affect amplitudes without a visibility flip."
+}

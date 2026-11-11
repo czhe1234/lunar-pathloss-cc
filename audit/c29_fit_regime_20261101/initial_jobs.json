@@ -1,0 +1,32 @@
+[
+  {
+    "name": "hard_small",
+    "pid": 2000367,
+    "cmd": [
+      "./run_gpu.sh",
+      "1",
+      "src/c29_small_hard.py"
+    ]
+  },
+  {
+    "name": "bf16_smoke",
+    "pid": 2000368,
+    "cmd": [
+      "./run_gpu.sh",
+      "3",
+      "src/c29_fit128.py",
+      "--smoke"
+    ]
+  },
+  {
+    "name": "fp32_smoke",
+    "pid": 2000369,
+    "cmd": [
+      "./run_gpu.sh",
+      "4",
+      "src/c29_fit128.py",
+      "--fp32",
+      "--smoke"
+    ]
+  }
+]

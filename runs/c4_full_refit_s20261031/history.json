@@ -1,0 +1,90 @@
+[
+  {
+    "epoch": 1,
+    "lr": 4.8135048546526525e-05,
+    "train_rmse_proxy": 4.159336566925049,
+    "pair_mse_normalized": 0.015040331520140171,
+    "processed_maps": 29400,
+    "train_seconds": 143.92208671569824,
+    "elapsed_seconds": 143.92292070388794,
+    "dev": null,
+    "peak_memory_GB": 79.699040768
+  },
+  {
+    "epoch": 2,
+    "lr": 8.564823227814083e-05,
+    "train_rmse_proxy": 4.148871898651123,
+    "pair_mse_normalized": 0.014727972447872162,
+    "processed_maps": 29400,
+    "train_seconds": 67.22716474533081,
+    "elapsed_seconds": 211.45268607139587,
+    "dev": null,
+    "peak_memory_GB": 79.699040768
+  },
+  {
+    "epoch": 3,
+    "lr": 6.975148818588941e-05,
+    "train_rmse_proxy": 4.129716873168945,
+    "pair_mse_normalized": 0.01467892900109291,
+    "processed_maps": 29400,
+    "train_seconds": 68.25653290748596,
+    "elapsed_seconds": 282.25076270103455,
+    "dev": null,
+    "peak_memory_GB": 79.699040768
+  },
+  {
+    "epoch": 4,
+    "lr": 5.1000000000000006e-05,
+    "train_rmse_proxy": 4.10470724105835,
+    "pair_mse_normalized": 0.014563655480742455,
+    "processed_maps": 29400,
+    "train_seconds": 67.42161750793457,
+    "elapsed_seconds": 350.39239716529846,
+    "dev": null,
+    "peak_memory_GB": 79.699040768
+  },
+  {
+    "epoch": 5,
+    "lr": 3.2248511814110604e-05,
+    "train_rmse_proxy": 4.054121017456055,
+    "pair_mse_normalized": 0.014025495387613773,
+    "processed_maps": 29400,
+    "train_seconds": 67.27159190177917,
+    "elapsed_seconds": 419.50768876075745,
+    "dev": null,
+    "peak_memory_GB": 79.699040768
+  },
+  {
+    "epoch": 6,
+    "lr": 1.6351767721859175e-05,
+    "train_rmse_proxy": 4.000481605529785,
+    "pair_mse_normalized": 0.013719115406274796,
+    "processed_maps": 29400,
+    "train_seconds": 67.66920280456543,
+    "elapsed_seconds": 487.94943475723267,
+    "dev": null,
+    "peak_memory_GB": 79.699040768
+  },
+  {
+    "epoch": 7,
+    "lr": 5.729902906946951e-06,
+    "train_rmse_proxy": 3.955963134765625,
+    "pair_mse_normalized": 0.013584259897470474,
+    "processed_maps": 29400,
+    "train_seconds": 67.16315579414368,
+    "elapsed_seconds": 555.9063906669617,
+    "dev": null,
+    "peak_memory_GB": 79.699040768
+  },
+  {
+    "epoch": 8,
+    "lr": 2.0000000000000003e-06,
+    "train_rmse_proxy": 3.927487850189209,
+    "pair_mse_normalized": 0.013269048184156418,
+    "processed_maps": 29400,
+    "train_seconds": 67.1135561466217,
+    "elapsed_seconds": 623.8104791641235,
+    "dev": null,
+    "peak_memory_GB": 79.699040768
+  }
+]

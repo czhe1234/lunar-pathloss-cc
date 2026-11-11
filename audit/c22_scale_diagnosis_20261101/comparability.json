@@ -1,0 +1,9 @@
+{
+  "full_pair_initial_weights_match": true,
+  "full_pair_map_order_match": true,
+  "model_sha256": "c9b57c170352b2492ef0df3097c8995de397faf408ec6b928724a38b6bc88437",
+  "map_order_sha256": "60058dfbb7351af7dc27c356716887e07ce6fb7f1a50aa8d1cc5398b44e10561",
+  "query_order_pending_until_completion": false,
+  "full_pair_query_order_match": true,
+  "query_order_sha256": "64dc2c05306203a90a32a2f913ce3418edcbe2221504a43ff60cc7971359d96f"
+}

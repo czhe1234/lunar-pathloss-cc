@@ -1,0 +1,48 @@
+{
+  "state": "completed",
+  "seconds": 202.13372039794922,
+  "CPU_workers": 8,
+  "query_pixels_per_map": 128,
+  "operator_names": [
+    "point",
+    "centroid",
+    "area4",
+    "area16",
+    "centroid_dbinterp",
+    "area4_dbinterp",
+    "area16_dbinterp",
+    "centroid_fixed_diffuse",
+    "area4_fixed_diffuse",
+    "area16_fixed_diffuse"
+  ],
+  "operator_loss_shape": [
+    612,
+    128,
+    2,
+    10,
+    2
+  ],
+  "component_power_names": [
+    "direct415",
+    "diffuse415",
+    "direct58",
+    "diffuse58",
+    "visible_fraction"
+  ],
+  "component_operator_names": [
+    "point",
+    "centroid",
+    "area4",
+    "area16"
+  ],
+  "C10_control_names": [
+    "fivepoint_dB",
+    "fivepoint_linear_power"
+  ],
+  "source_hashes": {
+    "scripts/c20_build_observations.py": "05e5aff3ee86c860ca09db940c18a464fd864aca97c50745ad842f3c9107dedb",
+    "src/c20_observation.py": "d7e333f2640e8b869e27bd24a549fe48274a15551b04556b1416793572e3bc19",
+    "src/c20_triangle_transport.cpp": "d87d33287480ae4ababd63455da4a07700c18409da578b7bcb8ed1cbccfb5a97"
+  },
+  "point_and_cell_surrogate_fields_do_not_use_labels_masks_or_C10": true
+}

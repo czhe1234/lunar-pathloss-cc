@@ -1,0 +1,28 @@
+{
+  "question": "Can a frequency-aware ordered-profile residual network improve C38 when it retains all294 descriptors and trains on all5508 FIT terrains?",
+  "created": "2026-11-02",
+  "seed": 20261102,
+  "data": "Existing C38 FIT1024pixels/map and C10 DEV256pixels/map; terrain split unchanged; no official VAL used for training/selection.",
+  "teacher": "runs/c38_1024_continue/best.pt; frozen; normalized FSPL-residual predictions cached from X only, no labels/masks.",
+  "models": [
+    "flat",
+    "conv",
+    "attention"
+  ],
+  "inputs": "All294 existing physical descriptors, plus deterministic nominal/empirical-phase Fresnel scales and geometric excess-length phases from the same128-point profiles.",
+  "physics_limit": "Raster phase is a candidate hypothesis; sampled surface detour is not a recovered true multipath component.",
+  "tiny_fit": "First4 distinct FIT terrains, one map each,1024 fixed sampled pixels/map;1000updates,1024batch; this is FIT-only capacity measurement, not validation.",
+  "full_fit": "All three variants, same4096batch, max12000updates, all5508 FIT terrains, identical sampled point stream; monitor every1000. This expands original two-arm plan to use the three authorized cards; declared before any full-data candidate is launched.",
+  "selection": "Minimum mean of two DEV RMSEs; zero-correction C38 baseline eligible; patience3000 after step4000.",
+  "promotion": "Both sampled DEV gains>=0.10dB before complete DEV64 replay. Full612-terrain replay if both fullDEV64 gains>=0.10dB. Official VAL after fullTRAIN refit with DEV-selected fixed exposure.",
+  "large_gain_target": "Substantial reduction toward<=1dB both bands; a screen pass is not target completion.",
+  "stop": "No blind extension of a candidate if both training residual fitting and DEV have stalled.",
+  "hardware": "Physical1/3/4 via full UUID in run_gpu.sh only",
+  "sources": [
+    "https://arxiv.org/abs/2410.24210",
+    "https://arxiv.org/abs/2403.00229",
+    "https://www.itu.int/rec/R-REC-P.526/en"
+  ],
+  "independent_implementation": true,
+  "batch_choice": "4096: flat/attention gain throughput; conv4096 approximately same throughput as2048. Common batch preserves matched point exposure and updates."
+}

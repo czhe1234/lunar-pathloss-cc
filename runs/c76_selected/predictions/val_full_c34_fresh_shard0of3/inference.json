@@ -1,0 +1,25 @@
+{
+  "complete": true,
+  "maps": 900,
+  "source": "raw released VAL height and TX only",
+  "target_or_masks_used": false,
+  "gpu": {
+    "uuid": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+    "logical_device": 0,
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_bytes": 84929347584,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "freeze_sha256": "96b5494966ccd330dcb341ccfdfae0f60f20bdc76cf159f77c01e87be6db3070",
+  "resumed_at": 0,
+  "warm_mean": 0.25839513062278807,
+  "warm_p95": 0.2689453511498868,
+  "first_seconds": 9.432370103895664,
+  "elapsed_seconds": 245.09420212171972,
+  "all_map_count": 900,
+  "all_over_500ms": 2,
+  "warm_run_over_500ms": 1,
+  "warm_run_count": 899,
+  "warm_max": 0.5013927295804024
+}

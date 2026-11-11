@@ -1,0 +1,20 @@
+{
+  "band": 0,
+  "trees": 3000,
+  "capacity_diagnostic": true,
+  "selected_on_monitor": false,
+  "official_val_used": false,
+  "fit": {
+    "tail_RMSE": 2.0191660352207537,
+    "weighted_tail_RMSE": 0.8532801533093973,
+    "sign_accuracy": 0.9945761633864528,
+    "points": 169806
+  },
+  "monitor": {
+    "tail_RMSE": 8.683146327313034,
+    "weighted_tail_RMSE": 8.683146327313034,
+    "sign_accuracy": 0.6487636045202452,
+    "points": 47962
+  },
+  "seconds": 116.50376226502704
+}

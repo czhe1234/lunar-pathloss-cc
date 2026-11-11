@@ -1,0 +1,582 @@
+{
+  "scope": "Frozen C141 diagnostic FIT panel; 22 finite counterexamples and 80 ordinary controls on the same 10 terrain/TX maps",
+  "frequencies_hz": [
+    415000000,
+    5775000000
+  ],
+  "active_weight_strictly_above": 1e-12,
+  "violation_db_strictly_above": 1.0,
+  "alternate_stencil": "C94 archived default query grid with Sionna/DrJit centroids under NumPy 1.26.4; a candidate for the same physical receiver mesh",
+  "sources": [
+    {
+      "path": "audit/c141_direct_receiver/remaining_finite_counterexamples.csv",
+      "sha256": "507c397f440ea4b89c00e4f24a5dfec45e619f0d0bb6c2d115e5f7f668b60cfe"
+    },
+    {
+      "path": "audit/c141_direct_receiver/fit_panel.json",
+      "sha256": "38f09bfca6f50bc9ee2726a55fcee4cad60992042d066a84dcc7df4b4cd1dea0"
+    },
+    {
+      "path": "audit/c94_measurement/templates_numpy126/sionna_centers_default.npz",
+      "sha256": "d9e5d6f0943274c1009b2e41a9985dac85e9daeec54a06371e696b783dfb4e74"
+    },
+    {
+      "path": "audit/c141_direct_receiver/fit_replay/2003.npz",
+      "sha256": "6a503b30effec0fd4eee8bba1f4412454f15a512ba03bd5691099f62dc588b70"
+    },
+    {
+      "path": "audit/c141_direct_receiver/fit_replay/3970.npz",
+      "sha256": "61fd3e60932d5d506c3db4cba638fb3806858802fc27cc0eb1e9cde5d9e4ff68"
+    },
+    {
+      "path": "audit/c141_direct_receiver/fit_replay/1551.npz",
+      "sha256": "e81e327bbb862f336e21883f5ef2ed7f420252472587e5e768697f23d8efcc7e"
+    },
+    {
+      "path": "audit/c141_direct_receiver/fit_replay/452.npz",
+      "sha256": "b03be533460a9fd5999faf5acf3179538591220ff45fcb4bf56a9be1ab7be678"
+    },
+    {
+      "path": "audit/c141_direct_receiver/fit_replay/503.npz",
+      "sha256": "df34e6ccb5ed4c5363083035548f02a073f66b6e87f7bcf26bca9aebfe77d50e"
+    },
+    {
+      "path": "audit/c141_direct_receiver/fit_replay/2592.npz",
+      "sha256": "663734201774a1c77f10a0a58ceebc64f1e2152e86b583e27d5f587079b0c17b"
+    },
+    {
+      "path": "audit/c141_direct_receiver/fit_replay/1819.npz",
+      "sha256": "36138bd67d433c5562a86f4547c0a94b8cc1613db074ecb7ad9b78c73793f80b"
+    },
+    {
+      "path": "audit/c141_direct_receiver/fit_replay/1649.npz",
+      "sha256": "77d2de2b8dcf01d8bf2ffc82df8369841bfdc44d0c80c11a88ea3eaae9a4d9a6"
+    },
+    {
+      "path": "audit/c141_direct_receiver/fit_replay/1095.npz",
+      "sha256": "efa2a95b688d48c44aa274a07f16eead64f153f04fac0d30fa51b168b09ace21"
+    },
+    {
+      "path": "audit/c141_direct_receiver/fit_replay/2539.npz",
+      "sha256": "efb7555613c03e06f57e6b3f0f47d58bc4e256cb802a606d0096d5391a8a3452"
+    }
+  ],
+  "summary": {
+    "counterexamples": {
+      "points": 22,
+      "same_positive_donor_set": 12,
+      "uncached_alternate_donor": 10,
+      "zero_power_uninformative": 0,
+      "finite_all_alternate_donors": 12,
+      "finite_above_1_db_in_either_band": 12,
+      "finite_above_1_db_in_both_bands": 12
+    },
+    "ordinary_controls_on_same_maps": {
+      "points": 80,
+      "same_positive_donor_set": 41,
+      "uncached_alternate_donor": 39,
+      "zero_power_uninformative": 0,
+      "finite_all_alternate_donors": 41,
+      "finite_above_1_db_in_either_band": 0,
+      "finite_above_1_db_in_both_bands": 0
+    }
+  },
+  "cases": [
+    {
+      "map": 2003,
+      "sample_id": "00452_00",
+      "row": 248,
+      "col": 6,
+      "current_positive_donors": [
+        63245,
+        128016,
+        128271
+      ],
+      "alternate_positive_donors": [
+        63245,
+        128016,
+        128271
+      ],
+      "same_positive_donor_set": true,
+      "uncached_alternate_donors": [],
+      "zero_power_uninformative": false,
+      "label_minus_weakest_direct_db": [
+        3.8377577540702816,
+        3.842679917028505
+      ]
+    },
+    {
+      "map": 3970,
+      "sample_id": "00997_23",
+      "row": 23,
+      "col": 200,
+      "current_positive_donors": [
+        6064,
+        6065,
+        70835
+      ],
+      "alternate_positive_donors": [
+        6064,
+        70835,
+        71090
+      ],
+      "same_positive_donor_set": false,
+      "uncached_alternate_donors": [
+        71090
+      ],
+      "zero_power_uninformative": null,
+      "label_minus_weakest_direct_db": null
+    },
+    {
+      "map": 1551,
+      "sample_id": "00339_00",
+      "row": 226,
+      "col": 154,
+      "current_positive_donors": [
+        57528,
+        57783,
+        122554
+      ],
+      "alternate_positive_donors": [
+        57528,
+        57783,
+        122554
+      ],
+      "same_positive_donor_set": true,
+      "uncached_alternate_donors": [],
+      "zero_power_uninformative": false,
+      "label_minus_weakest_direct_db": [
+        18.689705569578223,
+        19.632127732536432
+      ]
+    },
+    {
+      "map": 452,
+      "sample_id": "00058_00",
+      "row": 255,
+      "col": 154,
+      "current_positive_donors": [
+        129948,
+        129949
+      ],
+      "alternate_positive_donors": [
+        129948,
+        129949
+      ],
+      "same_positive_donor_set": true,
+      "uncached_alternate_donors": [],
+      "zero_power_uninformative": false,
+      "label_minus_weakest_direct_db": [
+        35.95720726995813,
+        25.774629432916342
+      ]
+    },
+    {
+      "map": 503,
+      "sample_id": "00073_38",
+      "row": 52,
+      "col": 220,
+      "current_positive_donors": [
+        13224,
+        13479,
+        78250
+      ],
+      "alternate_positive_donors": [
+        13479,
+        78249,
+        78250
+      ],
+      "same_positive_donor_set": false,
+      "uncached_alternate_donors": [
+        78249
+      ],
+      "zero_power_uninformative": null,
+      "label_minus_weakest_direct_db": null
+    },
+    {
+      "map": 503,
+      "sample_id": "00073_38",
+      "row": 216,
+      "col": 170,
+      "current_positive_donors": [
+        55249,
+        120019,
+        120020
+      ],
+      "alternate_positive_donors": [
+        54994,
+        55249,
+        120020
+      ],
+      "same_positive_donor_set": false,
+      "uncached_alternate_donors": [
+        54994
+      ],
+      "zero_power_uninformative": null,
+      "label_minus_weakest_direct_db": null
+    },
+    {
+      "map": 503,
+      "sample_id": "00073_38",
+      "row": 252,
+      "col": 143,
+      "current_positive_donors": [
+        64402,
+        129172,
+        129173
+      ],
+      "alternate_positive_donors": [
+        64402,
+        129172,
+        129173
+      ],
+      "same_positive_donor_set": true,
+      "uncached_alternate_donors": [],
+      "zero_power_uninformative": false,
+      "label_minus_weakest_direct_db": [
+        7.453961217417515,
+        6.896383380375724
+      ]
+    },
+    {
+      "map": 2592,
+      "sample_id": "00644_15",
+      "row": 210,
+      "col": 178,
+      "current_positive_donors": [
+        53472,
+        53727,
+        118498
+      ],
+      "alternate_positive_donors": [
+        53472,
+        53727,
+        118498
+      ],
+      "same_positive_donor_set": true,
+      "uncached_alternate_donors": [],
+      "zero_power_uninformative": false,
+      "label_minus_weakest_direct_db": [
+        14.908703947855287,
+        23.038626110813496
+      ]
+    },
+    {
+      "map": 2592,
+      "sample_id": "00644_15",
+      "row": 18,
+      "col": 164,
+      "current_positive_donors": [
+        4753,
+        69524,
+        69779
+      ],
+      "alternate_positive_donors": [
+        4753,
+        4754,
+        69524
+      ],
+      "same_positive_donor_set": false,
+      "uncached_alternate_donors": [
+        4754
+      ],
+      "zero_power_uninformative": null,
+      "label_minus_weakest_direct_db": null
+    },
+    {
+      "map": 1819,
+      "sample_id": "00414_00",
+      "row": 23,
+      "col": 38,
+      "current_positive_donors": [
+        5902,
+        5903,
+        70673
+      ],
+      "alternate_positive_donors": [
+        5902,
+        70673,
+        70928
+      ],
+      "same_positive_donor_set": false,
+      "uncached_alternate_donors": [
+        70928
+      ],
+      "zero_power_uninformative": null,
+      "label_minus_weakest_direct_db": null
+    },
+    {
+      "map": 1819,
+      "sample_id": "00414_00",
+      "row": 197,
+      "col": 249,
+      "current_positive_donors": [
+        50483,
+        115253,
+        115254
+      ],
+      "alternate_positive_donors": [
+        50228,
+        50483,
+        115254
+      ],
+      "same_positive_donor_set": false,
+      "uncached_alternate_donors": [
+        50228
+      ],
+      "zero_power_uninformative": null,
+      "label_minus_weakest_direct_db": null
+    },
+    {
+      "map": 1819,
+      "sample_id": "00414_00",
+      "row": 195,
+      "col": 249,
+      "current_positive_donors": [
+        49973,
+        114743,
+        114744
+      ],
+      "alternate_positive_donors": [
+        49718,
+        49973,
+        114744
+      ],
+      "same_positive_donor_set": false,
+      "uncached_alternate_donors": [
+        49718
+      ],
+      "zero_power_uninformative": null,
+      "label_minus_weakest_direct_db": null
+    },
+    {
+      "map": 1649,
+      "sample_id": "00379_10",
+      "row": 0,
+      "col": 14,
+      "current_positive_donors": [
+        13,
+        14
+      ],
+      "alternate_positive_donors": [
+        13,
+        14
+      ],
+      "same_positive_donor_set": true,
+      "uncached_alternate_donors": [],
+      "zero_power_uninformative": false,
+      "label_minus_weakest_direct_db": [
+        40.92752983561181,
+        41.11995199857003
+      ]
+    },
+    {
+      "map": 1649,
+      "sample_id": "00379_10",
+      "row": 106,
+      "col": 203,
+      "current_positive_donors": [
+        27232,
+        92002,
+        92003
+      ],
+      "alternate_positive_donors": [
+        26977,
+        27232,
+        92003
+      ],
+      "same_positive_donor_set": false,
+      "uncached_alternate_donors": [
+        26977
+      ],
+      "zero_power_uninformative": null,
+      "label_minus_weakest_direct_db": null
+    },
+    {
+      "map": 1095,
+      "sample_id": "00187_30",
+      "row": 255,
+      "col": 9,
+      "current_positive_donors": [
+        129803,
+        129804
+      ],
+      "alternate_positive_donors": [
+        129803,
+        129804
+      ],
+      "same_positive_donor_set": true,
+      "uncached_alternate_donors": [],
+      "zero_power_uninformative": false,
+      "label_minus_weakest_direct_db": [
+        39.57340279359197,
+        38.390824956550176
+      ]
+    },
+    {
+      "map": 1095,
+      "sample_id": "00187_30",
+      "row": 3,
+      "col": 211,
+      "current_positive_donors": [
+        975,
+        976,
+        65746
+      ],
+      "alternate_positive_donors": [
+        975,
+        976,
+        65746
+      ],
+      "same_positive_donor_set": true,
+      "uncached_alternate_donors": [],
+      "zero_power_uninformative": false,
+      "label_minus_weakest_direct_db": [
+        21.926059271583114,
+        27.555981434541337
+      ]
+    },
+    {
+      "map": 1095,
+      "sample_id": "00187_30",
+      "row": 181,
+      "col": 79,
+      "current_positive_donors": [
+        45978,
+        46233,
+        111004
+      ],
+      "alternate_positive_donors": [
+        45978,
+        46233,
+        111004
+      ],
+      "same_positive_donor_set": true,
+      "uncached_alternate_donors": [],
+      "zero_power_uninformative": false,
+      "label_minus_weakest_direct_db": [
+        20.12179512286447,
+        20.25171728582268
+      ]
+    },
+    {
+      "map": 1095,
+      "sample_id": "00187_30",
+      "row": 193,
+      "col": 117,
+      "current_positive_donors": [
+        49331,
+        114101,
+        114102
+      ],
+      "alternate_positive_donors": [
+        49331,
+        114101,
+        114102
+      ],
+      "same_positive_donor_set": true,
+      "uncached_alternate_donors": [],
+      "zero_power_uninformative": false,
+      "label_minus_weakest_direct_db": [
+        22.22336447071025,
+        21.97828663366846
+      ]
+    },
+    {
+      "map": 2539,
+      "sample_id": "00602_00",
+      "row": 123,
+      "col": 224,
+      "current_positive_donors": [
+        31333,
+        31588,
+        96359
+      ],
+      "alternate_positive_donors": [
+        31588,
+        96358,
+        96359
+      ],
+      "same_positive_donor_set": false,
+      "uncached_alternate_donors": [
+        96358
+      ],
+      "zero_power_uninformative": null,
+      "label_minus_weakest_direct_db": null
+    },
+    {
+      "map": 2539,
+      "sample_id": "00602_00",
+      "row": 177,
+      "col": 215,
+      "current_positive_donors": [
+        45349,
+        110119,
+        110120
+      ],
+      "alternate_positive_donors": [
+        45094,
+        45349,
+        110120
+      ],
+      "same_positive_donor_set": false,
+      "uncached_alternate_donors": [
+        45094
+      ],
+      "zero_power_uninformative": null,
+      "label_minus_weakest_direct_db": null
+    },
+    {
+      "map": 2539,
+      "sample_id": "00602_00",
+      "row": 142,
+      "col": 8,
+      "current_positive_donors": [
+        36217,
+        100988,
+        101243
+      ],
+      "alternate_positive_donors": [
+        36217,
+        100988,
+        101243
+      ],
+      "same_positive_donor_set": true,
+      "uncached_alternate_donors": [],
+      "zero_power_uninformative": false,
+      "label_minus_weakest_direct_db": [
+        17.901832849914342,
+        19.78175501287255
+      ]
+    },
+    {
+      "map": 2539,
+      "sample_id": "00602_00",
+      "row": 122,
+      "col": 224,
+      "current_positive_donors": [
+        31078,
+        31333,
+        96104
+      ],
+      "alternate_positive_donors": [
+        31078,
+        31333,
+        96104
+      ],
+      "same_positive_donor_set": true,
+      "uncached_alternate_donors": [],
+      "zero_power_uninformative": false,
+      "label_minus_weakest_direct_db": [
+        14.99201422670366,
+        15.184436389661869
+      ]
+    }
+  ],
+  "limits": [
+    "Unknown donors were absent from the frozen C141 cache. No power was inferred for them.",
+    "The bound covers any convex interpolation of the known positive-weight donors. It does not measure ordinary-point prediction RMSE.",
+    "The stencil is an archived candidate. Exact competition export coordinates, donor selection, and ray-tracing backend remain unverified.",
+    "This is cache-only CPU scoring. No ray tracing or validation data were used."
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "mode": "plain",
+  "GPU": {
+    "uuid": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+    "logical_device": 0,
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_bytes": 84929347584,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "initial_sha256": "1480d8da30e7532d4e2ec71fc13a795a01aa65a8ed5d4a15e2f3131bd2b8df01",
+  "parent": "runs/c117_factorized/best.pt",
+  "prior": [
+    [
+      0.01568000018596649,
+      0.9595731496810913,
+      0.0247468501329422
+    ],
+    [
+      0.019943438470363617,
+      0.9525801539421082,
+      0.02747642807662487
+    ]
+  ],
+  "batch": 8,
+  "epochs": 8,
+  "aux_weight": 0.0,
+  "official_val_used": false
+}

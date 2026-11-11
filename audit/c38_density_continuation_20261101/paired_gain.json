@@ -1,0 +1,31 @@
+{
+  "scope": "Complete internalDEV; paired terrain bootstrap,not independent official validation",
+  "terrains": 612,
+  "C37_RMSE": [
+    2.6906459074356452,
+    3.0416423121981793
+  ],
+  "C38_RMSE": [
+    2.6441450259495287,
+    2.996100891912386
+  ],
+  "C37_minus_C38_95pct_interval_db": [
+    [
+      0.04144628832813605,
+      0.051359836838565154
+    ],
+    [
+      0.03469976166731581,
+      0.05515566417836527
+    ]
+  ],
+  "terrain_improved_counts": [
+    606,
+    543
+  ],
+  "maps_improved_counts": [
+    2513,
+    2312
+  ],
+  "maps": 2562
+}

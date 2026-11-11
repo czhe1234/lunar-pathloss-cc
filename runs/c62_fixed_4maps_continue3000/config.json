@@ -1,0 +1,25 @@
+{
+  "coverage": "fixed",
+  "name": "c62_fixed_4maps_continue3000",
+  "steps": 3000,
+  "parent": "c62_fixed_4maps",
+  "variant": "path",
+  "scope": "fourFITterrains_pixelcoverage_control",
+  "gpu": {
+    "uuid": "GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0",
+    "logical_device": 0,
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_bytes": 84929347584,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "seed": 20261208,
+  "holdout_seed": 20261209,
+  "pixels_per_map": 1024,
+  "holdout_pixels_per_map": 4096,
+  "batch_maps": 4,
+  "points_per_map": 256,
+  "official_VAL_used": false,
+  "selection": "fixed requested budget; holdout never selects checkpoints",
+  "initial_state_sha256": "1dc28d7fefaa80ca304c87bad29f89ebafa431d320204cf33dc46df663b75a0d"
+}

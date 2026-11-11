@@ -1,0 +1,20 @@
+{
+  "pid": 3277684,
+  "card": 3,
+  "command": [
+    "./run_gpu.sh",
+    "3",
+    "src/c46_train.py",
+    "--variant",
+    "path",
+    "--stage",
+    "fit64",
+    "--batch",
+    "16",
+    "--name",
+    "c46_residual_fit64",
+    "--screen-steps",
+    "1000"
+  ],
+  "free_MiB": 52058
+}

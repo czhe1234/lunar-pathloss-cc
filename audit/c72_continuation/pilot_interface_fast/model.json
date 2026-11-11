@@ -1,0 +1,6 @@
+{
+  "baseline": "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/runs/c54_combo_dev",
+  "correction": "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/runs/c72_observed/best.pt",
+  "graph_weight": 0,
+  "fast_descriptors": true
+}

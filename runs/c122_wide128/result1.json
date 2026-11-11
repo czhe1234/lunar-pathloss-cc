@@ -1,0 +1,11 @@
+{
+  "mode": "wide128",
+  "band": 1,
+  "conditional_sign_accuracy": 0.6300739554032153,
+  "majority_accuracy": 0.593766882137069,
+  "logloss": 0.5871900733182915,
+  "trees": 153,
+  "seconds": 5.627730063977651,
+  "oracle_gate": true,
+  "official_val_used": false
+}

@@ -1,0 +1,84 @@
+{
+  "scope": "Original1024 FIT terrains excluding all248 nearfield-fit terrains. Remaining terrains split disjointly for vertical-offset calibration/confirmation. No internal DEV/official VAL.",
+  "terrains_total": 877,
+  "calibration_terrains": 438,
+  "confirmation_terrains": 439,
+  "confirmation_counts": {
+    "clear": 19320,
+    "blocked": 4291
+  },
+  "affine_center_matrix": [
+    [
+      0.998667265665558,
+      6.453239869284752e-05
+    ],
+    [
+      5.950597150007782e-06,
+      0.9987579163584686
+    ]
+  ],
+  "affine_center_intercept": [
+    0.6620945811018083,
+    -0.3445476564022031
+  ],
+  "cases": {
+    "TX_floor_original": {
+      "calibrated_TX_vertical_offset": -0.1500000000000048,
+      "calibration_BA": 0.9577709516179511,
+      "confirmation_BA": 0.9643351521046748,
+      "clear_recall": 0.9848343685300207,
+      "blocked_recall": 0.9438359356793288,
+      "confirmation_BA_delta_vs_original_pp": 0.0
+    },
+    "TX_constant_shift": {
+      "calibrated_TX_vertical_offset": -0.10000000000000497,
+      "calibration_BA": 0.9586158157190379,
+      "confirmation_BA": 0.9652920757635631,
+      "clear_recall": 0.9890786749482402,
+      "blocked_recall": 0.9415054765788861,
+      "confirmation_BA_delta_vs_original_pp": 0.09569236588883312
+    },
+    "TX_affine_given_height": {
+      "calibrated_TX_vertical_offset": -0.10000000000000497,
+      "calibration_BA": 0.9588025979267469,
+      "confirmation_BA": 0.9652143093566243,
+      "clear_recall": 0.9893892339544513,
+      "blocked_recall": 0.9410393847587974,
+      "confirmation_BA_delta_vs_original_pp": 0.08791572519495361
+    },
+    "TX_affine_resampled_height": {
+      "calibrated_TX_vertical_offset": -0.07500000000000506,
+      "calibration_BA": 0.9598534229675524,
+      "confirmation_BA": 0.9676605314797739,
+      "clear_recall": 0.992184265010352,
+      "blocked_recall": 0.943136797949196,
+      "confirmation_BA_delta_vs_original_pp": 0.33253793750991356
+    },
+    "RX_constant_shift": {
+      "calibrated_TX_vertical_offset": -0.25000000000000444,
+      "calibration_BA": 0.9566201090660312,
+      "confirmation_BA": 0.9607773600964606,
+      "clear_recall": 0.9751552795031055,
+      "blocked_recall": 0.9463994406898159,
+      "confirmation_BA_delta_vs_original_pp": -0.35577920082141556
+    },
+    "RX_inverse_affine_resampled_height": {
+      "calibrated_TX_vertical_offset": -0.25000000000000444,
+      "calibration_BA": 0.9567551341183134,
+      "confirmation_BA": 0.9605314375555173,
+      "clear_recall": 0.974896480331263,
+      "blocked_recall": 0.9461663947797716,
+      "confirmation_BA_delta_vs_original_pp": -0.3803714549157511
+    },
+    "RX_inverse_affine_given_height": {
+      "calibrated_TX_vertical_offset": -0.1750000000000047,
+      "calibration_BA": 0.952172049868409,
+      "confirmation_BA": 0.9589766160382871,
+      "clear_recall": 0.9792443064182195,
+      "blocked_recall": 0.9387089256583547,
+      "confirmation_BA_delta_vs_original_pp": -0.5358536066387698
+    }
+  },
+  "seconds": 1.9735100269317627,
+  "training": false
+}

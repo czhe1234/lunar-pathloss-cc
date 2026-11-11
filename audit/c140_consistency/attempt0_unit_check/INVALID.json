@@ -1,0 +1,4 @@
+{
+  "status": "invalid internal audit attempt; not a scientific result",
+  "reason": "C135/C132 caches contain normalized squared-field factor, not channel gain; missing (wavelength/4pi)^2. Also FP32 long-axis metric accumulation replaced with FP64."
+}

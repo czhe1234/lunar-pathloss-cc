@@ -1,0 +1,25 @@
+{
+  "original_raw_file_stats_unchanged": {
+    "README.md": true,
+    "metadata.json": true,
+    "manifest.json": true,
+    "train_index.csv": true,
+    "val_index.csv": true,
+    "val_terrains.txt": true,
+    "sample_submission.csv": true,
+    "subset_index.csv": true,
+    "train_hm.npy": true,
+    "train_pl415.npy": true,
+    "train_pl58.npy": true,
+    "train_mask415.npy": true,
+    "train_mask58.npy": true,
+    "val_hm.npy": true,
+    "val_pl415.npy": true,
+    "val_pl58.npy": true,
+    "val_mask415.npy": true,
+    "val_mask58.npy": true
+  },
+  "C4_full_checkpoint_sha256": "4355f5e831aa280bf502c01488f823d67eee389e769e8d616644fa9d9a9ca907",
+  "C4_unchanged": true,
+  "read_scope_note": "Own CC implementation and outputs, published raw files, and official public sources only."
+}

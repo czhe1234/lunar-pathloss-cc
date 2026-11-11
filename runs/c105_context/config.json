@@ -1,0 +1,23 @@
+{
+  "mode": "context",
+  "GPU": {
+    "uuid": "GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0",
+    "logical_device": 0,
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_bytes": 84929347584,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "parameters": 1215234,
+  "initial_state_sha256": "ea08f5b7a3ca0da82c2f7ed48d30b84c9f4298650789ec480d66761330b020e0",
+  "epochs": 6,
+  "batch": 16,
+  "fit_maps": 2815,
+  "fit_terrains": 1984,
+  "monitor_maps": 628,
+  "source": "C99global epoch11 feature extractor; oldhead discarded; allparameters trainable; both arms start exactC82.",
+  "input": "56rawH/TXgeometry plus2C82excess fullimage incontext, constant2channels inlocal. C82prior inboth.",
+  "supervision": "allnativevalidTRAINpixels,float32labels;maskedperbandMSE/25;mapinclusionweights;no officialVAL",
+  "selection": "minfull128monitorjointmean,includingC82;patience2epochs;freeze then same484confirmation",
+  "official_val_used": false
+}

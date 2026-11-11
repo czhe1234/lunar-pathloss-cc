@@ -1,0 +1,118 @@
+{
+  "gpu": {
+    "uuid": "GPU-70b6fceb-c7c4-9467-3c81-097c9284c160",
+    "logical_device": 0,
+    "name": "NVIDIA A800 80GB PCIe",
+    "memory_bytes": 84974239744,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "warm_mean": 0.3620524064948161,
+  "warm_p50": 0.3602744429372251,
+  "warm_p95": 0.3714410693384707,
+  "warm_max": 0.40347500145435333,
+  "warm_calls": 24,
+  "cold": 9.312133125960827,
+  "maps": 12,
+  "records": [
+    {
+      "i": 5544,
+      "latency_s": [
+        9.312133125960827,
+        0.3723920378834009,
+        0.3652149410918355
+      ],
+      "digest": "8b7913c272f3569c61bc726f9ca4a841d4803d148c13fd59e8dc32154f38ab74"
+    },
+    {
+      "i": 14350,
+      "latency_s": [
+        0.3610989861190319,
+        0.3624666454270482
+      ],
+      "digest": "8a5a37d0a25e2860166f88318c34520d35b5b5e5a0e3637d705610fc82d7a55b"
+    },
+    {
+      "i": 902,
+      "latency_s": [
+        0.3591405162587762,
+        0.35809276252985
+      ],
+      "digest": "d841ecffab44e01a043ec5448c05e62a4bfd827d2dbed72918ee663fdba0d3f7"
+    },
+    {
+      "i": 21098,
+      "latency_s": [
+        0.35238898638635874,
+        0.3592474339529872
+      ],
+      "digest": "781c10fe90cbee78697a2484c2efc24be518fc7b4203ee5346b76f2d49a37536"
+    },
+    {
+      "i": 13155,
+      "latency_s": [
+        0.36052777897566557,
+        0.3660522475838661
+      ],
+      "digest": "67bcc402925e6928763d539c4fd58b175be1c974f63075b184ac3765b2ac97ca"
+    },
+    {
+      "i": 10750,
+      "latency_s": [
+        0.3586568608880043,
+        0.35649531707167625
+      ],
+      "digest": "62e4d4186f2e04e79c6bb8035aa3c04fde9b2463862841f47bee62c33db4e13c"
+    },
+    {
+      "i": 3635,
+      "latency_s": [
+        0.36017583683133125,
+        0.36213988065719604
+      ],
+      "digest": "ebfc4e13d31d1fe2edb52d57a0c9beee52be7a1e699575a9a1a1dfabfe7f08db"
+    },
+    {
+      "i": 21678,
+      "latency_s": [
+        0.3658978808671236,
+        0.40347500145435333
+      ],
+      "digest": "c577dd7f03d86996d5785c180497a892c1cf76efe95f72fa574cbd4ba378fdf2"
+    },
+    {
+      "i": 9221,
+      "latency_s": [
+        0.35488775838166475,
+        0.3543215924873948
+      ],
+      "digest": "d1e782313bae5c6de6ad0dcb35541b479dd6c8eb9187156db2c1a5fcb117cdf9"
+    },
+    {
+      "i": 19132,
+      "latency_s": [
+        0.36037304904311895,
+        0.36199278105050325
+      ],
+      "digest": "b4333c8c1c9c2f3e79a71f824f7f771951e01556cffcd27ec474a2ceb0d56088"
+    },
+    {
+      "i": 23100,
+      "latency_s": [
+        0.36111653316766024,
+        0.3594396458938718
+      ],
+      "digest": "b67ac17429e3f541be78f2f45ccf9d2c1c7b2e82b975ee36bfefba536987414f"
+    },
+    {
+      "i": 7682,
+      "latency_s": [
+        0.35631148610264063,
+        0.3573517957702279
+      ],
+      "digest": "794921a9cbdb0c5231e9b41ca329a64432301a86f0f65a7b19128c5fc9d25226"
+    }
+  ],
+  "all_warm_under_500ms": true,
+  "scope": "Actual frozen full-TRAIN base with selected corrections, raw TRAIN height and TX. Timed both output maps together; no official hardware run."
+}

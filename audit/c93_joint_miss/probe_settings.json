@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "coarse": "range / visibility only",
+    "angles": "local incidence + registered path and azimuthal horizon",
+    "rotated": "same local-facet directions, rotated by 90 degrees before feature calculation",
+    "flow": "angles plus first-hit sheet transport with signed Mitsuba epsilon; diffuse/learned/frozen model fields NOT features",
+    "flowzero": "angles plus matching receiver transport with zero normal shift"
+  },
+  "neighbors": "Fixed terrain-example retrieval. Equal family scaling with interquartile spread from reference only. k=96 uncensored valid neighbors for risk and unconditional excess path loss, k=24 joint-miss exemplars for conditional power. Bound per-terrain weight so one terrain cannot dominate. Add the query free-space distance/frequency term to the average exemplar excess; no training, no C82/C92 estimates at inference. Physically motivated flow quadrature 36 vs 9 control.",
+  "freeze": "Select input variant maximizing mean equal-band AP on 48 disjoint selection terrains from angles/flow/flowzero; coarse and 90-degree rotated directions as controls. For each variant and band choose F1 operating point via 5 terrain folds on 80 calibration terrains before looking at 48 or 484 confirmation. Write freeze then predict. No learned fusion. Report exact location plus depth in prospective patches and false alerts on all points.",
+  "dense": "120 deterministic held-out terrains, 8 uniform and 8 geometry-targeted 7x7 patches per terrain. One-metre negative neighbor controls in same state with same validity, no query terrain used in reference."
+}

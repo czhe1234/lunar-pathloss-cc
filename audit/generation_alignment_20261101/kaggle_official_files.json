@@ -1,0 +1,228 @@
+{
+  "url": "https://www.kaggle.com/api/v1/competitions/data/list/the-first-lunar-pathloss-radio-map-prediction-challenge",
+  "status": 200,
+  "response_keys": [
+    "files",
+    "nextPageToken",
+    "hasNextPageToken",
+    "childrenFetchTimeMs"
+  ],
+  "file_count_returned": 19,
+  "files": [
+    {
+      "nameNullable": "README.md",
+      "ref": "",
+      "name": "README.md",
+      "hasName": true,
+      "description": "",
+      "hasDescription": false,
+      "totalBytes": 12130,
+      "hasUrl": false,
+      "creationDate": "2026-08-26T23:47:19.215Z"
+    },
+    {
+      "nameNullable": "lunar_dataset.py",
+      "ref": "",
+      "name": "lunar_dataset.py",
+      "hasName": true,
+      "description": "",
+      "hasDescription": false,
+      "totalBytes": 12541,
+      "hasUrl": false,
+      "creationDate": "2026-08-26T23:47:18.928Z"
+    },
+    {
+      "nameNullable": "manifest.json",
+      "ref": "",
+      "name": "manifest.json",
+      "hasName": true,
+      "description": "",
+      "hasDescription": false,
+      "totalBytes": 2617,
+      "hasUrl": false,
+      "creationDate": "2026-08-26T23:47:19.225Z"
+    },
+    {
+      "nameNullable": "metadata.json",
+      "ref": "",
+      "name": "metadata.json",
+      "hasName": true,
+      "description": "",
+      "hasDescription": false,
+      "totalBytes": 6611,
+      "hasUrl": false,
+      "creationDate": "2026-08-26T23:47:19.099Z"
+    },
+    {
+      "nameNullable": "sample_submission.csv",
+      "ref": "",
+      "name": "sample_submission.csv",
+      "hasName": true,
+      "description": "",
+      "hasDescription": false,
+      "totalBytes": 17870760,
+      "hasUrl": false,
+      "creationDate": "2026-08-26T23:47:19.756Z"
+    },
+    {
+      "nameNullable": "subset_index.csv",
+      "ref": "",
+      "name": "subset_index.csv",
+      "hasName": true,
+      "description": "",
+      "hasDescription": false,
+      "totalBytes": 3275,
+      "hasUrl": false,
+      "creationDate": "2026-08-26T23:47:19.326Z"
+    },
+    {
+      "nameNullable": "train_hm.npy",
+      "ref": "",
+      "name": "train_hm.npy",
+      "hasName": true,
+      "description": "",
+      "hasDescription": false,
+      "totalBytes": 1604321408,
+      "hasUrl": false,
+      "creationDate": "2026-08-26T23:47:45.595Z"
+    },
+    {
+      "nameNullable": "train_index.csv",
+      "ref": "",
+      "name": "train_index.csv",
+      "hasName": true,
+      "description": "",
+      "hasDescription": false,
+      "totalBytes": 2054173,
+      "hasUrl": false,
+      "creationDate": "2026-08-26T23:47:19.506Z"
+    },
+    {
+      "nameNullable": "train_mask415.npy",
+      "ref": "",
+      "name": "train_mask415.npy",
+      "hasName": true,
+      "description": "",
+      "hasDescription": false,
+      "totalBytes": 210698368,
+      "hasUrl": false,
+      "creationDate": "2026-08-26T23:47:21.427Z"
+    },
+    {
+      "nameNullable": "train_mask58.npy",
+      "ref": "",
+      "name": "train_mask58.npy",
+      "hasName": true,
+      "description": "",
+      "hasDescription": false,
+      "totalBytes": 210698368,
+      "hasUrl": false,
+      "creationDate": "2026-08-26T23:47:22.662Z"
+    },
+    {
+      "nameNullable": "train_pl415.npy",
+      "ref": "",
+      "name": "train_pl415.npy",
+      "hasName": true,
+      "description": "",
+      "hasDescription": false,
+      "totalBytes": 3371171968,
+      "hasUrl": false,
+      "creationDate": "2026-08-26T23:48:15.599Z"
+    },
+    {
+      "nameNullable": "train_pl58.npy",
+      "ref": "",
+      "name": "train_pl58.npy",
+      "hasName": true,
+      "description": "",
+      "hasDescription": false,
+      "totalBytes": 3371171968,
+      "hasUrl": false,
+      "creationDate": "2026-08-26T23:48:23.514Z"
+    },
+    {
+      "nameNullable": "val_hm.npy",
+      "ref": "",
+      "name": "val_hm.npy",
+      "hasName": true,
+      "description": "",
+      "hasDescription": false,
+      "totalBytes": 178258048,
+      "hasUrl": false,
+      "creationDate": "2026-08-26T23:47:22.51Z"
+    },
+    {
+      "nameNullable": "val_index.csv",
+      "ref": "",
+      "name": "val_index.csv",
+      "hasName": true,
+      "description": "",
+      "hasDescription": false,
+      "totalBytes": 183832,
+      "hasUrl": false,
+      "creationDate": "2026-08-26T23:47:19.409Z"
+    },
+    {
+      "nameNullable": "val_mask415.npy",
+      "ref": "",
+      "name": "val_mask415.npy",
+      "hasName": true,
+      "description": "",
+      "hasDescription": false,
+      "totalBytes": 19087488,
+      "hasUrl": false,
+      "creationDate": "2026-08-26T23:47:19.534Z"
+    },
+    {
+      "nameNullable": "val_mask58.npy",
+      "ref": "",
+      "name": "val_mask58.npy",
+      "hasName": true,
+      "description": "",
+      "hasDescription": false,
+      "totalBytes": 19087488,
+      "hasUrl": false,
+      "creationDate": "2026-08-26T23:47:19.461Z"
+    },
+    {
+      "nameNullable": "val_pl415.npy",
+      "ref": "",
+      "name": "val_pl415.npy",
+      "hasName": true,
+      "description": "",
+      "hasDescription": false,
+      "totalBytes": 305397888,
+      "hasUrl": false,
+      "creationDate": "2026-08-26T23:47:24.189Z"
+    },
+    {
+      "nameNullable": "val_pl58.npy",
+      "ref": "",
+      "name": "val_pl58.npy",
+      "hasName": true,
+      "description": "",
+      "hasDescription": false,
+      "totalBytes": 305397888,
+      "hasUrl": false,
+      "creationDate": "2026-08-26T23:47:24.061Z"
+    },
+    {
+      "nameNullable": "val_terrains.txt",
+      "ref": "",
+      "name": "val_terrains.txt",
+      "hasName": true,
+      "description": "",
+      "hasDescription": false,
+      "totalBytes": 5187,
+      "hasUrl": false,
+      "creationDate": "2026-08-26T23:47:19.054Z"
+    }
+  ],
+  "pagination": {
+    "nextPageToken": "",
+    "hasNextPageToken": false,
+    "childrenFetchTimeMs": 0
+  },
+  "retrieved_utc": "2026-10-31T16:39:59.135151+00:00"
+}

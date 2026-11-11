@@ -1,0 +1,62 @@
+{
+  "c47_flat_full": {
+    "pid": 3367034,
+    "card": 4,
+    "args": [
+      "./run_gpu.sh",
+      "4",
+      "src/c47_train.py",
+      "--scope",
+      "full",
+      "--kind",
+      "flat",
+      "--name",
+      "c47_flat_full",
+      "--batch",
+      "4096",
+      "--steps",
+      "12000"
+    ],
+    "log": "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/logs/c47_flat_full.log"
+  },
+  "c47_conv_full": {
+    "pid": 3367036,
+    "card": 1,
+    "args": [
+      "./run_gpu.sh",
+      "1",
+      "src/c47_train.py",
+      "--scope",
+      "full",
+      "--kind",
+      "conv",
+      "--name",
+      "c47_conv_full",
+      "--batch",
+      "4096",
+      "--steps",
+      "12000"
+    ],
+    "log": "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/logs/c47_conv_full.log"
+  },
+  "c47_attention_full": {
+    "pid": 3367037,
+    "card": 3,
+    "args": [
+      "./run_gpu.sh",
+      "3",
+      "src/c47_train.py",
+      "--scope",
+      "full",
+      "--kind",
+      "attention",
+      "--name",
+      "c47_attention_full",
+      "--batch",
+      "4096",
+      "--steps",
+      "12000"
+    ],
+    "log": "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/logs/c47_attention_full.log"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "status": "complete",
+  "coverage": "dynamic",
+  "scope": "all5508FITterrains; terrain-disjoint internal sampledDEV612",
+  "DEV": {
+    "RMSE": [
+      2.62999553719639,
+      2.959127477098991
+    ],
+    "SSE": [
+      4502762.114435614,
+      5220350.377059105
+    ],
+    "count": [
+      650982.0,
+      596173.0
+    ]
+  },
+  "FIT_probe": {
+    "RMSE": [
+      2.568688964139145,
+      2.754051140054033
+    ],
+    "SSE": [
+      214618.4477217838,
+      220793.46052397822
+    ],
+    "count": [
+      32527.0,
+      29110.0
+    ],
+    "scope": "Uniform random FIT pixels; not a heldout set"
+  },
+  "initial_C38": {
+    "RMSE": [
+      2.6446351803304653,
+      2.998740339824098
+    ],
+    "SSE": [
+      4553030.105599784,
+      5361052.093657498
+    ],
+    "count": [
+      650982.0,
+      596173.0
+    ]
+  },
+  "gain_vs_C38_db": [
+    0.014639643134075175,
+    0.03961286272510689
+  ],
+  "both_gain015db": false,
+  "best_step": 6000,
+  "last_step": 6000,
+  "seconds": 1337.063909292221,
+  "gpu_peak_GB": 65.498337792,
+  "official_VAL_used": false
+}

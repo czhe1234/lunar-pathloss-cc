@@ -1,0 +1,18 @@
+{
+  "choices": {
+    "coarse": {
+      "step": 1500,
+      "sha256": "96a58cf71b23b81266b0928156a9fd3484c611ef085e7dcc695218e24d2bf541"
+    },
+    "native": {
+      "step": 0,
+      "sha256": "3eb0ab0cc7c3c0b30ade9538c391c5690fe5c7d98bd2e8dc30d2e39dc81a048d"
+    }
+  },
+  "means": {
+    "coarse": 2.272841756949372,
+    "native": 2.2728554113181056,
+    "C82": 2.2747769225384276
+  },
+  "eligible": "coarse"
+}

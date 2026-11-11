@@ -1,0 +1,1 @@
+[{"pid": 1929111, "gpu": 1, "kind": "main"}, {"pid": 1929112, "gpu": 3, "kind": "subset_standard"}, {"pid": 1929113, "gpu": 4, "kind": "subset_wide"}]

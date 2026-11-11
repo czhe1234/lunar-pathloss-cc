@@ -1,0 +1,74 @@
+{
+  "status": "complete",
+  "results": {
+    "old": [
+      {
+        "mode": "old",
+        "band": 0,
+        "conditional_sign_accuracy": 0.6763896417997581,
+        "majority_accuracy": 0.6141528710228932,
+        "logloss": 0.5378044393765675,
+        "trees": 750,
+        "seconds": 14.612663542007795,
+        "oracle_gate": true,
+        "official_val_used": false
+      },
+      {
+        "mode": "old",
+        "band": 1,
+        "conditional_sign_accuracy": 0.6398539520500736,
+        "majority_accuracy": 0.593766882137069,
+        "logloss": 0.5775436776953184,
+        "trees": 339,
+        "seconds": 8.534488314995542,
+        "oracle_gate": true,
+        "official_val_used": false
+      }
+    ],
+    "native": [
+      {
+        "mode": "native",
+        "band": 0,
+        "conditional_sign_accuracy": 0.6957382928151453,
+        "majority_accuracy": 0.6141528710228932,
+        "logloss": 0.5165774356156803,
+        "trees": 636,
+        "seconds": 15.098032884998247,
+        "oracle_gate": true,
+        "official_val_used": false
+      },
+      {
+        "mode": "native",
+        "band": 1,
+        "conditional_sign_accuracy": 0.6717460554013525,
+        "majority_accuracy": 0.593766882137069,
+        "logloss": 0.5562958197168816,
+        "trees": 278,
+        "seconds": 8.960978629998863,
+        "oracle_gate": true,
+        "official_val_used": false
+      }
+    ]
+  },
+  "accuracy_gain": [
+    0.019348651015387186,
+    0.0318921033512789
+  ],
+  "logloss_drop": [
+    0.021227003760887264,
+    0.021247857978436868
+  ],
+  "pass_readout_gate": false,
+  "conditional_scoring_check": [
+    {
+      "band": 0,
+      "conditional_tail_rows": 47962
+    },
+    {
+      "band": 1,
+      "conditional_tail_rows": 53681
+    }
+  ],
+  "scope": "TRUE_TAIL_ORACLE_GATE diagnostic only;not a power prediction version;original128monitor",
+  "official_val_used": false
+}

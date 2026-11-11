@@ -1,0 +1,78 @@
+{
+  "metrics": {
+    "C82": [
+      2.3037996846821955,
+      2.5966541900570195
+    ],
+    "local": [
+      2.302954661689414,
+      2.595856551906778
+    ],
+    "terrain": [
+      2.3023700081037237,
+      2.596072720635338
+    ]
+  },
+  "gain_vs_C82": {
+    "local": [
+      0.0008450229927814412,
+      0.0007976381502414753
+    ],
+    "terrain": [
+      0.0014296765784718168,
+      0.0005814694216814686
+    ]
+  },
+  "terrain_paired_95ci": {
+    "C82-minus-local": [
+      [
+        0.0007024489487787666,
+        0.000989825703915392
+      ],
+      [
+        0.00012703404441406497,
+        0.0014540315898273425
+      ]
+    ],
+    "C82-minus-terrain": [
+      [
+        0.0010680806373422724,
+        0.0017740158895435895
+      ],
+      [
+        -0.00048772076422479713,
+        0.001670180942518727
+      ]
+    ],
+    "local-minus-terrain": [
+      [
+        0.00029587281293443903,
+        0.0008435814017737853
+      ],
+      [
+        -0.0008784095366872968,
+        0.0005486184295654393
+      ]
+    ]
+  },
+  "eligible": "terrain",
+  "promote_to_full_native_check": false,
+  "scope": "same484TRAINterrain/1934maps/2048uniformpositions permap; sparse panel, not officialVAL",
+  "valid_pixels": [
+    3930241,
+    3587418
+  ],
+  "confirmation_choices_frozen": true,
+  "independent_scoring": "NumPyfloat64 on savedfloat32predictions and original cachedTRAINlabels",
+  "seconds": 7.545858146000683,
+  "GPU": {
+    "uuid": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+    "logical_device": 0,
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_bytes": 84929347584,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "official_val_used": false,
+  "website_submission": false
+}

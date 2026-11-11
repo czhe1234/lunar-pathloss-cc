@@ -1,0 +1,7 @@
+{
+  "question": "Does TX neighborhood plus raster-height phase reduce boundary errors?",
+  "evidence": "FIT-only TX context proxy model explained 19.6% DEV proxy-height variance; leading features are sin/cos of TX raster height. This does not recover actual height.",
+  "contrast": "same C6 point data, 31 summary inputs plus 73 transmitter-context inputs; unchanged GBDT parameters",
+  "selection": "unchanged FIT/DEV terrains; no official validation",
+  "input_authority": "heightmap and TX only; no labels or prior predictions as input"
+}

@@ -1,0 +1,22 @@
+{
+  "fit": {
+    "rows": 8192,
+    "nontrivial_power_n": 16380,
+    "fp16_aggregate_difference_db_q50_q99_max": [
+      0.0011516334991519273,
+      0.016544707781983872,
+      0.07547372940948094
+    ],
+    "floor_zero_pairs": 0
+  },
+  "monitor": {
+    "rows": 8192,
+    "nontrivial_power_n": 16375,
+    "fp16_aggregate_difference_db_q50_q99_max": [
+      0.0012846023318751065,
+      0.014788003599928465,
+      0.07803355378243282
+    ],
+    "floor_zero_pairs": 0
+  }
+}

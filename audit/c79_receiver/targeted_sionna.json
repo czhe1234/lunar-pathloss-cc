@@ -1,0 +1,125 @@
+{
+  "terrains": 39,
+  "locations": 1126,
+  "modes": [
+    "correct azimuth, same nominal N",
+    "+0.013 rad azimuth, same N, H, TX and measurement operator"
+  ],
+  "eligibility": "risk-stratified candidate widely certified locations >=65 m, target subsets only; not an official score",
+  "full_4M_vs_sparse4M": {
+    "n": 1126,
+    "rmse_dB": 2.0844706701369164e-07,
+    "max_abs_dB": 1.4725102026602599e-06,
+    "max_hit_fraction_delta": 0.0
+  },
+  "sparse4B_pad_065_vs_135": {
+    "n": 300,
+    "rmse_dB": 3.8451712326540713e-07,
+    "max_abs_dB": 1.8417174028548255e-06,
+    "max_hit_fraction_delta": 0.0
+  },
+  "rays_per_map_median": [
+    5168.0,
+    5172.0,
+    5165958.0,
+    5165965.0
+  ],
+  "bands": {
+    "415": {
+      "4M": {
+        "valid_pixels": 1125,
+        "observed_weak": 148,
+        "raw_auc": [
+          0.7008285153116269,
+          0.6842651248997206
+        ],
+        "matched_auc_exact": 0.5009074410163339,
+        "matched_auc_shift": 0.5,
+        "matched_exact_minus_shift_95": [
+          -0.04352406817756134,
+          0.04384587479270316
+        ],
+        "comparable_pos_neg_pairs": 551,
+        "terrains_with_pairs": 35,
+        "exact_fraction_direct_below_minus3": 0.608,
+        "shifted_fraction_direct_below_minus3": 0.6097777777777778,
+        "predicted_direct_loss_IQR": [
+          0.00477422272524544,
+          50.0,
+          50.0
+        ]
+      },
+      "4B": {
+        "valid_pixels": 1125,
+        "observed_weak": 148,
+        "raw_auc": [
+          0.7982067277103101,
+          0.8048874104401228
+        ],
+        "matched_auc_exact": 0.6143375680580763,
+        "matched_auc_shift": 0.6261343012704175,
+        "matched_exact_minus_shift_95": [
+          -0.0584565029094301,
+          0.0372503491620112
+        ],
+        "comparable_pos_neg_pairs": 551,
+        "terrains_with_pairs": 35,
+        "exact_fraction_direct_below_minus3": 0.1831111111111111,
+        "shifted_fraction_direct_below_minus3": 0.18133333333333335,
+        "predicted_direct_loss_IQR": [
+          -0.0050512271980918365,
+          0.01358219717112993,
+          1.5148474242376877
+        ]
+      }
+    },
+    "5775": {
+      "4M": {
+        "valid_pixels": 1126,
+        "observed_weak": 126,
+        "raw_auc": [
+          0.6807539682539683,
+          0.6719047619047619
+        ],
+        "matched_auc_exact": 0.48096192384769537,
+        "matched_auc_shift": 0.48296593186372744,
+        "matched_exact_minus_shift_95": [
+          -0.05280521044624747,
+          0.04209744154778462
+        ],
+        "comparable_pos_neg_pairs": 499,
+        "terrains_with_pairs": 33,
+        "exact_fraction_direct_below_minus3": 0.6074600355239786,
+        "shifted_fraction_direct_below_minus3": 0.6101243339253997,
+        "predicted_direct_loss_IQR": [
+          -0.0001668564221315792,
+          50.0,
+          50.0
+        ]
+      },
+      "4B": {
+        "valid_pixels": 1126,
+        "observed_weak": 126,
+        "raw_auc": [
+          0.7699880952380952,
+          0.7842261904761905
+        ],
+        "matched_auc_exact": 0.5681362725450901,
+        "matched_auc_shift": 0.5901803607214429,
+        "matched_exact_minus_shift_95": [
+          -0.07660691672194415,
+          0.035455099778270514
+        ],
+        "comparable_pos_neg_pairs": 499,
+        "terrains_with_pairs": 33,
+        "exact_fraction_direct_below_minus3": 0.18294849023090587,
+        "shifted_fraction_direct_below_minus3": 0.1811722912966252,
+        "predicted_direct_loss_IQR": [
+          -0.005039595798180821,
+          0.013550899690782561,
+          1.5142009444208306
+        ]
+      }
+    }
+  }
+}

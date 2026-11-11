@@ -1,0 +1,191 @@
+{
+  "status": "complete",
+  "tolerance_max_receiver_dB": 1e-05,
+  "iterations_min_median_max": [
+    3.0,
+    11.0,
+    23.0
+  ],
+  "max_receiver_error_bound": [
+    1.1338952492623997e-07,
+    9.817730602256214e-06
+  ],
+  "FIT_only_dB_offset": [
+    0.4733642504847402,
+    -20.203518465028566
+  ],
+  "method": "Log-domain nonnegative Neumann extra sum; exact-cached-operator reachability; conservative receiver-domain tail bound; 8-map independent sparse solve.",
+  "limits": "Convergence is for fixed coarse cached K. Cached missing support, native geometry, source/RX quadrature and missing paths are not repaired.",
+  "fit": {
+    "raw": {
+      "RMSE": [
+        3.3591220497429015,
+        58.88337077813698
+      ],
+      "valid_weight": [
+        3245840.25,
+        2958020.0
+      ],
+      "excluded_weight": [
+        0.0,
+        10722.0
+      ]
+    },
+    "FIT_scaled": {
+      "RMSE": [
+        3.325601784855165,
+        55.308852779901564
+      ],
+      "valid_weight": [
+        3245840.25,
+        2958020.0
+      ],
+      "excluded_weight": [
+        0.0,
+        10722.0
+      ]
+    },
+    "stable_three_raw": {
+      "RMSE": [
+        3.3591220498925263,
+        59.193548710011285
+      ],
+      "valid_weight": [
+        3245840.25,
+        2958006.25
+      ],
+      "excluded_weight": [
+        0.0,
+        10735.75
+      ]
+    },
+    "stable_three_to_receiver_converged": {
+      "RMSE": [
+        6.276183149889166e-09,
+        3.143306239156792
+      ],
+      "valid_weight": [
+        3245840.25,
+        2958006.25
+      ],
+      "excluded_weight": [
+        0.0,
+        10735.75
+      ]
+    },
+    "stable_global_L1_to_receiver_converged": {
+      "RMSE": [
+        6.276183149889166e-09,
+        3.143306239156792
+      ],
+      "valid_weight": [
+        3245840.25,
+        2958006.25
+      ],
+      "excluded_weight": [
+        0.0,
+        10735.75
+      ]
+    },
+    "audit_LminusQ_three_vs_stable_three": {
+      "RMSE": [
+        1.529298544919938e-14,
+        0.01586927399682562
+      ],
+      "valid_weight": [
+        3245840.25,
+        2957993.5
+      ],
+      "excluded_weight": [
+        0.0,
+        10748.5
+      ]
+    }
+  },
+  "monitor": {
+    "raw": {
+      "RMSE": [
+        3.2307511370446056,
+        55.25934282890326
+      ],
+      "valid_weight": [
+        1276943.0,
+        1178286.0
+      ],
+      "excluded_weight": [
+        0.0,
+        4461.0
+      ]
+    },
+    "FIT_scaled": {
+      "RMSE": [
+        3.205293143530816,
+        52.27992425781072
+      ],
+      "valid_weight": [
+        1276943.0,
+        1178286.0
+      ],
+      "excluded_weight": [
+        0.0,
+        4461.0
+      ]
+    },
+    "stable_three_raw": {
+      "RMSE": [
+        3.23075113810619,
+        56.0049503549399
+      ],
+      "valid_weight": [
+        1276943.0,
+        1178248.0
+      ],
+      "excluded_weight": [
+        0.0,
+        4499.0
+      ]
+    },
+    "stable_three_to_receiver_converged": {
+      "RMSE": [
+        8.223513425553247e-08,
+        4.780347466525524
+      ],
+      "valid_weight": [
+        1276943.0,
+        1178248.0
+      ],
+      "excluded_weight": [
+        0.0,
+        4499.0
+      ]
+    },
+    "stable_global_L1_to_receiver_converged": {
+      "RMSE": [
+        8.223513425553247e-08,
+        4.780347466525524
+      ],
+      "valid_weight": [
+        1276943.0,
+        1178248.0
+      ],
+      "excluded_weight": [
+        0.0,
+        4499.0
+      ]
+    },
+    "audit_LminusQ_three_vs_stable_three": {
+      "RMSE": [
+        1.4656696697225424e-14,
+        0.0007724157062238472
+      ],
+      "valid_weight": [
+        1276943.0,
+        1178248.0
+      ],
+      "excluded_weight": [
+        0.0,
+        4499.0
+      ]
+    }
+  }
+}

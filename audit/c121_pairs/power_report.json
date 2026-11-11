@@ -1,0 +1,212 @@
+{
+  "scope": {
+    "maps": [
+      9435,
+      4604,
+      22003,
+      17305,
+      16814,
+      13206,
+      23523,
+      17186,
+      4660,
+      2962,
+      12562,
+      6047,
+      13217,
+      13218,
+      1018,
+      4643,
+      24753,
+      17664,
+      17310,
+      4591,
+      2653,
+      8155,
+      17291,
+      24961
+    ],
+    "paired_case_maps": [
+      9435,
+      4604,
+      22003,
+      17305,
+      16814,
+      13206,
+      23523,
+      17186,
+      4660,
+      2962,
+      12562,
+      6047
+    ],
+    "random_maps": [
+      13217,
+      13218,
+      1018,
+      4643,
+      24753,
+      17664,
+      17310,
+      4591,
+      2653,
+      8155,
+      17291,
+      24961
+    ],
+    "selection": "12 smallest-existing-geometry-distance controlled examples on different terrains plus12 metadata-random monitor maps",
+    "compare": [
+      128,
+      1024
+    ],
+    "fixed": "same H/TX, registered transport, direct2 spec4, original meshes and receiver lookups, raw float32 power",
+    "questions": [
+      "Does log-floor clipping suppress real pre-floor variation?",
+      "Does changing diffuse direction integration reveal missing contrast?"
+    ],
+    "gate": "Only a clear correctly directed contrast increment warrants a convergence control. No training based solely on nonzero recovered powers.",
+    "official_val_used": false,
+    "convergence_followup": {
+      "directions": [
+        8192,
+        32768
+      ],
+      "reason": "At case4604 high-band candidate excess loss changed212dB to37dB between128/1024, so direction density must be checked before trusting restoration. This is numerical stability, not validation success."
+    }
+  },
+  "available_directions": [
+    128,
+    1024,
+    8192,
+    32768
+  ],
+  "clipped_replay_max_abs": 0.0009589388076114425,
+  "bands": [
+    {
+      "band": 0,
+      "pairs": 357,
+      "clipped_pairs": 0,
+      "probe_metrics": {
+        "128": {
+          "valid_sampled_points": 48718,
+          "unclipped_power_fraction": 1.0,
+          "pairs_same_sign_as_target_contrast": 0.4649859943977591,
+          "paired_contrast_rmse_db": 18.22105686868802,
+          "clipped_pairs_correct_contrast": null,
+          "clipped_pairs_median_abs_contrast_db": null,
+          "contrast_correlation": 0.3705653470009697
+        },
+        "1024": {
+          "valid_sampled_points": 48718,
+          "unclipped_power_fraction": 1.0,
+          "pairs_same_sign_as_target_contrast": 0.4649859943977591,
+          "paired_contrast_rmse_db": 18.094398026403347,
+          "clipped_pairs_correct_contrast": null,
+          "clipped_pairs_median_abs_contrast_db": null,
+          "contrast_correlation": 0.39256490706583747
+        },
+        "8192": {
+          "valid_sampled_points": 48718,
+          "unclipped_power_fraction": 1.0,
+          "pairs_same_sign_as_target_contrast": 0.45098039215686275,
+          "paired_contrast_rmse_db": 18.06317307103738,
+          "clipped_pairs_correct_contrast": null,
+          "clipped_pairs_median_abs_contrast_db": null,
+          "contrast_correlation": 0.39744287715615656
+        },
+        "32768": {
+          "valid_sampled_points": 48718,
+          "unclipped_power_fraction": 1.0,
+          "pairs_same_sign_as_target_contrast": 0.45938375350140054,
+          "paired_contrast_rmse_db": 18.073559914888456,
+          "clipped_pairs_correct_contrast": null,
+          "clipped_pairs_median_abs_contrast_db": null,
+          "contrast_correlation": 0.402273060578201
+        }
+      },
+      "convergence": {
+        "128_to_1024": {
+          "median_abs_change_db": 0.002008459056486306,
+          "p90_abs_change_db": 0.032247091653366824,
+          "gt1db_fraction": 0.007594728847653845,
+          "rms_change_db": 0.5126811131567983
+        },
+        "1024_to_8192": {
+          "median_abs_change_db": 0.0015231792488915874,
+          "p90_abs_change_db": 0.019892436940206818,
+          "gt1db_fraction": 0.005829467547928897,
+          "rms_change_db": 0.42706289341198533
+        },
+        "8192_to_32768": {
+          "median_abs_change_db": 0.0007461956406114249,
+          "p90_abs_change_db": 0.011407339921959032,
+          "gt1db_fraction": 0.003509996305267047,
+          "rms_change_db": 0.17793999487778478
+        }
+      }
+    },
+    {
+      "band": 1,
+      "pairs": 288,
+      "clipped_pairs": 135,
+      "probe_metrics": {
+        "128": {
+          "valid_sampled_points": 40112,
+          "unclipped_power_fraction": 0.8642052253689669,
+          "pairs_same_sign_as_target_contrast": 0.5,
+          "paired_contrast_rmse_db": 52.87593079706104,
+          "clipped_pairs_correct_contrast": 0.45925925925925926,
+          "clipped_pairs_median_abs_contrast_db": 1.5497727845764757,
+          "contrast_correlation": 0.37213895297965366
+        },
+        "1024": {
+          "valid_sampled_points": 40112,
+          "unclipped_power_fraction": 0.9308436378141205,
+          "pairs_same_sign_as_target_contrast": 0.53125,
+          "paired_contrast_rmse_db": 44.73764068294471,
+          "clipped_pairs_correct_contrast": 0.5407407407407407,
+          "clipped_pairs_median_abs_contrast_db": 1.8046011254077143,
+          "contrast_correlation": 0.2487830005032213
+        },
+        "8192": {
+          "valid_sampled_points": 40112,
+          "unclipped_power_fraction": 0.9825737933785401,
+          "pairs_same_sign_as_target_contrast": 0.5104166666666666,
+          "paired_contrast_rmse_db": 33.986028586570875,
+          "clipped_pairs_correct_contrast": 0.562962962962963,
+          "clipped_pairs_median_abs_contrast_db": 1.5998189864283319,
+          "contrast_correlation": 0.24967799556879938
+        },
+        "32768": {
+          "valid_sampled_points": 40112,
+          "unclipped_power_fraction": 0.9978061428001596,
+          "pairs_same_sign_as_target_contrast": 0.5416666666666666,
+          "paired_contrast_rmse_db": 21.43409544421371,
+          "clipped_pairs_correct_contrast": 0.5703703703703704,
+          "clipped_pairs_median_abs_contrast_db": 0.7671317875767727,
+          "contrast_correlation": 0.4799872081095313
+        }
+      },
+      "convergence": {
+        "128_to_1024": {
+          "median_abs_change_db": 0.0032719873658730164,
+          "p90_abs_change_db": 4.516302237874398,
+          "gt1db_fraction": 0.12607199840446748,
+          "rms_change_db": 46.848602262931145
+        },
+        "1024_to_8192": {
+          "median_abs_change_db": 0.002663457373789424,
+          "p90_abs_change_db": 2.677688864741662,
+          "gt1db_fraction": 0.13188073394495411,
+          "rms_change_db": 37.355018825638915
+        },
+        "8192_to_32768": {
+          "median_abs_change_db": 0.001279447117140231,
+          "p90_abs_change_db": 0.6316606775037135,
+          "gt1db_fraction": 0.08164639010769845,
+          "rms_change_db": 17.128337221348257
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "state": "full_training_complete_not_yet_officially_scored",
+  "bands": {
+    "415": {
+      "trees": 1200,
+      "valid_train_sampled_pixels": 1633844,
+      "sha256": "27f6fb0476555bbeb858aadfc30072d10a8220d644076e0944ee8d0988c1e1c0"
+    },
+    "58": {
+      "trees": 1200,
+      "valid_train_sampled_pixels": 1474787,
+      "sha256": "cdbc464e748f422ed6d49a511c86ec98b70c5f089e7fa1fdb4f684092b0ad9ff"
+    }
+  },
+  "seconds": 380.05188059806824,
+  "official_val_used": false,
+  "GPU_used": false
+}

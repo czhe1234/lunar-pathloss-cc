@@ -1,0 +1,20 @@
+{
+  "status": "complete",
+  "mode": "spectrum",
+  "band": 0,
+  "monitor_rmse": 2.131481350420166,
+  "C82": 2.1400178758994066,
+  "gain": 0.008536525479240442,
+  "trees": 718,
+  "best_iteration": 717,
+  "seconds": 73.85651502199471,
+  "GPU": {
+    "uuid": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+    "logical_device": 0,
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_bytes": 84929347584,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "official_val_used": false
+}

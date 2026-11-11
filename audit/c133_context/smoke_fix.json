@@ -1,0 +1,5 @@
+{
+  "issue": "The inherited smoke helper called the old 12-input kernel API; the new forward uses 44-input geometry plus terrain context. The actual forward completed before the helper error.",
+  "fix": "Inspect and check the actual forward transport matrix instead of calling the obsolete helper.",
+  "training_started": false
+}

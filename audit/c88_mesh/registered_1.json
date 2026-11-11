@@ -1,0 +1,48 @@
+{
+  "band": 1,
+  "fit_maps": 480,
+  "names": [
+    "global",
+    "reg0.13",
+    "perm0.13",
+    "reg0.6",
+    "perm0.6",
+    "reg2",
+    "perm2"
+  ],
+  "gpu": {
+    "uuid": "GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0",
+    "logical_device": 0,
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_bytes": 84929347584,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "selection_scores": [
+    2.8587070200516287,
+    2.8588106934589037,
+    3.076381640433933,
+    3.0828260046078872,
+    2.9980121693283555,
+    3.001791445137909,
+    2.9330803539165338,
+    2.935301757174807
+  ],
+  "selected": "reg2",
+  "confirm_map_count": 1934,
+  "confirm_names": [
+    "C82",
+    "global",
+    "reg2",
+    "perm2"
+  ],
+  "confirm_rmse": [
+    2.5955397975007166,
+    2.5954747016742226,
+    2.6629470662603687,
+    2.6655331187833005
+  ],
+  "confirmed_gain": -0.06740726875965208,
+  "registration_specific_gain": 0.002586052522931759,
+  "seconds": 8.341866005212069
+}

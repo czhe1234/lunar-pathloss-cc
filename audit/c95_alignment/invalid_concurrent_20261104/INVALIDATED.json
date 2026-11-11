@@ -1,0 +1,8 @@
+{
+  "reason": "Different C95 stage/variant jobs used the same work{shard}/ground.ply and rx.ply. One produced a trailing-content load error; successful outputs may also be contaminated. All affected solver outputs and derived metrics invalidated. Pixel-query-only reweights of trusted C94 native values are unaffected. Rerun uses process-and-stage-unique scratch dirs.",
+  "moved": {
+    "screen": 432,
+    "extension": 207
+  },
+  "time": 1793723589.5377305
+}

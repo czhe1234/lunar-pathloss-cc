@@ -1,0 +1,7 @@
+{
+  "prior_gate": "0.30 dB in EACH band relative to same-panel C54 to call a substantial gain; official target unchanged.",
+  "intermediate_candidate": "A smaller result may be scored and delivered as an explicitly intermediate model if both full-DEV gains exceed 0.10 dB, with positive terrain-bootstrap lower bounds and input-only timing satisfying 500 ms on our server. One frozen model for official evaluation.",
+  "full_DEV": "612 terrains / 2562 maps; separately 484 outside the selection panel. DEV has historically been used for other architecture choices.",
+  "training": "Only official TRAIN labels for all decisions through freeze. Reuse C65 fullTRAIN base unchanged for deployment. All correction fits use only TRAIN; no site submission.",
+  "new_hypothesis": "Compute fine receiver-triangle geometry and transport before observation interpolation. Determine if mixing the three native triangle predictions after reading features improves a dense residual over averaging features first."
+}

@@ -1,0 +1,38 @@
+{
+  "status": "complete",
+  "GPU": {
+    "uuid": "GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0",
+    "logical_device": 0,
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_bytes": 84929347584,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "maps": 438,
+  "seconds": 13.864565602969378,
+  "median_map_seconds": 0.03095938399201259,
+  "parameters": {
+    "shard": 1,
+    "of": 2,
+    "source": 4,
+    "receiver": 1,
+    "directions": 64,
+    "check_count": 0,
+    "tag": "cache"
+  },
+  "channels": [
+    "direct",
+    "spec_1",
+    "spec_2",
+    "spec_3",
+    "spec_4",
+    "spec_5",
+    "spec_6",
+    "diffuse_direct",
+    "spec_before_diffuse",
+    "spec_after_diffuse",
+    "spec_before_and_after_diffuse"
+  ],
+  "label_access": false,
+  "mask_access": false
+}

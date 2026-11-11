@@ -1,0 +1,84 @@
+{
+  "status": "capacity_check_complete",
+  "steps": 3000,
+  "full_FIT": {
+    "rmse": [
+      2.046375600144811,
+      2.1731921339457365
+    ],
+    "score": 2.109783867045274,
+    "sse": [
+      34855134.89769269,
+      34733143.16463573
+    ],
+    "count": [
+      8323310.0,
+      7354410.0
+    ],
+    "maps": 128,
+    "scope": "complete valid pixels fixed128FIT; capacity diagnostic, not officialVAL",
+    "seconds": 4.9397711753845215,
+    "zones_definition": "floor-TX profile max elevation: clear < -0.25 m, boundary within +/-0.25 m, blocked >0.25 m",
+    "zones": {
+      "clear": {
+        "rmse": [
+          1.5125720212052827,
+          1.5512295834908438
+        ],
+        "score": 1.5319008023480634,
+        "sse": [
+          12883392.089445766,
+          13551140.870790048
+        ],
+        "count": [
+          5631163.0,
+          5631495.0
+        ],
+        "maps": 128
+      },
+      "boundary": {
+        "rmse": [
+          3.0255063229929475,
+          3.6912913225618134
+        ],
+        "score": 3.3583988227773807,
+        "sse": [
+          7333944.38827732,
+          10409423.91291064
+        ],
+        "count": [
+          801201.0,
+          763959.0
+        ],
+        "maps": 128
+      },
+      "blocked": {
+        "rmse": [
+          2.7822638798218278,
+          3.3516641255457555
+        ],
+        "score": 3.0669640026837914,
+        "sse": [
+          14637798.41996961,
+          10772578.380935049
+        ],
+        "count": [
+          1890946.0,
+          958956.0
+        ],
+        "maps": 128
+      }
+    }
+  },
+  "query_order_sha256": "5b1eb3b365e9a55a441afb5b3a0636654057bcf73c6b49214fbac5ed61ed33a0",
+  "map_order_sha256": "205995d5ee1cf2abebc90cf0b8ba9110e3f644cdc5167fc2291f9730557f185f",
+  "gpu": {
+    "uuid": "GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0",
+    "logical_device": 0,
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_bytes": 84929347584,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "seconds": 309.0299060344696
+}

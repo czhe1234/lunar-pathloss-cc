@@ -1,0 +1,66 @@
+{
+  "state": "diagnostic_controls_completed_root_cause_not_fully_identified",
+  "question": "Is occluded error missed learning or missing physical input?",
+  "judgment": "Existing controls localize a short-range, band-dependent residual structure. They do not establish that missing irrecoverable raw physical information dominates, and do not establish that current inputs suffice. Failure of a finite probe is not an information-theoretic bound.",
+  "confirmed": {
+    "repeat_pairs": 9,
+    "repeat_terrains_base_fit_unseen": {
+      "base_fit": 8,
+      "base_unseen": 1
+    },
+    "duplicate_occluded_model_RMSE": [
+      5.049650489495034,
+      5.815577330981868
+    ],
+    "duplicate_empirical_inconsistency_RMSE": [
+      0.0161938448447151,
+      0.06422729373539875
+    ],
+    "same_input_probe_occluded_C10": [
+      4.678991454034939,
+      6.317871965514335
+    ],
+    "same_input_probe_occluded_corrected": [
+      4.693238627339268,
+      6.460352549967888
+    ],
+    "extra_geometry_probe_occluded_corrected": [
+      4.6644958889719055,
+      6.393578050753422
+    ],
+    "heldout_TX_crossover_occluded_C10": [
+      4.842168975663593,
+      6.448070312967248
+    ],
+    "heldout_TX_crossover_same_terrain": [
+      4.892948545784282,
+      6.4567895595712175
+    ],
+    "crossband_correlation_height_sensitive": 0.7714440940225767,
+    "crossband_correlation_nominal_blocked": 0.17905100360506698,
+    "same_band_local_oracle_SSE_reduction_percent": [
+      61.94098863023767,
+      70.2656248254009
+    ]
+  },
+  "not_established": [
+    "A dominant irreducible noise floor",
+    "Sufficiency of the released raw heightmap/TX",
+    "A dominant hidden-mesh or hidden-TX contribution",
+    "An effective new competition model"
+  ],
+  "official_score_unchanged": {
+    "combined_RMSE": 3.1775908265908654,
+    "415_RMSE": 2.96720214449994,
+    "58_RMSE": 3.3879795086817914
+  },
+  "constraints": "All files inCC; no new officialVAL evaluation, no website submission, no long training, no new simulation. Diagnostic CPU fits fixed in advance. Only frozen9-map inference used GPU3.",
+  "verification": [
+    "Main calibration/confirmation terrain split is disjoint and covers exactly612 internalDEV terrains",
+    "Main probe saved FP32 predictions independently reproduce all zone RMSE/counts within1e-5dB",
+    "Cross-over support/query TX coordinates are disjoint; identical inputs were deduplicated",
+    "Cross-over saved predictions independently reproduce all reported scores/counts within1e-5dB",
+    "All18 raw files retain audited size/mtime; frozen C10 FIT weights retain exact SHA256"
+  ],
+  "maximum_independent_score_difference": 2.0527213173693326e-07
+}

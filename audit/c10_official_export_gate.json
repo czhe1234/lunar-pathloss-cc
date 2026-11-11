@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "full_DEV_RMSE": {
+    "415": 2.952572673204581,
+    "58": 3.39307351342246
+  },
+  "fixed_full_train_weights": "runs/c10_full_refit_s20261101",
+  "official_VAL_score_not_seen_for_this_choice": true
+}

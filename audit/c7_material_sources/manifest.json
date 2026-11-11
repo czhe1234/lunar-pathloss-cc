@@ -1,0 +1,23 @@
+{
+  "sionna_1_1_0_electromagnetics.py": {
+    "sha256": "22f399a049afea3d965cba6ced17f2f98ed0fbf284014c40a57dc676f6c1f3e1",
+    "tag": "NVlabs/sionna-rt v1.1.0",
+    "tree_sha": "38ff0af9ffcade89ab06391b2ebb39293ae484b2",
+    "source": "Official public source fetched via GitHub connector; stored as reference only; not executed",
+    "url": "https://github.com/NVlabs/sionna-rt/blob/v1.1.0/src/sionna/rt/utils/electromagnetics.py"
+  },
+  "sionna_1_1_0_radio_material.py": {
+    "sha256": "aea08f5bd247fa734358ebd27ac08c4a5e049a24cc6788b0bf2743bf49213995",
+    "tag": "NVlabs/sionna-rt v1.1.0",
+    "tree_sha": "38ff0af9ffcade89ab06391b2ebb39293ae484b2",
+    "source": "Official public source fetched via GitHub connector; stored as reference only; not executed",
+    "url": "https://github.com/NVlabs/sionna-rt/blob/v1.1.0/src/sionna/rt/radio_materials/radio_material.py"
+  },
+  "sionna_1_1_0_scattering_pattern.py": {
+    "sha256": "a89947e8c5cb74152c656639045a7eebdf822298295b29a83b5ede8daffcab3a",
+    "tag": "NVlabs/sionna-rt v1.1.0",
+    "tree_sha": "38ff0af9ffcade89ab06391b2ebb39293ae484b2",
+    "source": "Official public source fetched via GitHub connector; stored as reference only; not executed",
+    "url": "https://github.com/NVlabs/sionna-rt/blob/v1.1.0/src/sionna/rt/radio_materials/scattering_pattern.py"
+  }
+}

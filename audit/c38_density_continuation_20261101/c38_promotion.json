@@ -1,0 +1,28 @@
+{
+  "promoted": true,
+  "stage": "completeDEV",
+  "result": {
+    "scope": "complete internal DEV",
+    "run": "c38_1024_continue",
+    "split": "train",
+    "maps": 2562,
+    "terrains": 612,
+    "RMSE": [
+      2.6441450259495265,
+      2.9961008919123873
+    ],
+    "combined_rmse_db_masked": 2.820122958930957,
+    "valid_pixels": [
+      166639132,
+      152634019
+    ],
+    "SSE": [
+      1165057977.6732504,
+      1370137672.2741218
+    ],
+    "complete_requested_split": true,
+    "formula": "Per band sqrt(sum(valid*(prediction-label)^2)/sum(valid)); combined arithmetic mean of two band RMSE",
+    "website_submission": false
+  },
+  "rule": "both bands at least0.01dB lower than C37, no official VAL selection"
+}

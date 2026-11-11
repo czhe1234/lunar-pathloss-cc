@@ -1,0 +1,80 @@
+{
+  "scope": "413 nearflat FIT maps from248 terrains; terrain-disjoint124/124 calibration/confirmation; no official VAL or DEV",
+  "selection": "Reused input-only local9x9height range<=0.25m selection. Signal-footprint fits use only radii>=1.5m.",
+  "warning": "Signal-footprint center/vertical-separation fits can reflect cell averaging and propagation. They are not recovered actual TX coordinates.",
+  "bands": {
+    "415": {
+      "calibration_maps": 203,
+      "confirmation_maps": 208,
+      "mean_center_offset_calibration_rc": [
+        0.4957663996771389,
+        -0.5044272680231054
+      ],
+      "affine_coefficients_rows_intercept_rowcoord_colcoord": [
+        [
+          0.5004826886951377,
+          -0.5020322546404603
+        ],
+        [
+          -0.1708050438450007,
+          0.0009632427904250618
+        ],
+        [
+          0.008217094685618346,
+          -0.15914401023970248
+        ]
+      ],
+      "confirmation_offset_RMSE_constant": [
+        0.10934212837716761,
+        0.10552946659729653
+      ],
+      "confirmation_offset_RMSE_affine": [
+        0.051892654784426014,
+        0.051317645245582744
+      ],
+      "affine_R2_vs_constant": [
+        0.7747645569251332,
+        0.7635246078194571
+      ],
+      "corr_effective_separation_vs_2_minus_TX_fraction": 0.8052092244670486,
+      "median_nearfield_fit_RMSE_db": 0.2023120520654504
+    },
+    "58": {
+      "calibration_maps": 203,
+      "confirmation_maps": 208,
+      "mean_center_offset_calibration_rc": [
+        0.4956121923229166,
+        -0.5046786357825664
+      ],
+      "affine_coefficients_rows_intercept_rowcoord_colcoord": [
+        [
+          0.5003149798924401,
+          -0.5022769844812243
+        ],
+        [
+          -0.1703749457721563,
+          0.0005601100799769304
+        ],
+        [
+          0.00830319937975062,
+          -0.15882940199235937
+        ]
+      ],
+      "confirmation_offset_RMSE_constant": [
+        0.1092193250828736,
+        0.1048779003166089
+      ],
+      "confirmation_offset_RMSE_affine": [
+        0.05180080972160022,
+        0.050653140993099435
+      ],
+      "affine_R2_vs_constant": [
+        0.7750561521161836,
+        0.7667375708526476
+      ],
+      "corr_effective_separation_vs_2_minus_TX_fraction": 0.8010322255333994,
+      "median_nearfield_fit_RMSE_db": 0.1981601888222148
+    }
+  },
+  "seconds": 6.6661927700042725
+}

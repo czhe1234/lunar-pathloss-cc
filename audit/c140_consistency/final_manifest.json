@@ -1,0 +1,69 @@
+{
+  "timestamp": "2026-11-10T22:02:59.244557+08:00",
+  "files": {
+    "results/C140_功率传输相容性与约束对照_20261110.md": {
+      "bytes": 9739,
+      "sha256": "90062a2012e8d8112dabb8606f550547f6d1872b285234ccc62b2fa7c7a8f4a7"
+    },
+    "STATUS.md": {
+      "bytes": 66446,
+      "sha256": "5865200adc016c8f5e6313c71bd25001d94a0bedaaab83ddb23e65f5935b4787"
+    },
+    "src/c140_necessary_control.py": {
+      "bytes": 4506,
+      "sha256": "2148b5aa744fe2c9926b251fee89ed5aff01ae4b88877df5e95beac5ddebb472"
+    },
+    "src/c140_verify.py": {
+      "bytes": 3442,
+      "sha256": "5d63c48b991e233a4e2fbae559d85578ba6127e01b339dba1961088ae6b7817b"
+    },
+    "src/c140_receiver_convergence.py": {
+      "bytes": 7659,
+      "sha256": "d35bb4fe445581a410b5f00e4b7d01a1a7c09bfc24bf4dc68f8cac36e42734a2"
+    },
+    "src/c140_compatibility.py": {
+      "bytes": 13286,
+      "sha256": "dc703073d9cf4c330757489a6cfa2d03d9bfb32da3c73d04b8309e02788d82b5"
+    },
+    "audit/c140_consistency/PLAN.md": {
+      "bytes": 4347,
+      "sha256": "30bfcbf66444fad6e78082210273f9147ca7e400de4885a405c7996725d5a9cc"
+    },
+    "audit/c140_consistency/CHECKLIST.md": {
+      "bytes": 661,
+      "sha256": "e33c8224adb9b0854257cd4e911e5868bee54db28e759cc483fc208929d11168"
+    },
+    "audit/c140_consistency/compatibility.json": {
+      "bytes": 86736,
+      "sha256": "5a4d6f8ddbb7c3c76d942c198e0bec7c21764f72eb805649c074f32bfd898d1c"
+    },
+    "audit/c140_consistency/receiver_convergence.json": {
+      "bytes": 3715,
+      "sha256": "b57097f7046c1a8890d7a93bd02c03ebaefd20d21532d856fa585eb053899d13"
+    },
+    "audit/c140_consistency/receiver_convergence_maps.json": {
+      "bytes": 251838,
+      "sha256": "64e2ee4a0d3dd3d62b3bb60ab252fc1dadac6a1364e556346b640a7aa3671ba0"
+    },
+    "audit/c140_consistency/necessary_condition_control.json": {
+      "bytes": 6125,
+      "sha256": "ed464c61e1c89bf898d047018628388d84fb9838ad6fe3b6a6217e95370b0e83"
+    },
+    "audit/c140_consistency/verification.json": {
+      "bytes": 1931,
+      "sha256": "6260b50cf68ce797f48147aac3dfff032a1a2e0d097b0d84b6f0cf1e6015b1c4"
+    },
+    "audit/c140_consistency/direct_counterexamples.csv": {
+      "bytes": 3526,
+      "sha256": "0fca98624af4f0771b82bce2dedabc8b69ddee7e38aae99dde414d0e46c2403f"
+    },
+    "audit/c140_consistency/decision.json": {
+      "bytes": 1083,
+      "sha256": "da4595fe3d45442e89187933f6bca79d6341b7e523c35438c602ca0964d57d41"
+    },
+    "audit/c140_consistency/resource_snapshot.json": {
+      "bytes": 344,
+      "sha256": "e0baed527b8b6d7866bcba18c4b702949d7f658197d9feadadd19d71e941c7f9"
+    }
+  }
+}

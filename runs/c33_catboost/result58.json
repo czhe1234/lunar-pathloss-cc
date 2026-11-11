@@ -1,0 +1,16 @@
+{
+  "band": "58",
+  "trees": 5999,
+  "best_iteration": 5998,
+  "sampled_DEV_rmse": 3.388582216015835,
+  "seconds": 161.57370281219482,
+  "gpu": {
+    "uuid": "GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0",
+    "logical_device": 0,
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_bytes": 84929347584,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "smoke": false
+}

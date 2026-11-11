@@ -1,0 +1,20 @@
+[
+  {
+    "mode": "none",
+    "card": 1,
+    "pid": 1956708,
+    "log": "audit/c27_path_representation_20261101/none_smoke.log"
+  },
+  {
+    "mode": "coarse",
+    "card": 3,
+    "pid": 1956709,
+    "log": "audit/c27_path_representation_20261101/coarse_smoke.log"
+  },
+  {
+    "mode": "fine",
+    "card": 4,
+    "pid": 1956710,
+    "log": "audit/c27_path_representation_20261101/fine_smoke.log"
+  }
+]

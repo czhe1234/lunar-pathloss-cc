@@ -1,0 +1,37 @@
+{
+  "candidates": {
+    "c106_original": {
+      "checkpoint": "runs/c106_original/first_pass.pt",
+      "sha256": "9e02e41ada219fa586983a8d4c64c566f50578f9891ca8999ae555d905b0245a",
+      "step": 4000,
+      "fit_passed": true,
+      "fit_rmse": [
+        0.6399208314832021,
+        0.6454285087123487
+      ]
+    },
+    "c106_no_decay": {
+      "checkpoint": "runs/c106_no_decay/first_pass.pt",
+      "sha256": "cf30ab05f4f57fcf6444a6ecc4806fccb5deecd94d28280d89adf3d2fa87b039",
+      "step": 3700,
+      "fit_passed": true,
+      "fit_rmse": [
+        0.6504395884134947,
+        0.6591494333677146
+      ]
+    },
+    "c106_lr_decay": {
+      "checkpoint": "runs/c106_lr_decay/best.pt",
+      "sha256": "8edb11544d9c5ff98ec740d15b115e0fa252339995b77d093984c30c9685cbed",
+      "step": 4000,
+      "fit_passed": false,
+      "fit_rmse": [
+        0.7270258359411714,
+        0.7371838094363938
+      ]
+    }
+  },
+  "eligible": "c106_original",
+  "selection": "OriginalunchangednetworkfirstpassingFITcheckpointisprimarycausaldurationtest;otherarmsdiagnostics;selectionfixedbeforeholdout",
+  "official_val_used": false
+}

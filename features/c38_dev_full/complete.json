@@ -1,0 +1,15 @@
+{
+  "complete": true,
+  "dev_maps": 2562,
+  "points_per_map": 1024,
+  "dev_points": 2623488,
+  "original256_retained_bitwise": true,
+  "additional768": "uniform without replacement excluding original256; no target/mask selection",
+  "features": "Same294 C10 descriptors",
+  "use": "Only full-TRAIN refit after complete DEV promotion; not used in FIT training or selection",
+  "valid_points": [
+    2603586,
+    2384708
+  ],
+  "seconds": 66.36874437332153
+}

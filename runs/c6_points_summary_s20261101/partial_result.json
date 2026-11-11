@@ -1,0 +1,186 @@
+{
+  "415": {
+    "band": "415",
+    "best_iteration": 749,
+    "rmse_db": 3.7271055017835804,
+    "C4_rmse_on_same_sampled_pixels": 3.757171822412499,
+    "fit_valid_points": 1471088,
+    "dev_valid_points": 650982,
+    "fit_rmse_at_selected_iteration": 3.3359191095893603,
+    "seconds": 35.306103467941284,
+    "top_features": [
+      {
+        "feature": "critical_TX_height",
+        "gain": 787986062.7144403
+      },
+      {
+        "feature": "underground_length_TX2",
+        "gain": 53248189.92271376
+      },
+      {
+        "feature": "incidence_cos",
+        "gain": 21590010.111210823
+      },
+      {
+        "feature": "margin_tx2",
+        "gain": 18378048.35773468
+      },
+      {
+        "feature": "profile_max_bin4",
+        "gain": 10077245.536272049
+      },
+      {
+        "feature": "profile_max_bin7",
+        "gain": 9955233.173792839
+      },
+      {
+        "feature": "profile_max_bin6",
+        "gain": 9835207.12196064
+      },
+      {
+        "feature": "underground_fraction",
+        "gain": 8852877.883464813
+      },
+      {
+        "feature": "underground_length_TX3",
+        "gain": 8655183.809931755
+      },
+      {
+        "feature": "profile_max_bin5",
+        "gain": 5646219.124985695
+      },
+      {
+        "feature": "profile_max_bin1",
+        "gain": 5317543.719984055
+      },
+      {
+        "feature": "profile_max_bin2",
+        "gain": 4624340.505335808
+      },
+      {
+        "feature": "log_distance",
+        "gain": 4562584.645751953
+      },
+      {
+        "feature": "critical_RX_height",
+        "gain": 4559684.41251564
+      },
+      {
+        "feature": "profile_max_bin3",
+        "gain": 3755252.6198005676
+      },
+      {
+        "feature": "slope_x",
+        "gain": 2512226.730122566
+      },
+      {
+        "feature": "joint_visibility_near",
+        "gain": 2493920.2421016693
+      },
+      {
+        "feature": "slope_y",
+        "gain": 2454082.7052350044
+      },
+      {
+        "feature": "highpass5",
+        "gain": 2265345.0741739273
+      },
+      {
+        "feature": "profile_max_bin0",
+        "gain": 2264103.188127041
+      }
+    ]
+  },
+  "58": {
+    "band": "58",
+    "best_iteration": 391,
+    "rmse_db": 4.938223851720072,
+    "C4_rmse_on_same_sampled_pixels": 4.790880350733795,
+    "fit_valid_points": 1325639,
+    "dev_valid_points": 596173,
+    "fit_rmse_at_selected_iteration": 4.423007251312698,
+    "seconds": 16.930700540542603,
+    "top_features": [
+      {
+        "feature": "critical_TX_height",
+        "gain": 2340252752.238823
+      },
+      {
+        "feature": "margin_tx2",
+        "gain": 56690915.61834526
+      },
+      {
+        "feature": "critical_RX_height",
+        "gain": 51963478.81142616
+      },
+      {
+        "feature": "joint_visibility_far",
+        "gain": 16651060.657246828
+      },
+      {
+        "feature": "incidence_cos",
+        "gain": 14560327.257099152
+      },
+      {
+        "feature": "joint_visibility_mid",
+        "gain": 11233885.429226875
+      },
+      {
+        "feature": "underground_length_TX3",
+        "gain": 9192453.244857788
+      },
+      {
+        "feature": "joint_visibility_near",
+        "gain": 6168085.049023628
+      },
+      {
+        "feature": "slope_x",
+        "gain": 5854808.936733246
+      },
+      {
+        "feature": "slope_y",
+        "gain": 5497891.417834401
+      },
+      {
+        "feature": "profile_max_bin0",
+        "gain": 4621815.877114773
+      },
+      {
+        "feature": "log_distance",
+        "gain": 4067540.7457042933
+      },
+      {
+        "feature": "underground_length_TX2",
+        "gain": 4060692.1624450684
+      },
+      {
+        "feature": "relative_height",
+        "gain": 3478323.866923332
+      },
+      {
+        "feature": "max_margin_location",
+        "gain": 3216074.1519622803
+      },
+      {
+        "feature": "profile_max_bin7",
+        "gain": 3059854.6364917755
+      },
+      {
+        "feature": "dy",
+        "gain": 2859506.2862796783
+      },
+      {
+        "feature": "height",
+        "gain": 2794973.725136757
+      },
+      {
+        "feature": "highpass5",
+        "gain": 2673889.6406354904
+      },
+      {
+        "feature": "profile_max_bin5",
+        "gain": 2610228.11058712
+      }
+    ]
+  }
+}

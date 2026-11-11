@@ -1,0 +1,24 @@
+{
+  "target": "Mean of two-band label-derived optimal geometric boundary heights. Not actual TX height.",
+  "filter": "both clear and blocked >=30, both near-optimal widths <=0.5m, band height agreement <=0.25m",
+  "feature_count": 73,
+  "best_iteration_inner_FIT": 19,
+  "constant_height_m": 2.308045332136447,
+  "fit": {
+    "n": 1114,
+    "terrains": 33,
+    "proxy_height_std_m": 0.38643355301826343,
+    "constant_RMSE_m": 0.38643355301826343,
+    "model_RMSE_m": 0.3249139195140676,
+    "R2": 0.2930528006701768
+  },
+  "dev": {
+    "n": 1378,
+    "terrains": 39,
+    "proxy_height_std_m": 0.38212310340288497,
+    "constant_RMSE_m": 0.3821561372812923,
+    "model_RMSE_m": 0.3426186752771281,
+    "R2": 0.19607511768682673
+  },
+  "dev_used_for_fitting_or_stopping": false
+}

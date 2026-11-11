@@ -1,0 +1,43 @@
+{
+  "scope": "same uniform sampled development pixels, not full-map score",
+  "fixed_blend_is_a_candidate": true,
+  "oracle_weight_not_a_confirmed_generalizing_weight": true,
+  "rows": [
+    {
+      "variant": "summary",
+      "band": "415",
+      "C4_rmse": 3.757171822412499,
+      "point_rmse": 3.7271055017835804,
+      "fixed_50_50_rmse": 3.6835198518211834,
+      "error_correlation": 0.9378442990314149,
+      "oracle_DEV_mse_optimal_point_weight": 0.5645866519255245
+    },
+    {
+      "variant": "summary",
+      "band": "58",
+      "C4_rmse": 4.790880350733795,
+      "point_rmse": 4.938223851720072,
+      "fixed_50_50_rmse": 4.787820816795806,
+      "error_correlation": 0.9374689411126285,
+      "oracle_DEV_mse_optimal_point_weight": 0.25982029127355577
+    },
+    {
+      "variant": "profile",
+      "band": "415",
+      "C4_rmse": 3.757171822412499,
+      "point_rmse": 3.6435362666754374,
+      "fixed_50_50_rmse": 3.6366638584959463,
+      "error_correlation": 0.9317361370772804,
+      "oracle_DEV_mse_optimal_point_weight": 0.723416618757645
+    },
+    {
+      "variant": "profile",
+      "band": "58",
+      "C4_rmse": 4.790880350733795,
+      "point_rmse": 4.9261467982545115,
+      "fixed_50_50_rmse": 4.782348747771897,
+      "error_correlation": 0.9378449464592368,
+      "oracle_DEV_mse_optimal_point_weight": 0.2776351440771131
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "small_maps": 16,
+  "small_exposures_each": 1700,
+  "small_updates": 1700,
+  "main_maps": 2815,
+  "main": {
+    "residual_independent": {
+      "best_epoch": 4,
+      "last_epoch": 10,
+      "best_updates": 732,
+      "total_updates": 1833
+    },
+    "residual_joint": {
+      "best_epoch": 5,
+      "last_epoch": 11,
+      "best_updates": 915,
+      "total_updates": 2016
+    },
+    "direct_independent": {
+      "best_epoch": 18,
+      "last_epoch": 24,
+      "best_updates": 3297,
+      "total_updates": 4395
+    },
+    "direct_joint": {
+      "best_epoch": 8,
+      "last_epoch": 14,
+      "best_updates": 1465,
+      "total_updates": 2568
+    }
+  },
+  "official_val_used": false
+}

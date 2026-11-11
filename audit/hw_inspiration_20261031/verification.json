@@ -1,0 +1,17 @@
+{
+  "report_exists": true,
+  "e85_folds_recomputed": true,
+  "json_parses": true,
+  "report_sha256": "b8e1a4602bfa4de6bc3581ebb922afd16fd61656060bf97dced1a9d10afe2263",
+  "source_hashes": {
+    "task": true,
+    "setup": true,
+    "e83": true,
+    "e85": true,
+    "e124": true,
+    "e214": true,
+    "e216": true,
+    "record": true,
+    "cc_tx_response": true
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "scope": "Same sampled internalDEV,not official score; label oracle only bounds convex combinations of these listed models,not possible architectures or input information",
+  "models": [
+    "c34_periodic8",
+    "c35_periodic8",
+    "c36_physical_periodic8",
+    "c37_wide_periodic8",
+    "c38_1024_continue"
+  ],
+  "best_single_per_pixel_oracle": [
+    2.3748267834380097,
+    2.671914222392392
+  ],
+  "arbitrary_convex_combination_oracle": [
+    2.373851561404144,
+    2.670806823554968
+  ]
+}

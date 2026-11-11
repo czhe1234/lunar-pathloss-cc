@@ -1,0 +1,27 @@
+{
+  "route": "residual",
+  "mode": "independent",
+  "GPU": {
+    "uuid": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+    "logical_device": 0,
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_bytes": 84929347584,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "batch": 16,
+  "max_epochs": 24,
+  "lr": 0.0003,
+  "weight_decay": 0.01,
+  "initial_sha256": "d5a75c1f29c99feeb10c926c18af55441f2f2e5264ae91af81a96a237518ba68",
+  "protocol_sha256": "f98b16e7ff877b8f0ac670a306219a73fe5d788b58c0998ac729fa5e8a0dfa74",
+  "source_sha256": {
+    "src/c127_train.py": "5844fc870fe8cdde7650df04b2ff663c284a2862292c57c413815bf90f348681",
+    "src/c127_joint.py": "bbae88358f245218bd87b95e84d8fef9b49ee0f033766a7e9c42184f477c464d"
+  },
+  "parameters": 1529860,
+  "input": "56H/TXfeatures;noC82channel,nootherTXlabels,noIDembedding,no masks",
+  "FIT": 2815,
+  "monitor": 628,
+  "official_val_used": false
+}

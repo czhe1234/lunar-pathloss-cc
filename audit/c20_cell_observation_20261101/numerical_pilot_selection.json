@@ -1,0 +1,22 @@
+{
+  "selection_positions": [
+    181,
+    227,
+    529,
+    360,
+    152,
+    270,
+    431,
+    75,
+    63,
+    232,
+    117,
+    239,
+    142,
+    183,
+    580,
+    490
+  ],
+  "query_positions": "first16 fixed C19 uniform queries",
+  "uses_labels_or_masks": false
+}

@@ -1,0 +1,202 @@
+"""Consolidate only isolated, verified C95 results. No new experiments or fitting."""
+from pathlib import Path
+import json,shutil,csv
+R=Path(__file__).resolve().parents[1];A=R/'audit/c95_alignment';O=R/'results';O.mkdir(exist_ok=True)
+def read(n):return json.loads((A/n).read_text())
+plan=read('plan.json');freeze=read('freeze.json');invar=read('confirm_invariance.json')
+scores=read('confirm_native_summary.json');comp=read('component_summary.json');ci=read('confirm_bootstrap.json')
+case=read('case_controls.json');mask=read('mask_export_support.json');repeat=read('native_repeat_verified.json')
+trace=read('ray_trajectory.json');extra=read('confirm_fixed_residual_probe.json')
+topo=read('screen_native_probe.json')
+assert len(plan['confirm'])==58 and scores['maps']==58 and repeat['maps']==60
+move=invar['base__origin_xy128'];fix=invar['base__origin_xy128_localstep'];first=invar['first_base__first_xy128']
+nvalid=scores['scores']['base'][0]['clear']['n'];sample_rows=[]
+for cfg,title in [('base','名义回放'),('origin_xy128_localstep','平移后补偿接收面推进坐标'),('origin_xy128','改用正坐标原点'),('origin_z128','整体抬高128m'),('mesh_delaunay','改用Delaunay物理网格'),('pixel_x_-0.5','输出查询x减0.5m')]:
+    b=scores['scores'][cfg]
+    sample_rows.append(f"| {title} | {b[0]['AP']:.3f} / {b[1]['AP']:.3f} | {b[0]['clear']['RMSE']:.3f} / {b[1]['clear']['RMSE']:.3f} | {b[0]['weak']['MAE']:.2f} / {b[1]['weak']['MAE']:.2f} |")
+table='\n'.join(sample_rows)
+c0,c1=comp['counts'];ray=trace['example'];excess=ci['models']['origin_z128'][1]
+firstrows='\n'.join(f"| {v[1]} | ({v[3]},{v[4]}) | {415 if v[2]==0 else 5775} MHz | {v[5]:.4f} | {v[7]:.4f} | {v[5]-v[7]:.2f} |" for v in comp['first_hit_examples'])
+case_table='\n'.join(f"| {name} | {case['models'][name]['remaining_hard']} / 5 |" for name in ['base','ground_antidiag','tx_xy_vertex','tx_z_original_row','phase_plus1e7','phase_minus1e7','rx_antidiag','rx_z1p5','tx_z_minus0p5','pixel_x_+1','topo_center2'])
+text=f"""# C95 接收面推进与地形—标签对应核查
+
+2026-11-04。工作目录为 transformer:/home/chenzhe/work/lunar-pathloss-rm-challenge/CC。所有数值计算在 CPU 完成。没有神经网络训练、融合权重搜索、官方 VAL 选型或网站提交。
+
+## 结论
+
+已确认接收面射线推进存在显著的绝对坐标依赖。它可以在物理相对关系不变时，改变后续接收单元的功率和弱点位置。坐标补偿能基本恢复回放的不变性，但没有恢复发布标签中的共同漏点。
+
+还发现当前固定对角线接收网格与输出模板的有效域不完全符合发布掩码。实际原始网格、TX 世界坐标和导出对应仍未唯一找回。本轮没有通过“弱点位置和功率同时改善”的训练门槛。
+
+此前的归因需要收紧。反例首先说明当前回放没有复现标签生成，不能只凭它断言发布地形和标签错位。生成过程中的数值处理也必须纳入对应关系。
+
+## 固定条件与验证范围
+
+- 固定版本为 Sionna RT 1.1.0、Mitsuba 3.6.2、DrJit 1.0.3，LLVM CPU 后端。
+- 原版标称4e9初始方向，单个iso/V天线，按候选单元做稀疏初始方向子查询并保留原归一化。
+- 60块已研究TRAIN地形中，16块筛查、44块扩展选型。候选仍来自H/TX，不向预测程序提供标签或有效掩码。
+- 另外58块地形、{sum(len(e['windows']) for e in plan['confirm'])}个预选窗口确认。与60块选型地形不重叠。总计{scores['points']}个位置，两个频段各有{nvalid}个共同有效、名义候选通视位置。
+- 58块地形的标签曾用于历史C93分析。本轮的8个确认候选与标量参数在本轮确认评价前冻结，因此只能称未参与本轮选型，不能称从未被研究过的新盲测。
+- 另有5种拓扑/坐标约定只在旧16块选型地形探索。没有用已揭盲58块对其作新的独立晋级验收。
+
+## 确认的数值机制
+
+原版Sionna在穿过接收面后调用si_mp.spawn_ray。Mitsuba会沿交点法向移动起点，其幅度依赖交点世界坐标：
+
+    偏移幅度 = (1 + max(abs(世界坐标))) × 8.940696716308594e-5 m
+
+在坐标为(128,0,0)的位置，实测偏移为0.0115335m。在(256,0,0)为0.0229776m。它不是沿原直线向前推进，因此会改变后续射线所在的直线。掠射和反复穿越接收面时，这种变化可能改变后续命中。
+
+来源为[固定版本Sionna求解器](https://github.com/NVlabs/sionna-rt/blob/v1.1.0/src/sionna/rt/radio_map_solvers/radio_map_solver.py)与[Mitsuba交点推进实现](https://github.com/mitsuba-renderer/mitsuba3/blob/v3.6.2/include/mitsuba/render/interaction.h)。本地源码、实测值和单语句变更记录均保存在audit/c95_alignment。
+
+另在4块确认地形，把初始方向覆盖余量从1.35m扩大到2.4m，名义、整体平移和坐标补偿三种回放共12项结果的原始单元功率最大绝对差为3.2e-10。此项支持已测位置没有因较小方向覆盖而漏掉主要功率，不代表对全体4e9方向作过全场穷举。
+
+### 58块确认地形上的因果对照
+
+三种情况使用相同相对地形、TX与接收面。补偿只改接收面起点偏移公式使用的坐标，保留已平移的几何。
+
+| 对照 | 点数 | 功率变化超过5%的位置 | 有/无直达状态改变 |
+|---|---:|---:|---:|
+| 场景和TX整体沿x/y各平移128m | {move['points']} | {move['change5percent']} | {move['changed_zero']} |
+| 同样平移，但偏移公式使用平移前坐标 | {fix['points']} | {fix['change5percent']} | {fix['changed_zero']} |
+| 仅保留首次接收面命中分量，再整体平移 | {first['points']} | {first['change5percent']} | {first['changed_zero']} |
+
+补偿后仍有{fix['change5percent']}个位置变化超过5%，其中{fix['change3dB_finite']}个双侧功率为正的位置变化超过3dB。不能称完全数值不变。结果说明该偏移是本轮平移敏感性的主要来源，不代表解释了同样比例的官方预测误差。
+
+在独立16块选型地形上，同类计数为426降至4。按原公式重新写一次的阳性对照与原版最大绝对功率差约5.4e-11，验证不是任意改算法后的比较。
+
+### 单条射线的可复算例子
+
+样本05489_00。以接收三角形中心确定{trace['rays']}条固定方向，不使用标签功率。整体平移后{trace['changed']}条射线的接收面命中集合改变，补偿坐标后改变数为{trace['compensated_changed']}。
+
+其中一条射线的命中数从{len(ray['base'])}变为{len(ray['translated'])}，补偿后恢复为{len(ray['compensated'])}。第一交点附近的法向偏移从约2.234mm变为13.678mm。它展示了细小数值推进怎样改变后续米级接收单元，不是统计总体误差的随机样本。
+
+C93近似模型已经包含Mitsuba式偏移。本轮新增的是原版逐射线对照、绝对坐标不变性检查和独立地形复核，不能把这个机制说成此前完全没考虑过的新信息。
+
+## 将反例分到传播分量
+
+使用相同候选供体上的保守条件。标签总路损不能超过最弱直达供体的路损。零直达供体给出无穷上界，不做有限裁断，也不丢掉这些位置后改变分母。
+
+| 有效候选通视位置中的反例 | 415MHz | 5.775GHz |
+|---|---:|---:|
+| 全部直接路径，超过保守上界5dB | {c0[0]} | {c1[0]} |
+| 只保留首次接收面命中分量 | {c0[1]} | {c1[1]} |
+| 原反例在首次命中分量下不再违反上界 | {c0[2]} | {c1[2]} |
+
+这是当前回放的分量定位。首次分量有零值时，上界会变宽。因此不能把93/96或97/99写成“官方误差已有97%被解释”。全部直接路径对首次分量的逐单元非负包含关系已经交叉核对。
+
+仍有三个不同位置在首次命中阶段就矛盾：
+
+| TRAIN样本 | RX行列，从0开始 | 频段 | 标签路损/dB | 首次最弱供体上界/dB | 超界/dB |
+|---|---|---|---:|---:|---:|
+{firstrows}
+
+这些位置需要继续区分实际TX、原始三角拓扑、导出取样与后台数值精度，不能全部归给后续接收面推进。
+
+## 四个环节分别查到了什么
+
+| 环节 | 已做对照 | 当前判断 |
+|---|---|---|
+| 地形网格 | 单改地面对角线、改变网格间距、Delaunay拓扑 | 单改地面对角线在旧16块中没有超过5%的功率变化。所测替代网格未形成稳定收益，不等于已找回真实网格 |
+| TX | 顶点/半像素XY，原行/邻行/表面插值z；反例另测z加减0.5m | 坐标候选未同时解释全体弱点位置和功率。实际连续TX仍未取得 |
+| 接收面 | 改接收面对角线、0.5/1/1.5m高度、法向/竖直偏移、首次/后续命中、整体平移与偏移公式补偿 | 已有确定的数值因果证据。但补偿回放不变性不能自动复现官方标签 |
+| 像素映射 | x/y偏移0.25/0.5/1m、不同查询范围和中心构造 | 固定位移未形成稳定修复。有效域另有确定不一致，见下节 |
+
+### 有效掩码给出的几何约束
+
+旧固定对角线模板的插值凸包外位置为(0,0)和(255,255)。但在60块开发地形中，415MHz的右下角有3张地图有效，分别为02026_00、05333_00和04024_00。两个上角均始终无效。
+
+按照官方掩码语义，当前接收网格与查询模板组合不能完整解释这个有效域。改变TX不能改变查询点是否位于三角中心凸包内。但这个角点反例本身不能证明全部内部弱点来自像素错位。
+
+检查24种平面网格与顶点排序后，仍有多种约定不违反这些角点约束，掩码不足以唯一反推出原始网格。另试直接按terrain_id除以16恢复父地形相邻关系，边界高度差与随机配对相近，不支持直接由编号推断世界坐标。
+
+## 修复候选在58块确认地形上的定位与功率
+
+为检查原始单元dB插值，使用原版直达值加一个各频段固定的非直达功率底噪代理。底噪只在44块开发地形选定并冻结。这是机制诊断模型，不是已经求准的真实散射场，也不是新的C82版本。
+
+共同漏点定义沿用C93，即真实路损比C82和C92都高至少5dB。低频249个，高频269个。下表全部使用相同5561个位置，数字均为低频/高频。
+
+| 固定候选 | 定位AP | 全部位置RMSE/dB | 已知共同漏点的功率MAE/dB |
+|---|---|---|---|
+{table}
+
+同面板C82为2.945/3.422dB。此处窗口富集了困难位置，不能与完整官方验证直接比。
+
+以名义诊断模型“附加路损大于3dB”作为报警，低频命中131/999个报警，高频命中94/584个报警。对应共同漏点精确率为13.11%/16.10%，召回为52.61%/34.94%。
+
+另按固定公式“诊断路损−max(C82,C92)至少5dB”直接预报共同漏点，名义模型仅命中低频14/249、高频1/269个漏点。该补充对照在主确认后计算，没有据此重调参数或晋级。
+
+整体抬高128m的高频RMSE收益为{excess['RMSE_gain']:.4f}dB。按58个地形作500次配对重抽样，95%区间为[{excess['RMSE_gain_CI95'][0]:.4f},{excess['RMSE_gain_CI95'][1]:.4f}]dB。低频没有收益，定位AP也未稳定改善。
+
+底噪代理自身限制了深衰减的表达。不能把这些功率MAE说成真实传播的不可约误差。位置预测和全体误报仍不足以支持训练新的修复模型。
+
+### 旧16块地形上的补充拓扑探索
+
+又测试原版DrJit单元中心、两个顶点排序、正坐标256m网格和整数255m网格等5种一致约定。它们只在旧选型地形探索。同一窗口采样的最好RMSE改善仍小于0.16dB，弱点功率未被准确重建，没有进入新的独立确认或训练。
+
+### 首次命中反例的事后对照
+
+以下只针对选出的三个位置、五个频段事件。它们不是独立确认，也不能用于宣称整体提分。
+
+| 候选 | 仍超过最弱供体上界5dB的事件 |
+|---|---:|
+{case_table}
+
+查询x加1m等候选会把某些供体变成零直达，使保守上界变成无穷，因此只能说明原反例不再被这一上界排除，不能说已经预测对功率。不同候选可以局部消除不同反例，但没有一个经本轮独立确认的统一修复。
+
+1e-7弧度微小发射方向扰动没有消除这些首次反例。真实CUDA后台与LLVM后台的差异仍未被完整排除。
+
+## 质量与边界
+
+曾发现不同诊断阶段共享临时PLY目录。432个筛查输出与207个扩展输出及派生指标已全部标为无效，保留在invalid_concurrent_20261104。修改为阶段/进程独立目录后完整重算，最终报告只读取隔离结果。
+
+60块名义回放与C94原始单元值逐项复核，最大绝对差为{repeat['max_abs']:.3g}。求解器原源码未修改，消融另存副本。原始发布数组只读。
+
+实体3做过一次初始化检查，CUDA驱动初始化仍失败。本轮数值计算全部用LLVM CPU完成，没有借用其他GPU或重置驱动。所有任务已结束后再交付。
+
+## 当前决定与缺口
+
+本轮确认了接收面数值推进的坐标依赖，并收窄了剩余反例，但尚未完成标签对应修复。训练门槛未通过，不启动网络训练。
+
+要唯一判定具体生成约定，需要至少一个反例样本的原始地形/RX网格、TX世界坐标、插值前逐单元值和确切导出脚本。最小清单另存于C95反例原始记录核对清单_20261104.md。没有联系组织者或发送消息。
+
+C82仍为正式版本。完整官方固定验证为2.246377/2.579150dB，综合2.412764dB。本轮没有新官方分数，也未证明双频1dB不可达。
+
+## 数值入口
+
+原始和隔离回放、冻结方案、源码变更、轨迹、逐像素值与统计位于audit/c95_alignment。
+
+复核命令，在服务器CC执行：
+
+    CUDA_VISIBLE_DEVICES='' OPENBLAS_NUM_THREADS=1 .venv/bin/python scripts/c95_causal.py confirm
+    CUDA_VISIBLE_DEVICES='' OPENBLAS_NUM_THREADS=1 .venv/bin/python scripts/c95_native_confirm.py
+    CUDA_VISIBLE_DEVICES='' OPENBLAS_NUM_THREADS=1 .venv/bin/python scripts/c95_components.py
+    CUDA_VISIBLE_DEVICES='' OPENBLAS_NUM_THREADS=1 .venv/bin/python scripts/c95_case_controls.py
+
+完整运行入口为scripts/c95_cpu.sh。报告生成入口为scripts/c95_report.py。
+"""
+(O/'C95接收面推进与地形标签对应核查_20261104.md').write_text(text)
+shutil.copyfile(A/'hard_component_cases.csv',O/'C95反例传播分量清单_20261104.csv')
+request="""# C95 反例原始记录核对清单
+
+对象全部来自官方TRAIN，不需要官方VAL标签或整个数据集。
+
+优先样本05489_00，RX像素(206,218)，用于核对反复穿越RX的数值推进。
+再选00648_00，RX(21,36)，用于核对首次命中已矛盾的情况。
+辅助样本00008_00，RX(219,161)；00407_00，RX(101,182)。编号从0开始。
+
+最少需要同一次实际生成中的以下记录：
+
+1. 物理地形和RX测量网格的原始顶点、三角面、世界坐标变换。不能只给最终256×256展示网格。
+2. 实际Transmitter.position，包括连续x/y/z，以及取整、局部最低高度归零发生的阶段。
+3. 至少一个原始种子对应的path_gain和cell_centers；最终合并图用到的全部种子/采样数量说明。
+4. 原始griddata查询x/y、插值前功率/dB转换顺序、零值转NaN规则、nanmean和最终填补顺序。
+5. Sionna、Mitsuba、DrJit、NumPy、SciPy版本与CUDA/LLVM后台。确认RX穿越是否直接调用si.spawn_ray，是否改过epsilon。
+
+验收方式是用同一原网格和TX重放一个种子，逐单元对齐，再复现导出和最终像素。
+当前CC保存的是候选重建网格，不能把它冒充上述官方原网格。
+
+清单用于明确缺口。本轮没有向组织者发送请求。
+"""
+(O/'C95反例原始记录核对清单_20261104.md').write_text(request)
+print('C95 report,195-row case CSV,and minimal source-record checklist generated')

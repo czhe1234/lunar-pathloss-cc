@@ -1,0 +1,182 @@
+{
+  "rays_each": 4000000,
+  "solver": "1.1.0",
+  "backend": "llvm_ad_mono_polarized",
+  "registration": "world x=col-128, y=127-row, z=floor(H[row+1,col])+3, 256/255 vertex spacing, RX z+1, upward faces",
+  "bands": [
+    "415",
+    "58"
+  ],
+  "depth": 100,
+  "seeds": [
+    13,
+    47
+  ],
+  "primary": "2 seeds share the same primary lattice; independent interactions after first hit",
+  "features": "baseband array per valid H-TX point: direct reference, each-band multibounce sum, positive-excess over direct, coverage and log-domain interpolation at several support scales",
+  "records": [
+    {
+      "group": "fit",
+      "terrain": "06281",
+      "pos": 2255,
+      "index": 23803
+    },
+    {
+      "group": "fit",
+      "terrain": "04760",
+      "pos": 1727,
+      "index": 18048
+    },
+    {
+      "group": "fit",
+      "terrain": "02318",
+      "pos": 960,
+      "index": 8834
+    },
+    {
+      "group": "fit",
+      "terrain": "03358",
+      "pos": 1258,
+      "index": 13122
+    },
+    {
+      "group": "fit",
+      "terrain": "02551",
+      "pos": 988,
+      "index": 9549
+    },
+    {
+      "group": "fit",
+      "terrain": "04386",
+      "pos": 1548,
+      "index": 16814
+    },
+    {
+      "group": "fit",
+      "terrain": "06057",
+      "pos": 2238,
+      "index": 22869
+    },
+    {
+      "group": "fit",
+      "terrain": "04011",
+      "pos": 1369,
+      "index": 15472
+    },
+    {
+      "group": "fit",
+      "terrain": "00671",
+      "pos": 368,
+      "index": 2653
+    },
+    {
+      "group": "fit",
+      "terrain": "00316",
+      "pos": 180,
+      "index": 1484
+    },
+    {
+      "group": "fit",
+      "terrain": "02513",
+      "pos": 982,
+      "index": 9365
+    },
+    {
+      "group": "fit",
+      "terrain": "04035",
+      "pos": 1373,
+      "index": 15543
+    },
+    {
+      "group": "fit",
+      "terrain": "02492",
+      "pos": 979,
+      "index": 9295
+    },
+    {
+      "group": "fit",
+      "terrain": "03953",
+      "pos": 1362,
+      "index": 15217
+    },
+    {
+      "group": "fit",
+      "terrain": "02545",
+      "pos": 987,
+      "index": 9544
+    },
+    {
+      "group": "fit",
+      "terrain": "00923",
+      "pos": 491,
+      "index": 3730
+    },
+    {
+      "group": "select",
+      "terrain": "04379",
+      "pos": 1546,
+      "index": 16807
+    },
+    {
+      "group": "select",
+      "terrain": "00747",
+      "pos": 411,
+      "index": 2958
+    },
+    {
+      "group": "select",
+      "terrain": "06199",
+      "pos": 2250,
+      "index": 23587
+    },
+    {
+      "group": "select",
+      "terrain": "05808",
+      "pos": 2162,
+      "index": 21943
+    },
+    {
+      "group": "select",
+      "terrain": "04469",
+      "pos": 1604,
+      "index": 17186
+    },
+    {
+      "group": "select",
+      "terrain": "00522",
+      "pos": 248,
+      "index": 2166
+    },
+    {
+      "group": "select",
+      "terrain": "02894",
+      "pos": 1070,
+      "index": 10906
+    },
+    {
+      "group": "select",
+      "terrain": "03620",
+      "pos": 1334,
+      "index": 14010
+    },
+    {
+      "group": "select",
+      "terrain": "03149",
+      "pos": 1089,
+      "index": 12181
+    },
+    {
+      "group": "select",
+      "terrain": "02167",
+      "pos": 949,
+      "index": 8404
+    },
+    {
+      "group": "select",
+      "terrain": "00878",
+      "pos": 486,
+      "index": 3590
+    }
+  ],
+  "seconds": 50.82729895506054
+}

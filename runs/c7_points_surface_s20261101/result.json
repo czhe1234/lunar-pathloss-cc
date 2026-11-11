@@ -1,0 +1,193 @@
+{
+  "state": "completed",
+  "variant": "surface",
+  "scope": "uniform sampled pixels from all FIT maps and the unchanged DEV maps; not full-map or official-validation score",
+  "bands": {
+    "415": {
+      "band": "415",
+      "best_iteration": 733,
+      "rmse_db": 3.7286218939933806,
+      "C4_rmse_on_same_sampled_pixels": 3.757171822412499,
+      "fit_valid_points": 1471088,
+      "dev_valid_points": 650982,
+      "fit_rmse_at_selected_iteration": 3.2966453255632375,
+      "seconds": 46.91822099685669,
+      "top_features": [
+        {
+          "feature": "critical_TX_height",
+          "gain": 786123271.5808735
+        },
+        {
+          "feature": "underground_length_TX2",
+          "gain": 51807530.244213104
+        },
+        {
+          "feature": "incidence_cos",
+          "gain": 19500351.992191315
+        },
+        {
+          "feature": "margin_tx2",
+          "gain": 17689964.956352234
+        },
+        {
+          "feature": "profile_max_bin4",
+          "gain": 9659114.133375168
+        },
+        {
+          "feature": "profile_max_bin6",
+          "gain": 9238191.815535545
+        },
+        {
+          "feature": "profile_max_bin7",
+          "gain": 8886784.431467533
+        },
+        {
+          "feature": "underground_fraction",
+          "gain": 8843616.085466385
+        },
+        {
+          "feature": "underground_length_TX3",
+          "gain": 8515128.278720856
+        },
+        {
+          "feature": "profile_max_bin5",
+          "gain": 5267897.349290848
+        },
+        {
+          "feature": "profile_max_bin1",
+          "gain": 4934252.396173477
+        },
+        {
+          "feature": "surface_TX2_geom_near",
+          "gain": 4339420.741844177
+        },
+        {
+          "feature": "profile_max_bin2",
+          "gain": 4282120.814670563
+        },
+        {
+          "feature": "critical_RX_height",
+          "gain": 4264432.482264519
+        },
+        {
+          "feature": "log_distance",
+          "gain": 3344508.839483261
+        },
+        {
+          "feature": "profile_max_bin3",
+          "gain": 3265799.43699646
+        },
+        {
+          "feature": "slope_x",
+          "gain": 2182940.8998146057
+        },
+        {
+          "feature": "slope_y",
+          "gain": 2118326.4664154053
+        },
+        {
+          "feature": "highpass5",
+          "gain": 1916889.5390357971
+        },
+        {
+          "feature": "surface_TX2_alignment_sharp_weight",
+          "gain": 1852428.6805419922
+        }
+      ]
+    },
+    "58": {
+      "band": "58",
+      "best_iteration": 332,
+      "rmse_db": 4.857377255810456,
+      "C4_rmse_on_same_sampled_pixels": 4.790880350733795,
+      "fit_valid_points": 1325639,
+      "dev_valid_points": 596173,
+      "fit_rmse_at_selected_iteration": 4.314136741488432,
+      "seconds": 22.589954614639282,
+      "top_features": [
+        {
+          "feature": "critical_TX_height",
+          "gain": 2337743463.385132
+        },
+        {
+          "feature": "margin_tx2",
+          "gain": 52786163.02944422
+        },
+        {
+          "feature": "critical_RX_height",
+          "gain": 45098209.436309814
+        },
+        {
+          "feature": "surface_TX2_geom_upper_visibility",
+          "gain": 21446178.678451538
+        },
+        {
+          "feature": "underground_length_TX3",
+          "gain": 12844947.627746582
+        },
+        {
+          "feature": "incidence_cos",
+          "gain": 12619883.75259018
+        },
+        {
+          "feature": "surface_TX2_geom_near",
+          "gain": 5661381.038742065
+        },
+        {
+          "feature": "slope_x",
+          "gain": 4955146.238914013
+        },
+        {
+          "feature": "slope_y",
+          "gain": 4672660.340480804
+        },
+        {
+          "feature": "surface_TX2_visible_fraction",
+          "gain": 4638828.419311523
+        },
+        {
+          "feature": "underground_fraction",
+          "gain": 4126725.584915161
+        },
+        {
+          "feature": "surface_TX3_geom_lower_visibility",
+          "gain": 3863636.463821411
+        },
+        {
+          "feature": "profile_max_bin0",
+          "gain": 3265997.9728269577
+        },
+        {
+          "feature": "surface_TX2_alignment_sharp_weight",
+          "gain": 3207363.5750694275
+        },
+        {
+          "feature": "joint_visibility_near",
+          "gain": 2687206.661992073
+        },
+        {
+          "feature": "underground_length_TX2",
+          "gain": 2546145.296295166
+        },
+        {
+          "feature": "relative_height",
+          "gain": 2424394.053209305
+        },
+        {
+          "feature": "profile_max_bin7",
+          "gain": 2413782.7792930603
+        },
+        {
+          "feature": "log_distance",
+          "gain": 2412860.4803533554
+        },
+        {
+          "feature": "highpass5",
+          "gain": 2109471.610594511
+        }
+      ]
+    }
+  },
+  "seconds": 70.05116653442383,
+  "no_GPU_used": true
+}

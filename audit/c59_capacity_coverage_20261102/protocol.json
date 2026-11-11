@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-02",
+  "question": "Does insufficient whole-data capacity or fixed pixel coverage explain training error?",
+  "baseline": "C38 internal FIT5508 terrain checkpoint",
+  "capacity": {
+    "variants": [
+      1024,
+      2048
+    ],
+    "change": "Function-preserving duplicate hidden neurons; weights repeated with downstream 1/factor scaling",
+    "same": "8 members,294 descriptors,FIT23,713,792points,DEV655872points,seed20261207,batch4096,individual-member loss,AdamW1e-4wd1e-4,cosine20000,patience5000",
+    "guard": "FP32 initial output max diff<.001dB; BF16 sampled DEV diff<.005dB",
+    "screen": "both sampledDEV improvement>=.15dB before full-map evaluation"
+  },
+  "coverage": "Frozen C38 on 264 full FIT maps from 64 FIT terrains; seen1024 vs remaining64512; masks only scoring",
+  "official_VAL_used": false
+}

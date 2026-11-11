@@ -1,0 +1,193 @@
+{
+  "state": "completed",
+  "variant": "consistent_height",
+  "scope": "uniform sampled pixels from all FIT maps and the unchanged DEV maps; not full-map or official-validation score",
+  "bands": {
+    "415": {
+      "band": "415",
+      "best_iteration": 1197,
+      "rmse_db": 2.898083776637797,
+      "C4_rmse_on_same_sampled_pixels": 3.757171822412499,
+      "fit_valid_points": 1471088,
+      "dev_valid_points": 650982,
+      "fit_rmse_at_selected_iteration": 2.2656943603140576,
+      "seconds": 211.1235795021057,
+      "top_features": [
+        {
+          "feature": "phase0_buried_length",
+          "gain": 573035467.4025803
+        },
+        {
+          "feature": "phase0_material_first_t",
+          "gain": 146582999.07226753
+        },
+        {
+          "feature": "phase0_crossings",
+          "gain": 50249388.40859604
+        },
+        {
+          "feature": "phase0_critical_RX",
+          "gain": 49600864.1811924
+        },
+        {
+          "feature": "critical_TX_floorphase_0",
+          "gain": 35355878.641498566
+        },
+        {
+          "feature": "incidence_cos",
+          "gain": 15741356.728559494
+        },
+        {
+          "feature": "phase0_material_slab_mix_415",
+          "gain": 14024094.83085537
+        },
+        {
+          "feature": "phase0_material_slab_TM_58",
+          "gain": 13182098.05657196
+        },
+        {
+          "feature": "critical_TX_floorphase_7",
+          "gain": 10842282.169799805
+        },
+        {
+          "feature": "underground_length_TX2",
+          "gain": 9938705.951881409
+        },
+        {
+          "feature": "phase0_material_slab_TM_415",
+          "gain": 9374775.681725502
+        },
+        {
+          "feature": "phase0_material_sum_log_cos",
+          "gain": 6500176.853107452
+        },
+        {
+          "feature": "phase0_material_slab_TE_58",
+          "gain": 5604302.9836883545
+        },
+        {
+          "feature": "phase0_TX_height",
+          "gain": 4827415.991783142
+        },
+        {
+          "feature": "critical_TX_floorphase_1",
+          "gain": 4305319.349090576
+        },
+        {
+          "feature": "critical_TX_floorphase_6",
+          "gain": 4255027.654285431
+        },
+        {
+          "feature": "margin_tx2",
+          "gain": 3929431.4107170105
+        },
+        {
+          "feature": "ordered_clearance_126",
+          "gain": 3853407.3737888336
+        },
+        {
+          "feature": "ordered_clearance_127",
+          "gain": 3684789.002216339
+        },
+        {
+          "feature": "surface_TX2_geom_near",
+          "gain": 3545465.3762817383
+        }
+      ]
+    },
+    "58": {
+      "band": "58",
+      "best_iteration": 1200,
+      "rmse_db": 3.3841621634843726,
+      "C4_rmse_on_same_sampled_pixels": 4.790880350733795,
+      "fit_valid_points": 1325639,
+      "dev_valid_points": 596173,
+      "fit_rmse_at_selected_iteration": 2.519522373655492,
+      "seconds": 179.1102397441864,
+      "top_features": [
+        {
+          "feature": "phase0_critical_RX",
+          "gain": 2286136561.691269
+        },
+        {
+          "feature": "phase0_buried_length",
+          "gain": 108594424.01328278
+        },
+        {
+          "feature": "critical_TX_floorphase_7",
+          "gain": 48778847.08574486
+        },
+        {
+          "feature": "margin_tx2",
+          "gain": 17823624.834831238
+        },
+        {
+          "feature": "surface_TX3_visible_fraction",
+          "gain": 16690193.928585052
+        },
+        {
+          "feature": "phase0_TX_height",
+          "gain": 13963010.3400383
+        },
+        {
+          "feature": "critical_RX_height",
+          "gain": 12450373.994819641
+        },
+        {
+          "feature": "incidence_cos",
+          "gain": 9648919.162836552
+        },
+        {
+          "feature": "phase0_surface_geom_lower_visibility",
+          "gain": 8406830.498390198
+        },
+        {
+          "feature": "surface_TX2_visible_fraction",
+          "gain": 7986166.885787964
+        },
+        {
+          "feature": "critical_TX_floorphase_1",
+          "gain": 7904848.186040878
+        },
+        {
+          "feature": "TX_patch_1_0",
+          "gain": 7427512.679115295
+        },
+        {
+          "feature": "critical_TX_floorphase_6",
+          "gain": 5976628.290359497
+        },
+        {
+          "feature": "phase0_surface_geom_weight",
+          "gain": 5460338.362545013
+        },
+        {
+          "feature": "critical_TX_floorphase_0",
+          "gain": 5338954.532550812
+        },
+        {
+          "feature": "TX_patch_4_1",
+          "gain": 4053143.2816553116
+        },
+        {
+          "feature": "surface_TX2_alignment_sharp_weight",
+          "gain": 4043361.0926818848
+        },
+        {
+          "feature": "TX_height",
+          "gain": 3991683.9684524536
+        },
+        {
+          "feature": "surface_TX2_geom_near",
+          "gain": 3926465.177318573
+        },
+        {
+          "feature": "TX_patch_-4_-1",
+          "gain": 3709688.3022232056
+        }
+      ]
+    }
+  },
+  "seconds": 399.899361371994,
+  "no_GPU_used": true
+}

@@ -1,0 +1,18 @@
+{
+  "full_monitor_trajectories": true,
+  "original_small_last_step": 4500,
+  "hard_small_last_step": 5500,
+  "xlim": [
+    0,
+    5750
+  ],
+  "ylim_log": [
+    0.25,
+    40
+  ],
+  "review_fix": "Extended common x-axis beyond hard5500 endpoint; moved top of bar axis to2.9 so labels do not meet legend.",
+  "source": "src/c29_plot.py",
+  "visually_inspected_after_revision": true,
+  "complete_endpoints_visible": true,
+  "bar_labels_clear_of_legend": true
+}

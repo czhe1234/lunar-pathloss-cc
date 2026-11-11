@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "device": {
+    "uuid": "GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0",
+    "logical_device": 0,
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_bytes": 84929347584,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "samples": 8,
+  "inputs": "Only original validation heightmaps and TX coordinates; no labels or masks supplied to predictor",
+  "saved_prediction_replay_rms_difference_db": 0.006996978773538335,
+  "saved_prediction_replay_max_abs_difference_db": 0.1163787841796875,
+  "tolerance_rms_db": 0.05,
+  "scope": "Checks exported input-only inference against saved validated predictions, allowing GPU numerical replay variation. Full official metric comes from independent full-set scoring.",
+  "original_data_size_and_mtime_unchanged": true,
+  "all_original_package_file_hashes_verified": true,
+  "archive_verified_against_manifest": true,
+  "archive_sha256": "cece650ae33fad473506f412b25882b4b304e4b715be1e5ce5b1281f78dd06ce"
+}

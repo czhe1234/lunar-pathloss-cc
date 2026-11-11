@@ -1,0 +1,6 @@
+{
+  "requested_uuid": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+  "cuInit": 999,
+  "error_name": "CUDA_ERROR_UNKNOWN",
+  "error": "unknown error"
+}

@@ -1,0 +1,11 @@
+{
+  "mode": "clip128",
+  "band": 0,
+  "conditional_sign_accuracy": 0.6643384345940536,
+  "majority_accuracy": 0.6141528710228932,
+  "logloss": 0.5512676649819781,
+  "trees": 253,
+  "seconds": 8.234580627991818,
+  "oracle_gate": true,
+  "official_val_used": false
+}

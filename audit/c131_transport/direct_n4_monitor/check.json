@@ -1,0 +1,11 @@
+{
+  "flat_max_relative_error": 6.200666993511475e-06,
+  "ridge_full_block_fraction": 0.49411764705882355,
+  "quadrature_points": 16,
+  "positive_direct_and_transmission": true,
+  "mapping_roundoff": {
+    "min_original_weight": -2.220446049250313e-16,
+    "max_sum_error": 1.1920928955078125e-07,
+    "max_adjustment": 1.1920928955078125e-07
+  }
+}

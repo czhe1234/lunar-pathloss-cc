@@ -1,0 +1,11 @@
+{
+  "reason": "C35feature file had cold data pages; process waited on __lock_page_killable before first training step. C38densefile99.98%resident; its first256points are bitwise identical to C35.",
+  "data_change": false,
+  "spot_replay_maps": [
+    0,
+    100,
+    1000,
+    5000
+  ],
+  "action": "Preserve unstarted run and use the identical resident C38prefix for loading. Same seed,weights initialization,targets and protocol."
+}

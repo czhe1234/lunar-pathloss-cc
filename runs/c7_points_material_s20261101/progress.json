@@ -1,0 +1,193 @@
+{
+  "state": "completed",
+  "variant": "material",
+  "scope": "uniform sampled pixels from all FIT maps and the unchanged DEV maps; not full-map or official-validation score",
+  "bands": {
+    "415": {
+      "band": "415",
+      "best_iteration": 599,
+      "rmse_db": 3.6701833911630617,
+      "C4_rmse_on_same_sampled_pixels": 3.757171822412499,
+      "fit_valid_points": 1471088,
+      "dev_valid_points": 650982,
+      "fit_rmse_at_selected_iteration": 3.2636554915332128,
+      "seconds": 39.356943130493164,
+      "top_features": [
+        {
+          "feature": "critical_TX_height",
+          "gain": 782467506.4488792
+        },
+        {
+          "feature": "underground_length_TX2",
+          "gain": 22749604.768413544
+        },
+        {
+          "feature": "incidence_cos",
+          "gain": 21554867.33815956
+        },
+        {
+          "feature": "tx2_slab_mix_58",
+          "gain": 20716162.200180054
+        },
+        {
+          "feature": "margin_tx2",
+          "gain": 19713953.29471302
+        },
+        {
+          "feature": "tx3_sum_log_cos",
+          "gain": 17365769.063877106
+        },
+        {
+          "feature": "tx2_slab_TE_58",
+          "gain": 11446250.165496826
+        },
+        {
+          "feature": "tx3_slab_mix_58",
+          "gain": 8683885.172302246
+        },
+        {
+          "feature": "tx3_slab_TE_58",
+          "gain": 8252782.149093628
+        },
+        {
+          "feature": "tx2_sum_log_cos",
+          "gain": 6240019.965896606
+        },
+        {
+          "feature": "profile_max_bin7",
+          "gain": 4953614.171705246
+        },
+        {
+          "feature": "tx2_slab_TM_58",
+          "gain": 3403087.41217041
+        },
+        {
+          "feature": "slope_x",
+          "gain": 2441781.6255779266
+        },
+        {
+          "feature": "underground_length_TX3",
+          "gain": 2420210.656906128
+        },
+        {
+          "feature": "profile_max_bin6",
+          "gain": 2184802.428035736
+        },
+        {
+          "feature": "slope_y",
+          "gain": 2166747.7982854843
+        },
+        {
+          "feature": "highpass5",
+          "gain": 2152808.863637924
+        },
+        {
+          "feature": "tx2_slab_TM_415",
+          "gain": 2066361.7921066284
+        },
+        {
+          "feature": "log_distance",
+          "gain": 2049963.1624383926
+        },
+        {
+          "feature": "joint_visibility_near",
+          "gain": 2023195.962975502
+        }
+      ]
+    },
+    "58": {
+      "band": "58",
+      "best_iteration": 294,
+      "rmse_db": 4.940562171121705,
+      "C4_rmse_on_same_sampled_pixels": 4.790880350733795,
+      "fit_valid_points": 1325639,
+      "dev_valid_points": 596173,
+      "fit_rmse_at_selected_iteration": 4.4709934006551135,
+      "seconds": 18.61027717590332,
+      "top_features": [
+        {
+          "feature": "critical_TX_height",
+          "gain": 2342414798.395859
+        },
+        {
+          "feature": "margin_tx2",
+          "gain": 51351112.39106369
+        },
+        {
+          "feature": "critical_RX_height",
+          "gain": 43783549.43833923
+        },
+        {
+          "feature": "joint_visibility_far",
+          "gain": 16519508.874389648
+        },
+        {
+          "feature": "incidence_cos",
+          "gain": 13739008.009831429
+        },
+        {
+          "feature": "tx3_first_t",
+          "gain": 13228537.808120728
+        },
+        {
+          "feature": "joint_visibility_mid",
+          "gain": 10560774.603656769
+        },
+        {
+          "feature": "joint_visibility_near",
+          "gain": 5432153.519826889
+        },
+        {
+          "feature": "slope_x",
+          "gain": 5132133.810375214
+        },
+        {
+          "feature": "underground_length_TX3",
+          "gain": 4733468.802978516
+        },
+        {
+          "feature": "slope_y",
+          "gain": 4648684.531194687
+        },
+        {
+          "feature": "profile_max_bin0",
+          "gain": 3851039.3544540405
+        },
+        {
+          "feature": "log_distance",
+          "gain": 3446869.370721817
+        },
+        {
+          "feature": "tx2_maximum_incident_slope",
+          "gain": 3094753.6873168945
+        },
+        {
+          "feature": "relative_height",
+          "gain": 2844736.948490143
+        },
+        {
+          "feature": "profile_max_bin7",
+          "gain": 2661925.889975548
+        },
+        {
+          "feature": "max_margin_location",
+          "gain": 2545373.0795669556
+        },
+        {
+          "feature": "underground_length_TX2",
+          "gain": 2462933.841217041
+        },
+        {
+          "feature": "highpass5",
+          "gain": 2180904.808254242
+        },
+        {
+          "feature": "dy",
+          "gain": 2166064.7658805847
+        }
+      ]
+    }
+  },
+  "seconds": 58.34230351448059,
+  "no_GPU_used": true
+}

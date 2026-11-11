@@ -1,0 +1,6 @@
+{
+  "exit_code": 139,
+  "stage": "before first16 completed maps",
+  "diagnosis": "Suspected concurrent lazy initialization of shared scipy Delaunay transform; pilot preinitialized transforms and passed. Precompute all interpolation indices/weights serially before launching workers.",
+  "failed_arrays_not_used": true
+}

@@ -1,0 +1,14 @@
+{
+  "checkpoint_sha256": "faf6921a15cabe62e7d32eef1e7d15078b1ce031bde1a76dfe49be3f4734f413",
+  "step": 2000,
+  "gpu": {
+    "uuid": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+    "logical_device": 0,
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_bytes": 84929347584,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "condition": "none",
+  "parameters_updated": false
+}

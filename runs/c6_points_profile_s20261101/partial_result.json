@@ -1,0 +1,186 @@
+{
+  "415": {
+    "band": "415",
+    "best_iteration": 932,
+    "rmse_db": 3.6435362666754374,
+    "C4_rmse_on_same_sampled_pixels": 3.757171822412499,
+    "fit_valid_points": 1471088,
+    "dev_valid_points": 650982,
+    "fit_rmse_at_selected_iteration": 3.098388897785003,
+    "seconds": 103.19897079467773,
+    "top_features": [
+      {
+        "feature": "critical_TX_height",
+        "gain": 788710769.2866497
+      },
+      {
+        "feature": "underground_length_TX2",
+        "gain": 49500348.95630455
+      },
+      {
+        "feature": "margin_tx2",
+        "gain": 19825151.618271828
+      },
+      {
+        "feature": "incidence_cos",
+        "gain": 17523750.707378387
+      },
+      {
+        "feature": "underground_length_TX3",
+        "gain": 6880331.854139328
+      },
+      {
+        "feature": "profile_max_bin6",
+        "gain": 6030319.058502197
+      },
+      {
+        "feature": "underground_fraction",
+        "gain": 4906109.984345436
+      },
+      {
+        "feature": "critical_RX_height",
+        "gain": 4283252.752264023
+      },
+      {
+        "feature": "log_distance",
+        "gain": 4242935.000699997
+      },
+      {
+        "feature": "profile_max_bin7",
+        "gain": 3938401.750312805
+      },
+      {
+        "feature": "profile_max_bin2",
+        "gain": 3308109.541498184
+      },
+      {
+        "feature": "ordered_clearance_127",
+        "gain": 3283256.461545944
+      },
+      {
+        "feature": "ordered_clearance_126",
+        "gain": 2988546.5294704437
+      },
+      {
+        "feature": "profile_max_bin4",
+        "gain": 2642017.8218574524
+      },
+      {
+        "feature": "profile_max_bin1",
+        "gain": 2507809.301955223
+      },
+      {
+        "feature": "joint_visibility_near",
+        "gain": 2448828.074074745
+      },
+      {
+        "feature": "slope_x",
+        "gain": 2234457.3737545013
+      },
+      {
+        "feature": "slope_y",
+        "gain": 2198793.833083153
+      },
+      {
+        "feature": "profile_max_bin5",
+        "gain": 1982130.4700536728
+      },
+      {
+        "feature": "ordered_clearance_125",
+        "gain": 1972933.0362319946
+      }
+    ]
+  },
+  "58": {
+    "band": "58",
+    "best_iteration": 443,
+    "rmse_db": 4.9261467982545115,
+    "C4_rmse_on_same_sampled_pixels": 4.790880350733795,
+    "fit_valid_points": 1325639,
+    "dev_valid_points": 596173,
+    "fit_rmse_at_selected_iteration": 4.308492297837083,
+    "seconds": 46.06927227973938,
+    "top_features": [
+      {
+        "feature": "critical_TX_height",
+        "gain": 2337740391.9735603
+      },
+      {
+        "feature": "margin_tx2",
+        "gain": 58977543.82320404
+      },
+      {
+        "feature": "critical_RX_height",
+        "gain": 51358298.49333191
+      },
+      {
+        "feature": "joint_visibility_far",
+        "gain": 16166179.61912918
+      },
+      {
+        "feature": "joint_visibility_mid",
+        "gain": 10877098.54916954
+      },
+      {
+        "feature": "underground_length_TX3",
+        "gain": 9776608.394180298
+      },
+      {
+        "feature": "incidence_cos",
+        "gain": 9389871.90202713
+      },
+      {
+        "feature": "joint_visibility_near",
+        "gain": 5786194.336074829
+      },
+      {
+        "feature": "slope_x",
+        "gain": 5354154.745655537
+      },
+      {
+        "feature": "slope_y",
+        "gain": 5035403.372291565
+      },
+      {
+        "feature": "ordered_clearance_127",
+        "gain": 3791146.842163086
+      },
+      {
+        "feature": "underground_length_TX2",
+        "gain": 3549472.07144928
+      },
+      {
+        "feature": "log_distance",
+        "gain": 3330150.2792110443
+      },
+      {
+        "feature": "relative_height",
+        "gain": 3137941.5873174667
+      },
+      {
+        "feature": "ordered_clearance_126",
+        "gain": 2860893.7924461365
+      },
+      {
+        "feature": "max_margin_location",
+        "gain": 2841437.843383789
+      },
+      {
+        "feature": "ordered_clearance_000",
+        "gain": 2822880.0370254517
+      },
+      {
+        "feature": "dy",
+        "gain": 2385099.5157852173
+      },
+      {
+        "feature": "height",
+        "gain": 2214169.8057308197
+      },
+      {
+        "feature": "dz",
+        "gain": 1892247.858133316
+      }
+    ]
+  }
+}

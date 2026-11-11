@@ -1,0 +1,8 @@
+{
+  "question": "Does exact candidate-mesh intersection fix C57 approximate-event mismatch?",
+  "inputs": "ReleasedH/TX only, actual supplied material; no label access in feature producer.",
+  "geometry": "Split ray at every x/y gridline and triangle diagonal; solve plane intersection analytically; two diagonals and nominal/candidateheight.",
+  "checks": "Analyticridge has exactly2 intersections atx125/1.04 and131/.96; flat surface hasnone. Thin-slab lossless/zero-thickness checks reused.",
+  "screen": "SameFIT64/DEV64points asC57; only incidence-event geometry changed. No neural training before gain.",
+  "limits": "Candidate1m mesh, not recovered originalmesh; cell averaging/interpolation pending."
+}

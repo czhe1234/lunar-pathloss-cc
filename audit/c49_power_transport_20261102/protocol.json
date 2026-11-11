@@ -1,0 +1,17 @@
+{
+  "created": "2026-11-02",
+  "question": "Can preserving directional surface power-transport nodes and physical visibility improve C38 shadow prediction?",
+  "source_correction": "Official generator disables diffraction. Sionna1.1.0 radio maps accumulate squared path amplitudes with area normalization, rather than coherent inter-path phase. Excess-length sin/cos in C47/C48 are only empirical features; not a justified model of target interference.",
+  "design": "Keep all294 C38 descriptors and fixed C38 prediction; learn residuals from16azimuth x32radius nodes with H/normals, TX/RX visibility proxies, incidence/exit/reflect alignment and relative geometric power weights. No path-phase oscillations in new transport branch.",
+  "input_only": "All new nodes and cached TX visibility margins derive from H/TX and existing input-only C3 geometry; label validity masks remain loss/scoring only.",
+  "small_fit": "Same4FITmaps,4096knownpoints,1000updates; fitting only.",
+  "full_fit": "All5508FITterrains/23.7Mpoints; batch chosen by probe; initial8000updates; sampledDEV612; baseline0 eligible; only continue on measured gain.",
+  "promotion": "Both sampledDEV gains>=.10dB then fullDEV64; both fullDEV64 gains>=.10dB before remaining548DEV. OfficialVAL after fullTRAIN fixed-exposure refit.",
+  "scope_limit": "One-bounce visibility/radiance proxies are not actual recovered paths or complete100-bounce tracing; material response learned. True geometry still unavailable.",
+  "sources": [
+    "https://raw.githubusercontent.com/lunarradiomapchallenge/lunarradiomapchallenge.github.io/main/dataset.html",
+    "https://raw.githubusercontent.com/NVlabs/sionna-rt/v1.1.0/src/sionna/rt/radio_map_solvers/mesh_radio_map.py",
+    "https://raw.githubusercontent.com/NVlabs/sionna-rt/v1.1.0/src/sionna/rt/radio_map_solvers/radio_map_solver.py"
+  ],
+  "GPU": "1/3/4 only fullUUID"
+}

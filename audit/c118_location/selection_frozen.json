@@ -1,0 +1,28 @@
+{
+  "choices": {
+    "plain": {
+      "checkpoint": "runs/c118_plain/best.pt",
+      "sha256": "f81443bd7dccaf7c9125abe9c1f58ddcbdfbc386c430ea31dc1c45959c71689a",
+      "step": 2112,
+      "epoch": 6,
+      "kind": "model",
+      "monitor": [
+        2.1390176136138233,
+        2.406874147529675
+      ]
+    },
+    "location": {
+      "checkpoint": "runs/c118_location/best.pt",
+      "sha256": "dae1f78227c771322322aae8a70383b92025e260f5f7bf95bf727d7571c2f60b",
+      "step": 2816,
+      "epoch": 8,
+      "kind": "model",
+      "monitor": [
+        2.140675770919634,
+        2.413078358641344
+      ]
+    }
+  },
+  "eligible": "plain",
+  "selection": "Native128monitor bestcheckpoint/arm frozen before484confirmation;C82 andC117parent retained as initial options"
+}

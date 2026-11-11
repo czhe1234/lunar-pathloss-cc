@@ -1,0 +1,35 @@
+{
+  "kind": "attention",
+  "scope": "full",
+  "name": "c54_low_attention",
+  "steps": 16000,
+  "batch": 4096,
+  "lr": 0.0003,
+  "seed": 20261202,
+  "parent": "c47_attention_full",
+  "target_band": 0,
+  "gpu": {
+    "uuid": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+    "logical_device": 0,
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_bytes": 84929347584,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "fit_rows": 23713792,
+  "dev_rows": 655872,
+  "fit_maps": 23158,
+  "fit_terrains": 5508,
+  "parameters": 2779120,
+  "teacher": "c38_1024_continue/best.pt",
+  "target": "(PL-C38prediction)/20",
+  "official_VAL_used": false,
+  "zero_correction_initialization": true,
+  "source_hashes": {
+    "c47_model.py": "58ae38dcad4effc468cf436a46095ea1b664d9ddcff8c2748dfe97a730a4bb36",
+    "c54_low_train.py": "b2f60f31b89661e1960bf298838775e1055cf737514dcd3286f544131b8c4ba7",
+    "c34_model.py": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af"
+  },
+  "parent_checkpoint_sha256": "b2673b80d61af6b9dad2e00f266248de2ab559365438581ef8224d2b1f75b20f",
+  "selection": "minimum intended-band DEV RMSE"
+}

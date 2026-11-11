@@ -1,0 +1,24 @@
+{
+  "training": false,
+  "optimizer_created": false,
+  "backward_called": false,
+  "targets_or_masks_read": false,
+  "device": {
+    "uuid": "GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0",
+    "logical_device": 0,
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_bytes": 84929347584,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "checkpoint_sha256": "012a3d40f1c2d0526119f1ff03b9196c16e9a3c09c160fee1d5475e8f2cbb3e9",
+  "checkpoint_epoch": 35,
+  "maps": 1024,
+  "orientations": 8,
+  "max_old_new_input_difference": 0.0,
+  "max_same_process_forward_repeat_difference": 0.0,
+  "height_transform_inverse_checks": 256,
+  "source_sha256": "1a21a060e377cc9f48db056eb11b4a0eb3c6e03ee3993468b2a214933fc07c80",
+  "seconds": 17.35346484184265,
+  "limits": "D4 invariance is an ideal isotropic-geometry symmetry; finite simulator sampling may not be exactly equivariant. This test measures prediction inconsistency, not label noise."
+}

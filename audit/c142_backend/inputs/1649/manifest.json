@@ -1,0 +1,13 @@
+{
+  "map": 1649,
+  "rays": 9512334,
+  "trace_rays": 550,
+  "reference_npz_sha256": "77d2de2b8dcf01d8bf2ffc82df8369841bfdc44d0c80c11a88ea3eaae9a4d9a6",
+  "sha256": {
+    "ground.ply": "095e94715086c03cf6071e6f9897275c26c4c4046427aa0845b7c29c0c1ea784",
+    "rx.ply": "c25c9807e341b85cd1fc94242b7c8701aae28aaef1a44853fc470466b04887e1",
+    "ids.npy": "bf4985cd2315ee34e7690a66ac552c74d73a3e3fba498316fbe63131acfc853b",
+    "directions.npy": "7a2b84b99dab1d9cc08dd46a9f37383afa991d8761621cdb6738ede9f6fe8272",
+    "queries.npz": "61d5212886ba7e786e99e9b708c97163e2a6210262d814b31aded043b66e1c3a"
+  }
+}

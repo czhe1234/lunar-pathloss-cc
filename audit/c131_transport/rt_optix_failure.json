@@ -1,0 +1,5 @@
+{
+  "cuda_drjit_probe": "passed",
+  "mitsuba_scene": "failed: libnvoptix.so.1 unavailable",
+  "resolution": "Use existing LLVM CPU backend with 8 threads for independent LoS check; no system changes or driver restart."
+}

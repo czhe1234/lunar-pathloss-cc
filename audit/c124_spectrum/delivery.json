@@ -1,0 +1,13 @@
+{
+  "local_dir": "/Users/chenzhe/Desktop/transformer/CC/results",
+  "sha256": {
+    "C123-C124_\u63d0\u5206\u5bf9\u7167\u7ed3\u679c_20261108.md": "65473f7e1d5f6075b2ef6b8ea5adebc9b9c7bdd5ac87f61a3955818229ed4898",
+    "score.json": "551330bf90ef004099db186694bd52915a1824cf2e955304ca327cfa819a929e",
+    "pair_score.json": "a9391e4ed4ccc50f9aac8282b35e2cdebd0dacd3191adc509064ed05e6b86b7a",
+    "protocol.json": "db0189d14cfacbe073ec0d7e73828ab2741d8ddc909f114a83177b8ec021b4c7"
+  },
+  "local_server_hashes_match": true,
+  "all_own_gpu_jobs_exited": true,
+  "official_val_used": false,
+  "major_improvement_achieved": false
+}

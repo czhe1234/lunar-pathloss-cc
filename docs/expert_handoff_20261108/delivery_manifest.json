@@ -1,0 +1,26 @@
+{
+  "output": "/Users/chenzhe/Desktop/transformer/CC/results/月球路损预测_专家接手说明_20261109.docx",
+  "bytes": 206527,
+  "sha256": "f7fab6f2790fc847c01ea05f695739d3c34e141f0a727dadc2f8233cf534bd57",
+  "paragraphs": 164,
+  "tables": 15,
+  "inline_shapes": 1,
+  "checked_at": "2026-11-09T00:10:26.823717+08:00",
+  "pages": 17,
+  "visual_review": "All 17 pages inspected. Final changes on pages 10, 14, 15 re-inspected. Other page images byte-identical to inspected render. No clipping or missing Chinese glyphs.",
+  "source_sha256": {
+    "content.json": "e7006c81d24d45c153f9027f09180acec5833b4465ebe3594b4f2327efbe6638",
+    "build_docx.py": "058b2bd1b075bafaaf25ed6050aecbaf4507ad65fe6c4d8cb90fcb8701390a05",
+    "evidence.json": "70803deb3f37918f53f4d271353d279db7dacd3661152585784327d6edd83e10",
+    "C121_pair_9435.png": "cf8916fdc3f9715b1d31de68c536f8284d7fd1aec34aac87f8918afeb23f6039"
+  },
+  "research_scope": "Existing CC artifacts and official sources only; CPU arithmetic on saved C87 summaries; no new training or GPU inference.",
+  "claim_checks": [
+    "C82 complete official validation 2.246377454774535 / 2.5791498899052434 dB",
+    "C92 true-label-assisted 1.846 / 2.011 is not a deployable model score",
+    "Tail perfect-repair values are counterfactual error budgets",
+    "C130 did not pass a meaningful improvement gate",
+    "No established raw-input information lower bound or guarantee of reaching 1 dB"
+  ],
+  "server_destination": "transformer:/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/results/月球路损预测_专家接手说明_20261109.docx"
+}

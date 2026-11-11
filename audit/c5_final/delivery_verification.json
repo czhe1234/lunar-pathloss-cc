@@ -1,0 +1,11 @@
+{
+  "finished_utc": "2026-10-31T17:34:28.580775+00:00",
+  "report": "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/results/C5\u65b0\u7248\u672c\u8bd5\u9a8c\u4e0e\u505c\u6b62\u7ed3\u8bba_20261101.md",
+  "report_sha256": "7359d30997f875a3016d65a37b97a3473efc1666515ce9cae33c02222bee4f98",
+  "links_checked": 9,
+  "all_links_exist": true,
+  "gpu3_work_lock_free": true,
+  "full_refit_directory_created": false,
+  "scientific_goal_achieved": false,
+  "candidate_experiment_complete": true
+}

@@ -1,0 +1,11 @@
+{
+  "maps": 23158,
+  "terrains": 5508,
+  "pixels_per_map": 64,
+  "sampled_pixels": 1482112,
+  "valid_pixels_per_band": [
+    1471088,
+    1325639
+  ],
+  "complete": true
+}

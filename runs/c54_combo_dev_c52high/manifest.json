@@ -1,0 +1,22 @@
+{
+  "role": "internalFIT selection only; not fullTRAIN refit",
+  "source_checkpoints": {
+    "low": "runs/c54_low_attention/best.pt",
+    "high": "runs/c52_transport_full/best.pt",
+    "teacher": "runs/c38_1024_continue/best.pt"
+  },
+  "high_architecture": "c52",
+  "sampled_DEV_RMSE": [
+    2.5265930866835404,
+    2.8855671269381293
+  ],
+  "low_selected_step": 16000,
+  "high_selected_step": 11000,
+  "routing": "415MHz always low expert;5775MHz always high expert",
+  "official_VAL_used_for_training": false,
+  "sha256": {
+    "low": "9f7d8cb1e67ddd58571cbdacc5412a98f66a1478150f34ac89927b8977f4d1b1",
+    "high": "bb9aefe513f29688d72f7ee374657c21746f848be05b264b27b9a60b0ce49074",
+    "teacher": "78184224e9758e4083f32d5673431cca9a2f0802756646fab945e12d555b8b4c"
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "identical": {
+    "pairs": 1,
+    "planned_pairs": 1,
+    "terrains": 1,
+    "separation_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "bands": {
+      "0": {
+        "all_joint_valid": {
+          "joint_valid": 4060,
+          "positive_TX_oriented": 180,
+          "positive_both": 90,
+          "either_position": 90,
+          "positive_reappears_same_pixel": 1.0,
+          "excess_PL_MAE_at_positive_one_end": 0.0,
+          "excess_PL_MAE_overall": 0.0,
+          "raw_label_pair_RMSE": 0.0,
+          "physical_seed_changes": 0,
+          "event_change_positions": 0
+        },
+        "same_state": {
+          "joint_valid": 4060,
+          "positive_TX_oriented": 180,
+          "positive_both": 90,
+          "either_position": 90,
+          "positive_reappears_same_pixel": 1.0,
+          "excess_PL_MAE_at_positive_one_end": 0.0,
+          "excess_PL_MAE_overall": 0.0,
+          "raw_label_pair_RMSE": 0.0,
+          "physical_seed_changes": 0,
+          "event_change_positions": 0
+        }
+      },
+      "1": {
+        "all_joint_valid": {
+          "joint_valid": 3953,
+          "positive_TX_oriented": 160,
+          "positive_both": 80,
+          "either_position": 80,
+          "positive_reappears_same_pixel": 1.0,
+          "excess_PL_MAE_at_positive_one_end": 0.01640625,
+          "excess_PL_MAE_overall": 0.0017708069820389577,
+          "raw_label_pair_RMSE": 0.013916968551394768,
+          "physical_seed_changes": 0,
+          "event_change_positions": 0
+        },
+        "same_state": {
+          "joint_valid": 3953,
+          "positive_TX_oriented": 160,
+          "positive_both": 80,
+          "either_position": 80,
+          "positive_reappears_same_pixel": 1.0,
+          "excess_PL_MAE_at_positive_one_end": 0.01640625,
+          "excess_PL_MAE_overall": 0.0017708069820389577,
+          "raw_label_pair_RMSE": 0.013916968551394768,
+          "physical_seed_changes": 0,
+          "event_change_positions": 0
+        }
+      }
+    },
+    "exact_input_control": {
+      "IDs": [
+        "06290_44",
+        "06290_46"
+      ],
+      "same_fixed_stream_PHYS_max_difference_dB": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "near": {
+    "pairs": 6,
+    "planned_pairs": 21,
+    "terrains": 4,
+    "separation_m": [
+      2.23606797749979,
+      2.8284271247461903,
+      3.0
+    ],
+    "bands": {
+      "0": {
+        "all_joint_valid": {
+          "joint_valid": 24250,
+          "positive_TX_oriented": 1385,
+          "positive_both": 209,
+          "either_position": 1176,
+          "positive_reappears_same_pixel": 0.30180505415162456,
+          "excess_PL_MAE_at_positive_one_end": 9.338513303538315,
+          "excess_PL_MAE_overall": 2.116047055547576,
+          "raw_label_pair_RMSE": 5.034737253552235,
+          "physical_seed_changes": 11,
+          "event_change_positions": 967
+        },
+        "same_state": {
+          "joint_valid": 23248,
+          "positive_TX_oriented": 1257,
+          "positive_both": 195,
+          "either_position": 1062,
+          "positive_reappears_same_pixel": 0.31026252983293556,
+          "excess_PL_MAE_at_positive_one_end": 8.587512241039382,
+          "excess_PL_MAE_overall": 1.6430173430511221,
+          "raw_label_pair_RMSE": 3.9087258155408344,
+          "physical_seed_changes": 11,
+          "event_change_positions": 867
+        }
+      },
+      "1": {
+        "all_joint_valid": {
+          "joint_valid": 20072,
+          "positive_TX_oriented": 906,
+          "positive_both": 116,
+          "either_position": 790,
+          "positive_reappears_same_pixel": 0.2560706401766004,
+          "excess_PL_MAE_at_positive_one_end": 10.749256760768263,
+          "excess_PL_MAE_overall": 2.007758830886936,
+          "raw_label_pair_RMSE": 5.781820578133838,
+          "physical_seed_changes": 42,
+          "event_change_positions": 674
+        },
+        "same_state": {
+          "joint_valid": 19241,
+          "positive_TX_oriented": 761,
+          "positive_both": 106,
+          "either_position": 655,
+          "positive_reappears_same_pixel": 0.278580814717477,
+          "excess_PL_MAE_at_positive_one_end": 9.012393823759203,
+          "excess_PL_MAE_overall": 1.2583937468644426,
+          "raw_label_pair_RMSE": 3.0913470927905053,
+          "physical_seed_changes": 39,
+          "event_change_positions": 549
+        }
+      }
+    },
+    "exact_input_control": null
+  },
+  "far": {
+    "pairs": 11,
+    "planned_pairs": 21,
+    "terrains": 10,
+    "separation_m": [
+      51.24451190127583,
+      129.34063553268942,
+      200.26232796010336
+    ],
+    "bands": {
+      "0": {
+        "all_joint_valid": {
+          "joint_valid": 44331,
+          "positive_TX_oriented": 2403,
+          "positive_both": 52,
+          "either_position": 2351,
+          "positive_reappears_same_pixel": 0.043279234290470245,
+          "excess_PL_MAE_at_positive_one_end": 20.039919600372123,
+          "excess_PL_MAE_overall": 8.851327177812852,
+          "raw_label_pair_RMSE": 17.771194878872286,
+          "physical_seed_changes": 5,
+          "event_change_positions": 2299
+        },
+        "same_state": {
+          "joint_valid": 27935,
+          "positive_TX_oriented": 1273,
+          "positive_both": 33,
+          "either_position": 1240,
+          "positive_reappears_same_pixel": 0.051846032992930086,
+          "excess_PL_MAE_at_positive_one_end": 14.88881830328822,
+          "excess_PL_MAE_overall": 2.6065366757712862,
+          "raw_label_pair_RMSE": 10.045815659183566,
+          "physical_seed_changes": 2,
+          "event_change_positions": 1207
+        }
+      },
+      "1": {
+        "all_joint_valid": {
+          "joint_valid": 34571,
+          "positive_TX_oriented": 1649,
+          "positive_both": 28,
+          "either_position": 1621,
+          "positive_reappears_same_pixel": 0.03395997574287447,
+          "excess_PL_MAE_at_positive_one_end": 24.682711960787614,
+          "excess_PL_MAE_overall": 12.502470938046034,
+          "raw_label_pair_RMSE": 25.00233340797432,
+          "physical_seed_changes": 136,
+          "event_change_positions": 1593
+        },
+        "same_state": {
+          "joint_valid": 24287,
+          "positive_TX_oriented": 901,
+          "positive_both": 18,
+          "either_position": 883,
+          "positive_reappears_same_pixel": 0.03995560488346282,
+          "excess_PL_MAE_at_positive_one_end": 15.120442972325893,
+          "excess_PL_MAE_overall": 2.118677630049988,
+          "raw_label_pair_RMSE": 9.592769191585754,
+          "physical_seed_changes": 16,
+          "event_change_positions": 865
+        }
+      }
+    },
+    "exact_input_control": null
+  }
+}

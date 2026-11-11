@@ -1,0 +1,9 @@
+{
+  "flat_clearance_max_abs": 4.118305813038958e-08,
+  "transpose_reverse_lateral_max_abs": 0.0,
+  "paired_network_initial_rmse": [
+    2.503072378940815,
+    2.8909577365127173
+  ],
+  "passed": true
+}

@@ -1,0 +1,6 @@
+{
+  "hypothesis": "C10 only summarizes floor-height-corrected profile in14 channels; explicitly exposing full128 corrected samples and receiver height phases may capture finer geometry than composition of compressed channels",
+  "input_information": "H and TX only, deterministic transforms of294features; no new observation; actual continuousTX/mesh not recovered",
+  "comparison": "same denseFIT, originalDEV, periodic8 architecture, seed, lr, batch and steps asC35; extra136inputfeatures",
+  "goal": "both official validation RMSE<=1dB; candidate selection onDEV only"
+}

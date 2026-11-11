@@ -1,0 +1,17 @@
+[
+  {
+    "task": "C36 explicit physical transforms",
+    "gpu": 1,
+    "pid": 2132124
+  },
+  {
+    "task": "C37 width1024",
+    "gpu": 3,
+    "pid": 2132125
+  },
+  {
+    "task": "C35 DEV shard0",
+    "gpu": 4,
+    "pid": 2132127
+  }
+]

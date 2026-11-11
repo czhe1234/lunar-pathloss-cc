@@ -1,0 +1,12 @@
+{
+  "motivation": "After new modeling, 46-49 percent of residual SSE still lies in candidate fully visible areas. Test numerical deflection at earlier intersections with the raised receiver surface.",
+  "intervention": "Identical source directions, terrain, reflection background, 16 equal-area samples per triangle. Change only the normal-directed origin offset after receiver hits. Validate flat plane and compare quadrature 16 vs36.",
+  "positivity_gate": "Only consider a learned follow-up if the pre-calibrated correction in separate terrain holdout reduces clear-zone RMSE at least .05 dB in both bands and total RMSE at least .03 dB each.",
+  "sources": [
+    "CC/.rt_packages/mitsuba/include/mitsuba/render/interaction.h",
+    "CC/.rt_packages/mitsuba/include/mitsuba/core/math.h",
+    "CC/.rt_packages/drjit/include/drjit/array_constants.h",
+    "Sionna RT 1.1.0 radio_map_solver.py measurement-surface spawn_ray(d=ray.d)"
+  ],
+  "official_training_use": "Diagnostic only, no official VAL selection or synthetic targets."
+}

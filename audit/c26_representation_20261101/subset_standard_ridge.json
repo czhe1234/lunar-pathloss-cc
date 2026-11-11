@@ -1,0 +1,50 @@
+{
+  "kind": "subset_standard",
+  "scope": "128 FIT maps; frozen supervised encoder.8192 pixels/map fit the diagnostic readout and disjoint8192 evaluate it. Pixel holdout is only for the readout, not independent of encoder training.",
+  "feature_width": 512,
+  "count": [
+    1040486,
+    919118
+  ],
+  "baseline_rmse": [
+    2.0553474887813263,
+    2.1780079048066203
+  ],
+  "lambdas": [
+    0.0001,
+    0.01,
+    1.0
+  ],
+  "global_readout_rmse": [
+    [
+      2.0559087237849107,
+      2.1788643906361713
+    ],
+    [
+      2.0561263763547584,
+      2.1791659593068826
+    ],
+    [
+      2.1757293525584394,
+      2.266748304849801
+    ]
+  ],
+  "per_map_oracle_rmse": [
+    [
+      2.2252057016439832,
+      2.4313693102051332
+    ],
+    [
+      2.1805575475923806,
+      2.342089764170671
+    ],
+    [
+      2.1410864103862126,
+      2.252955441213813
+    ]
+  ],
+  "seconds": 20.6764554977417,
+  "not_competition_score": true,
+  "not_raw_input_information_bound": true,
+  "interpretation": "Per-map weights use labels from that same map and cannot be inferred for a new terrain by this diagnostic. All regularization settings reported; no held-out terrain claim."
+}

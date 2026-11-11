@@ -1,0 +1,48 @@
+{
+  "0": {
+    "predicted_power_at_least_10dB_too_low": {
+      "pixel_fraction": 0.02337147369659089,
+      "C82_shadow_SSE_fraction": 0.12263157416352931
+    },
+    "within_3dB": {
+      "pixel_fraction": 0.7947477191390695,
+      "C82_shadow_SSE_fraction": 0.2476315028368658
+    },
+    "predicted_power_at_least_10dB_too_high": {
+      "pixel_fraction": 0.03073071559386394,
+      "C82_shadow_SSE_fraction": 0.35010632811587444
+    },
+    "n": 59517,
+    "component_candidate_RMSE": 4.467940929427765,
+    "candidate_pred_minus_true_PL_quantiles": [
+      -3.803097966985567,
+      0.02574040069616501,
+      2.495726023710894
+    ],
+    "fraction_diffuse_larger_than_straight_plus_specular": 0.027303123477325806,
+    "spherical_vs_MIS_diffuse_median_difference_dB": 0.14561207166285364
+  },
+  "1": {
+    "predicted_power_at_least_10dB_too_low": {
+      "pixel_fraction": 0.2153461792493467,
+      "C82_shadow_SSE_fraction": 0.41195255282476156
+    },
+    "within_3dB": {
+      "pixel_fraction": 0.4918875455876863,
+      "C82_shadow_SSE_fraction": 0.20129272505876544
+    },
+    "predicted_power_at_least_10dB_too_high": {
+      "pixel_fraction": 0.01837865778364874,
+      "C82_shadow_SSE_fraction": 0.1326796847512326
+    },
+    "n": 34823,
+    "component_candidate_RMSE": 31.46640360957904,
+    "candidate_pred_minus_true_PL_quantiles": [
+      -4.3308535087658635,
+      1.0410143741679576,
+      76.24992652840899
+    ],
+    "fraction_diffuse_larger_than_straight_plus_specular": 0.845389541395055,
+    "spherical_vs_MIS_diffuse_median_difference_dB": 1.2045961867524027
+  }
+}

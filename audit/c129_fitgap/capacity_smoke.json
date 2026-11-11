@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "GPU": {
+    "uuid": "GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0",
+    "logical_device": 0,
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_bytes": 84929347584,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "width_expansion_replay": {
+    "max": 4.76837158203125e-06,
+    "rms": 1.750366180885976e-07
+  },
+  "widths": {
+    "1": {
+      "parameters": 1529860,
+      "initial_hash": "2d51f31a9d5b1c9f8ad149a04c1c62641150aa3c5ad32669c9793c3a3a645d9b",
+      "seconds_per_step": 0.16472012539161368,
+      "max_memory_GiB": 10.779769897460938
+    },
+    "2": {
+      "parameters": 5035684,
+      "initial_hash": "e5b57c71b947346cf12f30310c5392da5f43cf376d75bd977d5ffabbcfb3edc5",
+      "seconds_per_step": 0.2051281333900988,
+      "max_memory_GiB": 20.22989320755005
+    }
+  }
+}

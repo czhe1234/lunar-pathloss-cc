@@ -1,0 +1,17 @@
+{
+  "batch": 8,
+  "epochs": 8,
+  "patience": 3,
+  "minimum_epochs": 4,
+  "initial_state_sha256": "547d667b9cab2e648ef553f90034fcc49c5bf05ec8d124132046a6beee0fcd3b",
+  "seed": 117041,
+  "sample_seed": 117073,
+  "selection": "Minmean native128monitor including0; no confirmation choice",
+  "promotion": "both>=.30dB same484;positivepaired95CI;fullnativeverification",
+  "official_val_used": false,
+  "batch_reason": "B16 only5.8percent higherthroughput vsB8, nearly doubleactivationmemory;B8 preservesresidentdataheadroom",
+  "source_sha256": {
+    "src/c117_factorized.py": "2241009007a72b9d27feac9e6833de14c6245591707da9d37f6b14f3bf2597ba",
+    "src/c117_train.py": "eb046743064be0257cfdbec3be7e629e877ba71ebdf0b6a8304f49f433d895f4"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "centroid_order_max_xy_difference_m": 2.0345052092807236e-05,
+  "flat_mesh_FSPL_RMSE_db": 0.4374381899833679,
+  "bias_db": 0.021734613925218582,
+  "rays": 64000000,
+  "domain": "10m<range<50m; same1m triangular measurement cells"
+}

@@ -1,0 +1,29 @@
+{
+  "gpu": {
+    "backend": "LLVM CPU",
+    "threads": 8,
+    "reason": "Host lacks libnvoptix.so.1; no driver changes"
+  },
+  "sionna_rt": "1.1.0",
+  "records": [
+    {
+      "freq": 415000000.0,
+      "seconds": 1.4919748306274414,
+      "cells": 1024,
+      "nonzero": 1024,
+      "FSPL_center_RMSE_db": 0.1420051008462906,
+      "mean_error_db": -0.003788999980315566,
+      "p95_abs_error_db": 0.2953062057495117
+    },
+    {
+      "freq": 5775000000.0,
+      "seconds": 0.23903274536132812,
+      "cells": 1024,
+      "nonzero": 1024,
+      "FSPL_center_RMSE_db": 0.1420050710439682,
+      "mean_error_db": -0.0037903885822743177,
+      "p95_abs_error_db": 0.29530906677246094
+    }
+  ],
+  "scope": "LOS-only sanity; excludes near cells, point FSPL compared to finite-cell Monte Carlo average"
+}

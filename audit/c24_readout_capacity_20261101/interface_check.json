@@ -1,0 +1,6 @@
+{
+  "CPU_FP32_max_prediction_difference_db": 9.5367431640625e-06,
+  "parameters_standard": 8468226,
+  "parameters_wide": 15237890,
+  "function_preservation_passed": true
+}

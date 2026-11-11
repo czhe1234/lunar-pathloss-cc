@@ -1,0 +1,8 @@
+{
+  "source": "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/runs/c70_corridor_field",
+  "model_sha256": "110f73b7a4a1221061002a52b48e4f36a6a1bcaa038770ab31f6a9b70ebaa913",
+  "start_epoch": 11,
+  "optimizer_restored": false,
+  "shuffle_resumed": true,
+  "original_history_length": 13
+}

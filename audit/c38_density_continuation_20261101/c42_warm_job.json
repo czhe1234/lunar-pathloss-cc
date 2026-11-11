@@ -1,0 +1,19 @@
+{
+  "pid": 2277885,
+  "args": [
+    "./run_gpu.sh",
+    "1",
+    "src/c42_train.py",
+    "--mode",
+    "periodic",
+    "--members",
+    "8",
+    "--width",
+    "1024",
+    "--dense",
+    "--steps",
+    "20000",
+    "--name",
+    "c42_rx_patch"
+  ]
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "name": "c59_wide2048",
+    "pid": 3679653,
+    "card": 1
+  },
+  {
+    "name": "c59_narrow1024",
+    "pid": 3679654,
+    "card": 3
+  },
+  {
+    "name": "c59_coverage",
+    "pid": 3679655,
+    "card": 4
+  }
+]

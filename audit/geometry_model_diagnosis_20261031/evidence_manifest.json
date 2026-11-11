@@ -1,0 +1,48 @@
+{
+  "report": "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/results/地形标签对应与模型失配诊断_20261031.md",
+  "files": {
+    "results/地形标签对应与模型失配诊断_20261031.md": "7660558ef7cfda835b61b107469bae9c9b02dac7ccfda1b4395aa95a0222ae37",
+    "audit/geometry_model_diagnosis_20261031/geometry_hypotheses.json": "100e4a778649f1369fd79d0dc5ebdca9c701df4aa8a099e0774f06f2bb80cac9",
+    "audit/geometry_model_diagnosis_20261031/geometry_height_cells.json": "789aa5b49ad5282f4dddcc8163b98c3b6a24f0abc794c6eefeccc381481c099e",
+    "audit/geometry_model_diagnosis_20261031/state_definition.json": "6882aa37b76da253c6e71eeeae809271551378521efe62002ef865189e7a2079",
+    "audit/geometry_model_diagnosis_20261031/nearfield_geometry.json": "9e4ebc961df02d4981e6cc9c5627d25d80dfe6978a50adefdec7d01745af5e0f",
+    "audit/geometry_model_diagnosis_20261031/state_and_model_errors.json": "b017bbbebc28cd19a644bbf402eecd386c46b9fbb9d3fc30a00447e22a49fa32",
+    "audit/geometry_model_diagnosis_20261031/matched_tx_change_response.json": "62006e59ff3e0d2c90fcff9d0ab89f40cc9618113a9ec0e142928233c4b7eb99",
+    "audit/geometry_model_diagnosis_20261031/tx_change_response.json": "13b8a3a5a7532d2b1e57d7d7f0782d756b877cbc50c7f9a4e18b58c352123055",
+    "audit/geometry_model_diagnosis_20261031/frozen_scores.json": "2a9e9f554933f0c7308e4ecab49c58d5143fcbaa7439afc62bc728e130a03dfa",
+    "audit/geometry_model_diagnosis_20261031/symmetry_scores.json": "760d37055df5e4313b13c83b0597a420ae57a9575bd29156ceb382baf65e0976",
+    "audit/geometry_model_diagnosis_20261031/local_label_structure.json": "7a35e09ba4e4251d0254ec60f3ef55862edca6a3df4cd225e3c6c62a4af7b0bc",
+    "audit/geometry_model_diagnosis_20261031/verification.json": "16b11fcffff92f50b83020798ddee7d722bcee438933c52c8613ab8922fa637b",
+    "audit/geometry_model_diagnosis_20261031/geometry_sampling_match.json": "ce39249bd2247f31507a34e56742e750a3828ef62671064fd556e1f78d2deb0a"
+  },
+  "analysis_source_snapshots": {
+    "audit/geometry_model_diagnosis_20261031/source_snapshots/diagnose_geometry_alignment.py": "d86ef6d96e13ac4915fa05d60ad4063ef3405cb0112bf0a3a54eca3a54bc798f",
+    "audit/geometry_model_diagnosis_20261031/source_snapshots/diagnose_geometry_height_and_cells.py": "e74de3c573e34b621ec821c58c7ee17ddff393f128fd12d5b32767c9a84c077d",
+    "audit/geometry_model_diagnosis_20261031/source_snapshots/check_nearfield_geometry.py": "f652388e564601bda42220c93763fd3121a88263b9a205b5c2aebe40e1f8d00e",
+    "audit/geometry_model_diagnosis_20261031/source_snapshots/summarize_label_model_consistency.py": "e308c689d4d5f4ff2c319a55e1eae80935b633c94afc137905929d79eccb499b",
+    "audit/geometry_model_diagnosis_20261031/source_snapshots/predict_frozen_diagnosis.py": "fc318f0dce664d6dfdc1f57afaec986019225402ead4ecb11309f1309e1a38ee",
+    "audit/geometry_model_diagnosis_20261031/source_snapshots/score_frozen_diagnosis.py": "a72b308d0693e94f35f55652d9fb6d4ba56b32c3f02bbbc20cb4c55815e287d9",
+    "audit/geometry_model_diagnosis_20261031/source_snapshots/check_state_definition.py": "6ade156fdd3da7d01911fd834b976b5776929fa0b357f5219d72e6e8996c643a",
+    "audit/geometry_model_diagnosis_20261031/source_snapshots/inspect_geometry_anomalies.py": "af6fb261b026d20e394ba1a4ab89d1f8d014880007a5bbdf11a7a111fb5cfa07",
+    "audit/geometry_model_diagnosis_20261031/source_snapshots/analyze_state_and_model_errors.py": "a24bc2eb36f7372fabf13845f1e65e267e251da149ddf6b34afc3324a9c039a9",
+    "audit/geometry_model_diagnosis_20261031/source_snapshots/check_frozen_symmetry.py": "5dd424184587e8c9b4323b20b0a31981a33af0d5735cf5517297ee05350185bd",
+    "audit/geometry_model_diagnosis_20261031/source_snapshots/score_symmetry_diagnosis.py": "16e5f6d83b2e1c60cfbc0975c249afd050097b551aee32a019434a8c3bec41b8",
+    "audit/geometry_model_diagnosis_20261031/source_snapshots/check_local_label_structure.py": "ccb7bcb55ec30e48ca993aed599b43f524ebb375358cff8c507b00be3c679d47",
+    "audit/geometry_model_diagnosis_20261031/source_snapshots/check_tx_change_response.py": "f80d95e347ee9f39cbd2770ab1770bac6584b7940183d216ced0b46b710ffa28",
+    "audit/geometry_model_diagnosis_20261031/source_snapshots/check_matched_tx_response.py": "25757ab274ea1968dcbffeaf166f441a93aaed72bdea3863bc161af53f9e3fe0",
+    "audit/geometry_model_diagnosis_20261031/source_snapshots/report_geometry_model_diagnosis.py": "59471d50b3f27cd9d5b2ac4e5dad5ea3f5841cf9a49bb1660986b1256ae0130c",
+    "audit/geometry_model_diagnosis_20261031/source_snapshots/check_geometry_sampling_match.py": "1f8eeaf452ca0856c576f469b357d2e4a1c21a1e1835700d4dbab082e9f190b8"
+  },
+  "primary_sources": [
+    "https://raw.githubusercontent.com/lunarradiomapchallenge/lunarradiomapchallenge.github.io/main/dataset.html",
+    "https://raw.githubusercontent.com/NVlabs/sionna-rt/v1.1.0/src/sionna/rt/radio_map_solvers/radio_map_solver.py",
+    "https://raw.githubusercontent.com/NVlabs/sionna-rt/v1.1.0/src/sionna/rt/radio_map_solvers/mesh_radio_map.py",
+    "https://raw.githubusercontent.com/NVlabs/sionna-rt/v1.1.0/src/sionna/rt/utils/ray_tracing.py"
+  ],
+  "images_visually_inspected": [
+    "anomaly_1_preview.jpg",
+    "anomaly_2_preview.jpg",
+    "anomaly_3_preview.jpg",
+    "anomaly_4_preview.jpg"
+  ]
+}

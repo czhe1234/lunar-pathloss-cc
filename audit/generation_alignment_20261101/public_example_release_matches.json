@@ -1,0 +1,212 @@
+[
+  {
+    "public_sample": "650",
+    "best_height_matches": [
+      {
+        "split": "val",
+        "hm_row": 207,
+        "public_to_release_d4": 0,
+        "height_rmse": 2.386369283755755e-07,
+        "height_max_abs": 1.9073486328125e-06,
+        "height_correlation": 0.9999999999999994
+      },
+      {
+        "split": "train",
+        "hm_row": 3068,
+        "public_to_release_d4": 0,
+        "height_rmse": 2.598646813959938,
+        "height_max_abs": 6.751743316650391,
+        "height_correlation": 0.9780610688369784
+      },
+      {
+        "split": "train",
+        "hm_row": 4967,
+        "public_to_release_d4": 0,
+        "height_rmse": 2.8798387699915007,
+        "height_max_abs": 8.477081298828125,
+        "height_correlation": 0.9641129304319241
+      },
+      {
+        "split": "train",
+        "hm_row": 5125,
+        "public_to_release_d4": 2,
+        "height_rmse": 2.9252655700842287,
+        "height_max_abs": 9.003715515136719,
+        "height_correlation": 0.962865459799614
+      },
+      {
+        "split": "train",
+        "hm_row": 151,
+        "public_to_release_d4": 5,
+        "height_rmse": 3.042893456173751,
+        "height_max_abs": 8.52402114868164,
+        "height_correlation": 0.9640390779598431
+      },
+      {
+        "split": "val",
+        "hm_row": 164,
+        "public_to_release_d4": 0,
+        "height_rmse": 3.0534836145554127,
+        "height_max_abs": 11.085859298706055,
+        "height_correlation": 0.9745752909985848
+      }
+    ],
+    "public_marker_row_col": [
+      194,
+      160
+    ],
+    "aligned_marker_row_col": [
+      194,
+      160
+    ],
+    "best_match_terrain_id": "02136",
+    "samples_on_best_terrain": 1,
+    "tx_coordinate_matches": [
+      {
+        "index_row": 807,
+        "sample_id": "02136_00",
+        "terrain_id": "02136",
+        "tx_index": "0",
+        "group": "single",
+        "tx_row": "194",
+        "tx_col": "160",
+        "pl415": "pl415/pl_02136_00.npy",
+        "pl58": "pl58/pl_02136_00.npy",
+        "hm_row": "207"
+      }
+    ],
+    "label_comparison": {
+      "415": {
+        "valid_pixels": 65285,
+        "conversion": "positive_PL = 30 - public_display_scalar",
+        "valid_rmse": 0.015831714179651218,
+        "valid_max_abs": 0.0541229248046875,
+        "valid_exact_after_float16_fraction": 0.9998161905491307,
+        "invalid_pixels": 251,
+        "invalid_rmse": 0.017665768890337007,
+        "public_scalar_zero_nan_counts": [
+          0,
+          0
+        ]
+      },
+      "58": {
+        "valid_pixels": 60207,
+        "conversion": "positive_PL = 30 - public_display_scalar",
+        "valid_rmse": 0.027501276886520345,
+        "valid_max_abs": 0.06250762939453125,
+        "valid_exact_after_float16_fraction": 0.9999501719069211,
+        "invalid_pixels": 5329,
+        "invalid_rmse": 0.0,
+        "public_scalar_zero_nan_counts": [
+          0,
+          0
+        ]
+      }
+    }
+  },
+  {
+    "public_sample": "680",
+    "best_height_matches": [
+      {
+        "split": "train",
+        "hm_row": 2466,
+        "public_to_release_d4": 0,
+        "height_rmse": 6.333496384489939e-08,
+        "height_max_abs": 4.76837158203125e-07,
+        "height_correlation": 0.9999999999999998
+      },
+      {
+        "split": "train",
+        "hm_row": 2414,
+        "public_to_release_d4": 2,
+        "height_rmse": 1.4256177569905382,
+        "height_max_abs": 4.529818773269653,
+        "height_correlation": 0.7472503716315569
+      },
+      {
+        "split": "train",
+        "hm_row": 557,
+        "public_to_release_d4": 2,
+        "height_rmse": 1.5846299776550878,
+        "height_max_abs": 5.2403402253985405,
+        "height_correlation": 0.7244223259638978
+      },
+      {
+        "split": "train",
+        "hm_row": 4350,
+        "public_to_release_d4": 1,
+        "height_rmse": 1.5906787733270173,
+        "height_max_abs": 5.740416347980499,
+        "height_correlation": 0.6870398218734919
+      },
+      {
+        "split": "train",
+        "hm_row": 783,
+        "public_to_release_d4": 2,
+        "height_rmse": 1.617210105368026,
+        "height_max_abs": 6.36906623840332,
+        "height_correlation": 0.6671794965716457
+      },
+      {
+        "split": "train",
+        "hm_row": 3159,
+        "public_to_release_d4": 0,
+        "height_rmse": 1.6473646824538464,
+        "height_max_abs": 6.253100872039795,
+        "height_correlation": 0.6822686553050137
+      }
+    ],
+    "public_marker_row_col": [
+      199,
+      46
+    ],
+    "aligned_marker_row_col": [
+      199,
+      46
+    ],
+    "best_match_terrain_id": "02736",
+    "samples_on_best_terrain": 1,
+    "tx_coordinate_matches": [
+      {
+        "index_row": 10166,
+        "sample_id": "02736_00",
+        "terrain_id": "02736",
+        "tx_index": "0",
+        "group": "single",
+        "tx_row": "199",
+        "tx_col": "46",
+        "pl415": "pl415/pl_02736_00.npy",
+        "pl58": "pl58/pl_02736_00.npy",
+        "hm_row": "2466"
+      }
+    ],
+    "label_comparison": {
+      "415": {
+        "valid_pixels": 65073,
+        "conversion": "positive_PL = 30 - public_display_scalar",
+        "valid_rmse": 0.016005582838702216,
+        "valid_max_abs": 0.03318023681640625,
+        "valid_exact_after_float16_fraction": 0.9998924285033731,
+        "invalid_pixels": 463,
+        "invalid_rmse": 0.017882881127711022,
+        "public_scalar_zero_nan_counts": [
+          0,
+          0
+        ]
+      },
+      "58": {
+        "valid_pixels": 55887,
+        "conversion": "positive_PL = 30 - public_display_scalar",
+        "valid_rmse": 0.01898453187268461,
+        "valid_max_abs": 0.0624847412109375,
+        "valid_exact_after_float16_fraction": 0.9999463202533684,
+        "invalid_pixels": 9649,
+        "invalid_rmse": 0.0,
+        "public_scalar_zero_nan_counts": [
+          0,
+          0
+        ]
+      }
+    }
+  }
+]

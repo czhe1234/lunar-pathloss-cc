@@ -1,0 +1,242 @@
+{
+  "scope": "same frozen DEV64,264 full maps; C43 uses256FIT terrains, C38 usesall5508FIT terrains; diagnostics only",
+  "models": {
+    "cnn": {
+      "RMSE": [
+        5.870561207042514,
+        9.201363667798653
+      ],
+      "oracle_per_map_bias_removed_RMSE": [
+        5.6545689481770065,
+        8.71816632670514
+      ],
+      "SSE_fraction_explained_by_oracle_map_bias": [
+        0.07223119238466376,
+        0.10226964743892066
+      ],
+      "zones": {
+        "clear_proxy": {
+          "RMSE": [
+            4.20844576965061,
+            6.396269361769915
+          ],
+          "count": [
+            13959074,
+            13953007
+          ]
+        },
+        "boundary_proxy": {
+          "RMSE": [
+            12.742876367953517,
+            21.802234142980435
+          ],
+          "count": [
+            1271753,
+            1132405
+          ]
+        },
+        "blocked_proxy": {
+          "RMSE": [
+            8.412606478512053,
+            16.348938176256695
+          ],
+          "count": [
+            1960140,
+            920391
+          ]
+        }
+      },
+      "adjacent_difference_RMSE": [
+        2.521350603909766,
+        2.8745484377507364
+      ],
+      "adjacent_difference_amplitude_ratio": [
+        0.18936363341234919,
+        0.2832596381835665
+      ],
+      "adjacent_difference_correlation": [
+        0.10743805556633813,
+        0.18167733763778207
+      ],
+      "two_band_difference_RMSE": 5.311894527144022
+    },
+    "grid": {
+      "RMSE": [
+        6.310790127855079,
+        10.01072687512828
+      ],
+      "oracle_per_map_bias_removed_RMSE": [
+        6.009397272360918,
+        9.39203766621363
+      ],
+      "SSE_fraction_explained_by_oracle_map_bias": [
+        0.09323581942117941,
+        0.11978568739381511
+      ],
+      "zones": {
+        "clear_proxy": {
+          "RMSE": [
+            4.8219739419667365,
+            7.613545428862624
+          ],
+          "count": [
+            13959074,
+            13953007
+          ]
+        },
+        "boundary_proxy": {
+          "RMSE": [
+            13.107903161948112,
+            22.39763844484855
+          ],
+          "count": [
+            1271753,
+            1132405
+          ]
+        },
+        "blocked_proxy": {
+          "RMSE": [
+            8.498534220893845,
+            15.709410223832995
+          ],
+          "count": [
+            1960140,
+            920391
+          ]
+        }
+      },
+      "adjacent_difference_RMSE": [
+        2.531930163224783,
+        2.9070914688044773
+      ],
+      "adjacent_difference_amplitude_ratio": [
+        0.21588803731568984,
+        0.32968461190462073
+      ],
+      "adjacent_difference_correlation": [
+        0.09975037119750726,
+        0.16550042619299962
+      ],
+      "two_band_difference_RMSE": 5.657671348294435
+    },
+    "path": {
+      "RMSE": [
+        5.016336332901825,
+        7.257629180252719
+      ],
+      "oracle_per_map_bias_removed_RMSE": [
+        4.892872080787743,
+        7.009730278311655
+      ],
+      "SSE_fraction_explained_by_oracle_map_bias": [
+        0.048619098114302046,
+        0.06714731586117761
+      ],
+      "zones": {
+        "clear_proxy": {
+          "RMSE": [
+            3.604827108427438,
+            4.971199518027151
+          ],
+          "count": [
+            13959074,
+            13953007
+          ]
+        },
+        "boundary_proxy": {
+          "RMSE": [
+            11.195681831450546,
+            19.02286927878785
+          ],
+          "count": [
+            1271753,
+            1132405
+          ]
+        },
+        "blocked_proxy": {
+          "RMSE": [
+            6.842983860266527,
+            9.804494757596073
+          ],
+          "count": [
+            1960140,
+            920391
+          ]
+        }
+      },
+      "adjacent_difference_RMSE": [
+        2.51568536318539,
+        2.8506993236235885
+      ],
+      "adjacent_difference_amplitude_ratio": [
+        0.23151990864052457,
+        0.34151490105767324
+      ],
+      "adjacent_difference_correlation": [
+        0.13584076599989842,
+        0.2276177064410911
+      ],
+      "two_band_difference_RMSE": 4.243251204854412
+    },
+    "C38": {
+      "RMSE": [
+        2.502945282482443,
+        2.7741507216762624
+      ],
+      "oracle_per_map_bias_removed_RMSE": [
+        2.500087429223913,
+        2.7602035643726346
+      ],
+      "SSE_fraction_explained_by_oracle_map_bias": [
+        0.002282288578670123,
+        0.010029806412678267
+      ],
+      "zones": {
+        "clear_proxy": {
+          "RMSE": [
+            1.955353845487901,
+            2.1211685878283797
+          ],
+          "count": [
+            13959074,
+            13953007
+          ]
+        },
+        "boundary_proxy": {
+          "RMSE": [
+            4.670862242168733,
+            6.114492376313571
+          ],
+          "count": [
+            1271753,
+            1132405
+          ]
+        },
+        "blocked_proxy": {
+          "RMSE": [
+            3.682413699426809,
+            4.4299853350515175
+          ],
+          "count": [
+            1960140,
+            920391
+          ]
+        }
+      },
+      "adjacent_difference_RMSE": [
+        2.2531899606296135,
+        2.4570105945340894
+      ],
+      "adjacent_difference_amplitude_ratio": [
+        0.5629538772792234,
+        0.6247780284934347
+      ],
+      "adjacent_difference_correlation": [
+        0.4637818011314049,
+        0.541257207425649
+      ],
+      "two_band_difference_RMSE": 1.9644346282642067
+    }
+  },
+  "limits": "Zones use input-only nominal3m TX raster clearance, not true propagation-state labels. Per-map bias removal uses labels as an oracle diagnostic and is not a usable correction. Gradient metrics supplement, not replace, maskedRMSE."
+}

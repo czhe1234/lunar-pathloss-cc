@@ -1,0 +1,186 @@
+{
+  "415": {
+    "band": "415",
+    "best_iteration": 1200,
+    "rmse_db": 3.131485089774123,
+    "C4_rmse_on_same_sampled_pixels": 3.757171822412499,
+    "fit_valid_points": 1471088,
+    "dev_valid_points": 650982,
+    "fit_rmse_at_selected_iteration": 2.619551007948736,
+    "seconds": 88.48034977912903,
+    "top_features": [
+      {
+        "feature": "critical_TX_floorphase_0",
+        "gain": 767793433.6698151
+      },
+      {
+        "feature": "critical_TX_floorphase_7",
+        "gain": 52940277.33234215
+      },
+      {
+        "feature": "underground_length_TX2",
+        "gain": 41775074.98827362
+      },
+      {
+        "feature": "incidence_cos",
+        "gain": 21653128.713047028
+      },
+      {
+        "feature": "margin_tx2",
+        "gain": 13222093.989521027
+      },
+      {
+        "feature": "profile_max_bin7",
+        "gain": 10031645.102069855
+      },
+      {
+        "feature": "profile_max_bin4",
+        "gain": 9990161.259443283
+      },
+      {
+        "feature": "underground_fraction",
+        "gain": 9310639.762245178
+      },
+      {
+        "feature": "profile_max_bin6",
+        "gain": 9165060.241449118
+      },
+      {
+        "feature": "underground_length_TX3",
+        "gain": 8457253.741670609
+      },
+      {
+        "feature": "profile_max_bin5",
+        "gain": 5346882.490035057
+      },
+      {
+        "feature": "profile_max_bin2",
+        "gain": 5288871.276646137
+      },
+      {
+        "feature": "profile_max_bin1",
+        "gain": 5287935.158758163
+      },
+      {
+        "feature": "log_distance",
+        "gain": 4357573.038770676
+      },
+      {
+        "feature": "critical_TX_floorphase_6",
+        "gain": 4330812.94163084
+      },
+      {
+        "feature": "critical_RX_height",
+        "gain": 4010576.3487243652
+      },
+      {
+        "feature": "profile_max_bin3",
+        "gain": 3917866.6515102386
+      },
+      {
+        "feature": "critical_TX_floorphase_1",
+        "gain": 3137655.0990514755
+      },
+      {
+        "feature": "TX_height_cos_1",
+        "gain": 2860706.1437511444
+      },
+      {
+        "feature": "TX_height_sin_1",
+        "gain": 2720937.2640075684
+      }
+    ]
+  },
+  "58": {
+    "band": "58",
+    "best_iteration": 1200,
+    "rmse_db": 3.550795692974625,
+    "C4_rmse_on_same_sampled_pixels": 4.790880350733795,
+    "fit_valid_points": 1325639,
+    "dev_valid_points": 596173,
+    "fit_rmse_at_selected_iteration": 2.731254046725152,
+    "seconds": 83.67952680587769,
+    "top_features": [
+      {
+        "feature": "critical_TX_floorphase_0",
+        "gain": 2380134078.656495
+      },
+      {
+        "feature": "margin_tx2",
+        "gain": 69717830.82972145
+      },
+      {
+        "feature": "critical_TX_floorphase_7",
+        "gain": 45144015.99408722
+      },
+      {
+        "feature": "joint_visibility_far",
+        "gain": 16141335.330171585
+      },
+      {
+        "feature": "incidence_cos",
+        "gain": 15148482.406131744
+      },
+      {
+        "feature": "joint_visibility_mid",
+        "gain": 13826966.804384232
+      },
+      {
+        "feature": "critical_TX_floorphase_1",
+        "gain": 8753663.18468666
+      },
+      {
+        "feature": "TX_height_cos_1",
+        "gain": 8486745.053279877
+      },
+      {
+        "feature": "critical_RX_height",
+        "gain": 7878802.463233948
+      },
+      {
+        "feature": "critical_TX_floorphase_6",
+        "gain": 7135490.188873291
+      },
+      {
+        "feature": "TX_patch_1_0",
+        "gain": 6475621.074317932
+      },
+      {
+        "feature": "joint_visibility_near",
+        "gain": 5985110.816541195
+      },
+      {
+        "feature": "TX_patch_-4_-1",
+        "gain": 5120207.675479889
+      },
+      {
+        "feature": "TX_height_sin_1",
+        "gain": 4985838.123376846
+      },
+      {
+        "feature": "max_margin_location",
+        "gain": 4552082.761585236
+      },
+      {
+        "feature": "TX_height",
+        "gain": 4551037.925542831
+      },
+      {
+        "feature": "critical_TX_floorphase_2",
+        "gain": 4545245.953828812
+      },
+      {
+        "feature": "TX_slope_y",
+        "gain": 3496470.1852149963
+      },
+      {
+        "feature": "slope_x",
+        "gain": 3346529.565832138
+      },
+      {
+        "feature": "TX_patch_4_1",
+        "gain": 2907755.8616657257
+      }
+    ]
+  }
+}

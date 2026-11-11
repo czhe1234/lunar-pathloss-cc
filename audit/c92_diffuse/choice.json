@@ -1,0 +1,26 @@
+{
+  "single0": {
+    "scale": 1,
+    "trees": 55
+  },
+  "single1": {
+    "scale": 0.75,
+    "trees": 25
+  },
+  "correct0": {
+    "scale": 1,
+    "trees": 55
+  },
+  "correct1": {
+    "scale": 0.3,
+    "trees": 90
+  },
+  "permuted0": {
+    "scale": 0.75,
+    "trees": 55
+  },
+  "permuted1": {
+    "scale": 0.75,
+    "trees": 55
+  }
+}

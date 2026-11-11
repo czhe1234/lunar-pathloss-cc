@@ -1,0 +1,21 @@
+{
+  "split": "train",
+  "done": 25720,
+  "total": 25720,
+  "complete": true,
+  "elapsed_seconds": 155.27898693084717,
+  "maps_per_second": 165.63734908000245,
+  "source_sha256": "5f4145162e155d2af2df46abd21e1db072f51c425ad3a4ad39fb9a202e800d47",
+  "device": {
+    "uuid": "GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0",
+    "logical_device": 0,
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_bytes": 84929347584,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "inputs_used": [
+    "train_hm.npy",
+    "train_index.csv"
+  ]
+}

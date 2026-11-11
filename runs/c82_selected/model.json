@@ -1,0 +1,10 @@
+{
+  "model": "C82",
+  "graph_weight": 0.5,
+  "gate_weights": null,
+  "fast_descriptors": true,
+  "internal_local_run": "c72_observed",
+  "baseline": "weights/base",
+  "correction": "weights/post.pt",
+  "graph": "weights/graph.pt"
+}

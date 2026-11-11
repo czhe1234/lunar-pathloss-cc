@@ -1,0 +1,10 @@
+{
+  "purpose": "One input-only completeDEV612 diagnostic for the best current fixed-band candidate; no training or officialVAL scoring.",
+  "reason": "C54completeDEV64 had significant positive paired-terrain intervals for both bands, but high-band gain .08345dB failed the both.10 gate. Resolve full612 aggregate before a final model judgment.",
+  "prior_both010_gate_passed": false,
+  "promotion_threshold_not_lowered": true,
+  "weights": "Frozen c54_combo_dev unchanged",
+  "precision": "All2562maps uniform compiledBF16 interface, not mixing the previous264FP32 predictions",
+  "runtime_QA": "Existing compiled_runtime.json uses two different FITterrains and stable input buffers; 34.7s firstcompile and .535-.575s both-band warmA800;500ms dualmap limit still unverified",
+  "website_submission": false
+}

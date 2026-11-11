@@ -1,0 +1,81 @@
+{
+  "time": 1793756656.6911778,
+  "runs": [
+    {
+      "variant": "old",
+      "band": 0,
+      "pid": 3952440,
+      "log": "logs/c96_old_band0.log",
+      "command": [
+        ".venv/bin/python",
+        "-u",
+        "scripts/c96_train.py",
+        "--variant",
+        "old",
+        "--band",
+        "0",
+        "--rounds",
+        "600",
+        "--threads",
+        "12"
+      ]
+    },
+    {
+      "variant": "old",
+      "band": 1,
+      "pid": 3952441,
+      "log": "logs/c96_old_band1.log",
+      "command": [
+        ".venv/bin/python",
+        "-u",
+        "scripts/c96_train.py",
+        "--variant",
+        "old",
+        "--band",
+        "1",
+        "--rounds",
+        "600",
+        "--threads",
+        "12"
+      ]
+    },
+    {
+      "variant": "strip",
+      "band": 0,
+      "pid": 3952442,
+      "log": "logs/c96_strip_band0.log",
+      "command": [
+        ".venv/bin/python",
+        "-u",
+        "scripts/c96_train.py",
+        "--variant",
+        "strip",
+        "--band",
+        "0",
+        "--rounds",
+        "600",
+        "--threads",
+        "12"
+      ]
+    },
+    {
+      "variant": "strip",
+      "band": 1,
+      "pid": 3952443,
+      "log": "logs/c96_strip_band1.log",
+      "command": [
+        ".venv/bin/python",
+        "-u",
+        "scripts/c96_train.py",
+        "--variant",
+        "strip",
+        "--band",
+        "1",
+        "--rounds",
+        "600",
+        "--threads",
+        "12"
+      ]
+    }
+  ]
+}

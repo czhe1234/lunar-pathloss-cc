@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "CPU_only": true,
+  "pointwise_input_and_fspl_checks": [
+    {
+      "map_index": 0,
+      "first31_vs_existing_torch_max_abs": 1.1443626135587692e-06,
+      "fspl_max_abs_db": 7.62939453125e-06
+    },
+    {
+      "map_index": 500,
+      "first31_vs_existing_torch_max_abs": 2.2888416424393654e-06,
+      "fspl_max_abs_db": 7.62939453125e-06
+    },
+    {
+      "map_index": 1500,
+      "first31_vs_existing_torch_max_abs": 1.5259720385074615e-06,
+      "fspl_max_abs_db": 7.62939453125e-06
+    }
+  ],
+  "affine_plane_profile_check": true
+}

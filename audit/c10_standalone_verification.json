@@ -1,0 +1,35 @@
+{
+  "standalone_input_interface": "Heightmap + TX pixel only",
+  "full_maps": 4,
+  "results": [
+    {
+      "index_row": 1,
+      "max_abs": 0.0,
+      "float32_identical": true
+    },
+    {
+      "index_row": 6,
+      "max_abs": 0.0,
+      "float32_identical": true
+    },
+    {
+      "index_row": 7,
+      "max_abs": 0.0,
+      "float32_identical": true
+    },
+    {
+      "index_row": 8,
+      "max_abs": 0.0,
+      "float32_identical": true
+    }
+  ],
+  "GPU": {
+    "uuid": "GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0",
+    "logical_device": 0,
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_bytes": 84929347584,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "passed": true
+}

@@ -1,0 +1,29 @@
+{
+  "mode": "local",
+  "batch": 16,
+  "epochs": 12,
+  "resume": false,
+  "gpu": {
+    "uuid": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+    "logical_device": 0,
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_bytes": 84929347584,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "parameters": 1214114,
+  "initial_state_sha256": "d5c4488d3410753e8eb678e032edcb3710956842e3fdc3b58ed7f4091990541f",
+  "seed": 99041,
+  "data_order_seed": 99073,
+  "fit_maps": 7979,
+  "fit_terrains": 5508,
+  "monitor_maps": 628,
+  "input_channels": 56,
+  "input_only": "H,TX and existing45H/TXcompact geometry channels; no C82 output or target/mask inputs",
+  "prior": "Same H/TX-only clipped native prior as C73; all labels float32; separate band masks in loss/score",
+  "loss": "TX-map inclusion weighted maskedMSE mean across bands /25",
+  "optimizer": "AdamW,lr.0008,wd.01,200updatewarmup,cosine12epochs,minfactor.12,clip2",
+  "selection": "minimum jointmean of monitor bandRMSE, including initialzero correction; patience3epochs; no confirmation labels",
+  "new_train_count_used_in_loss_only": true,
+  "official_val_used": false
+}

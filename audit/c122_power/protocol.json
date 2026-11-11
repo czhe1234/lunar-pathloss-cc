@@ -1,0 +1,7646 @@
+{
+  "records": [
+    {
+      "part": "fit",
+      "mapid": 4
+    },
+    {
+      "part": "fit",
+      "mapid": 5
+    },
+    {
+      "part": "fit",
+      "mapid": 59
+    },
+    {
+      "part": "fit",
+      "mapid": 112
+    },
+    {
+      "part": "fit",
+      "mapid": 168
+    },
+    {
+      "part": "fit",
+      "mapid": 170
+    },
+    {
+      "part": "fit",
+      "mapid": 180
+    },
+    {
+      "part": "fit",
+      "mapid": 206
+    },
+    {
+      "part": "fit",
+      "mapid": 215
+    },
+    {
+      "part": "fit",
+      "mapid": 216
+    },
+    {
+      "part": "fit",
+      "mapid": 227
+    },
+    {
+      "part": "fit",
+      "mapid": 253
+    },
+    {
+      "part": "fit",
+      "mapid": 266
+    },
+    {
+      "part": "fit",
+      "mapid": 271
+    },
+    {
+      "part": "fit",
+      "mapid": 274
+    },
+    {
+      "part": "fit",
+      "mapid": 338
+    },
+    {
+      "part": "fit",
+      "mapid": 340
+    },
+    {
+      "part": "fit",
+      "mapid": 341
+    },
+    {
+      "part": "fit",
+      "mapid": 447
+    },
+    {
+      "part": "fit",
+      "mapid": 452
+    },
+    {
+      "part": "fit",
+      "mapid": 455
+    },
+    {
+      "part": "fit",
+      "mapid": 461
+    },
+    {
+      "part": "fit",
+      "mapid": 464
+    },
+    {
+      "part": "fit",
+      "mapid": 518
+    },
+    {
+      "part": "fit",
+      "mapid": 522
+    },
+    {
+      "part": "fit",
+      "mapid": 523
+    },
+    {
+      "part": "fit",
+      "mapid": 529
+    },
+    {
+      "part": "fit",
+      "mapid": 648
+    },
+    {
+      "part": "fit",
+      "mapid": 651
+    },
+    {
+      "part": "fit",
+      "mapid": 655
+    },
+    {
+      "part": "fit",
+      "mapid": 658
+    },
+    {
+      "part": "fit",
+      "mapid": 824
+    },
+    {
+      "part": "fit",
+      "mapid": 830
+    },
+    {
+      "part": "fit",
+      "mapid": 892
+    },
+    {
+      "part": "fit",
+      "mapid": 896
+    },
+    {
+      "part": "fit",
+      "mapid": 897
+    },
+    {
+      "part": "fit",
+      "mapid": 1061
+    },
+    {
+      "part": "fit",
+      "mapid": 1062
+    },
+    {
+      "part": "fit",
+      "mapid": 1232
+    },
+    {
+      "part": "fit",
+      "mapid": 1236
+    },
+    {
+      "part": "fit",
+      "mapid": 1239
+    },
+    {
+      "part": "fit",
+      "mapid": 1240
+    },
+    {
+      "part": "fit",
+      "mapid": 1321
+    },
+    {
+      "part": "fit",
+      "mapid": 1336
+    },
+    {
+      "part": "fit",
+      "mapid": 1343
+    },
+    {
+      "part": "fit",
+      "mapid": 1403
+    },
+    {
+      "part": "fit",
+      "mapid": 1462
+    },
+    {
+      "part": "fit",
+      "mapid": 1465
+    },
+    {
+      "part": "fit",
+      "mapid": 1468
+    },
+    {
+      "part": "fit",
+      "mapid": 1478
+    },
+    {
+      "part": "fit",
+      "mapid": 1486
+    },
+    {
+      "part": "fit",
+      "mapid": 1487
+    },
+    {
+      "part": "fit",
+      "mapid": 1505
+    },
+    {
+      "part": "fit",
+      "mapid": 1512
+    },
+    {
+      "part": "fit",
+      "mapid": 1519
+    },
+    {
+      "part": "fit",
+      "mapid": 1523
+    },
+    {
+      "part": "fit",
+      "mapid": 1550
+    },
+    {
+      "part": "fit",
+      "mapid": 1553
+    },
+    {
+      "part": "fit",
+      "mapid": 1557
+    },
+    {
+      "part": "fit",
+      "mapid": 1559
+    },
+    {
+      "part": "fit",
+      "mapid": 1570
+    },
+    {
+      "part": "fit",
+      "mapid": 1630
+    },
+    {
+      "part": "fit",
+      "mapid": 1746
+    },
+    {
+      "part": "fit",
+      "mapid": 1751
+    },
+    {
+      "part": "fit",
+      "mapid": 1753
+    },
+    {
+      "part": "fit",
+      "mapid": 1763
+    },
+    {
+      "part": "fit",
+      "mapid": 1824
+    },
+    {
+      "part": "fit",
+      "mapid": 1826
+    },
+    {
+      "part": "fit",
+      "mapid": 1828
+    },
+    {
+      "part": "fit",
+      "mapid": 1885
+    },
+    {
+      "part": "fit",
+      "mapid": 1886
+    },
+    {
+      "part": "fit",
+      "mapid": 1888
+    },
+    {
+      "part": "fit",
+      "mapid": 1890
+    },
+    {
+      "part": "fit",
+      "mapid": 1894
+    },
+    {
+      "part": "fit",
+      "mapid": 1908
+    },
+    {
+      "part": "fit",
+      "mapid": 1911
+    },
+    {
+      "part": "fit",
+      "mapid": 1935
+    },
+    {
+      "part": "fit",
+      "mapid": 1942
+    },
+    {
+      "part": "fit",
+      "mapid": 1949
+    },
+    {
+      "part": "fit",
+      "mapid": 2064
+    },
+    {
+      "part": "fit",
+      "mapid": 2066
+    },
+    {
+      "part": "fit",
+      "mapid": 2068
+    },
+    {
+      "part": "fit",
+      "mapid": 2070
+    },
+    {
+      "part": "fit",
+      "mapid": 2079
+    },
+    {
+      "part": "fit",
+      "mapid": 2083
+    },
+    {
+      "part": "fit",
+      "mapid": 2086
+    },
+    {
+      "part": "fit",
+      "mapid": 2144
+    },
+    {
+      "part": "fit",
+      "mapid": 2153
+    },
+    {
+      "part": "fit",
+      "mapid": 2157
+    },
+    {
+      "part": "fit",
+      "mapid": 2158
+    },
+    {
+      "part": "fit",
+      "mapid": 2159
+    },
+    {
+      "part": "fit",
+      "mapid": 2163
+    },
+    {
+      "part": "fit",
+      "mapid": 2219
+    },
+    {
+      "part": "fit",
+      "mapid": 2228
+    },
+    {
+      "part": "fit",
+      "mapid": 2231
+    },
+    {
+      "part": "fit",
+      "mapid": 2291
+    },
+    {
+      "part": "fit",
+      "mapid": 2308
+    },
+    {
+      "part": "fit",
+      "mapid": 2320
+    },
+    {
+      "part": "fit",
+      "mapid": 2332
+    },
+    {
+      "part": "fit",
+      "mapid": 2343
+    },
+    {
+      "part": "fit",
+      "mapid": 2462
+    },
+    {
+      "part": "fit",
+      "mapid": 2524
+    },
+    {
+      "part": "fit",
+      "mapid": 2525
+    },
+    {
+      "part": "fit",
+      "mapid": 2544
+    },
+    {
+      "part": "fit",
+      "mapid": 2548
+    },
+    {
+      "part": "fit",
+      "mapid": 2554
+    },
+    {
+      "part": "fit",
+      "mapid": 2559
+    },
+    {
+      "part": "fit",
+      "mapid": 2560
+    },
+    {
+      "part": "fit",
+      "mapid": 2569
+    },
+    {
+      "part": "fit",
+      "mapid": 2570
+    },
+    {
+      "part": "fit",
+      "mapid": 2629
+    },
+    {
+      "part": "fit",
+      "mapid": 2639
+    },
+    {
+      "part": "fit",
+      "mapid": 2643
+    },
+    {
+      "part": "fit",
+      "mapid": 2650
+    },
+    {
+      "part": "fit",
+      "mapid": 2657
+    },
+    {
+      "part": "fit",
+      "mapid": 2676
+    },
+    {
+      "part": "fit",
+      "mapid": 2679
+    },
+    {
+      "part": "fit",
+      "mapid": 2731
+    },
+    {
+      "part": "fit",
+      "mapid": 2784
+    },
+    {
+      "part": "fit",
+      "mapid": 2789
+    },
+    {
+      "part": "fit",
+      "mapid": 2794
+    },
+    {
+      "part": "fit",
+      "mapid": 2853
+    },
+    {
+      "part": "fit",
+      "mapid": 2857
+    },
+    {
+      "part": "fit",
+      "mapid": 2858
+    },
+    {
+      "part": "fit",
+      "mapid": 2859
+    },
+    {
+      "part": "fit",
+      "mapid": 2863
+    },
+    {
+      "part": "fit",
+      "mapid": 2915
+    },
+    {
+      "part": "fit",
+      "mapid": 2974
+    },
+    {
+      "part": "fit",
+      "mapid": 3029
+    },
+    {
+      "part": "fit",
+      "mapid": 3092
+    },
+    {
+      "part": "fit",
+      "mapid": 3094
+    },
+    {
+      "part": "fit",
+      "mapid": 3105
+    },
+    {
+      "part": "fit",
+      "mapid": 3159
+    },
+    {
+      "part": "fit",
+      "mapid": 3162
+    },
+    {
+      "part": "fit",
+      "mapid": 3216
+    },
+    {
+      "part": "fit",
+      "mapid": 3218
+    },
+    {
+      "part": "fit",
+      "mapid": 3387
+    },
+    {
+      "part": "fit",
+      "mapid": 3390
+    },
+    {
+      "part": "fit",
+      "mapid": 3442
+    },
+    {
+      "part": "fit",
+      "mapid": 3445
+    },
+    {
+      "part": "fit",
+      "mapid": 3448
+    },
+    {
+      "part": "fit",
+      "mapid": 3450
+    },
+    {
+      "part": "fit",
+      "mapid": 3454
+    },
+    {
+      "part": "fit",
+      "mapid": 3456
+    },
+    {
+      "part": "fit",
+      "mapid": 3470
+    },
+    {
+      "part": "fit",
+      "mapid": 3479
+    },
+    {
+      "part": "fit",
+      "mapid": 3490
+    },
+    {
+      "part": "fit",
+      "mapid": 3493
+    },
+    {
+      "part": "fit",
+      "mapid": 3496
+    },
+    {
+      "part": "fit",
+      "mapid": 3523
+    },
+    {
+      "part": "fit",
+      "mapid": 3536
+    },
+    {
+      "part": "fit",
+      "mapid": 3546
+    },
+    {
+      "part": "fit",
+      "mapid": 3548
+    },
+    {
+      "part": "fit",
+      "mapid": 3554
+    },
+    {
+      "part": "fit",
+      "mapid": 3582
+    },
+    {
+      "part": "fit",
+      "mapid": 3594
+    },
+    {
+      "part": "fit",
+      "mapid": 3652
+    },
+    {
+      "part": "fit",
+      "mapid": 3655
+    },
+    {
+      "part": "fit",
+      "mapid": 3659
+    },
+    {
+      "part": "fit",
+      "mapid": 3661
+    },
+    {
+      "part": "fit",
+      "mapid": 3667
+    },
+    {
+      "part": "fit",
+      "mapid": 3732
+    },
+    {
+      "part": "fit",
+      "mapid": 3733
+    },
+    {
+      "part": "fit",
+      "mapid": 3739
+    },
+    {
+      "part": "fit",
+      "mapid": 3744
+    },
+    {
+      "part": "fit",
+      "mapid": 3758
+    },
+    {
+      "part": "fit",
+      "mapid": 3775
+    },
+    {
+      "part": "fit",
+      "mapid": 3789
+    },
+    {
+      "part": "fit",
+      "mapid": 3797
+    },
+    {
+      "part": "fit",
+      "mapid": 3801
+    },
+    {
+      "part": "fit",
+      "mapid": 3816
+    },
+    {
+      "part": "fit",
+      "mapid": 3873
+    },
+    {
+      "part": "fit",
+      "mapid": 3876
+    },
+    {
+      "part": "fit",
+      "mapid": 3877
+    },
+    {
+      "part": "fit",
+      "mapid": 3880
+    },
+    {
+      "part": "fit",
+      "mapid": 3881
+    },
+    {
+      "part": "fit",
+      "mapid": 3882
+    },
+    {
+      "part": "fit",
+      "mapid": 3935
+    },
+    {
+      "part": "fit",
+      "mapid": 3938
+    },
+    {
+      "part": "fit",
+      "mapid": 3944
+    },
+    {
+      "part": "fit",
+      "mapid": 3999
+    },
+    {
+      "part": "fit",
+      "mapid": 4007
+    },
+    {
+      "part": "fit",
+      "mapid": 4010
+    },
+    {
+      "part": "fit",
+      "mapid": 4011
+    },
+    {
+      "part": "fit",
+      "mapid": 4014
+    },
+    {
+      "part": "fit",
+      "mapid": 4018
+    },
+    {
+      "part": "fit",
+      "mapid": 4027
+    },
+    {
+      "part": "fit",
+      "mapid": 4039
+    },
+    {
+      "part": "fit",
+      "mapid": 4056
+    },
+    {
+      "part": "fit",
+      "mapid": 4068
+    },
+    {
+      "part": "fit",
+      "mapid": 4127
+    },
+    {
+      "part": "fit",
+      "mapid": 4131
+    },
+    {
+      "part": "fit",
+      "mapid": 4134
+    },
+    {
+      "part": "fit",
+      "mapid": 4135
+    },
+    {
+      "part": "fit",
+      "mapid": 4142
+    },
+    {
+      "part": "fit",
+      "mapid": 4156
+    },
+    {
+      "part": "fit",
+      "mapid": 4165
+    },
+    {
+      "part": "fit",
+      "mapid": 4196
+    },
+    {
+      "part": "fit",
+      "mapid": 4203
+    },
+    {
+      "part": "fit",
+      "mapid": 4209
+    },
+    {
+      "part": "fit",
+      "mapid": 4212
+    },
+    {
+      "part": "fit",
+      "mapid": 4266
+    },
+    {
+      "part": "fit",
+      "mapid": 4273
+    },
+    {
+      "part": "fit",
+      "mapid": 4274
+    },
+    {
+      "part": "fit",
+      "mapid": 4281
+    },
+    {
+      "part": "fit",
+      "mapid": 4291
+    },
+    {
+      "part": "fit",
+      "mapid": 4292
+    },
+    {
+      "part": "fit",
+      "mapid": 4321
+    },
+    {
+      "part": "fit",
+      "mapid": 4331
+    },
+    {
+      "part": "fit",
+      "mapid": 4442
+    },
+    {
+      "part": "fit",
+      "mapid": 4443
+    },
+    {
+      "part": "fit",
+      "mapid": 4444
+    },
+    {
+      "part": "fit",
+      "mapid": 4500
+    },
+    {
+      "part": "fit",
+      "mapid": 4507
+    },
+    {
+      "part": "fit",
+      "mapid": 4508
+    },
+    {
+      "part": "fit",
+      "mapid": 4564
+    },
+    {
+      "part": "fit",
+      "mapid": 4787
+    },
+    {
+      "part": "fit",
+      "mapid": 4788
+    },
+    {
+      "part": "fit",
+      "mapid": 4791
+    },
+    {
+      "part": "fit",
+      "mapid": 4794
+    },
+    {
+      "part": "fit",
+      "mapid": 4850
+    },
+    {
+      "part": "fit",
+      "mapid": 4853
+    },
+    {
+      "part": "fit",
+      "mapid": 4858
+    },
+    {
+      "part": "fit",
+      "mapid": 4859
+    },
+    {
+      "part": "fit",
+      "mapid": 4863
+    },
+    {
+      "part": "fit",
+      "mapid": 4872
+    },
+    {
+      "part": "fit",
+      "mapid": 4894
+    },
+    {
+      "part": "fit",
+      "mapid": 4904
+    },
+    {
+      "part": "fit",
+      "mapid": 4906
+    },
+    {
+      "part": "fit",
+      "mapid": 5036
+    },
+    {
+      "part": "fit",
+      "mapid": 5046
+    },
+    {
+      "part": "fit",
+      "mapid": 5048
+    },
+    {
+      "part": "fit",
+      "mapid": 5059
+    },
+    {
+      "part": "fit",
+      "mapid": 5062
+    },
+    {
+      "part": "fit",
+      "mapid": 5063
+    },
+    {
+      "part": "fit",
+      "mapid": 5066
+    },
+    {
+      "part": "fit",
+      "mapid": 5070
+    },
+    {
+      "part": "fit",
+      "mapid": 5071
+    },
+    {
+      "part": "fit",
+      "mapid": 5073
+    },
+    {
+      "part": "fit",
+      "mapid": 5131
+    },
+    {
+      "part": "fit",
+      "mapid": 5135
+    },
+    {
+      "part": "fit",
+      "mapid": 5136
+    },
+    {
+      "part": "fit",
+      "mapid": 5155
+    },
+    {
+      "part": "fit",
+      "mapid": 5161
+    },
+    {
+      "part": "fit",
+      "mapid": 5163
+    },
+    {
+      "part": "fit",
+      "mapid": 5185
+    },
+    {
+      "part": "fit",
+      "mapid": 5212
+    },
+    {
+      "part": "fit",
+      "mapid": 5215
+    },
+    {
+      "part": "fit",
+      "mapid": 5228
+    },
+    {
+      "part": "fit",
+      "mapid": 5232
+    },
+    {
+      "part": "fit",
+      "mapid": 5234
+    },
+    {
+      "part": "fit",
+      "mapid": 5241
+    },
+    {
+      "part": "fit",
+      "mapid": 5245
+    },
+    {
+      "part": "fit",
+      "mapid": 5303
+    },
+    {
+      "part": "fit",
+      "mapid": 5304
+    },
+    {
+      "part": "fit",
+      "mapid": 5308
+    },
+    {
+      "part": "fit",
+      "mapid": 5314
+    },
+    {
+      "part": "fit",
+      "mapid": 5355
+    },
+    {
+      "part": "fit",
+      "mapid": 5420
+    },
+    {
+      "part": "fit",
+      "mapid": 5434
+    },
+    {
+      "part": "fit",
+      "mapid": 5438
+    },
+    {
+      "part": "fit",
+      "mapid": 5450
+    },
+    {
+      "part": "fit",
+      "mapid": 5455
+    },
+    {
+      "part": "fit",
+      "mapid": 5484
+    },
+    {
+      "part": "fit",
+      "mapid": 5487
+    },
+    {
+      "part": "fit",
+      "mapid": 5510
+    },
+    {
+      "part": "fit",
+      "mapid": 5519
+    },
+    {
+      "part": "fit",
+      "mapid": 5530
+    },
+    {
+      "part": "fit",
+      "mapid": 5539
+    },
+    {
+      "part": "fit",
+      "mapid": 5549
+    },
+    {
+      "part": "fit",
+      "mapid": 5550
+    },
+    {
+      "part": "fit",
+      "mapid": 5552
+    },
+    {
+      "part": "fit",
+      "mapid": 5557
+    },
+    {
+      "part": "fit",
+      "mapid": 5568
+    },
+    {
+      "part": "fit",
+      "mapid": 5569
+    },
+    {
+      "part": "fit",
+      "mapid": 5570
+    },
+    {
+      "part": "fit",
+      "mapid": 5574
+    },
+    {
+      "part": "fit",
+      "mapid": 5576
+    },
+    {
+      "part": "fit",
+      "mapid": 5577
+    },
+    {
+      "part": "fit",
+      "mapid": 5608
+    },
+    {
+      "part": "fit",
+      "mapid": 5610
+    },
+    {
+      "part": "fit",
+      "mapid": 5678
+    },
+    {
+      "part": "fit",
+      "mapid": 5694
+    },
+    {
+      "part": "fit",
+      "mapid": 5711
+    },
+    {
+      "part": "fit",
+      "mapid": 5712
+    },
+    {
+      "part": "fit",
+      "mapid": 5734
+    },
+    {
+      "part": "fit",
+      "mapid": 5742
+    },
+    {
+      "part": "fit",
+      "mapid": 5744
+    },
+    {
+      "part": "fit",
+      "mapid": 5754
+    },
+    {
+      "part": "fit",
+      "mapid": 5756
+    },
+    {
+      "part": "fit",
+      "mapid": 5824
+    },
+    {
+      "part": "fit",
+      "mapid": 5825
+    },
+    {
+      "part": "fit",
+      "mapid": 5884
+    },
+    {
+      "part": "fit",
+      "mapid": 5938
+    },
+    {
+      "part": "fit",
+      "mapid": 5942
+    },
+    {
+      "part": "fit",
+      "mapid": 5962
+    },
+    {
+      "part": "fit",
+      "mapid": 5973
+    },
+    {
+      "part": "fit",
+      "mapid": 5980
+    },
+    {
+      "part": "fit",
+      "mapid": 6046
+    },
+    {
+      "part": "fit",
+      "mapid": 6112
+    },
+    {
+      "part": "fit",
+      "mapid": 6175
+    },
+    {
+      "part": "fit",
+      "mapid": 6180
+    },
+    {
+      "part": "fit",
+      "mapid": 6181
+    },
+    {
+      "part": "fit",
+      "mapid": 6185
+    },
+    {
+      "part": "fit",
+      "mapid": 6188
+    },
+    {
+      "part": "fit",
+      "mapid": 6191
+    },
+    {
+      "part": "fit",
+      "mapid": 6192
+    },
+    {
+      "part": "fit",
+      "mapid": 6257
+    },
+    {
+      "part": "fit",
+      "mapid": 6272
+    },
+    {
+      "part": "fit",
+      "mapid": 6281
+    },
+    {
+      "part": "fit",
+      "mapid": 6296
+    },
+    {
+      "part": "fit",
+      "mapid": 6302
+    },
+    {
+      "part": "fit",
+      "mapid": 6303
+    },
+    {
+      "part": "fit",
+      "mapid": 6308
+    },
+    {
+      "part": "fit",
+      "mapid": 6312
+    },
+    {
+      "part": "fit",
+      "mapid": 6317
+    },
+    {
+      "part": "fit",
+      "mapid": 6378
+    },
+    {
+      "part": "fit",
+      "mapid": 6385
+    },
+    {
+      "part": "fit",
+      "mapid": 6387
+    },
+    {
+      "part": "fit",
+      "mapid": 6392
+    },
+    {
+      "part": "fit",
+      "mapid": 6409
+    },
+    {
+      "part": "fit",
+      "mapid": 6411
+    },
+    {
+      "part": "fit",
+      "mapid": 6412
+    },
+    {
+      "part": "fit",
+      "mapid": 6465
+    },
+    {
+      "part": "fit",
+      "mapid": 6469
+    },
+    {
+      "part": "fit",
+      "mapid": 6472
+    },
+    {
+      "part": "fit",
+      "mapid": 6475
+    },
+    {
+      "part": "fit",
+      "mapid": 6477
+    },
+    {
+      "part": "fit",
+      "mapid": 6488
+    },
+    {
+      "part": "fit",
+      "mapid": 6489
+    },
+    {
+      "part": "fit",
+      "mapid": 6490
+    },
+    {
+      "part": "fit",
+      "mapid": 6546
+    },
+    {
+      "part": "fit",
+      "mapid": 6554
+    },
+    {
+      "part": "fit",
+      "mapid": 6558
+    },
+    {
+      "part": "fit",
+      "mapid": 6591
+    },
+    {
+      "part": "fit",
+      "mapid": 6647
+    },
+    {
+      "part": "fit",
+      "mapid": 6684
+    },
+    {
+      "part": "fit",
+      "mapid": 6694
+    },
+    {
+      "part": "fit",
+      "mapid": 6696
+    },
+    {
+      "part": "fit",
+      "mapid": 6704
+    },
+    {
+      "part": "fit",
+      "mapid": 6724
+    },
+    {
+      "part": "fit",
+      "mapid": 6730
+    },
+    {
+      "part": "fit",
+      "mapid": 6734
+    },
+    {
+      "part": "fit",
+      "mapid": 6737
+    },
+    {
+      "part": "fit",
+      "mapid": 6795
+    },
+    {
+      "part": "fit",
+      "mapid": 6801
+    },
+    {
+      "part": "fit",
+      "mapid": 6805
+    },
+    {
+      "part": "fit",
+      "mapid": 6806
+    },
+    {
+      "part": "fit",
+      "mapid": 6819
+    },
+    {
+      "part": "fit",
+      "mapid": 6829
+    },
+    {
+      "part": "fit",
+      "mapid": 6842
+    },
+    {
+      "part": "fit",
+      "mapid": 6864
+    },
+    {
+      "part": "fit",
+      "mapid": 6865
+    },
+    {
+      "part": "fit",
+      "mapid": 6927
+    },
+    {
+      "part": "fit",
+      "mapid": 6930
+    },
+    {
+      "part": "fit",
+      "mapid": 6937
+    },
+    {
+      "part": "fit",
+      "mapid": 6996
+    },
+    {
+      "part": "fit",
+      "mapid": 7002
+    },
+    {
+      "part": "fit",
+      "mapid": 7010
+    },
+    {
+      "part": "fit",
+      "mapid": 7072
+    },
+    {
+      "part": "fit",
+      "mapid": 7076
+    },
+    {
+      "part": "fit",
+      "mapid": 7104
+    },
+    {
+      "part": "fit",
+      "mapid": 7112
+    },
+    {
+      "part": "fit",
+      "mapid": 7119
+    },
+    {
+      "part": "fit",
+      "mapid": 7125
+    },
+    {
+      "part": "fit",
+      "mapid": 7126
+    },
+    {
+      "part": "fit",
+      "mapid": 7179
+    },
+    {
+      "part": "fit",
+      "mapid": 7183
+    },
+    {
+      "part": "fit",
+      "mapid": 7191
+    },
+    {
+      "part": "fit",
+      "mapid": 7199
+    },
+    {
+      "part": "fit",
+      "mapid": 7253
+    },
+    {
+      "part": "fit",
+      "mapid": 7367
+    },
+    {
+      "part": "fit",
+      "mapid": 7374
+    },
+    {
+      "part": "fit",
+      "mapid": 7376
+    },
+    {
+      "part": "fit",
+      "mapid": 7392
+    },
+    {
+      "part": "fit",
+      "mapid": 7394
+    },
+    {
+      "part": "fit",
+      "mapid": 7395
+    },
+    {
+      "part": "fit",
+      "mapid": 7398
+    },
+    {
+      "part": "fit",
+      "mapid": 7403
+    },
+    {
+      "part": "fit",
+      "mapid": 7404
+    },
+    {
+      "part": "fit",
+      "mapid": 7411
+    },
+    {
+      "part": "fit",
+      "mapid": 7413
+    },
+    {
+      "part": "fit",
+      "mapid": 7414
+    },
+    {
+      "part": "fit",
+      "mapid": 7424
+    },
+    {
+      "part": "fit",
+      "mapid": 7429
+    },
+    {
+      "part": "fit",
+      "mapid": 7451
+    },
+    {
+      "part": "fit",
+      "mapid": 7468
+    },
+    {
+      "part": "fit",
+      "mapid": 7477
+    },
+    {
+      "part": "fit",
+      "mapid": 7484
+    },
+    {
+      "part": "fit",
+      "mapid": 7485
+    },
+    {
+      "part": "fit",
+      "mapid": 7490
+    },
+    {
+      "part": "fit",
+      "mapid": 7495
+    },
+    {
+      "part": "fit",
+      "mapid": 7496
+    },
+    {
+      "part": "fit",
+      "mapid": 7499
+    },
+    {
+      "part": "fit",
+      "mapid": 7581
+    },
+    {
+      "part": "fit",
+      "mapid": 7584
+    },
+    {
+      "part": "fit",
+      "mapid": 7596
+    },
+    {
+      "part": "fit",
+      "mapid": 7602
+    },
+    {
+      "part": "fit",
+      "mapid": 7609
+    },
+    {
+      "part": "fit",
+      "mapid": 7679
+    },
+    {
+      "part": "fit",
+      "mapid": 7742
+    },
+    {
+      "part": "fit",
+      "mapid": 7745
+    },
+    {
+      "part": "fit",
+      "mapid": 7764
+    },
+    {
+      "part": "fit",
+      "mapid": 7765
+    },
+    {
+      "part": "fit",
+      "mapid": 7874
+    },
+    {
+      "part": "fit",
+      "mapid": 7878
+    },
+    {
+      "part": "fit",
+      "mapid": 7884
+    },
+    {
+      "part": "fit",
+      "mapid": 7885
+    },
+    {
+      "part": "fit",
+      "mapid": 7903
+    },
+    {
+      "part": "fit",
+      "mapid": 7915
+    },
+    {
+      "part": "fit",
+      "mapid": 7932
+    },
+    {
+      "part": "fit",
+      "mapid": 7935
+    },
+    {
+      "part": "fit",
+      "mapid": 7940
+    },
+    {
+      "part": "fit",
+      "mapid": 7956
+    },
+    {
+      "part": "fit",
+      "mapid": 7991
+    },
+    {
+      "part": "fit",
+      "mapid": 7992
+    },
+    {
+      "part": "fit",
+      "mapid": 7994
+    },
+    {
+      "part": "fit",
+      "mapid": 7998
+    },
+    {
+      "part": "fit",
+      "mapid": 8057
+    },
+    {
+      "part": "fit",
+      "mapid": 8216
+    },
+    {
+      "part": "fit",
+      "mapid": 8272
+    },
+    {
+      "part": "fit",
+      "mapid": 8281
+    },
+    {
+      "part": "fit",
+      "mapid": 8292
+    },
+    {
+      "part": "fit",
+      "mapid": 8294
+    },
+    {
+      "part": "fit",
+      "mapid": 8298
+    },
+    {
+      "part": "fit",
+      "mapid": 8304
+    },
+    {
+      "part": "fit",
+      "mapid": 8361
+    },
+    {
+      "part": "fit",
+      "mapid": 8365
+    },
+    {
+      "part": "fit",
+      "mapid": 8372
+    },
+    {
+      "part": "fit",
+      "mapid": 8382
+    },
+    {
+      "part": "fit",
+      "mapid": 8384
+    },
+    {
+      "part": "fit",
+      "mapid": 8412
+    },
+    {
+      "part": "fit",
+      "mapid": 8415
+    },
+    {
+      "part": "fit",
+      "mapid": 8417
+    },
+    {
+      "part": "fit",
+      "mapid": 8424
+    },
+    {
+      "part": "fit",
+      "mapid": 8437
+    },
+    {
+      "part": "fit",
+      "mapid": 8438
+    },
+    {
+      "part": "fit",
+      "mapid": 8449
+    },
+    {
+      "part": "fit",
+      "mapid": 8467
+    },
+    {
+      "part": "fit",
+      "mapid": 8469
+    },
+    {
+      "part": "fit",
+      "mapid": 8481
+    },
+    {
+      "part": "fit",
+      "mapid": 8490
+    },
+    {
+      "part": "fit",
+      "mapid": 8521
+    },
+    {
+      "part": "fit",
+      "mapid": 8524
+    },
+    {
+      "part": "fit",
+      "mapid": 8527
+    },
+    {
+      "part": "fit",
+      "mapid": 8539
+    },
+    {
+      "part": "fit",
+      "mapid": 8551
+    },
+    {
+      "part": "fit",
+      "mapid": 8566
+    },
+    {
+      "part": "fit",
+      "mapid": 8575
+    },
+    {
+      "part": "fit",
+      "mapid": 8580
+    },
+    {
+      "part": "fit",
+      "mapid": 8590
+    },
+    {
+      "part": "fit",
+      "mapid": 8592
+    },
+    {
+      "part": "fit",
+      "mapid": 8602
+    },
+    {
+      "part": "fit",
+      "mapid": 8638
+    },
+    {
+      "part": "fit",
+      "mapid": 8691
+    },
+    {
+      "part": "fit",
+      "mapid": 8692
+    },
+    {
+      "part": "fit",
+      "mapid": 8693
+    },
+    {
+      "part": "fit",
+      "mapid": 8696
+    },
+    {
+      "part": "fit",
+      "mapid": 8827
+    },
+    {
+      "part": "fit",
+      "mapid": 8831
+    },
+    {
+      "part": "fit",
+      "mapid": 8840
+    },
+    {
+      "part": "fit",
+      "mapid": 8848
+    },
+    {
+      "part": "fit",
+      "mapid": 8908
+    },
+    {
+      "part": "fit",
+      "mapid": 8918
+    },
+    {
+      "part": "fit",
+      "mapid": 8927
+    },
+    {
+      "part": "fit",
+      "mapid": 8940
+    },
+    {
+      "part": "fit",
+      "mapid": 8970
+    },
+    {
+      "part": "fit",
+      "mapid": 8972
+    },
+    {
+      "part": "fit",
+      "mapid": 9027
+    },
+    {
+      "part": "fit",
+      "mapid": 9028
+    },
+    {
+      "part": "fit",
+      "mapid": 9032
+    },
+    {
+      "part": "fit",
+      "mapid": 9093
+    },
+    {
+      "part": "fit",
+      "mapid": 9096
+    },
+    {
+      "part": "fit",
+      "mapid": 9111
+    },
+    {
+      "part": "fit",
+      "mapid": 9120
+    },
+    {
+      "part": "fit",
+      "mapid": 9125
+    },
+    {
+      "part": "fit",
+      "mapid": 9126
+    },
+    {
+      "part": "fit",
+      "mapid": 9131
+    },
+    {
+      "part": "fit",
+      "mapid": 9137
+    },
+    {
+      "part": "fit",
+      "mapid": 9138
+    },
+    {
+      "part": "fit",
+      "mapid": 9141
+    },
+    {
+      "part": "fit",
+      "mapid": 9142
+    },
+    {
+      "part": "fit",
+      "mapid": 9143
+    },
+    {
+      "part": "fit",
+      "mapid": 9144
+    },
+    {
+      "part": "fit",
+      "mapid": 9202
+    },
+    {
+      "part": "fit",
+      "mapid": 9208
+    },
+    {
+      "part": "fit",
+      "mapid": 9212
+    },
+    {
+      "part": "fit",
+      "mapid": 9213
+    },
+    {
+      "part": "fit",
+      "mapid": 9216
+    },
+    {
+      "part": "fit",
+      "mapid": 9222
+    },
+    {
+      "part": "fit",
+      "mapid": 9223
+    },
+    {
+      "part": "fit",
+      "mapid": 9224
+    },
+    {
+      "part": "fit",
+      "mapid": 9230
+    },
+    {
+      "part": "fit",
+      "mapid": 9285
+    },
+    {
+      "part": "fit",
+      "mapid": 9309
+    },
+    {
+      "part": "fit",
+      "mapid": 9310
+    },
+    {
+      "part": "fit",
+      "mapid": 9369
+    },
+    {
+      "part": "fit",
+      "mapid": 9373
+    },
+    {
+      "part": "fit",
+      "mapid": 9428
+    },
+    {
+      "part": "fit",
+      "mapid": 9545
+    },
+    {
+      "part": "fit",
+      "mapid": 9546
+    },
+    {
+      "part": "fit",
+      "mapid": 9550
+    },
+    {
+      "part": "fit",
+      "mapid": 9553
+    },
+    {
+      "part": "fit",
+      "mapid": 9561
+    },
+    {
+      "part": "fit",
+      "mapid": 9562
+    },
+    {
+      "part": "fit",
+      "mapid": 9572
+    },
+    {
+      "part": "fit",
+      "mapid": 9606
+    },
+    {
+      "part": "fit",
+      "mapid": 9662
+    },
+    {
+      "part": "fit",
+      "mapid": 9671
+    },
+    {
+      "part": "fit",
+      "mapid": 9672
+    },
+    {
+      "part": "fit",
+      "mapid": 9673
+    },
+    {
+      "part": "fit",
+      "mapid": 9675
+    },
+    {
+      "part": "fit",
+      "mapid": 9677
+    },
+    {
+      "part": "fit",
+      "mapid": 9678
+    },
+    {
+      "part": "fit",
+      "mapid": 9687
+    },
+    {
+      "part": "fit",
+      "mapid": 9696
+    },
+    {
+      "part": "fit",
+      "mapid": 9805
+    },
+    {
+      "part": "fit",
+      "mapid": 9812
+    },
+    {
+      "part": "fit",
+      "mapid": 9825
+    },
+    {
+      "part": "fit",
+      "mapid": 9841
+    },
+    {
+      "part": "fit",
+      "mapid": 9849
+    },
+    {
+      "part": "fit",
+      "mapid": 9859
+    },
+    {
+      "part": "fit",
+      "mapid": 9866
+    },
+    {
+      "part": "fit",
+      "mapid": 9921
+    },
+    {
+      "part": "fit",
+      "mapid": 9932
+    },
+    {
+      "part": "fit",
+      "mapid": 10002
+    },
+    {
+      "part": "fit",
+      "mapid": 10004
+    },
+    {
+      "part": "fit",
+      "mapid": 10065
+    },
+    {
+      "part": "fit",
+      "mapid": 10075
+    },
+    {
+      "part": "fit",
+      "mapid": 10078
+    },
+    {
+      "part": "fit",
+      "mapid": 10079
+    },
+    {
+      "part": "fit",
+      "mapid": 10081
+    },
+    {
+      "part": "fit",
+      "mapid": 10083
+    },
+    {
+      "part": "fit",
+      "mapid": 10084
+    },
+    {
+      "part": "fit",
+      "mapid": 10087
+    },
+    {
+      "part": "fit",
+      "mapid": 10095
+    },
+    {
+      "part": "fit",
+      "mapid": 10100
+    },
+    {
+      "part": "fit",
+      "mapid": 10165
+    },
+    {
+      "part": "fit",
+      "mapid": 10166
+    },
+    {
+      "part": "fit",
+      "mapid": 10174
+    },
+    {
+      "part": "fit",
+      "mapid": 10175
+    },
+    {
+      "part": "fit",
+      "mapid": 10235
+    },
+    {
+      "part": "fit",
+      "mapid": 10237
+    },
+    {
+      "part": "fit",
+      "mapid": 10291
+    },
+    {
+      "part": "fit",
+      "mapid": 10450
+    },
+    {
+      "part": "fit",
+      "mapid": 10502
+    },
+    {
+      "part": "fit",
+      "mapid": 10506
+    },
+    {
+      "part": "fit",
+      "mapid": 10508
+    },
+    {
+      "part": "fit",
+      "mapid": 10535
+    },
+    {
+      "part": "fit",
+      "mapid": 10538
+    },
+    {
+      "part": "fit",
+      "mapid": 10542
+    },
+    {
+      "part": "fit",
+      "mapid": 10543
+    },
+    {
+      "part": "fit",
+      "mapid": 10584
+    },
+    {
+      "part": "fit",
+      "mapid": 10605
+    },
+    {
+      "part": "fit",
+      "mapid": 10609
+    },
+    {
+      "part": "fit",
+      "mapid": 10612
+    },
+    {
+      "part": "fit",
+      "mapid": 10731
+    },
+    {
+      "part": "fit",
+      "mapid": 10738
+    },
+    {
+      "part": "fit",
+      "mapid": 10741
+    },
+    {
+      "part": "fit",
+      "mapid": 10742
+    },
+    {
+      "part": "fit",
+      "mapid": 10747
+    },
+    {
+      "part": "fit",
+      "mapid": 10749
+    },
+    {
+      "part": "fit",
+      "mapid": 10751
+    },
+    {
+      "part": "fit",
+      "mapid": 10756
+    },
+    {
+      "part": "fit",
+      "mapid": 10758
+    },
+    {
+      "part": "fit",
+      "mapid": 10773
+    },
+    {
+      "part": "fit",
+      "mapid": 10796
+    },
+    {
+      "part": "fit",
+      "mapid": 10813
+    },
+    {
+      "part": "fit",
+      "mapid": 10814
+    },
+    {
+      "part": "fit",
+      "mapid": 10885
+    },
+    {
+      "part": "fit",
+      "mapid": 10896
+    },
+    {
+      "part": "fit",
+      "mapid": 10898
+    },
+    {
+      "part": "fit",
+      "mapid": 10902
+    },
+    {
+      "part": "fit",
+      "mapid": 10934
+    },
+    {
+      "part": "fit",
+      "mapid": 10935
+    },
+    {
+      "part": "fit",
+      "mapid": 10954
+    },
+    {
+      "part": "fit",
+      "mapid": 10961
+    },
+    {
+      "part": "fit",
+      "mapid": 11072
+    },
+    {
+      "part": "fit",
+      "mapid": 11242
+    },
+    {
+      "part": "fit",
+      "mapid": 11243
+    },
+    {
+      "part": "fit",
+      "mapid": 11249
+    },
+    {
+      "part": "fit",
+      "mapid": 11260
+    },
+    {
+      "part": "fit",
+      "mapid": 11263
+    },
+    {
+      "part": "fit",
+      "mapid": 11282
+    },
+    {
+      "part": "fit",
+      "mapid": 11291
+    },
+    {
+      "part": "fit",
+      "mapid": 11354
+    },
+    {
+      "part": "fit",
+      "mapid": 11410
+    },
+    {
+      "part": "fit",
+      "mapid": 11418
+    },
+    {
+      "part": "fit",
+      "mapid": 11420
+    },
+    {
+      "part": "fit",
+      "mapid": 11525
+    },
+    {
+      "part": "fit",
+      "mapid": 11710
+    },
+    {
+      "part": "fit",
+      "mapid": 11771
+    },
+    {
+      "part": "fit",
+      "mapid": 11776
+    },
+    {
+      "part": "fit",
+      "mapid": 11784
+    },
+    {
+      "part": "fit",
+      "mapid": 11800
+    },
+    {
+      "part": "fit",
+      "mapid": 11801
+    },
+    {
+      "part": "fit",
+      "mapid": 11831
+    },
+    {
+      "part": "fit",
+      "mapid": 11886
+    },
+    {
+      "part": "fit",
+      "mapid": 11890
+    },
+    {
+      "part": "fit",
+      "mapid": 11897
+    },
+    {
+      "part": "fit",
+      "mapid": 11898
+    },
+    {
+      "part": "fit",
+      "mapid": 11899
+    },
+    {
+      "part": "fit",
+      "mapid": 11906
+    },
+    {
+      "part": "fit",
+      "mapid": 11909
+    },
+    {
+      "part": "fit",
+      "mapid": 11914
+    },
+    {
+      "part": "fit",
+      "mapid": 11915
+    },
+    {
+      "part": "fit",
+      "mapid": 12144
+    },
+    {
+      "part": "fit",
+      "mapid": 12149
+    },
+    {
+      "part": "fit",
+      "mapid": 12160
+    },
+    {
+      "part": "fit",
+      "mapid": 12166
+    },
+    {
+      "part": "fit",
+      "mapid": 12174
+    },
+    {
+      "part": "fit",
+      "mapid": 12176
+    },
+    {
+      "part": "fit",
+      "mapid": 12183
+    },
+    {
+      "part": "fit",
+      "mapid": 12185
+    },
+    {
+      "part": "fit",
+      "mapid": 12190
+    },
+    {
+      "part": "fit",
+      "mapid": 12193
+    },
+    {
+      "part": "fit",
+      "mapid": 12212
+    },
+    {
+      "part": "fit",
+      "mapid": 12234
+    },
+    {
+      "part": "fit",
+      "mapid": 12237
+    },
+    {
+      "part": "fit",
+      "mapid": 12240
+    },
+    {
+      "part": "fit",
+      "mapid": 12251
+    },
+    {
+      "part": "fit",
+      "mapid": 12253
+    },
+    {
+      "part": "fit",
+      "mapid": 12307
+    },
+    {
+      "part": "fit",
+      "mapid": 12322
+    },
+    {
+      "part": "fit",
+      "mapid": 12327
+    },
+    {
+      "part": "fit",
+      "mapid": 12380
+    },
+    {
+      "part": "fit",
+      "mapid": 12381
+    },
+    {
+      "part": "fit",
+      "mapid": 12383
+    },
+    {
+      "part": "fit",
+      "mapid": 12436
+    },
+    {
+      "part": "fit",
+      "mapid": 12437
+    },
+    {
+      "part": "fit",
+      "mapid": 12494
+    },
+    {
+      "part": "fit",
+      "mapid": 12499
+    },
+    {
+      "part": "fit",
+      "mapid": 12507
+    },
+    {
+      "part": "fit",
+      "mapid": 12525
+    },
+    {
+      "part": "fit",
+      "mapid": 12526
+    },
+    {
+      "part": "fit",
+      "mapid": 12553
+    },
+    {
+      "part": "fit",
+      "mapid": 12554
+    },
+    {
+      "part": "fit",
+      "mapid": 12556
+    },
+    {
+      "part": "fit",
+      "mapid": 12564
+    },
+    {
+      "part": "fit",
+      "mapid": 12618
+    },
+    {
+      "part": "fit",
+      "mapid": 12674
+    },
+    {
+      "part": "fit",
+      "mapid": 12677
+    },
+    {
+      "part": "fit",
+      "mapid": 12690
+    },
+    {
+      "part": "fit",
+      "mapid": 12713
+    },
+    {
+      "part": "fit",
+      "mapid": 12714
+    },
+    {
+      "part": "fit",
+      "mapid": 12727
+    },
+    {
+      "part": "fit",
+      "mapid": 12740
+    },
+    {
+      "part": "fit",
+      "mapid": 12749
+    },
+    {
+      "part": "fit",
+      "mapid": 12804
+    },
+    {
+      "part": "fit",
+      "mapid": 12867
+    },
+    {
+      "part": "fit",
+      "mapid": 12921
+    },
+    {
+      "part": "fit",
+      "mapid": 12927
+    },
+    {
+      "part": "fit",
+      "mapid": 12948
+    },
+    {
+      "part": "fit",
+      "mapid": 12953
+    },
+    {
+      "part": "fit",
+      "mapid": 12955
+    },
+    {
+      "part": "fit",
+      "mapid": 13043
+    },
+    {
+      "part": "fit",
+      "mapid": 13047
+    },
+    {
+      "part": "fit",
+      "mapid": 13051
+    },
+    {
+      "part": "fit",
+      "mapid": 13063
+    },
+    {
+      "part": "fit",
+      "mapid": 13068
+    },
+    {
+      "part": "fit",
+      "mapid": 13128
+    },
+    {
+      "part": "fit",
+      "mapid": 13132
+    },
+    {
+      "part": "fit",
+      "mapid": 13133
+    },
+    {
+      "part": "fit",
+      "mapid": 13186
+    },
+    {
+      "part": "fit",
+      "mapid": 13244
+    },
+    {
+      "part": "fit",
+      "mapid": 13252
+    },
+    {
+      "part": "fit",
+      "mapid": 13265
+    },
+    {
+      "part": "fit",
+      "mapid": 13280
+    },
+    {
+      "part": "fit",
+      "mapid": 13283
+    },
+    {
+      "part": "fit",
+      "mapid": 13301
+    },
+    {
+      "part": "fit",
+      "mapid": 13412
+    },
+    {
+      "part": "fit",
+      "mapid": 13421
+    },
+    {
+      "part": "fit",
+      "mapid": 13422
+    },
+    {
+      "part": "fit",
+      "mapid": 13427
+    },
+    {
+      "part": "fit",
+      "mapid": 13431
+    },
+    {
+      "part": "fit",
+      "mapid": 13432
+    },
+    {
+      "part": "fit",
+      "mapid": 13487
+    },
+    {
+      "part": "fit",
+      "mapid": 13490
+    },
+    {
+      "part": "fit",
+      "mapid": 13499
+    },
+    {
+      "part": "fit",
+      "mapid": 13555
+    },
+    {
+      "part": "fit",
+      "mapid": 13557
+    },
+    {
+      "part": "fit",
+      "mapid": 13568
+    },
+    {
+      "part": "fit",
+      "mapid": 13661
+    },
+    {
+      "part": "fit",
+      "mapid": 13666
+    },
+    {
+      "part": "fit",
+      "mapid": 13783
+    },
+    {
+      "part": "fit",
+      "mapid": 13844
+    },
+    {
+      "part": "fit",
+      "mapid": 13847
+    },
+    {
+      "part": "fit",
+      "mapid": 13850
+    },
+    {
+      "part": "fit",
+      "mapid": 13927
+    },
+    {
+      "part": "fit",
+      "mapid": 13930
+    },
+    {
+      "part": "fit",
+      "mapid": 13933
+    },
+    {
+      "part": "fit",
+      "mapid": 13934
+    },
+    {
+      "part": "fit",
+      "mapid": 13940
+    },
+    {
+      "part": "fit",
+      "mapid": 13942
+    },
+    {
+      "part": "fit",
+      "mapid": 13951
+    },
+    {
+      "part": "fit",
+      "mapid": 14003
+    },
+    {
+      "part": "fit",
+      "mapid": 14004
+    },
+    {
+      "part": "fit",
+      "mapid": 14022
+    },
+    {
+      "part": "fit",
+      "mapid": 14075
+    },
+    {
+      "part": "fit",
+      "mapid": 14076
+    },
+    {
+      "part": "fit",
+      "mapid": 14079
+    },
+    {
+      "part": "fit",
+      "mapid": 14136
+    },
+    {
+      "part": "fit",
+      "mapid": 14214
+    },
+    {
+      "part": "fit",
+      "mapid": 14325
+    },
+    {
+      "part": "fit",
+      "mapid": 14379
+    },
+    {
+      "part": "fit",
+      "mapid": 14390
+    },
+    {
+      "part": "fit",
+      "mapid": 14399
+    },
+    {
+      "part": "fit",
+      "mapid": 14402
+    },
+    {
+      "part": "fit",
+      "mapid": 14408
+    },
+    {
+      "part": "fit",
+      "mapid": 14410
+    },
+    {
+      "part": "fit",
+      "mapid": 14411
+    },
+    {
+      "part": "fit",
+      "mapid": 14415
+    },
+    {
+      "part": "fit",
+      "mapid": 14421
+    },
+    {
+      "part": "fit",
+      "mapid": 14427
+    },
+    {
+      "part": "fit",
+      "mapid": 14430
+    },
+    {
+      "part": "fit",
+      "mapid": 14433
+    },
+    {
+      "part": "fit",
+      "mapid": 14497
+    },
+    {
+      "part": "fit",
+      "mapid": 14553
+    },
+    {
+      "part": "fit",
+      "mapid": 14557
+    },
+    {
+      "part": "fit",
+      "mapid": 14563
+    },
+    {
+      "part": "fit",
+      "mapid": 14576
+    },
+    {
+      "part": "fit",
+      "mapid": 14632
+    },
+    {
+      "part": "fit",
+      "mapid": 14634
+    },
+    {
+      "part": "fit",
+      "mapid": 14654
+    },
+    {
+      "part": "fit",
+      "mapid": 14665
+    },
+    {
+      "part": "fit",
+      "mapid": 14678
+    },
+    {
+      "part": "fit",
+      "mapid": 14679
+    },
+    {
+      "part": "fit",
+      "mapid": 14765
+    },
+    {
+      "part": "fit",
+      "mapid": 14777
+    },
+    {
+      "part": "fit",
+      "mapid": 14788
+    },
+    {
+      "part": "fit",
+      "mapid": 14795
+    },
+    {
+      "part": "fit",
+      "mapid": 14805
+    },
+    {
+      "part": "fit",
+      "mapid": 14812
+    },
+    {
+      "part": "fit",
+      "mapid": 14813
+    },
+    {
+      "part": "fit",
+      "mapid": 14815
+    },
+    {
+      "part": "fit",
+      "mapid": 14825
+    },
+    {
+      "part": "fit",
+      "mapid": 14935
+    },
+    {
+      "part": "fit",
+      "mapid": 14991
+    },
+    {
+      "part": "fit",
+      "mapid": 14995
+    },
+    {
+      "part": "fit",
+      "mapid": 14997
+    },
+    {
+      "part": "fit",
+      "mapid": 14999
+    },
+    {
+      "part": "fit",
+      "mapid": 15074
+    },
+    {
+      "part": "fit",
+      "mapid": 15075
+    },
+    {
+      "part": "fit",
+      "mapid": 15087
+    },
+    {
+      "part": "fit",
+      "mapid": 15090
+    },
+    {
+      "part": "fit",
+      "mapid": 15093
+    },
+    {
+      "part": "fit",
+      "mapid": 15096
+    },
+    {
+      "part": "fit",
+      "mapid": 15097
+    },
+    {
+      "part": "fit",
+      "mapid": 15104
+    },
+    {
+      "part": "fit",
+      "mapid": 15107
+    },
+    {
+      "part": "fit",
+      "mapid": 15108
+    },
+    {
+      "part": "fit",
+      "mapid": 15129
+    },
+    {
+      "part": "fit",
+      "mapid": 15137
+    },
+    {
+      "part": "fit",
+      "mapid": 15139
+    },
+    {
+      "part": "fit",
+      "mapid": 15156
+    },
+    {
+      "part": "fit",
+      "mapid": 15165
+    },
+    {
+      "part": "fit",
+      "mapid": 15194
+    },
+    {
+      "part": "fit",
+      "mapid": 15204
+    },
+    {
+      "part": "fit",
+      "mapid": 15206
+    },
+    {
+      "part": "fit",
+      "mapid": 15212
+    },
+    {
+      "part": "fit",
+      "mapid": 15218
+    },
+    {
+      "part": "fit",
+      "mapid": 15222
+    },
+    {
+      "part": "fit",
+      "mapid": 15226
+    },
+    {
+      "part": "fit",
+      "mapid": 15403
+    },
+    {
+      "part": "fit",
+      "mapid": 15404
+    },
+    {
+      "part": "fit",
+      "mapid": 15406
+    },
+    {
+      "part": "fit",
+      "mapid": 15411
+    },
+    {
+      "part": "fit",
+      "mapid": 15474
+    },
+    {
+      "part": "fit",
+      "mapid": 15476
+    },
+    {
+      "part": "fit",
+      "mapid": 15477
+    },
+    {
+      "part": "fit",
+      "mapid": 15479
+    },
+    {
+      "part": "fit",
+      "mapid": 15481
+    },
+    {
+      "part": "fit",
+      "mapid": 15483
+    },
+    {
+      "part": "fit",
+      "mapid": 15501
+    },
+    {
+      "part": "fit",
+      "mapid": 15511
+    },
+    {
+      "part": "fit",
+      "mapid": 15540
+    },
+    {
+      "part": "fit",
+      "mapid": 15604
+    },
+    {
+      "part": "fit",
+      "mapid": 15831
+    },
+    {
+      "part": "fit",
+      "mapid": 15866
+    },
+    {
+      "part": "fit",
+      "mapid": 15876
+    },
+    {
+      "part": "fit",
+      "mapid": 15881
+    },
+    {
+      "part": "fit",
+      "mapid": 15896
+    },
+    {
+      "part": "fit",
+      "mapid": 15899
+    },
+    {
+      "part": "fit",
+      "mapid": 15901
+    },
+    {
+      "part": "fit",
+      "mapid": 15909
+    },
+    {
+      "part": "fit",
+      "mapid": 15943
+    },
+    {
+      "part": "fit",
+      "mapid": 15946
+    },
+    {
+      "part": "fit",
+      "mapid": 15958
+    },
+    {
+      "part": "fit",
+      "mapid": 15962
+    },
+    {
+      "part": "fit",
+      "mapid": 15970
+    },
+    {
+      "part": "fit",
+      "mapid": 15971
+    },
+    {
+      "part": "fit",
+      "mapid": 15976
+    },
+    {
+      "part": "fit",
+      "mapid": 16035
+    },
+    {
+      "part": "fit",
+      "mapid": 16051
+    },
+    {
+      "part": "fit",
+      "mapid": 16052
+    },
+    {
+      "part": "fit",
+      "mapid": 16060
+    },
+    {
+      "part": "fit",
+      "mapid": 16121
+    },
+    {
+      "part": "fit",
+      "mapid": 16123
+    },
+    {
+      "part": "fit",
+      "mapid": 16124
+    },
+    {
+      "part": "fit",
+      "mapid": 16125
+    },
+    {
+      "part": "fit",
+      "mapid": 16190
+    },
+    {
+      "part": "fit",
+      "mapid": 16245
+    },
+    {
+      "part": "fit",
+      "mapid": 16246
+    },
+    {
+      "part": "fit",
+      "mapid": 16361
+    },
+    {
+      "part": "fit",
+      "mapid": 16364
+    },
+    {
+      "part": "fit",
+      "mapid": 16423
+    },
+    {
+      "part": "fit",
+      "mapid": 16425
+    },
+    {
+      "part": "fit",
+      "mapid": 16429
+    },
+    {
+      "part": "fit",
+      "mapid": 16432
+    },
+    {
+      "part": "fit",
+      "mapid": 16436
+    },
+    {
+      "part": "fit",
+      "mapid": 16438
+    },
+    {
+      "part": "fit",
+      "mapid": 16504
+    },
+    {
+      "part": "fit",
+      "mapid": 16509
+    },
+    {
+      "part": "fit",
+      "mapid": 16510
+    },
+    {
+      "part": "fit",
+      "mapid": 16512
+    },
+    {
+      "part": "fit",
+      "mapid": 16514
+    },
+    {
+      "part": "fit",
+      "mapid": 16518
+    },
+    {
+      "part": "fit",
+      "mapid": 16523
+    },
+    {
+      "part": "fit",
+      "mapid": 16579
+    },
+    {
+      "part": "fit",
+      "mapid": 16580
+    },
+    {
+      "part": "fit",
+      "mapid": 16591
+    },
+    {
+      "part": "fit",
+      "mapid": 16593
+    },
+    {
+      "part": "fit",
+      "mapid": 16653
+    },
+    {
+      "part": "fit",
+      "mapid": 16659
+    },
+    {
+      "part": "fit",
+      "mapid": 16662
+    },
+    {
+      "part": "fit",
+      "mapid": 16667
+    },
+    {
+      "part": "fit",
+      "mapid": 16686
+    },
+    {
+      "part": "fit",
+      "mapid": 16706
+    },
+    {
+      "part": "fit",
+      "mapid": 16707
+    },
+    {
+      "part": "fit",
+      "mapid": 16715
+    },
+    {
+      "part": "fit",
+      "mapid": 16721
+    },
+    {
+      "part": "fit",
+      "mapid": 16722
+    },
+    {
+      "part": "fit",
+      "mapid": 16723
+    },
+    {
+      "part": "fit",
+      "mapid": 16728
+    },
+    {
+      "part": "fit",
+      "mapid": 16785
+    },
+    {
+      "part": "fit",
+      "mapid": 16794
+    },
+    {
+      "part": "fit",
+      "mapid": 16795
+    },
+    {
+      "part": "fit",
+      "mapid": 16797
+    },
+    {
+      "part": "fit",
+      "mapid": 16799
+    },
+    {
+      "part": "fit",
+      "mapid": 16801
+    },
+    {
+      "part": "fit",
+      "mapid": 16803
+    },
+    {
+      "part": "fit",
+      "mapid": 16815
+    },
+    {
+      "part": "fit",
+      "mapid": 16837
+    },
+    {
+      "part": "fit",
+      "mapid": 16841
+    },
+    {
+      "part": "fit",
+      "mapid": 16845
+    },
+    {
+      "part": "fit",
+      "mapid": 16862
+    },
+    {
+      "part": "fit",
+      "mapid": 16928
+    },
+    {
+      "part": "fit",
+      "mapid": 16930
+    },
+    {
+      "part": "fit",
+      "mapid": 16934
+    },
+    {
+      "part": "fit",
+      "mapid": 17051
+    },
+    {
+      "part": "fit",
+      "mapid": 17111
+    },
+    {
+      "part": "fit",
+      "mapid": 17119
+    },
+    {
+      "part": "fit",
+      "mapid": 17122
+    },
+    {
+      "part": "fit",
+      "mapid": 17129
+    },
+    {
+      "part": "fit",
+      "mapid": 17183
+    },
+    {
+      "part": "fit",
+      "mapid": 17184
+    },
+    {
+      "part": "fit",
+      "mapid": 17187
+    },
+    {
+      "part": "fit",
+      "mapid": 17190
+    },
+    {
+      "part": "fit",
+      "mapid": 17202
+    },
+    {
+      "part": "fit",
+      "mapid": 17227
+    },
+    {
+      "part": "fit",
+      "mapid": 17239
+    },
+    {
+      "part": "fit",
+      "mapid": 17243
+    },
+    {
+      "part": "fit",
+      "mapid": 17251
+    },
+    {
+      "part": "fit",
+      "mapid": 17256
+    },
+    {
+      "part": "fit",
+      "mapid": 17260
+    },
+    {
+      "part": "fit",
+      "mapid": 17261
+    },
+    {
+      "part": "fit",
+      "mapid": 17265
+    },
+    {
+      "part": "fit",
+      "mapid": 17269
+    },
+    {
+      "part": "fit",
+      "mapid": 17278
+    },
+    {
+      "part": "fit",
+      "mapid": 17334
+    },
+    {
+      "part": "fit",
+      "mapid": 17339
+    },
+    {
+      "part": "fit",
+      "mapid": 17400
+    },
+    {
+      "part": "fit",
+      "mapid": 17402
+    },
+    {
+      "part": "fit",
+      "mapid": 17602
+    },
+    {
+      "part": "fit",
+      "mapid": 17610
+    },
+    {
+      "part": "fit",
+      "mapid": 17675
+    },
+    {
+      "part": "fit",
+      "mapid": 17902
+    },
+    {
+      "part": "fit",
+      "mapid": 17907
+    },
+    {
+      "part": "fit",
+      "mapid": 17920
+    },
+    {
+      "part": "fit",
+      "mapid": 17925
+    },
+    {
+      "part": "fit",
+      "mapid": 17934
+    },
+    {
+      "part": "fit",
+      "mapid": 17938
+    },
+    {
+      "part": "fit",
+      "mapid": 17939
+    },
+    {
+      "part": "fit",
+      "mapid": 17950
+    },
+    {
+      "part": "fit",
+      "mapid": 17956
+    },
+    {
+      "part": "fit",
+      "mapid": 17958
+    },
+    {
+      "part": "fit",
+      "mapid": 17963
+    },
+    {
+      "part": "fit",
+      "mapid": 17964
+    },
+    {
+      "part": "fit",
+      "mapid": 17965
+    },
+    {
+      "part": "fit",
+      "mapid": 17967
+    },
+    {
+      "part": "fit",
+      "mapid": 18036
+    },
+    {
+      "part": "fit",
+      "mapid": 18037
+    },
+    {
+      "part": "fit",
+      "mapid": 18038
+    },
+    {
+      "part": "fit",
+      "mapid": 18047
+    },
+    {
+      "part": "fit",
+      "mapid": 18051
+    },
+    {
+      "part": "fit",
+      "mapid": 18059
+    },
+    {
+      "part": "fit",
+      "mapid": 18072
+    },
+    {
+      "part": "fit",
+      "mapid": 18086
+    },
+    {
+      "part": "fit",
+      "mapid": 18206
+    },
+    {
+      "part": "fit",
+      "mapid": 18208
+    },
+    {
+      "part": "fit",
+      "mapid": 18217
+    },
+    {
+      "part": "fit",
+      "mapid": 18221
+    },
+    {
+      "part": "fit",
+      "mapid": 18287
+    },
+    {
+      "part": "fit",
+      "mapid": 18288
+    },
+    {
+      "part": "fit",
+      "mapid": 18344
+    },
+    {
+      "part": "fit",
+      "mapid": 18346
+    },
+    {
+      "part": "fit",
+      "mapid": 18350
+    },
+    {
+      "part": "fit",
+      "mapid": 18351
+    },
+    {
+      "part": "fit",
+      "mapid": 18353
+    },
+    {
+      "part": "fit",
+      "mapid": 18460
+    },
+    {
+      "part": "fit",
+      "mapid": 18465
+    },
+    {
+      "part": "fit",
+      "mapid": 18467
+    },
+    {
+      "part": "fit",
+      "mapid": 18529
+    },
+    {
+      "part": "fit",
+      "mapid": 18531
+    },
+    {
+      "part": "fit",
+      "mapid": 18532
+    },
+    {
+      "part": "fit",
+      "mapid": 18604
+    },
+    {
+      "part": "fit",
+      "mapid": 18618
+    },
+    {
+      "part": "fit",
+      "mapid": 18622
+    },
+    {
+      "part": "fit",
+      "mapid": 18625
+    },
+    {
+      "part": "fit",
+      "mapid": 18631
+    },
+    {
+      "part": "fit",
+      "mapid": 18699
+    },
+    {
+      "part": "fit",
+      "mapid": 18712
+    },
+    {
+      "part": "fit",
+      "mapid": 18729
+    },
+    {
+      "part": "fit",
+      "mapid": 18734
+    },
+    {
+      "part": "fit",
+      "mapid": 18746
+    },
+    {
+      "part": "fit",
+      "mapid": 18764
+    },
+    {
+      "part": "fit",
+      "mapid": 18774
+    },
+    {
+      "part": "fit",
+      "mapid": 18786
+    },
+    {
+      "part": "fit",
+      "mapid": 18800
+    },
+    {
+      "part": "fit",
+      "mapid": 18807
+    },
+    {
+      "part": "fit",
+      "mapid": 18817
+    },
+    {
+      "part": "fit",
+      "mapid": 18831
+    },
+    {
+      "part": "fit",
+      "mapid": 18860
+    },
+    {
+      "part": "fit",
+      "mapid": 18862
+    },
+    {
+      "part": "fit",
+      "mapid": 18875
+    },
+    {
+      "part": "fit",
+      "mapid": 18876
+    },
+    {
+      "part": "fit",
+      "mapid": 18888
+    },
+    {
+      "part": "fit",
+      "mapid": 18889
+    },
+    {
+      "part": "fit",
+      "mapid": 18896
+    },
+    {
+      "part": "fit",
+      "mapid": 18897
+    },
+    {
+      "part": "fit",
+      "mapid": 18898
+    },
+    {
+      "part": "fit",
+      "mapid": 18952
+    },
+    {
+      "part": "fit",
+      "mapid": 19178
+    },
+    {
+      "part": "fit",
+      "mapid": 19188
+    },
+    {
+      "part": "fit",
+      "mapid": 19193
+    },
+    {
+      "part": "fit",
+      "mapid": 19259
+    },
+    {
+      "part": "fit",
+      "mapid": 19261
+    },
+    {
+      "part": "fit",
+      "mapid": 19268
+    },
+    {
+      "part": "fit",
+      "mapid": 19271
+    },
+    {
+      "part": "fit",
+      "mapid": 19491
+    },
+    {
+      "part": "fit",
+      "mapid": 19496
+    },
+    {
+      "part": "fit",
+      "mapid": 19500
+    },
+    {
+      "part": "fit",
+      "mapid": 19528
+    },
+    {
+      "part": "fit",
+      "mapid": 19533
+    },
+    {
+      "part": "fit",
+      "mapid": 19538
+    },
+    {
+      "part": "fit",
+      "mapid": 19551
+    },
+    {
+      "part": "fit",
+      "mapid": 19553
+    },
+    {
+      "part": "fit",
+      "mapid": 19605
+    },
+    {
+      "part": "fit",
+      "mapid": 19625
+    },
+    {
+      "part": "fit",
+      "mapid": 19627
+    },
+    {
+      "part": "fit",
+      "mapid": 19631
+    },
+    {
+      "part": "fit",
+      "mapid": 19632
+    },
+    {
+      "part": "fit",
+      "mapid": 19636
+    },
+    {
+      "part": "fit",
+      "mapid": 19637
+    },
+    {
+      "part": "fit",
+      "mapid": 19694
+    },
+    {
+      "part": "fit",
+      "mapid": 19697
+    },
+    {
+      "part": "fit",
+      "mapid": 19707
+    },
+    {
+      "part": "fit",
+      "mapid": 19711
+    },
+    {
+      "part": "fit",
+      "mapid": 19713
+    },
+    {
+      "part": "fit",
+      "mapid": 19714
+    },
+    {
+      "part": "fit",
+      "mapid": 19722
+    },
+    {
+      "part": "fit",
+      "mapid": 19793
+    },
+    {
+      "part": "fit",
+      "mapid": 19797
+    },
+    {
+      "part": "fit",
+      "mapid": 19801
+    },
+    {
+      "part": "fit",
+      "mapid": 19805
+    },
+    {
+      "part": "fit",
+      "mapid": 19806
+    },
+    {
+      "part": "fit",
+      "mapid": 19814
+    },
+    {
+      "part": "fit",
+      "mapid": 19820
+    },
+    {
+      "part": "fit",
+      "mapid": 19898
+    },
+    {
+      "part": "fit",
+      "mapid": 19903
+    },
+    {
+      "part": "fit",
+      "mapid": 19906
+    },
+    {
+      "part": "fit",
+      "mapid": 19907
+    },
+    {
+      "part": "fit",
+      "mapid": 19914
+    },
+    {
+      "part": "fit",
+      "mapid": 19918
+    },
+    {
+      "part": "fit",
+      "mapid": 19921
+    },
+    {
+      "part": "fit",
+      "mapid": 19923
+    },
+    {
+      "part": "fit",
+      "mapid": 19924
+    },
+    {
+      "part": "fit",
+      "mapid": 19990
+    },
+    {
+      "part": "fit",
+      "mapid": 19991
+    },
+    {
+      "part": "fit",
+      "mapid": 20044
+    },
+    {
+      "part": "fit",
+      "mapid": 20048
+    },
+    {
+      "part": "fit",
+      "mapid": 20051
+    },
+    {
+      "part": "fit",
+      "mapid": 20105
+    },
+    {
+      "part": "fit",
+      "mapid": 20111
+    },
+    {
+      "part": "fit",
+      "mapid": 20112
+    },
+    {
+      "part": "fit",
+      "mapid": 20121
+    },
+    {
+      "part": "fit",
+      "mapid": 20122
+    },
+    {
+      "part": "fit",
+      "mapid": 20124
+    },
+    {
+      "part": "fit",
+      "mapid": 20129
+    },
+    {
+      "part": "fit",
+      "mapid": 20130
+    },
+    {
+      "part": "fit",
+      "mapid": 20202
+    },
+    {
+      "part": "fit",
+      "mapid": 20203
+    },
+    {
+      "part": "fit",
+      "mapid": 20211
+    },
+    {
+      "part": "fit",
+      "mapid": 20214
+    },
+    {
+      "part": "fit",
+      "mapid": 20220
+    },
+    {
+      "part": "fit",
+      "mapid": 20397
+    },
+    {
+      "part": "fit",
+      "mapid": 20462
+    },
+    {
+      "part": "fit",
+      "mapid": 20463
+    },
+    {
+      "part": "fit",
+      "mapid": 20524
+    },
+    {
+      "part": "fit",
+      "mapid": 20525
+    },
+    {
+      "part": "fit",
+      "mapid": 20526
+    },
+    {
+      "part": "fit",
+      "mapid": 20533
+    },
+    {
+      "part": "fit",
+      "mapid": 20535
+    },
+    {
+      "part": "fit",
+      "mapid": 20596
+    },
+    {
+      "part": "fit",
+      "mapid": 20656
+    },
+    {
+      "part": "fit",
+      "mapid": 20710
+    },
+    {
+      "part": "fit",
+      "mapid": 20821
+    },
+    {
+      "part": "fit",
+      "mapid": 20826
+    },
+    {
+      "part": "fit",
+      "mapid": 20841
+    },
+    {
+      "part": "fit",
+      "mapid": 20842
+    },
+    {
+      "part": "fit",
+      "mapid": 20853
+    },
+    {
+      "part": "fit",
+      "mapid": 20856
+    },
+    {
+      "part": "fit",
+      "mapid": 20938
+    },
+    {
+      "part": "fit",
+      "mapid": 21045
+    },
+    {
+      "part": "fit",
+      "mapid": 21108
+    },
+    {
+      "part": "fit",
+      "mapid": 21112
+    },
+    {
+      "part": "fit",
+      "mapid": 21117
+    },
+    {
+      "part": "fit",
+      "mapid": 21172
+    },
+    {
+      "part": "fit",
+      "mapid": 21178
+    },
+    {
+      "part": "fit",
+      "mapid": 21192
+    },
+    {
+      "part": "fit",
+      "mapid": 21193
+    },
+    {
+      "part": "fit",
+      "mapid": 21214
+    },
+    {
+      "part": "fit",
+      "mapid": 21248
+    },
+    {
+      "part": "fit",
+      "mapid": 21253
+    },
+    {
+      "part": "fit",
+      "mapid": 21274
+    },
+    {
+      "part": "fit",
+      "mapid": 21290
+    },
+    {
+      "part": "fit",
+      "mapid": 21295
+    },
+    {
+      "part": "fit",
+      "mapid": 21299
+    },
+    {
+      "part": "fit",
+      "mapid": 21301
+    },
+    {
+      "part": "fit",
+      "mapid": 21418
+    },
+    {
+      "part": "fit",
+      "mapid": 21419
+    },
+    {
+      "part": "fit",
+      "mapid": 21422
+    },
+    {
+      "part": "fit",
+      "mapid": 21427
+    },
+    {
+      "part": "fit",
+      "mapid": 21430
+    },
+    {
+      "part": "fit",
+      "mapid": 21440
+    },
+    {
+      "part": "fit",
+      "mapid": 21558
+    },
+    {
+      "part": "fit",
+      "mapid": 21561
+    },
+    {
+      "part": "fit",
+      "mapid": 21562
+    },
+    {
+      "part": "fit",
+      "mapid": 21564
+    },
+    {
+      "part": "fit",
+      "mapid": 21566
+    },
+    {
+      "part": "fit",
+      "mapid": 21571
+    },
+    {
+      "part": "fit",
+      "mapid": 21624
+    },
+    {
+      "part": "fit",
+      "mapid": 21745
+    },
+    {
+      "part": "fit",
+      "mapid": 21746
+    },
+    {
+      "part": "fit",
+      "mapid": 21758
+    },
+    {
+      "part": "fit",
+      "mapid": 21794
+    },
+    {
+      "part": "fit",
+      "mapid": 21847
+    },
+    {
+      "part": "fit",
+      "mapid": 21854
+    },
+    {
+      "part": "fit",
+      "mapid": 21856
+    },
+    {
+      "part": "fit",
+      "mapid": 21860
+    },
+    {
+      "part": "fit",
+      "mapid": 21861
+    },
+    {
+      "part": "fit",
+      "mapid": 21865
+    },
+    {
+      "part": "fit",
+      "mapid": 21866
+    },
+    {
+      "part": "fit",
+      "mapid": 21869
+    },
+    {
+      "part": "fit",
+      "mapid": 21870
+    },
+    {
+      "part": "fit",
+      "mapid": 21871
+    },
+    {
+      "part": "fit",
+      "mapid": 21876
+    },
+    {
+      "part": "fit",
+      "mapid": 21877
+    },
+    {
+      "part": "fit",
+      "mapid": 21880
+    },
+    {
+      "part": "fit",
+      "mapid": 21888
+    },
+    {
+      "part": "fit",
+      "mapid": 21889
+    },
+    {
+      "part": "fit",
+      "mapid": 21899
+    },
+    {
+      "part": "fit",
+      "mapid": 21901
+    },
+    {
+      "part": "fit",
+      "mapid": 21916
+    },
+    {
+      "part": "fit",
+      "mapid": 21917
+    },
+    {
+      "part": "fit",
+      "mapid": 21919
+    },
+    {
+      "part": "fit",
+      "mapid": 21923
+    },
+    {
+      "part": "fit",
+      "mapid": 21937
+    },
+    {
+      "part": "fit",
+      "mapid": 21940
+    },
+    {
+      "part": "fit",
+      "mapid": 22004
+    },
+    {
+      "part": "fit",
+      "mapid": 22013
+    },
+    {
+      "part": "fit",
+      "mapid": 22019
+    },
+    {
+      "part": "fit",
+      "mapid": 22021
+    },
+    {
+      "part": "fit",
+      "mapid": 22024
+    },
+    {
+      "part": "fit",
+      "mapid": 22031
+    },
+    {
+      "part": "fit",
+      "mapid": 22152
+    },
+    {
+      "part": "fit",
+      "mapid": 22167
+    },
+    {
+      "part": "fit",
+      "mapid": 22170
+    },
+    {
+      "part": "fit",
+      "mapid": 22176
+    },
+    {
+      "part": "fit",
+      "mapid": 22253
+    },
+    {
+      "part": "fit",
+      "mapid": 22358
+    },
+    {
+      "part": "fit",
+      "mapid": 22369
+    },
+    {
+      "part": "fit",
+      "mapid": 22383
+    },
+    {
+      "part": "fit",
+      "mapid": 22388
+    },
+    {
+      "part": "fit",
+      "mapid": 22392
+    },
+    {
+      "part": "fit",
+      "mapid": 22413
+    },
+    {
+      "part": "fit",
+      "mapid": 22426
+    },
+    {
+      "part": "fit",
+      "mapid": 22433
+    },
+    {
+      "part": "fit",
+      "mapid": 22436
+    },
+    {
+      "part": "fit",
+      "mapid": 22452
+    },
+    {
+      "part": "fit",
+      "mapid": 22453
+    },
+    {
+      "part": "fit",
+      "mapid": 22458
+    },
+    {
+      "part": "fit",
+      "mapid": 22459
+    },
+    {
+      "part": "fit",
+      "mapid": 22533
+    },
+    {
+      "part": "fit",
+      "mapid": 22586
+    },
+    {
+      "part": "fit",
+      "mapid": 22617
+    },
+    {
+      "part": "fit",
+      "mapid": 22622
+    },
+    {
+      "part": "fit",
+      "mapid": 22625
+    },
+    {
+      "part": "fit",
+      "mapid": 22627
+    },
+    {
+      "part": "fit",
+      "mapid": 22647
+    },
+    {
+      "part": "fit",
+      "mapid": 22718
+    },
+    {
+      "part": "fit",
+      "mapid": 22727
+    },
+    {
+      "part": "fit",
+      "mapid": 22730
+    },
+    {
+      "part": "fit",
+      "mapid": 22738
+    },
+    {
+      "part": "fit",
+      "mapid": 22793
+    },
+    {
+      "part": "fit",
+      "mapid": 22794
+    },
+    {
+      "part": "fit",
+      "mapid": 22796
+    },
+    {
+      "part": "fit",
+      "mapid": 22805
+    },
+    {
+      "part": "fit",
+      "mapid": 22861
+    },
+    {
+      "part": "fit",
+      "mapid": 22930
+    },
+    {
+      "part": "fit",
+      "mapid": 22932
+    },
+    {
+      "part": "fit",
+      "mapid": 22940
+    },
+    {
+      "part": "fit",
+      "mapid": 22974
+    },
+    {
+      "part": "fit",
+      "mapid": 22981
+    },
+    {
+      "part": "fit",
+      "mapid": 22983
+    },
+    {
+      "part": "fit",
+      "mapid": 22991
+    },
+    {
+      "part": "fit",
+      "mapid": 23001
+    },
+    {
+      "part": "fit",
+      "mapid": 23007
+    },
+    {
+      "part": "fit",
+      "mapid": 23013
+    },
+    {
+      "part": "fit",
+      "mapid": 23122
+    },
+    {
+      "part": "fit",
+      "mapid": 23127
+    },
+    {
+      "part": "fit",
+      "mapid": 23128
+    },
+    {
+      "part": "fit",
+      "mapid": 23183
+    },
+    {
+      "part": "fit",
+      "mapid": 23192
+    },
+    {
+      "part": "fit",
+      "mapid": 23249
+    },
+    {
+      "part": "fit",
+      "mapid": 23310
+    },
+    {
+      "part": "fit",
+      "mapid": 23331
+    },
+    {
+      "part": "fit",
+      "mapid": 23333
+    },
+    {
+      "part": "fit",
+      "mapid": 23338
+    },
+    {
+      "part": "fit",
+      "mapid": 23364
+    },
+    {
+      "part": "fit",
+      "mapid": 23367
+    },
+    {
+      "part": "fit",
+      "mapid": 23379
+    },
+    {
+      "part": "fit",
+      "mapid": 23403
+    },
+    {
+      "part": "fit",
+      "mapid": 23413
+    },
+    {
+      "part": "fit",
+      "mapid": 23470
+    },
+    {
+      "part": "fit",
+      "mapid": 23502
+    },
+    {
+      "part": "fit",
+      "mapid": 23505
+    },
+    {
+      "part": "fit",
+      "mapid": 23514
+    },
+    {
+      "part": "fit",
+      "mapid": 23537
+    },
+    {
+      "part": "fit",
+      "mapid": 23545
+    },
+    {
+      "part": "fit",
+      "mapid": 23570
+    },
+    {
+      "part": "fit",
+      "mapid": 23577
+    },
+    {
+      "part": "fit",
+      "mapid": 23582
+    },
+    {
+      "part": "fit",
+      "mapid": 23586
+    },
+    {
+      "part": "fit",
+      "mapid": 23588
+    },
+    {
+      "part": "fit",
+      "mapid": 23594
+    },
+    {
+      "part": "fit",
+      "mapid": 23604
+    },
+    {
+      "part": "fit",
+      "mapid": 23612
+    },
+    {
+      "part": "fit",
+      "mapid": 23619
+    },
+    {
+      "part": "fit",
+      "mapid": 23620
+    },
+    {
+      "part": "fit",
+      "mapid": 23645
+    },
+    {
+      "part": "fit",
+      "mapid": 23656
+    },
+    {
+      "part": "fit",
+      "mapid": 23667
+    },
+    {
+      "part": "fit",
+      "mapid": 23676
+    },
+    {
+      "part": "fit",
+      "mapid": 23686
+    },
+    {
+      "part": "fit",
+      "mapid": 23699
+    },
+    {
+      "part": "fit",
+      "mapid": 23701
+    },
+    {
+      "part": "fit",
+      "mapid": 23702
+    },
+    {
+      "part": "fit",
+      "mapid": 23746
+    },
+    {
+      "part": "fit",
+      "mapid": 23751
+    },
+    {
+      "part": "fit",
+      "mapid": 23765
+    },
+    {
+      "part": "fit",
+      "mapid": 23777
+    },
+    {
+      "part": "fit",
+      "mapid": 23788
+    },
+    {
+      "part": "fit",
+      "mapid": 23793
+    },
+    {
+      "part": "fit",
+      "mapid": 23794
+    },
+    {
+      "part": "fit",
+      "mapid": 23801
+    },
+    {
+      "part": "fit",
+      "mapid": 23806
+    },
+    {
+      "part": "fit",
+      "mapid": 23863
+    },
+    {
+      "part": "fit",
+      "mapid": 23867
+    },
+    {
+      "part": "fit",
+      "mapid": 23871
+    },
+    {
+      "part": "fit",
+      "mapid": 23882
+    },
+    {
+      "part": "fit",
+      "mapid": 23884
+    },
+    {
+      "part": "fit",
+      "mapid": 23917
+    },
+    {
+      "part": "fit",
+      "mapid": 23928
+    },
+    {
+      "part": "fit",
+      "mapid": 23930
+    },
+    {
+      "part": "fit",
+      "mapid": 23935
+    },
+    {
+      "part": "fit",
+      "mapid": 23966
+    },
+    {
+      "part": "fit",
+      "mapid": 23979
+    },
+    {
+      "part": "fit",
+      "mapid": 23981
+    },
+    {
+      "part": "fit",
+      "mapid": 24096
+    },
+    {
+      "part": "fit",
+      "mapid": 24098
+    },
+    {
+      "part": "fit",
+      "mapid": 24099
+    },
+    {
+      "part": "fit",
+      "mapid": 24102
+    },
+    {
+      "part": "fit",
+      "mapid": 24105
+    },
+    {
+      "part": "fit",
+      "mapid": 24109
+    },
+    {
+      "part": "fit",
+      "mapid": 24117
+    },
+    {
+      "part": "fit",
+      "mapid": 24127
+    },
+    {
+      "part": "fit",
+      "mapid": 24131
+    },
+    {
+      "part": "fit",
+      "mapid": 24133
+    },
+    {
+      "part": "fit",
+      "mapid": 24135
+    },
+    {
+      "part": "fit",
+      "mapid": 24146
+    },
+    {
+      "part": "fit",
+      "mapid": 24164
+    },
+    {
+      "part": "fit",
+      "mapid": 24183
+    },
+    {
+      "part": "fit",
+      "mapid": 24239
+    },
+    {
+      "part": "fit",
+      "mapid": 24249
+    },
+    {
+      "part": "fit",
+      "mapid": 24260
+    },
+    {
+      "part": "fit",
+      "mapid": 24262
+    },
+    {
+      "part": "fit",
+      "mapid": 24263
+    },
+    {
+      "part": "fit",
+      "mapid": 24268
+    },
+    {
+      "part": "fit",
+      "mapid": 24282
+    },
+    {
+      "part": "fit",
+      "mapid": 24283
+    },
+    {
+      "part": "fit",
+      "mapid": 24448
+    },
+    {
+      "part": "fit",
+      "mapid": 24457
+    },
+    {
+      "part": "fit",
+      "mapid": 24468
+    },
+    {
+      "part": "fit",
+      "mapid": 24494
+    },
+    {
+      "part": "fit",
+      "mapid": 24505
+    },
+    {
+      "part": "fit",
+      "mapid": 24508
+    },
+    {
+      "part": "fit",
+      "mapid": 24529
+    },
+    {
+      "part": "fit",
+      "mapid": 24533
+    },
+    {
+      "part": "fit",
+      "mapid": 24552
+    },
+    {
+      "part": "fit",
+      "mapid": 24558
+    },
+    {
+      "part": "fit",
+      "mapid": 24622
+    },
+    {
+      "part": "fit",
+      "mapid": 24624
+    },
+    {
+      "part": "fit",
+      "mapid": 24685
+    },
+    {
+      "part": "fit",
+      "mapid": 24698
+    },
+    {
+      "part": "fit",
+      "mapid": 24811
+    },
+    {
+      "part": "fit",
+      "mapid": 24813
+    },
+    {
+      "part": "fit",
+      "mapid": 24821
+    },
+    {
+      "part": "fit",
+      "mapid": 24843
+    },
+    {
+      "part": "fit",
+      "mapid": 24844
+    },
+    {
+      "part": "fit",
+      "mapid": 24855
+    },
+    {
+      "part": "fit",
+      "mapid": 24874
+    },
+    {
+      "part": "fit",
+      "mapid": 24876
+    },
+    {
+      "part": "fit",
+      "mapid": 24878
+    },
+    {
+      "part": "fit",
+      "mapid": 24882
+    },
+    {
+      "part": "fit",
+      "mapid": 24889
+    },
+    {
+      "part": "fit",
+      "mapid": 24892
+    },
+    {
+      "part": "fit",
+      "mapid": 24902
+    },
+    {
+      "part": "fit",
+      "mapid": 24903
+    },
+    {
+      "part": "fit",
+      "mapid": 24919
+    },
+    {
+      "part": "fit",
+      "mapid": 24943
+    },
+    {
+      "part": "fit",
+      "mapid": 24946
+    },
+    {
+      "part": "fit",
+      "mapid": 25012
+    },
+    {
+      "part": "fit",
+      "mapid": 25016
+    },
+    {
+      "part": "fit",
+      "mapid": 25023
+    },
+    {
+      "part": "fit",
+      "mapid": 25123
+    },
+    {
+      "part": "fit",
+      "mapid": 25128
+    },
+    {
+      "part": "fit",
+      "mapid": 25129
+    },
+    {
+      "part": "fit",
+      "mapid": 25130
+    },
+    {
+      "part": "fit",
+      "mapid": 25146
+    },
+    {
+      "part": "fit",
+      "mapid": 25148
+    },
+    {
+      "part": "fit",
+      "mapid": 25150
+    },
+    {
+      "part": "fit",
+      "mapid": 25190
+    },
+    {
+      "part": "fit",
+      "mapid": 25195
+    },
+    {
+      "part": "fit",
+      "mapid": 25225
+    },
+    {
+      "part": "fit",
+      "mapid": 25230
+    },
+    {
+      "part": "fit",
+      "mapid": 25344
+    },
+    {
+      "part": "fit",
+      "mapid": 25345
+    },
+    {
+      "part": "fit",
+      "mapid": 25347
+    },
+    {
+      "part": "fit",
+      "mapid": 25350
+    },
+    {
+      "part": "fit",
+      "mapid": 25357
+    },
+    {
+      "part": "fit",
+      "mapid": 25358
+    },
+    {
+      "part": "fit",
+      "mapid": 25363
+    },
+    {
+      "part": "fit",
+      "mapid": 25365
+    },
+    {
+      "part": "fit",
+      "mapid": 25430
+    },
+    {
+      "part": "fit",
+      "mapid": 25483
+    },
+    {
+      "part": "fit",
+      "mapid": 25544
+    },
+    {
+      "part": "fit",
+      "mapid": 25546
+    },
+    {
+      "part": "fit",
+      "mapid": 25547
+    },
+    {
+      "part": "fit",
+      "mapid": 25554
+    },
+    {
+      "part": "fit",
+      "mapid": 25568
+    },
+    {
+      "part": "fit",
+      "mapid": 25621
+    },
+    {
+      "part": "fit",
+      "mapid": 25624
+    },
+    {
+      "part": "fit",
+      "mapid": 25628
+    },
+    {
+      "part": "fit",
+      "mapid": 25652
+    },
+    {
+      "part": "fit",
+      "mapid": 25706
+    },
+    {
+      "part": "fit",
+      "mapid": 25714
+    },
+    {
+      "part": "fit",
+      "mapid": 25716
+    },
+    {
+      "part": "fit",
+      "mapid": 25718
+    },
+    {
+      "part": "monitor",
+      "mapid": 647
+    },
+    {
+      "part": "monitor",
+      "mapid": 951
+    },
+    {
+      "part": "monitor",
+      "mapid": 1009
+    },
+    {
+      "part": "monitor",
+      "mapid": 1010
+    },
+    {
+      "part": "monitor",
+      "mapid": 1011
+    },
+    {
+      "part": "monitor",
+      "mapid": 1012
+    },
+    {
+      "part": "monitor",
+      "mapid": 1013
+    },
+    {
+      "part": "monitor",
+      "mapid": 1014
+    },
+    {
+      "part": "monitor",
+      "mapid": 1015
+    },
+    {
+      "part": "monitor",
+      "mapid": 1016
+    },
+    {
+      "part": "monitor",
+      "mapid": 1017
+    },
+    {
+      "part": "monitor",
+      "mapid": 1018
+    },
+    {
+      "part": "monitor",
+      "mapid": 1019
+    },
+    {
+      "part": "monitor",
+      "mapid": 1020
+    },
+    {
+      "part": "monitor",
+      "mapid": 1021
+    },
+    {
+      "part": "monitor",
+      "mapid": 1022
+    },
+    {
+      "part": "monitor",
+      "mapid": 1023
+    },
+    {
+      "part": "monitor",
+      "mapid": 1024
+    },
+    {
+      "part": "monitor",
+      "mapid": 1025
+    },
+    {
+      "part": "monitor",
+      "mapid": 1026
+    },
+    {
+      "part": "monitor",
+      "mapid": 1027
+    },
+    {
+      "part": "monitor",
+      "mapid": 1028
+    },
+    {
+      "part": "monitor",
+      "mapid": 1029
+    },
+    {
+      "part": "monitor",
+      "mapid": 1030
+    },
+    {
+      "part": "monitor",
+      "mapid": 1031
+    },
+    {
+      "part": "monitor",
+      "mapid": 1032
+    },
+    {
+      "part": "monitor",
+      "mapid": 1033
+    },
+    {
+      "part": "monitor",
+      "mapid": 1034
+    },
+    {
+      "part": "monitor",
+      "mapid": 1035
+    },
+    {
+      "part": "monitor",
+      "mapid": 1036
+    },
+    {
+      "part": "monitor",
+      "mapid": 1037
+    },
+    {
+      "part": "monitor",
+      "mapid": 1038
+    },
+    {
+      "part": "monitor",
+      "mapid": 1039
+    },
+    {
+      "part": "monitor",
+      "mapid": 1040
+    },
+    {
+      "part": "monitor",
+      "mapid": 1041
+    },
+    {
+      "part": "monitor",
+      "mapid": 1042
+    },
+    {
+      "part": "monitor",
+      "mapid": 1043
+    },
+    {
+      "part": "monitor",
+      "mapid": 1044
+    },
+    {
+      "part": "monitor",
+      "mapid": 1045
+    },
+    {
+      "part": "monitor",
+      "mapid": 1046
+    },
+    {
+      "part": "monitor",
+      "mapid": 1047
+    },
+    {
+      "part": "monitor",
+      "mapid": 1048
+    },
+    {
+      "part": "monitor",
+      "mapid": 1049
+    },
+    {
+      "part": "monitor",
+      "mapid": 1050
+    },
+    {
+      "part": "monitor",
+      "mapid": 1051
+    },
+    {
+      "part": "monitor",
+      "mapid": 1052
+    },
+    {
+      "part": "monitor",
+      "mapid": 1053
+    },
+    {
+      "part": "monitor",
+      "mapid": 1054
+    },
+    {
+      "part": "monitor",
+      "mapid": 1055
+    },
+    {
+      "part": "monitor",
+      "mapid": 1056
+    },
+    {
+      "part": "monitor",
+      "mapid": 1057
+    },
+    {
+      "part": "monitor",
+      "mapid": 1058
+    },
+    {
+      "part": "monitor",
+      "mapid": 1059
+    },
+    {
+      "part": "monitor",
+      "mapid": 1230
+    },
+    {
+      "part": "monitor",
+      "mapid": 1477
+    },
+    {
+      "part": "monitor",
+      "mapid": 1484
+    },
+    {
+      "part": "monitor",
+      "mapid": 1546
+    },
+    {
+      "part": "monitor",
+      "mapid": 1952
+    },
+    {
+      "part": "monitor",
+      "mapid": 1953
+    },
+    {
+      "part": "monitor",
+      "mapid": 1954
+    },
+    {
+      "part": "monitor",
+      "mapid": 1955
+    },
+    {
+      "part": "monitor",
+      "mapid": 1956
+    },
+    {
+      "part": "monitor",
+      "mapid": 1957
+    },
+    {
+      "part": "monitor",
+      "mapid": 1958
+    },
+    {
+      "part": "monitor",
+      "mapid": 1959
+    },
+    {
+      "part": "monitor",
+      "mapid": 1960
+    },
+    {
+      "part": "monitor",
+      "mapid": 1961
+    },
+    {
+      "part": "monitor",
+      "mapid": 1962
+    },
+    {
+      "part": "monitor",
+      "mapid": 1963
+    },
+    {
+      "part": "monitor",
+      "mapid": 1964
+    },
+    {
+      "part": "monitor",
+      "mapid": 1965
+    },
+    {
+      "part": "monitor",
+      "mapid": 1966
+    },
+    {
+      "part": "monitor",
+      "mapid": 1967
+    },
+    {
+      "part": "monitor",
+      "mapid": 1968
+    },
+    {
+      "part": "monitor",
+      "mapid": 1969
+    },
+    {
+      "part": "monitor",
+      "mapid": 1970
+    },
+    {
+      "part": "monitor",
+      "mapid": 1971
+    },
+    {
+      "part": "monitor",
+      "mapid": 1972
+    },
+    {
+      "part": "monitor",
+      "mapid": 1973
+    },
+    {
+      "part": "monitor",
+      "mapid": 1974
+    },
+    {
+      "part": "monitor",
+      "mapid": 1975
+    },
+    {
+      "part": "monitor",
+      "mapid": 1976
+    },
+    {
+      "part": "monitor",
+      "mapid": 1977
+    },
+    {
+      "part": "monitor",
+      "mapid": 1978
+    },
+    {
+      "part": "monitor",
+      "mapid": 1979
+    },
+    {
+      "part": "monitor",
+      "mapid": 1980
+    },
+    {
+      "part": "monitor",
+      "mapid": 1981
+    },
+    {
+      "part": "monitor",
+      "mapid": 1982
+    },
+    {
+      "part": "monitor",
+      "mapid": 1983
+    },
+    {
+      "part": "monitor",
+      "mapid": 1984
+    },
+    {
+      "part": "monitor",
+      "mapid": 1985
+    },
+    {
+      "part": "monitor",
+      "mapid": 1986
+    },
+    {
+      "part": "monitor",
+      "mapid": 1987
+    },
+    {
+      "part": "monitor",
+      "mapid": 1988
+    },
+    {
+      "part": "monitor",
+      "mapid": 1989
+    },
+    {
+      "part": "monitor",
+      "mapid": 1990
+    },
+    {
+      "part": "monitor",
+      "mapid": 1991
+    },
+    {
+      "part": "monitor",
+      "mapid": 1992
+    },
+    {
+      "part": "monitor",
+      "mapid": 1993
+    },
+    {
+      "part": "monitor",
+      "mapid": 1994
+    },
+    {
+      "part": "monitor",
+      "mapid": 1995
+    },
+    {
+      "part": "monitor",
+      "mapid": 1996
+    },
+    {
+      "part": "monitor",
+      "mapid": 1997
+    },
+    {
+      "part": "monitor",
+      "mapid": 1998
+    },
+    {
+      "part": "monitor",
+      "mapid": 1999
+    },
+    {
+      "part": "monitor",
+      "mapid": 2000
+    },
+    {
+      "part": "monitor",
+      "mapid": 2001
+    },
+    {
+      "part": "monitor",
+      "mapid": 2002
+    },
+    {
+      "part": "monitor",
+      "mapid": 2139
+    },
+    {
+      "part": "monitor",
+      "mapid": 2166
+    },
+    {
+      "part": "monitor",
+      "mapid": 2568
+    },
+    {
+      "part": "monitor",
+      "mapid": 2653
+    },
+    {
+      "part": "monitor",
+      "mapid": 2786
+    },
+    {
+      "part": "monitor",
+      "mapid": 2792
+    },
+    {
+      "part": "monitor",
+      "mapid": 2922
+    },
+    {
+      "part": "monitor",
+      "mapid": 2923
+    },
+    {
+      "part": "monitor",
+      "mapid": 2924
+    },
+    {
+      "part": "monitor",
+      "mapid": 2925
+    },
+    {
+      "part": "monitor",
+      "mapid": 2926
+    },
+    {
+      "part": "monitor",
+      "mapid": 2927
+    },
+    {
+      "part": "monitor",
+      "mapid": 2928
+    },
+    {
+      "part": "monitor",
+      "mapid": 2929
+    },
+    {
+      "part": "monitor",
+      "mapid": 2930
+    },
+    {
+      "part": "monitor",
+      "mapid": 2931
+    },
+    {
+      "part": "monitor",
+      "mapid": 2932
+    },
+    {
+      "part": "monitor",
+      "mapid": 2933
+    },
+    {
+      "part": "monitor",
+      "mapid": 2934
+    },
+    {
+      "part": "monitor",
+      "mapid": 2935
+    },
+    {
+      "part": "monitor",
+      "mapid": 2936
+    },
+    {
+      "part": "monitor",
+      "mapid": 2937
+    },
+    {
+      "part": "monitor",
+      "mapid": 2938
+    },
+    {
+      "part": "monitor",
+      "mapid": 2939
+    },
+    {
+      "part": "monitor",
+      "mapid": 2940
+    },
+    {
+      "part": "monitor",
+      "mapid": 2941
+    },
+    {
+      "part": "monitor",
+      "mapid": 2942
+    },
+    {
+      "part": "monitor",
+      "mapid": 2943
+    },
+    {
+      "part": "monitor",
+      "mapid": 2944
+    },
+    {
+      "part": "monitor",
+      "mapid": 2945
+    },
+    {
+      "part": "monitor",
+      "mapid": 2946
+    },
+    {
+      "part": "monitor",
+      "mapid": 2947
+    },
+    {
+      "part": "monitor",
+      "mapid": 2948
+    },
+    {
+      "part": "monitor",
+      "mapid": 2949
+    },
+    {
+      "part": "monitor",
+      "mapid": 2950
+    },
+    {
+      "part": "monitor",
+      "mapid": 2951
+    },
+    {
+      "part": "monitor",
+      "mapid": 2952
+    },
+    {
+      "part": "monitor",
+      "mapid": 2953
+    },
+    {
+      "part": "monitor",
+      "mapid": 2954
+    },
+    {
+      "part": "monitor",
+      "mapid": 2955
+    },
+    {
+      "part": "monitor",
+      "mapid": 2956
+    },
+    {
+      "part": "monitor",
+      "mapid": 2957
+    },
+    {
+      "part": "monitor",
+      "mapid": 2958
+    },
+    {
+      "part": "monitor",
+      "mapid": 2959
+    },
+    {
+      "part": "monitor",
+      "mapid": 2960
+    },
+    {
+      "part": "monitor",
+      "mapid": 2961
+    },
+    {
+      "part": "monitor",
+      "mapid": 2962
+    },
+    {
+      "part": "monitor",
+      "mapid": 2963
+    },
+    {
+      "part": "monitor",
+      "mapid": 2964
+    },
+    {
+      "part": "monitor",
+      "mapid": 2965
+    },
+    {
+      "part": "monitor",
+      "mapid": 2966
+    },
+    {
+      "part": "monitor",
+      "mapid": 2967
+    },
+    {
+      "part": "monitor",
+      "mapid": 2968
+    },
+    {
+      "part": "monitor",
+      "mapid": 2969
+    },
+    {
+      "part": "monitor",
+      "mapid": 2970
+    },
+    {
+      "part": "monitor",
+      "mapid": 2971
+    },
+    {
+      "part": "monitor",
+      "mapid": 2972
+    },
+    {
+      "part": "monitor",
+      "mapid": 2973
+    },
+    {
+      "part": "monitor",
+      "mapid": 3030
+    },
+    {
+      "part": "monitor",
+      "mapid": 3443
+    },
+    {
+      "part": "monitor",
+      "mapid": 3590
+    },
+    {
+      "part": "monitor",
+      "mapid": 3730
+    },
+    {
+      "part": "monitor",
+      "mapid": 4568
+    },
+    {
+      "part": "monitor",
+      "mapid": 4569
+    },
+    {
+      "part": "monitor",
+      "mapid": 4570
+    },
+    {
+      "part": "monitor",
+      "mapid": 4571
+    },
+    {
+      "part": "monitor",
+      "mapid": 4572
+    },
+    {
+      "part": "monitor",
+      "mapid": 4573
+    },
+    {
+      "part": "monitor",
+      "mapid": 4574
+    },
+    {
+      "part": "monitor",
+      "mapid": 4575
+    },
+    {
+      "part": "monitor",
+      "mapid": 4576
+    },
+    {
+      "part": "monitor",
+      "mapid": 4577
+    },
+    {
+      "part": "monitor",
+      "mapid": 4578
+    },
+    {
+      "part": "monitor",
+      "mapid": 4579
+    },
+    {
+      "part": "monitor",
+      "mapid": 4580
+    },
+    {
+      "part": "monitor",
+      "mapid": 4581
+    },
+    {
+      "part": "monitor",
+      "mapid": 4582
+    },
+    {
+      "part": "monitor",
+      "mapid": 4583
+    },
+    {
+      "part": "monitor",
+      "mapid": 4584
+    },
+    {
+      "part": "monitor",
+      "mapid": 4585
+    },
+    {
+      "part": "monitor",
+      "mapid": 4586
+    },
+    {
+      "part": "monitor",
+      "mapid": 4587
+    },
+    {
+      "part": "monitor",
+      "mapid": 4588
+    },
+    {
+      "part": "monitor",
+      "mapid": 4589
+    },
+    {
+      "part": "monitor",
+      "mapid": 4590
+    },
+    {
+      "part": "monitor",
+      "mapid": 4591
+    },
+    {
+      "part": "monitor",
+      "mapid": 4592
+    },
+    {
+      "part": "monitor",
+      "mapid": 4593
+    },
+    {
+      "part": "monitor",
+      "mapid": 4594
+    },
+    {
+      "part": "monitor",
+      "mapid": 4595
+    },
+    {
+      "part": "monitor",
+      "mapid": 4596
+    },
+    {
+      "part": "monitor",
+      "mapid": 4597
+    },
+    {
+      "part": "monitor",
+      "mapid": 4598
+    },
+    {
+      "part": "monitor",
+      "mapid": 4599
+    },
+    {
+      "part": "monitor",
+      "mapid": 4600
+    },
+    {
+      "part": "monitor",
+      "mapid": 4601
+    },
+    {
+      "part": "monitor",
+      "mapid": 4602
+    },
+    {
+      "part": "monitor",
+      "mapid": 4603
+    },
+    {
+      "part": "monitor",
+      "mapid": 4604
+    },
+    {
+      "part": "monitor",
+      "mapid": 4605
+    },
+    {
+      "part": "monitor",
+      "mapid": 4606
+    },
+    {
+      "part": "monitor",
+      "mapid": 4607
+    },
+    {
+      "part": "monitor",
+      "mapid": 4608
+    },
+    {
+      "part": "monitor",
+      "mapid": 4609
+    },
+    {
+      "part": "monitor",
+      "mapid": 4610
+    },
+    {
+      "part": "monitor",
+      "mapid": 4611
+    },
+    {
+      "part": "monitor",
+      "mapid": 4612
+    },
+    {
+      "part": "monitor",
+      "mapid": 4613
+    },
+    {
+      "part": "monitor",
+      "mapid": 4614
+    },
+    {
+      "part": "monitor",
+      "mapid": 4615
+    },
+    {
+      "part": "monitor",
+      "mapid": 4616
+    },
+    {
+      "part": "monitor",
+      "mapid": 4617
+    },
+    {
+      "part": "monitor",
+      "mapid": 4618
+    },
+    {
+      "part": "monitor",
+      "mapid": 4622
+    },
+    {
+      "part": "monitor",
+      "mapid": 4623
+    },
+    {
+      "part": "monitor",
+      "mapid": 4624
+    },
+    {
+      "part": "monitor",
+      "mapid": 4625
+    },
+    {
+      "part": "monitor",
+      "mapid": 4626
+    },
+    {
+      "part": "monitor",
+      "mapid": 4627
+    },
+    {
+      "part": "monitor",
+      "mapid": 4628
+    },
+    {
+      "part": "monitor",
+      "mapid": 4629
+    },
+    {
+      "part": "monitor",
+      "mapid": 4630
+    },
+    {
+      "part": "monitor",
+      "mapid": 4631
+    },
+    {
+      "part": "monitor",
+      "mapid": 4632
+    },
+    {
+      "part": "monitor",
+      "mapid": 4633
+    },
+    {
+      "part": "monitor",
+      "mapid": 4634
+    },
+    {
+      "part": "monitor",
+      "mapid": 4635
+    },
+    {
+      "part": "monitor",
+      "mapid": 4636
+    },
+    {
+      "part": "monitor",
+      "mapid": 4637
+    },
+    {
+      "part": "monitor",
+      "mapid": 4638
+    },
+    {
+      "part": "monitor",
+      "mapid": 4639
+    },
+    {
+      "part": "monitor",
+      "mapid": 4640
+    },
+    {
+      "part": "monitor",
+      "mapid": 4641
+    },
+    {
+      "part": "monitor",
+      "mapid": 4642
+    },
+    {
+      "part": "monitor",
+      "mapid": 4643
+    },
+    {
+      "part": "monitor",
+      "mapid": 4644
+    },
+    {
+      "part": "monitor",
+      "mapid": 4645
+    },
+    {
+      "part": "monitor",
+      "mapid": 4646
+    },
+    {
+      "part": "monitor",
+      "mapid": 4647
+    },
+    {
+      "part": "monitor",
+      "mapid": 4648
+    },
+    {
+      "part": "monitor",
+      "mapid": 4649
+    },
+    {
+      "part": "monitor",
+      "mapid": 4650
+    },
+    {
+      "part": "monitor",
+      "mapid": 4651
+    },
+    {
+      "part": "monitor",
+      "mapid": 4652
+    },
+    {
+      "part": "monitor",
+      "mapid": 4653
+    },
+    {
+      "part": "monitor",
+      "mapid": 4654
+    },
+    {
+      "part": "monitor",
+      "mapid": 4655
+    },
+    {
+      "part": "monitor",
+      "mapid": 4656
+    },
+    {
+      "part": "monitor",
+      "mapid": 4657
+    },
+    {
+      "part": "monitor",
+      "mapid": 4658
+    },
+    {
+      "part": "monitor",
+      "mapid": 4659
+    },
+    {
+      "part": "monitor",
+      "mapid": 4660
+    },
+    {
+      "part": "monitor",
+      "mapid": 4661
+    },
+    {
+      "part": "monitor",
+      "mapid": 4662
+    },
+    {
+      "part": "monitor",
+      "mapid": 4663
+    },
+    {
+      "part": "monitor",
+      "mapid": 4664
+    },
+    {
+      "part": "monitor",
+      "mapid": 4665
+    },
+    {
+      "part": "monitor",
+      "mapid": 4666
+    },
+    {
+      "part": "monitor",
+      "mapid": 4667
+    },
+    {
+      "part": "monitor",
+      "mapid": 4668
+    },
+    {
+      "part": "monitor",
+      "mapid": 4669
+    },
+    {
+      "part": "monitor",
+      "mapid": 4670
+    },
+    {
+      "part": "monitor",
+      "mapid": 4671
+    },
+    {
+      "part": "monitor",
+      "mapid": 4672
+    },
+    {
+      "part": "monitor",
+      "mapid": 4851
+    },
+    {
+      "part": "monitor",
+      "mapid": 5040
+    },
+    {
+      "part": "monitor",
+      "mapid": 5058
+    },
+    {
+      "part": "monitor",
+      "mapid": 5206
+    },
+    {
+      "part": "monitor",
+      "mapid": 5221
+    },
+    {
+      "part": "monitor",
+      "mapid": 5682
+    },
+    {
+      "part": "monitor",
+      "mapid": 6047
+    },
+    {
+      "part": "monitor",
+      "mapid": 6184
+    },
+    {
+      "part": "monitor",
+      "mapid": 6313
+    },
+    {
+      "part": "monitor",
+      "mapid": 6666
+    },
+    {
+      "part": "monitor",
+      "mapid": 6739
+    },
+    {
+      "part": "monitor",
+      "mapid": 6798
+    },
+    {
+      "part": "monitor",
+      "mapid": 7014
+    },
+    {
+      "part": "monitor",
+      "mapid": 7066
+    },
+    {
+      "part": "monitor",
+      "mapid": 7067
+    },
+    {
+      "part": "monitor",
+      "mapid": 7198
+    },
+    {
+      "part": "monitor",
+      "mapid": 7373
+    },
+    {
+      "part": "monitor",
+      "mapid": 7400
+    },
+    {
+      "part": "monitor",
+      "mapid": 7401
+    },
+    {
+      "part": "monitor",
+      "mapid": 7417
+    },
+    {
+      "part": "monitor",
+      "mapid": 7803
+    },
+    {
+      "part": "monitor",
+      "mapid": 8000
+    },
+    {
+      "part": "monitor",
+      "mapid": 8114
+    },
+    {
+      "part": "monitor",
+      "mapid": 8115
+    },
+    {
+      "part": "monitor",
+      "mapid": 8116
+    },
+    {
+      "part": "monitor",
+      "mapid": 8117
+    },
+    {
+      "part": "monitor",
+      "mapid": 8118
+    },
+    {
+      "part": "monitor",
+      "mapid": 8119
+    },
+    {
+      "part": "monitor",
+      "mapid": 8120
+    },
+    {
+      "part": "monitor",
+      "mapid": 8121
+    },
+    {
+      "part": "monitor",
+      "mapid": 8122
+    },
+    {
+      "part": "monitor",
+      "mapid": 8123
+    },
+    {
+      "part": "monitor",
+      "mapid": 8124
+    },
+    {
+      "part": "monitor",
+      "mapid": 8125
+    },
+    {
+      "part": "monitor",
+      "mapid": 8126
+    },
+    {
+      "part": "monitor",
+      "mapid": 8127
+    },
+    {
+      "part": "monitor",
+      "mapid": 8128
+    },
+    {
+      "part": "monitor",
+      "mapid": 8129
+    },
+    {
+      "part": "monitor",
+      "mapid": 8130
+    },
+    {
+      "part": "monitor",
+      "mapid": 8131
+    },
+    {
+      "part": "monitor",
+      "mapid": 8132
+    },
+    {
+      "part": "monitor",
+      "mapid": 8133
+    },
+    {
+      "part": "monitor",
+      "mapid": 8134
+    },
+    {
+      "part": "monitor",
+      "mapid": 8135
+    },
+    {
+      "part": "monitor",
+      "mapid": 8136
+    },
+    {
+      "part": "monitor",
+      "mapid": 8137
+    },
+    {
+      "part": "monitor",
+      "mapid": 8138
+    },
+    {
+      "part": "monitor",
+      "mapid": 8139
+    },
+    {
+      "part": "monitor",
+      "mapid": 8140
+    },
+    {
+      "part": "monitor",
+      "mapid": 8141
+    },
+    {
+      "part": "monitor",
+      "mapid": 8142
+    },
+    {
+      "part": "monitor",
+      "mapid": 8143
+    },
+    {
+      "part": "monitor",
+      "mapid": 8144
+    },
+    {
+      "part": "monitor",
+      "mapid": 8145
+    },
+    {
+      "part": "monitor",
+      "mapid": 8146
+    },
+    {
+      "part": "monitor",
+      "mapid": 8147
+    },
+    {
+      "part": "monitor",
+      "mapid": 8148
+    },
+    {
+      "part": "monitor",
+      "mapid": 8149
+    },
+    {
+      "part": "monitor",
+      "mapid": 8150
+    },
+    {
+      "part": "monitor",
+      "mapid": 8151
+    },
+    {
+      "part": "monitor",
+      "mapid": 8152
+    },
+    {
+      "part": "monitor",
+      "mapid": 8153
+    },
+    {
+      "part": "monitor",
+      "mapid": 8154
+    },
+    {
+      "part": "monitor",
+      "mapid": 8155
+    },
+    {
+      "part": "monitor",
+      "mapid": 8156
+    },
+    {
+      "part": "monitor",
+      "mapid": 8157
+    },
+    {
+      "part": "monitor",
+      "mapid": 8158
+    },
+    {
+      "part": "monitor",
+      "mapid": 8159
+    },
+    {
+      "part": "monitor",
+      "mapid": 8160
+    },
+    {
+      "part": "monitor",
+      "mapid": 8161
+    },
+    {
+      "part": "monitor",
+      "mapid": 8162
+    },
+    {
+      "part": "monitor",
+      "mapid": 8163
+    },
+    {
+      "part": "monitor",
+      "mapid": 8164
+    },
+    {
+      "part": "monitor",
+      "mapid": 8306
+    },
+    {
+      "part": "monitor",
+      "mapid": 8404
+    },
+    {
+      "part": "monitor",
+      "mapid": 8834
+    },
+    {
+      "part": "monitor",
+      "mapid": 9292
+    },
+    {
+      "part": "monitor",
+      "mapid": 9295
+    },
+    {
+      "part": "monitor",
+      "mapid": 9365
+    },
+    {
+      "part": "monitor",
+      "mapid": 9426
+    },
+    {
+      "part": "monitor",
+      "mapid": 9435
+    },
+    {
+      "part": "monitor",
+      "mapid": 9489
+    },
+    {
+      "part": "monitor",
+      "mapid": 9544
+    },
+    {
+      "part": "monitor",
+      "mapid": 9549
+    },
+    {
+      "part": "monitor",
+      "mapid": 10074
+    },
+    {
+      "part": "monitor",
+      "mapid": 10082
+    },
+    {
+      "part": "monitor",
+      "mapid": 10092
+    },
+    {
+      "part": "monitor",
+      "mapid": 10823
+    },
+    {
+      "part": "monitor",
+      "mapid": 10906
+    },
+    {
+      "part": "monitor",
+      "mapid": 11702
+    },
+    {
+      "part": "monitor",
+      "mapid": 12139
+    },
+    {
+      "part": "monitor",
+      "mapid": 12168
+    },
+    {
+      "part": "monitor",
+      "mapid": 12169
+    },
+    {
+      "part": "monitor",
+      "mapid": 12173
+    },
+    {
+      "part": "monitor",
+      "mapid": 12181
+    },
+    {
+      "part": "monitor",
+      "mapid": 12562
+    },
+    {
+      "part": "monitor",
+      "mapid": 12681
+    },
+    {
+      "part": "monitor",
+      "mapid": 13046
+    },
+    {
+      "part": "monitor",
+      "mapid": 13122
+    },
+    {
+      "part": "monitor",
+      "mapid": 13131
+    },
+    {
+      "part": "monitor",
+      "mapid": 13190
+    },
+    {
+      "part": "monitor",
+      "mapid": 13191
+    },
+    {
+      "part": "monitor",
+      "mapid": 13192
+    },
+    {
+      "part": "monitor",
+      "mapid": 13193
+    },
+    {
+      "part": "monitor",
+      "mapid": 13194
+    },
+    {
+      "part": "monitor",
+      "mapid": 13195
+    },
+    {
+      "part": "monitor",
+      "mapid": 13196
+    },
+    {
+      "part": "monitor",
+      "mapid": 13197
+    },
+    {
+      "part": "monitor",
+      "mapid": 13198
+    },
+    {
+      "part": "monitor",
+      "mapid": 13199
+    },
+    {
+      "part": "monitor",
+      "mapid": 13200
+    },
+    {
+      "part": "monitor",
+      "mapid": 13201
+    },
+    {
+      "part": "monitor",
+      "mapid": 13202
+    },
+    {
+      "part": "monitor",
+      "mapid": 13203
+    },
+    {
+      "part": "monitor",
+      "mapid": 13204
+    },
+    {
+      "part": "monitor",
+      "mapid": 13205
+    },
+    {
+      "part": "monitor",
+      "mapid": 13206
+    },
+    {
+      "part": "monitor",
+      "mapid": 13207
+    },
+    {
+      "part": "monitor",
+      "mapid": 13208
+    },
+    {
+      "part": "monitor",
+      "mapid": 13209
+    },
+    {
+      "part": "monitor",
+      "mapid": 13210
+    },
+    {
+      "part": "monitor",
+      "mapid": 13211
+    },
+    {
+      "part": "monitor",
+      "mapid": 13212
+    },
+    {
+      "part": "monitor",
+      "mapid": 13213
+    },
+    {
+      "part": "monitor",
+      "mapid": 13214
+    },
+    {
+      "part": "monitor",
+      "mapid": 13215
+    },
+    {
+      "part": "monitor",
+      "mapid": 13216
+    },
+    {
+      "part": "monitor",
+      "mapid": 13217
+    },
+    {
+      "part": "monitor",
+      "mapid": 13218
+    },
+    {
+      "part": "monitor",
+      "mapid": 13219
+    },
+    {
+      "part": "monitor",
+      "mapid": 13220
+    },
+    {
+      "part": "monitor",
+      "mapid": 13221
+    },
+    {
+      "part": "monitor",
+      "mapid": 13222
+    },
+    {
+      "part": "monitor",
+      "mapid": 13223
+    },
+    {
+      "part": "monitor",
+      "mapid": 13224
+    },
+    {
+      "part": "monitor",
+      "mapid": 13225
+    },
+    {
+      "part": "monitor",
+      "mapid": 13226
+    },
+    {
+      "part": "monitor",
+      "mapid": 13227
+    },
+    {
+      "part": "monitor",
+      "mapid": 13228
+    },
+    {
+      "part": "monitor",
+      "mapid": 13229
+    },
+    {
+      "part": "monitor",
+      "mapid": 13230
+    },
+    {
+      "part": "monitor",
+      "mapid": 13231
+    },
+    {
+      "part": "monitor",
+      "mapid": 13232
+    },
+    {
+      "part": "monitor",
+      "mapid": 13233
+    },
+    {
+      "part": "monitor",
+      "mapid": 13234
+    },
+    {
+      "part": "monitor",
+      "mapid": 13235
+    },
+    {
+      "part": "monitor",
+      "mapid": 13236
+    },
+    {
+      "part": "monitor",
+      "mapid": 13237
+    },
+    {
+      "part": "monitor",
+      "mapid": 13238
+    },
+    {
+      "part": "monitor",
+      "mapid": 13239
+    },
+    {
+      "part": "monitor",
+      "mapid": 13240
+    },
+    {
+      "part": "monitor",
+      "mapid": 13426
+    },
+    {
+      "part": "monitor",
+      "mapid": 13721
+    },
+    {
+      "part": "monitor",
+      "mapid": 13924
+    },
+    {
+      "part": "monitor",
+      "mapid": 14008
+    },
+    {
+      "part": "monitor",
+      "mapid": 14010
+    },
+    {
+      "part": "monitor",
+      "mapid": 14418
+    },
+    {
+      "part": "monitor",
+      "mapid": 14493
+    },
+    {
+      "part": "monitor",
+      "mapid": 14810
+    },
+    {
+      "part": "monitor",
+      "mapid": 15217
+    },
+    {
+      "part": "monitor",
+      "mapid": 15345
+    },
+    {
+      "part": "monitor",
+      "mapid": 15472
+    },
+    {
+      "part": "monitor",
+      "mapid": 15543
+    },
+    {
+      "part": "monitor",
+      "mapid": 16360
+    },
+    {
+      "part": "monitor",
+      "mapid": 16807
+    },
+    {
+      "part": "monitor",
+      "mapid": 16814
+    },
+    {
+      "part": "monitor",
+      "mapid": 16932
+    },
+    {
+      "part": "monitor",
+      "mapid": 16987
+    },
+    {
+      "part": "monitor",
+      "mapid": 17186
+    },
+    {
+      "part": "monitor",
+      "mapid": 17279
+    },
+    {
+      "part": "monitor",
+      "mapid": 17280
+    },
+    {
+      "part": "monitor",
+      "mapid": 17281
+    },
+    {
+      "part": "monitor",
+      "mapid": 17282
+    },
+    {
+      "part": "monitor",
+      "mapid": 17283
+    },
+    {
+      "part": "monitor",
+      "mapid": 17284
+    },
+    {
+      "part": "monitor",
+      "mapid": 17285
+    },
+    {
+      "part": "monitor",
+      "mapid": 17286
+    },
+    {
+      "part": "monitor",
+      "mapid": 17287
+    },
+    {
+      "part": "monitor",
+      "mapid": 17288
+    },
+    {
+      "part": "monitor",
+      "mapid": 17289
+    },
+    {
+      "part": "monitor",
+      "mapid": 17290
+    },
+    {
+      "part": "monitor",
+      "mapid": 17291
+    },
+    {
+      "part": "monitor",
+      "mapid": 17292
+    },
+    {
+      "part": "monitor",
+      "mapid": 17293
+    },
+    {
+      "part": "monitor",
+      "mapid": 17294
+    },
+    {
+      "part": "monitor",
+      "mapid": 17295
+    },
+    {
+      "part": "monitor",
+      "mapid": 17296
+    },
+    {
+      "part": "monitor",
+      "mapid": 17297
+    },
+    {
+      "part": "monitor",
+      "mapid": 17298
+    },
+    {
+      "part": "monitor",
+      "mapid": 17299
+    },
+    {
+      "part": "monitor",
+      "mapid": 17300
+    },
+    {
+      "part": "monitor",
+      "mapid": 17301
+    },
+    {
+      "part": "monitor",
+      "mapid": 17302
+    },
+    {
+      "part": "monitor",
+      "mapid": 17303
+    },
+    {
+      "part": "monitor",
+      "mapid": 17304
+    },
+    {
+      "part": "monitor",
+      "mapid": 17305
+    },
+    {
+      "part": "monitor",
+      "mapid": 17306
+    },
+    {
+      "part": "monitor",
+      "mapid": 17307
+    },
+    {
+      "part": "monitor",
+      "mapid": 17308
+    },
+    {
+      "part": "monitor",
+      "mapid": 17309
+    },
+    {
+      "part": "monitor",
+      "mapid": 17310
+    },
+    {
+      "part": "monitor",
+      "mapid": 17311
+    },
+    {
+      "part": "monitor",
+      "mapid": 17312
+    },
+    {
+      "part": "monitor",
+      "mapid": 17313
+    },
+    {
+      "part": "monitor",
+      "mapid": 17314
+    },
+    {
+      "part": "monitor",
+      "mapid": 17315
+    },
+    {
+      "part": "monitor",
+      "mapid": 17316
+    },
+    {
+      "part": "monitor",
+      "mapid": 17317
+    },
+    {
+      "part": "monitor",
+      "mapid": 17318
+    },
+    {
+      "part": "monitor",
+      "mapid": 17319
+    },
+    {
+      "part": "monitor",
+      "mapid": 17320
+    },
+    {
+      "part": "monitor",
+      "mapid": 17321
+    },
+    {
+      "part": "monitor",
+      "mapid": 17322
+    },
+    {
+      "part": "monitor",
+      "mapid": 17323
+    },
+    {
+      "part": "monitor",
+      "mapid": 17324
+    },
+    {
+      "part": "monitor",
+      "mapid": 17325
+    },
+    {
+      "part": "monitor",
+      "mapid": 17326
+    },
+    {
+      "part": "monitor",
+      "mapid": 17327
+    },
+    {
+      "part": "monitor",
+      "mapid": 17328
+    },
+    {
+      "part": "monitor",
+      "mapid": 17329
+    },
+    {
+      "part": "monitor",
+      "mapid": 17336
+    },
+    {
+      "part": "monitor",
+      "mapid": 17348
+    },
+    {
+      "part": "monitor",
+      "mapid": 17523
+    },
+    {
+      "part": "monitor",
+      "mapid": 17664
+    },
+    {
+      "part": "monitor",
+      "mapid": 17944
+    },
+    {
+      "part": "monitor",
+      "mapid": 17945
+    },
+    {
+      "part": "monitor",
+      "mapid": 18048
+    },
+    {
+      "part": "monitor",
+      "mapid": 18469
+    },
+    {
+      "part": "monitor",
+      "mapid": 18525
+    },
+    {
+      "part": "monitor",
+      "mapid": 18611
+    },
+    {
+      "part": "monitor",
+      "mapid": 19267
+    },
+    {
+      "part": "monitor",
+      "mapid": 19732
+    },
+    {
+      "part": "monitor",
+      "mapid": 19822
+    },
+    {
+      "part": "monitor",
+      "mapid": 19840
+    },
+    {
+      "part": "monitor",
+      "mapid": 20332
+    },
+    {
+      "part": "monitor",
+      "mapid": 20337
+    },
+    {
+      "part": "monitor",
+      "mapid": 20395
+    },
+    {
+      "part": "monitor",
+      "mapid": 20532
+    },
+    {
+      "part": "monitor",
+      "mapid": 21363
+    },
+    {
+      "part": "monitor",
+      "mapid": 21432
+    },
+    {
+      "part": "monitor",
+      "mapid": 21572
+    },
+    {
+      "part": "monitor",
+      "mapid": 21863
+    },
+    {
+      "part": "monitor",
+      "mapid": 21943
+    },
+    {
+      "part": "monitor",
+      "mapid": 22003
+    },
+    {
+      "part": "monitor",
+      "mapid": 22869
+    },
+    {
+      "part": "monitor",
+      "mapid": 23187
+    },
+    {
+      "part": "monitor",
+      "mapid": 23523
+    },
+    {
+      "part": "monitor",
+      "mapid": 23587
+    },
+    {
+      "part": "monitor",
+      "mapid": 23803
+    },
+    {
+      "part": "monitor",
+      "mapid": 23933
+    },
+    {
+      "part": "monitor",
+      "mapid": 24101
+    },
+    {
+      "part": "monitor",
+      "mapid": 24259
+    },
+    {
+      "part": "monitor",
+      "mapid": 24450
+    },
+    {
+      "part": "monitor",
+      "mapid": 24753
+    },
+    {
+      "part": "monitor",
+      "mapid": 24754
+    },
+    {
+      "part": "monitor",
+      "mapid": 24755
+    },
+    {
+      "part": "monitor",
+      "mapid": 24756
+    },
+    {
+      "part": "monitor",
+      "mapid": 24757
+    },
+    {
+      "part": "monitor",
+      "mapid": 24758
+    },
+    {
+      "part": "monitor",
+      "mapid": 24759
+    },
+    {
+      "part": "monitor",
+      "mapid": 24760
+    },
+    {
+      "part": "monitor",
+      "mapid": 24761
+    },
+    {
+      "part": "monitor",
+      "mapid": 24762
+    },
+    {
+      "part": "monitor",
+      "mapid": 24763
+    },
+    {
+      "part": "monitor",
+      "mapid": 24764
+    },
+    {
+      "part": "monitor",
+      "mapid": 24765
+    },
+    {
+      "part": "monitor",
+      "mapid": 24766
+    },
+    {
+      "part": "monitor",
+      "mapid": 24767
+    },
+    {
+      "part": "monitor",
+      "mapid": 24768
+    },
+    {
+      "part": "monitor",
+      "mapid": 24769
+    },
+    {
+      "part": "monitor",
+      "mapid": 24770
+    },
+    {
+      "part": "monitor",
+      "mapid": 24771
+    },
+    {
+      "part": "monitor",
+      "mapid": 24772
+    },
+    {
+      "part": "monitor",
+      "mapid": 24773
+    },
+    {
+      "part": "monitor",
+      "mapid": 24774
+    },
+    {
+      "part": "monitor",
+      "mapid": 24775
+    },
+    {
+      "part": "monitor",
+      "mapid": 24776
+    },
+    {
+      "part": "monitor",
+      "mapid": 24777
+    },
+    {
+      "part": "monitor",
+      "mapid": 24778
+    },
+    {
+      "part": "monitor",
+      "mapid": 24779
+    },
+    {
+      "part": "monitor",
+      "mapid": 24780
+    },
+    {
+      "part": "monitor",
+      "mapid": 24781
+    },
+    {
+      "part": "monitor",
+      "mapid": 24782
+    },
+    {
+      "part": "monitor",
+      "mapid": 24783
+    },
+    {
+      "part": "monitor",
+      "mapid": 24784
+    },
+    {
+      "part": "monitor",
+      "mapid": 24785
+    },
+    {
+      "part": "monitor",
+      "mapid": 24786
+    },
+    {
+      "part": "monitor",
+      "mapid": 24787
+    },
+    {
+      "part": "monitor",
+      "mapid": 24788
+    },
+    {
+      "part": "monitor",
+      "mapid": 24789
+    },
+    {
+      "part": "monitor",
+      "mapid": 24790
+    },
+    {
+      "part": "monitor",
+      "mapid": 24791
+    },
+    {
+      "part": "monitor",
+      "mapid": 24792
+    },
+    {
+      "part": "monitor",
+      "mapid": 24793
+    },
+    {
+      "part": "monitor",
+      "mapid": 24794
+    },
+    {
+      "part": "monitor",
+      "mapid": 24795
+    },
+    {
+      "part": "monitor",
+      "mapid": 24796
+    },
+    {
+      "part": "monitor",
+      "mapid": 24797
+    },
+    {
+      "part": "monitor",
+      "mapid": 24798
+    },
+    {
+      "part": "monitor",
+      "mapid": 24799
+    },
+    {
+      "part": "monitor",
+      "mapid": 24800
+    },
+    {
+      "part": "monitor",
+      "mapid": 24801
+    },
+    {
+      "part": "monitor",
+      "mapid": 24802
+    },
+    {
+      "part": "monitor",
+      "mapid": 24803
+    },
+    {
+      "part": "monitor",
+      "mapid": 24957
+    },
+    {
+      "part": "monitor",
+      "mapid": 24958
+    },
+    {
+      "part": "monitor",
+      "mapid": 24959
+    },
+    {
+      "part": "monitor",
+      "mapid": 24960
+    },
+    {
+      "part": "monitor",
+      "mapid": 24961
+    },
+    {
+      "part": "monitor",
+      "mapid": 24962
+    },
+    {
+      "part": "monitor",
+      "mapid": 24963
+    },
+    {
+      "part": "monitor",
+      "mapid": 24964
+    },
+    {
+      "part": "monitor",
+      "mapid": 24965
+    },
+    {
+      "part": "monitor",
+      "mapid": 24966
+    },
+    {
+      "part": "monitor",
+      "mapid": 24967
+    },
+    {
+      "part": "monitor",
+      "mapid": 24968
+    },
+    {
+      "part": "monitor",
+      "mapid": 24969
+    },
+    {
+      "part": "monitor",
+      "mapid": 24970
+    },
+    {
+      "part": "monitor",
+      "mapid": 24971
+    },
+    {
+      "part": "monitor",
+      "mapid": 24972
+    },
+    {
+      "part": "monitor",
+      "mapid": 24973
+    },
+    {
+      "part": "monitor",
+      "mapid": 24974
+    },
+    {
+      "part": "monitor",
+      "mapid": 24975
+    },
+    {
+      "part": "monitor",
+      "mapid": 24976
+    },
+    {
+      "part": "monitor",
+      "mapid": 24977
+    },
+    {
+      "part": "monitor",
+      "mapid": 24978
+    },
+    {
+      "part": "monitor",
+      "mapid": 24979
+    },
+    {
+      "part": "monitor",
+      "mapid": 24980
+    },
+    {
+      "part": "monitor",
+      "mapid": 24981
+    },
+    {
+      "part": "monitor",
+      "mapid": 24982
+    },
+    {
+      "part": "monitor",
+      "mapid": 24983
+    },
+    {
+      "part": "monitor",
+      "mapid": 24984
+    },
+    {
+      "part": "monitor",
+      "mapid": 24985
+    },
+    {
+      "part": "monitor",
+      "mapid": 24986
+    },
+    {
+      "part": "monitor",
+      "mapid": 24987
+    },
+    {
+      "part": "monitor",
+      "mapid": 24988
+    },
+    {
+      "part": "monitor",
+      "mapid": 24989
+    },
+    {
+      "part": "monitor",
+      "mapid": 24990
+    },
+    {
+      "part": "monitor",
+      "mapid": 24991
+    },
+    {
+      "part": "monitor",
+      "mapid": 24992
+    },
+    {
+      "part": "monitor",
+      "mapid": 24993
+    },
+    {
+      "part": "monitor",
+      "mapid": 24994
+    },
+    {
+      "part": "monitor",
+      "mapid": 24995
+    },
+    {
+      "part": "monitor",
+      "mapid": 24996
+    },
+    {
+      "part": "monitor",
+      "mapid": 24997
+    },
+    {
+      "part": "monitor",
+      "mapid": 24998
+    },
+    {
+      "part": "monitor",
+      "mapid": 24999
+    },
+    {
+      "part": "monitor",
+      "mapid": 25000
+    },
+    {
+      "part": "monitor",
+      "mapid": 25001
+    },
+    {
+      "part": "monitor",
+      "mapid": 25002
+    },
+    {
+      "part": "monitor",
+      "mapid": 25003
+    },
+    {
+      "part": "monitor",
+      "mapid": 25004
+    },
+    {
+      "part": "monitor",
+      "mapid": 25005
+    },
+    {
+      "part": "monitor",
+      "mapid": 25006
+    },
+    {
+      "part": "monitor",
+      "mapid": 25007
+    },
+    {
+      "part": "monitor",
+      "mapid": 25640
+    }
+  ],
+  "question": "Can restoring pre-floor power and denser diffuse transport add transferable correction-sign information?",
+  "arms": [
+    "clip128",
+    "wide128",
+    "wide8192"
+  ],
+  "inputs": "old169 + same59 power/donor metadata channels; only floor/direction count changes",
+  "data": "same1279FIT/628monitor native-cache intersection asC121; true abs residual>=5 only diagnostic",
+  "training": "same CatBoost depth9 seed121041 max2000 patience150 asC121",
+  "promotion": "both monitor sign accuracy>=0.80, gain>=0.08, logloss drop>=0.05 vsclip128 before any continuous fullpixel model; final expansion stillboth0.30dB on484confirmation withpositivepairedCI",
+  "no_official_val": true,
+  "no_mesh_changes": true,
+  "no_fulltrain": true,
+  "density_note": "8192 not fully converged in hard high-band tail; readout tests incremental information only, no claim of physical truth"
+}

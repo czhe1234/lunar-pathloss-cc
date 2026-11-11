@@ -1,0 +1,30 @@
+{
+  "verified_at_utc": "2026-11-08T13:27:17.560773+00:00",
+  "local_root": "/Users/chenzhe/Desktop/transformer/CC/results",
+  "files": [
+    {
+      "local": "C127-C128_多TX双频联合与直接预测对照_20261108.md",
+      "remote": "results/C127-C128_多TX双频联合与直接预测对照_20261108.md",
+      "sha256": "88488df7822e9698051c618201c2009101125ed6d497718a4d5dbfc9de5df4a5",
+      "matched": true
+    },
+    {
+      "local": "C127_20261108/summary.json",
+      "remote": "audit/c127_joint/summary.json",
+      "sha256": "284b3aa309c208e530b4b44ea36f219ed27413e4c153967e4ff941732b217bcf",
+      "matched": true
+    },
+    {
+      "local": "C127_20261108/score.json",
+      "remote": "audit/c127_joint/score.json",
+      "sha256": "f65998ceaa40990e9b4f23a71a07e0f1e2f6127cc6590935da9da210083c0c9b",
+      "matched": true
+    },
+    {
+      "local": "C127_20261108/capacity_verified.json",
+      "remote": "audit/c127_joint/capacity_verified.json",
+      "sha256": "d4dd406d20d1bbbc100e37cd5b927b2bfea1389deae751489781547d33b96e02",
+      "matched": true
+    }
+  ]
+}

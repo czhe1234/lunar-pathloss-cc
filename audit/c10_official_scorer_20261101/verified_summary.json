@@ -1,0 +1,36 @@
+{
+  "model": "C10",
+  "scope": "complete official fixed validation set, 2330 maps per band; not withheld test",
+  "official_script": "score_submission.py",
+  "official_repository_revision": "fa3ef9b89f964556753a18be102a5aadeb723377",
+  "metric_key": "combined_rmse_db_masked",
+  "combined_RMSE_db": 3.1775908265908654,
+  "per_band": {
+    "415": {
+      "official_script_masked_RMSE_db": 2.96720214449994,
+      "original_FP64_masked_RMSE_db": 2.9672021393448227,
+      "absolute_difference_db": 5.155117221988803e-09,
+      "maps": 2330,
+      "valid_pixels": 151537682
+    },
+    "58": {
+      "official_script_masked_RMSE_db": 3.3879795086817914,
+      "original_FP64_masked_RMSE_db": 3.387979498870012,
+      "absolute_difference_db": 9.811779388968489e-09,
+      "maps": 2330,
+      "valid_pixels": 135926253
+    }
+  },
+  "checks": {
+    "415_complete_and_matches_independent_score": true,
+    "58_complete_and_matches_independent_score": true,
+    "official_sources_unmodified_and_hash_verified": true
+  },
+  "GPU_used": false,
+  "training_performed": false,
+  "website_submission": false,
+  "final_cross_team_normalized_rank_score": null,
+  "rank_note": "combined_rmse_db_masked is the 50/50 mean of the per-band masked RMSE. The published rank normalizes each band across all teams and sums, so it is computed over the full field, not from this file alone.",
+  "official_report": "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/audit/c10_official_scorer_20261101/official_report.json",
+  "provenance": "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/audit/c10_official_scorer_20261101/provenance.json"
+}

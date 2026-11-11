@@ -1,0 +1,175 @@
+[
+  {
+    "name": "c38_DEV_0",
+    "pid": 2234036,
+    "args": [
+      "./run_gpu.sh",
+      "1",
+      "scripts/c34_predict.py",
+      "--run",
+      "c38_1024_continue",
+      "--split",
+      "train",
+      "--part",
+      "dev",
+      "--fresh",
+      "--shards",
+      "3",
+      "--shard",
+      "0"
+    ]
+  },
+  {
+    "name": "c38_DEV_1",
+    "pid": 2234037,
+    "args": [
+      "./run_gpu.sh",
+      "3",
+      "scripts/c34_predict.py",
+      "--run",
+      "c38_1024_continue",
+      "--split",
+      "train",
+      "--part",
+      "dev",
+      "--fresh",
+      "--shards",
+      "3",
+      "--shard",
+      "1"
+    ]
+  },
+  {
+    "name": "c38_DEV_2",
+    "pid": 2234038,
+    "args": [
+      "./run_gpu.sh",
+      "4",
+      "scripts/c34_predict.py",
+      "--run",
+      "c38_1024_continue",
+      "--split",
+      "train",
+      "--part",
+      "dev",
+      "--fresh",
+      "--shards",
+      "3",
+      "--shard",
+      "2"
+    ]
+  },
+  {
+    "name": "c38_DEV_score",
+    "pid": 2248846,
+    "args": [
+      ".venv/bin/python",
+      "scripts/c34_score.py",
+      "--run",
+      "c38_1024_continue",
+      "--split",
+      "train",
+      "--shards",
+      "3"
+    ]
+  },
+  {
+    "name": "c38_full_refit",
+    "pid": 2248942,
+    "args": [
+      "./run_gpu.sh",
+      "3",
+      "scripts/c38_refit.py",
+      "--parent",
+      "c38_1024_continue",
+      "--name",
+      "c38_full_refit"
+    ]
+  },
+  {
+    "name": "c38_VAL_0",
+    "pid": 2261878,
+    "args": [
+      "./run_gpu.sh",
+      "1",
+      "scripts/c34_predict.py",
+      "--run",
+      "c38_full_refit",
+      "--split",
+      "val",
+      "--part",
+      "full",
+      "--fresh",
+      "--shards",
+      "3",
+      "--shard",
+      "0"
+    ]
+  },
+  {
+    "name": "c38_VAL_1",
+    "pid": 2261879,
+    "args": [
+      "./run_gpu.sh",
+      "3",
+      "scripts/c34_predict.py",
+      "--run",
+      "c38_full_refit",
+      "--split",
+      "val",
+      "--part",
+      "full",
+      "--fresh",
+      "--shards",
+      "3",
+      "--shard",
+      "1"
+    ]
+  },
+  {
+    "name": "c38_VAL_2",
+    "pid": 2261882,
+    "args": [
+      "./run_gpu.sh",
+      "4",
+      "scripts/c34_predict.py",
+      "--run",
+      "c38_full_refit",
+      "--split",
+      "val",
+      "--part",
+      "full",
+      "--fresh",
+      "--shards",
+      "3",
+      "--shard",
+      "2"
+    ]
+  },
+  {
+    "name": "c38_VAL_score",
+    "pid": 2269427,
+    "args": [
+      ".venv/bin/python",
+      "scripts/c34_score.py",
+      "--run",
+      "c38_full_refit",
+      "--split",
+      "val",
+      "--shards",
+      "3"
+    ]
+  },
+  {
+    "name": "c38_official",
+    "pid": 2269502,
+    "args": [
+      ".venv/bin/python",
+      "scripts/c34_official.py",
+      "--run",
+      "c38_full_refit",
+      "--shards",
+      "3"
+    ]
+  }
+]

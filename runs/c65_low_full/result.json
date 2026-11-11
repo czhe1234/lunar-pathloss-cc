@@ -1,0 +1,23 @@
+{
+  "status": "complete",
+  "band": 0,
+  "steps": 17770,
+  "checkpoint_selection": "fixed last, not a validation-selected best",
+  "initial_TRAIN_probe": {
+    "RMSE": [
+      2.332501329048452,
+      2.7281432570332247
+    ],
+    "scope": "TRAIN probe only; unused other band is not part of combined predictor"
+  },
+  "final_TRAIN_probe": {
+    "RMSE": [
+      2.2981545878984826,
+      2.7285526852632547
+    ],
+    "scope": "TRAIN probe only; unused other band is not part of combined predictor"
+  },
+  "seconds": 471.69927525520325,
+  "gpu_peak_GB": 33.597090304,
+  "official_VAL_used": false
+}

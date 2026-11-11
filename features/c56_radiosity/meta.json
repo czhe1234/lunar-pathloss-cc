@@ -1,0 +1,28 @@
+{
+  "complete": true,
+  "input_only": true,
+  "PL_and_validity_masks_read": false,
+  "gpu": {
+    "uuid": "GPU-70b6fceb-c7c4-9467-3c81-097c9284c160",
+    "logical_device": 0,
+    "name": "NVIDIA A800 80GB PCIe",
+    "memory_bytes": 84974239744,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "shape": [
+    25720,
+    32,
+    32,
+    10
+  ],
+  "seconds": 19.27378559112549,
+  "terrain_graph": "32x32nodes;128nearestneighbors;128ray samples peredge; Lambertian positive K withrowcap.95",
+  "power": "B=rho*(E+K*B), rho.2/.5/.8/.95, TXheight3 and empirical raster-phase candidate; store log10B8channels+log10E2channels",
+  "flat_surface_K_exactly_zero": true,
+  "rows_capped_fraction": 0.0,
+  "maximum_uncapped_row_sum": 0.10275530070066452,
+  "maximum_iterations": 16,
+  "maximum_final_relative_update": 9.905389788400498e-07,
+  "limits": "Coarse candidate surface-power operator. Not actual simulator mesh, radio material or full specular/refraction physics."
+}

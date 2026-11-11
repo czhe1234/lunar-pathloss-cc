@@ -1,0 +1,178 @@
+{
+  "date": "2026-11-10",
+  "status": "completed_no_promotion",
+  "models": {
+    "pooled": {
+      "fit": {
+        "RMSE": [
+          2.1444308469585365,
+          2.3995352816245528
+        ],
+        "C82": [
+          2.2464875674170344,
+          2.5220233924586712
+        ],
+        "gain": [
+          0.1020567204584979,
+          0.12248811083411848
+        ],
+        "valid_count": [
+          378288,
+          346095
+        ],
+        "tail_RMSE": [
+          9.180258763963375,
+          9.506499135625978
+        ],
+        "tail_sign_accuracy": [
+          0.7104311902917635,
+          0.7084267673787324
+        ]
+      },
+      "monitor": {
+        "RMSE": [
+          2.1419711910445636,
+          2.4119534893870265
+        ],
+        "C82": [
+          2.1400178758963513,
+          2.411311752812316
+        ],
+        "gain": [
+          -0.001953315148212287,
+          -0.0006417365747104498
+        ],
+        "valid_count": [
+          1276943,
+          1182747
+        ],
+        "tail_RMSE": [
+          9.570620195828889,
+          9.904446876387176
+        ],
+        "tail_sign_accuracy": [
+          0.5008965430966181,
+          0.5164397086492427
+        ]
+      },
+      "seconds": 165.24963479093276,
+      "CPU_threads": 2,
+      "GPU_used": false
+    },
+    "donors": {
+      "fit": {
+        "RMSE": [
+          2.1470823662990344,
+          2.4141440109301087
+        ],
+        "C82": [
+          2.2464875674170344,
+          2.5220233924586712
+        ],
+        "gain": [
+          0.099405201118,
+          0.10787938152856258
+        ],
+        "valid_count": [
+          378288,
+          346095
+        ],
+        "tail_RMSE": [
+          9.193533613164888,
+          9.577308753036844
+        ],
+        "tail_sign_accuracy": [
+          0.7124322230828815,
+          0.688304024548566
+        ]
+      },
+      "monitor": {
+        "RMSE": [
+          2.141909250786411,
+          2.4120740122110162
+        ],
+        "C82": [
+          2.1400178758963513,
+          2.411311752812316
+        ],
+        "gain": [
+          -0.0018913748900595273,
+          -0.0007622593987002269
+        ],
+        "valid_count": [
+          1276943,
+          1182747
+        ],
+        "tail_RMSE": [
+          9.571252985823163,
+          9.902291631890865
+        ],
+        "tail_sign_accuracy": [
+          0.5031066260789792,
+          0.5134591382425812
+        ]
+      },
+      "seconds": 161.84465872403234,
+      "CPU_threads": 2,
+      "GPU_used": false
+    }
+  },
+  "donors_vs_pooled_gain_bootstrap95": [
+    [
+      -0.0009318621562995899,
+      -0.0014456675075936842
+    ],
+    [
+      0.001043256090593192,
+      0.0012937302987174545
+    ]
+  ],
+  "bootstrap_unit": "128terrain groups,2000 draws",
+  "receiver_attribution_shapley_fraction": [
+    [
+      0.865319015030006,
+      0.5847920948714577
+    ],
+    [
+      0.08539771221070964,
+      0.14079205005621276
+    ],
+    [
+      0.04928327275928438,
+      0.2744158550723295
+    ]
+  ],
+  "fixed_D_class_optimistic_monitor_RMSE": [
+    1.6029439030603918,
+    1.4395296947154606
+  ],
+  "local_C82_remap_optimistic_monitor": {
+    "0": [
+      2.1400178758994066,
+      2.411311752816296
+    ],
+    "1": [
+      1.4521715879410697,
+      1.7058465021856446
+    ],
+    "2": [
+      1.2984075483249626,
+      1.5570990305378025
+    ],
+    "4": [
+      1.1442996218686083,
+      1.382317474155833
+    ],
+    "8": [
+      0.9446739350827922,
+      1.1525939950949113
+    ]
+  },
+  "decision": "No expansion, no new official VAL or submission version. User redirected to packaging existing C82. All current jobs completed. Original objective remains unmet.",
+  "limits": [
+    "Power-component inverse attribution is not attribution of physical cause.",
+    "Gradient cancellation diagnostic is not a score-gain bound.",
+    "Bounds apply only to specified frozen-component/local-remapping classes, not all models or input information.",
+    "CPU pilot is a fixed256tree controlled screen, not an optimization-completeness proof."
+  ]
+}

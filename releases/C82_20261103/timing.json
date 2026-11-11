@@ -1,0 +1,50 @@
+[
+  {
+    "hardware": {
+      "uuid": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+      "logical_device": 0,
+      "name": "NVIDIA H100 80GB HBM3",
+      "memory_bytes": 84929347584,
+      "torch": "2.6.0+cu124",
+      "cuda_runtime": "12.4"
+    },
+    "warm_times": 899,
+    "mean_s": 0.3537095749328064,
+    "median_s": 0.26416626386344433,
+    "p95_s": 0.5988098239526153,
+    "max_s": 0.7264503706246614,
+    "over_500_ms": 246
+  },
+  {
+    "hardware": {
+      "uuid": "GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0",
+      "logical_device": 0,
+      "name": "NVIDIA H100 80GB HBM3",
+      "memory_bytes": 84929347584,
+      "torch": "2.6.0+cu124",
+      "cuda_runtime": "12.4"
+    },
+    "warm_times": 899,
+    "mean_s": 0.2978908411207484,
+    "median_s": 0.25134489964693785,
+    "p95_s": 0.5673462416045367,
+    "max_s": 0.6286687040701509,
+    "over_500_ms": 122
+  },
+  {
+    "hardware": {
+      "uuid": "GPU-70b6fceb-c7c4-9467-3c81-097c9284c160",
+      "logical_device": 0,
+      "name": "NVIDIA A800 80GB PCIe",
+      "memory_bytes": 84974239744,
+      "torch": "2.6.0+cu124",
+      "cuda_runtime": "12.4"
+    },
+    "warm_times": 529,
+    "mean_s": 0.46297026845311395,
+    "median_s": 0.367722662165761,
+    "p95_s": 0.8198710506781935,
+    "max_s": 0.9659122880548239,
+    "over_500_ms": 118
+  }
+]

@@ -1,0 +1,84 @@
+{
+  "status": "fit_regime_complete",
+  "steps": 3000,
+  "full_FIT": {
+    "rmse": [
+      2.0254454558518384,
+      2.1534886426033735
+    ],
+    "score": 2.089467049227606,
+    "sse": [
+      34145790.772294,
+      34106174.4373918
+    ],
+    "count": [
+      8323310.0,
+      7354410.0
+    ],
+    "maps": 128,
+    "scope": "C29 complete valid128FIT; learning-rate/precision diagnostic, not officialVAL",
+    "seconds": 12.866549730300903,
+    "zones_definition": "floor-TX profile max elevation: clear < -0.25 m, boundary within +/-0.25 m, blocked >0.25 m",
+    "zones": {
+      "clear": {
+        "rmse": [
+          1.499419497923003,
+          1.537542741700813
+        ],
+        "score": 1.518481119811908,
+        "sse": [
+          12660311.942152072,
+          13313066.389130501
+        ],
+        "count": [
+          5631163.0,
+          5631495.0
+        ],
+        "maps": 128
+      },
+      "boundary": {
+        "rmse": [
+          2.9835262406332914,
+          3.6371247193089355
+        ],
+        "score": 3.3103254799711133,
+        "sse": [
+          7131833.678861022,
+          10106166.259264216
+        ],
+        "count": [
+          801201.0,
+          763959.0
+        ],
+        "maps": 128
+      },
+      "blocked": {
+        "rmse": [
+          2.755126470214313,
+          3.338315520046966
+        ],
+        "score": 3.0467209951306398,
+        "sse": [
+          14353645.151280912,
+          10686941.7889971
+        ],
+        "count": [
+          1890946.0,
+          958956.0
+        ],
+        "maps": 128
+      }
+    }
+  },
+  "query_order_sha256": "5b1eb3b365e9a55a441afb5b3a0636654057bcf73c6b49214fbac5ed61ed33a0",
+  "map_order_sha256": "205995d5ee1cf2abebc90cf0b8ba9110e3f644cdc5167fc2291f9730557f185f",
+  "gpu": {
+    "uuid": "GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0",
+    "logical_device": 0,
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_bytes": 84929347584,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "seconds": 354.2580769062042
+}

@@ -1,0 +1,17 @@
+{
+  "pid": 3112565,
+  "card": 1,
+  "command": [
+    "./run_gpu.sh",
+    "1",
+    "src/c44_train.py",
+    "--variant",
+    "path",
+    "--stage",
+    "fit64",
+    "--batch",
+    "16",
+    "--name",
+    "c44_profile_fit64"
+  ]
+}

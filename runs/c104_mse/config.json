@@ -1,0 +1,24 @@
+{
+  "mode": "mse",
+  "GPU": {
+    "uuid": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+    "logical_device": 0,
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_bytes": 84929347584,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "initial_state_sha256": "2a1edeb45adf98f50f74ad47678b9f03f2d718f0edef170a4c9c851bd23f2aac",
+  "parameters": 1739944,
+  "steps": 2000,
+  "batch": 16384,
+  "seed": 104041,
+  "sample_seed": 104073,
+  "features": 235,
+  "fit_points": 4323840,
+  "monitor_points": 1286144,
+  "input": "Same169local+66terrainPCAH/TXfeatures,C82 frozen inputs. Labels/masks not inputs.",
+  "method": "signedresidualMSE, same rare-eventimportance sampler",
+  "selection": "minimumjointmeanmonitorRMSE,includeC82;fixedbudget;freeze beforeconfirm",
+  "official_val_used": false
+}

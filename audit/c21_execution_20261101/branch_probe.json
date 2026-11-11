@@ -1,0 +1,124 @@
+{
+  "scope": "four fixed DEV maps,1024 uniform pixels each; frozen weights; CPU FP32; inference perturbations, not retrained ablations",
+  "ids": [
+    1324,
+    8353,
+    7880,
+    22085
+  ],
+  "seconds": 5.173692464828491,
+  "models": {
+    "A": {
+      "checkpoint_step": 3000,
+      "geometry_weight_norm": 0.0,
+      "valid_count": [
+        4066.0,
+        3564.0
+      ],
+      "value_token_spatial_std": [
+        0.02169949747622013,
+        0.016972966492176056,
+        0.021207621321082115,
+        0.01873035542666912
+      ],
+      "variants": {
+        "full": {
+          "rmse": [
+            4.106450851059214,
+            5.76329145929107
+          ],
+          "prediction_shift_rms_db": [
+            0.0,
+            0.0
+          ]
+        },
+        "zero_global_values": {
+          "rmse": [
+            4.069216706908479,
+            5.703660113631586
+          ],
+          "prediction_shift_rms_db": [
+            0.3437111522952386,
+            0.4439941508093937
+          ]
+        },
+        "foreign_global_tokens": {
+          "rmse": [
+            4.103966846180038,
+            5.762876653191233
+          ],
+          "prediction_shift_rms_db": [
+            0.010108358986852152,
+            0.008553536120874542
+          ]
+        },
+        "zero_geometry_bias": {
+          "rmse": [
+            4.106450851059214,
+            5.76329145929107
+          ],
+          "prediction_shift_rms_db": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "B": {
+      "checkpoint_step": 3000,
+      "geometry_weight_norm": 0.23201578855514526,
+      "valid_count": [
+        4066.0,
+        3564.0
+      ],
+      "value_token_spatial_std": [
+        0.021742383018136024,
+        0.017018387094140053,
+        0.02132163755595684,
+        0.01877504587173462
+      ],
+      "variants": {
+        "full": {
+          "rmse": [
+            4.1055830278922265,
+            5.763148885990593
+          ],
+          "prediction_shift_rms_db": [
+            0.0,
+            0.0
+          ]
+        },
+        "zero_global_values": {
+          "rmse": [
+            4.068183123546284,
+            5.702801537554203
+          ],
+          "prediction_shift_rms_db": [
+            0.3519368607524049,
+            0.4587791877391934
+          ]
+        },
+        "foreign_global_tokens": {
+          "rmse": [
+            4.103044784581723,
+            5.762660602111453
+          ],
+          "prediction_shift_rms_db": [
+            0.010319950508277173,
+            0.008741783227069325
+          ]
+        },
+        "zero_geometry_bias": {
+          "rmse": [
+            4.105574994993525,
+            5.763147554084979
+          ],
+          "prediction_shift_rms_db": [
+            5.203385756114915e-05,
+            6.185993446891038e-05
+          ]
+        }
+      }
+    }
+  }
+}

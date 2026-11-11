@@ -1,0 +1,10 @@
+{
+  "results/C130_地形与TX细尺度表征对照_20261108.md": {
+    "bytes": 7477,
+    "sha256": "1339cb19697bdb905ee0e7dfce9eb8671678705370e4910bd15b2037dbbc334b"
+  },
+  "audit/c130_projective/summary.json": {
+    "bytes": 33068,
+    "sha256": "81813f4e4441c245f6702c875f4a29745cdef5397de8da94c0d517ef1b1090f0"
+  }
+}

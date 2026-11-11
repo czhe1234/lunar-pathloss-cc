@@ -1,0 +1,8 @@
+{
+  "source": "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/runs/c70_registered_geometry",
+  "model_sha256": "a8853840eb06231940b591807d6c31ba1af83849ec8299544635e5517e0ea542",
+  "start_epoch": 14,
+  "optimizer_restored": false,
+  "shuffle_resumed": true,
+  "original_history_length": 14
+}

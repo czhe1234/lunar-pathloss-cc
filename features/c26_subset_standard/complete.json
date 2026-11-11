@@ -1,0 +1,16 @@
+{
+  "gpu": {
+    "uuid": "GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0",
+    "logical_device": 0,
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_bytes": 84929347584,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "maps": 128,
+  "width": 512,
+  "checkpoint_sha256": "e55a4e5d92778c6d221e3ee4d2c526da044e40042634ff35d405521695e48019",
+  "max_linear_reconstruction_difference_db": 1.6902111170224998e-05,
+  "seconds": 115.15143609046936,
+  "no_parameter_updates": true
+}

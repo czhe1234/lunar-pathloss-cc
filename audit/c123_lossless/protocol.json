@@ -1,0 +1,26 @@
+{
+  "batch": 8,
+  "epochs": 8,
+  "initial_state_sha256": "cdad7a147cbe43e1b6624d15df3b7a1f49304cae0f71401bae51476b92ece3a7",
+  "parameters": 15214786,
+  "modes": [
+    "native",
+    "mean"
+  ],
+  "learning_rate": 0.0003,
+  "weight_decay": 0.01,
+  "seed": 123041,
+  "data_seed": 123073,
+  "max_epochs": 8,
+  "minimum_epochs": 4,
+  "patience_epochs": 3,
+  "source_split": "audit/c105_context/protocol.json",
+  "monitor_gate_each_db": 0.2,
+  "confirmation_gate_each_db": 0.3,
+  "batch_reason": "batch16 throughput only4.5% higher than8 while peak activation memory doubles;8 preserves comparison withC117 and space for full data",
+  "source_sha256": {
+    "src/c123_lossless.py": "229ea2e183215398dc9901270ab03d9577e2c55875cb294e67ecc87456d7d5fe",
+    "src/c123_train.py": "2f59a9fad1b1eff11361c6d8f488ebc9428cbdcf1094bc6ca989d28449cca170",
+    "src/c123_smoke.py": "2cc2599872f0d9dddbbc8d8f3467f86a8c56060ba4ce8186e5af26a6afbb8e64"
+  }
+}

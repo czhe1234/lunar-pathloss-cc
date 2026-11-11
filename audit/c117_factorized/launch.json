@@ -1,0 +1,28 @@
+[
+  {
+    "pid": 667531,
+    "mode": "early",
+    "card": 3,
+    "command": [
+      "./run_gpu.sh",
+      "3",
+      "src/c117_train.py",
+      "--mode",
+      "early"
+    ],
+    "time": 1793797608.4704108
+  },
+  {
+    "pid": 667532,
+    "mode": "factorized",
+    "card": 4,
+    "command": [
+      "./run_gpu.sh",
+      "4",
+      "src/c117_train.py",
+      "--mode",
+      "factorized"
+    ],
+    "time": 1793797608.4710035
+  }
+]

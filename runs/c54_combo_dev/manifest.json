@@ -1,0 +1,23 @@
+{
+  "role": "internalFIT selected predictor; not fullTRAIN refit",
+  "source_checkpoints": {
+    "low": "runs/c54_low_attention/best.pt",
+    "high": "runs/c54_high_transport/best.pt",
+    "teacher": "runs/c38_1024_continue/best.pt"
+  },
+  "high_architecture": "c49",
+  "sampled_DEV_RMSE": [
+    2.5265930866835404,
+    2.8847981356553265
+  ],
+  "low_selected_step": 16000,
+  "high_selected_step": 16000,
+  "routing": "Fixed415MHz low expert,5775MHz high expert; no pixel selection",
+  "choice": "C54 transport selected for equivalent/better sampled high-band quality and fewer parameters than C52high",
+  "official_VAL_used_for_training": false,
+  "sha256": {
+    "low": "9f7d8cb1e67ddd58571cbdacc5412a98f66a1478150f34ac89927b8977f4d1b1",
+    "high": "d65f29e9360d69b2b0b0e7ab01ec25fa28c9600dadcb5288590615a9988d5ee5",
+    "teacher": "78184224e9758e4083f32d5673431cca9a2f0802756646fab945e12d555b8b4c"
+  }
+}

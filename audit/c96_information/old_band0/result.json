@@ -1,0 +1,9 @@
+{
+  "status": "complete",
+  "selected_iteration": 4,
+  "best_boost_round": 4,
+  "initial_monitor_rmse": 2.503072378940815,
+  "selected_monitor_rmse": 2.502829267954873,
+  "gain_vs_C38": 0.00024311098594198555,
+  "seconds": 6.549693398177624
+}

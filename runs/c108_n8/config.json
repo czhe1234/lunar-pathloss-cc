@@ -1,0 +1,21 @@
+{
+  "n": 8,
+  "GPU": {
+    "uuid": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+    "logical_device": 0,
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_bytes": 84929347584,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "parameters": 1215234,
+  "initial_state_sha256": "ea08f5b7a3ca0da82c2f7ed48d30b84c9f4298650789ec480d66761330b020e0",
+  "batch": 8,
+  "steps": 4000,
+  "fit_maps": 24,
+  "fit_terrains": 8,
+  "sample_seed": 108073,
+  "initial_seed": 105041,
+  "optimizer": "AdamWlr4e-4wd.01constant;clip2;maskedbandMSE/25;nolabeldependenttailweights",
+  "official_val_used": false
+}

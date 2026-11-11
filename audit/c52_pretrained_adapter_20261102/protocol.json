@@ -1,0 +1,18 @@
+{
+  "question": "Can retaining the full pretrained C38 representation, rather than only its numeric embeddings, unlock generalizable residual learning?",
+  "basis": "C47/48 discarded C38 hidden layers and retrained residual backbones. C49 explicit transport helps high band but not low. C50 unsharing/fine-tuning all experts did not improve.",
+  "models": [
+    "adapter",
+    "transport"
+  ],
+  "initialization": "Frozen C38 complete encoder and8head predictions. Trainable384D fusion of hidden mean/std, branch prediction mean/std and294 normalized descriptors; zero residual output. Transport adds same directional quadrature asC49.",
+  "fairness": "Both variants share parameter dictionary/initialization; same point order/seed/batch/loss/steps. Adapter bypasses transport nodes; effective active parameter count differs.",
+  "data": "Original5508FITterrains/23.7Mpoints; terrain-disjoint612DEV; frozenC38teacher fromFIT only.",
+  "budget": "Probe then12000updates each, common4096batch if memory permits otherwise2048; monitor1000; patience3000 after4000.",
+  "promotion": "Both sampledDEV gain>=.10dB before fullDEV64; fullDEV64 jointgain>=.10 thenremaining548; officialVAL after allTRAIN refit.",
+  "scope_limit": "No officialVAL training/selection; frozen parent dropout disabled in explicit feature extraction.",
+  "GPU": "1/3/4 only fullUUID",
+  "training_seed": 20261102,
+  "batch_choice": "Common2048. Transport measured~65.4kpoints/s at2048 vs43.8k at4096; choose the faster exposure rate and smaller temporary memory. Adapter also uses2048 for identical sampling/update budget.",
+  "actual_main": "adapter onphysical1 and transport onphysical3,12000updates each,2048batch."
+}

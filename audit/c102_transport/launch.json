@@ -1,0 +1,36 @@
+{
+  "time": 1793778858.0116158,
+  "runs": [
+    {
+      "mode": "coarse",
+      "card": 1,
+      "pid": 314117,
+      "command": [
+        "./run_gpu.sh",
+        "1",
+        "src/c102_train.py",
+        "--mode",
+        "coarse",
+        "--steps",
+        "4000"
+      ],
+      "log": "logs/c102_coarse.log"
+    },
+    {
+      "mode": "native",
+      "card": 3,
+      "pid": 314118,
+      "command": [
+        "./run_gpu.sh",
+        "3",
+        "src/c102_train.py",
+        "--mode",
+        "native",
+        "--steps",
+        "4000"
+      ],
+      "log": "logs/c102_native.log"
+    }
+  ],
+  "preload_check_fix": "isfinite in8map chunks; initial failedruns had no optimizer updates"
+}

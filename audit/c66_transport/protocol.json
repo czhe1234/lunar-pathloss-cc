@@ -1,0 +1,7 @@
+{
+  "reference": "C54 internal version of C65, complete DEV 2.522767/2.881465",
+  "scope": "Use only official TRAIN labels during research. GPU UUID guard for physical1/3/4.",
+  "question": "Do deterministic ray samples and receiver-cell geometry explain transferable, signed fine-scale residuals? Can dense neighborhoods of the frozen predictions correct the residuals on unseen terrains?",
+  "dense_control": "Use same maps and pixels, center-only residual vs spatial residual, zero-initialized readout. Use previous 1024 fixed teaching pixels only for identifying/removing from new FIT loss.",
+  "large_gain_screen": "At least 0.30 dB improvement on each band relative to C54 on a matched terrain-held-out panel before claiming a substantial gain. Final goal remains each official band <=1 dB."
+}

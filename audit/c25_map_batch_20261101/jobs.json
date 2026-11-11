@@ -1,0 +1,1 @@
+[{"pid": 1894195, "gpu": 1, "run": "c25_batch32_scaled"}, {"pid": 1894196, "gpu": 3, "run": "c25_batch64_scaled"}, {"pid": 1894198, "gpu": 4, "run": "c25_batch64_unscaled"}]

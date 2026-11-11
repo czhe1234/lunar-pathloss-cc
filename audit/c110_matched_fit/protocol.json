@@ -1,0 +1,22 @@
+{
+  "question": "Doesdiversityhelpholdingcommonanchortrainingfitconstant,inadditiontothefixedupdateC108control?",
+  "data_protocol": "audit/c108_diagnosis/protocol.json",
+  "n": [
+    8,
+    32,
+    128
+  ],
+  "anchor": "sameC108n8 24maps,allsharedwithlargersets",
+  "target": "meanofbandSSE/C82SSEonanchor<=.85;firstcross;max2000steps",
+  "check_interval": {
+    "8": 10,
+    "32": 20,
+    "128": 25
+  },
+  "optimizer": "sameC108AdamW4e-4wd.01batch8sameinitandsamplingseed108073",
+  "GPU": 4,
+  "rationale": "C108savedanchorcurvesconfirmfixed4000updategroupsreachverydifferentanchorfit;thiscontrolisneededbeforeattributingloweroverfitsolelytodiversity",
+  "no_confirmation_selection": true,
+  "official_val_used": false,
+  "source_sha256": "22bd5647f510996340b5758e4662b4c66b88eafc48810e26153c9eb71b2d5c48"
+}

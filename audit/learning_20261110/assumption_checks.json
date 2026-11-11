@@ -1,0 +1,194 @@
+{
+  "scope": "Analytic counterexamples only; no competition samples, no model training, no GPU.",
+  "date": "2026-11-10",
+  "linear_unbiased_not_db_unbiased": {
+    "true_gain": 1e-08,
+    "equally_likely_gains": [
+      5e-09,
+      1.5000000000000002e-08
+    ],
+    "mean_gain": 1e-08,
+    "PL_of_mean_gain_db": 80.0,
+    "mean_PL_db": 80.6246936830415,
+    "bias_db": 0.6246936830414995,
+    "assumptions": "Positive unmasked unclipped power. Selection by validity masks or clipping adds further changes."
+  },
+  "power_not_complex_field": {
+    "construction": "E(x,z)=exp(i*k0*(sin(theta)*x+cos(theta)*z)), restricted to z=0.",
+    "k0": 6.283185307179586,
+    "theta_radians": [
+      0.0,
+      1.0471975511965976
+    ],
+    "power_both": [
+      1.0,
+      1.0
+    ],
+    "minus_surface_laplacian_over_E": [
+      0.0,
+      29.60881320326807
+    ],
+    "minus_surface_laplacian_over_sqrt_power": [
+      0.0,
+      0.0
+    ],
+    "meaning": "Equal scalar power can coexist with different phase gradients and surface Helmholtz ratios. Not a measurement of dataset ambiguity."
+  },
+  "multiple_TX_do_not_identify_free_internal_states": {
+    "K": [
+      [
+        0.0,
+        0.1
+      ],
+      [
+        0.2,
+        0.0
+      ]
+    ],
+    "Q_two_TX": [
+      [
+        1.0,
+        0.3
+      ],
+      [
+        0.4,
+        1.2
+      ]
+    ],
+    "A": [
+      [
+        0.7,
+        0.3
+      ],
+      [
+        0.2,
+        0.8
+      ],
+      [
+        0.4,
+        0.6
+      ]
+    ],
+    "state": [
+      [
+        1.0612244897959184,
+        0.4285714285714286
+      ],
+      [
+        0.6122448979591838,
+        1.2857142857142858
+      ]
+    ],
+    "K_transformed": [
+      [
+        0.0,
+        0.4
+      ],
+      [
+        0.05,
+        0.0
+      ]
+    ],
+    "Q_transformed": [
+      [
+        2.0,
+        0.6
+      ],
+      [
+        0.2,
+        0.6
+      ]
+    ],
+    "A_transformed": [
+      [
+        0.35,
+        0.6
+      ],
+      [
+        0.1,
+        1.6
+      ],
+      [
+        0.2,
+        1.2
+      ]
+    ],
+    "state_transformed": [
+      [
+        2.122448979591837,
+        0.8571428571428572
+      ],
+      [
+        0.3061224489795919,
+        0.6428571428571429
+      ]
+    ],
+    "max_observation_difference": 0.0,
+    "scope": "A,K,Q all free. Known physical A,Q, units and coupling can remove this freedom. Not a proof of unidentifiability for the competition."
+  },
+  "fixed_transport_residual_bound": {
+    "K": 0.8,
+    "Q": 0.2,
+    "true_state": 1.0,
+    "candidate_state": 1.1,
+    "residual": 0.020000000000000018,
+    "error_bound": 0.10000000000000012,
+    "scope": "Known correct K,Q and operator norm strictly below one; it does not validate geometry or labels."
+  },
+  "one_db_pointwise_gain_interval": [
+    0.7943282347242815,
+    1.2589254117941673
+  ],
+  "coherent_vs_noncoherent": {
+    "coherent_power": 0.0,
+    "noncoherent_power": 0.020000000000000004
+  },
+  "squared_MC_residual_bias": {
+    "K_samples": [
+      0.25,
+      0.75
+    ],
+    "Q": 1.0,
+    "mean_K": 0.5,
+    "variance_K": 0.0625,
+    "true_fixed_point": 2.0,
+    "minimum_of_expected_single_sample_squared_residual": 1.6,
+    "objective_at_true": 0.25,
+    "objective_at_biased": 0.20000000000000007,
+    "PL_difference_db_if_state_is_gain": 0.969100130080564,
+    "scope": "Constructed scalar example. A noisy unbiased operator estimate need not yield an unbiased squared residual objective. Not a finding about the released dataset or a reproduction of Neural Radiosity."
+  },
+  "verified_local_evidence": {
+    "C138_state_supervision_16_FIT_RMSE": [
+      1.4365968441627315,
+      1.4952833726091015
+    ],
+    "C138_matched_continuation_16_FIT_RMSE": [
+      1.3705607631481111,
+      1.3961854914921927
+    ],
+    "C138_limitations": [
+      "Transport kernel is fixed physics in this pilot; K is not learned.",
+      "Only one diffuse event in an enumerated path; not the complete repeated diffuse transport proposal.",
+      "Specular launch factors and learned aggregated diffuse-state factors are separate; learned initial-light changes are not propagated consistently into diffuse-prefix sources.",
+      "Original four retained FIT TX used, not all51.",
+      "Source quadrature8 retains numerical error, quantified by C135 refinements.",
+      "Native propagation has not passed the500ms end-to-end inference gate.",
+      "Positive source-state calibration is not a proof of passivity or global energy conservation; the complete coupled passive learned K remains unimplemented."
+    ],
+    "C139_fixed_D_model_class_optimistic_RMSE": [
+      1.6029439030603918,
+      1.4395296947154606
+    ],
+    "C139_local_remap_radius4_optimistic_RMSE": [
+      1.1442996218686083,
+      1.382317474155833
+    ],
+    "scope": "C138=16 fixed FIT maps, sampled points. C139=128 terrain monitor sampled points. Neither is official validation.",
+    "source_sha256": {
+      "src/c136_model.py": "66becfc430a4e625866f5b585b3879612e503896dcb7f91c938dfbc01cce890a",
+      "audit/c138_state/summary.json": "a8c43ad678ba70e9460c5f08ac2f1b970078ec5d2c98f4e4f46b64ad3db0b710",
+      "audit/c139_bottleneck/summary.json": "e995e9ddebc0ad72d408a26629f951b1209837b0a74fe9c9d145f8fa098eb954"
+    }
+  }
+}

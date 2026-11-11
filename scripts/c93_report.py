@@ -1,0 +1,127 @@
+"""Assemble confirmed measurements. Official VAL is never re-opened for candidate evaluation."""
+import json,hashlib
+from pathlib import Path
+R=Path(__file__).resolve().parents[1];A=R/'audit/c93_joint_miss'
+def read(n):return json.load(open(A/n))
+def pct(x):return f'{100*x:.1f}%'
+def main():
+    chk=read('verification.json');inv=read('confirm_inventory.json')['confirm'];sparse=read('confirm_score.json')['models'];dense=read('density_confirm_scores.json')['dense']
+    strict=read('strict_confirm_scores.json');patch=read('density_patch_scores.json')['dense'];morph=read('patch_morphology_scores.json')['uniform']
+    oracle=[b['oracle_rmse_if_shared_perfect'] for b in inv['bands']];pa=read('phase_confirm_scores.json')
+    seed=read('seed_stability.json');dr=read('direct_budget.json');tx=read('tx_pair_summary_original.json');txc=read('tx_pair_summary_common.json')
+    change=read('tx_change.json');exact=read('exact_result.json');risk=read('risk_budget.json');clear=read('clear_definition_split.json');fp=R/'results/C93共同漏点逐像素清单_20261103.csv'
+    assert hashlib.sha256(fp.read_bytes()).hexdigest()==chk['CSV_SHA256']
+    qa=exact['qa'];ex=[exact['bands'][str(b)]['all'] for b in (0,1)]
+    head="""# C93　共同漏点的定位与功率盲测
+
+2026-11-03。所有计算在服务器 transformer 的 CC 目录内独立执行。当前几何表征能找出更容易出现弱点的区域，但精确到接收像素后误报过多。按盲测结果，本轮没有启动新网络训练。正式版本仍为 C82。官方固定验证为 415 MHz 2.24638 dB、5.775 GHz 2.57915 dB，双频均值 2.41276 dB。以下数值均来自官方 TRAIN 内部留出地形。
+
+## 怎样定义一个共同漏点
+
+- 主判据要求该频段像素有效，且实测功率比 C82 和三次漫散射物理模型 C92 的预测都低至少 5 dB。按正路损记号，这等价于实测路损比两个预测中的较大者还高至少 5 dB。这个定义同时包括没找到弱点和虽有预警但严重低估了深度。
+- 严格通视漏点沿用 C87 的保守直达参考。候选接收单元的通视比例大于 0.99，实测路损超过保守自由空间路损 3 dB，两个模型预测都没有跨过这个阈值。
+- 局部形状漏点要求实测路损比 3×3 邻域的有效邻居中位数高至少 3 dB，两个模型都没有预测出同样深的凹点。该对照至少需要五个有效邻居。另对主判据使用 2–4 米环形邻域，至少需要十二个有效邻居。
+- 探针预测只用高度图、TX 位置和由它们计算的场。训练参考地形的标签用来检索相似几何条件下的漏点频率及绝对路损。确认地形的真值和有效掩码只用来认定样本和计分。C82、C92 的输出不进入定位探针，也没有调两者的融合权重。
+
+80 块地形提供参照，另外 48 块选择表征，另外 484 块确认。每块确认地形取预先选定的一张地图与 512 个均匀位置。主对照共 247,808 个位置。各频段分别按有效点累计误差。附加的近邻试验从其中独立选 120 块地形，每块取 8 个随机窗口和 8 个只按几何选取的掠射窗口。每个窗口有 7×7 个不重叠像素。1,920 个中心在原探针与窗口重算之间没有共同漏点归类差异。
+
+## 残差集中在哪里
+
+| 484 块确认地形 | 415 MHz | 5.775 GHz |
+|---|---:|---:|
+"""
+    lines=[head.rstrip()]
+    def row(n,v):
+        lines.append('| '+n+' | '+v[0]+' | '+v[1]+' |')
+    I=inv['bands'];row('有效点',[f"{b['by_state'][0]['n']:,}" for b in I]);row('共同漏点（主判据）',[f"{b['by_state'][0]['miss']:,}（{pct(b['by_state'][0]['prevalence'])}）" for b in I])
+    row('这些点占 C82 平方误差',[pct(b['by_state'][0]['sse_share']) for b in I]);row('共同漏点上的 C82 RMSE',[f"{b['by_state'][0]['c82_miss_rmse']:.2f} dB" for b in I])
+    row('其中能检查 2–4 米邻域且有至少 3 dB 局部凹点',[f"{b['local_dip_miss']:,} / {b['local_evaluable_miss']:,}" for b in I])
+    row('通视 / 部分遮挡 / 遮挡中的共同漏点',[' / '.join(str(n['miss']) for n in b['by_state'][1:]) for b in I])
+    row('严格通视漏点',[f"{b['strict_clear']:,}" for b in I])
+    row('原 C82，全抽样面板 RMSE',[f"{b['base_rmse']:.3f} dB" for b in I])
+    row('假设把所有主判据漏点精确修好，全抽样面板 RMSE',[f'{a:.3f} dB' for a in oracle])
+    union=read('union_budget.json')
+    row('假设将主判据与严格通视判据的并集精确修好，全抽样 RMSE',[f"{a['oracle_fix_whole_union_RMSE']:.3f} dB" for a in union])
+    lines.append(f"\n通视且满足主判据的低频 / 高频点分别有 {clear['0']['primary_clear']:,} / {clear['1']['primary_clear']:,} 个。其中 {clear['0']['neither_calls_true_weak']:,} / {clear['1']['neither_calls_true_weak']:,} 个连弱点阈值都没有被两个模型识别。其余 {clear['0']['only_C82_calls_true_weak']:,} / {clear['1']['only_C82_calls_true_weak']:,} 个由 C82 识别为弱点，功率预测仍然偏强。掩码相同的两频段上，有 {inv['both_missed']:,} 个位置同时满足主判据。只修共同漏点可以带来可观提升，但即使完全修对，也不足以独自达到双频 1 dB。")
+    lines.append("""
+## 地形和 TX 能把位置、功率预测到什么程度
+
+表征包含传播路径遮挡、入射方向、接收面的局部坡度、像素附近及沿射线的地形剖面，还包含射线再次穿过接收面时的能量分布。使用固定的几何相似样本检索。对照改变入射角方向或移除接收面数值偏移。以 48 块地形的双频平均精确率曲线面积选出检索表征。报警阈值在 80 块参照地形内部按地形交叉验证。参照规模从每块 512 个位置增加到 4,096 个，几何表征和确认地形保持相同。
+
+| 只给地形和 TX，采用加密参照后的探针 | 415 MHz | 5.775 GHz |
+|---|---:|---:|""")
+    G=[v['groups']['all'] for v in dense]
+    row('报警数 / 命中数',[f"{g['called']:,} / {g['TP']:,}" for g in G]);row('精确率（所有报警中真漏点的比例）',[pct(g['precision']) for g in G]);row('召回率（所有真漏点中找到的比例）',[pct(g['recall']) for g in G])
+    row('平均精确率 AP',[f"{g['AP']:.3f}" for g in G]);row('已知是漏点时，估计绝对路损的 MAE',[f"{g['given_event_MAE']:.2f} dB" for g in G]);row('同一组点，C82 的 MAE',[f"{g['C82_event_MAE']:.2f} dB" for g in G])
+    row('已知是漏点时，功率误差在 ±1 dB 的比例',[pct(g['known_event_within1']) for g in G])
+    row('位置命中且功率误差在 ±1 dB，占全部真漏点',[pct(g['recall_and_within_1dB']) for g in G]);row('在所有报警像素替换功率后的全抽样 RMSE',[f"{d['blind_RMSE']:.3f} dB" for d in dense])
+    row('若要求召回至少 30%，确认集上所有阈值中的最高精确率',[pct(d['frontier']['max_precision_at_recall_ge_30']) for d in dense])
+    lines.append(f"\n参照加密前 AP 为 {sparse['flow'][0]['groups']['all']['AP']:.3f} / {sparse['flow'][1]['groups']['all']['AP']:.3f}。只看距离与可见性的对照为 {sparse['coarse'][0]['groups']['all']['AP']:.3f} / {sparse['coarse'][1]['groups']['all']['AP']:.3f}。保留其他几何量、将局部入射方向转过 90° 时为 {sparse['rotated'][0]['groups']['all']['AP']:.3f} / {sparse['rotated'][1]['groups']['all']['AP']:.3f}。角度有价值，八倍参照规模也带来一点改善。按全图均方误差在参照地形选阈值后，确认地形上只报 {risk['0']['power_threshold_calls']} / {risk['1']['power_threshold_calls']} 个点，RMSE 为 {risk['0']['power_threshold_blind_RMSE']:.3f} / {risk['1']['power_threshold_blind_RMSE']:.3f} dB。")
+    lines.append(f"\n对严格通视漏点，另外用相同几何表征从头检索严格通视漏点参照。实测召回率为 {pct(strict[0]['recall'])} / {pct(strict[1]['recall'])}，精确率为 {pct(strict[0]['precision'])} / {pct(strict[1]['precision'])}。已知是这类弱点时，MAE 为 {strict[0]['power_MAE_given_event']:.2f} / {strict[1]['power_MAE_given_event']:.2f} dB。位置命中且功率误差在 ±1 dB 的分别占 {pct(strict[0]['detected_within1_recall'])} / {pct(strict[1]['detected_within1_recall'])}。严格定义与主判据的分母不同。")
+    lines.append("""
+## 米级定位
+
+随机窗口与掠射窗口分开计分。下表只用随机窗口。强制将同一传播状态、只隔 1 米的一个真漏点和一个正常点配对，检查哪一个得到更高风险分数。相同分数按一半正确计。
+
+| 加密探针，随机 7×7 窗口 | 415 MHz | 5.775 GHz |
+|---|---:|---:|""")
+    U=[p['adjacent']['uniform'] for p in patch]
+    row('同状态的 1 米相邻正负对数',[f"{a['adjacent_same_state_positive_negative_pairs']:,}" for a in U])
+    row('真漏点风险更高的比例，按地形重采样 95% 区间',[f"{pct(a['adjacent_order_AUC'])} [{pct(a['adjacent_auc95'][0])}, {pct(a['adjacent_auc95'][1])}]" for a in U])
+    row('仅有一个真漏点的窗口数',[str(a['in_patch_unique_target']) for a in U])
+    row('真漏点被排在窗口第一位',[pct(a['top1_within_patch']) for a in U])
+    row('随机选一个有效像素命中的比例',[pct(a['random_top1']) for a in U])
+    row('窗口内部真漏点的精确像素召回',[pct(a['exact_recall']) for a in U])
+    row('允许落在相邻 3×3 区域的召回',[pct(a['one_cell_neighborhood_recall']) for a in U])
+    lines.append(f"\n单看两个模型都没画出局部 3 dB 凹点的位置，随机窗口里有 {morph[0]['neither_model_has_3dB_dip']} / {morph[1]['neither_model_has_3dB_dip']} 个。主探针对这些点的召回率为 {pct(morph[0]['recall'])} / {pct(morph[1]['recall'])}。允许相邻位置算命中会高估可用于逐像素 RMSE 的提升。")
+    lines.append("""
+## 哪个物理环节需要修正
+
+把 C92 中单独计算的直穿功率与实测总功率比较。C92 是候选地形上的物理近似，数据没有给出实测直达分量。下列比较检验哪一项已经足以产生超额功率。
+
+| 主判据共同漏点 | 415 MHz | 5.775 GHz |
+|---|---:|---:|""")
+    row('候选直穿功率单独就比实测总功率强至少 5 dB',[pct(dr[str(b)]['all']['fraction']) for b in (0,1)])
+    row('该比例在通视共同漏点中',[pct(dr[str(b)]['clear']['fraction']) for b in (0,1)])
+    row('在上述直穿过强的点，需要削减的最少直穿功率的中位数',[f"{dr[str(b)]['all']['required_direct_reduction_quantile10_median_p90_dB'][1]:.2f} dB" for b in (0,1)])
+    row('仅凭直穿加镜面反射，即可证明无论漫散射积分种子怎样都会是原主判据漏点',[f"{b['certified_any_diffuse_seed']:,}（{pct(b['certified_fraction'])}）" for b in seed['bands']])
+    cl=dr['frequency_shared'][1];sh=dr['frequency_shared'][3]
+    lines.append(f"\n两频段均有效时，通视区有 {cl['same_pixel_both']:,} 个同时漏判的坐标，高频共同漏点中 {pct(cl['fraction_high_events_also_low'])} 在低频也漏判。遮挡区只有 {sh['same_pixel_both']} 个双频共同漏判坐标，相同比例为 {pct(sh['fraction_high_events_also_low'])}。通视区值得追查跨频段共用的直达能量接收机制。对高频遮挡点需要另行解释频段特有的功率。")
+    near=tx['near'];far=tx['far'];du=tx['identical']
+    lines.append(f"\n同地形 TX 干预用了 {near['terrains']} 块地形中的 {near['pairs']} 对不同 TX，位移为 {near['separation_m'][0]:.0f}–{near['separation_m'][2]:.0f} 米，中位数 {near['separation_m'][1]:.2f} 米。在几何传播状态不变、两图标签均有效时，以双向计数，换 TX 后原像素再次成为共同漏点的比例为 {pct(near['bands']['0']['same_state']['positive_reappears_same_pixel'])} / {pct(near['bands']['1']['same_state']['positive_reappears_same_pixel'])}。远 TX 对的相同比例为 {pct(far['bands']['0']['same_state']['positive_reappears_same_pixel'])} / {pct(far['bands']['1']['same_state']['positive_reappears_same_pixel'])}。同输入复本有 {du['pairs']} 对，其共同漏点完全重合。对发生翻转的位置，根据 TX 移动引起的掠射变化判断哪一端漏判，正确率约 {pct(change['near']['results']['0']['all_same_state']['true_direction'])} / {pct(change['near']['results']['1']['all_same_state']['true_direction'])}。转错 90° 的对照为 {pct(change['near']['results']['0']['all_same_state']['rotated_direction'])} / {pct(change['near']['results']['1']['all_same_state']['rotated_direction'])}。另一 TX 的标签只用于诊断，未作为定位输入。")
+    lines.append(f"\n对 C92 的漫散射积分另换两个固定种子，实际复算覆盖 {seed['replayed_terrains']} / 484 块地形。两次都保留的原共同漏点比例为 {pct(seed['bands'][0]['original_still_positive_in_two_extra_seeds_on_replay'])} / {pct(seed['bands'][1]['original_still_positive_in_two_extra_seeds_on_replay'])}。结合所有 484 块地形的解析下界，全确认集原漏点在这两次复算仍成立的比例位于 {pct(seed['bands'][0]['all_terrain_stable_fraction_bounds'][0])}–{pct(seed['bands'][0]['all_terrain_stable_fraction_bounds'][1])} 和 {pct(seed['bands'][1]['all_terrain_stable_fraction_bounds'][0])}–{pct(seed['bands'][1]['all_terrain_stable_fraction_bounds'][1])}。该下界只依赖漫散射功率非负，固定的直穿与镜面分量不因漫散射积分种子改变。")
+    if seed['replayed_terrains']<484:
+        lines.append(f"附加复核的第三个分片未完成。授权的 1、3、4 号卡在补跑时均返回 CUDA 初始化错误 999。这里保留剩余 {484-seed['replayed_terrains']} 块的解析界。主盲测、相邻窗口盲测和原种子的近 TX 对照均已完成。使用对内相同积分种子的近 TX 复核有 {txc['near']['pairs']} 对，其中低频 / 高频原点重现比例分别为 {pct(txc['near']['bands']['0']['same_state']['positive_reappears_same_pixel'])} / {pct(txc['near']['bands']['1']['same_state']['positive_reappears_same_pixel'])}，仅代表该子集。")
+    lines.append("""
+## 原版仿真器逐射线对照
+
+从已冻结的几何窗口中按输入筛选，要求全部像素距 TX 至少 65 米，至少 80% 的像素几何通视。使用固定版本 Sionna RT 1.1.0 的 CPU 后端。保留原接收面、同一候选地形、相同 TX 与材料，对标称 40 亿发射方向只枚举覆盖各目标单元的角区，允许先与别的接收面相交。比较标称方向与整体转动 +0.013、−0.017 弧度。每五块地形另扩大发射角区以检查截断。后处理的“直达加其他功率”只在通视点使用，用 C92 总功率减去单位归一化的连续直达项来近似其他功率，再换入逐射线直达项。这是另一项明确的近似。
+
+| 输入选出的通视窗口 | 415 MHz | 5.775 GHz |
+|---|---:|---:|""")
+    row('有效像素 / 主判据漏点',[f"{e['valid']:,} / {e['events']:,}" for e in ex])
+    row('标称方向的弱点排序 AP',[f"{e['phases'][0]['AP']:.3f}" for e in ex])
+    row('两个转偏方向的弱点排序 AP',[f"{e['phases'][1]['AP']:.3f} / {e['phases'][2]['AP']:.3f}" for e in ex])
+    row('标称相对两个转偏方向均值的 AP 差及按地形重采样的 95% 区间',[f"{e['nominal_vs_mean_wrong_AP']:+.3f} [{e['nominal_vs_mean_wrong_AP95'][0]:+.3f}, {e['nominal_vs_mean_wrong_AP95'][1]:+.3f}]" for e in ex])
+    row('只按标称直达下降超过 3 dB 报警，精确率 / 召回率',[f"{pct(e['phases'][0]['precision'])} / {pct(e['phases'][0]['recall'])}" for e in ex])
+    row('换入逐射线直达项后的纯物理 RMSE',[f"{e['phases'][0]['standalone_direct_plus_extra_RMSE']:.3f} dB" for e in ex])
+    row('同窗口 C92 / C82 的 RMSE',[f"{e['phases'][0]['C92_reference_RMSE']:.3f} / {e['phases'][0]['C82_reference_RMSE']:.3f} dB" for e in ex])
+    lines.append(f"\n共 {exact['terrains']} 块地形、{exact['windows']} 个窗口。扩大角区检查涉及 {qa['padded_maps']} 块地形、{qa['tested_points']} 个位置，最大接收面命中权重差为 {qa['max_hit_fraction_change']:.5f}。几何配准使用 CC 的候选网格。这个实验不能确定比赛的原始三角网格、真实 TX 高度或插值权重。")
+    if all(e['nominal_vs_mean_wrong_AP95'][0]<=0<=e['nominal_vs_mean_wrong_AP95'][1] for e in ex):
+        lines.append('两个频段的配对区间均跨零。在这些窗口上，标称发射方向没有显示出可复现的米级定位优势。')
+    elif all(e['nominal_vs_mean_wrong_AP95'][0]>0 for e in ex):
+        lines.append('这批通视窗口上，标称方向的排序优于转偏对照。该结果只说明它贡献了局部定位信息，仍须与全图定位和功率门槛区分。')
+    else:
+        lines.append('标称与转偏的差异未在两个频段上同时表现为有把握的正向提升。')
+    lines.append("""
+## 训练决定与复核入口
+
+预先设定的启动条件要求两个频段的定位精确率、召回率都至少为 30%，真漏点的估计 MAE 较 C82 至少降低 1 dB，并且在所有有效位置计入误报后，两频段 RMSE 各改善至少 0.08 dB。现有方法改善了在已知漏点条件下的功率估计，但精确率和端到端 RMSE 未通过。因此不扩训这一组方法，也没有新的官方计分或网站提交。下一项有判别力的核查是同一块训练地形的原始接收面命中与插值前功率，它能够区分能量漏收和栅格错配。本次试验仍不能判断其他只用地形和 TX 的方法能否达到 1 dB。
+
+逐像素清单包括 9,776 个“位置×频段”主判据条目和 7,736 个严格通视条目，重合 2,606 条，去重后 14,906 条。两个标志列可以分别筛选。5 dB 差列正值表示实际信号更弱。清单还保留原模型预测、邻域凹点深度、两套判据各自的报警和功率估计，以及主判据的积分种子稳定性。
+
+复现实验的服务器目录为 `/home/chenzhe/work/lunar-pathloss-rm-challenge/CC`。协议、冻结的阈值、逐地形指标和结果文件校验值位于 `audit/c93_joint_miss/`。重点文件为 `confirm_inventory.json`、`density_confirm_scores.json`、`strict_confirm_scores.json`、`density_patch_scores.json`、`seed_stability.json`、`direct_budget.json` 及 `exact_result.json`。
+""")
+    dest=R/'results/C93共同漏点定位与功率盲测_20261103.md';dest.write_text('\n'.join(lines).lstrip())
+    print(dest,hashlib.sha256(dest.read_bytes()).hexdigest())
+if __name__=='__main__':main()

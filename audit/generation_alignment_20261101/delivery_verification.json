@@ -1,0 +1,9 @@
+{
+  "finished_utc": "2026-10-31T16:53:19.218865+00:00",
+  "report": "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/results/\u5b98\u65b9\u751f\u6210\u6d41\u7a0b\u4e0e\u7ec6\u5c3a\u5ea6\u5bf9\u5e94\u6838\u67e5_20261101.md",
+  "report_sha256": "064cbdbd6083c5e3c3be8b5da4a91fa179af4ac91f2b0483290a7282f28515e7",
+  "report_absolute_local_links_checked": 6,
+  "missing_links": [],
+  "current_cc_python_or_controller_processes_excluding_self": [],
+  "scope": "Only this user and CC cwd; no processes modified. Python commands of this audit were CPU-only."
+}

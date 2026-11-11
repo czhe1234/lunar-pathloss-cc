@@ -1,0 +1,936 @@
+{
+  "scope": "frozen TRAIN FIT points selected for diagnosis; no model fit or validation score",
+  "power_reference": "archived C141 LLVM replay; paired traces are produced in C142",
+  "freq_hz": [
+    415000000.0,
+    5775000000.0
+  ],
+  "direct_conflict_margin_dB": 1.0,
+  "complete_cuda_panel": false,
+  "maps_missing_cuda": [
+    2003,
+    3970,
+    1551,
+    452,
+    503,
+    2592,
+    1649,
+    1095,
+    2539
+  ],
+  "maps_missing_paired_trace": [],
+  "paired_trace_rays": 571,
+  "paired_trace_changes": {
+    "receiver_order": 0,
+    "terminal_event": 0,
+    "ground_hit_status": 0,
+    "first_ground_face_among_both": 0,
+    "both_ground_hits": 336,
+    "llvm_unfinished": 0,
+    "cuda_unfinished": 0
+  },
+  "groups": {
+    "remaining_counterexamples": {
+      "points": 3,
+      "direct_bounds": {
+        "power_interpolation": {
+          "points": 3,
+          "llvm_finite": [
+            3,
+            3
+          ],
+          "cuda_finite": [
+            3,
+            3
+          ],
+          "llvm_positive_to_cuda_zero": [
+            0,
+            0
+          ],
+          "llvm_zero_to_cuda_positive": [
+            0,
+            0
+          ],
+          "llvm_over_1dB": [
+            3,
+            3
+          ],
+          "cuda_over_1dB": [
+            3,
+            3
+          ],
+          "llvm_over_1dB_both": 3,
+          "cuda_over_1dB_both": 3,
+          "cuda_over_1dB_either": 3,
+          "llvm_conflicts_resolved_with_finite_cuda_power": [
+            0,
+            0
+          ],
+          "llvm_conflicts_with_zero_cuda_power": [
+            0,
+            0
+          ]
+        },
+        "db_interpolation": {
+          "points": 3,
+          "llvm_finite": [
+            3,
+            3
+          ],
+          "cuda_finite": [
+            3,
+            3
+          ],
+          "llvm_positive_to_cuda_zero": [
+            0,
+            0
+          ],
+          "llvm_zero_to_cuda_positive": [
+            0,
+            0
+          ],
+          "llvm_over_1dB": [
+            3,
+            3
+          ],
+          "cuda_over_1dB": [
+            3,
+            3
+          ],
+          "llvm_over_1dB_both": 3,
+          "cuda_over_1dB_both": 3,
+          "cuda_over_1dB_either": 3,
+          "llvm_conflicts_resolved_with_finite_cuda_power": [
+            0,
+            0
+          ],
+          "llvm_conflicts_with_zero_cuda_power": [
+            0,
+            0
+          ]
+        },
+        "weakest_donor": {
+          "points": 3,
+          "llvm_finite": [
+            3,
+            3
+          ],
+          "cuda_finite": [
+            3,
+            3
+          ],
+          "llvm_positive_to_cuda_zero": [
+            0,
+            0
+          ],
+          "llvm_zero_to_cuda_positive": [
+            0,
+            0
+          ],
+          "llvm_over_1dB": [
+            3,
+            3
+          ],
+          "cuda_over_1dB": [
+            3,
+            3
+          ],
+          "llvm_over_1dB_both": 3,
+          "cuda_over_1dB_both": 3,
+          "cuda_over_1dB_either": 3,
+          "llvm_conflicts_resolved_with_finite_cuda_power": [
+            0,
+            0
+          ],
+          "llvm_conflicts_with_zero_cuda_power": [
+            0,
+            0
+          ]
+        }
+      },
+      "total_power": {
+        "power_interpolation": {
+          "points": 3,
+          "llvm_common_support": {
+            "RMSE_dB": [
+              14.884649797698838,
+              16.57393231565222
+            ],
+            "MAE_dB": [
+              14.664682548224008,
+              16.346814438600862
+            ],
+            "n": [
+              3,
+              3
+            ]
+          },
+          "cuda_common_support": {
+            "RMSE_dB": [
+              14.884650238765245,
+              16.573932736079943
+            ],
+            "MAE_dB": [
+              14.664683010215223,
+              16.346814899304164
+            ],
+            "n": [
+              3,
+              3
+            ]
+          },
+          "llvm_finite_support": {
+            "RMSE_dB": [
+              14.884649797698838,
+              16.57393231565222
+            ],
+            "MAE_dB": [
+              14.664682548224008,
+              16.346814438600862
+            ],
+            "n": [
+              3,
+              3
+            ]
+          },
+          "cuda_finite_support": {
+            "RMSE_dB": [
+              14.884650238765245,
+              16.573932736079943
+            ],
+            "MAE_dB": [
+              14.664683010215223,
+              16.346814899304164
+            ],
+            "n": [
+              3,
+              3
+            ]
+          },
+          "llvm_nonfinite": [
+            0,
+            0
+          ],
+          "cuda_nonfinite": [
+            0,
+            0
+          ],
+          "C82_common_support": {
+            "RMSE_dB": [
+              11.930028667161594,
+              13.187860358244675
+            ],
+            "MAE_dB": [
+              11.02190907796224,
+              12.705370585123697
+            ],
+            "n": [
+              3,
+              3
+            ]
+          }
+        },
+        "db_interpolation": {
+          "points": 3,
+          "llvm_common_support": {
+            "RMSE_dB": [
+              14.596051186939567,
+              16.28779066543125
+            ],
+            "MAE_dB": [
+              14.274219264739225,
+              15.956139955578246
+            ],
+            "n": [
+              3,
+              3
+            ]
+          },
+          "cuda_common_support": {
+            "RMSE_dB": [
+              14.596051523826683,
+              16.28779098301217
+            ],
+            "MAE_dB": [
+              14.274219594580297,
+              15.95614028372188
+            ],
+            "n": [
+              3,
+              3
+            ]
+          },
+          "llvm_finite_support": {
+            "RMSE_dB": [
+              14.596051186939567,
+              16.28779066543125
+            ],
+            "MAE_dB": [
+              14.274219264739225,
+              15.956139955578246
+            ],
+            "n": [
+              3,
+              3
+            ]
+          },
+          "cuda_finite_support": {
+            "RMSE_dB": [
+              14.596051523826683,
+              16.28779098301217
+            ],
+            "MAE_dB": [
+              14.274219594580297,
+              15.95614028372188
+            ],
+            "n": [
+              3,
+              3
+            ]
+          },
+          "llvm_nonfinite": [
+            0,
+            0
+          ],
+          "cuda_nonfinite": [
+            0,
+            0
+          ],
+          "C82_common_support": {
+            "RMSE_dB": [
+              11.930028667161594,
+              13.187860358244675
+            ],
+            "MAE_dB": [
+              11.02190907796224,
+              12.705370585123697
+            ],
+            "n": [
+              3,
+              3
+            ]
+          }
+        }
+      }
+    },
+    "ordinary_controls": {
+      "points": 8,
+      "direct_bounds": {
+        "power_interpolation": {
+          "points": 8,
+          "llvm_finite": [
+            8,
+            8
+          ],
+          "cuda_finite": [
+            8,
+            8
+          ],
+          "llvm_positive_to_cuda_zero": [
+            0,
+            0
+          ],
+          "llvm_zero_to_cuda_positive": [
+            0,
+            0
+          ],
+          "llvm_over_1dB": [
+            0,
+            0
+          ],
+          "cuda_over_1dB": [
+            0,
+            0
+          ],
+          "llvm_over_1dB_both": 0,
+          "cuda_over_1dB_both": 0,
+          "cuda_over_1dB_either": 0,
+          "llvm_conflicts_resolved_with_finite_cuda_power": [
+            0,
+            0
+          ],
+          "llvm_conflicts_with_zero_cuda_power": [
+            0,
+            0
+          ]
+        },
+        "db_interpolation": {
+          "points": 8,
+          "llvm_finite": [
+            8,
+            8
+          ],
+          "cuda_finite": [
+            8,
+            8
+          ],
+          "llvm_positive_to_cuda_zero": [
+            0,
+            0
+          ],
+          "llvm_zero_to_cuda_positive": [
+            0,
+            0
+          ],
+          "llvm_over_1dB": [
+            0,
+            0
+          ],
+          "cuda_over_1dB": [
+            0,
+            0
+          ],
+          "llvm_over_1dB_both": 0,
+          "cuda_over_1dB_both": 0,
+          "cuda_over_1dB_either": 0,
+          "llvm_conflicts_resolved_with_finite_cuda_power": [
+            0,
+            0
+          ],
+          "llvm_conflicts_with_zero_cuda_power": [
+            0,
+            0
+          ]
+        },
+        "weakest_donor": {
+          "points": 8,
+          "llvm_finite": [
+            8,
+            8
+          ],
+          "cuda_finite": [
+            8,
+            8
+          ],
+          "llvm_positive_to_cuda_zero": [
+            0,
+            0
+          ],
+          "llvm_zero_to_cuda_positive": [
+            0,
+            0
+          ],
+          "llvm_over_1dB": [
+            0,
+            0
+          ],
+          "cuda_over_1dB": [
+            0,
+            0
+          ],
+          "llvm_over_1dB_both": 0,
+          "cuda_over_1dB_both": 0,
+          "cuda_over_1dB_either": 0,
+          "llvm_conflicts_resolved_with_finite_cuda_power": [
+            0,
+            0
+          ],
+          "llvm_conflicts_with_zero_cuda_power": [
+            0,
+            0
+          ]
+        }
+      },
+      "total_power": {
+        "power_interpolation": {
+          "points": 8,
+          "llvm_common_support": {
+            "RMSE_dB": [
+              0.3899675742008924,
+              0.5700253680399959
+            ],
+            "MAE_dB": [
+              0.30743290266699574,
+              0.4653947146615405
+            ],
+            "n": [
+              8,
+              8
+            ]
+          },
+          "cuda_common_support": {
+            "RMSE_dB": [
+              0.3899672760146664,
+              0.5700251050066129
+            ],
+            "MAE_dB": [
+              0.307432870493078,
+              0.4653946798810651
+            ],
+            "n": [
+              8,
+              8
+            ]
+          },
+          "llvm_finite_support": {
+            "RMSE_dB": [
+              0.3899675742008924,
+              0.5700253680399959
+            ],
+            "MAE_dB": [
+              0.30743290266699574,
+              0.4653947146615405
+            ],
+            "n": [
+              8,
+              8
+            ]
+          },
+          "cuda_finite_support": {
+            "RMSE_dB": [
+              0.3899672760146664,
+              0.5700251050066129
+            ],
+            "MAE_dB": [
+              0.307432870493078,
+              0.4653946798810651
+            ],
+            "n": [
+              8,
+              8
+            ]
+          },
+          "llvm_nonfinite": [
+            0,
+            0
+          ],
+          "cuda_nonfinite": [
+            0,
+            0
+          ],
+          "C82_common_support": {
+            "RMSE_dB": [
+              0.31663784267379497,
+              0.4663193397117
+            ],
+            "MAE_dB": [
+              0.24192428588867188,
+              0.34701061248779297
+            ],
+            "n": [
+              8,
+              8
+            ]
+          }
+        },
+        "db_interpolation": {
+          "points": 8,
+          "llvm_common_support": {
+            "RMSE_dB": [
+              0.39323398599845666,
+              0.5777331172456078
+            ],
+            "MAE_dB": [
+              0.3111404987863571,
+              0.4734929607494358
+            ],
+            "n": [
+              8,
+              8
+            ]
+          },
+          "cuda_common_support": {
+            "RMSE_dB": [
+              0.3932336907984086,
+              0.5777328554825893
+            ],
+            "MAE_dB": [
+              0.31114045550998526,
+              0.47349290990641
+            ],
+            "n": [
+              8,
+              8
+            ]
+          },
+          "llvm_finite_support": {
+            "RMSE_dB": [
+              0.39323398599845666,
+              0.5777331172456078
+            ],
+            "MAE_dB": [
+              0.3111404987863571,
+              0.4734929607494358
+            ],
+            "n": [
+              8,
+              8
+            ]
+          },
+          "cuda_finite_support": {
+            "RMSE_dB": [
+              0.3932336907984086,
+              0.5777328554825893
+            ],
+            "MAE_dB": [
+              0.31114045550998526,
+              0.47349290990641
+            ],
+            "n": [
+              8,
+              8
+            ]
+          },
+          "llvm_nonfinite": [
+            0,
+            0
+          ],
+          "cuda_nonfinite": [
+            0,
+            0
+          ],
+          "C82_common_support": {
+            "RMSE_dB": [
+              0.31663784267379497,
+              0.4663193397117
+            ],
+            "MAE_dB": [
+              0.24192428588867188,
+              0.34701061248779297
+            ],
+            "n": [
+              8,
+              8
+            ]
+          }
+        }
+      }
+    }
+  },
+  "map_evidence": [
+    {
+      "map": 1819,
+      "frozen_pixels": 16,
+      "input_manifest_sha256": "bbda6778e9e5a928ad98a869ef9e3dc275a105fb018fa226b00e47ad8a1c46ee",
+      "cuda_uuid": "GPU-70b6fceb-c7c4-9467-3c81-097c9284c160",
+      "global_direction_ids_replayed": 7430870,
+      "cuda_native_launch_direction_differences": 503934,
+      "cuda_native_launch_max_absolute_difference": 5.960464477539063e-08,
+      "archived_llvm_positive_weight_donors": 42,
+      "cuda_positive_weight_donors": 42,
+      "llvm_positive_to_cuda_zero_donors": 0,
+      "llvm_zero_to_cuda_positive_donors": 0,
+      "common_positive_weight_donor_absolute_shift_dB": {
+        "n": 42,
+        "q50_q90_q99_max": [
+          6.910768881596141e-07,
+          1.8708010912860117e-06,
+          3.466922205674898e-06,
+          4.256969496907459e-06
+        ]
+      },
+      "fresh_llvm_vs_archived_donors": {
+        "donor_support_disagreements": 0,
+        "positive_weight_common_donor_absolute_shift_dB": {
+          "n": 42,
+          "q50_q90_q99_max": [
+            0.0,
+            4.0763969693102804e-07,
+            9.205990965455153e-07,
+            9.686910757977785e-07
+          ]
+        }
+      },
+      "paired_trace": {
+        "trace_rays": 571,
+        "changed": {
+          "receiver_order": 0,
+          "terminal_event": 0,
+          "ground_hit_status": 0,
+          "first_ground_face_among_both": 0,
+          "both_ground_hits": 336,
+          "llvm_unfinished": 0,
+          "cuda_unfinished": 0
+        },
+        "coordinate_deltas": {
+          "rx_intersection": {
+            "n": 1400,
+            "q50_q90_q99_max": [
+              8.54324025567621e-06,
+              6.151033012429253e-05,
+              0.00022225290682399639,
+              0.000840524211525917
+            ],
+            "nonfinite_comparisons": 0,
+            "unit": "m"
+          },
+          "rx_advance_origin": {
+            "n": 1400,
+            "q50_q90_q99_max": [
+              8.54324025567621e-06,
+              6.151033012429253e-05,
+              0.00022225290682399639,
+              0.000840524211525917
+            ],
+            "nonfinite_comparisons": 0,
+            "unit": "m"
+          },
+          "rx_advance_direction": {
+            "n": 1400,
+            "q50_q90_q99_max": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "nonfinite_comparisons": 0,
+            "unit": "dimensionless"
+          },
+          "rx_incidence_cosine": {
+            "n": 1400,
+            "q50_q90_q99_max": [
+              0.0,
+              7.450580596923828e-09,
+              1.4901161193847656e-08,
+              2.9802322387695312e-08
+            ],
+            "nonfinite_comparisons": 0,
+            "unit": "dimensionless"
+          },
+          "ground_intersection_among_both": {
+            "n": 336,
+            "q50_q90_q99_max": [
+              1.160194915428292e-05,
+              3.591080348996911e-05,
+              6.987282358750235e-05,
+              9.778882667887956e-05
+            ],
+            "nonfinite_comparisons": 0,
+            "unit": "m"
+          }
+        },
+        "first_changed_trajectories": []
+      }
+    }
+  ],
+  "case_evidence": [
+    {
+      "map": 1819,
+      "pixel": 5926,
+      "row": 23,
+      "col": 38,
+      "sample_id": "00414_00",
+      "group": "shared_miss",
+      "label_dB": [
+        88.125,
+        110.6875
+      ],
+      "C82_dB": [
+        70.6721420288086,
+        93.5374526977539
+      ],
+      "donor_ids": [
+        70673,
+        5902,
+        5903
+      ],
+      "donor_weights": [
+        0.09020336509963066,
+        0.4026126456516609,
+        0.5071839892487084
+      ],
+      "llvm_donor_normalized_power": [
+        2.6770080420208554e-05,
+        2.6406008436167212e-05,
+        2.6567923890042166e-05
+      ],
+      "cuda_donor_normalized_power": [
+        2.6770080420208554e-05,
+        2.6406008436167212e-05,
+        2.6567930495241535e-05
+      ],
+      "llvm_weakest_direct_dB": [
+        70.59171757917912,
+        93.46179541622091
+      ],
+      "cuda_weakest_direct_dB": [
+        70.59171757917912,
+        93.46179541622091
+      ],
+      "cuda_weakest_direct_support": [
+        true,
+        true
+      ],
+      "cuda_minus_llvm_weakest_direct_dB": [
+        0.0,
+        0.0
+      ],
+      "llvm_attenuation_needed_to_1dB_margin_dB": [
+        16.533282420820882,
+        16.22570458377909
+      ],
+      "cuda_attenuation_needed_to_1dB_margin_dB": [
+        16.533282420820882,
+        16.22570458377909
+      ],
+      "llvm_power_interpolation_total_dB": [
+        70.42462990861048,
+        93.26206905544701
+      ],
+      "cuda_power_interpolation_total_dB": [
+        70.4246293784294,
+        93.26206852923548
+      ],
+      "llvm_db_interpolation_total_dB": [
+        70.42516024550025,
+        93.26279344383269
+      ],
+      "cuda_db_interpolation_total_dB": [
+        70.42515972328617,
+        93.26279292675645
+      ]
+    },
+    {
+      "map": 1819,
+      "pixel": 50681,
+      "row": 197,
+      "col": 249,
+      "sample_id": "00414_00",
+      "group": "shared_miss",
+      "label_dB": [
+        82.0,
+        109.0625
+      ],
+      "C82_dB": [
+        73.69674682617188,
+        96.59869384765625
+      ],
+      "donor_ids": [
+        115253,
+        50483,
+        115254
+      ],
+      "donor_weights": [
+        0.49933918317145964,
+        0.22745200857234052,
+        0.27320880825619986
+      ],
+      "llvm_donor_normalized_power": [
+        5.8555444686931576e-05,
+        5.39045608826938e-05,
+        6.066528187296801e-05
+      ],
+      "cuda_donor_normalized_power": [
+        5.8555453493864075e-05,
+        5.39045608826938e-05,
+        6.066527306603551e-05
+      ],
+      "llvm_weakest_direct_dB": [
+        67.49249003071655,
+        90.36256786775834
+      ],
+      "cuda_weakest_direct_dB": [
+        67.49249003071655,
+        90.36256786775834
+      ],
+      "cuda_weakest_direct_support": [
+        true,
+        true
+      ],
+      "cuda_minus_llvm_weakest_direct_dB": [
+        0.0,
+        0.0
+      ],
+      "llvm_attenuation_needed_to_1dB_margin_dB": [
+        13.507509969283447,
+        17.699932132241656
+      ],
+      "cuda_attenuation_needed_to_1dB_margin_dB": [
+        13.507509969283447,
+        17.699932132241656
+      ],
+      "llvm_power_interpolation_total_dB": [
+        67.16844199003597,
+        90.03897531388853
+      ],
+      "cuda_power_interpolation_total_dB": [
+        67.16844184112128,
+        90.0389751649582
+      ],
+      "llvm_db_interpolation_total_dB": [
+        67.17233743166926,
+        90.04287191622183
+      ],
+      "cuda_db_interpolation_total_dB": [
+        67.17233727777231,
+        90.0428717623061
+      ]
+    },
+    {
+      "map": 1819,
+      "pixel": 50169,
+      "row": 195,
+      "col": 249,
+      "sample_id": "00414_00",
+      "group": "shared_miss",
+      "label_dB": [
+        81.375,
+        105.375
+      ],
+      "C82_dB": [
+        74.06538391113281,
+        96.87274169921875
+      ],
+      "donor_ids": [
+        114743,
+        49973,
+        114744
+      ],
+      "donor_weights": [
+        0.49411058395148155,
+        0.2352947881993525,
+        0.270594627849166
+      ],
+      "llvm_donor_normalized_power": [
+        1.114442888348645e-05,
+        6.119780625652686e-05,
+        4.051360681742079e-05
+      ],
+      "cuda_donor_normalized_power": [
+        1.114442888348645e-05,
+        6.119783267732434e-05,
+        4.051360241395455e-05
+      ],
+      "llvm_weakest_direct_dB": [
+        74.33816698436077,
+        97.20824482140256
+      ],
+      "cuda_weakest_direct_dB": [
+        74.33816698436077,
+        97.20824482140256
+      ],
+      "cuda_weakest_direct_support": [
+        true,
+        true
+      ],
+      "cuda_minus_llvm_weakest_direct_dB": [
+        0.0,
+        0.0
+      ],
+      "llvm_attenuation_needed_to_1dB_margin_dB": [
+        6.036833015639232,
+        7.166755178597441
+      ],
+      "cuda_attenuation_needed_to_1dB_margin_dB": [
+        6.036833015639232,
+        7.166755178597441
+      ],
+      "llvm_power_interpolation_total_dB": [
+        69.91288045668152,
+        92.78351231486187
+      ],
+      "cuda_power_interpolation_total_dB": [
+        69.91287974980365,
+        92.78351160789383
+      ],
+      "llvm_db_interpolation_total_dB": [
+        71.07984452861281,
+        93.95091477321074
+      ],
+      "cuda_db_interpolation_total_dB": [
+        71.07984421520062,
+        93.95091445977181
+      ]
+    }
+  ]
+}

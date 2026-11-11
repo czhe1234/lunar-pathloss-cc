@@ -1,0 +1,20 @@
+{
+  "question": "Does preserving continuous lateral terrain structure improve over lateral averaging with the same profile sequence network?",
+  "inputs": "Only C96 H/TX derived old296, strip672 and strip30 summaries; masks excluded from inputs.",
+  "ablation": "mean averages the six profiles at each position and repeats the mean; strip preserves six ordered profiles. Both retain identical30summaries.",
+  "fixed": "Identical architecture, initialization, FIT rows, weights, order RNG, updates, masks, normalization and monitor panel.",
+  "scope": "255328 points across5508FIT terrains;128monitor terrains;484confirmation terrains. SameC96/C82 dev panel, historically used in research.",
+  "budget": "CPU-only pilot; max1200 updates,batch chosen from throughput smoke before any monitor comparison; earlystop300updates/eval100.",
+  "selection": "Mean two-band monitorRMSE; includes zero residual. Freeze both choices before confirmation scoring.",
+  "promotion": "Both confirmation bandRMSE at least0.30dB below C82 with positive paired-terrain lower95CI.",
+  "no_expansion_without_gain": true,
+  "official_val_used": false,
+  "gpu_status": "All permitted GPUs1/3/4 cuInit999; /dev/nvidia-uvm open returnsEIO. No driver reset; no use of other GPUs.",
+  "selected_batch": 2048,
+  "throughput_smoke_seconds_per_step": {
+    "128": 0.039046216652625136,
+    "512": 0.14883151546948487,
+    "2048": 0.3729835324403312
+  },
+  "batch_choice": "2048 has highest measured samples/s, same batch for both controls; host CPU only."
+}

@@ -1,0 +1,350 @@
+{
+  "state": "completed",
+  "scope": "39 internalDEV multi-TX terrains, exact same heldout query TX/pixels compared under two support conditions; diagnostic only",
+  "statistics": {
+    "C10": {
+      "all": {
+        "415": {
+          "valid_pixels": 257349,
+          "RMSE": 3.004171076205101,
+          "SSE_reduction_percent_vs_C10": 0.0,
+          "terrain_bootstrap95": [
+            0.0,
+            0.0
+          ]
+        },
+        "58": {
+          "valid_pixels": 236971,
+          "RMSE": 3.452989443079223,
+          "SSE_reduction_percent_vs_C10": 0.0,
+          "terrain_bootstrap95": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "occluded_proxy": {
+        "415": {
+          "valid_pixels": 67835,
+          "RMSE": 4.842168975663593,
+          "SSE_reduction_percent_vs_C10": 0.0,
+          "terrain_bootstrap95": [
+            0.0,
+            0.0
+          ]
+        },
+        "58": {
+          "valid_pixels": 47455,
+          "RMSE": 6.448070312967248,
+          "SSE_reduction_percent_vs_C10": 0.0,
+          "terrain_bootstrap95": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "height_sensitive": {
+        "415": {
+          "valid_pixels": 20258,
+          "RMSE": 5.911147262431532,
+          "SSE_reduction_percent_vs_C10": 0.0,
+          "terrain_bootstrap95": [
+            0.0,
+            0.0
+          ]
+        },
+        "58": {
+          "valid_pixels": 19272,
+          "RMSE": 7.94867650238255,
+          "SSE_reduction_percent_vs_C10": 0.0,
+          "terrain_bootstrap95": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "nominal_blocked": {
+        "415": {
+          "valid_pixels": 47577,
+          "RMSE": 4.307211675551114,
+          "SSE_reduction_percent_vs_C10": 0.0,
+          "terrain_bootstrap95": [
+            0.0,
+            0.0
+          ]
+        },
+        "58": {
+          "valid_pixels": 28183,
+          "RMSE": 5.177310477612816,
+          "SSE_reduction_percent_vs_C10": 0.0,
+          "terrain_bootstrap95": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "same_terrain_other_TX_support": {
+      "all": {
+        "415": {
+          "valid_pixels": 257349,
+          "RMSE": 3.0276800211471246,
+          "SSE_reduction_percent_vs_C10": -1.5712107068143633,
+          "terrain_bootstrap95": [
+            -2.2038899615056926,
+            -0.8786397626051313
+          ]
+        },
+        "58": {
+          "valid_pixels": 236971,
+          "RMSE": 3.463458534391611,
+          "SSE_reduction_percent_vs_C10": -0.6072976510757222,
+          "terrain_bootstrap95": [
+            -2.1930343163200616,
+            1.3829009859450252
+          ]
+        }
+      },
+      "occluded_proxy": {
+        "415": {
+          "valid_pixels": 67835,
+          "RMSE": 4.892948545784282,
+          "SSE_reduction_percent_vs_C10": -2.108387035282022,
+          "terrain_bootstrap95": [
+            -2.8656067401792114,
+            -1.2058907777506112
+          ]
+        },
+        "58": {
+          "valid_pixels": 47455,
+          "RMSE": 6.4567895595712175,
+          "SSE_reduction_percent_vs_C10": -0.27062799799923987,
+          "terrain_bootstrap95": [
+            -2.266817479933728,
+            2.2265888140714503
+          ]
+        }
+      },
+      "height_sensitive": {
+        "415": {
+          "valid_pixels": 20258,
+          "RMSE": 5.960067298533616,
+          "SSE_reduction_percent_vs_C10": -1.662028113011682,
+          "terrain_bootstrap95": [
+            -3.0833638765941385,
+            -0.0044577836794113535
+          ]
+        },
+        "58": {
+          "valid_pixels": 19272,
+          "RMSE": 8.01492599708386,
+          "SSE_reduction_percent_vs_C10": -1.6738781128898594,
+          "terrain_bootstrap95": [
+            -4.195815827656691,
+            1.6063781549284508
+          ]
+        }
+      },
+      "nominal_blocked": {
+        "415": {
+          "valid_pixels": 47577,
+          "RMSE": 4.360003550599384,
+          "SSE_reduction_percent_vs_C10": -2.4663473326643315,
+          "terrain_bootstrap95": [
+            -3.060310994400721,
+            -1.7901301260099114
+          ]
+        },
+        "58": {
+          "valid_pixels": 28183,
+          "RMSE": 5.1255064987153345,
+          "SSE_reduction_percent_vs_C10": 1.9911807400083914,
+          "terrain_bootstrap95": [
+            -0.22895450196289857,
+            4.378620416405319
+          ]
+        }
+      }
+    },
+    "different_terrain_support": {
+      "all": {
+        "415": {
+          "valid_pixels": 257349,
+          "RMSE": 3.0230074075207614,
+          "SSE_reduction_percent_vs_C10": -1.2579432592322748,
+          "terrain_bootstrap95": [
+            -2.1257435056756124,
+            -0.5485940612289065
+          ]
+        },
+        "58": {
+          "valid_pixels": 236971,
+          "RMSE": 3.506210493609763,
+          "SSE_reduction_percent_vs_C10": -3.106363364153175,
+          "terrain_bootstrap95": [
+            -4.6791848313707955,
+            -1.3295239754284944
+          ]
+        }
+      },
+      "occluded_proxy": {
+        "415": {
+          "valid_pixels": 67835,
+          "RMSE": 4.872563173610019,
+          "SSE_reduction_percent_vs_C10": -1.2593360531771625,
+          "terrain_bootstrap95": [
+            -2.2007247016514087,
+            -0.3952372971326412
+          ]
+        },
+        "58": {
+          "valid_pixels": 47455,
+          "RMSE": 6.573748446188261,
+          "SSE_reduction_percent_vs_C10": -3.9361517962194004,
+          "terrain_bootstrap95": [
+            -6.1360424807608585,
+            -1.4364162631334205
+          ]
+        }
+      },
+      "height_sensitive": {
+        "415": {
+          "valid_pixels": 20258,
+          "RMSE": 5.925807450871097,
+          "SSE_reduction_percent_vs_C10": -0.49663346538990627,
+          "terrain_bootstrap95": [
+            -2.0056342661357927,
+            1.0336287550505265
+          ]
+        },
+        "58": {
+          "valid_pixels": 19272,
+          "RMSE": 8.058949602431541,
+          "SSE_reduction_percent_vs_C10": -2.793874353302783,
+          "terrain_bootstrap95": [
+            -5.627105393659723,
+            0.16057002634188122
+          ]
+        }
+      },
+      "nominal_blocked": {
+        "415": {
+          "valid_pixels": 47577,
+          "RMSE": 4.347318697536515,
+          "SSE_reduction_percent_vs_C10": -1.8709901089535297,
+          "terrain_bootstrap95": [
+            -2.6461941626592296,
+            -1.2217172831394008
+          ]
+        },
+        "58": {
+          "valid_pixels": 28183,
+          "RMSE": 5.324765424827932,
+          "SSE_reduction_percent_vs_C10": -5.777315444953013,
+          "terrain_bootstrap95": [
+            -8.731140695055458,
+            -3.346637695437461
+          ]
+        }
+      }
+    }
+  },
+  "same_vs_other_terrain_support": {
+    "all": {
+      "415": {
+        "SSE_reduction_same_vs_other_percent": -0.30937567710622726,
+        "terrain_bootstrap95": [
+          -1.4727590613804524,
+          1.1245540063254074
+        ]
+      },
+      "58": {
+        "SSE_reduction_same_vs_other_percent": 2.42377447088421,
+        "terrain_bootstrap95": [
+          -0.4136634617324291,
+          5.319462705697439
+        ]
+      }
+    },
+    "occluded_proxy": {
+      "415": {
+        "SSE_reduction_same_vs_other_percent": -0.8384915556418182,
+        "terrain_bootstrap95": [
+          -2.1587360209227775,
+          0.7936675045105348
+        ]
+      },
+      "58": {
+        "SSE_reduction_same_vs_other_percent": 3.5267072475483885,
+        "terrain_bootstrap95": [
+          -0.39982726505382926,
+          7.327882873272798
+        ]
+      }
+    },
+    "height_sensitive": {
+      "415": {
+        "SSE_reduction_same_vs_other_percent": -1.1596355096045174,
+        "terrain_bootstrap95": [
+          -3.5869554568466806,
+          1.5819898320847263
+        ]
+      },
+      "58": {
+        "SSE_reduction_same_vs_other_percent": 1.089555430670397,
+        "terrain_bootstrap95": [
+          -3.5885984285899784,
+          6.117333737016891
+        ]
+      }
+    },
+    "nominal_blocked": {
+      "415": {
+        "SSE_reduction_same_vs_other_percent": -0.5844227321969209,
+        "terrain_bootstrap95": [
+          -1.5073946951333428,
+          0.5467779049074711
+        ]
+      },
+      "58": {
+        "SSE_reduction_same_vs_other_percent": 7.344198661388946,
+        "terrain_bootstrap95": [
+          3.3700592200398227,
+          11.212565128195346
+        ]
+      }
+    }
+  },
+  "scene_conditioned_learnability_supported": {
+    "415": false,
+    "58": false
+  },
+  "fit_stats": {
+    "0": {
+      "415": {
+        "support_valid": 120636,
+        "support_RMSE": 2.641737790764504
+      },
+      "58": {
+        "support_valid": 110947,
+        "support_RMSE": 2.793213462133345
+      }
+    },
+    "1": {
+      "415": {
+        "support_valid": 120722,
+        "support_RMSE": 2.4894051068470024
+      },
+      "58": {
+        "support_valid": 112293,
+        "support_RMSE": 2.7436114841639587
+      }
+    }
+  },
+  "seconds": 35.714670181274414,
+  "limitations": [
+    "Same-terrain labels are unavailable for a novel competition terrain. These scores are not deployable or official.",
+    "A hidden fixed per-terrain parameter can also be learned from same-terrain support labels; positive transfer is not proof that raw H is sufficient.",
+    "This follow-up was chosen after the main residual-probe result; it is exploratory, with fixed architecture and no query-based model selection."
+  ]
+}

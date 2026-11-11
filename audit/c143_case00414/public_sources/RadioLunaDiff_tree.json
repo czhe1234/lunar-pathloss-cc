@@ -1,0 +1,344 @@
+{
+  "sha": "b7014f26ae43f1379097a5c2c069725c12aed410",
+  "url": "https://api.github.com/repos/anderspearson206/RadioLunaDiff/git/trees/b7014f26ae43f1379097a5c2c069725c12aed410",
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18fe09ce74ee7436b814341595015d5272084ca5",
+      "size": 1066,
+      "url": "https://api.github.com/repos/anderspearson206/RadioLunaDiff/git/blobs/18fe09ce74ee7436b814341595015d5272084ca5"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09816bdf7f7e486d6341561e514c6413d7b17e4b",
+      "size": 1108,
+      "url": "https://api.github.com/repos/anderspearson206/RadioLunaDiff/git/blobs/09816bdf7f7e486d6341561e514c6413d7b17e4b"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79e1f356bd31c84069593b3c2b0f74f9fb0cf0c8",
+      "size": 3758,
+      "url": "https://api.github.com/repos/anderspearson206/RadioLunaDiff/git/blobs/79e1f356bd31c84069593b3c2b0f74f9fb0cf0c8"
+    },
+    {
+      "path": "dataset",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bf8c1adf409894782313cc60e5706ad3659d8fb5",
+      "url": "https://api.github.com/repos/anderspearson206/RadioLunaDiff/git/trees/bf8c1adf409894782313cc60e5706ad3659d8fb5"
+    },
+    {
+      "path": "dataset/refraction_loaders_mhz.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0ec4e2218329bd2af4ac137cb965fa1685d7292",
+      "size": 41387,
+      "url": "https://api.github.com/repos/anderspearson206/RadioLunaDiff/git/blobs/f0ec4e2218329bd2af4ac137cb965fa1685d7292"
+    },
+    {
+      "path": "images",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2f44f320d298b83329e0cc8edbce5d7d3b2b83bf",
+      "url": "https://api.github.com/repos/anderspearson206/RadioLunaDiff/git/trees/2f44f320d298b83329e0cc8edbce5d7d3b2b83bf"
+    },
+    {
+      "path": "images/00_ground_truth_radiomap.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c603ecd61c8e87b53e29b4c05b876fb74638747",
+      "size": 54806,
+      "url": "https://api.github.com/repos/anderspearson206/RadioLunaDiff/git/blobs/0c603ecd61c8e87b53e29b4c05b876fb74638747"
+    },
+    {
+      "path": "images/01_ground_truth_radiomap.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff8a24f0fea0ed88408fd749e58f2e49deb0502c",
+      "size": 54341,
+      "url": "https://api.github.com/repos/anderspearson206/RadioLunaDiff/git/blobs/ff8a24f0fea0ed88408fd749e58f2e49deb0502c"
+    },
+    {
+      "path": "images/01_input_filtered_terrain.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27fd58ae667ab20245dc9ee751315b12b32db51a",
+      "size": 53073,
+      "url": "https://api.github.com/repos/anderspearson206/RadioLunaDiff/git/blobs/27fd58ae667ab20245dc9ee751315b12b32db51a"
+    },
+    {
+      "path": "images/01_input_terrain.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a31771fc1142e297c59ea998f8c1c3c603b480c",
+      "size": 32008,
+      "url": "https://api.github.com/repos/anderspearson206/RadioLunaDiff/git/blobs/3a31771fc1142e297c59ea998f8c1c3c603b480c"
+    },
+    {
+      "path": "images/02_final_predicted_radiomap.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bea4db6b892c7be6c456d146a7e1a71a130c95fc",
+      "size": 27270,
+      "url": "https://api.github.com/repos/anderspearson206/RadioLunaDiff/git/blobs/bea4db6b892c7be6c456d146a7e1a71a130c95fc"
+    },
+    {
+      "path": "images/02_ground_truth_radiomap.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3374d257457f018cd5da739ecf4250da8168f72",
+      "size": 42994,
+      "url": "https://api.github.com/repos/anderspearson206/RadioLunaDiff/git/blobs/a3374d257457f018cd5da739ecf4250da8168f72"
+    },
+    {
+      "path": "images/02_input_filtered_terrain.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "107c6177e51ec87724ed532abf28ab970d6aab68",
+      "size": 43908,
+      "url": "https://api.github.com/repos/anderspearson206/RadioLunaDiff/git/blobs/107c6177e51ec87724ed532abf28ab970d6aab68"
+    },
+    {
+      "path": "images/02_input_terrain.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78af8f744bd2c5e9acb83a3d56bd7fd83d952379",
+      "size": 33462,
+      "url": "https://api.github.com/repos/anderspearson206/RadioLunaDiff/git/blobs/78af8f744bd2c5e9acb83a3d56bd7fd83d952379"
+    },
+    {
+      "path": "images/02_input_tx_map.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "215a50dcb5c20b50ba5465e8e25851c7aa7d66ec",
+      "size": 1226,
+      "url": "https://api.github.com/repos/anderspearson206/RadioLunaDiff/git/blobs/215a50dcb5c20b50ba5465e8e25851c7aa7d66ec"
+    },
+    {
+      "path": "images/02_pmnet_radiomap.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3b4c5935ca0d7c2eb642f233e4074804bad687e",
+      "size": 24677,
+      "url": "https://api.github.com/repos/anderspearson206/RadioLunaDiff/git/blobs/b3b4c5935ca0d7c2eb642f233e4074804bad687e"
+    },
+    {
+      "path": "images/02_predicted_k2_map.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41b51d613f89d12d8861d66291033a582a32b2d1",
+      "size": 90900,
+      "url": "https://api.github.com/repos/anderspearson206/RadioLunaDiff/git/blobs/41b51d613f89d12d8861d66291033a582a32b2d1"
+    },
+    {
+      "path": "images/02_predicted_residual.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f74d6e664bdf6022e5e9fc4f017784dc15ef34a6",
+      "size": 36764,
+      "url": "https://api.github.com/repos/anderspearson206/RadioLunaDiff/git/blobs/f74d6e664bdf6022e5e9fc4f017784dc15ef34a6"
+    },
+    {
+      "path": "images/03_final_predicted_radiomap.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97340f9e3969915481ce30a3af84748af023826b",
+      "size": 28121,
+      "url": "https://api.github.com/repos/anderspearson206/RadioLunaDiff/git/blobs/97340f9e3969915481ce30a3af84748af023826b"
+    },
+    {
+      "path": "images/03_ground_truth_radiomap.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c38b1bd9efd3fa8234cc3f6a81230c1acd0748a1",
+      "size": 40034,
+      "url": "https://api.github.com/repos/anderspearson206/RadioLunaDiff/git/blobs/c38b1bd9efd3fa8234cc3f6a81230c1acd0748a1"
+    },
+    {
+      "path": "images/03_pmnet_radiomap.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f62d8c2aacfaa1747a90138e4ae0aa0be358c1a5",
+      "size": 25771,
+      "url": "https://api.github.com/repos/anderspearson206/RadioLunaDiff/git/blobs/f62d8c2aacfaa1747a90138e4ae0aa0be358c1a5"
+    },
+    {
+      "path": "images/03_predicted_k2_map.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18a4409e19f1fa1f865b8b7a96bbecfd3bdd8ca0",
+      "size": 98581,
+      "url": "https://api.github.com/repos/anderspearson206/RadioLunaDiff/git/blobs/18a4409e19f1fa1f865b8b7a96bbecfd3bdd8ca0"
+    },
+    {
+      "path": "images/03_predicted_residual.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aaad6de326bbe46d7c625b22d99be5587158ae69",
+      "size": 34311,
+      "url": "https://api.github.com/repos/anderspearson206/RadioLunaDiff/git/blobs/aaad6de326bbe46d7c625b22d99be5587158ae69"
+    },
+    {
+      "path": "images/arch4.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ccd11b6f667c8dc42e5ec254ec81ad276c68fe2",
+      "size": 765016,
+      "url": "https://api.github.com/repos/anderspearson206/RadioLunaDiff/git/blobs/1ccd11b6f667c8dc42e5ec254ec81ad276c68fe2"
+    },
+    {
+      "path": "images/test_sample_visualization_650_415_residual.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8313b132dbf3393d4c61384c0f3c0eaf40a337c6",
+      "size": 994311,
+      "url": "https://api.github.com/repos/anderspearson206/RadioLunaDiff/git/blobs/8313b132dbf3393d4c61384c0f3c0eaf40a337c6"
+    },
+    {
+      "path": "images/test_sample_visualization_650_58_residual.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "849039e625b01875b389d5da2ddb678a2f78f993",
+      "size": 917303,
+      "url": "https://api.github.com/repos/anderspearson206/RadioLunaDiff/git/blobs/849039e625b01875b389d5da2ddb678a2f78f993"
+    },
+    {
+      "path": "images/test_sample_visualization_700_415_residual.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b082886f19a8c66d609ebb7720adb948a69504f3",
+      "size": 1030963,
+      "url": "https://api.github.com/repos/anderspearson206/RadioLunaDiff/git/blobs/b082886f19a8c66d609ebb7720adb948a69504f3"
+    },
+    {
+      "path": "k2net",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "43ad81e7fa881bdcf411a004ccfbec2c350a2b4d",
+      "url": "https://api.github.com/repos/anderspearson206/RadioLunaDiff/git/trees/43ad81e7fa881bdcf411a004ccfbec2c350a2b4d"
+    },
+    {
+      "path": "k2net/diff_modules.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c263c68c93f96349e006ce56462e1aec935a1ad",
+      "size": 3344,
+      "url": "https://api.github.com/repos/anderspearson206/RadioLunaDiff/git/blobs/7c263c68c93f96349e006ce56462e1aec935a1ad"
+    },
+    {
+      "path": "pmnet",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c4e07b09cb527935229739c463996ad63181ebcd",
+      "url": "https://api.github.com/repos/anderspearson206/RadioLunaDiff/git/trees/c4e07b09cb527935229739c463996ad63181ebcd"
+    },
+    {
+      "path": "pmnet/config",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b38ec108c99a86f046d51d51d51aa0e2b787f260",
+      "url": "https://api.github.com/repos/anderspearson206/RadioLunaDiff/git/trees/b38ec108c99a86f046d51d51d51aa0e2b787f260"
+    },
+    {
+      "path": "pmnet/config/config_lunar_pmnet_V3.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98438f57e7e5270b19ef8fa679ccfb62f57660db",
+      "size": 1216,
+      "url": "https://api.github.com/repos/anderspearson206/RadioLunaDiff/git/blobs/98438f57e7e5270b19ef8fa679ccfb62f57660db"
+    },
+    {
+      "path": "pmnet/eval",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "593761089eb60a6dcaffed61353b4f4f7809ffb9",
+      "url": "https://api.github.com/repos/anderspearson206/RadioLunaDiff/git/trees/593761089eb60a6dcaffed61353b4f4f7809ffb9"
+    },
+    {
+      "path": "pmnet/eval/eval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b078fa97285edf1ed02e668177bb5bae0f1215c",
+      "size": 3023,
+      "url": "https://api.github.com/repos/anderspearson206/RadioLunaDiff/git/blobs/5b078fa97285edf1ed02e668177bb5bae0f1215c"
+    },
+    {
+      "path": "pmnet/models",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6a7f675a27df02a501392e8fa01a1b794d413b0b",
+      "url": "https://api.github.com/repos/anderspearson206/RadioLunaDiff/git/trees/6a7f675a27df02a501392e8fa01a1b794d413b0b"
+    },
+    {
+      "path": "pmnet/models/pmnet_v3.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e836ad4307c1c21bcd1e38dbb3c367bb4a32db28",
+      "size": 7575,
+      "url": "https://api.github.com/repos/anderspearson206/RadioLunaDiff/git/blobs/e836ad4307c1c21bcd1e38dbb3c367bb4a32db28"
+    },
+    {
+      "path": "requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26f46ddb4b544814365cf510d2d953548216ef8b",
+      "size": 62,
+      "url": "https://api.github.com/repos/anderspearson206/RadioLunaDiff/git/blobs/26f46ddb4b544814365cf510d2d953548216ef8b"
+    },
+    {
+      "path": "test_first_UNet.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7836499185436b3c9ddccdb47191a83eddc0bcee",
+      "size": 4614,
+      "url": "https://api.github.com/repos/anderspearson206/RadioLunaDiff/git/blobs/7836499185436b3c9ddccdb47191a83eddc0bcee"
+    },
+    {
+      "path": "test_full_model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66b1ae94b791e66597e053908302750ad493fa81",
+      "size": 23377,
+      "url": "https://api.github.com/repos/anderspearson206/RadioLunaDiff/git/blobs/66b1ae94b791e66597e053908302750ad493fa81"
+    },
+    {
+      "path": "test_second_UNet.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1cb03f2ca97a16add8a5cdd651101a6867006c0b",
+      "size": 12051,
+      "url": "https://api.github.com/repos/anderspearson206/RadioLunaDiff/git/blobs/1cb03f2ca97a16add8a5cdd651101a6867006c0b"
+    },
+    {
+      "path": "train_first_UNet.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e12196861896acb0e596a35d51aa495baa24c623",
+      "size": 6555,
+      "url": "https://api.github.com/repos/anderspearson206/RadioLunaDiff/git/blobs/e12196861896acb0e596a35d51aa495baa24c623"
+    },
+    {
+      "path": "train_residual_diffusion.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "357e4d51ee35b9f1740ae76cf827ee4f112412f5",
+      "size": 23410,
+      "url": "https://api.github.com/repos/anderspearson206/RadioLunaDiff/git/blobs/357e4d51ee35b9f1740ae76cf827ee4f112412f5"
+    },
+    {
+      "path": "train_second_UNet.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8326b305c562e9a7ab458527620f600371a644b5",
+      "size": 15056,
+      "url": "https://api.github.com/repos/anderspearson206/RadioLunaDiff/git/blobs/8326b305c562e9a7ab458527620f600371a644b5"
+    }
+  ],
+  "truncated": false
+}

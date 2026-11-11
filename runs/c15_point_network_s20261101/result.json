@@ -1,0 +1,30 @@
+{
+  "state": "completed",
+  "best_step": 6000,
+  "last_step": 8000,
+  "DEV_RMSE": [
+    2.962852021211109,
+    3.2713201084676333
+  ],
+  "FIT_RMSE": [
+    2.7148024152546366,
+    2.8345864026962495
+  ],
+  "valid_DEV_pixels": [
+    650982.0,
+    596173.0
+  ],
+  "valid_FIT_pixels": [
+    1471088.0,
+    1325639.0
+  ],
+  "gain_vs_C10_percent": {
+    "415": -0.4864820186237795,
+    "58": 3.433851924626985
+  },
+  "promote": false,
+  "seconds": 44.22628331184387,
+  "peak_GPU_GB": 3.075067904,
+  "scope": "same sampled FIT/DEV as C10; no full-map official score",
+  "weights_sha256": "2029f10491512f249298fdbbac92283ffe1eb172264c300bbfefe1a1035f6d73"
+}

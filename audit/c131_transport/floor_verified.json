@@ -1,0 +1,393 @@
+{
+  "status": "verified",
+  "maps": 628,
+  "terrains": 128,
+  "count": [
+    40864973,
+    37837148
+  ],
+  "floor_rmse": [
+    2.0825459189148274,
+    2.319595844631741
+  ],
+  "C82": [
+    2.1463905073492664,
+    2.418014484925531
+  ],
+  "floor_sse": [
+    177231285.91791585,
+    203583716.29429397
+  ],
+  "regions": {
+    "full_visible": {
+      "count": [
+        31338093,
+        31339740
+      ],
+      "floor_rmse_within_region": [
+        2.202836795018684,
+        2.2137505163391094
+      ],
+      "contribution_to_overall_floor": [
+        1.9290478323178515,
+        2.0147314842206474
+      ],
+      "fraction_floor_sse": [
+        0.8580188334451484,
+        0.7544139358527719
+      ],
+      "C82_rmse": [
+        1.726015650839415,
+        1.7859249156697614
+      ]
+    },
+    "partial": {
+      "count": [
+        829004,
+        822551
+      ],
+      "floor_rmse_within_region": [
+        5.509437380727777,
+        7.796361372755111
+      ],
+      "contribution_to_overall_floor": [
+        0.7847113896322657,
+        1.1495137793532182
+      ],
+      "fraction_floor_sse": [
+        0.14198116655485138,
+        0.24558606414723017
+      ],
+      "C82_rmse": [
+        4.132561289769887,
+        5.72227475786423
+      ]
+    },
+    "blocked": {
+      "count": [
+        8697876,
+        5674857
+      ],
+      "floor_rmse_within_region": [
+        0.0,
+        0.0
+      ],
+      "contribution_to_overall_floor": [
+        0.0,
+        0.0
+      ],
+      "fraction_floor_sse": [
+        0.0,
+        0.0
+      ],
+      "C82_rmse": [
+        3.0468807143711083,
+        4.077129819138122
+      ]
+    }
+  },
+  "contradiction_fraction": [
+    0.08428947206205177,
+    0.08386609899879346
+  ],
+  "tail_contradiction_fraction": [
+    0.4021734841148315,
+    0.39420177269016704
+  ],
+  "required_direct_attenuation_db_quantiles": [
+    [
+      3.084584951400757,
+      11.050273704528802,
+      26.328013877868663
+    ],
+    [
+      3.1875091791152954,
+      12.784846305847175,
+      29.14143587112423
+    ]
+  ],
+  "examples": [
+    {
+      "map": 4659,
+      "terrain": "01132",
+      "band": "58",
+      "row": 247,
+      "col": 129,
+      "tx_row": 12,
+      "tx_col": 176,
+      "label_db": 177.125,
+      "C82_db": 105.60610961914062,
+      "direct_ceiling_db": 95.26001267044576,
+      "floor_error_db": 81.86498732955424,
+      "visible_fraction": 1.0
+    },
+    {
+      "map": 2953,
+      "terrain": "00747",
+      "band": "415",
+      "row": 236,
+      "col": 123,
+      "tx_row": 72,
+      "tx_col": 220,
+      "label_db": 149.375,
+      "C82_db": 81.87796783447266,
+      "direct_ceiling_db": 70.6776217756836,
+      "floor_error_db": 78.6973782243164,
+      "visible_fraction": 0.9968137741088867
+    },
+    {
+      "map": 17945,
+      "terrain": "04699",
+      "band": "58",
+      "row": 226,
+      "col": 52,
+      "tx_row": 177,
+      "tx_col": 181,
+      "label_db": 168.5,
+      "C82_db": 100.07906341552734,
+      "direct_ceiling_db": 90.44392319957888,
+      "floor_error_db": 78.05607680042112,
+      "visible_fraction": 1.0
+    },
+    {
+      "map": 4652,
+      "terrain": "01132",
+      "band": "58",
+      "row": 11,
+      "col": 58,
+      "tx_row": 154,
+      "tx_col": 175,
+      "label_db": 183.125,
+      "C82_db": 111.65214538574219,
+      "direct_ceiling_db": 107.1890751771525,
+      "floor_error_db": 75.9359248228475,
+      "visible_fraction": 0.037989649921655655
+    },
+    {
+      "map": 1051,
+      "terrain": "00180",
+      "band": "58",
+      "row": 52,
+      "col": 232,
+      "tx_row": 223,
+      "tx_col": 157,
+      "label_db": 170.25,
+      "C82_db": 111.47894287109375,
+      "direct_ceiling_db": 95.08670266945796,
+      "floor_error_db": 75.16329733054204,
+      "visible_fraction": 1.0
+    },
+    {
+      "map": 13229,
+      "terrain": "03376",
+      "band": "415",
+      "row": 12,
+      "col": 170,
+      "tx_row": 198,
+      "tx_col": 228,
+      "label_db": 145.5,
+      "C82_db": 76.09033203125,
+      "direct_ceiling_db": 70.62336064491332,
+      "floor_error_db": 74.87663935508668,
+      "visible_fraction": 1.0
+    },
+    {
+      "map": 1012,
+      "terrain": "00180",
+      "band": "58",
+      "row": 123,
+      "col": 44,
+      "tx_row": 10,
+      "tx_col": 215,
+      "label_db": 168.75,
+      "C82_db": 106.96707916259766,
+      "direct_ceiling_db": 95.14594207577414,
+      "floor_error_db": 73.60405792422586,
+      "visible_fraction": 1.0
+    },
+    {
+      "map": 17324,
+      "terrain": "04518",
+      "band": "58",
+      "row": 247,
+      "col": 83,
+      "tx_row": 31,
+      "tx_col": 215,
+      "label_db": 169.125,
+      "C82_db": 107.39945983886719,
+      "direct_ceiling_db": 95.73247104598046,
+      "floor_error_db": 73.39252895401954,
+      "visible_fraction": 1.0
+    },
+    {
+      "map": 24980,
+      "terrain": "06563",
+      "band": "58",
+      "row": 200,
+      "col": 0,
+      "tx_row": 29,
+      "tx_col": 126,
+      "label_db": 167.5,
+      "C82_db": 107.64714050292969,
+      "direct_ceiling_db": 94.30355412249844,
+      "floor_error_db": 73.19644587750156,
+      "visible_fraction": 1.0
+    },
+    {
+      "map": 951,
+      "terrain": "00172",
+      "band": "58",
+      "row": 41,
+      "col": 201,
+      "tx_row": 173,
+      "tx_col": 214,
+      "label_db": 162.875,
+      "C82_db": 98.80034637451172,
+      "direct_ceiling_db": 90.20756079293265,
+      "floor_error_db": 72.66743920706735,
+      "visible_fraction": 1.0
+    },
+    {
+      "map": 1036,
+      "terrain": "00180",
+      "band": "58",
+      "row": 29,
+      "col": 185,
+      "tx_row": 188,
+      "tx_col": 17,
+      "label_db": 171.125,
+      "C82_db": 114.21498107910156,
+      "direct_ceiling_db": 98.82454599848622,
+      "floor_error_db": 72.30045400151378,
+      "visible_fraction": 0.5928306579589844
+    },
+    {
+      "map": 1051,
+      "terrain": "00180",
+      "band": "415",
+      "row": 52,
+      "col": 232,
+      "tx_row": 223,
+      "tx_col": 157,
+      "label_db": 143.375,
+      "C82_db": 89.26962280273438,
+      "direct_ceiling_db": 72.21662483241617,
+      "floor_error_db": 71.15837516758383,
+      "visible_fraction": 1.0
+    },
+    {
+      "map": 9549,
+      "terrain": "02551",
+      "band": "58",
+      "row": 247,
+      "col": 246,
+      "tx_row": 164,
+      "tx_col": 236,
+      "label_db": 157.125,
+      "C82_db": 87.33689880371094,
+      "direct_ceiling_db": 86.10369057023425,
+      "floor_error_db": 71.02130942976575,
+      "visible_fraction": 1.0
+    },
+    {
+      "map": 4653,
+      "terrain": "01132",
+      "band": "58",
+      "row": 50,
+      "col": 255,
+      "tx_row": 165,
+      "tx_col": 60,
+      "label_db": 165.125,
+      "C82_db": 101.90071868896484,
+      "direct_ceiling_db": 94.81208841901575,
+      "floor_error_db": 70.31291158098425,
+      "visible_fraction": 1.0
+    },
+    {
+      "map": 13213,
+      "terrain": "03376",
+      "band": "58",
+      "row": 79,
+      "col": 19,
+      "tx_row": 156,
+      "tx_col": 215,
+      "label_db": 166.75,
+      "C82_db": 110.79911041259766,
+      "direct_ceiling_db": 96.48489656934464,
+      "floor_error_db": 70.26510343065536,
+      "visible_fraction": 0.5838034152984619
+    },
+    {
+      "map": 2925,
+      "terrain": "00747",
+      "band": "415",
+      "row": 162,
+      "col": 243,
+      "tx_row": 14,
+      "tx_col": 214,
+      "label_db": 138.375,
+      "C82_db": 79.02395629882812,
+      "direct_ceiling_db": 68.68490501337422,
+      "floor_error_db": 69.69009498662578,
+      "visible_fraction": 1.0
+    },
+    {
+      "map": 3030,
+      "terrain": "00755",
+      "band": "58",
+      "row": 227,
+      "col": 222,
+      "tx_row": 239,
+      "tx_col": 68,
+      "label_db": 161.0,
+      "C82_db": 98.5105209350586,
+      "direct_ceiling_db": 91.49195348590845,
+      "floor_error_db": 69.50804651409155,
+      "visible_fraction": 1.0
+    },
+    {
+      "map": 17299,
+      "terrain": "04518",
+      "band": "58",
+      "row": 246,
+      "col": 9,
+      "tx_row": 40,
+      "tx_col": 203,
+      "label_db": 165.625,
+      "C82_db": 100.68013763427734,
+      "direct_ceiling_db": 96.70523758804507,
+      "floor_error_db": 68.91976241195493,
+      "visible_fraction": 1.0
+    },
+    {
+      "map": 2937,
+      "terrain": "00747",
+      "band": "58",
+      "row": 10,
+      "col": 156,
+      "tx_row": 233,
+      "tx_col": 42,
+      "label_db": 164.75,
+      "C82_db": 106.76325225830078,
+      "direct_ceiling_db": 95.93577646641249,
+      "floor_error_db": 68.81422353358751,
+      "visible_fraction": 1.0
+    },
+    {
+      "map": 17312,
+      "terrain": "04518",
+      "band": "58",
+      "row": 223,
+      "col": 0,
+      "tx_row": 104,
+      "tx_col": 103,
+      "label_db": 179.5,
+      "C82_db": 113.20693969726562,
+      "direct_ceiling_db": 111.42739940293683,
+      "floor_error_db": 68.07260059706317,
+      "visible_fraction": 0.010441949591040611
+    }
+  ],
+  "official_VAL_used": false,
+  "trained": false
+}

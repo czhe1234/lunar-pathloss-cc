@@ -1,0 +1,11 @@
+{
+  "pid": 2202849,
+  "args": [
+    ".venv/bin/python",
+    "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/src/c40_rt_pilot.py",
+    "--batches",
+    "4",
+    "--samples",
+    "1000000"
+  ]
+}

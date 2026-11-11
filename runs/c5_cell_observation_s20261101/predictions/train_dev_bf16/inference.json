@@ -1,0 +1,44 @@
+{
+  "run": "c5_cell_observation_s20261101",
+  "checkpoint_epoch": 2,
+  "checkpoint_sha256": "e9befed688c19e8bc2eab2f36d8159ac09ef05b7d793e68098f7a0d86087f759",
+  "split": "train",
+  "part": "dev",
+  "precision": "BF16 convolutions / FP32 stem, geometry, final scalar head and observation mixture",
+  "maps_per_band": 2562,
+  "output_dtype": "float32",
+  "batch": 8,
+  "batch_seconds_including_input_features_transfer_inference_output_write": 30.283471222035587,
+  "batch_ms_per_two_band_map": 11.82024637862435,
+  "single_request_cold_ms": 1722.3928021267056,
+  "single_request_warm_ms": {
+    "count": 32,
+    "mean": 23.60524729010649,
+    "p50": 23.278548382222652,
+    "p95": 24.687617970630527,
+    "max": 25.756687857210636
+  },
+  "latency_scope": "Includes input gather, H2D transfer, ALL on-demand profile and co-visibility features, model, inverse transform and D2H. One request returns both bands. Model loading excluded. Warm latency uses warmed allocator/CUDA kernels. Official hardware and warm-up protocol unconfirmed.",
+  "device": {
+    "uuid": "GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0",
+    "logical_device": 0,
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_bytes": 84929347584,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "inputs_used": [
+    "train_hm.npy",
+    "train_index.csv"
+  ],
+  "no_target_or_validity_mask_read": true,
+  "source_sha256": {
+    "c5_train.py": "3be5c2784c559b829432a88c31164ef3216ddb9e3a28883c0a6c174f68d272e1",
+    "cc_core.py": "1a21a060e377cc9f48db056eb11b4a0eb3c6e03ee3993468b2a214933fc07c80",
+    "c3_geometry.py": "f441476c0725eeb8bc92005b6d10fd2226e7696a5760df448af3824203d30cc9",
+    "c4_geometry.py": "5f4145162e155d2af2df46abd21e1db072f51c425ad3a4ad39fb9a202e800d47",
+    "c4_model.py": "c84d9957e0a4e072d25cf797b64da119a4c616f6e128a0eb0960ebb9c9db4867",
+    "c5_model.py": "da011a2cc2bcee998cf40657a712a952e9bf37fc54da9d4f32257fa4d9a1ac9d",
+    "c4_data_fast.py": "428865189fd6324c3039952b9bacc5554083525aac2c629612362f7e79e9839d"
+  }
+}

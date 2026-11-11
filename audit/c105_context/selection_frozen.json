@@ -1,0 +1,30 @@
+{
+  "choices": {
+    "local": {
+      "epoch": 3,
+      "rmse": [
+        2.1427085773731767,
+        2.4140052801106044
+      ],
+      "sha256": "c5c55048dbeba71890d46f62cc395d0cfcc624664fba5ddbacecee6d17a3a539"
+    },
+    "context": {
+      "epoch": 3,
+      "rmse": [
+        2.142374645241623,
+        2.4137878513944893
+      ],
+      "sha256": "bd7b18c67b2b8817e2f207e8109ca4cce38a975e70b14baced04ae5bb402fa1b"
+    }
+  },
+  "monitor_mean": {
+    "local": 2.2783569287418906,
+    "context": 2.278081248318056,
+    "C82": 2.2822024962495258
+  },
+  "eligible": "context",
+  "nonzero_modes": [
+    "local",
+    "context"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "gpu": {
+    "uuid": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+    "logical_device": 0,
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_bytes": 84929347584,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "seed": 20261102,
+  "parameters": 38618608,
+  "batch": 4096,
+  "steps": 12000,
+  "input_features": 294,
+  "independent_experts": 8,
+  "width": 1024,
+  "hidden_layers": 3,
+  "dropout": 0.02,
+  "initial_lr": {
+    "expert": 0.0003,
+    "embedding": 0.0001,
+    "gate": 0.001
+  },
+  "parent": "runs/c38_1024_continue/best.pt",
+  "initial_FP32_identity_max_db": 9.5367431640625e-06,
+  "initial_BF16_branch_layout_RMS_difference_db": [
+    0.0031405449844896793,
+    0.002691177884116769
+  ],
+  "fit_rows": 23713792,
+  "dev_rows": 655872,
+  "official_VAL_used": false,
+  "selection": "Minimum mean two-band sampled DEV RMSE; original C38 remains global fallback if new model is worse",
+  "source_hashes": {
+    "c50_train.py": "c5b6eada6e4bdc37d104a4bff1304dc7da51fab78fb07d0ef778280a2d468744",
+    "c50_model.py": "0c3f2a05da3eb90b47b2435626ce800f7e94458bc8fd238ecc7c26e45a6097ed",
+    "c47_train.py": "4dd1cc102f0f8afa23971ffce746c7f85c74f86882ce67f7cf696d736ece488f",
+    "c34_model.py": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af"
+  }
+}

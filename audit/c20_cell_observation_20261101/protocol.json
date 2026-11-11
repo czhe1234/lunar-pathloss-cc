@@ -1,0 +1,25 @@
+{
+  "question": "How much occlusion error can candidate cell-power averaging and centroid-to-grid interpolation explain?",
+  "data": "Reuse C19 input-selected612 internalDEV terrains,306 calibration/306 confirmation,256 query pixels/terrain. No officialVAL use.",
+  "mesh": "Two fixed1m triangulations of publishedH; RX mesh translated+1m; same candidate mesh for propagation and measurement. TX z=floor(Htx)+3 is an existing hypothesis, not original recovered coordinate.",
+  "point_field": "Frozen analytic direct thin-slab V-polarized transport plus fixed one-bounce surface diffuse proxy, divided by 3D range squared. Same field and geometry for point/centroid/cell means.",
+  "operators": [
+    "point at query",
+    "centroid point fields then linear-power barycentric interpolation",
+    "4-point triangle area quadrature then power interpolation",
+    "16-point triangle area quadrature then power interpolation",
+    "16-point area average then dB interpolation as export-order sensitivity"
+  ],
+  "quadrature": "Equal-area barycentric microtriangles; constant3D area Jacobian cancels within each planar face. No extra1/(A*cos) physical gain. Source formula is an estimator normalization.",
+  "control": "Comparison with fixed3x3 smoothing, frozenC10 local-curvature/context calibration, and centroid-only interpolation; no refitting of tree/neural propagation predictors.",
+  "signed_correction": "Use candidate delta=Loperator-Lpoint. Fit only small fixed linear coefficients on calibration; primary physical scalar coefficient constrained to[0,1] per input zone. Confirmation paired by terrain.",
+  "verification": "Flat/affine/inverse-square fields and interpolation exactness; continuous transport equalsC19 integer transport; rotation; area and angular quadrature convergence on input-selected calibration subset only.",
+  "gate": ">=5% confirmation occluded SSE reduction,terrain-bootstrap95 lower>0,beyond curvature control and centroid-only control,physical sign and quadrature stability. Otherwise do not train.",
+  "limits": "No original mesh or per-seed cells; reconstructed ray field is not ground truth. Failure only rejects this tested surrogate/operator family, not all area-average explanations.",
+  "constraints": "All new workCC,raw data read-only,no otherAI artifacts,no GPU unless necessary and exactGPU3 only. CPU workers8.",
+  "numerical_followup": "Input-only pilot found rare large high-frequency angular sensitivity. Retain all points; do not claim high-frequency area effect unless stable on independent32/64-angle probe. Add fixed received diffuse-power background control to isolate direct visibility averaging. No outcome/confirmation examined before this amendment.",
+  "linear_power_kernel": "For piecewise-linear vertex power on either1m triangulation, complete-centroid linear interpolation of triangle means equals center/3 + cardinal-neighbors/6. Verified analytically and numerically.",
+  "primary_probe_delta_clip_dB": 30,
+  "numerical_refinement": "Extractarea4 andarea16 and angular32. On fixed64 calibration terrains first16uniformqueries, additionally compare area64 and angular64. No point dropped because of numerical sensitivity; such failures limit attribution.",
+  "primary_queries": "First128 of originally frozen256 uniform queries, all612 terrains. Reduced before any outcomes/operator confirmation examined, to limit CPU cost. All paired scores use identical128queries."
+}

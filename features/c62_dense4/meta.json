@@ -1,0 +1,29 @@
+{
+  "complete": true,
+  "input_only": true,
+  "labels_masks_read": false,
+  "map_indices": [
+    0,
+    2,
+    3,
+    4
+  ],
+  "terrain_ids": [
+    "00000",
+    "00002",
+    "00003",
+    "00004"
+  ],
+  "teacher": "c38_1024_continue/best.pt",
+  "teacher_batch": 4096,
+  "x_maxdiff_vs_original_known_points": 5.21540641784668e-07,
+  "gpu": {
+    "uuid": "GPU-70b6fceb-c7c4-9467-3c81-097c9284c160",
+    "logical_device": 0,
+    "name": "NVIDIA A800 80GB PCIe",
+    "memory_bytes": 84974239744,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "seconds": 7.265141010284424
+}

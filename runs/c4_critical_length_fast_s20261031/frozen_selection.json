@@ -1,0 +1,15 @@
+{
+  "checkpoint_epoch": 1,
+  "checkpoint_sha256": "48b5745d6214c03009ee8b2bffa17eb6de1e10bc743a4116220159a1668f4c8f",
+  "development_scores": {
+    "rmse415": 3.75318156553631,
+    "rmse58": 4.7866812152977145,
+    "mse_mean": 18.499344460382797,
+    "valid_pixels": [
+      166639132.0,
+      152634019.0
+    ],
+    "maps_per_band": 2562
+  },
+  "official_validation_used": false
+}

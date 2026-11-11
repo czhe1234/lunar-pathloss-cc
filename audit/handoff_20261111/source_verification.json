@@ -1,0 +1,958 @@
+{
+  "created": "2026-11-11T06:11:57.070329+08:00",
+  "purpose": "Read-only handoff validation; no training or CUDA initialization",
+  "checks": {
+    "C82_release_files": [
+      {
+        "path": "releases/C82_20261103/model.json",
+        "expected": "459364e44177814596ef78b770571f89b77ed5da00920f151c4dcfcfe3170d68",
+        "actual": "459364e44177814596ef78b770571f89b77ed5da00920f151c4dcfcfe3170d68",
+        "match": true
+      },
+      {
+        "path": "releases/C82_20261103/weights/base/high.pt",
+        "expected": "31489fb4ef8b7c721f997146f83416e969c73f028d966bd2127fbe647c088645",
+        "actual": "31489fb4ef8b7c721f997146f83416e969c73f028d966bd2127fbe647c088645",
+        "match": true
+      },
+      {
+        "path": "releases/C82_20261103/weights/base/low.pt",
+        "expected": "78a91b260ff94ed711564728cd380751dcde187c0e55518f5c0d029225c8997c",
+        "actual": "78a91b260ff94ed711564728cd380751dcde187c0e55518f5c0d029225c8997c",
+        "match": true
+      },
+      {
+        "path": "releases/C82_20261103/weights/base/manifest.json",
+        "expected": "9b5a178203665b27fd3d16ddc3c2cf9ba4efd309d58ec7d355d384b764dcd625",
+        "actual": "9b5a178203665b27fd3d16ddc3c2cf9ba4efd309d58ec7d355d384b764dcd625",
+        "match": true
+      },
+      {
+        "path": "releases/C82_20261103/weights/base/teacher.pt",
+        "expected": "9d340ca23b215e7680826b6eab1113f3d20d4b540b7f20f16c61c3173405a64c",
+        "actual": "9d340ca23b215e7680826b6eab1113f3d20d4b540b7f20f16c61c3173405a64c",
+        "match": true
+      },
+      {
+        "path": "releases/C82_20261103/weights/graph.pt",
+        "expected": "2538e77cb5e3d85d73815f01ea956432e3b1a9cdc1ecb15420028d562f9b16e5",
+        "actual": "2538e77cb5e3d85d73815f01ea956432e3b1a9cdc1ecb15420028d562f9b16e5",
+        "match": true
+      },
+      {
+        "path": "releases/C82_20261103/weights/post.pt",
+        "expected": "02b16bd1e9a9956ebc09b8aa846c85e751935294313397e9988bef952c9d34a4",
+        "actual": "02b16bd1e9a9956ebc09b8aa846c85e751935294313397e9988bef952c9d34a4",
+        "match": true
+      },
+      {
+        "path": "releases/C82_20261103/spectrum.json",
+        "expected": "e9f3a73d67b99691f4d5e9eb005280144fb677e5f3fbd63cdbf08e7b1a9496ae",
+        "actual": "e9f3a73d67b99691f4d5e9eb005280144fb677e5f3fbd63cdbf08e7b1a9496ae",
+        "match": true
+      }
+    ],
+    "C82_release_implementation": [
+      {
+        "path": "releases/C82_20261103/src/c10_phase_geometry.py",
+        "expected": "811a13597a0a215075909bed45a89b97449b64e1794041c52c3f96ad94852826",
+        "actual": "811a13597a0a215075909bed45a89b97449b64e1794041c52c3f96ad94852826",
+        "match": true
+      },
+      {
+        "path": "releases/C82_20261103/src/c34_model.py",
+        "expected": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+        "actual": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+        "match": true
+      },
+      {
+        "path": "releases/C82_20261103/src/c3_geometry.py",
+        "expected": "f441476c0725eeb8bc92005b6d10fd2226e7696a5760df448af3824203d30cc9",
+        "actual": "f441476c0725eeb8bc92005b6d10fd2226e7696a5760df448af3824203d30cc9",
+        "match": true
+      },
+      {
+        "path": "releases/C82_20261103/src/c47_inference.py",
+        "expected": "08d82671875a20b5c4443140386872db4d990ab3dec0e1f187912c7e4bec38c5",
+        "actual": "08d82671875a20b5c4443140386872db4d990ab3dec0e1f187912c7e4bec38c5",
+        "match": true
+      },
+      {
+        "path": "releases/C82_20261103/src/c47_model.py",
+        "expected": "58ae38dcad4effc468cf436a46095ea1b664d9ddcff8c2748dfe97a730a4bb36",
+        "actual": "58ae38dcad4effc468cf436a46095ea1b664d9ddcff8c2748dfe97a730a4bb36",
+        "match": true
+      },
+      {
+        "path": "releases/C82_20261103/src/c48_model.py",
+        "expected": "42353d80cc1525c57f70187d9af120aeb27688ab1e4a806c88a104b0a7281a6b",
+        "actual": "42353d80cc1525c57f70187d9af120aeb27688ab1e4a806c88a104b0a7281a6b",
+        "match": true
+      },
+      {
+        "path": "releases/C82_20261103/src/c49_model.py",
+        "expected": "b5eb5b6bd0a8a4c58593aa8639b572dc5b8e9111a9411f5da4a309576a607329",
+        "actual": "b5eb5b6bd0a8a4c58593aa8639b572dc5b8e9111a9411f5da4a309576a607329",
+        "match": true
+      },
+      {
+        "path": "releases/C82_20261103/src/c4_geometry.py",
+        "expected": "5f4145162e155d2af2df46abd21e1db072f51c425ad3a4ad39fb9a202e800d47",
+        "actual": "5f4145162e155d2af2df46abd21e1db072f51c425ad3a4ad39fb9a202e800d47",
+        "match": true
+      },
+      {
+        "path": "releases/C82_20261103/src/c52_model.py",
+        "expected": "8ccf5446f26c78533273d05cb368d73539c2cdc624469eb9c2dab8cedcf6deb2",
+        "actual": "8ccf5446f26c78533273d05cb368d73539c2cdc624469eb9c2dab8cedcf6deb2",
+        "match": true
+      },
+      {
+        "path": "releases/C82_20261103/src/c54_inference.py",
+        "expected": "aec458030969922c82a2afa9dd7f5b8c7eef8afe584a53640cd8d8b58a70c5fe",
+        "actual": "aec458030969922c82a2afa9dd7f5b8c7eef8afe584a53640cd8d8b58a70c5fe",
+        "match": true
+      },
+      {
+        "path": "releases/C82_20261103/src/c57_transmission.py",
+        "expected": "fa10d0a21c3beec88d9337e89a41dda3a4201e6fde3c8bd6d545fc06729d9b51",
+        "actual": "fa10d0a21c3beec88d9337e89a41dda3a4201e6fde3c8bd6d545fc06729d9b51",
+        "match": true
+      },
+      {
+        "path": "releases/C82_20261103/src/c60_inference.py",
+        "expected": "d51f36349098b361819fa2cc799fcbc18a7c2b58031ac94f68556357331151f2",
+        "actual": "d51f36349098b361819fa2cc799fcbc18a7c2b58031ac94f68556357331151f2",
+        "match": true
+      },
+      {
+        "path": "releases/C82_20261103/src/c66_lattice.cpp",
+        "expected": "59114104f4d228dd3430b1aa9239f437c75c306cf09777eda04701bd2dcc1231",
+        "actual": "59114104f4d228dd3430b1aa9239f437c75c306cf09777eda04701bd2dcc1231",
+        "match": true
+      },
+      {
+        "path": "releases/C82_20261103/src/c66_lattice.py",
+        "expected": "ce4432e88d1adc85da87511f3806bf7d7efb0b5251fa60db266a25944fcfc30c",
+        "actual": "ce4432e88d1adc85da87511f3806bf7d7efb0b5251fa60db266a25944fcfc30c",
+        "match": true
+      },
+      {
+        "path": "releases/C82_20261103/src/c67_dense.py",
+        "expected": "2e04e09fe0bf68e1608f89644fa3e781b9771b6151e04d8a1cc4ca67dbab700c",
+        "actual": "2e04e09fe0bf68e1608f89644fa3e781b9771b6151e04d8a1cc4ca67dbab700c",
+        "match": true
+      },
+      {
+        "path": "releases/C82_20261103/src/c67_physics.py",
+        "expected": "a652e3f120abbbe94a5b60903541b2deb575e0caa0ed89ff98403f83561ac2d5",
+        "actual": "a652e3f120abbbe94a5b60903541b2deb575e0caa0ed89ff98403f83561ac2d5",
+        "match": true
+      },
+      {
+        "path": "releases/C82_20261103/src/c67_transport.cu",
+        "expected": "6d177abc834b00931f32873c6b6a54b38388b67b9fefea5ba1297a90db4738b5",
+        "actual": "6d177abc834b00931f32873c6b6a54b38388b67b9fefea5ba1297a90db4738b5",
+        "match": true
+      },
+      {
+        "path": "releases/C82_20261103/src/c69_registered.py",
+        "expected": "6f170939b6f06029e41e657b984065ae77611f4b7382a82654274797e307cd46",
+        "actual": "6f170939b6f06029e41e657b984065ae77611f4b7382a82654274797e307cd46",
+        "match": true
+      },
+      {
+        "path": "releases/C82_20261103/src/c70_centroid_lookup0.npz",
+        "expected": "f213534f2689bf1c03ad7d25d9c32af79c9554fdd227b6ac68189eb32e923d27",
+        "actual": "f213534f2689bf1c03ad7d25d9c32af79c9554fdd227b6ac68189eb32e923d27",
+        "match": true
+      },
+      {
+        "path": "releases/C82_20261103/src/c70_field.py",
+        "expected": "78ce203610d09c444e2e575c17d3c27bf6e5c6f6eb022885ed385e819424e61b",
+        "actual": "78ce203610d09c444e2e575c17d3c27bf6e5c6f6eb022885ed385e819424e61b",
+        "match": true
+      },
+      {
+        "path": "releases/C82_20261103/src/c70_geometry.cu",
+        "expected": "19e1acaa79e1f64e6c10bf83ef6a09bfa3c148050df8436d4ae0081987a3609b",
+        "actual": "19e1acaa79e1f64e6c10bf83ef6a09bfa3c148050df8436d4ae0081987a3609b",
+        "match": true
+      },
+      {
+        "path": "releases/C82_20261103/src/c70_geometry.py",
+        "expected": "cdc47920ebbca03a636b67d73581b447d4f3dfc6a408eefe7d40cd501ca372b8",
+        "actual": "cdc47920ebbca03a636b67d73581b447d4f3dfc6a408eefe7d40cd501ca372b8",
+        "match": true
+      },
+      {
+        "path": "releases/C82_20261103/src/c72_native.py",
+        "expected": "b42d5f19b5fa690b1ce1f88ba8cad94437c3f62dceea18e0c51bb8eac586c8e7",
+        "actual": "b42d5f19b5fa690b1ce1f88ba8cad94437c3f62dceea18e0c51bb8eac586c8e7",
+        "match": true
+      },
+      {
+        "path": "releases/C82_20261103/src/c72_native_features.py",
+        "expected": "7177efb8e761043d4529cc2a7ea735f21a548ceb7a53d9c89409324456d08327",
+        "actual": "7177efb8e761043d4529cc2a7ea735f21a548ceb7a53d9c89409324456d08327",
+        "match": true
+      },
+      {
+        "path": "releases/C82_20261103/src/c73_compact.py",
+        "expected": "b78d27abf25a520463d3a109dd1e8f9eb242a77a34e6ad74c6b5b04824b43de3",
+        "actual": "b78d27abf25a520463d3a109dd1e8f9eb242a77a34e6ad74c6b5b04824b43de3",
+        "match": true
+      },
+      {
+        "path": "releases/C82_20261103/src/c73_graph.py",
+        "expected": "0e088cf575a9b10955849c20fc70aeeb0e99e974c4e922ee1903124297d01eb2",
+        "actual": "0e088cf575a9b10955849c20fc70aeeb0e99e974c4e922ee1903124297d01eb2",
+        "match": true
+      },
+      {
+        "path": "releases/C82_20261103/src/c73_visibility.cu",
+        "expected": "956a02bbc3c5f64707e6fcaccc91aaabe918211fe7012cf067ada12c7a65014c",
+        "actual": "956a02bbc3c5f64707e6fcaccc91aaabe918211fe7012cf067ada12c7a65014c",
+        "match": true
+      },
+      {
+        "path": "releases/C82_20261103/src/c74_features.py",
+        "expected": "ab69854a1ed9c49a7dbefa947f47b21a246414f283663b822aabd9e702cca1e4",
+        "actual": "ab69854a1ed9c49a7dbefa947f47b21a246414f283663b822aabd9e702cca1e4",
+        "match": true
+      },
+      {
+        "path": "releases/C82_20261103/src/c74_inference.py",
+        "expected": "2ce9d80b18064746f637e5c262aec020ea5c254ddae146ed95dfa90e3fe82593",
+        "actual": "2ce9d80b18064746f637e5c262aec020ea5c254ddae146ed95dfa90e3fe82593",
+        "match": true
+      },
+      {
+        "path": "releases/C82_20261103/src/c74_surface.cu",
+        "expected": "bc39b34d55228658c000b09fb51b9b1c977eb3564c9e881a668225581487e317",
+        "actual": "bc39b34d55228658c000b09fb51b9b1c977eb3564c9e881a668225581487e317",
+        "match": true
+      },
+      {
+        "path": "releases/C82_20261103/src/c7_surface_features.py",
+        "expected": "d6048599ef969d04ff73611f25877d98a084ca4160db1f6343872035be0b7383",
+        "actual": "d6048599ef969d04ff73611f25877d98a084ca4160db1f6343872035be0b7383",
+        "match": true
+      },
+      {
+        "path": "releases/C82_20261103/src/c8_tx_context.py",
+        "expected": "3ffb3dec22666ce9093c51a09184a392cc74cef8a45050fcdeb36dd549ee0227",
+        "actual": "3ffb3dec22666ce9093c51a09184a392cc74cef8a45050fcdeb36dd549ee0227",
+        "match": true
+      },
+      {
+        "path": "releases/C82_20261103/src/c9_extra_gpu.py",
+        "expected": "6a1e1a35768ff9e6160e0a799059f0bcecbaba7373065439e3083f658163bc23",
+        "actual": "6a1e1a35768ff9e6160e0a799059f0bcecbaba7373065439e3083f658163bc23",
+        "match": true
+      },
+      {
+        "path": "releases/C82_20261103/src/cc_core.py",
+        "expected": "6c256bb62bf08a44bbd7223cd149346b7b39c41df84a58028efd46fc9c14b093",
+        "actual": "6c256bb62bf08a44bbd7223cd149346b7b39c41df84a58028efd46fc9c14b093",
+        "match": true
+      },
+      {
+        "path": "releases/C82_20261103/src/libc66_lattice.so",
+        "expected": "8895d617ec3d4001876eb1814edc47cca751f2258cf8a5d5d62e1c54c0d45368",
+        "actual": "8895d617ec3d4001876eb1814edc47cca751f2258cf8a5d5d62e1c54c0d45368",
+        "match": true
+      },
+      {
+        "path": "releases/C82_20261103/src/libc67_transport.so",
+        "expected": "bfb640372229d55a41a255acb7460bdbfad708acb079595735a8ad1e0621b525",
+        "actual": "bfb640372229d55a41a255acb7460bdbfad708acb079595735a8ad1e0621b525",
+        "match": true
+      },
+      {
+        "path": "releases/C82_20261103/src/libc70_geometry.so",
+        "expected": "4c38d7ed1d28dcb638450845cc700126f33d7b8601f053a62c59576a04ee483a",
+        "actual": "4c38d7ed1d28dcb638450845cc700126f33d7b8601f053a62c59576a04ee483a",
+        "match": true
+      },
+      {
+        "path": "releases/C82_20261103/src/libc73_visibility.so",
+        "expected": "3340a1d33ba243e723025540958703de178df47da473adf1ebd6b97793d555a3",
+        "actual": "3340a1d33ba243e723025540958703de178df47da473adf1ebd6b97793d555a3",
+        "match": true
+      },
+      {
+        "path": "releases/C82_20261103/src/libc74_surface.so",
+        "expected": "c37d8cca4c21079e4c73d406496217db8c91873f21fdb10bcd6a74a8dfc943e0",
+        "actual": "c37d8cca4c21079e4c73d406496217db8c91873f21fdb10bcd6a74a8dfc943e0",
+        "match": true
+      },
+      {
+        "path": "releases/C82_20261103/src/c82_blend.py",
+        "expected": "d871d39f9c86c0d2ada97271b197cf734aa564d871a9d2943fec406c565048c2",
+        "actual": "d871d39f9c86c0d2ada97271b197cf734aa564d871a9d2943fec406c565048c2",
+        "match": true
+      },
+      {
+        "path": "releases/C82_20261103/src/c82_inference.py",
+        "expected": "f9297142a98e0d7d6d8ba7d147075610cf949dda2693d5299ba45520d0ad089c",
+        "actual": "f9297142a98e0d7d6d8ba7d147075610cf949dda2693d5299ba45520d0ad089c",
+        "match": true
+      },
+      {
+        "path": "releases/C82_20261103/src/c82_predict.py",
+        "expected": "6443a8fdef3a7335263ffd1a8a741906cdbb19ca49c81401745b63e46e7bce51",
+        "actual": "6443a8fdef3a7335263ffd1a8a741906cdbb19ca49c81401745b63e46e7bce51",
+        "match": true
+      },
+      {
+        "path": "releases/C82_20261103/src/c76_predict.py",
+        "expected": "6beda3598d4bc873209e4490fa4cd121ee18fdd2e19d5cab539cb73116685ef7",
+        "actual": "6beda3598d4bc873209e4490fa4cd121ee18fdd2e19d5cab539cb73116685ef7",
+        "match": true
+      }
+    ],
+    "C82_active_files": [
+      {
+        "path": "runs/c82_selected/model.json",
+        "expected": "459364e44177814596ef78b770571f89b77ed5da00920f151c4dcfcfe3170d68",
+        "actual": "459364e44177814596ef78b770571f89b77ed5da00920f151c4dcfcfe3170d68",
+        "match": true
+      },
+      {
+        "path": "runs/c82_selected/weights/base/high.pt",
+        "expected": "31489fb4ef8b7c721f997146f83416e969c73f028d966bd2127fbe647c088645",
+        "actual": "31489fb4ef8b7c721f997146f83416e969c73f028d966bd2127fbe647c088645",
+        "match": true
+      },
+      {
+        "path": "runs/c82_selected/weights/base/low.pt",
+        "expected": "78a91b260ff94ed711564728cd380751dcde187c0e55518f5c0d029225c8997c",
+        "actual": "78a91b260ff94ed711564728cd380751dcde187c0e55518f5c0d029225c8997c",
+        "match": true
+      },
+      {
+        "path": "runs/c82_selected/weights/base/manifest.json",
+        "expected": "9b5a178203665b27fd3d16ddc3c2cf9ba4efd309d58ec7d355d384b764dcd625",
+        "actual": "9b5a178203665b27fd3d16ddc3c2cf9ba4efd309d58ec7d355d384b764dcd625",
+        "match": true
+      },
+      {
+        "path": "runs/c82_selected/weights/base/teacher.pt",
+        "expected": "9d340ca23b215e7680826b6eab1113f3d20d4b540b7f20f16c61c3173405a64c",
+        "actual": "9d340ca23b215e7680826b6eab1113f3d20d4b540b7f20f16c61c3173405a64c",
+        "match": true
+      },
+      {
+        "path": "runs/c82_selected/weights/graph.pt",
+        "expected": "2538e77cb5e3d85d73815f01ea956432e3b1a9cdc1ecb15420028d562f9b16e5",
+        "actual": "2538e77cb5e3d85d73815f01ea956432e3b1a9cdc1ecb15420028d562f9b16e5",
+        "match": true
+      },
+      {
+        "path": "runs/c82_selected/weights/post.pt",
+        "expected": "02b16bd1e9a9956ebc09b8aa846c85e751935294313397e9988bef952c9d34a4",
+        "actual": "02b16bd1e9a9956ebc09b8aa846c85e751935294313397e9988bef952c9d34a4",
+        "match": true
+      },
+      {
+        "path": "runs/c82_selected/spectrum.json",
+        "expected": "e9f3a73d67b99691f4d5e9eb005280144fb677e5f3fbd63cdbf08e7b1a9496ae",
+        "actual": "e9f3a73d67b99691f4d5e9eb005280144fb677e5f3fbd63cdbf08e7b1a9496ae",
+        "match": true
+      }
+    ],
+    "C82_active_implementation": [
+      {
+        "path": "src/c10_phase_geometry.py",
+        "expected": "811a13597a0a215075909bed45a89b97449b64e1794041c52c3f96ad94852826",
+        "actual": "811a13597a0a215075909bed45a89b97449b64e1794041c52c3f96ad94852826",
+        "match": true
+      },
+      {
+        "path": "src/c34_model.py",
+        "expected": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+        "actual": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+        "match": true
+      },
+      {
+        "path": "src/c3_geometry.py",
+        "expected": "f441476c0725eeb8bc92005b6d10fd2226e7696a5760df448af3824203d30cc9",
+        "actual": "f441476c0725eeb8bc92005b6d10fd2226e7696a5760df448af3824203d30cc9",
+        "match": true
+      },
+      {
+        "path": "src/c47_inference.py",
+        "expected": "08d82671875a20b5c4443140386872db4d990ab3dec0e1f187912c7e4bec38c5",
+        "actual": "08d82671875a20b5c4443140386872db4d990ab3dec0e1f187912c7e4bec38c5",
+        "match": true
+      },
+      {
+        "path": "src/c47_model.py",
+        "expected": "58ae38dcad4effc468cf436a46095ea1b664d9ddcff8c2748dfe97a730a4bb36",
+        "actual": "58ae38dcad4effc468cf436a46095ea1b664d9ddcff8c2748dfe97a730a4bb36",
+        "match": true
+      },
+      {
+        "path": "src/c48_model.py",
+        "expected": "42353d80cc1525c57f70187d9af120aeb27688ab1e4a806c88a104b0a7281a6b",
+        "actual": "42353d80cc1525c57f70187d9af120aeb27688ab1e4a806c88a104b0a7281a6b",
+        "match": true
+      },
+      {
+        "path": "src/c49_model.py",
+        "expected": "b5eb5b6bd0a8a4c58593aa8639b572dc5b8e9111a9411f5da4a309576a607329",
+        "actual": "b5eb5b6bd0a8a4c58593aa8639b572dc5b8e9111a9411f5da4a309576a607329",
+        "match": true
+      },
+      {
+        "path": "src/c4_geometry.py",
+        "expected": "5f4145162e155d2af2df46abd21e1db072f51c425ad3a4ad39fb9a202e800d47",
+        "actual": "5f4145162e155d2af2df46abd21e1db072f51c425ad3a4ad39fb9a202e800d47",
+        "match": true
+      },
+      {
+        "path": "src/c52_model.py",
+        "expected": "8ccf5446f26c78533273d05cb368d73539c2cdc624469eb9c2dab8cedcf6deb2",
+        "actual": "8ccf5446f26c78533273d05cb368d73539c2cdc624469eb9c2dab8cedcf6deb2",
+        "match": true
+      },
+      {
+        "path": "src/c54_inference.py",
+        "expected": "aec458030969922c82a2afa9dd7f5b8c7eef8afe584a53640cd8d8b58a70c5fe",
+        "actual": "aec458030969922c82a2afa9dd7f5b8c7eef8afe584a53640cd8d8b58a70c5fe",
+        "match": true
+      },
+      {
+        "path": "src/c57_transmission.py",
+        "expected": "fa10d0a21c3beec88d9337e89a41dda3a4201e6fde3c8bd6d545fc06729d9b51",
+        "actual": "fa10d0a21c3beec88d9337e89a41dda3a4201e6fde3c8bd6d545fc06729d9b51",
+        "match": true
+      },
+      {
+        "path": "src/c60_inference.py",
+        "expected": "d51f36349098b361819fa2cc799fcbc18a7c2b58031ac94f68556357331151f2",
+        "actual": "d51f36349098b361819fa2cc799fcbc18a7c2b58031ac94f68556357331151f2",
+        "match": true
+      },
+      {
+        "path": "src/c66_lattice.cpp",
+        "expected": "59114104f4d228dd3430b1aa9239f437c75c306cf09777eda04701bd2dcc1231",
+        "actual": "59114104f4d228dd3430b1aa9239f437c75c306cf09777eda04701bd2dcc1231",
+        "match": true
+      },
+      {
+        "path": "src/c66_lattice.py",
+        "expected": "ce4432e88d1adc85da87511f3806bf7d7efb0b5251fa60db266a25944fcfc30c",
+        "actual": "ce4432e88d1adc85da87511f3806bf7d7efb0b5251fa60db266a25944fcfc30c",
+        "match": true
+      },
+      {
+        "path": "src/c67_dense.py",
+        "expected": "2e04e09fe0bf68e1608f89644fa3e781b9771b6151e04d8a1cc4ca67dbab700c",
+        "actual": "2e04e09fe0bf68e1608f89644fa3e781b9771b6151e04d8a1cc4ca67dbab700c",
+        "match": true
+      },
+      {
+        "path": "src/c67_physics.py",
+        "expected": "a652e3f120abbbe94a5b60903541b2deb575e0caa0ed89ff98403f83561ac2d5",
+        "actual": "a652e3f120abbbe94a5b60903541b2deb575e0caa0ed89ff98403f83561ac2d5",
+        "match": true
+      },
+      {
+        "path": "src/c67_transport.cu",
+        "expected": "6d177abc834b00931f32873c6b6a54b38388b67b9fefea5ba1297a90db4738b5",
+        "actual": "6d177abc834b00931f32873c6b6a54b38388b67b9fefea5ba1297a90db4738b5",
+        "match": true
+      },
+      {
+        "path": "src/c69_registered.py",
+        "expected": "6f170939b6f06029e41e657b984065ae77611f4b7382a82654274797e307cd46",
+        "actual": "6f170939b6f06029e41e657b984065ae77611f4b7382a82654274797e307cd46",
+        "match": true
+      },
+      {
+        "path": "src/c70_centroid_lookup0.npz",
+        "expected": "f213534f2689bf1c03ad7d25d9c32af79c9554fdd227b6ac68189eb32e923d27",
+        "actual": "f213534f2689bf1c03ad7d25d9c32af79c9554fdd227b6ac68189eb32e923d27",
+        "match": true
+      },
+      {
+        "path": "src/c70_field.py",
+        "expected": "78ce203610d09c444e2e575c17d3c27bf6e5c6f6eb022885ed385e819424e61b",
+        "actual": "78ce203610d09c444e2e575c17d3c27bf6e5c6f6eb022885ed385e819424e61b",
+        "match": true
+      },
+      {
+        "path": "src/c70_geometry.cu",
+        "expected": "19e1acaa79e1f64e6c10bf83ef6a09bfa3c148050df8436d4ae0081987a3609b",
+        "actual": "19e1acaa79e1f64e6c10bf83ef6a09bfa3c148050df8436d4ae0081987a3609b",
+        "match": true
+      },
+      {
+        "path": "src/c70_geometry.py",
+        "expected": "cdc47920ebbca03a636b67d73581b447d4f3dfc6a408eefe7d40cd501ca372b8",
+        "actual": "cdc47920ebbca03a636b67d73581b447d4f3dfc6a408eefe7d40cd501ca372b8",
+        "match": true
+      },
+      {
+        "path": "src/c72_native.py",
+        "expected": "b42d5f19b5fa690b1ce1f88ba8cad94437c3f62dceea18e0c51bb8eac586c8e7",
+        "actual": "b42d5f19b5fa690b1ce1f88ba8cad94437c3f62dceea18e0c51bb8eac586c8e7",
+        "match": true
+      },
+      {
+        "path": "src/c72_native_features.py",
+        "expected": "7177efb8e761043d4529cc2a7ea735f21a548ceb7a53d9c89409324456d08327",
+        "actual": "7177efb8e761043d4529cc2a7ea735f21a548ceb7a53d9c89409324456d08327",
+        "match": true
+      },
+      {
+        "path": "src/c73_compact.py",
+        "expected": "b78d27abf25a520463d3a109dd1e8f9eb242a77a34e6ad74c6b5b04824b43de3",
+        "actual": "b78d27abf25a520463d3a109dd1e8f9eb242a77a34e6ad74c6b5b04824b43de3",
+        "match": true
+      },
+      {
+        "path": "src/c73_graph.py",
+        "expected": "0e088cf575a9b10955849c20fc70aeeb0e99e974c4e922ee1903124297d01eb2",
+        "actual": "0e088cf575a9b10955849c20fc70aeeb0e99e974c4e922ee1903124297d01eb2",
+        "match": true
+      },
+      {
+        "path": "src/c73_visibility.cu",
+        "expected": "956a02bbc3c5f64707e6fcaccc91aaabe918211fe7012cf067ada12c7a65014c",
+        "actual": "956a02bbc3c5f64707e6fcaccc91aaabe918211fe7012cf067ada12c7a65014c",
+        "match": true
+      },
+      {
+        "path": "src/c74_features.py",
+        "expected": "ab69854a1ed9c49a7dbefa947f47b21a246414f283663b822aabd9e702cca1e4",
+        "actual": "ab69854a1ed9c49a7dbefa947f47b21a246414f283663b822aabd9e702cca1e4",
+        "match": true
+      },
+      {
+        "path": "src/c74_inference.py",
+        "expected": "2ce9d80b18064746f637e5c262aec020ea5c254ddae146ed95dfa90e3fe82593",
+        "actual": "2ce9d80b18064746f637e5c262aec020ea5c254ddae146ed95dfa90e3fe82593",
+        "match": true
+      },
+      {
+        "path": "src/c74_surface.cu",
+        "expected": "bc39b34d55228658c000b09fb51b9b1c977eb3564c9e881a668225581487e317",
+        "actual": "bc39b34d55228658c000b09fb51b9b1c977eb3564c9e881a668225581487e317",
+        "match": true
+      },
+      {
+        "path": "src/c7_surface_features.py",
+        "expected": "d6048599ef969d04ff73611f25877d98a084ca4160db1f6343872035be0b7383",
+        "actual": "d6048599ef969d04ff73611f25877d98a084ca4160db1f6343872035be0b7383",
+        "match": true
+      },
+      {
+        "path": "src/c8_tx_context.py",
+        "expected": "3ffb3dec22666ce9093c51a09184a392cc74cef8a45050fcdeb36dd549ee0227",
+        "actual": "3ffb3dec22666ce9093c51a09184a392cc74cef8a45050fcdeb36dd549ee0227",
+        "match": true
+      },
+      {
+        "path": "src/c9_extra_gpu.py",
+        "expected": "6a1e1a35768ff9e6160e0a799059f0bcecbaba7373065439e3083f658163bc23",
+        "actual": "6a1e1a35768ff9e6160e0a799059f0bcecbaba7373065439e3083f658163bc23",
+        "match": true
+      },
+      {
+        "path": "src/cc_core.py",
+        "expected": "6c256bb62bf08a44bbd7223cd149346b7b39c41df84a58028efd46fc9c14b093",
+        "actual": "6c256bb62bf08a44bbd7223cd149346b7b39c41df84a58028efd46fc9c14b093",
+        "match": true
+      },
+      {
+        "path": "src/libc66_lattice.so",
+        "expected": "8895d617ec3d4001876eb1814edc47cca751f2258cf8a5d5d62e1c54c0d45368",
+        "actual": "8895d617ec3d4001876eb1814edc47cca751f2258cf8a5d5d62e1c54c0d45368",
+        "match": true
+      },
+      {
+        "path": "src/libc67_transport.so",
+        "expected": "bfb640372229d55a41a255acb7460bdbfad708acb079595735a8ad1e0621b525",
+        "actual": "bfb640372229d55a41a255acb7460bdbfad708acb079595735a8ad1e0621b525",
+        "match": true
+      },
+      {
+        "path": "src/libc70_geometry.so",
+        "expected": "4c38d7ed1d28dcb638450845cc700126f33d7b8601f053a62c59576a04ee483a",
+        "actual": "4c38d7ed1d28dcb638450845cc700126f33d7b8601f053a62c59576a04ee483a",
+        "match": true
+      },
+      {
+        "path": "src/libc73_visibility.so",
+        "expected": "3340a1d33ba243e723025540958703de178df47da473adf1ebd6b97793d555a3",
+        "actual": "3340a1d33ba243e723025540958703de178df47da473adf1ebd6b97793d555a3",
+        "match": true
+      },
+      {
+        "path": "src/libc74_surface.so",
+        "expected": "c37d8cca4c21079e4c73d406496217db8c91873f21fdb10bcd6a74a8dfc943e0",
+        "actual": "c37d8cca4c21079e4c73d406496217db8c91873f21fdb10bcd6a74a8dfc943e0",
+        "match": true
+      },
+      {
+        "path": "src/c82_blend.py",
+        "expected": "d871d39f9c86c0d2ada97271b197cf734aa564d871a9d2943fec406c565048c2",
+        "actual": "d871d39f9c86c0d2ada97271b197cf734aa564d871a9d2943fec406c565048c2",
+        "match": true
+      },
+      {
+        "path": "src/c82_inference.py",
+        "expected": "f9297142a98e0d7d6d8ba7d147075610cf949dda2693d5299ba45520d0ad089c",
+        "actual": "f9297142a98e0d7d6d8ba7d147075610cf949dda2693d5299ba45520d0ad089c",
+        "match": true
+      },
+      {
+        "path": "src/c82_predict.py",
+        "expected": "6443a8fdef3a7335263ffd1a8a741906cdbb19ca49c81401745b63e46e7bce51",
+        "actual": "6443a8fdef3a7335263ffd1a8a741906cdbb19ca49c81401745b63e46e7bce51",
+        "match": true
+      },
+      {
+        "path": "src/c76_predict.py",
+        "expected": "6beda3598d4bc873209e4490fa4cd121ee18fdd2e19d5cab539cb73116685ef7",
+        "actual": "6beda3598d4bc873209e4490fa4cd121ee18fdd2e19d5cab539cb73116685ef7",
+        "match": true
+      }
+    ],
+    "C141_provenance": [
+      {
+        "path": "results/C141_直达与接收反例核查_20261110.md",
+        "expected": "6cb23d828bf05c3a80a0d3ec0f45d3b2fdffb77af6a174cd3f8501bbf04f3e37",
+        "actual": "6cb23d828bf05c3a80a0d3ec0f45d3b2fdffb77af6a174cd3f8501bbf04f3e37",
+        "match": true
+      },
+      {
+        "path": "src/c141_direct_replay.py",
+        "expected": "a26d25797c706c0500ec1fdef8809f2c1d396074d88a7da95622c108d7d76787",
+        "actual": "a26d25797c706c0500ec1fdef8809f2c1d396074d88a7da95622c108d7d76787",
+        "match": true
+      },
+      {
+        "path": "src/c141_score.py",
+        "expected": "c503ea435d175731b85db8674d39edf1e3371307e26e17eee6c5f2eb6a4f07b1",
+        "actual": "c503ea435d175731b85db8674d39edf1e3371307e26e17eee6c5f2eb6a4f07b1",
+        "match": true
+      },
+      {
+        "path": "src/c141_bounds.py",
+        "expected": "49e84c4e34837427321eff25f7f39b1e5437542588dfc562917d38f9b308ec72",
+        "actual": "49e84c4e34837427321eff25f7f39b1e5437542588dfc562917d38f9b308ec72",
+        "match": true
+      },
+      {
+        "path": "src/c141_trace.py",
+        "expected": "bad41c3ebaf11d0ac3763d7d7878e1f93fe7212441b5ada537ec5bb24152f0af",
+        "actual": "bad41c3ebaf11d0ac3763d7d7878e1f93fe7212441b5ada537ec5bb24152f0af",
+        "match": true
+      },
+      {
+        "path": "src/c141_verify.py",
+        "expected": "dcd64bbc7b22ae9aa42f9dae36870659f2c481e88df3a9b825024ec929c3eadc",
+        "actual": "dcd64bbc7b22ae9aa42f9dae36870659f2c481e88df3a9b825024ec929c3eadc",
+        "match": true
+      },
+      {
+        "path": ".rt_packages/sionna/rt/radio_map_solvers/radio_map_solver.py",
+        "expected": "fc9edca842a1ea811edce5be49fc07cc7466f00f0aeeef5347c5556fcd2ca920",
+        "actual": "fc9edca842a1ea811edce5be49fc07cc7466f00f0aeeef5347c5556fcd2ca920",
+        "match": true
+      },
+      {
+        "path": "src/c95_alignment.py",
+        "expected": "9fa32e276e728d0a239c6241d00fc3740ed9d917d76bf195f9d307bdd6af49f5",
+        "actual": "9fa32e276e728d0a239c6241d00fc3740ed9d917d76bf195f9d307bdd6af49f5",
+        "match": true
+      },
+      {
+        "path": "src/c86_targeted.py",
+        "expected": "aca7688f249b78e0ff81f33a224c71c5419e36114c2f89de2d5f97ca7be72204",
+        "actual": "aca7688f249b78e0ff81f33a224c71c5419e36114c2f89de2d5f97ca7be72204",
+        "match": true
+      },
+      {
+        "path": "audit/c141_direct_receiver/fit_panel.json",
+        "expected": "38f09bfca6f50bc9ee2726a55fcee4cad60992042d066a84dcc7df4b4cd1dea0",
+        "actual": "38f09bfca6f50bc9ee2726a55fcee4cad60992042d066a84dcc7df4b4cd1dea0",
+        "match": true
+      },
+      {
+        "path": "audit/c141_direct_receiver/input_panel.json",
+        "expected": "8ab49903406143dae4b2b21e3d9da5369c886fdba6d0a9a1df8a42601f71341b",
+        "actual": "8ab49903406143dae4b2b21e3d9da5369c886fdba6d0a9a1df8a42601f71341b",
+        "match": true
+      },
+      {
+        "path": "audit/c141_direct_receiver/fit_scores.json",
+        "expected": "c7c64553f74e589e32f0a8f4900fddcd241688dc9f56a7dc96aa9433fb7b22df",
+        "actual": "c7c64553f74e589e32f0a8f4900fddcd241688dc9f56a7dc96aa9433fb7b22df",
+        "match": true
+      },
+      {
+        "path": "audit/c141_direct_receiver/bounds.json",
+        "expected": "ed5c3472b2a67a0cd5aac6c1a6d6ce30a0581428851277bd6f0ce4808e7e15c8",
+        "actual": "ed5c3472b2a67a0cd5aac6c1a6d6ce30a0581428851277bd6f0ce4808e7e15c8",
+        "match": true
+      },
+      {
+        "path": "audit/c141_direct_receiver/trajectory_summary.json",
+        "expected": "da63f91a1edef1938486c9154d9952bb87aa1c1bdc623c2af9c505c7d3f93c97",
+        "actual": "da63f91a1edef1938486c9154d9952bb87aa1c1bdc623c2af9c505c7d3f93c97",
+        "match": true
+      },
+      {
+        "path": "audit/c141_direct_receiver/verification.json",
+        "expected": "d3191381734cc7439019e20651bc9dc5289e9a673d59193da10a5fc12908c028",
+        "actual": "d3191381734cc7439019e20651bc9dc5289e9a673d59193da10a5fc12908c028",
+        "match": true
+      },
+      {
+        "path": "audit/c141_direct_receiver/decision.json",
+        "expected": "3ef2f464e3c19d1430b80f474a02d9390e06e93884ec1dc00a420580528b06a1",
+        "actual": "3ef2f464e3c19d1430b80f474a02d9390e06e93884ec1dc00a420580528b06a1",
+        "match": true
+      },
+      {
+        "path": "audit/c141_direct_receiver/fit_replay/1095.npz",
+        "expected": "efa2a95b688d48c44aa274a07f16eead64f153f04fac0d30fa51b168b09ace21",
+        "actual": "efa2a95b688d48c44aa274a07f16eead64f153f04fac0d30fa51b168b09ace21",
+        "match": true
+      },
+      {
+        "path": "audit/c141_direct_receiver/fit_replay/1551.npz",
+        "expected": "e81e327bbb862f336e21883f5ef2ed7f420252472587e5e768697f23d8efcc7e",
+        "actual": "e81e327bbb862f336e21883f5ef2ed7f420252472587e5e768697f23d8efcc7e",
+        "match": true
+      },
+      {
+        "path": "audit/c141_direct_receiver/fit_replay/1613.npz",
+        "expected": "79d51d59ce961136c7d1731c23c383788620237c395242d31a2b5b1b1562808f",
+        "actual": "79d51d59ce961136c7d1731c23c383788620237c395242d31a2b5b1b1562808f",
+        "match": true
+      },
+      {
+        "path": "audit/c141_direct_receiver/fit_replay/1649.npz",
+        "expected": "77d2de2b8dcf01d8bf2ffc82df8369841bfdc44d0c80c11a88ea3eaae9a4d9a6",
+        "actual": "77d2de2b8dcf01d8bf2ffc82df8369841bfdc44d0c80c11a88ea3eaae9a4d9a6",
+        "match": true
+      },
+      {
+        "path": "audit/c141_direct_receiver/fit_replay/1819.npz",
+        "expected": "36138bd67d433c5562a86f4547c0a94b8cc1613db074ecb7ad9b78c73793f80b",
+        "actual": "36138bd67d433c5562a86f4547c0a94b8cc1613db074ecb7ad9b78c73793f80b",
+        "match": true
+      },
+      {
+        "path": "audit/c141_direct_receiver/fit_replay/1942.npz",
+        "expected": "3802496b2fe5aa57251ebc0df07f22a273c4060f97cc5d3003a207917c2b4ced",
+        "actual": "3802496b2fe5aa57251ebc0df07f22a273c4060f97cc5d3003a207917c2b4ced",
+        "match": true
+      },
+      {
+        "path": "audit/c141_direct_receiver/fit_replay/2003.npz",
+        "expected": "6a503b30effec0fd4eee8bba1f4412454f15a512ba03bd5691099f62dc588b70",
+        "actual": "6a503b30effec0fd4eee8bba1f4412454f15a512ba03bd5691099f62dc588b70",
+        "match": true
+      },
+      {
+        "path": "audit/c141_direct_receiver/fit_replay/2539.npz",
+        "expected": "efb7555613c03e06f57e6b3f0f47d58bc4e256cb802a606d0096d5391a8a3452",
+        "actual": "efb7555613c03e06f57e6b3f0f47d58bc4e256cb802a606d0096d5391a8a3452",
+        "match": true
+      },
+      {
+        "path": "audit/c141_direct_receiver/fit_replay/2592.npz",
+        "expected": "663734201774a1c77f10a0a58ceebc64f1e2152e86b583e27d5f587079b0c17b",
+        "actual": "663734201774a1c77f10a0a58ceebc64f1e2152e86b583e27d5f587079b0c17b",
+        "match": true
+      },
+      {
+        "path": "audit/c141_direct_receiver/fit_replay/3063.npz",
+        "expected": "c528d59c159acd1dced1e35c51aa645aa38535c4755b8fbbe09b9eb09af9a791",
+        "actual": "c528d59c159acd1dced1e35c51aa645aa38535c4755b8fbbe09b9eb09af9a791",
+        "match": true
+      },
+      {
+        "path": "audit/c141_direct_receiver/fit_replay/3582.npz",
+        "expected": "9e50331414003dd7bbb52c3559236e6dbae6eea7337c0e689fdb57373e5e8aab",
+        "actual": "9e50331414003dd7bbb52c3559236e6dbae6eea7337c0e689fdb57373e5e8aab",
+        "match": true
+      },
+      {
+        "path": "audit/c141_direct_receiver/fit_replay/3970.npz",
+        "expected": "61fd3e60932d5d506c3db4cba638fb3806858802fc27cc0eb1e9cde5d9e4ff68",
+        "actual": "61fd3e60932d5d506c3db4cba638fb3806858802fc27cc0eb1e9cde5d9e4ff68",
+        "match": true
+      },
+      {
+        "path": "audit/c141_direct_receiver/fit_replay/452.npz",
+        "expected": "b03be533460a9fd5999faf5acf3179538591220ff45fcb4bf56a9be1ab7be678",
+        "actual": "b03be533460a9fd5999faf5acf3179538591220ff45fcb4bf56a9be1ab7be678",
+        "match": true
+      },
+      {
+        "path": "audit/c141_direct_receiver/fit_replay/503.npz",
+        "expected": "df34e6ccb5ed4c5363083035548f02a073f66b6e87f7bcf26bca9aebfe77d50e",
+        "actual": "df34e6ccb5ed4c5363083035548f02a073f66b6e87f7bcf26bca9aebfe77d50e",
+        "match": true
+      },
+      {
+        "path": "audit/c141_direct_receiver/fit_replay/817.npz",
+        "expected": "f1be9121b7bffdbd8fe008d98e67595126f703dbef14097ab2be5dadc7c9a3f7",
+        "actual": "f1be9121b7bffdbd8fe008d98e67595126f703dbef14097ab2be5dadc7c9a3f7",
+        "match": true
+      },
+      {
+        "path": "audit/c141_direct_receiver/fit_replay/895.npz",
+        "expected": "e26cb46b67e1f550f9f7c1e40b0d24754a6b928bb2ab861d953a022389b06a05",
+        "actual": "e26cb46b67e1f550f9f7c1e40b0d24754a6b928bb2ab861d953a022389b06a05",
+        "match": true
+      }
+    ],
+    "C82_submission": [
+      {
+        "path": "submissions/C82_提交版_20261110/submission_C82.csv",
+        "expected": "fed0c2ee1b4cb185acb8226e731c3fb7cd529e4f88c9b7e61ab26124d894b6ac",
+        "actual": "fed0c2ee1b4cb185acb8226e731c3fb7cd529e4f88c9b7e61ab26124d894b6ac",
+        "match": true
+      },
+      {
+        "path": "releases/C82_20261103.tar.gz",
+        "expected": "4a4c4c2839696de77c8815f80d675ebaa99f77dee7d99b219b047c921456f8b7",
+        "actual": "4a4c4c2839696de77c8815f80d675ebaa99f77dee7d99b219b047c921456f8b7",
+        "match": true
+      }
+    ]
+  },
+  "summary": {
+    "C82_release_files": {
+      "count": 8,
+      "passed": 8,
+      "mismatches": []
+    },
+    "C82_release_implementation": {
+      "count": 43,
+      "passed": 43,
+      "mismatches": []
+    },
+    "C82_active_files": {
+      "count": 8,
+      "passed": 8,
+      "mismatches": []
+    },
+    "C82_active_implementation": {
+      "count": 43,
+      "passed": 43,
+      "mismatches": []
+    },
+    "C141_provenance": {
+      "count": 32,
+      "passed": 32,
+      "mismatches": []
+    },
+    "C82_submission": {
+      "count": 2,
+      "passed": 2,
+      "mismatches": []
+    }
+  },
+  "GPU": {
+    "returncode": 0,
+    "lines": [
+      "1, GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009, NVIDIA H100 80GB HBM3, 16209, 99",
+      "3, GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0, NVIDIA H100 80GB HBM3, 61730, 100",
+      "4, GPU-70b6fceb-c7c4-9467-3c81-097c9284c160, NVIDIA A800 80GB PCIe, 8227, 99"
+    ],
+    "stderr": ""
+  },
+  "GPU_compute": {
+    "returncode": 0,
+    "lines": [
+      "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009, 1217751, 14716",
+      "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009, 34584, 1464",
+      "GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0, 4061959, 15520",
+      "GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0, 30515, 44668",
+      "GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0, 32511, 1464",
+      "GPU-70b6fceb-c7c4-9467-3c81-097c9284c160, 33456, 6978",
+      "GPU-70b6fceb-c7c4-9467-3c81-097c9284c160, 34974, 1108"
+    ],
+    "stderr": ""
+  },
+  "CC_processes_excluding_handoff_ancestors": [],
+  "C82_score": {
+    "model": "c82_selected",
+    "scope": "complete official fixed validation,2330maps/band; not hidden test",
+    "RMSE": [
+      2.246377454774535,
+      2.5791498899052434
+    ],
+    "combined_rmse_db_masked": 2.4127636723398895,
+    "valid_pixels": [
+      151537682,
+      135926253
+    ],
+    "goal_both_le_1db": false,
+    "C10_official_RMSE": [
+      2.96720214449994,
+      3.3879795086817914
+    ],
+    "relative_gain_vs_C10": [
+      0.24293076596130758,
+      0.23873509763087397
+    ],
+    "official_source_revision": "fa3ef9b89f964556753a18be102a5aadeb723377",
+    "scorer": "Reused previously verified unmodified official score_submission.py and metrics.py",
+    "source_and_groundtruth_adapter": "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/audit/c10_official_scorer_20261101",
+    "official_report": "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/audit/c82_selected_official/official_report.json",
+    "independent_score": "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/runs/c82_selected/score_val_complete.json",
+    "website_submission": false
+  },
+  "C141_decision": {
+    "status": "FIT_compatibility_failed_no_promotion",
+    "fit_terrains": 16,
+    "fit_points": 239,
+    "counterexample_points": 111,
+    "remaining_fixed_donor_convex_export_counterexamples": 22,
+    "remaining_counterexamples_per_band": [
+      22,
+      22
+    ],
+    "gate_passed": false,
+    "same_monitor_evaluated_this_round": false,
+    "neural_constraint_training_run": false,
+    "expanded_training": false,
+    "official_VAL_labels_used": false,
+    "GPU_used": false,
+    "CPU_threads": 2,
+    "C82_changed": false,
+    "best_saved_official_validation_RMSE": [
+      2.246377454774535,
+      2.5791498899052434
+    ],
+    "key_findings": [
+      "Independent area integration agrees with old direct calculation; denser area quadrature does not explain large deficits.",
+      "Native measurement-surface stepping alters receiver coverage and some ground first intersections.",
+      "Finite donor contradictions remain under all convex combinations of current donor direct powers.",
+      "First-hit-only removes every counterexample direct component, but destroys ordinary-point accuracy.",
+      "No tested repair jointly matches counterexample power and preserves C82 accuracy."
+    ],
+    "not_established": [
+      "Original release geometry and continuous TX reconstructed exactly",
+      "Remaining loss is all numerical receiver artifacts",
+      "Original inputs insufficient",
+      "1dB target impossible",
+      "CPU and CUDA ray intersections agree"
+    ],
+    "next_discriminating_check": "Frozen finite cases, same geometry and global directions, LLVM versus CUDA when an allowed GPU is idle; no training and no coordinate sweep."
+  },
+  "no_new_training": true,
+  "no_new_inference": true,
+  "no_system_modification": true
+}

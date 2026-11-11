@@ -1,0 +1,28 @@
+[
+  {
+    "pid": 676315,
+    "mode": "plain",
+    "card": 1,
+    "command": [
+      "./run_gpu.sh",
+      "1",
+      "src/c118_location.py",
+      "--mode",
+      "plain"
+    ],
+    "time": 1793798054.602003
+  },
+  {
+    "pid": 676316,
+    "mode": "location",
+    "card": 3,
+    "command": [
+      "./run_gpu.sh",
+      "3",
+      "src/c118_location.py",
+      "--mode",
+      "location"
+    ],
+    "time": 1793798054.602624
+  }
+]

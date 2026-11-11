@@ -1,0 +1,7 @@
+{
+  "official_source": ".rt_packages/sionna/rt/radio_map_solvers/radio_map_solver.py",
+  "official_sha256": "fc9edca842a1ea811edce5be49fc07cc7466f00f0aeeef5347c5556fcd2ca920",
+  "control": "Receiver-hit ray continuation only: same normal separation, advance along incoming ray direction. No input geometry changes.",
+  "reason": "Ground-only visibility agrees but official RM differs; isolate receiver traversal before attributing differences.",
+  "not_a_candidate_prediction": "This is an implementation diagnostic. It is not claimed to reproduce original labels or improve scores."
+}

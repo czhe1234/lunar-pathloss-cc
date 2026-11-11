@@ -1,0 +1,94 @@
+{
+  "scope": "All official fixed VAL pixels with per-band official masks; same nominal-geometry zone definitions for C4 and C10",
+  "zones_are_input_geometry_not_true_ray_states": true,
+  "bands": {
+    "415": {
+      "height_sensitive": {
+        "valid_pixels": 11472641,
+        "pixel_fraction": 0.07570817270386913,
+        "C4_rmse": 9.0896242526774,
+        "C10_rmse": 5.675546892925498,
+        "C10_SSE_fraction": 0.27698989767080207
+      },
+      "clear_near_boundary": {
+        "valid_pixels": 21918634,
+        "pixel_fraction": 0.14464147603894323,
+        "C4_rmse": 3.1722463151235125,
+        "C10_rmse": 3.0428715971790092,
+        "C10_SSE_fraction": 0.15211282464694878
+      },
+      "clear_grazing": {
+        "valid_pixels": 27192887,
+        "pixel_fraction": 0.17944637030939936,
+        "C4_rmse": 2.402497285443775,
+        "C10_rmse": 2.3465472260274054,
+        "C10_SSE_fraction": 0.11222742790205395
+      },
+      "clear_robust": {
+        "valid_pixels": 56545620,
+        "pixel_fraction": 0.3731456048007914,
+        "C4_rmse": 0.6151285851106806,
+        "C10_rmse": 0.5877036471802555,
+        "C10_SSE_fraction": 0.014638643533562335
+      },
+      "shallow_blocked": {
+        "valid_pixels": 25460487,
+        "pixel_fraction": 0.16801423028233994,
+        "C4_rmse": 5.289596569790904,
+        "C10_rmse": 4.418899027014184,
+        "C10_SSE_fraction": 0.37263183542105743
+      },
+      "deep_blocked": {
+        "valid_pixels": 8947413,
+        "pixel_fraction": 0.05904414586465695,
+        "C4_rmse": 4.006733571400418,
+        "C10_rmse": 3.262916075720196,
+        "C10_SSE_fraction": 0.07139937082557539
+      }
+    },
+    "58": {
+      "height_sensitive": {
+        "valid_pixels": 10970955,
+        "pixel_fraction": 0.0807125537404463,
+        "C4_rmse": 14.521594556534188,
+        "C10_rmse": 7.504507152688343,
+        "C10_SSE_fraction": 0.39600793934486983
+      },
+      "clear_near_boundary": {
+        "valid_pixels": 21920847,
+        "pixel_fraction": 0.16127014845322044,
+        "C4_rmse": 3.67637904786393,
+        "C10_rmse": 3.4367020852869716,
+        "C10_SSE_fraction": 0.16594195839397832
+      },
+      "clear_grazing": {
+        "valid_pixels": 27194339,
+        "pixel_fraction": 0.2000668627273938,
+        "C4_rmse": 2.361203508369255,
+        "C10_rmse": 2.3050359533691225,
+        "C10_SSE_fraction": 0.09260811025918111
+      },
+      "clear_robust": {
+        "valid_pixels": 56545390,
+        "pixel_fraction": 0.4160005058036875,
+        "C4_rmse": 0.7504022466771472,
+        "C10_rmse": 0.714341388249447,
+        "C10_SSE_fraction": 0.018493705530137884
+      },
+      "shallow_blocked": {
+        "valid_pixels": 17227713,
+        "pixel_fraction": 0.12674308766533865,
+        "C4_rmse": 5.535857908491789,
+        "C10_rmse": 5.128516747519,
+        "C10_SSE_fraction": 0.2904198466677607
+      },
+      "deep_blocked": {
+        "valid_pixels": 2067009,
+        "pixel_fraction": 0.015206841609913282,
+        "C4_rmse": 5.547252985149303,
+        "C10_rmse": 5.250937196931267,
+        "C10_SSE_fraction": 0.03652843980407219
+      }
+    }
+  }
+}

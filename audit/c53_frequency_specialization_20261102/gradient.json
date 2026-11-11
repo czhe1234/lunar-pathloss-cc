@@ -1,0 +1,22 @@
+{
+  "gpu": {
+    "uuid": "GPU-70b6fceb-c7c4-9467-3c81-097c9284c160",
+    "logical_device": 0,
+    "name": "NVIDIA A800 80GB PCIe",
+    "memory_bytes": 84974239744,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "FIT_points": 131072,
+  "shared_gradients": true,
+  "dropout_during_measurement": false,
+  "batch_gradient_cosine_mean": 0.33178174030035734,
+  "mean_gradient_cosine": 0.17042821645736694,
+  "norms": [
+    0.0038725140038877726,
+    0.006130129564553499
+  ],
+  "interpretation": "Negative mean-gradient cosine indicates antagonistic local updates; does not by itself prove frequency separation improves DEV.",
+  "run_separate_band_screen_if_cosine_below_minus020": false,
+  "official_VAL_used": false
+}

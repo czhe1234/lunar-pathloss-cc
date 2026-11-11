@@ -1,0 +1,36 @@
+{
+  "batch": 8,
+  "epochs": 8,
+  "prior": [
+    [
+      0.9595731496810913,
+      0.0247468501329422,
+      0.01568000018596649
+    ],
+    [
+      0.9525801539421082,
+      0.02747642807662487,
+      0.019943438470363617
+    ]
+  ],
+  "means": [
+    [
+      -0.1289464682340622,
+      9.543712615966797,
+      -7.240366458892822
+    ],
+    [
+      -0.1363571435213089,
+      9.92215347290039,
+      -7.642919540405273
+    ]
+  ],
+  "initial_sha256": "e0b45103eb00a71b994beefa9e68e2f7f8947a603d2e715af642d0913c393d5a",
+  "parameters": 15216076,
+  "order_sha256": "fde3843ff009969e99c1f79f3f00ce2ac0b2cc3c06624bb4a106b136484d52fb",
+  "source_sha256": {
+    "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/src/c126_train.py": "5385a166f712b4b0cd21c76f33a680c0045f077c4a3c85d324390f963a6822e5",
+    "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/src/c126_statefield.py": "f37db210f7cbd8737d2ae404f8e9668931fe44fdd9cf4d1a884136d7852e10d5"
+  },
+  "official_val_used": false
+}

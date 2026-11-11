@@ -1,0 +1,9 @@
+{
+  "affine_interpolation_max_error": 7.105427357601002e-15,
+  "piecewise_linear_power_fivepoint_kernel_max_error": 4.440892098500626e-16,
+  "integer_kernel_agreement": [
+    0.0,
+    0.0
+  ],
+  "continuous_rotation_error": 2.842170943040401e-14
+}

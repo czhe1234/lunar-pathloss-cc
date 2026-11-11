@@ -1,0 +1,73 @@
+{
+  "status": "complete",
+  "variant": "grid",
+  "stage": "fit64",
+  "best_step": 500,
+  "last_step": 4000,
+  "seconds": 674.5241067409515,
+  "DEV64_full": {
+    "RMSE": [
+      8.229111462800375,
+      13.596708746615173
+    ],
+    "combined": 10.912910104707773,
+    "SSE": [
+      1164142638.8534162,
+      2959000623.290664
+    ],
+    "count": [
+      17190967.0,
+      16005803.0
+    ],
+    "maps": 264,
+    "pixels_per_map": 65536
+  },
+  "FIT_panel_full": {
+    "RMSE": [
+      6.3418075351175505,
+      10.366306376072426
+    ],
+    "combined": 8.354056955594988,
+    "SSE": [
+      41911923.71549295,
+      98879279.9172506
+    ],
+    "count": [
+      1042105.0,
+      920147.0
+    ],
+    "maps": 16,
+    "pixels_per_map": 65536
+  },
+  "C38_DEV64": {
+    "RMSE": [
+      2.502945282482443,
+      2.7741507216762624
+    ],
+    "combined": 2.638548002079353,
+    "SSE": [
+      107696854.14609745,
+      123179255.00388166
+    ],
+    "count": [
+      17190967.0,
+      16005803.0
+    ],
+    "maps": 264
+  },
+  "gpu_peak_GB": 16.354409984,
+  "official_VAL_loaded": false,
+  "parameters": 6089570,
+  "mechanism": {
+    "attention_used": true,
+    "spatial_KV_flip_mean_abs_delta_db": [
+      1.0278306007385254,
+      2.237525701522827
+    ],
+    "zero_attention_mean_abs_delta_db": [
+      2.2130627632141113,
+      2.9184508323669434
+    ],
+    "interpretation": "Internal branch sensitivity only; not evidence that attention recovers actual paths"
+  }
+}

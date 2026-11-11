@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "GPU": {
+    "uuid": "GPU-70b6fceb-c7c4-9467-3c81-097c9284c160",
+    "logical_device": 0,
+    "name": "NVIDIA A800 80GB PCIe",
+    "memory_bytes": 84974239744,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "flat_peak_fraction": 0.75,
+  "ridge_peak_fraction": 0.5,
+  "rotation_patch_max_error": 6.699562072753906e-05,
+  "labels_read": false,
+  "masks_read": false
+}

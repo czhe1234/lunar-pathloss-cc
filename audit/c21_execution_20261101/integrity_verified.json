@@ -1,0 +1,35 @@
+{
+  "unix": 1793520940.6533017,
+  "raw_file_stats_unchanged": {
+    "README.md": true,
+    "metadata.json": true,
+    "manifest.json": true,
+    "train_index.csv": true,
+    "val_index.csv": true,
+    "val_terrains.txt": true,
+    "sample_submission.csv": true,
+    "subset_index.csv": true,
+    "train_hm.npy": true,
+    "train_pl415.npy": true,
+    "train_pl58.npy": true,
+    "train_mask415.npy": true,
+    "train_mask58.npy": true,
+    "val_hm.npy": true,
+    "val_pl415.npy": true,
+    "val_pl58.npy": true,
+    "val_mask415.npy": true,
+    "val_mask58.npy": true
+  },
+  "C10_official_weights_unchanged": {
+    "415": "27f6fb0476555bbeb858aadfc30072d10a8220d644076e0944ee8d0988c1e1c0",
+    "58": "cdbc464e748f422ed6d49a511c86ec98b70c5f089e7fa1fdb4f684092b0ad9ff"
+  },
+  "C21r1_sources_match_frozen_config": {
+    "c21_pair_r1.py": "5a034d400b3de02e16016798fa324d582e42ab2c99370aa58c2c83c36a002766",
+    "c21_model_r1.py": "3ce00e17040ffeafebf88a8e60aaeb8b43c1250da4edfebf000905bc51e6be95",
+    "c21_model.py": "3ad80f8b8a9c491fa7372bc5f334372822ce5575617ad9365e97d7870d7582b4",
+    "c21_data.py": "2d802eb8206fbe2b5ff92460b6145b63fac8d0c9d35e0ee55438b187026315a8",
+    "c21_phase.cpp": "f6283837b8bc19cf79092521dbc51aacac6b3e0efe306c99f4869fdb780a78c8",
+    "c21_train_r1.py": "f14ab5132d3bef2a2684d3bc42337da79dbf7c487f024ba387b5735453b0fa70"
+  }
+}

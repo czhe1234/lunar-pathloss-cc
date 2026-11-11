@@ -1,0 +1,205 @@
+{
+  "stage": "fit64",
+  "scope": "frozen 64-terrain internal DEV,264 maps, all valid pixels; official TRAIN only",
+  "models": {
+    "cnn": {
+      "RMSE": [
+        8.113521720859657,
+        14.249138190708548
+      ],
+      "combined": 11.181329955784102,
+      "FIT_panel_full": {
+        "RMSE": [
+          4.723111281906165,
+          6.275519822398018
+        ],
+        "combined": 5.499315552152092,
+        "SSE": [
+          23247049.26580165,
+          36237366.29391469
+        ],
+        "count": [
+          1042105.0,
+          920147.0
+        ],
+        "maps": 16,
+        "pixels_per_map": 65536
+      },
+      "best_step": 1500,
+      "seconds": 673.6375424861908,
+      "parameters": 6089570,
+      "gpu_peak_GB": 11.962066432,
+      "mechanism": {
+        "attention_used": false
+      }
+    },
+    "grid": {
+      "RMSE": [
+        8.229111462801308,
+        13.596708746615366
+      ],
+      "combined": 10.912910104708338,
+      "FIT_panel_full": {
+        "RMSE": [
+          6.3418075351175505,
+          10.366306376072426
+        ],
+        "combined": 8.354056955594988,
+        "SSE": [
+          41911923.71549295,
+          98879279.9172506
+        ],
+        "count": [
+          1042105.0,
+          920147.0
+        ],
+        "maps": 16,
+        "pixels_per_map": 65536
+      },
+      "best_step": 500,
+      "seconds": 674.5241067409515,
+      "parameters": 6089570,
+      "gpu_peak_GB": 16.354409984,
+      "mechanism": {
+        "attention_used": true,
+        "spatial_KV_flip_mean_abs_delta_db": [
+          1.0278306007385254,
+          2.237525701522827
+        ],
+        "zero_attention_mean_abs_delta_db": [
+          2.2130627632141113,
+          2.9184508323669434
+        ],
+        "interpretation": "Internal branch sensitivity only; not evidence that attention recovers actual paths"
+      }
+    },
+    "path": {
+      "RMSE": [
+        6.4897303279605545,
+        10.245894461227584
+      ],
+      "combined": 8.367812394594068,
+      "FIT_panel_full": {
+        "RMSE": [
+          3.9917363522066904,
+          4.376788735086836
+        ],
+        "combined": 4.1842625436467635,
+        "SSE": [
+          16604858.45366665,
+          17626593.23416223
+        ],
+        "count": [
+          1042105.0,
+          920147.0
+        ],
+        "maps": 16,
+        "pixels_per_map": 65536
+      },
+      "best_step": 2500,
+      "seconds": 714.0545086860657,
+      "parameters": 6089570,
+      "gpu_peak_GB": 16.354409984,
+      "mechanism": {
+        "attention_used": true,
+        "spatial_KV_flip_mean_abs_delta_db": [
+          5.144364833831787,
+          9.904903411865234
+        ],
+        "zero_attention_mean_abs_delta_db": [
+          7.631032466888428,
+          18.13870620727539
+        ],
+        "interpretation": "Internal branch sensitivity only; not evidence that attention recovers actual paths"
+      }
+    }
+  },
+  "paired_terrain_bootstrap": {
+    "grid_minus_cnn": {
+      "delta_RMSE_db": [
+        0.11558974194165117,
+        -0.6524294440931815
+      ],
+      "CI95": [
+        [
+          -0.22885444065551247,
+          0.4168600275277326
+        ],
+        [
+          -1.150664168010864,
+          0.05920645522422742
+        ]
+      ],
+      "mean_delta": -0.26841985107576516,
+      "mean_CI95": [
+        -0.6213948799214332,
+        0.19435377700124806
+      ]
+    },
+    "path_minus_cnn": {
+      "delta_RMSE_db": [
+        -1.6237913928991023,
+        -4.003243729480964
+      ],
+      "CI95": [
+        [
+          -2.228727631015379,
+          -1.058478974764214
+        ],
+        [
+          -5.3246754866579975,
+          -2.4539965542361757
+        ]
+      ],
+      "mean_delta": -2.813517561190033,
+      "mean_CI95": [
+        -3.6955321810232475,
+        -1.7637437264191285
+      ]
+    },
+    "path_minus_grid": {
+      "delta_RMSE_db": [
+        -1.7393811348407535,
+        -3.3508142853877825
+      ],
+      "CI95": [
+        [
+          -2.3170860978899834,
+          -0.9870258848290014
+        ],
+        [
+          -4.584045444134343,
+          -1.6853949650994224
+        ]
+      ],
+      "mean_delta": -2.545097710114268,
+      "mean_CI95": [
+        -3.4249724802667387,
+        -1.3413634166474009
+      ]
+    }
+  },
+  "C38_same_DEV64": {
+    "RMSE": [
+      2.502945282482443,
+      2.7741507216762624
+    ],
+    "combined": 2.638548002079353,
+    "SSE": [
+      107696854.14609745,
+      123179255.00388166
+    ],
+    "count": [
+      17190967.0,
+      16005803.0
+    ],
+    "maps": 264
+  },
+  "winner_by_mean_band_RMSE": "path",
+  "independent_score_verified": true,
+  "same_map_order": true,
+  "same_initial_weights": true,
+  "scaling_improvement_db": null,
+  "promote_full_FIT": false,
+  "limits": "One training seed, bootstrap conditions on these trained models; C38 used all FIT while these candidates used subsets; no official VAL scores"
+}

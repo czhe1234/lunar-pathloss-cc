@@ -1,0 +1,24 @@
+{
+  "complete": true,
+  "maps": 25720,
+  "source": "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/features/c3/train.npy",
+  "shape": [
+    25720,
+    256,
+    256,
+    2
+  ],
+  "input_only": true,
+  "PL_or_validity_masks_read": false,
+  "formula": "ExistingC7 margin: max8bin[2sinh(3g)+.95t+(3-TXheight)(1-t)], TXheight3/2",
+  "interpretation": "TX visibility to terrain+.05;8bin midpoint proxy; height3 uncertainty<=.059375m, not actual path visibility",
+  "gpu": {
+    "uuid": "GPU-70b6fceb-c7c4-9467-3c81-097c9284c160",
+    "logical_device": 0,
+    "name": "NVIDIA A800 80GB PCIe",
+    "memory_bytes": 84974239744,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "seconds": 144.0045051574707
+}

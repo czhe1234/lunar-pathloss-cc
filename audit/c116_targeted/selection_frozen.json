@@ -1,0 +1,21 @@
+{
+  "bands": [
+    {
+      "band": 0,
+      "model": "runs/c116_threshold_0/model.cbm",
+      "sha256": "4ffa6172c597de28101a32530adb892c2adc044f51de035fa850f8733bf2169e",
+      "trees": 1002,
+      "monitor_rmse": 2.131873923610782,
+      "eligible": true
+    },
+    {
+      "band": 1,
+      "model": "runs/c116_threshold_1/model.cbm",
+      "sha256": "17efbaa19fe4b6cfb72f2a594d420d1037eaabee7cfcdc5a3de132854cefac76",
+      "trees": 272,
+      "monitor_rmse": 2.409638322551682,
+      "eligible": true
+    }
+  ],
+  "selection": "perband bestmonitor iteration including0 beforeconfirm; no blending"
+}

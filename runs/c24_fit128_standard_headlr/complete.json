@@ -1,0 +1,84 @@
+{
+  "status": "capacity_check_complete",
+  "steps": 3000,
+  "full_FIT": {
+    "rmse": [
+      2.0459741922925327,
+      2.1731128078466906
+    ],
+    "score": 2.109543500069612,
+    "sse": [
+      34841462.18519451,
+      34730607.544866376
+    ],
+    "count": [
+      8323310.0,
+      7354410.0
+    ],
+    "maps": 128,
+    "scope": "complete valid pixels fixed128FIT; capacity diagnostic, not officialVAL",
+    "seconds": 8.35340428352356,
+    "zones_definition": "floor-TX profile max elevation: clear < -0.25 m, boundary within +/-0.25 m, blocked >0.25 m",
+    "zones": {
+      "clear": {
+        "rmse": [
+          1.5126573515312698,
+          1.5514643208398458
+        ],
+        "score": 1.5320608361855577,
+        "sse": [
+          12884845.739309218,
+          13555242.390764382
+        ],
+        "count": [
+          5631163.0,
+          5631495.0
+        ],
+        "maps": 128
+      },
+      "boundary": {
+        "rmse": [
+          3.0238923999740464,
+          3.6904157892042946
+        ],
+        "score": 3.3571540945891707,
+        "sse": [
+          7326122.05151783,
+          10404486.498750597
+        ],
+        "count": [
+          801201.0,
+          763959.0
+        ],
+        "maps": 128
+      },
+      "blocked": {
+        "rmse": [
+          2.7815696407800914,
+          3.3513996979502156
+        ],
+        "score": 3.0664846693651535,
+        "sse": [
+          14630494.394367447,
+          10770878.655351387
+        ],
+        "count": [
+          1890946.0,
+          958956.0
+        ],
+        "maps": 128
+      }
+    }
+  },
+  "query_order_sha256": "5b1eb3b365e9a55a441afb5b3a0636654057bcf73c6b49214fbac5ed61ed33a0",
+  "map_order_sha256": "205995d5ee1cf2abebc90cf0b8ba9110e3f644cdc5167fc2291f9730557f185f",
+  "gpu": {
+    "uuid": "GPU-70b6fceb-c7c4-9467-3c81-097c9284c160",
+    "logical_device": 0,
+    "name": "NVIDIA A800 80GB PCIe",
+    "memory_bytes": 84974239744,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "seconds": 476.0974495410919
+}

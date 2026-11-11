@@ -1,0 +1,16 @@
+{
+  "created_utc": "2026-11-01T14:05:55.535899+00:00",
+  "rationale": "Both C10 bands selected1200tree cap; test continued fitting before asserting saturation. No previous C11/C13 extension exists in CC.",
+  "parent": "runs/c10_points_phase_geometry_s20261101",
+  "input_features": "features/c10_points; targets and masks features/c6_points",
+  "fit_maps": 23158,
+  "dev_maps": 2562,
+  "max_total_trees": 6000,
+  "extra_trees": 4800,
+  "early_stopping_rounds": 300,
+  "parameters": "same saved C10 parameters, only continue tree count; CPU threads12 per band",
+  "seed": 20261101,
+  "selection": "Same DEV sampled points for early stopping; then completeDEV for candidate. Preserve originalC10 and prior fullrefit.",
+  "promotion": "CompleteDEV must improve both bands and paired terrain CI; report actual relative gain, never call a small gain large. Official validation only after full-train refit.",
+  "officialVAL_used": false
+}

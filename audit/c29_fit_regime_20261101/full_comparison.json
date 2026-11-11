@@ -1,0 +1,129 @@
+{
+  "scope": "128 FIT full valid pixels, matched3000updates, only LR differs; not officialVAL",
+  "models": {
+    "low": {
+      "rmse": [
+        2.0485077650166996,
+        2.1755526911903504
+      ],
+      "score": 2.1120302281035253,
+      "lr": 0.0002,
+      "dev_panel": [
+        3.4733171139837618,
+        4.2907792814419246
+      ]
+    },
+    "mid": {
+      "rmse": [
+        2.0254454558518384,
+        2.1534886426033735
+      ],
+      "score": 2.089467049227606,
+      "lr": 0.0005,
+      "dev_panel": [
+        3.457858000479012,
+        4.299981295916949
+      ]
+    },
+    "high": {
+      "rmse": [
+        2.0363407695644797,
+        2.1674555647781557
+      ],
+      "score": 2.101898167171318,
+      "lr": 0.001,
+      "dev_panel": [
+        3.410802844911636,
+        4.246150704146069
+      ]
+    }
+  },
+  "checks": {
+    "low": {
+      "independent_max_difference_db": 0.0
+    },
+    "mid": {
+      "independent_max_difference_db": 0.0
+    },
+    "high": {
+      "independent_max_difference_db": 0.0
+    },
+    "initial_model_map_and_query_order_equal": true,
+    "hard_small_initial_model_matches_original": true,
+    "hard_small_config_matches_original_except_FIT_ids": true
+  },
+  "delta_vs_low": {
+    "mid": [
+      -0.023062309164861183,
+      -0.02206404858697697
+    ],
+    "high": [
+      -0.012166995452219886,
+      -0.008097126412194733
+    ]
+  },
+  "advance_full_data_higher_lr": [],
+  "hard_small": {
+    "status": "small_fit_gate_passed",
+    "event": "eval",
+    "step": 5500,
+    "seconds": 272.29564595222473,
+    "eval_seconds": 0.4723374843597412,
+    "rmse": [
+      0.48985330187805987,
+      0.3793046178488165
+    ],
+    "score": 0.4345789598634382,
+    "sse": [
+      59637.76837943315,
+      24377.382770509997
+    ],
+    "count": [
+      248536.0,
+      169438.0
+    ],
+    "maps": [
+      {
+        "sse": [
+          16071.777072809014,
+          4882.243668510928
+        ],
+        "count": [
+          61961.0,
+          40455.0
+        ]
+      },
+      {
+        "sse": [
+          14895.280016629142,
+          5195.9937330219545
+        ],
+        "count": [
+          62740.0,
+          33921.0
+        ]
+      },
+      {
+        "sse": [
+          14633.58925130176,
+          6636.387701176558
+        ],
+        "count": [
+          60552.0,
+          42413.0
+        ]
+      },
+      {
+        "sse": [
+          14037.122038693236,
+          7662.757667800557
+        ],
+        "count": [
+          63283.0,
+          52649.0
+        ]
+      }
+    ],
+    "geometry_weights_norm": 0.0
+  }
+}

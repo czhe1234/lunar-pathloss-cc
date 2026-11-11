@@ -1,0 +1,278 @@
+{
+  "rows": [
+    {
+      "group": "fit",
+      "terrain": "00172",
+      "pos": 114,
+      "index": 951
+    },
+    {
+      "group": "fit",
+      "terrain": "00309",
+      "pos": 177,
+      "index": 1477
+    },
+    {
+      "group": "fit",
+      "terrain": "00451",
+      "pos": 219,
+      "index": 1979
+    },
+    {
+      "group": "fit",
+      "terrain": "00707",
+      "pos": 371,
+      "index": 2786
+    },
+    {
+      "group": "fit",
+      "terrain": "00923",
+      "pos": 491,
+      "index": 3730
+    },
+    {
+      "group": "fit",
+      "terrain": "01280",
+      "pos": 675,
+      "index": 5206
+    },
+    {
+      "group": "fit",
+      "terrain": "01535",
+      "pos": 689,
+      "index": 6184
+    },
+    {
+      "group": "fit",
+      "terrain": "01794",
+      "pos": 759,
+      "index": 7066
+    },
+    {
+      "group": "fit",
+      "terrain": "01900",
+      "pos": 823,
+      "index": 7417
+    },
+    {
+      "group": "fit",
+      "terrain": "02318",
+      "pos": 960,
+      "index": 8834
+    },
+    {
+      "group": "fit",
+      "terrain": "02527",
+      "pos": 984,
+      "index": 9426
+    },
+    {
+      "group": "fit",
+      "terrain": "02692",
+      "pos": 998,
+      "index": 10074
+    },
+    {
+      "group": "fit",
+      "terrain": "02857",
+      "pos": 1068,
+      "index": 10823
+    },
+    {
+      "group": "fit",
+      "terrain": "03259",
+      "pos": 1145,
+      "index": 12681
+    },
+    {
+      "group": "fit",
+      "terrain": "03367",
+      "pos": 1260,
+      "index": 13131
+    },
+    {
+      "group": "fit",
+      "terrain": "03578",
+      "pos": 1330,
+      "index": 13924
+    },
+    {
+      "group": "fit",
+      "terrain": "03761",
+      "pos": 1350,
+      "index": 14493
+    },
+    {
+      "group": "fit",
+      "terrain": "03982",
+      "pos": 1365,
+      "index": 15345
+    },
+    {
+      "group": "fit",
+      "terrain": "04215",
+      "pos": 1489,
+      "index": 16360
+    },
+    {
+      "group": "fit",
+      "terrain": "04412",
+      "pos": 1552,
+      "index": 16987
+    },
+    {
+      "group": "fit",
+      "terrain": "04760",
+      "pos": 1727,
+      "index": 18048
+    },
+    {
+      "group": "fit",
+      "terrain": "05234",
+      "pos": 1761,
+      "index": 19822
+    },
+    {
+      "group": "fit",
+      "terrain": "05463",
+      "pos": 1828,
+      "index": 20532
+    },
+    {
+      "group": "fit",
+      "terrain": "05819",
+      "pos": 2164,
+      "index": 22003
+    },
+    {
+      "group": "fit",
+      "terrain": "06182",
+      "pos": 2249,
+      "index": 23523
+    },
+    {
+      "group": "fit",
+      "terrain": "06333",
+      "pos": 2312,
+      "index": 24101
+    },
+    {
+      "group": "fit",
+      "terrain": "06563",
+      "pos": 2477,
+      "index": 25001
+    },
+    {
+      "group": "select",
+      "terrain": "00522",
+      "pos": 248,
+      "index": 2166
+    },
+    {
+      "group": "select",
+      "terrain": "00748",
+      "pos": 426,
+      "index": 2973
+    },
+    {
+      "group": "select",
+      "terrain": "01167",
+      "pos": 661,
+      "index": 4851
+    },
+    {
+      "group": "select",
+      "terrain": "01297",
+      "pos": 678,
+      "index": 5221
+    },
+    {
+      "group": "select",
+      "terrain": "01792",
+      "pos": 758,
+      "index": 7014
+    },
+    {
+      "group": "select",
+      "terrain": "01884",
+      "pos": 822,
+      "index": 7401
+    },
+    {
+      "group": "select",
+      "terrain": "02167",
+      "pos": 949,
+      "index": 8404
+    },
+    {
+      "group": "select",
+      "terrain": "02540",
+      "pos": 986,
+      "index": 9489
+    },
+    {
+      "group": "select",
+      "terrain": "03102",
+      "pos": 1084,
+      "index": 12139
+    },
+    {
+      "group": "select",
+      "terrain": "03236",
+      "pos": 1143,
+      "index": 12562
+    },
+    {
+      "group": "select",
+      "terrain": "04379",
+      "pos": 1546,
+      "index": 16807
+    },
+    {
+      "group": "select",
+      "terrain": "04565",
+      "pos": 1664,
+      "index": 17523
+    },
+    {
+      "group": "select",
+      "terrain": "04699",
+      "pos": 1725,
+      "index": 17945
+    },
+    {
+      "group": "select",
+      "terrain": "05062",
+      "pos": 1750,
+      "index": 19267
+    },
+    {
+      "group": "select",
+      "terrain": "05608",
+      "pos": 2044,
+      "index": 21363
+    },
+    {
+      "group": "select",
+      "terrain": "06199",
+      "pos": 2250,
+      "index": 23587
+    }
+  ],
+  "gpu": {
+    "uuid": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+    "logical_device": 0,
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_bytes": 84929347584,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "qa": {
+    "flat_single_visible_reflection": true,
+    "relative_power_error": [
+      4.418207026901655e-06,
+      4.418207026901655e-06
+    ]
+  },
+  "elapsed": 1.6088304882869124
+}

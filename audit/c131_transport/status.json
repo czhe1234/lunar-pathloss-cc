@@ -1,0 +1,80 @@
+{
+  "updated_utc": "2026-11-08T18:36:27.860706+00:00",
+  "phase": "pretraining_feasibility_complete",
+  "learned_transport_model_implemented": false,
+  "new_model_trained": false,
+  "new_official_VAL_evaluation": false,
+  "existing_official_score_report_read": true,
+  "website_submission": false,
+  "baseline": "C82",
+  "existing_official_RMSE": [
+    2.246377454774535,
+    2.5791498899052434
+  ],
+  "monitor_terrains": 128,
+  "monitor_maps": 628,
+  "monitor_C82": [
+    2.1463905073492664,
+    2.418014484925531
+  ],
+  "fixed_candidate_direct_conditional_floor": [
+    2.0825459189148274,
+    2.319595844631741
+  ],
+  "floor_scope": "Only fixed C131 candidate direct power plus arbitrary nonnegative added power; not an information or universal physical bound.",
+  "measurement_probe": {
+    "residual_delta_cosine": [
+      0.04608812643003491,
+      0.04022149181956708
+    ],
+    "supported_count": [
+      337363,
+      337408
+    ],
+    "C82": [
+      2.2491310364523103,
+      2.538968062939022
+    ],
+    "fixed_unit_probe": [
+      2.712394218320817,
+      3.0357005767799747
+    ],
+    "gain": [
+      -0.4632631818685069,
+      -0.4967325138409526
+    ],
+    "tail_sign_accuracy": [
+      0.6501076337141911,
+      0.6257213520197856
+    ],
+    "supported_tail_fraction": [
+      0.2707464694014795,
+      0.2637300517458799
+    ],
+    "count": [
+      521459,
+      437235
+    ]
+  },
+  "probe_scope": "8 preselected TRAIN-monitor terrains, frozen unit coefficient; not a new candidate model.",
+  "decision": "Retain shared transport hypothesis. Reject fixed existing D plus only nonnegative additions as implementation. Do not expand the direct measurement-delta correction. Joint effective observation/illumination remains an untested interface design.",
+  "pending": [
+    "implement and validate learnable shared transport and effective observation",
+    "same-budget direction control",
+    "multi-TX difference control",
+    "128-terrain promotion",
+    "484-terrain frozen confirmation"
+  ],
+  "artifacts": {
+    "report": "results/C131_地表功率传输方案_前置检验与修订_20261109.md",
+    "manifest": "audit/c131_transport/source_manifest.json"
+  },
+  "resource_snapshot": {
+    "allowed_gpu_rows": [
+      "1, GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009, NVIDIA H100 80GB HBM3, 0 %, 17 MiB",
+      "3, GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0, NVIDIA H100 80GB HBM3, 0 %, 17 MiB",
+      "4, GPU-70b6fceb-c7c4-9467-3c81-097c9284c160, NVIDIA A800 80GB PCIe, 0 %, 17 MiB"
+    ],
+    "allowed_gpu_processes": []
+  }
+}

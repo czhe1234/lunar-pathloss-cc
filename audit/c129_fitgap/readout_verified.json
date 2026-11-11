@@ -1,0 +1,35 @@
+{
+  "parentFIT": {
+    "RMSE": [
+      2.1757509183333528,
+      2.4573107312201308
+    ],
+    "valid": [
+      183198643,
+      164239291
+    ]
+  },
+  "closedFIT": {
+    "RMSE": [
+      2.175668473728957,
+      2.457583776774864
+    ],
+    "valid": [
+      183198643,
+      164239291
+    ]
+  },
+  "closedMonitor": {
+    "RMSE": [
+      2.1437739067588497,
+      2.418369853693571
+    ],
+    "valid": [
+      40864973,
+      37837148
+    ]
+  },
+  "status": "passed",
+  "source": "originalTRAINlabels/originalpackedmasks/NumPyfloat64",
+  "official_val_used": false
+}

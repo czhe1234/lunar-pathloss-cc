@@ -1,0 +1,78 @@
+{
+  "gpu": {
+    "uuid": "GPU-70b6fceb-c7c4-9467-3c81-097c9284c160",
+    "logical_device": 0,
+    "name": "NVIDIA A800 80GB PCIe",
+    "memory_bytes": 84974239744,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "maps": [
+    {
+      "idx": 0,
+      "scalar_rmse": 1.0481985279753303e-09,
+      "non_surface_max": 0.0,
+      "surface_mean": 1.6637638489136464e-10,
+      "surface_max": 5.960464477539063e-08,
+      "worst_channel": 248,
+      "fs_max": 0.0,
+      "legacy_seconds": 0.6378157567232847,
+      "fused_seconds": 0.06349415518343449
+    },
+    {
+      "idx": 234,
+      "scalar_rmse": 1.0581833187472967e-09,
+      "non_surface_max": 0.0,
+      "surface_mean": 1.707326502398132e-10,
+      "surface_max": 5.960464477539063e-08,
+      "worst_channel": 248,
+      "fs_max": 0.0,
+      "legacy_seconds": 0.23987318761646748,
+      "fused_seconds": 0.04431887995451689
+    },
+    {
+      "idx": 2701,
+      "scalar_rmse": 9.307941084557569e-10,
+      "non_surface_max": 0.0,
+      "surface_mean": 1.3738395143736426e-10,
+      "surface_max": 5.960464477539063e-08,
+      "worst_channel": 248,
+      "fs_max": 0.0,
+      "legacy_seconds": 0.2289251433685422,
+      "fused_seconds": 0.03957934211939573
+    },
+    {
+      "idx": 9281,
+      "scalar_rmse": 1.0304418429640805e-09,
+      "non_surface_max": 0.0,
+      "surface_mean": 1.6835476068788324e-10,
+      "surface_max": 5.960464477539063e-08,
+      "worst_channel": 268,
+      "fs_max": 0.0,
+      "legacy_seconds": 0.22774581983685493,
+      "fused_seconds": 0.03935673926025629
+    },
+    {
+      "idx": 15752,
+      "scalar_rmse": 7.972329463257211e-10,
+      "non_surface_max": 0.0,
+      "surface_mean": 1.1233648733455226e-10,
+      "surface_max": 5.960464477539063e-08,
+      "worst_channel": 248,
+      "fs_max": 0.0,
+      "legacy_seconds": 0.22859694249927998,
+      "fused_seconds": 0.039524102583527565
+    },
+    {
+      "idx": 24412,
+      "scalar_rmse": 6.368993110683618e-10,
+      "non_surface_max": 0.0,
+      "surface_mean": 7.386971589973257e-11,
+      "surface_max": 5.960464477539063e-08,
+      "worst_channel": 248,
+      "fs_max": 0.0,
+      "legacy_seconds": 0.23414518777281046,
+      "fused_seconds": 0.05566343758255243
+    }
+  ]
+}

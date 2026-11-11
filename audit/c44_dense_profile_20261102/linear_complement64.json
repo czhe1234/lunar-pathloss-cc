@@ -1,0 +1,33 @@
+{
+  "scope": "posthoc diagnostic on DEV64 used for C44 selection; coefficients fitted and scored on same panel, NOT independent validation",
+  "formula": "PLblend=(1-w_band)*C38+w_band*C44; w constrained[-0.5,0.5]",
+  "weights": [
+    -0.0076019889697791325,
+    0.001528514039580344
+  ],
+  "C38_RMSE": [
+    2.502945282482443,
+    2.7741507216762624
+  ],
+  "C44_RMSE": [
+    4.577983376756477,
+    5.630859363024499
+  ],
+  "calibration_blend_RMSE": [
+    2.5027781924291217,
+    2.774140579912717
+  ],
+  "calibration_gain_db": [
+    0.00016709005332149474,
+    1.014176354541263e-05
+  ],
+  "error_correlation": [
+    0.5563374018043669,
+    0.490312485636724
+  ],
+  "confirm_remaining548_DEV_only_if_both_gain_at_least_010db": false,
+  "no_new_model_training": true,
+  "official_VAL_loaded": false,
+  "website_submission": false,
+  "interpretation": "If this best in-panel linear gain is small, this particular simple fusion lacks strong promotion evidence. This does not rule out nonlinear fusion or other architectures."
+}

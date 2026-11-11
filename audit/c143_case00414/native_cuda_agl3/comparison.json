@@ -1,0 +1,619 @@
+{
+  "scope": "Fixed TRAIN map1819, sample00414_00, frozen C141 query donors and eight ordinary controls",
+  "purpose": "Exact candidate-mesh 3m AGL TX with native CUDA rays and original receiver stepping",
+  "condition": "candidate_exact_3m_agl_same_xy",
+  "tx": [
+    99.0,
+    58.0,
+    7.754840178415179
+  ],
+  "reference_tx": [
+    99.0,
+    58.0,
+    7.0
+  ],
+  "ray_id_sha256": "9b8cf589541d90bf509d36cb79e57a7410abc55717ba114d923886022c357169",
+  "ray_id_hash_encoding": "SHA256 of consecutive little-endian uint32 global direction IDs, without file header",
+  "agl_source_sha256": "d6ccf3e29d478e411dc78151d79a304ba81de7c7e37437659610f84c88aef8d2",
+  "background_condition": "Original C136 background is frozen. Total-power scores are diagnostic; only TX, direct rays and receiver stepping change.",
+  "frequency_hz": [
+    415000000.0,
+    5775000000.0
+  ],
+  "input_manifest_sha256": "bbda6778e9e5a928ad98a869ef9e3dc275a105fb018fa226b00e47ad8a1c46ee",
+  "gpu_uuid": "GPU-70b6fceb-c7c4-9467-3c81-097c9284c160",
+  "ray_count": 7465237,
+  "native_original_spawn_function": "sionna.rt.utils.ray_tracing.spawn_ray_from_sources",
+  "labels_used_to_form_rays_or_power": false,
+  "target_labels_dB": [
+    [
+      88.125,
+      110.6875
+    ]
+  ],
+  "methods": {
+    "archived_llvm": {
+      "target": {
+        "points": 1,
+        "direct_linear_PL_dB": {
+          "values": [
+            [
+              70.57285113305642,
+              93.44292897009821
+            ]
+          ],
+          "RMSE_dB": [
+            17.552148866943583,
+            17.244571029901792
+          ],
+          "finite_points": [
+            1,
+            1
+          ]
+        },
+        "direct_weakest_donor_PL_dB": {
+          "values": [
+            [
+              70.59171757917912,
+              93.46179541622091
+            ]
+          ],
+          "RMSE_dB": [
+            17.533282420820882,
+            17.22570458377909
+          ],
+          "finite_points": [
+            1,
+            1
+          ]
+        },
+        "total_linear_PL_dB": {
+          "values": [
+            [
+              70.42462990861048,
+              93.26206905544701
+            ]
+          ],
+          "RMSE_dB": [
+            17.700370091389516,
+            17.425430944552986
+          ],
+          "finite_points": [
+            1,
+            1
+          ]
+        },
+        "total_log_PL_dB": {
+          "values": [
+            [
+              70.42516024550025,
+              93.26279344383269
+            ]
+          ],
+          "RMSE_dB": [
+            17.69983975449975,
+            17.42470655616731
+          ],
+          "finite_points": [
+            1,
+            1
+          ]
+        },
+        "weakest_direct_excess_above_label_dB": [
+          [
+            17.533282420820882,
+            17.22570458377909
+          ]
+        ],
+        "weakest_direct_conflicts_above_1dB": [
+          1,
+          1
+        ]
+      },
+      "ordinary": {
+        "points": 8,
+        "direct_linear_PL_dB": {
+          "values": null,
+          "RMSE_dB": [
+            0.8947173530632154,
+            1.3488490767777872
+          ],
+          "finite_points": [
+            8,
+            8
+          ]
+        },
+        "direct_weakest_donor_PL_dB": {
+          "values": null,
+          "RMSE_dB": [
+            0.9259834636408829,
+            1.3801888966364229
+          ],
+          "finite_points": [
+            8,
+            8
+          ]
+        },
+        "total_linear_PL_dB": {
+          "values": null,
+          "RMSE_dB": [
+            0.3899675742008924,
+            0.5700253680399959
+          ],
+          "finite_points": [
+            8,
+            8
+          ]
+        },
+        "total_log_PL_dB": {
+          "values": null,
+          "RMSE_dB": [
+            0.39323398599845666,
+            0.577733117245607
+          ],
+          "finite_points": [
+            8,
+            8
+          ]
+        },
+        "weakest_direct_excess_above_label_dB": null,
+        "weakest_direct_conflicts_above_1dB": [
+          0,
+          0
+        ]
+      },
+      "remaining_cases_on_map": {
+        "points": 3,
+        "direct_linear_PL_dB": {
+          "values": null,
+          "RMSE_dB": [
+            14.825696013024324,
+            16.51071952741036
+          ],
+          "finite_points": [
+            3,
+            3
+          ]
+        },
+        "direct_weakest_donor_PL_dB": {
+          "values": null,
+          "RMSE_dB": [
+            13.752585900442089,
+            15.417611686047229
+          ],
+          "finite_points": [
+            3,
+            3
+          ]
+        },
+        "total_linear_PL_dB": {
+          "values": null,
+          "RMSE_dB": [
+            14.884649797698838,
+            16.57393231565222
+          ],
+          "finite_points": [
+            3,
+            3
+          ]
+        },
+        "total_log_PL_dB": {
+          "values": null,
+          "RMSE_dB": [
+            14.596051186939567,
+            16.28779066543125
+          ],
+          "finite_points": [
+            3,
+            3
+          ]
+        },
+        "weakest_direct_excess_above_label_dB": null,
+        "weakest_direct_conflicts_above_1dB": [
+          3,
+          3
+        ]
+      }
+    },
+    "matched_cuda": {
+      "target": {
+        "points": 1,
+        "direct_linear_PL_dB": {
+          "values": [
+            [
+              70.57285058446836,
+              93.44292842151015
+            ]
+          ],
+          "RMSE_dB": [
+            17.552149415531645,
+            17.244571578489854
+          ],
+          "finite_points": [
+            1,
+            1
+          ]
+        },
+        "direct_weakest_donor_PL_dB": {
+          "values": [
+            [
+              70.59171757917912,
+              93.46179541622091
+            ]
+          ],
+          "RMSE_dB": [
+            17.533282420820882,
+            17.22570458377909
+          ],
+          "finite_points": [
+            1,
+            1
+          ]
+        },
+        "total_linear_PL_dB": {
+          "values": [
+            [
+              70.4246293784294,
+              93.26206852923548
+            ]
+          ],
+          "RMSE_dB": [
+            17.7003706215706,
+            17.425431470764522
+          ],
+          "finite_points": [
+            1,
+            1
+          ]
+        },
+        "total_log_PL_dB": {
+          "values": [
+            [
+              70.42515972328617,
+              93.26279292675645
+            ]
+          ],
+          "RMSE_dB": [
+            17.69984027671383,
+            17.424707073243553
+          ],
+          "finite_points": [
+            1,
+            1
+          ]
+        },
+        "weakest_direct_excess_above_label_dB": [
+          [
+            17.533282420820882,
+            17.22570458377909
+          ]
+        ],
+        "weakest_direct_conflicts_above_1dB": [
+          1,
+          1
+        ]
+      },
+      "ordinary": {
+        "points": 8,
+        "direct_linear_PL_dB": {
+          "values": null,
+          "RMSE_dB": [
+            0.8947175372647872,
+            1.3488492857334138
+          ],
+          "finite_points": [
+            8,
+            8
+          ]
+        },
+        "direct_weakest_donor_PL_dB": {
+          "values": null,
+          "RMSE_dB": [
+            0.9259839335424132,
+            1.3801893944093755
+          ],
+          "finite_points": [
+            8,
+            8
+          ]
+        },
+        "total_linear_PL_dB": {
+          "values": null,
+          "RMSE_dB": [
+            0.3899672760146664,
+            0.5700251050066129
+          ],
+          "finite_points": [
+            8,
+            8
+          ]
+        },
+        "total_log_PL_dB": {
+          "values": null,
+          "RMSE_dB": [
+            0.3932336907984081,
+            0.5777328554825879
+          ],
+          "finite_points": [
+            8,
+            8
+          ]
+        },
+        "weakest_direct_excess_above_label_dB": null,
+        "weakest_direct_conflicts_above_1dB": [
+          0,
+          0
+        ]
+      },
+      "remaining_cases_on_map": {
+        "points": 3,
+        "direct_linear_PL_dB": {
+          "values": null,
+          "RMSE_dB": [
+            14.825696461362826,
+            16.510719955319804
+          ],
+          "finite_points": [
+            3,
+            3
+          ]
+        },
+        "direct_weakest_donor_PL_dB": {
+          "values": null,
+          "RMSE_dB": [
+            13.752585900442089,
+            15.417611686047229
+          ],
+          "finite_points": [
+            3,
+            3
+          ]
+        },
+        "total_linear_PL_dB": {
+          "values": null,
+          "RMSE_dB": [
+            14.884650238765245,
+            16.573932736079943
+          ],
+          "finite_points": [
+            3,
+            3
+          ]
+        },
+        "total_log_PL_dB": {
+          "values": null,
+          "RMSE_dB": [
+            14.596051523826683,
+            16.28779098301217
+          ],
+          "finite_points": [
+            3,
+            3
+          ]
+        },
+        "weakest_direct_excess_above_label_dB": null,
+        "weakest_direct_conflicts_above_1dB": [
+          3,
+          3
+        ]
+      }
+    },
+    "native_cuda": {
+      "target": {
+        "points": 1,
+        "direct_linear_PL_dB": {
+          "values": [
+            [
+              70.60159671838296,
+              93.47167455542476
+            ]
+          ],
+          "RMSE_dB": [
+            17.523403281617036,
+            17.215825444575245
+          ],
+          "finite_points": [
+            1,
+            1
+          ]
+        },
+        "direct_weakest_donor_PL_dB": {
+          "values": [
+            [
+              70.65264656949309,
+              93.52272440653486
+            ]
+          ],
+          "RMSE_dB": [
+            17.472353430506914,
+            17.164775593465137
+          ],
+          "finite_points": [
+            1,
+            1
+          ]
+        },
+        "total_linear_PL_dB": {
+          "values": [
+            [
+              70.45240789151002,
+              93.28963839842439
+            ]
+          ],
+          "RMSE_dB": [
+            17.67259210848998,
+            17.397861601575613
+          ],
+          "finite_points": [
+            1,
+            1
+          ]
+        },
+        "total_log_PL_dB": {
+          "values": [
+            [
+              70.45243743019309,
+              93.28972887844904
+            ]
+          ],
+          "RMSE_dB": [
+            17.672562569806914,
+            17.39777112155096
+          ],
+          "finite_points": [
+            1,
+            1
+          ]
+        },
+        "weakest_direct_excess_above_label_dB": [
+          [
+            17.472353430506914,
+            17.164775593465137
+          ]
+        ],
+        "weakest_direct_conflicts_above_1dB": [
+          1,
+          1
+        ]
+      },
+      "ordinary": {
+        "points": 8,
+        "direct_linear_PL_dB": {
+          "values": null,
+          "RMSE_dB": [
+            0.8977935385198731,
+            1.3504282867231863
+          ],
+          "finite_points": [
+            8,
+            8
+          ]
+        },
+        "direct_weakest_donor_PL_dB": {
+          "values": null,
+          "RMSE_dB": [
+            0.974699030038415,
+            1.4230434202591826
+          ],
+          "finite_points": [
+            8,
+            8
+          ]
+        },
+        "total_linear_PL_dB": {
+          "values": null,
+          "RMSE_dB": [
+            0.4030959467169198,
+            0.5817741957824653
+          ],
+          "finite_points": [
+            8,
+            8
+          ]
+        },
+        "total_log_PL_dB": {
+          "values": null,
+          "RMSE_dB": [
+            0.40599177878001164,
+            0.5889589787064466
+          ],
+          "finite_points": [
+            8,
+            8
+          ]
+        },
+        "weakest_direct_excess_above_label_dB": null,
+        "weakest_direct_conflicts_above_1dB": [
+          0,
+          0
+        ]
+      },
+      "remaining_cases_on_map": {
+        "points": 3,
+        "direct_linear_PL_dB": {
+          "values": null,
+          "RMSE_dB": [
+            15.66099517276427,
+            17.335562411026167
+          ],
+          "finite_points": [
+            3,
+            3
+          ]
+        },
+        "direct_weakest_donor_PL_dB": {
+          "values": null,
+          "RMSE_dB": [
+            15.603902412374637,
+            17.280032501126236
+          ],
+          "finite_points": [
+            3,
+            3
+          ]
+        },
+        "total_linear_PL_dB": {
+          "values": null,
+          "RMSE_dB": [
+            15.717029062058742,
+            17.396061278981165
+          ],
+          "finite_points": [
+            3,
+            3
+          ]
+        },
+        "total_log_PL_dB": {
+          "values": null,
+          "RMSE_dB": [
+            15.716683736079693,
+            17.395703096542142
+          ],
+          "finite_points": [
+            3,
+            3
+          ]
+        },
+        "weakest_direct_excess_above_label_dB": null,
+        "weakest_direct_conflicts_above_1dB": [
+          3,
+          3
+        ]
+      }
+    }
+  },
+  "native_comparisons": {
+    "archived_llvm": {
+      "positive_weight_common_donor_entries": 42,
+      "donor_support_changes": 3,
+      "native_minus_reference_direct_donor_PL_dB_q50_q90_q99_max_abs": [
+        0.03761805852954225,
+        1.7434108970144027,
+        10.80924944064046,
+        13.307202467765272
+      ],
+      "target_native_minus_reference_total_linear_PL_dB": [
+        [
+          0.02777798289953637,
+          0.027569342977372457
+        ]
+      ]
+    },
+    "matched_cuda": {
+      "positive_weight_common_donor_entries": 42,
+      "donor_support_changes": 3,
+      "native_minus_reference_direct_donor_PL_dB_q50_q90_q99_max_abs": [
+        0.0376173684174681,
+        1.743411321849712,
+        10.80924944064046,
+        13.307202467765272
+      ],
+      "target_native_minus_reference_total_linear_PL_dB": [
+        [
+          0.027778513080619405,
+          0.027569869188909024
+        ]
+      ]
+    }
+  }
+}

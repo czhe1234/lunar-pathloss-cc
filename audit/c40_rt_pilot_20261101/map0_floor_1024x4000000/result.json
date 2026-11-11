@@ -1,0 +1,95 @@
+{
+  "config": {
+    "index": 0,
+    "sample_id": "00000_00",
+    "terrain_id": "00000",
+    "tx": [
+      62,
+      95,
+      23.0
+    ],
+    "tx_hypothesis": "floor",
+    "vertex_count": 65536,
+    "face_count": 130050,
+    "sionna": "1.1.0",
+    "backend": "LLVM CPU8",
+    "sampling": {
+      "map": -1,
+      "batches": 1024,
+      "samples": 4000000,
+      "resume": "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/audit/c40_rt_pilot_20261101/map0_floor_128x4000000",
+      "tx_height": "floor"
+    },
+    "scope": "Reconstructed 1m mesh, not recovered original mesh; TRAIN only",
+    "interactions": {
+      "max_depth": 100,
+      "los": true,
+      "specular_reflection": true,
+      "diffuse_reflection": true,
+      "refraction": true
+    }
+  },
+  "seconds": 444.96269154548645,
+  "records": [
+    {
+      "band": "415",
+      "batches": 256,
+      "RMSE_clamped_all_valid_in_support": 15.781667194573552,
+      "valid_in_support": 64415,
+      "nonzero_valid_fraction": 0.985313979663122,
+      "bias": 5.345426296835324
+    },
+    {
+      "band": "415",
+      "batches": 512,
+      "RMSE_clamped_all_valid_in_support": 13.410976680050581,
+      "valid_in_support": 64415,
+      "nonzero_valid_fraction": 0.9922223084685244,
+      "bias": 4.763511180137065
+    },
+    {
+      "band": "415",
+      "batches": 1024,
+      "RMSE_clamped_all_valid_in_support": 11.587953423371395,
+      "valid_in_support": 64415,
+      "nonzero_valid_fraction": 0.9969106574555616,
+      "bias": 4.377516465565498
+    },
+    {
+      "band": "415",
+      "split_half_cell_RMSE_db": 2.4251989170266226,
+      "both_nonzero_fraction": 0.9679354094579008,
+      "warning": "Half agreement is a Monte Carlo diagnostic, not label agreement."
+    },
+    {
+      "band": "58",
+      "batches": 256,
+      "RMSE_clamped_all_valid_in_support": 13.571634288498469,
+      "valid_in_support": 63580,
+      "nonzero_valid_fraction": 0.976407675369613,
+      "bias": 4.4104681770912615
+    },
+    {
+      "band": "58",
+      "batches": 512,
+      "RMSE_clamped_all_valid_in_support": 12.326337581444424,
+      "valid_in_support": 63580,
+      "nonzero_valid_fraction": 0.982683233721296,
+      "bias": 4.00308748484006
+    },
+    {
+      "band": "58",
+      "batches": 1024,
+      "RMSE_clamped_all_valid_in_support": 11.340762335224749,
+      "valid_in_support": 63580,
+      "nonzero_valid_fraction": 0.9878892733564014,
+      "bias": 3.7038526714933995
+    },
+    {
+      "band": "58",
+      "split_half_cell_RMSE_db": 2.5894099810153484,
+      "both_nonzero_fraction": 0.9489888504421377,
+      "warning": "Half agreement is a Monte Carlo diagnostic, not label agreement."
+    }
+  ]
+}

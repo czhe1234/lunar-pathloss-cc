@@ -1,0 +1,78 @@
+{
+  "metrics": {
+    "C82": [
+      2.3037996846821955,
+      2.5966541900570195
+    ],
+    "local": [
+      2.2994803174164278,
+      2.5926599904895586
+    ],
+    "context": [
+      2.299147525160223,
+      2.5922679820450942
+    ]
+  },
+  "gain_vs_C82": {
+    "local": [
+      0.0043193672657677595,
+      0.003994199567460832
+    ],
+    "context": [
+      0.004652159521972621,
+      0.004386208011925241
+    ]
+  },
+  "terrain_paired_95ci": {
+    "C82-minus-local": [
+      [
+        0.003621806572984376,
+        0.004986505154880093
+      ],
+      [
+        0.0026124375699753677,
+        0.0054448965667252425
+      ]
+    ],
+    "C82-minus-context": [
+      [
+        0.003976742422354717,
+        0.005306582275556992
+      ],
+      [
+        0.002867926171471402,
+        0.005947319416544405
+      ]
+    ],
+    "local-minus-context": [
+      [
+        0.00021625086137104786,
+        0.0004432010572017141
+      ],
+      [
+        0.0001878693292907241,
+        0.0005981662091864676
+      ]
+    ]
+  },
+  "eligible": "context",
+  "promote_to_full_native_check": false,
+  "scope": "same484TRAINterrain/1934maps/2048uniformpositions permap; not officialVAL",
+  "valid_pixels": [
+    3930241,
+    3587418
+  ],
+  "confirmation_choices_frozen": true,
+  "independent_scoring": "NumPyfloat64 onsavedfloat32predictions and rawTRAINlabels",
+  "seconds": 22.720069511000474,
+  "GPU": {
+    "uuid": "GPU-70b6fceb-c7c4-9467-3c81-097c9284c160",
+    "logical_device": 0,
+    "name": "NVIDIA A800 80GB PCIe",
+    "memory_bytes": 84974239744,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "official_val_used": false,
+  "website_submission": false
+}

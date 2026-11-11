@@ -1,0 +1,26 @@
+[
+  {
+    "pid": 2850947,
+    "card": 1,
+    "command": [
+      "./run_gpu.sh",
+      "1",
+      "src/c120_sign.py",
+      "--mode",
+      "old"
+    ],
+    "time": 1793934947.2416842
+  },
+  {
+    "pid": 2850948,
+    "card": 3,
+    "command": [
+      "./run_gpu.sh",
+      "3",
+      "src/c120_sign.py",
+      "--mode",
+      "native"
+    ],
+    "time": 1793934947.2424374
+  }
+]

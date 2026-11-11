@@ -1,0 +1,38 @@
+{
+  "status": "FIT_compatibility_failed_no_promotion",
+  "fit_terrains": 16,
+  "fit_points": 239,
+  "counterexample_points": 111,
+  "remaining_fixed_donor_convex_export_counterexamples": 22,
+  "remaining_counterexamples_per_band": [
+    22,
+    22
+  ],
+  "gate_passed": false,
+  "same_monitor_evaluated_this_round": false,
+  "neural_constraint_training_run": false,
+  "expanded_training": false,
+  "official_VAL_labels_used": false,
+  "GPU_used": false,
+  "CPU_threads": 2,
+  "C82_changed": false,
+  "best_saved_official_validation_RMSE": [
+    2.246377454774535,
+    2.5791498899052434
+  ],
+  "key_findings": [
+    "Independent area integration agrees with old direct calculation; denser area quadrature does not explain large deficits.",
+    "Native measurement-surface stepping alters receiver coverage and some ground first intersections.",
+    "Finite donor contradictions remain under all convex combinations of current donor direct powers.",
+    "First-hit-only removes every counterexample direct component, but destroys ordinary-point accuracy.",
+    "No tested repair jointly matches counterexample power and preserves C82 accuracy."
+  ],
+  "not_established": [
+    "Original release geometry and continuous TX reconstructed exactly",
+    "Remaining loss is all numerical receiver artifacts",
+    "Original inputs insufficient",
+    "1dB target impossible",
+    "CPU and CUDA ray intersections agree"
+  ],
+  "next_discriminating_check": "Frozen finite cases, same geometry and global directions, LLVM versus CUDA when an allowed GPU is idle; no training and no coordinate sweep."
+}

@@ -1,0 +1,91 @@
+{
+  "status": "passed",
+  "verification": "Independent streaming raw TRAIN labels/masks; no C101 target values used for scoring.",
+  "reproduced_RMSE_C82_soft_hard_floor": [
+    [
+      2.1400178758994066,
+      2.411311752816296
+    ],
+    [
+      2.2941628331829014,
+      2.52243956719394
+    ],
+    [
+      2.7083228403650477,
+      2.8294176584502435
+    ],
+    [
+      2.525014363855738,
+      2.266291367205798
+    ]
+  ],
+  "valid_pixels": [
+    1276943.0,
+    1182747.0
+  ],
+  "max_RMSE_disagreement": 3.979927498676261e-12,
+  "direct_bound_groups": {
+    "clear": {
+      "floor": [
+        2.204464123137719,
+        2.213588782882175
+      ],
+      "count": [
+        982641.0,
+        982691.0
+      ]
+    },
+    "partial": {
+      "floor": [
+        5.8711480871644035,
+        8.09347536702644
+      ],
+      "count": [
+        19361.0,
+        19228.0
+      ]
+    },
+    "blocked": {
+      "floor": [
+        3.132989999106031,
+        0.0
+      ],
+      "count": [
+        274941.0,
+        180828.0
+      ]
+    }
+  },
+  "receiver_convergence_distribution": {
+    "0": {
+      "paired_valid_count": 1276943,
+      "absolute_dB_difference_quantiles_50_90_99_max": [
+        0.0,
+        1.4637180356658064e-12,
+        1.0508748005122502e-09,
+        7.479980698121835e-05
+      ],
+      "fraction_difference_over_0_1_1_10_dB": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fraction_large_changes_with_initial_physical_PL_over_250dB": null
+    },
+    "1": {
+      "paired_valid_count": 1178248,
+      "absolute_dB_difference_quantiles_50_90_99_max": [
+        0.0,
+        4.291678123991005e-12,
+        6.638216935073289e-05,
+        282.5430112886867
+      ],
+      "fraction_difference_over_0_1_1_10_dB": [
+        0.005959696091145497,
+        0.005584562842457615,
+        0.005196698827411547
+      ],
+      "fraction_large_changes_with_initial_physical_PL_over_250dB": 0.981306990881459
+    }
+  }
+}

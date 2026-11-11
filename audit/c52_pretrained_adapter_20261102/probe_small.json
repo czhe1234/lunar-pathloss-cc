@@ -1,0 +1,105 @@
+{
+  "gpu": {
+    "uuid": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+    "logical_device": 0,
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_bytes": 84929347584,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "records": {
+    "adapter": [
+      {
+        "batch": 256,
+        "step_seconds": 0.008616640232503414,
+        "points_per_second": 29709.955747522683,
+        "gradients": {
+          "global_in.weight": 0.025855490937829018
+        },
+        "parameters": 7548114
+      },
+      {
+        "batch": 512,
+        "step_seconds": 0.008198859170079231,
+        "points_per_second": 62447.71246571518,
+        "gradients": {
+          "global_in.weight": 0.003209102200344205
+        },
+        "parameters": 7548114
+      },
+      {
+        "batch": 1024,
+        "step_seconds": 0.008394706062972546,
+        "points_per_second": 121981.63846577899,
+        "gradients": {
+          "global_in.weight": 0.003675868036225438
+        },
+        "parameters": 7548114
+      },
+      {
+        "batch": 2048,
+        "step_seconds": 0.006406811531633139,
+        "points_per_second": 319659.78550924396,
+        "gradients": {
+          "global_in.weight": 0.0017136752139776945
+        },
+        "parameters": 7548114
+      }
+    ],
+    "transport": [
+      {
+        "batch": 256,
+        "step_seconds": 0.01730763027444482,
+        "points_per_second": 14791.164124761255,
+        "gradients": {
+          "global_in.weight": 0.024797063320875168,
+          "node_in.weight": 0.0001721701119095087
+        },
+        "parameters": 7548114
+      },
+      {
+        "batch": 512,
+        "step_seconds": 0.01758681144565344,
+        "points_per_second": 29112.724701812862,
+        "gradients": {
+          "global_in.weight": 0.002371362177655101,
+          "node_in.weight": 0.00015586869267281145
+        },
+        "parameters": 7548114
+      },
+      {
+        "batch": 1024,
+        "step_seconds": 0.021626237779855728,
+        "points_per_second": 47349.89092526436,
+        "gradients": {
+          "global_in.weight": 0.003947978839278221,
+          "node_in.weight": 0.0001321471791015938
+        },
+        "parameters": 7548114
+      },
+      {
+        "batch": 2048,
+        "step_seconds": 0.031305942218750715,
+        "points_per_second": 65418.890308094575,
+        "gradients": {
+          "global_in.weight": 0.0014834493631497025,
+          "node_in.weight": 1.7437743736081757e-05
+        },
+        "parameters": 7548114
+      }
+    ]
+  },
+  "tiny_map_indices": [
+    0,
+    2,
+    3,
+    4
+  ],
+  "tiny_terrains": [
+    "00000",
+    "00002",
+    "00003",
+    "00004"
+  ],
+  "physics_finite_and_phase_identity": true
+}

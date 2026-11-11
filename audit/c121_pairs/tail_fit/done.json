@@ -1,0 +1,10 @@
+{
+  "rows": 118940,
+  "maps": 1279,
+  "terrains": 1024,
+  "candidate_maps": 2815,
+  "original_tail_rows": 265605,
+  "data": "same fixed C101 sampled TRAIN points; available native cache intersection",
+  "value_inputs": "H/TX-only native descriptors; selection uses truth tail for diagnosis only",
+  "seconds": 127.78841551701771
+}

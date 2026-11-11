@@ -1,0 +1,29 @@
+{
+  "run": "c8_points_context_s20261101",
+  "split": "train",
+  "part": "dev",
+  "maps_per_band": 4,
+  "precision": "FP64 exact GPU trees; FP32 export and free-space reference",
+  "no_target_or_validity_mask_read": true,
+  "input_fields": "Heightmap, TX, previously verified input-only C3/C4 caches, TX context",
+  "GPU_used": {
+    "uuid": "GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0",
+    "logical_device": 0,
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_bytes": 84929347584,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "GPU_memory_fraction_cap": 0.15,
+  "GPU_peak_GB": 1.00322048,
+  "fresh_geometry": true,
+  "threads": 16,
+  "seconds": 1.3802804946899414,
+  "cached_feature_map_seconds_mean": 0.3257098288740963,
+  "cached_feature_map_seconds_p95": 0.9962807322386649,
+  "latency_warning": "Includes constructing geometry on demand; CPU context, GPU trees and output. Shared GPU; official hardware protocol unconfirmed.",
+  "model_sha256": {
+    "415": "9a5011d7d1df7593570a5dddd65453bf6da89f1af38a041185ad9259532d0f1c",
+    "58": "df06d9f7ce44c89900e502513b38c39cb2541e89e24dfc08ae8f0a73879b1414"
+  }
+}

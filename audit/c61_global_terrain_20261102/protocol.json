@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-02",
+  "question": "Can learned whole-terrain fields at full FIT scale explain error beyond frozen C38 descriptors and backbone?",
+  "model": "C61 multiscale full13channel terrain encoder; frozen C38 latent mean/std and294features; learnable local feature plus optional path-guided sparse cross-attention",
+  "variants": [
+    "local",
+    "path"
+  ],
+  "training": "all5508 FIT terrains/23158maps,1024fixedpoints/map; batch16maps x256points; same seed20261208, initial weights,AdamW.001wd1e-4,6000updates,cosine,warm200; common patience2500 after3000",
+  "tiny": "4 FIT terrains4096points only; 1000updates; both RMSE<=.8dB before expansion; not validation",
+  "guards": "No target/mask as input; officialVAL excluded; zero initial heads exactly C38; nonzero gradients for encoder and path sampling",
+  "promotion": "Both band sampled DEV gains>=.15dB; then complete-map DEV check; goal remains official both<=1dB",
+  "limits": "Local/path have same parameter tensors; path-disabled keys unused. Per-map grouping differs from prior C47; no claim exact controlled comparison with C47. One seed."
+}

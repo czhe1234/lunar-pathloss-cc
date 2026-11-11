@@ -1,0 +1,32 @@
+{
+  "question": "Which portion of occluded C10 error is predictable from existing information, lost by the current representation, or demonstrably ambiguous at identical published input?",
+  "scope": "Diagnostic experiment only. Frozen C10 FIT-only models. Official VAL untouched. All artifacts in CC. No new final competition model.",
+  "concepts": {
+    "X_raw": "published whole heightmap, integer TX and receiver coordinate",
+    "X_C10": "294 deterministic point descriptors of X_raw",
+    "X_extra": "103 receiver-neighbourhood/cell geometry descriptors of the same X_raw",
+    "Z_privileged": "other band observed residual at the same receiver, diagnostic-only, unavailable at deployment"
+  },
+  "phase1": "Audit all TRAIN exact H+TX repeats; compare labels and frozen predictions in joint-valid pixels. Empirical duplicate inconsistency is not an estimate of independent Monte-Carlo noise when seeds may be shared.",
+  "phase2": {
+    "base_training_terrains": 5508,
+    "base_unseen_diagnostic_terrains": 612,
+    "split": "fixed seed20261102, half306 terrains calibration /half306 confirmation; no shared terrain, no confirmation-driven hyperparameter selection",
+    "input_points": "existing256 uniformly sampled pixels per map, selected independently of labels/masks",
+    "probes": [
+      "constant FIT-to-diagnostic calibration bias",
+      "same_C10_inputs",
+      "C10_plus_receiver_geometry",
+      "shuffled_calibration_residual_control"
+    ],
+    "learner": "per-band LightGBM regression on out-of-sample C10 residual;400 fixed trees,31 leaves,max_depth8,min_data_in_leaf200,max_bin255,learning_rate.05,lambda_l2=1,feature_fraction1,bagging1,seed20261102,num_threads8. No early stopping.",
+    "evaluation": "per-band masked RMSE and SSE; geometry-defined occluded and height-sensitive zones; no label-defined zone enters inputs; terrain-cluster paired bootstrap1000",
+    "evidence_threshold": "Existing-input predictability: >=5% reduction of confirmation occluded SSE with paired95%CI lower>0 and beats shuffled control. Added-descriptor increment: same threshold vs same-input probe. These are diagnostic decisions, not promotion for the1dB goal.",
+    "interpretation": "Positive existing-input result demonstrates missed learnable signal for the evaluated distribution. Added-descriptor result identifies representation loss within published inputs. Negative results cannot establish information-theoretic insufficiency."
+  },
+  "phase3": {
+    "privileged_control": "Only diagnostic: calibrate cross-band residual relation on calibration terrains and evaluate confirmation. This measures how much residual is shared with an additional observation, not whether the original input is sufficient.",
+    "limits": "No true original mesh, actual continuous TX, or pre-interpolation powers are available. Cannot directly intervene on those hidden quantities; do not pretend a proxy replaces that control."
+  },
+  "constraints": "No long training or model search, no new propagation simulations, no official score claim. CPU for diagnostic fits. GPU3 exactUUID only if frozen inference needed."
+}

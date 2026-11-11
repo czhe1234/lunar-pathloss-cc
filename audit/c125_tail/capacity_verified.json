@@ -1,0 +1,26 @@
+{
+  "0": {
+    "fit": {
+      "tail_RMSE": 2.019166035244915,
+      "weighted_tail_RMSE": 0.8532801534275007,
+      "sign_accuracy": 0.9945761633864528
+    },
+    "monitor": {
+      "tail_RMSE": 8.683146326863529,
+      "weighted_tail_RMSE": 8.683146326863529,
+      "sign_accuracy": 0.6487636045202452
+    }
+  },
+  "1": {
+    "fit": {
+      "tail_RMSE": 2.382730810574237,
+      "weighted_tail_RMSE": 1.016293920581155,
+      "sign_accuracy": 0.991391142979499
+    },
+    "monitor": {
+      "tail_RMSE": 9.345453518894459,
+      "weighted_tail_RMSE": 9.345453518894459,
+      "sign_accuracy": 0.6143141893779922
+    }
+  }
+}

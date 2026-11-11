@@ -1,0 +1,27 @@
+{
+  "scope": "Saved B0 and independently replayed C4 on identical 39 development terrains, same nearest-TX pairs and 1024 fixed receiver points; both E>2 m; no retraining; correlated samples",
+  "terrains": 39,
+  "nearest_TX_pairs": 1366,
+  "bands": {
+    "415": {
+      "valid_paired_receiver_samples": 37248,
+      "label_change_std": 5.954183590010235,
+      "b0_prediction_change_std": 1.4491996260227547,
+      "c4_prediction_change_std": 2.9786583858695614,
+      "b0_change_rmse": 5.742714080872854,
+      "c4_change_rmse": 5.024999792162046,
+      "b0_change_correlation": 0.2658971637350854,
+      "c4_change_correlation": 0.5378129580626281
+    },
+    "58": {
+      "valid_paired_receiver_samples": 8682,
+      "label_change_std": 5.836325380151573,
+      "b0_prediction_change_std": 2.1399187908870925,
+      "c4_prediction_change_std": 2.2545138849687403,
+      "b0_change_rmse": 5.3436329145341555,
+      "c4_change_rmse": 5.256716043119032,
+      "b0_change_correlation": 0.4104957619361914,
+      "c4_change_correlation": 0.4477994259818619
+    }
+  }
+}

@@ -1,0 +1,122 @@
+"""Consolidate completed C21 evidence without changing training or selection."""
+import json,time
+from pathlib import Path
+R=Path(__file__).resolve().parents[1];a=R/'audit/c21_execution_20261101';run=R/'runs/c21r1_pair_s20261123'
+comp=json.loads((a/'r1_full_comparison.json').read_text());fit=json.loads((run/'fit_panel_complete.json').read_text());done=json.loads((run/'complete.json').read_text());timing=json.loads((run/'training_complete.json').read_text());official=json.loads((R/'audit/c10_official_scorer_20261101/verified_summary.json').read_text());audit=json.loads((a/'completion_audit.json').read_text())
+assert done['status']=='paired_control_complete';assert comp['promoted_candidate'] is None
+small={k:json.loads((R/f'runs/c21r1_small_{k.lower()}_s20261119/complete.json').read_text()) for k in ['A','B']}
+assert all(v['status']=='small_fit_gate_passed' for v in small.values())
+fmt=lambda v:f'{v[0]:.6f} / {v[1]:.6f}'
+rows='\n'.join(f"| {k} | {m['rmse'][0]:.6f} | {m['rmse'][1]:.6f} | {m['score']:.6f} |" for k,m in comp['models'].items())
+fitrows='\n'.join(f"| {k} | {small[k]['step']} | {fmt(small[k]['rmse'])} | {fmt(fit[k]['rmse'])} |" for k in ['A','B'])
+zones='\n'.join(f"| {zn} | {band} | "+' | '.join(f"{comp['models'][k]['zones'][z]['rmse'][b]:.6f}" for k in ['C10','A','B'])+' |' for z,zn in [('clear','无遮挡代理区'),('boundary','边界代理区'),('blocked','遮挡代理区')] for b,band in [(0,'415 MHz'),(1,'5.775 GHz')])
+d=comp['comparisons']['B_minus_A'];bc=comp['comparisons']['B_minus_C10'];tr=timing['active_train_seconds_A_B'];infer=[done['DEV'][k]['seconds'] for k in ['A','B']]
+per=official['per_band'];path=R/'results/C21训练与公平对照结果_20261101.md'
+text=f"""# C21 小集拟合与几何注意力公平对照
+
+小训练集的充分拟合检查通过，但 C21r1 没有超过 C10。增加几何注意力只有极小的点估计改善，配对区间包含零。没有进入全量再拟合或新的官方固定验证，当前保留 C10。两个频段官方验证 RMSE 均 ≤1 dB 的目标未达到。
+
+## 结果与口径
+
+A：内容注意力。B：同一网络加 TX—地表—RX 相对几何偏置。
+两组都使用修订后的场景归一化，均完成18,000步；按预定的固定DEV面板综合RMSE规则，两组均选中15,000步检查点。没有分别挑选两个频段的最优检查点。
+
+完整内部DEV：2,562张图、612个与FIT隔离的地形。低频/高频有效像素分别为166,639,132 / 152,634,019。
+每个频段按全部有效像素汇总平方误差，再开方；综合RMSE为两频段RMSE的算术平均。这里使用官方公式，数据范围是内部DEV。
+
+| 模型 | 415 MHz RMSE | 5.775 GHz RMSE | 综合 RMSE |
+|---|---:|---:|---:|
+{rows}
+
+同一份保存预测经 NumPy FP64 独立复算，与GPU FP64计分的RMSE差均为0。
+
+小集与训练地图评价：
+
+| 组 | 小集通过步数 | 四图小集完整像素 RMSE | 主模型128图FIT面板完整像素 RMSE |
+|---|---:|---:|---:|
+{fitrows}
+
+四图小集来自FIT，按输入几何遮挡比例排序选择，未按标签或拟合难度挑图。地形ID为05544、04541、04759、01714；地图索引21101、17400、18047、6795。门槛预设为双频均≤0.5dB，有效像素258,537 / 230,608。
+主模型的FIT评价另用固定128图、8,323,310 / 7,354,410个有效像素。它不是整个FIT集合的完整评价，也不是四图拟合模型的分数。
+
+## 几何注意力是否有效
+
+B相对A的完整DEV RMSE变化为 {d['delta_rmse_db'][0]:+.6f} / {d['delta_rmse_db'][1]:+.6f} dB，负值表示改善。
+低频95%配对区间为[{d['bootstrap95ci_db'][0][0]:+.6f}, {d['bootstrap95ci_db'][0][1]:+.6f}]；
+高频为[{d['bootstrap95ci_db'][1][0]:+.6f}, {d['bootstrap95ci_db'][1][1]:+.6f}] dB。
+综合变化{d['delta_score_db']:+.6f} dB，区间[{d['score_bootstrap95ci_db'][0]:+.6f}, {d['score_bootstrap95ci_db'][1]:+.6f}]。这些区间均包含零。
+
+重采样以612个地形为单位，每次保留被抽中地形的全部TX地图，共2000次。该区间描述本次已训练模型在DEV地形上的变化，不包含随机训练种子的不确定性。
+
+B相对C10反而增加 {bc['delta_rmse_db'][0]:.6f} / {bc['delta_rmse_db'][1]:.6f} dB。
+预设晋级条件为完整DEV双频都降低至少0.20dB，且配对区间支持改善；A、B均未通过。
+
+## 剩余误差在哪里
+
+分区只用输入几何。令E为按高度小数修正的TX高度代理下、128个剖面采样点的最大地形超出量：
+E < -0.25m为无遮挡代理区，|E|≤0.25m为边界代理区，E>0.25m为遮挡代理区。
+这不是官方逐路径传播状态真值，也没有证明该TX高度代理是真实TX坐标。
+
+| 输入几何分区 | 频段 | C10 | A | B |
+|---|---|---:|---:|---:|
+{zones}
+
+B的低频边界代理区比C10降低约0.143dB，高频基本持平；遮挡代理区反而增加约0.201 / 0.448dB。无遮挡代理区也退步。新网络没有解决主要遮挡误差。
+
+共同有效位置上的双频差预测RMSE：C10为{comp['models']['C10']['dual_band_difference_rmse_common_valid']:.6f}，A为{comp['models']['A']['dual_band_difference_rmse_common_valid']:.6f}，B为{comp['models']['B']['dual_band_difference_rmse_common_valid']:.6f} dB，均没有改善。
+
+相邻水平1m像素的差分误差，B比C10降低约2.4% / 4.1%。这是一个局部差分指标的改善；整体功率RMSE和双频差误差却更差，不能据此宣称恢复了真实细尺度传播结构。
+
+## 实现检查与修订
+
+输入是45个仅由公开H、TX推导的通道。标签、有效掩码和C10预测没有进入网络前向。
+网络总参数8,468,226；A包含128个冻结为零的几何偏置参数，B训练这128个参数。两组共同参数初始化完全一致，使用同一批地图和同一个RX采样张量、相同损失、优化器、更新次数和学习率日程。
+
+初版虽然通过四图拟合，但第3000步的冻结检查发现：更换全局地形token，预测只变化约0.01dB。一次内部特征检查中，公共分量RMS为12.853，空间差异RMS为0.597；后续LayerNorm把空间差异RMS压到0.0424。第6000步复查仍有相同现象。
+因此保留双方6000步匹配权重，提前结束初版的18000步计划。终止前最后记录步数为6100，比较只使用完整保存的6000步权重；已核验进程退出。这不是一项完成18000步预算的负试验。
+
+C21r1只改一处：场景token做通道LayerNorm前，减去所有token共有的分量；A、B共同修改。主训练的初始化、地图顺序、采样顺序和日程与初版匹配。
+在双方6000步的直接比较中，该修改没有带来DEV提分。不能把内部特征变化恢复直接写成性能收益。
+
+最终15,000步检查点的四图冻结测试中，更换全局地形token时，A预测变化约0.563 / 0.941dB，B约0.131 / 0.187dB。最终全局分支确实参与了预测，不能再把最终未提分都归因于早期分支不敏感。注意力权重也不是实际PAS、PDP或传播路径。
+
+## 训练范围、资源和限制
+
+FIT为23,158张图、5,508个地形。每组18,000步、batch8、每张图每次均匀采样2048个像素，共144,000次地图访问、平均约6.2次/图；没有每次遍历整张训练图的全部像素。只使用有效像素双频MSE，无额外梯度/频谱损失或困难样本挖掘。
+过程监测为固定128张FIT、128张DEV图，每图8192个固定均匀像素；最终结果使用完整DEV和128图FIT面板的全部有效像素。既有DEV在此前项目中已经使用，不能将其称为全新盲测集。
+
+小集拟合只说明这套实现可以拟合四张图，不能证明跨地形映射已经学会。主训练的FIT地图误差仍很高。本次结果不支持仅靠这组相对几何偏置大幅提分，也不能证明输入信息存在不可约误差下限，或所有其他网络架构无效。
+
+训练、GPU推理只使用实体3：
+GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0。
+保留15%进程显存上限，本次峰值约7.27GB。配对主训练用时{timing['seconds']/60:.2f}分钟。
+本次计时中，A/B训练部分分别{tr[0]/60:.2f} / {tr[1]/60:.2f}分钟，B约增加{(tr[1]/tr[0]-1)*100:.1f}%。
+完整DEV推理分别{infer[0]:.2f} / {infer[1]:.2f}秒，B约为A的{infer[1]/infer[0]:.2f}倍。这些是共享H100上的本次计时，并使用预计算输入特征，不是官方硬件的端到端计时。
+
+18个原始数据文件的大小和修改时间核查通过；C10官方模型权重哈希未变；新训练源码与冻结配置一致。训练与评价均已结束，没有C21训练进程在后台继续运行，没有网站提交。
+
+## 当前官方版本与证据
+
+保留C10。其官方脚本在全部固定验证集2330张图/频段上得到：
+415MHz {per['415']['official_script_masked_RMSE_db']:.6f} dB，
+5.775GHz {per['58']['official_script_masked_RMSE_db']:.6f} dB，
+综合RMSE {official['combined_RMSE_db']:.6f} dB。
+这是官方脚本的固定验证RMSE，不是需要其他队伍成绩才能计算的跨队归一化排名。
+
+- 主对照及冻结源码：{run}
+- 完整计分、分区与配对区间：{a/'r1_full_comparison.json'}
+- 每图可复算统计：{a/'r1_paired_per_map.npz'}
+- 小集、初版停止与修订协议：{a}
+- 完成与权重哈希核验：{a/'completion_audit.json'}
+- 训练轨迹：{R/'results/C21r1_monitor_trajectories.png'}
+- 初版与修订过程记录：{R/'results/C21小集拟合与几何注意力对照_20261101.md'}
+
+![C21r1 fixed-panel training trajectories]({R/'results/C21r1_monitor_trajectories.png'})
+"""
+path.write_text(text)
+s=(R/'STATUS.md').read_text();start=s.index('当前工作：');end=s.index('\nC4为',start)
+s=s[:start]+f"当前工作：C21r1 小集拟合和有无几何注意力公平对照已完成。两组均完成18000步、同规则选中15000步；完整DEV为 A 3.000127/3.516297（综合3.258212），B 2.999762/3.511139（综合3.255450）dB，均差于C10完整DEV 2.952573/3.393074（综合3.172823）。B相对A的差异配对区间包含零，没有可靠提分。未晋级全量再拟合或官方固定验证，当前官方版本仍是C10，双频≤1dB目标未达到。训练/评价已结束，无C21训练进程或后续训练队列。最终报告：{path}。"+s[end:]
+s=s.replace('下一主线为多尺度完整地形网络的匹配对照：','本轮已执行多尺度完整地形网络的匹配对照：')
+(R/'STATUS.md').write_text(s)
+audit.update({'final_report':str(path),'decision':'do_not_promote_C21; retain_C10','goal_1db_both_met':False,'complete_unix':time.time()});(a/'completion_audit.json').write_text(json.dumps(audit,indent=2)+'\n')
+print(path)

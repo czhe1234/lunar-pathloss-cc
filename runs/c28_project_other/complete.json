@@ -1,0 +1,88 @@
+{
+  "status": "exposure_control_complete",
+  "steps": 4500,
+  "full_FIT": {
+    "rmse": [
+      2.0184656913851895,
+      2.1443701732678186
+    ],
+    "score": 2.081417932326504,
+    "sse": [
+      33910860.791931994,
+      33817955.89037522
+    ],
+    "count": [
+      8323310.0,
+      7354410.0
+    ],
+    "maps": 128,
+    "scope": "C28 complete valid pixels fixed128FIT,4 focal maps oversampled; diagnostic, not officialVAL",
+    "seconds": 5.124005317687988,
+    "zones_definition": "floor-TX profile max elevation: clear < -0.25 m, boundary within +/-0.25 m, blocked >0.25 m",
+    "zones": {
+      "clear": {
+        "rmse": [
+          1.4978243244388743,
+          1.5338729871584884
+        ],
+        "score": 1.5158486557986812,
+        "sse": [
+          12633388.65431184,
+          13249591.884014655
+        ],
+        "count": [
+          5631163.0,
+          5631495.0
+        ],
+        "maps": 128
+      },
+      "boundary": {
+        "rmse": [
+          2.953853228436221,
+          3.5985013426428942
+        ],
+        "score": 3.276177285539558,
+        "sse": [
+          6990678.140037535,
+          9892666.98384564
+        ],
+        "count": [
+          801201.0,
+          763959.0
+        ],
+        "maps": 128
+      },
+      "blocked": {
+        "rmse": [
+          2.7487030726200667,
+          3.3365587752784456
+        ],
+        "score": 3.042630923949256,
+        "sse": [
+          14286793.997582616,
+          10675697.02251493
+        ],
+        "count": [
+          1890946.0,
+          958956.0
+        ],
+        "maps": 128
+      }
+    }
+  },
+  "query_order_sha256": "391c9c6f877e8bf0be7209e701d9c8de576ee8f74434d8708dd304ddecf255f1",
+  "map_order_sha256": "843e6bb37034fe9ee7d2ac8f43165e0024905d19038f2c6bfcb83354f514fb08",
+  "initial_state_sha256": "4241839f76c971e9e02966a7e7efb79223eb03d60c7a687c813d291bbe6f184e",
+  "negative_gradient_fraction": 0.27266666666666667,
+  "mean_gradient_cosine": 0.11794535295407857,
+  "clipped_steps": 0,
+  "gpu": {
+    "uuid": "GPU-70b6fceb-c7c4-9467-3c81-097c9284c160",
+    "logical_device": 0,
+    "name": "NVIDIA A800 80GB PCIe",
+    "memory_bytes": 84974239744,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "seconds": 601.915613412857
+}

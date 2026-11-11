@@ -1,0 +1,81 @@
+{
+  "status": "complete",
+  "GPU": {
+    "uuid": "GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0",
+    "logical_device": 0,
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_bytes": 84929347584,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "aux": 1,
+  "initial": {
+    "RMSE": [
+      1.4690471497505562,
+      1.5374559728445711
+    ],
+    "C82": [
+      2.374704765243563,
+      2.6431503363453097
+    ],
+    "gain": [
+      0.9056576154930069,
+      1.1056943635007386
+    ],
+    "valid_count": [
+      24359.0,
+      22727.0
+    ],
+    "tail_RMSE": [
+      5.223070983132769,
+      5.067839186301215
+    ],
+    "tail_sign_accuracy": [
+      0.9298245614035088,
+      0.9443976411120472
+    ],
+    "tail_abs_correction": [
+      5.646665493867404,
+      6.069876319737422
+    ]
+  },
+  "last": {
+    "step": 1000,
+    "seconds": 41.324067042034585,
+    "main_loss": 0.07005713135004044,
+    "state_loss": 0.0636424794793129,
+    "training": {
+      "RMSE": [
+        1.4365968441627315,
+        1.4952833726091015
+      ],
+      "C82": [
+        2.374704765243563,
+        2.6431503363453097
+      ],
+      "gain": [
+        0.9381079210808316,
+        1.1478669637362082
+      ],
+      "valid_count": [
+        24359.0,
+        22727.0
+      ],
+      "tail_RMSE": [
+        5.1203590124012415,
+        4.948286028916303
+      ],
+      "tail_sign_accuracy": [
+        0.9344413665743305,
+        0.9477674810446504
+      ],
+      "tail_abs_correction": [
+        5.752642419309607,
+        6.199245038309716
+      ]
+    }
+  },
+  "initial_sha256": "db5a00b48f6ef5f4940038889d1a3fa97b345a476b23dbcd774f7d7c0d0f5c49",
+  "seconds": 41.33412573899841,
+  "scope": "16 fixed FIT maps, same C136 points. Teacher uses FIT labels; network uses H/TX-derived inputs only. Not a validation or official score."
+}

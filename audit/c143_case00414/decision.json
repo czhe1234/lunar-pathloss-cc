@@ -1,0 +1,41 @@
+{
+  "updated": "2026-11-11T14:18:11.930551+08:00",
+  "state": "source_limited_true_first_divergence_not_identified",
+  "sample_id": "00414_00",
+  "map": 1819,
+  "hm_row": 369,
+  "pixel_row_col": [
+    23,
+    38
+  ],
+  "backend_check_complete": true,
+  "native_cuda_direction_check_complete": true,
+  "same_candidate_xy_exact_3m_AGL_control_complete": true,
+  "fixed_donor_power_vs_dB_export_checked": true,
+  "original_scene_comparison_available": false,
+  "official_release_listing_complete_files": 19,
+  "missing": [
+    "Exact original ground mesh vertices, topology and coordinate frame",
+    "Actual continuous transmitter position for00414_00",
+    "Exact original receiver mesh and pre-export cell_centers/path_gain for this run",
+    "Exact export query grid and support filtering for this map"
+  ],
+  "required_next_input": "One matched original generation record for00414_00, including mesh/TX/raw receiver values/export settings, or an authorized location containing it.",
+  "same_candidate_xy_exact_3m_AGL_native_receiver_control_complete": true,
+  "corrected_TX_native_direct_PL_dB": [
+    70.60159671838296,
+    93.47167455542476
+  ],
+  "corrected_TX_native_weakest_excess_above_label_dB": [
+    17.472353430506914,
+    17.164775593465137
+  ],
+  "same_map_ordinary_fixed_background_RMSE_after_AGL_native": [
+    0.4030959467169198,
+    0.5817741957824653
+  ],
+  "remaining_three_finite_cases_on_map_after_AGL_native": [
+    3,
+    3
+  ]
+}

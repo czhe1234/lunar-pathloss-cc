@@ -1,0 +1,244 @@
+{
+  "train": {
+    "duplicate_input_groups": 9,
+    "pairs": [
+      {
+        "index_rows": [
+          2102,
+          2112
+        ],
+        "sample_ids": [
+          "00492_14",
+          "00492_24"
+        ],
+        "bands": {
+          "415": {
+            "common_valid_pixels": 65090,
+            "masks_identical": true,
+            "pair_rmse": 0.00012248781453843066,
+            "max_abs_valid_difference": 0.03125
+          },
+          "58": {
+            "common_valid_pixels": 57501,
+            "masks_identical": true,
+            "pair_rmse": 0.1967687494876741,
+            "max_abs_valid_difference": 4.5
+          }
+        }
+      },
+      {
+        "index_rows": [
+          9699,
+          9707
+        ],
+        "sample_ids": [
+          "02606_00",
+          "02606_08"
+        ],
+        "bands": {
+          "415": {
+            "common_valid_pixels": 65434,
+            "masks_identical": true,
+            "pair_rmse": 0.0,
+            "max_abs_valid_difference": 0.0
+          },
+          "58": {
+            "common_valid_pixels": 65090,
+            "masks_identical": true,
+            "pair_rmse": 0.0004899512581537227,
+            "max_abs_valid_difference": 0.0625
+          }
+        }
+      },
+      {
+        "index_rows": [
+          15731,
+          15740
+        ],
+        "sample_ids": [
+          "04067_09",
+          "04067_18"
+        ],
+        "bands": {
+          "415": {
+            "common_valid_pixels": 65148,
+            "masks_identical": true,
+            "pair_rmse": 0.0,
+            "max_abs_valid_difference": 0.0
+          },
+          "58": {
+            "common_valid_pixels": 42410,
+            "masks_identical": true,
+            "pair_rmse": 0.01449547068638036,
+            "max_abs_valid_difference": 0.25
+          }
+        }
+      },
+      {
+        "index_rows": [
+          16140,
+          16150
+        ],
+        "sample_ids": [
+          "04186_08",
+          "04186_18"
+        ],
+        "bands": {
+          "415": {
+            "common_valid_pixels": 64947,
+            "masks_identical": true,
+            "pair_rmse": 0.0,
+            "max_abs_valid_difference": 0.0
+          },
+          "58": {
+            "common_valid_pixels": 61888,
+            "masks_identical": true,
+            "pair_rmse": 0.00012561653152037724,
+            "max_abs_valid_difference": 0.03125
+          }
+        }
+      },
+      {
+        "index_rows": [
+          17140,
+          17161
+        ],
+        "sample_ids": [
+          "04464_08",
+          "04464_29"
+        ],
+        "bands": {
+          "415": {
+            "common_valid_pixels": 65512,
+            "masks_identical": true,
+            "pair_rmse": 0.0003052316759568853,
+            "max_abs_valid_difference": 0.0625
+          },
+          "58": {
+            "common_valid_pixels": 65277,
+            "masks_identical": true,
+            "pair_rmse": 0.0003459512640032247,
+            "max_abs_valid_difference": 0.0625
+          }
+        }
+      },
+      {
+        "index_rows": [
+          23856,
+          23858
+        ],
+        "sample_ids": [
+          "06290_44",
+          "06290_46"
+        ],
+        "bands": {
+          "415": {
+            "common_valid_pixels": 64798,
+            "masks_identical": true,
+            "pair_rmse": 0.0,
+            "max_abs_valid_difference": 0.0
+          },
+          "58": {
+            "common_valid_pixels": 62986,
+            "masks_identical": true,
+            "pair_rmse": 0.014906696420222406,
+            "max_abs_valid_difference": 0.625
+          }
+        }
+      },
+      {
+        "index_rows": [
+          23945,
+          23981
+        ],
+        "sample_ids": [
+          "06315_11",
+          "06315_47"
+        ],
+        "bands": {
+          "415": {
+            "common_valid_pixels": 65058,
+            "masks_identical": true,
+            "pair_rmse": 0.00025257719311036497,
+            "max_abs_valid_difference": 0.03125
+          },
+          "58": {
+            "common_valid_pixels": 63674,
+            "masks_identical": true,
+            "pair_rmse": 0.0,
+            "max_abs_valid_difference": 0.0
+          }
+        }
+      },
+      {
+        "index_rows": [
+          24081,
+          24085
+        ],
+        "sample_ids": [
+          "06325_37",
+          "06325_41"
+        ],
+        "bands": {
+          "415": {
+            "common_valid_pixels": 65062,
+            "masks_identical": true,
+            "pair_rmse": 0.0002739500090930716,
+            "max_abs_valid_difference": 0.0625
+          },
+          "58": {
+            "common_valid_pixels": 30962,
+            "masks_identical": true,
+            "pair_rmse": 0.019584040833903995,
+            "max_abs_valid_difference": 0.25
+          }
+        }
+      },
+      {
+        "index_rows": [
+          25582,
+          25602
+        ],
+        "sample_ids": [
+          "06741_12",
+          "06741_32"
+        ],
+        "bands": {
+          "415": {
+            "common_valid_pixels": 65010,
+            "masks_identical": true,
+            "pair_rmse": 0.05972033667454622,
+            "max_abs_valid_difference": 3.6875
+          },
+          "58": {
+            "common_valid_pixels": 64968,
+            "masks_identical": true,
+            "pair_rmse": 0.017680747371509316,
+            "max_abs_valid_difference": 0.5
+          }
+        }
+      }
+    ],
+    "pooled_pair_rmse": [
+      0.019891006114377014,
+      0.06657382134284588
+    ],
+    "pooled_common_valid_pixels": [
+      586059,
+      514756
+    ]
+  },
+  "val": {
+    "duplicate_input_groups": 0,
+    "pairs": [],
+    "pooled_pair_rmse": [
+      null,
+      null
+    ],
+    "pooled_common_valid_pixels": [
+      0,
+      0
+    ]
+  },
+  "limitation": "Repeated coordinates are not proven independent ray-tracing replicates; they may share deterministic seeds or source outputs. Cannot infer a global conditional-noise floor or full input sufficiency."
+}

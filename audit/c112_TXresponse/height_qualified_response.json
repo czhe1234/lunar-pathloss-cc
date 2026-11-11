@@ -1,0 +1,32 @@
+{
+  "same_height_proxy": {
+    "pairs": 35,
+    "bands": [
+      {
+        "label_delta_RMSE": 2.7309435384214193,
+        "response_error_RMSE": 1.8981026748475602,
+        "response_energy_explained": 0.5169256704611278
+      },
+      {
+        "label_delta_RMSE": 3.738456543433842,
+        "response_error_RMSE": 2.2976533152221887,
+        "response_energy_explained": 0.6222675227083819
+      }
+    ]
+  },
+  "changed_height_proxy": {
+    "pairs": 4,
+    "bands": [
+      {
+        "label_delta_RMSE": 9.517894596612539,
+        "response_error_RMSE": 3.3776569198941253,
+        "response_energy_explained": 0.8740641762081083
+      },
+      {
+        "label_delta_RMSE": 14.155428505638808,
+        "response_error_RMSE": 3.975280430690263,
+        "response_energy_explained": 0.9211340570453355
+      }
+    ]
+  }
+}

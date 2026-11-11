@@ -1,0 +1,60 @@
+{
+  "samples": [
+    {
+      "sample_id": "04126_00",
+      "terrain_relief_m": 9.99989128112793,
+      "comparisons_to_384": {
+        "48": {
+          "mean_abs_m": 0.04243842884898186,
+          "p99_abs_m": 0.2668420970439911,
+          "max_abs_m": 0.43218469619750977,
+          "blocked_unblocked_disagreement_fraction": 0.00244140625
+        },
+        "192": {
+          "mean_abs_m": 0.005965860560536385,
+          "p99_abs_m": 0.0432293564081192,
+          "max_abs_m": 0.1827983856201172,
+          "blocked_unblocked_disagreement_fraction": 0.0001983642578125
+        }
+      }
+    },
+    {
+      "sample_id": "03584_00",
+      "terrain_relief_m": 35.0166015625,
+      "comparisons_to_384": {
+        "48": {
+          "mean_abs_m": 0.04583495110273361,
+          "p99_abs_m": 0.2885841429233551,
+          "max_abs_m": 0.852689266204834,
+          "blocked_unblocked_disagreement_fraction": 0.0013427734375
+        },
+        "192": {
+          "mean_abs_m": 0.006688699126243591,
+          "p99_abs_m": 0.045053400099277496,
+          "max_abs_m": 0.19342494010925293,
+          "blocked_unblocked_disagreement_fraction": 0.000244140625
+        }
+      }
+    },
+    {
+      "sample_id": "01528_00",
+      "terrain_relief_m": 149.7489471435547,
+      "comparisons_to_384": {
+        "48": {
+          "mean_abs_m": 0.22078146040439606,
+          "p99_abs_m": 0.7608808279037476,
+          "max_abs_m": 1.396697998046875,
+          "blocked_unblocked_disagreement_fraction": 7.62939453125e-05
+        },
+        "192": {
+          "mean_abs_m": 0.03226250782608986,
+          "p99_abs_m": 0.11458952724933624,
+          "max_abs_m": 0.27783203125,
+          "blocked_unblocked_disagreement_fraction": 1.52587890625e-05
+        }
+      }
+    }
+  ],
+  "scope": "Three predefined fit-set input terrains. 384 samples is a numerical reference, not an exact visibility oracle. No propagation labels generated. Target arrays used only for overlay visualization.",
+  "seconds": 6.584184169769287
+}

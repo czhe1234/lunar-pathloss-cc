@@ -1,0 +1,24 @@
+[
+  {
+    "public_sample": "650",
+    "release_sample": "02136_00",
+    "row": 194,
+    "col": 160,
+    "height_m": 32.561397552490234,
+    "marker_z_min_minus_H": -3.0,
+    "marker_z_max_minus_H": 7.0,
+    "display_cone_midpoint_minus_H": 2.0,
+    "interpretation": "Visualization cone, not saved transmitter position; do not infer actual TX z."
+  },
+  {
+    "public_sample": "680",
+    "release_sample": "02736_00",
+    "row": 199,
+    "col": 46,
+    "height_m": 4.585752964019775,
+    "marker_z_min_minus_H": -3.0,
+    "marker_z_max_minus_H": 6.999999523162842,
+    "display_cone_midpoint_minus_H": 1.9999995231628418,
+    "interpretation": "Visualization cone, not saved transmitter position; do not infer actual TX z."
+  }
+]

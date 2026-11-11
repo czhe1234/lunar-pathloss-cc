@@ -1,0 +1,5 @@
+{
+  "height": "floor(H[min(tx_row+1,255),tx_col])+3; candidate only",
+  "all_else": "identical to C67 power features",
+  "selection": "chosen on 96 FIT-side terrains. Select epochs using 64 monitor terrains. Outside the 128 terrain panel, use remaining 484 DEV terrains as additional check."
+}

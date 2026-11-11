@@ -1,0 +1,113 @@
+{
+  "scope": "FIT-only64maps, strongest8 valid low-frequency pixels as a gross axis-location diagnostic; not a continuous-TX recovery",
+  "median_peak_TX_distance": 0.5,
+  "median_peak_swapped_TX_distance": 125.68847656252774,
+  "within3_pixels": 64,
+  "n": 64,
+  "first_records": [
+    {
+      "index": 0,
+      "tx": [
+        95,
+        62
+      ],
+      "peak": [
+        96.0,
+        62.0
+      ],
+      "distance_to_TX": 1.0,
+      "distance_to_swapped_TX": 47.38143096192854
+    },
+    {
+      "index": 2,
+      "tx": [
+        79,
+        37
+      ],
+      "peak": [
+        79.0,
+        36.5
+      ],
+      "distance_to_TX": 0.5,
+      "distance_to_swapped_TX": 59.75156901705594
+    },
+    {
+      "index": 3,
+      "tx": [
+        109,
+        214
+      ],
+      "peak": [
+        109.0,
+        213.0
+      ],
+      "distance_to_TX": 1.0,
+      "distance_to_swapped_TX": 147.78700890132393
+    },
+    {
+      "index": 4,
+      "tx": [
+        221,
+        95
+      ],
+      "peak": [
+        222.0,
+        95.0
+      ],
+      "distance_to_TX": 1.0,
+      "distance_to_swapped_TX": 178.89941307897016
+    },
+    {
+      "index": 5,
+      "tx": [
+        137,
+        140
+      ],
+      "peak": [
+        137.0,
+        139.0
+      ],
+      "distance_to_TX": 1.0,
+      "distance_to_swapped_TX": 3.605551275463989
+    },
+    {
+      "index": 59,
+      "tx": [
+        31,
+        72
+      ],
+      "peak": [
+        31.5,
+        72.0
+      ],
+      "distance_to_TX": 0.5,
+      "distance_to_swapped_TX": 57.630287176102115
+    },
+    {
+      "index": 60,
+      "tx": [
+        246,
+        103
+      ],
+      "peak": [
+        246.0,
+        102.0
+      ],
+      "distance_to_TX": 1.0,
+      "distance_to_swapped_TX": 202.94087809014724
+    },
+    {
+      "index": 61,
+      "tx": [
+        31,
+        9
+      ],
+      "peak": [
+        31.0,
+        8.5
+      ],
+      "distance_to_TX": 0.5,
+      "distance_to_swapped_TX": 31.468237955119125
+    }
+  ]
+}

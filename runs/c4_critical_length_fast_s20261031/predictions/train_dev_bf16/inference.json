@@ -1,0 +1,43 @@
+{
+  "run": "c4_critical_length_fast_s20261031",
+  "checkpoint_epoch": 1,
+  "checkpoint_sha256": "48b5745d6214c03009ee8b2bffa17eb6de1e10bc743a4116220159a1668f4c8f",
+  "split": "train",
+  "part": "dev",
+  "precision": "BF16 convolutions / FP32 stem, geometry and head",
+  "maps_per_band": 2562,
+  "output_dtype": "float32",
+  "batch": 8,
+  "batch_seconds_including_input_features_transfer_inference_output_write": 33.344922345131636,
+  "batch_ms_per_two_band_map": 13.015192172182527,
+  "single_request_cold_ms": 6188.409118913114,
+  "single_request_warm_ms": {
+    "count": 32,
+    "mean": 22.829813795397058,
+    "p50": 22.617111448198557,
+    "p95": 23.447392089292407,
+    "max": 24.20586347579956
+  },
+  "latency_scope": "Includes input gather, H2D transfer, ALL on-demand profile and co-visibility features, model, inverse transform and D2H. One request returns both bands. Model loading excluded. Warm latency uses warmed allocator/CUDA kernels. Official hardware and warm-up protocol unconfirmed.",
+  "device": {
+    "uuid": "GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0",
+    "logical_device": 0,
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_bytes": 84929347584,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "inputs_used": [
+    "train_hm.npy",
+    "train_index.csv"
+  ],
+  "no_target_or_validity_mask_read": true,
+  "source_sha256": {
+    "c4_train_fast.py": "234e2854c9ff19fad3210fc31ab864fd544163065fc8c2bcc7114773cee70d4f",
+    "cc_core.py": "1a21a060e377cc9f48db056eb11b4a0eb3c6e03ee3993468b2a214933fc07c80",
+    "c3_geometry.py": "f441476c0725eeb8bc92005b6d10fd2226e7696a5760df448af3824203d30cc9",
+    "c4_geometry.py": "5f4145162e155d2af2df46abd21e1db072f51c425ad3a4ad39fb9a202e800d47",
+    "c4_model.py": "c84d9957e0a4e072d25cf797b64da119a4c616f6e128a0eb0960ebb9c9db4867",
+    "c4_data_fast.py": "428865189fd6324c3039952b9bacc5554083525aac2c629612362f7e79e9839d"
+  }
+}

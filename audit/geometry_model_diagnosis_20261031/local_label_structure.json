@@ -1,0 +1,81 @@
+{
+  "scope": "fixed1024receivers on2562devmaps; 9x9neighborhood read from original valid labels, never used as new training targets",
+  "groups": {
+    "415": {
+      "all_valid": {
+        "n": 2607489,
+        "sse": 60492608.71722626,
+        "pixel_share": 1.0,
+        "sse_share": 1.0,
+        "rmse": 4.816592602667408
+      },
+      "strongclear_anomaly": {
+        "n": 44174,
+        "sse": 6420287.981379148,
+        "pixel_share": 0.016941202820031073,
+        "sse_share": 0.10613342881922805,
+        "rmse": 12.055740492757112
+      },
+      "anomaly_low_neighbors75pct": {
+        "n": 24193,
+        "sse": 2771570.36133061,
+        "pixel_share": 0.009278274999434321,
+        "sse_share": 0.045816677774409814,
+        "rmse": 10.703309689717491
+      },
+      "anomaly_other": {
+        "n": 19981,
+        "sse": 3648717.6200485253,
+        "pixel_share": 0.00766292782059675,
+        "sse_share": 0.06031675104481803,
+        "rmse": 13.513303071208233
+      },
+      "anomaly_low_cos": {
+        "n": 25644,
+        "sse": 3681935.7474944126,
+        "pixel_share": 0.009834749063179174,
+        "sse_share": 0.06086587808943213,
+        "rmse": 11.982438775431206
+      }
+    },
+    "58": {
+      "all_valid": {
+        "n": 2388382,
+        "sse": 105919343.08519213,
+        "pixel_share": 1.0,
+        "sse_share": 1.0,
+        "rmse": 6.659409856369684
+      },
+      "strongclear_anomaly": {
+        "n": 39094,
+        "sse": 8320897.500710288,
+        "pixel_share": 0.016368403379358912,
+        "sse_share": 0.0785588095464083,
+        "rmse": 14.589151419787692
+      },
+      "anomaly_low_neighbors75pct": {
+        "n": 21329,
+        "sse": 2676968.452233361,
+        "pixel_share": 0.00893031349256526,
+        "sse_share": 0.025273650442490424,
+        "rmse": 11.203052712996394
+      },
+      "anomaly_other": {
+        "n": 17765,
+        "sse": 5643929.048476915,
+        "pixel_share": 0.007438089886793653,
+        "sse_share": 0.05328515910391777,
+        "rmse": 17.824122850466217
+      },
+      "anomaly_low_cos": {
+        "n": 22437,
+        "sse": 3895761.539677347,
+        "pixel_share": 0.009394225881789429,
+        "sse_share": 0.03678045412860937,
+        "rmse": 13.17691634896049
+      }
+    }
+  },
+  "limits": "isolated high attenuation is an observation pattern, not proof of random noise or an irreducible error floor; original mesh, paths and independent generator repeats are absent",
+  "seconds": 3.677708625793457
+}

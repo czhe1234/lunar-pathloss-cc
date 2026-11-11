@@ -1,0 +1,42 @@
+{
+  "params": {
+    "iterations": 2000,
+    "depth": 9,
+    "learning_rate": 0.05,
+    "loss_function": "Logloss",
+    "eval_metric": "Logloss",
+    "l2_leaf_reg": 10,
+    "border_count": 254,
+    "random_seed": 121041,
+    "task_type": "GPU",
+    "devices": "0",
+    "gpu_ram_part": 0.5,
+    "thread_count": 4,
+    "early_stopping_rounds": 150,
+    "bootstrap_type": "Bayesian",
+    "bagging_temperature": 1.0,
+    "boost_from_average": false,
+    "train_dir": "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/runs/c122_clip128/logs1"
+  },
+  "GPU": {
+    "uuid": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+    "logical_device": 0,
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_bytes": 84929347584,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "data": {
+    "fit": {
+      "rows": 81432,
+      "positive_fraction": 0.5795755968169761
+    },
+    "monitor": {
+      "rows": 53681,
+      "positive_fraction": 0.593766882137069
+    }
+  },
+  "inputs": 228,
+  "oracle_gate": true,
+  "official_val_used": false
+}

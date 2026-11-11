@@ -1,0 +1,19 @@
+{
+  "created_unix": 1793517594.9957666,
+  "revision": "C21r1",
+  "change": "Only replace scene-token LayerNorm with spatial-centering then the same channel LayerNorm. Remove shared learned token offset before normalization; same parameters, inputs, sampling and losses.",
+  "evidence": "On one fixed DEV map, shared scene-token RMS grows to12.853 while spatial RMS is0.597; LayerNorm reduces spatial RMS to0.0424 vs0.579 at initialization. Four-map frozen replacement of global tokens changes prediction only~0.01dB. This is an observed inactive interaction branch, not an input-information bound.",
+  "original_run": "planned18000, stopped at matching6000 checkpoints for diagnosis; retain all logs; not a completed full-budget negative result",
+  "small_protocol": {
+    "seed": 20261119,
+    "same_four_fit_maps": true,
+    "max_steps_each": 6500,
+    "lr": 0.001,
+    "queries_per_map": 2048,
+    "gate_both_bands_db": 0.5,
+    "evaluate_every": 250,
+    "from_scratch": true
+  },
+  "main_protocol": "Same as original18000-step config, seed20261123, same map/query sequence and schedule. Compare revision effect at matching6000 checkpoint; within revision compare A vsB. No main launch until both small gates pass.",
+  "officialVAL_used": false
+}

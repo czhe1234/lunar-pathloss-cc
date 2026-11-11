@@ -1,0 +1,97 @@
+{
+  "scope": "same C101 TRAIN monitor, 128 terrains; no new fitting",
+  "bands": [
+    {
+      "band": 0,
+      "valid": 1276943,
+      "tail": 47962,
+      "tail_positive_fraction": 0.6141528710228932,
+      "majority_accuracy": 0.6141528710228932,
+      "C82_RMSE": 2.1400178758994066,
+      "C124_RMSE": 2.131481350420166,
+      "conditional": {
+        "sign_accuracy": 0.5465785413452316,
+        "balanced_sign_accuracy": 0.5498730816665417,
+        "squared_residual_weighted_sign_accuracy": 0.5459755948130752,
+        "positive_recall": 0.5354426941879413,
+        "negative_recall": 0.5643034691451421,
+        "target_abs_q50_q90_q99": [
+          7.303985595703125,
+          13.797325134277344,
+          24.084361114501938
+        ],
+        "predicted_abs_q50_q90_q99": [
+          0.27695904672145844,
+          0.9952695131301882,
+          2.2370798826217637
+        ],
+        "mean_residual_positive": 9.497159266199903,
+        "mean_residual_negative": -7.318536973625702
+      },
+      "truth_assisted_diagnostics": {
+        "correct_sign_only": 2.07380441953948,
+        "correct_magnitude_only": 2.7166724415734356,
+        "perfect_tail_correction": 1.0670455065075908,
+        "perfect_tail_selection_only": 2.132467054102262
+      },
+      "C120_old": {
+        "conditional_sign_accuracy": 0.6763896417997581,
+        "balanced_accuracy": 0.656600688926116,
+        "squared_residual_weighted_accuracy": 0.6588472358753904,
+        "scope": "trained and evaluated conditional on true tail; not all-point deployment"
+      },
+      "C120_native": {
+        "conditional_sign_accuracy": 0.6957382928151453,
+        "balanced_accuracy": 0.6849880902434098,
+        "squared_residual_weighted_accuracy": 0.6558294586492192,
+        "scope": "trained and evaluated conditional on true tail; not all-point deployment"
+      }
+    },
+    {
+      "band": 1,
+      "valid": 1182747,
+      "tail": 53681,
+      "tail_positive_fraction": 0.593766882137069,
+      "majority_accuracy": 0.593766882137069,
+      "C82_RMSE": 2.4113117528162946,
+      "C124_RMSE": 2.3956809284876526,
+      "conditional": {
+        "sign_accuracy": 0.5574411803058811,
+        "balanced_sign_accuracy": 0.5634943327187274,
+        "squared_residual_weighted_sign_accuracy": 0.5461130051956443,
+        "positive_recall": 0.5312166656208822,
+        "negative_recall": 0.5957719998165727,
+        "target_abs_q50_q90_q99": [
+          7.41339111328125,
+          14.328872680664062,
+          25.525910949707015
+        ],
+        "predicted_abs_q50_q90_q99": [
+          0.3741435706615448,
+          1.3480055332183838,
+          2.8009038925170886
+        ],
+        "mean_residual_positive": 9.762606907124246,
+        "mean_residual_negative": -7.609630201795151
+      },
+      "truth_assisted_diagnostics": {
+        "correct_sign_only": 2.313189045852072,
+        "correct_magnitude_only": 3.0702820731622813,
+        "perfect_tail_correction": 1.1591822474795028,
+        "perfect_tail_selection_only": 2.399572462600522
+      },
+      "C120_old": {
+        "conditional_sign_accuracy": 0.6398539520500736,
+        "balanced_accuracy": 0.6286200143564666,
+        "squared_residual_weighted_accuracy": 0.6213265800785109,
+        "scope": "trained and evaluated conditional on true tail; not all-point deployment"
+      },
+      "C120_native": {
+        "conditional_sign_accuracy": 0.6717460554013525,
+        "balanced_accuracy": 0.6657444197372295,
+        "squared_residual_weighted_accuracy": 0.6289369709351003,
+        "scope": "trained and evaluated conditional on true tail; not all-point deployment"
+      }
+    }
+  ]
+}

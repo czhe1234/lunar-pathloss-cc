@@ -1,0 +1,36 @@
+{
+  "time_utc": "2026-11-04T06:18:42Z",
+  "other_known_pids_present_on_same_GPU": true,
+  "other_known_memory_change_MiB": {
+    "24493": 3694,
+    "24492": 3588,
+    "24494": 3584,
+    "24495": 3588
+  },
+  "other_processes": {
+    "24493": [
+      "GPU-afc40fcf-3e50-8388-a0e5-29cbbd9fd57c",
+      63178
+    ],
+    "72032": [
+      "GPU-8b21ba1a-8c04-a939-e9c5-e68210a0501a",
+      8238
+    ],
+    "24492": [
+      "GPU-7495c722-c917-4f31-1d27-8432fee43245",
+      62708
+    ],
+    "24494": [
+      "GPU-4a54bdbd-11dd-f819-59c1-ea9a1c07d09e",
+      62704
+    ],
+    "24495": [
+      "GPU-8b21ba1a-8c04-a939-e9c5-e68210a0501a",
+      62708
+    ]
+  },
+  "no_CC_compute_on_allowed_GPUs": true,
+  "all_experiments_completed": true,
+  "system_mutations": [],
+  "note": "Other tasks changed memory allocation and one additional external process appeared; do not describe memory as unchanged throughout training. This thread used only authorized UUIDs and did not reset/stop any external process."
+}

@@ -1,0 +1,231 @@
+{
+  "scope": "Illustrations deliberately selected for contradictory ordering. Frequency estimates come only from the complete preselected panel, not from these cases.",
+  "same_terrain_pairs": [
+    {
+      "observed_weak": {
+        "sample_id": "02230_00",
+        "terrain": "02230",
+        "index": 8509,
+        "TX": [
+          46,
+          8
+        ],
+        "RX_row_col": [
+          224,
+          180
+        ],
+        "range_m": 247.65130615234375,
+        "min_visibility": 1.0,
+        "wide_certificate": true,
+        "actual_PL_dB": [
+          96.375,
+          119.6875
+        ],
+        "C76_PL_dB": [
+          74.56834411621094,
+          97.2665023803711
+        ],
+        "actual_loss_minus_weakest_intact_direct_dB": [
+          23.59280905573671,
+          24.035231218694918
+        ],
+        "reconstructed_4B_direct_excess_dB": -0.637307455767635,
+        "phase_shifted_direct_excess_dB": -0.2724839395862197,
+        "extra_power_over_FS": [
+          0.019870024174451828,
+          0.023099422454833984
+        ],
+        "estimated_first_sheet_hit_fraction": 0.0,
+        "expected_hits": 15.27762222290039
+      },
+      "observed_near_direct": {
+        "sample_id": "02230_00",
+        "terrain": "02230",
+        "index": 8509,
+        "TX": [
+          46,
+          8
+        ],
+        "RX_row_col": [
+          213,
+          174
+        ],
+        "range_m": 235.58824157714844,
+        "min_visibility": 1.0,
+        "wide_certificate": true,
+        "actual_PL_dB": [
+          72.25,
+          95.0625
+        ],
+        "C76_PL_dB": [
+          77.5427017211914,
+          99.80238342285156
+        ],
+        "actual_loss_minus_weakest_intact_direct_dB": [
+          -0.10196690586211332,
+          -0.15954474290390408
+        ],
+        "reconstructed_4B_direct_excess_dB": 3.3015345890961676,
+        "phase_shifted_direct_excess_dB": 3.4471447862025566,
+        "extra_power_over_FS": [
+          0.06284984946250916,
+          0.08645733445882797
+        ],
+        "estimated_first_sheet_hit_fraction": 0.34509384632110596,
+        "expected_hits": 10.895050048828125
+      },
+      "range_difference_m": 12.063064575195312
+    },
+    {
+      "observed_weak": {
+        "sample_id": "03981_00",
+        "terrain": "03981",
+        "index": 15344,
+        "TX": [
+          129,
+          159
+        ],
+        "RX_row_col": [
+          27,
+          236
+        ],
+        "range_m": 128.70452880859375,
+        "min_visibility": 1.0,
+        "wide_certificate": true,
+        "actual_PL_dB": [
+          83.0625,
+          105.3125
+        ],
+        "C76_PL_dB": [
+          73.00086212158203,
+          95.82096862792969
+        ],
+        "actual_loss_minus_weakest_intact_direct_dB": [
+          15.867973999990255,
+          15.247896162948479
+        ],
+        "reconstructed_4B_direct_excess_dB": 0.342358182183397,
+        "phase_shifted_direct_excess_dB": 0.7987554412341046,
+        "extra_power_over_FS": [
+          0.09692713618278503,
+          0.12221956253051758
+        ],
+        "estimated_first_sheet_hit_fraction": 0.0,
+        "expected_hits": 14.314640998840332
+      },
+      "observed_near_direct": {
+        "sample_id": "03981_00",
+        "terrain": "03981",
+        "index": 15344,
+        "TX": [
+          129,
+          159
+        ],
+        "RX_row_col": [
+          165,
+          34
+        ],
+        "range_m": 129.59323120117188,
+        "min_visibility": 1.0,
+        "wide_certificate": true,
+        "actual_PL_dB": [
+          67.1875,
+          89.75
+        ],
+        "C76_PL_dB": [
+          70.48178100585938,
+          93.33560180664062
+        ],
+        "actual_loss_minus_weakest_intact_direct_dB": [
+          -0.046385340399325514,
+          -0.35396317744110206
+        ],
+        "reconstructed_4B_direct_excess_dB": 50.0,
+        "phase_shifted_direct_excess_dB": 50.0,
+        "extra_power_over_FS": [
+          0.2756326496601105,
+          0.34149691462516785
+        ],
+        "estimated_first_sheet_hit_fraction": 0.0,
+        "expected_hits": 8.020477294921875
+      },
+      "range_difference_m": 0.888702392578125
+    },
+    {
+      "observed_weak": {
+        "sample_id": "02326_00",
+        "terrain": "02326",
+        "index": 8841,
+        "TX": [
+          151,
+          202
+        ],
+        "RX_row_col": [
+          52,
+          63
+        ],
+        "range_m": 170.67996215820312,
+        "min_visibility": 1.0,
+        "wide_certificate": true,
+        "actual_PL_dB": [
+          85.125,
+          108.625
+        ],
+        "C76_PL_dB": [
+          72.47350311279297,
+          95.04393005371094
+        ],
+        "actual_loss_minus_weakest_intact_direct_dB": [
+          15.532519050346195,
+          16.16244121330442
+        ],
+        "reconstructed_4B_direct_excess_dB": 0.2119781100757366,
+        "phase_shifted_direct_excess_dB": -0.08205047993131212,
+        "extra_power_over_FS": [
+          0.12026766687631607,
+          0.16045138239860535
+        ],
+        "estimated_first_sheet_hit_fraction": 0.0,
+        "expected_hits": 15.58017349243164
+      },
+      "observed_near_direct": {
+        "sample_id": "02326_00",
+        "terrain": "02326",
+        "index": 8841,
+        "TX": [
+          151,
+          202
+        ],
+        "RX_row_col": [
+          61,
+          86
+        ],
+        "range_m": 146.84716796875,
+        "min_visibility": 1.0,
+        "wide_certificate": true,
+        "actual_PL_dB": [
+          68.6875,
+          91.4375
+        ],
+        "C76_PL_dB": [
+          71.83392333984375,
+          94.2724609375
+        ],
+        "actual_loss_minus_weakest_intact_direct_dB": [
+          0.3822119092749716,
+          0.26213407223319507
+        ],
+        "reconstructed_4B_direct_excess_dB": 5.596881803805932,
+        "phase_shifted_direct_excess_dB": 5.209094905056894,
+        "extra_power_over_FS": [
+          0.039994608610868454,
+          0.055673498660326004
+        ],
+        "estimated_first_sheet_hit_fraction": 0.0,
+        "expected_hits": 11.653402328491211
+      },
+      "range_difference_m": 23.832794189453125
+    }
+  ],
+  "qualifying_pairs": 34
+}

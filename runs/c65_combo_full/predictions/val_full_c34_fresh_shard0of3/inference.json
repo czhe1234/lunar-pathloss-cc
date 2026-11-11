@@ -1,0 +1,18 @@
+{
+  "complete": true,
+  "maps": 900,
+  "gpu": {
+    "uuid": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+    "logical_device": 0,
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_bytes": 84929347584,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "input_only": true,
+  "no_target_or_validity_mask_read": true,
+  "precision": "BF16compiled; fixed frequency experts;teacher4096BF16",
+  "weights_manifest_sha256": "9b5a178203665b27fd3d16ddc3c2cf9ba4efd309d58ec7d355d384b764dcd625",
+  "seconds": 370.219740152359,
+  "warm_dualband_mean_seconds": 0.3994970700213555
+}

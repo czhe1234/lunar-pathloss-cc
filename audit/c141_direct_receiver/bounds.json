@@ -1,0 +1,485 @@
+{
+  "scope": "16 FIT terrains; enriched counterexamples and ordinary controls, not validation RMSE",
+  "threshold_dB": 1.0,
+  "n_points": 239,
+  "n_case": 111,
+  "groups": {
+    "all": {
+      "points": 239,
+      "methods": {
+        "area256_linear": {
+          "finite": [
+            239,
+            239
+          ],
+          "zero_power_uninformative": [
+            0,
+            0
+          ],
+          "violations_above_1dB": [
+            111,
+            111
+          ],
+          "worst_finite_violation_dB": [
+            48.7708551942394,
+            53.07500400451082
+          ]
+        },
+        "native_full_linear": {
+          "finite": [
+            225,
+            225
+          ],
+          "zero_power_uninformative": [
+            14,
+            14
+          ],
+          "violations_above_1dB": [
+            74,
+            74
+          ],
+          "worst_finite_violation_dB": [
+            44.68171316828028,
+            47.33131887651142
+          ]
+        },
+        "native_full_log": {
+          "finite": [
+            152,
+            152
+          ],
+          "zero_power_uninformative": [
+            87,
+            87
+          ],
+          "violations_above_1dB": [
+            23,
+            23
+          ],
+          "worst_finite_violation_dB": [
+            41.0989566768845,
+            41.29137883984271
+          ]
+        },
+        "native_full_weakest_donor": {
+          "finite": [
+            152,
+            152
+          ],
+          "zero_power_uninformative": [
+            87,
+            87
+          ],
+          "violations_above_1dB": [
+            22,
+            22
+          ],
+          "worst_finite_violation_dB": [
+            40.92752983561181,
+            41.11995199857003
+          ]
+        },
+        "native_first_linear": {
+          "finite": [
+            65,
+            65
+          ],
+          "zero_power_uninformative": [
+            174,
+            174
+          ],
+          "violations_above_1dB": [
+            0,
+            0
+          ],
+          "worst_finite_violation_dB": [
+            -0.05160993620721399,
+            -0.08672038884371602
+          ]
+        }
+      }
+    },
+    "case": {
+      "points": 111,
+      "methods": {
+        "area256_linear": {
+          "finite": [
+            111,
+            111
+          ],
+          "zero_power_uninformative": [
+            0,
+            0
+          ],
+          "violations_above_1dB": [
+            111,
+            111
+          ],
+          "worst_finite_violation_dB": [
+            48.7708551942394,
+            53.07500400451082
+          ]
+        },
+        "native_full_linear": {
+          "finite": [
+            97,
+            97
+          ],
+          "zero_power_uninformative": [
+            14,
+            14
+          ],
+          "violations_above_1dB": [
+            74,
+            74
+          ],
+          "worst_finite_violation_dB": [
+            44.68171316828028,
+            47.33131887651142
+          ]
+        },
+        "native_full_log": {
+          "finite": [
+            25,
+            25
+          ],
+          "zero_power_uninformative": [
+            86,
+            86
+          ],
+          "violations_above_1dB": [
+            23,
+            23
+          ],
+          "worst_finite_violation_dB": [
+            41.0989566768845,
+            41.29137883984271
+          ]
+        },
+        "native_full_weakest_donor": {
+          "finite": [
+            25,
+            25
+          ],
+          "zero_power_uninformative": [
+            86,
+            86
+          ],
+          "violations_above_1dB": [
+            22,
+            22
+          ],
+          "worst_finite_violation_dB": [
+            40.92752983561181,
+            41.11995199857003
+          ]
+        },
+        "native_first_linear": {
+          "finite": [
+            0,
+            0
+          ],
+          "zero_power_uninformative": [
+            111,
+            111
+          ],
+          "violations_above_1dB": [
+            0,
+            0
+          ],
+          "worst_finite_violation_dB": [
+            null,
+            null
+          ]
+        }
+      }
+    },
+    "ordinary": {
+      "points": 128,
+      "methods": {
+        "area256_linear": {
+          "finite": [
+            128,
+            128
+          ],
+          "zero_power_uninformative": [
+            0,
+            0
+          ],
+          "violations_above_1dB": [
+            0,
+            0
+          ],
+          "worst_finite_violation_dB": [
+            0.7614117174192216,
+            0.7663338803774309
+          ]
+        },
+        "native_full_linear": {
+          "finite": [
+            128,
+            128
+          ],
+          "zero_power_uninformative": [
+            0,
+            0
+          ],
+          "violations_above_1dB": [
+            0,
+            0
+          ],
+          "worst_finite_violation_dB": [
+            0.7463934660653564,
+            0.7513156290235656
+          ]
+        },
+        "native_full_log": {
+          "finite": [
+            127,
+            127
+          ],
+          "zero_power_uninformative": [
+            1,
+            1
+          ],
+          "violations_above_1dB": [
+            0,
+            0
+          ],
+          "worst_finite_violation_dB": [
+            0.7462125671477082,
+            0.7511347301059175
+          ]
+        },
+        "native_full_weakest_donor": {
+          "finite": [
+            127,
+            127
+          ],
+          "zero_power_uninformative": [
+            1,
+            1
+          ],
+          "violations_above_1dB": [
+            0,
+            0
+          ],
+          "worst_finite_violation_dB": [
+            0.7015927391547763,
+            0.7065149021129855
+          ]
+        },
+        "native_first_linear": {
+          "finite": [
+            65,
+            65
+          ],
+          "zero_power_uninformative": [
+            63,
+            63
+          ],
+          "violations_above_1dB": [
+            0,
+            0
+          ],
+          "worst_finite_violation_dB": [
+            -0.05160993620721399,
+            -0.08672038884371602
+          ]
+        }
+      }
+    },
+    "C82_good_case": {
+      "points": 47,
+      "methods": {
+        "area256_linear": {
+          "finite": [
+            47,
+            47
+          ],
+          "zero_power_uninformative": [
+            0,
+            0
+          ],
+          "violations_above_1dB": [
+            47,
+            47
+          ],
+          "worst_finite_violation_dB": [
+            16.931244938476198,
+            16.873667101434407
+          ]
+        },
+        "native_full_linear": {
+          "finite": [
+            40,
+            40
+          ],
+          "zero_power_uninformative": [
+            7,
+            7
+          ],
+          "violations_above_1dB": [
+            19,
+            19
+          ],
+          "worst_finite_violation_dB": [
+            10.93099748942285,
+            11.264362015131823
+          ]
+        },
+        "native_full_log": {
+          "finite": [
+            5,
+            5
+          ],
+          "zero_power_uninformative": [
+            42,
+            42
+          ],
+          "violations_above_1dB": [
+            3,
+            3
+          ],
+          "worst_finite_violation_dB": [
+            8.24585997480591,
+            8.87578213776412
+          ]
+        },
+        "native_full_weakest_donor": {
+          "finite": [
+            5,
+            5
+          ],
+          "zero_power_uninformative": [
+            42,
+            42
+          ],
+          "violations_above_1dB": [
+            2,
+            2
+          ],
+          "worst_finite_violation_dB": [
+            8.158498538781686,
+            8.78842070173991
+          ]
+        },
+        "native_first_linear": {
+          "finite": [
+            0,
+            0
+          ],
+          "zero_power_uninformative": [
+            47,
+            47
+          ],
+          "violations_above_1dB": [
+            0,
+            0
+          ],
+          "worst_finite_violation_dB": [
+            null,
+            null
+          ]
+        }
+      }
+    },
+    "shared_miss_case": {
+      "points": 64,
+      "methods": {
+        "area256_linear": {
+          "finite": [
+            64,
+            64
+          ],
+          "zero_power_uninformative": [
+            0,
+            0
+          ],
+          "violations_above_1dB": [
+            64,
+            64
+          ],
+          "worst_finite_violation_dB": [
+            48.7708551942394,
+            53.07500400451082
+          ]
+        },
+        "native_full_linear": {
+          "finite": [
+            57,
+            57
+          ],
+          "zero_power_uninformative": [
+            7,
+            7
+          ],
+          "violations_above_1dB": [
+            55,
+            55
+          ],
+          "worst_finite_violation_dB": [
+            44.68171316828028,
+            47.33131887651142
+          ]
+        },
+        "native_full_log": {
+          "finite": [
+            20,
+            20
+          ],
+          "zero_power_uninformative": [
+            44,
+            44
+          ],
+          "violations_above_1dB": [
+            20,
+            20
+          ],
+          "worst_finite_violation_dB": [
+            41.0989566768845,
+            41.29137883984271
+          ]
+        },
+        "native_full_weakest_donor": {
+          "finite": [
+            20,
+            20
+          ],
+          "zero_power_uninformative": [
+            44,
+            44
+          ],
+          "violations_above_1dB": [
+            20,
+            20
+          ],
+          "worst_finite_violation_dB": [
+            40.92752983561181,
+            41.11995199857003
+          ]
+        },
+        "native_first_linear": {
+          "finite": [
+            0,
+            0
+          ],
+          "zero_power_uninformative": [
+            64,
+            64
+          ],
+          "violations_above_1dB": [
+            0,
+            0
+          ],
+          "worst_finite_violation_dB": [
+            null,
+            null
+          ]
+        }
+      }
+    }
+  },
+  "irreducible_by_fixed_donor_convex_interpolation_cases": 22,
+  "decision": "FIT compatibility fails; no monitor evaluation and no neural constraint training"
+}

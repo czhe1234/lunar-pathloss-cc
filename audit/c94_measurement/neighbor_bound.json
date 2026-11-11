@@ -1,0 +1,86 @@
+{
+  "columns": [
+    "counterexamples_with_complete_neighborhood",
+    "neighbor_direct_weak_enough_to_allow_label",
+    "still_at_least_5dB_beyond_all_neighbor_donors",
+    "neighborhood_contains_zero_direct"
+  ],
+  "band_radius_counts": [
+    [
+      [
+        107,
+        0,
+        107,
+        0
+      ],
+      [
+        71,
+        67,
+        3,
+        66
+      ],
+      [
+        22,
+        22,
+        0,
+        22
+      ]
+    ],
+    [
+      [
+        102,
+        0,
+        102,
+        0
+      ],
+      [
+        68,
+        65,
+        3,
+        63
+      ],
+      [
+        21,
+        21,
+        0,
+        21
+      ]
+    ]
+  ],
+  "one_meter_comparator_columns": [
+    "positions",
+    "contains_zero_direct",
+    "central_mean_direct_under_minus1dB"
+  ],
+  "one_meter_groups": [
+    "hard_max_donor_counterexample",
+    "remaining_all_positive_native_positions"
+  ],
+  "one_meter_controls": [
+    [
+      [
+        71,
+        66,
+        13
+      ],
+      [
+        2189,
+        899,
+        199
+      ]
+    ],
+    [
+      [
+        68,
+        63,
+        13
+      ],
+      [
+        2192,
+        902,
+        199
+      ]
+    ]
+  ],
+  "limitation": "A label-assisted permissive bound, not a learned map or a blind prediction. Many other cells also have zero-direct neighbors."
+}

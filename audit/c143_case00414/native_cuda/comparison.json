@@ -1,0 +1,604 @@
+{
+  "scope": "Fixed TRAIN map1819, sample00414_00, frozen C141 query donors and eight ordinary controls",
+  "purpose": "Native CUDA lattice arithmetic versus identical-world-vector C142 CUDA and archived LLVM",
+  "frequency_hz": [
+    415000000.0,
+    5775000000.0
+  ],
+  "input_manifest_sha256": "bbda6778e9e5a928ad98a869ef9e3dc275a105fb018fa226b00e47ad8a1c46ee",
+  "gpu_uuid": "GPU-70b6fceb-c7c4-9467-3c81-097c9284c160",
+  "ray_count": 7430870,
+  "native_original_spawn_function": "sionna.rt.utils.ray_tracing.spawn_ray_from_sources",
+  "labels_used_to_form_rays_or_power": false,
+  "target_labels_dB": [
+    [
+      88.125,
+      110.6875
+    ]
+  ],
+  "methods": {
+    "archived_llvm": {
+      "target": {
+        "points": 1,
+        "direct_linear_PL_dB": {
+          "values": [
+            [
+              70.57285113305642,
+              93.44292897009821
+            ]
+          ],
+          "RMSE_dB": [
+            17.552148866943583,
+            17.244571029901792
+          ],
+          "finite_points": [
+            1,
+            1
+          ]
+        },
+        "direct_weakest_donor_PL_dB": {
+          "values": [
+            [
+              70.59171757917912,
+              93.46179541622091
+            ]
+          ],
+          "RMSE_dB": [
+            17.533282420820882,
+            17.22570458377909
+          ],
+          "finite_points": [
+            1,
+            1
+          ]
+        },
+        "total_linear_PL_dB": {
+          "values": [
+            [
+              70.42462990861048,
+              93.26206905544701
+            ]
+          ],
+          "RMSE_dB": [
+            17.700370091389516,
+            17.425430944552986
+          ],
+          "finite_points": [
+            1,
+            1
+          ]
+        },
+        "total_log_PL_dB": {
+          "values": [
+            [
+              70.42516024550025,
+              93.26279344383269
+            ]
+          ],
+          "RMSE_dB": [
+            17.69983975449975,
+            17.42470655616731
+          ],
+          "finite_points": [
+            1,
+            1
+          ]
+        },
+        "weakest_direct_excess_above_label_dB": [
+          [
+            17.533282420820882,
+            17.22570458377909
+          ]
+        ],
+        "weakest_direct_conflicts_above_1dB": [
+          1,
+          1
+        ]
+      },
+      "ordinary": {
+        "points": 8,
+        "direct_linear_PL_dB": {
+          "values": null,
+          "RMSE_dB": [
+            0.8947173530632154,
+            1.3488490767777872
+          ],
+          "finite_points": [
+            8,
+            8
+          ]
+        },
+        "direct_weakest_donor_PL_dB": {
+          "values": null,
+          "RMSE_dB": [
+            0.9259834636408829,
+            1.3801888966364229
+          ],
+          "finite_points": [
+            8,
+            8
+          ]
+        },
+        "total_linear_PL_dB": {
+          "values": null,
+          "RMSE_dB": [
+            0.3899675742008924,
+            0.5700253680399959
+          ],
+          "finite_points": [
+            8,
+            8
+          ]
+        },
+        "total_log_PL_dB": {
+          "values": null,
+          "RMSE_dB": [
+            0.39323398599845666,
+            0.577733117245607
+          ],
+          "finite_points": [
+            8,
+            8
+          ]
+        },
+        "weakest_direct_excess_above_label_dB": null,
+        "weakest_direct_conflicts_above_1dB": [
+          0,
+          0
+        ]
+      },
+      "remaining_cases_on_map": {
+        "points": 3,
+        "direct_linear_PL_dB": {
+          "values": null,
+          "RMSE_dB": [
+            14.825696013024324,
+            16.51071952741036
+          ],
+          "finite_points": [
+            3,
+            3
+          ]
+        },
+        "direct_weakest_donor_PL_dB": {
+          "values": null,
+          "RMSE_dB": [
+            13.752585900442089,
+            15.417611686047229
+          ],
+          "finite_points": [
+            3,
+            3
+          ]
+        },
+        "total_linear_PL_dB": {
+          "values": null,
+          "RMSE_dB": [
+            14.884649797698838,
+            16.57393231565222
+          ],
+          "finite_points": [
+            3,
+            3
+          ]
+        },
+        "total_log_PL_dB": {
+          "values": null,
+          "RMSE_dB": [
+            14.596051186939567,
+            16.28779066543125
+          ],
+          "finite_points": [
+            3,
+            3
+          ]
+        },
+        "weakest_direct_excess_above_label_dB": null,
+        "weakest_direct_conflicts_above_1dB": [
+          3,
+          3
+        ]
+      }
+    },
+    "matched_cuda": {
+      "target": {
+        "points": 1,
+        "direct_linear_PL_dB": {
+          "values": [
+            [
+              70.57285058446836,
+              93.44292842151015
+            ]
+          ],
+          "RMSE_dB": [
+            17.552149415531645,
+            17.244571578489854
+          ],
+          "finite_points": [
+            1,
+            1
+          ]
+        },
+        "direct_weakest_donor_PL_dB": {
+          "values": [
+            [
+              70.59171757917912,
+              93.46179541622091
+            ]
+          ],
+          "RMSE_dB": [
+            17.533282420820882,
+            17.22570458377909
+          ],
+          "finite_points": [
+            1,
+            1
+          ]
+        },
+        "total_linear_PL_dB": {
+          "values": [
+            [
+              70.4246293784294,
+              93.26206852923548
+            ]
+          ],
+          "RMSE_dB": [
+            17.7003706215706,
+            17.425431470764522
+          ],
+          "finite_points": [
+            1,
+            1
+          ]
+        },
+        "total_log_PL_dB": {
+          "values": [
+            [
+              70.42515972328617,
+              93.26279292675645
+            ]
+          ],
+          "RMSE_dB": [
+            17.69984027671383,
+            17.424707073243553
+          ],
+          "finite_points": [
+            1,
+            1
+          ]
+        },
+        "weakest_direct_excess_above_label_dB": [
+          [
+            17.533282420820882,
+            17.22570458377909
+          ]
+        ],
+        "weakest_direct_conflicts_above_1dB": [
+          1,
+          1
+        ]
+      },
+      "ordinary": {
+        "points": 8,
+        "direct_linear_PL_dB": {
+          "values": null,
+          "RMSE_dB": [
+            0.8947175372647872,
+            1.3488492857334138
+          ],
+          "finite_points": [
+            8,
+            8
+          ]
+        },
+        "direct_weakest_donor_PL_dB": {
+          "values": null,
+          "RMSE_dB": [
+            0.9259839335424132,
+            1.3801893944093755
+          ],
+          "finite_points": [
+            8,
+            8
+          ]
+        },
+        "total_linear_PL_dB": {
+          "values": null,
+          "RMSE_dB": [
+            0.3899672760146664,
+            0.5700251050066129
+          ],
+          "finite_points": [
+            8,
+            8
+          ]
+        },
+        "total_log_PL_dB": {
+          "values": null,
+          "RMSE_dB": [
+            0.3932336907984081,
+            0.5777328554825879
+          ],
+          "finite_points": [
+            8,
+            8
+          ]
+        },
+        "weakest_direct_excess_above_label_dB": null,
+        "weakest_direct_conflicts_above_1dB": [
+          0,
+          0
+        ]
+      },
+      "remaining_cases_on_map": {
+        "points": 3,
+        "direct_linear_PL_dB": {
+          "values": null,
+          "RMSE_dB": [
+            14.825696461362826,
+            16.510719955319804
+          ],
+          "finite_points": [
+            3,
+            3
+          ]
+        },
+        "direct_weakest_donor_PL_dB": {
+          "values": null,
+          "RMSE_dB": [
+            13.752585900442089,
+            15.417611686047229
+          ],
+          "finite_points": [
+            3,
+            3
+          ]
+        },
+        "total_linear_PL_dB": {
+          "values": null,
+          "RMSE_dB": [
+            14.884650238765245,
+            16.573932736079943
+          ],
+          "finite_points": [
+            3,
+            3
+          ]
+        },
+        "total_log_PL_dB": {
+          "values": null,
+          "RMSE_dB": [
+            14.596051523826683,
+            16.28779098301217
+          ],
+          "finite_points": [
+            3,
+            3
+          ]
+        },
+        "weakest_direct_excess_above_label_dB": null,
+        "weakest_direct_conflicts_above_1dB": [
+          3,
+          3
+        ]
+      }
+    },
+    "native_cuda": {
+      "target": {
+        "points": 1,
+        "direct_linear_PL_dB": {
+          "values": [
+            [
+              70.57285058446836,
+              93.44292842151015
+            ]
+          ],
+          "RMSE_dB": [
+            17.552149415531645,
+            17.244571578489854
+          ],
+          "finite_points": [
+            1,
+            1
+          ]
+        },
+        "direct_weakest_donor_PL_dB": {
+          "values": [
+            [
+              70.59171757917912,
+              93.46179541622091
+            ]
+          ],
+          "RMSE_dB": [
+            17.533282420820882,
+            17.22570458377909
+          ],
+          "finite_points": [
+            1,
+            1
+          ]
+        },
+        "total_linear_PL_dB": {
+          "values": [
+            [
+              70.4246293784294,
+              93.26206852923548
+            ]
+          ],
+          "RMSE_dB": [
+            17.7003706215706,
+            17.425431470764522
+          ],
+          "finite_points": [
+            1,
+            1
+          ]
+        },
+        "total_log_PL_dB": {
+          "values": [
+            [
+              70.42515972328617,
+              93.26279292675645
+            ]
+          ],
+          "RMSE_dB": [
+            17.69984027671383,
+            17.424707073243553
+          ],
+          "finite_points": [
+            1,
+            1
+          ]
+        },
+        "weakest_direct_excess_above_label_dB": [
+          [
+            17.533282420820882,
+            17.22570458377909
+          ]
+        ],
+        "weakest_direct_conflicts_above_1dB": [
+          1,
+          1
+        ]
+      },
+      "ordinary": {
+        "points": 8,
+        "direct_linear_PL_dB": {
+          "values": null,
+          "RMSE_dB": [
+            0.8947174932993733,
+            1.348849251091424
+          ],
+          "finite_points": [
+            8,
+            8
+          ]
+        },
+        "direct_weakest_donor_PL_dB": {
+          "values": null,
+          "RMSE_dB": [
+            0.9259839515180021,
+            1.3801894249703546
+          ],
+          "finite_points": [
+            8,
+            8
+          ]
+        },
+        "total_linear_PL_dB": {
+          "values": null,
+          "RMSE_dB": [
+            0.38996719725767065,
+            0.5700250355945644
+          ],
+          "finite_points": [
+            8,
+            8
+          ]
+        },
+        "total_log_PL_dB": {
+          "values": null,
+          "RMSE_dB": [
+            0.39323361637361115,
+            0.5777327926670599
+          ],
+          "finite_points": [
+            8,
+            8
+          ]
+        },
+        "weakest_direct_excess_above_label_dB": null,
+        "weakest_direct_conflicts_above_1dB": [
+          0,
+          0
+        ]
+      },
+      "remaining_cases_on_map": {
+        "points": 3,
+        "direct_linear_PL_dB": {
+          "values": null,
+          "RMSE_dB": [
+            14.82569643600643,
+            16.510719930306557
+          ],
+          "finite_points": [
+            3,
+            3
+          ]
+        },
+        "direct_weakest_donor_PL_dB": {
+          "values": null,
+          "RMSE_dB": [
+            13.752585827272128,
+            15.417611610299021
+          ],
+          "finite_points": [
+            3,
+            3
+          ]
+        },
+        "total_linear_PL_dB": {
+          "values": null,
+          "RMSE_dB": [
+            14.884650213511652,
+            16.573932711162485
+          ],
+          "finite_points": [
+            3,
+            3
+          ]
+        },
+        "total_log_PL_dB": {
+          "values": null,
+          "RMSE_dB": [
+            14.596051461266864,
+            16.2877909207827
+          ],
+          "finite_points": [
+            3,
+            3
+          ]
+        },
+        "weakest_direct_excess_above_label_dB": null,
+        "weakest_direct_conflicts_above_1dB": [
+          3,
+          3
+        ]
+      }
+    }
+  },
+  "native_comparisons": {
+    "archived_llvm": {
+      "positive_weight_common_donor_entries": 42,
+      "donor_support_changes": 0,
+      "native_minus_reference_direct_donor_PL_dB_q50_q90_q99_max_abs": [
+        8.011828391829567e-07,
+        1.840645261808049e-06,
+        3.2684372769864427e-06,
+        3.6893733224019343e-06
+      ],
+      "target_native_minus_reference_total_linear_PL_dB": [
+        [
+          -5.301810830360409e-07,
+          -5.262115365667341e-07
+        ]
+      ]
+    },
+    "matched_cuda": {
+      "positive_weight_common_donor_entries": 42,
+      "donor_support_changes": 0,
+      "native_minus_reference_direct_donor_PL_dB_q50_q90_q99_max_abs": [
+        0.0,
+        5.660931272188918e-07,
+        9.383853430477984e-07,
+        9.465549908327375e-07
+      ],
+      "target_native_minus_reference_total_linear_PL_dB": [
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    }
+  }
+}

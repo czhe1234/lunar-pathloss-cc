@@ -1,0 +1,56 @@
+{
+  "c54_low_attention": {
+    "pid": 3498880,
+    "card": 1,
+    "args": [
+      "./run_gpu.sh",
+      "1",
+      "src/c54_low_train.py",
+      "--scope",
+      "full",
+      "--kind",
+      "attention",
+      "--name",
+      "c54_low_attention",
+      "--batch",
+      "4096",
+      "--steps",
+      "16000",
+      "--parent",
+      "c47_attention_full",
+      "--target-band",
+      "0",
+      "--lr",
+      ".0003",
+      "--seed",
+      "20261202"
+    ]
+  },
+  "c54_high_transport": {
+    "pid": 3498881,
+    "card": 4,
+    "args": [
+      "./run_gpu.sh",
+      "4",
+      "src/c54_high_train.py",
+      "--scope",
+      "full",
+      "--kind",
+      "transport",
+      "--name",
+      "c54_high_transport",
+      "--batch",
+      "2048",
+      "--steps",
+      "16000",
+      "--parent",
+      "c49_transport_full",
+      "--target-band",
+      "1",
+      "--lr",
+      ".0003",
+      "--seed",
+      "20261202"
+    ]
+  }
+}

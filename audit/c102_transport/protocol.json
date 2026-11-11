@@ -1,0 +1,50 @@
+{
+  "question": "Does preserving native1m surface-source information in receiver-conditioned geometric attention repair frozenC82 errors?",
+  "arms": [
+    "coarse",
+    "native"
+  ],
+  "scales": {
+    "coarse": 4,
+    "native": 1
+  },
+  "source_nodes": {
+    "coarse": 4096,
+    "native": 65536
+  },
+  "architecture": "FrozenC99 global terrain encoder plus rawH/TX56 andC82excess2; frozenC101coarse point encoder plus precise169rawfeatures; train receiver-query/surface-key-value crossattention and residual head.",
+  "physical_kernel": "Soft TX visibility, TX-source andsource-RXdistance spreading, surface incidence/departure, specularalignment mixture, area-consistent quadrature. Bias not labels; no C95 offsets.",
+  "comparison": "Only source resolution changes. Identical network tensors, initialization, samples, optimization and updatebudget.",
+  "fit_maps": 2815,
+  "fit_terrains": 1984,
+  "fit_points": 4323840,
+  "source_pretrain_fit_terrains": 5508,
+  "monitor_terrains": 128,
+  "monitor_maps": 628,
+  "monitor_sampling": "256input-only fixedpoint indices/map from same2048C90panel,seed102017. Used only for checkpointselection.",
+  "confirmation": "same484terrains/1934maps/2048point fullpanel, then fullnative verification ifmajor.",
+  "steps": 4000,
+  "seed": 102041,
+  "sample_seed": 102073,
+  "batch_maps": 8,
+  "queries_per_map": 128,
+  "evaluation_every": 500,
+  "optimizer": "AdamW lr.0008 wd.005,100warmup,cosine4000,minfactor.1,clip3; maskedMSE/25 withFITmap inclusion weights.",
+  "parameters": 338658,
+  "initial_state_sha256": "01b9b1c2ae89c862c02122fae7bd5a339253a3ff3fac7bc8c45de87c76bd93c3",
+  "frozen_sha256": {
+    "runs/c101_coarse/best.pt": "96b65a8d3cfd6de58446737e76c7ef277453299990b301e0ec061b0025b24b4c",
+    "runs/c99_global/best.pt": "67e2d305a4dd6e78c7c501a7b53b04fc42cb6df64a9963d38113409c2928ca93"
+  },
+  "selection": "min jointmean monitorRMSE for each arm including zero newcorrection; freeze then choose candidate bymonitor betweenC82 andarms before confirmation.",
+  "promotion": "both confirmation bandgains>=.30dB versusC82 and pairedterrain95CI lowerbound>0; require fullnative verification beforefullTRAIN refit",
+  "official_target": "both official validation RMSE<=1dB",
+  "official_val_used": false,
+  "history": "Same repeatedly usedTRAIN-heldout terrains; C82historicalcalibration80monitor terrains. Not a new blindtest.",
+  "GPU": {
+    "coarse": 1,
+    "native": 3,
+    "confirmation": 4
+  },
+  "C101_status": "NoC101arm passed majorgain; this is a newglobal source-receiver information test, notC101expansion."
+}

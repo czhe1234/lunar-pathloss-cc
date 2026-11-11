@@ -1,0 +1,16 @@
+{
+  "question": "Does applying the same input-height fractional hypothesis to surrounding surface visibility and material crossing reduce remaining strong-attenuation errors?",
+  "baseline": "c10_points_phase_geometry_s20261101",
+  "feature_change": "Append 20 surrounding-surface and 16 material-crossing descriptors at TX height 3-frac(H_TX).",
+  "selection_data": "unchanged internal FIT/DEV, same uniform pixels and official masks for loss only",
+  "official_validation_used_for_candidate_selection": false,
+  "training": "Same C10 hyperparameters and seed, max 1200 trees and patience100",
+  "promotion_gate": "At least 3 percent relative RMSE reduction in EACH band on the unchanged sampled DEV. A failed gate stops this branch; no full refit or official score.",
+  "reason": "Complete C10 DEV shows about half residual SSE within label and prediction both >=10 dB excess loss. C10 corrects direct profiles but surrounding-surface descriptors retain TX=2/3 endpoints.",
+  "actual_TX_recovered": false,
+  "code_provenance": "Independent code already developed inside CC; no outside-AI artifacts",
+  "source_hashes": {
+    "src/c7_surface_features.py": "d6048599ef969d04ff73611f25877d98a084ca4160db1f6343872035be0b7383",
+    "src/c7_material_features.py": "8e307d80da1d3caaa6189c8dddf780636abe5c4826e60473511e4e6d8692b6c7"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "state": "architecture_audit_and_candidate_design_completed_no_training",
+  "user_steering": "Prioritize targeted architecture and optimization hypotheses. User criticism is not proof that architecture is the sole remaining cause.",
+  "current_anchor": "C10:294 input-derived features, separateLightGBM per band; official combined3.1775908265908654dB unchanged.",
+  "C4": {
+    "parameters": 8985986,
+    "parameter_breakdown": {
+      "stem": 8960,
+      "encoder": 3536256,
+      "global_transformer": 2367744,
+      "decoder": 3068800,
+      "head": 4226
+    },
+    "global_attention": "two8-headTransformerEncoderLayers on16x16 tokens afterfour2xpooling stages",
+    "full_resolution_preserved_by": "skip connections and original31-channel concatenation at output; not total loss of metre-scale information",
+    "attention_geometry": "coordinate/geometry information exists in input channels, but no explicitTX-surface-RX relative-geometry attention bias",
+    "heads": "shared nonlinear decoder with a two-channel output; does not force equal band patterns",
+    "source_sha256": "c84d9957e0a4e072d25cf797b64da119a4c616f6e128a0eb0960ebb9c9db4867",
+    "matches_completed_run_source": true
+  },
+  "C15": {
+    "architecture": "residualMLP over the same294 C10 features plus30 deterministic transforms",
+    "fit_RMSE": [
+      2.7148024152546366,
+      2.8345864026962495
+    ],
+    "dev_RMSE": [
+      2.962852021211109,
+      3.2713201084676333
+    ],
+    "claim_limit": "Cannot test end-to-end recovery of geometry excluded from fixed point features; sampled-point DEV is not official VAL."
+  },
+  "C17": {
+    "parameters": 280754,
+    "FIT_terrains": 512,
+    "DEV_terrains": 128,
+    "maps_per_terrain": 1,
+    "mode": "frozenC10 residual correction",
+    "fit_RMSE": [
+      2.6521756502769698,
+      2.8906289754950802
+    ],
+    "dev_RMSE": [
+      2.9230796258413947,
+      3.480820173860395
+    ],
+    "claim_limit": "Limited capacity/data residual pilot; not a full-scale architecture comparison or an upper bound on neural prediction."
+  },
+  "training_protocol_gap": "Prior candidates differed in inputs, sample scale, initialization, learning-rate schedule and selection; C4training proxy is not an exact end-of-training FIT evaluation.",
+  "scientific_boundary": "No evidence yet identifies a unique dominant cause. Analytic one-bounce proxy failure is not evidence of neural unlearnability. A correct analytic point-power simulator is not a prerequisite for supervised end-to-end architecture testing.",
+  "GPU_used_this_review": false,
+  "new_competition_training_started": false
+}

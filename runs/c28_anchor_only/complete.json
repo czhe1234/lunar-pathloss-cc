@@ -1,0 +1,88 @@
+{
+  "status": "exposure_control_complete",
+  "steps": 4500,
+  "full_FIT": {
+    "rmse": [
+      3.300344492608382,
+      3.452516399681335
+    ],
+    "score": 3.3764304461448584,
+    "sse": [
+      90659771.19166712,
+      87663607.37645517
+    ],
+    "count": [
+      8323310.0,
+      7354410.0
+    ],
+    "maps": 128,
+    "scope": "C28 complete valid pixels fixed128FIT,4 focal maps oversampled; diagnostic, not officialVAL",
+    "seconds": 5.4817705154418945,
+    "zones_definition": "floor-TX profile max elevation: clear < -0.25 m, boundary within +/-0.25 m, blocked >0.25 m",
+    "zones": {
+      "clear": {
+        "rmse": [
+          2.1030121338444654,
+          2.1187814458328345
+        ],
+        "score": 2.11089678983865,
+        "sse": [
+          24904719.551217213,
+          25281103.41565557
+        ],
+        "count": [
+          5631163.0,
+          5631495.0
+        ],
+        "maps": 128
+      },
+      "boundary": {
+        "rmse": [
+          5.281133264977024,
+          6.203762910445863
+        ],
+        "score": 5.742448087711443,
+        "sse": [
+          22345791.182601,
+          29402241.172609918
+        ],
+        "count": [
+          801201.0,
+          763959.0
+        ],
+        "maps": 128
+      },
+      "blocked": {
+        "rmse": [
+          4.791280866710899,
+          5.864455774582184
+        ],
+        "score": 5.327868320646541,
+        "sse": [
+          43409260.45784895,
+          32980262.788189664
+        ],
+        "count": [
+          1890946.0,
+          958956.0
+        ],
+        "maps": 128
+      }
+    }
+  },
+  "query_order_sha256": "391c9c6f877e8bf0be7209e701d9c8de576ee8f74434d8708dd304ddecf255f1",
+  "map_order_sha256": "843e6bb37034fe9ee7d2ac8f43165e0024905d19038f2c6bfcb83354f514fb08",
+  "initial_state_sha256": "4241839f76c971e9e02966a7e7efb79223eb03d60c7a687c813d291bbe6f184e",
+  "negative_gradient_fraction": 0.44422222222222224,
+  "mean_gradient_cosine": 0.0441653184135056,
+  "clipped_steps": 0,
+  "gpu": {
+    "uuid": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+    "logical_device": 0,
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_bytes": 84929347584,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "seconds": 449.1983094215393
+}

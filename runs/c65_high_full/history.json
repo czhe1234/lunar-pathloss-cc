@@ -1,0 +1,229 @@
+[
+  {
+    "step": 0,
+    "TRAIN_probe": {
+      "RMSE": [
+        2.46063798122663,
+        2.6344669288911597
+      ],
+      "scope": "TRAIN probe only; unused other band is not part of combined predictor"
+    },
+    "seconds": 0
+  },
+  {
+    "step": 1000,
+    "TRAIN_probe": {
+      "RMSE": [
+        2.459405030083598,
+        2.6459286250600536
+      ],
+      "scope": "TRAIN probe only; unused other band is not part of combined predictor"
+    },
+    "lr": 0.00029778327646444447,
+    "seconds": 38.33771562576294
+  },
+  {
+    "step": 2000,
+    "TRAIN_probe": {
+      "RMSE": [
+        2.462278030398821,
+        2.638905039890663
+      ],
+      "scope": "TRAIN probe only; unused other band is not part of combined predictor"
+    },
+    "lr": 0.00029119335529571725,
+    "seconds": 74.40242791175842
+  },
+  {
+    "step": 3000,
+    "TRAIN_probe": {
+      "RMSE": [
+        2.4616134171940054,
+        2.6400577854549954
+      ],
+      "scope": "TRAIN probe only; unused other band is not part of combined predictor"
+    },
+    "lr": 0.00028043566889215005,
+    "seconds": 110.61286187171936
+  },
+  {
+    "step": 4000,
+    "TRAIN_probe": {
+      "RMSE": [
+        2.4632545706020483,
+        2.636771483411574
+      ],
+      "scope": "TRAIN probe only; unused other band is not part of combined predictor"
+    },
+    "lr": 0.00026584557805982723,
+    "seconds": 146.94579935073853
+  },
+  {
+    "step": 5000,
+    "TRAIN_probe": {
+      "RMSE": [
+        2.4632162774301345,
+        2.632538374009523
+      ],
+      "scope": "TRAIN probe only; unused other band is not part of combined predictor"
+    },
+    "lr": 0.00024787791522635615,
+    "seconds": 183.0317075252533
+  },
+  {
+    "step": 6000,
+    "TRAIN_probe": {
+      "RMSE": [
+        2.463231345970699,
+        2.6353310820100617
+      ],
+      "scope": "TRAIN probe only; unused other band is not part of combined predictor"
+    },
+    "lr": 0.00022709280546558968,
+    "seconds": 219.4442389011383
+  },
+  {
+    "step": 7000,
+    "TRAIN_probe": {
+      "RMSE": [
+        2.4627392957361254,
+        2.622373889266502
+      ],
+      "scope": "TRAIN probe only; unused other band is not part of combined predictor"
+    },
+    "lr": 0.00020413820512264058,
+    "seconds": 255.89307951927185
+  },
+  {
+    "step": 8000,
+    "TRAIN_probe": {
+      "RMSE": [
+        2.4634718601313286,
+        2.621294062909534
+      ],
+      "scope": "TRAIN probe only; unused other band is not part of combined predictor"
+    },
+    "lr": 0.00017972970238120997,
+    "seconds": 292.3095531463623
+  },
+  {
+    "step": 9000,
+    "TRAIN_probe": {
+      "RMSE": [
+        2.460357276725915,
+        2.6194818752254037
+      ],
+      "scope": "TRAIN probe only; unused other band is not part of combined predictor"
+    },
+    "lr": 0.0001546282094716419,
+    "seconds": 328.61004519462585
+  },
+  {
+    "step": 10000,
+    "TRAIN_probe": {
+      "RMSE": [
+        2.460088059098687,
+        2.617226750952848
+      ],
+      "scope": "TRAIN probe only; unused other band is not part of combined predictor"
+    },
+    "lr": 0.00012961624194423926,
+    "seconds": 364.85041522979736
+  },
+  {
+    "step": 11000,
+    "TRAIN_probe": {
+      "RMSE": [
+        2.4615027038592614,
+        2.6095863667859462
+      ],
+      "scope": "TRAIN probe only; unused other band is not part of combined predictor"
+    },
+    "lr": 0.0001054735244792981,
+    "seconds": 401.17160630226135
+  },
+  {
+    "step": 12000,
+    "TRAIN_probe": {
+      "RMSE": [
+        2.4615479135658975,
+        2.610598652428392
+      ],
+      "scope": "TRAIN probe only; unused other band is not part of combined predictor"
+    },
+    "lr": 8.295268369990221e-05,
+    "seconds": 437.33767914772034
+  },
+  {
+    "step": 13000,
+    "TRAIN_probe": {
+      "RMSE": [
+        2.4616499419921687,
+        2.602829333057547
+      ],
+      "scope": "TRAIN probe only; unused other band is not part of combined predictor"
+    },
+    "lr": 6.275578574129145e-05,
+    "seconds": 473.57258796691895
+  },
+  {
+    "step": 14000,
+    "TRAIN_probe": {
+      "RMSE": [
+        2.4609335777468395,
+        2.599719672042425
+      ],
+      "scope": "TRAIN probe only; unused other band is not part of combined predictor"
+    },
+    "lr": 4.5512449996122424e-05,
+    "seconds": 509.76285099983215
+  },
+  {
+    "step": 15000,
+    "TRAIN_probe": {
+      "RMSE": [
+        2.4624103617983306,
+        2.59991499515955
+      ],
+      "scope": "TRAIN probe only; unused other band is not part of combined predictor"
+    },
+    "lr": 3.176022131912961e-05,
+    "seconds": 546.0968196392059
+  },
+  {
+    "step": 16000,
+    "TRAIN_probe": {
+      "RMSE": [
+        2.4623209168660765,
+        2.5971777391339472
+      ],
+      "scope": "TRAIN probe only; unused other band is not part of combined predictor"
+    },
+    "lr": 2.192781256933842e-05,
+    "seconds": 582.2680444717407
+  },
+  {
+    "step": 17000,
+    "TRAIN_probe": {
+      "RMSE": [
+        2.462262083242523,
+        2.5993278930512633
+      ],
+      "scope": "TRAIN probe only; unused other band is not part of combined predictor"
+    },
+    "lr": 1.632173988789497e-05,
+    "seconds": 618.4161779880524
+  },
+  {
+    "step": 17770,
+    "TRAIN_probe": {
+      "RMSE": [
+        2.4621693440632764,
+        2.5958078576565247
+      ],
+      "scope": "TRAIN probe only; unused other band is not part of combined predictor"
+    },
+    "lr": 1.5000002226946367e-05,
+    "seconds": 646.4872179031372
+  }
+]

@@ -1,0 +1,94 @@
+{
+  "config": {
+    "index": 0,
+    "sample_id": "00000_00",
+    "terrain_id": "00000",
+    "tx": [
+      62,
+      95,
+      23.0
+    ],
+    "tx_hypothesis": "floor",
+    "vertex_count": 65536,
+    "face_count": 130050,
+    "sionna": "1.1.0",
+    "backend": "LLVM CPU8",
+    "sampling": {
+      "map": -1,
+      "batches": 4,
+      "samples": 1000000,
+      "tx_height": "floor"
+    },
+    "scope": "Reconstructed 1m mesh, not recovered original mesh; TRAIN only",
+    "interactions": {
+      "max_depth": 100,
+      "los": true,
+      "specular_reflection": true,
+      "diffuse_reflection": true,
+      "refraction": true
+    }
+  },
+  "seconds": 11.197362661361694,
+  "records": [
+    {
+      "band": "415",
+      "batches": 1,
+      "RMSE_clamped_all_valid_in_support": 81.30545056111524,
+      "valid_in_support": 64415,
+      "nonzero_valid_fraction": 0.42884421330435457,
+      "bias": 61.343868235026974
+    },
+    {
+      "band": "415",
+      "batches": 2,
+      "RMSE_clamped_all_valid_in_support": 77.37230323244842,
+      "valid_in_support": 64415,
+      "nonzero_valid_fraction": 0.47853760770006987,
+      "bias": 56.21504717243222
+    },
+    {
+      "band": "415",
+      "batches": 4,
+      "RMSE_clamped_all_valid_in_support": 72.86388210505106,
+      "valid_in_support": 64415,
+      "nonzero_valid_fraction": 0.5344873088566328,
+      "bias": 50.67730667146677
+    },
+    {
+      "band": "415",
+      "split_half_cell_RMSE_db": 2.4831252432620228,
+      "both_nonzero_fraction": 0.2944636678200692,
+      "warning": "Half agreement is a Monte Carlo diagnostic, not label agreement."
+    },
+    {
+      "band": "58",
+      "batches": 1,
+      "RMSE_clamped_all_valid_in_support": 58.915725334242936,
+      "valid_in_support": 63580,
+      "nonzero_valid_fraction": 0.4499528153507392,
+      "bias": 42.91458680411039
+    },
+    {
+      "band": "58",
+      "batches": 2,
+      "RMSE_clamped_all_valid_in_support": 55.548835221918786,
+      "valid_in_support": 63580,
+      "nonzero_valid_fraction": 0.4978766907832652,
+      "bias": 39.12673059436977
+    },
+    {
+      "band": "58",
+      "batches": 4,
+      "RMSE_clamped_all_valid_in_support": 52.044465129902235,
+      "valid_in_support": 63580,
+      "nonzero_valid_fraction": 0.5477194086190627,
+      "bias": 35.43815225195295
+    },
+    {
+      "band": "58",
+      "split_half_cell_RMSE_db": 3.6656408270361887,
+      "both_nonzero_fraction": 0.31196462898885047,
+      "warning": "Half agreement is a Monte Carlo diagnostic, not label agreement."
+    }
+  ]
+}

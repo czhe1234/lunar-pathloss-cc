@@ -1,0 +1,7 @@
+{
+  "pid": 2164967,
+  "target": "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/.rt_packages",
+  "version": "sionna-rt==1.1.0",
+  "main_venv_modified": false,
+  "purpose": "small TRAIN-only multi-bounce ray-tracing representation test using reconstructed raster terrain, not original mesh recovery"
+}

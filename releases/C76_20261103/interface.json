@@ -1,0 +1,28 @@
+{
+  "frequency_order": [
+    "415 MHz",
+    "5.775 GHz"
+  ],
+  "official_RMSE": [
+    2.253301042749623,
+    2.5964536157048888
+  ],
+  "official_combined": 2.4248773292272556,
+  "terrain_count": 680,
+  "maps_per_band": 2330,
+  "old_C65_RMSE": [
+    2.5434139063511645,
+    2.9327636193813333
+  ],
+  "gain": [
+    0.29011286360154154,
+    0.3363100036764446
+  ],
+  "input": [
+    "heightmap (float32, 256x256, meters)",
+    "tx_row, tx_col (integer raster coordinates)"
+  ],
+  "training_labels": "official TRAIN only",
+  "official_val": "used for final scoring and version comparison",
+  "hidden_test_or_site_score": false
+}

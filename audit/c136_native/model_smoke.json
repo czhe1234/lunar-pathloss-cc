@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "GPU": {
+    "uuid": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+    "logical_device": 0,
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_bytes": 84929347584,
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4"
+  },
+  "initial_max_C82_difference": 7.62939453125e-06,
+  "first_last_training_loss": [
+    null,
+    0.22252683341503143
+  ],
+  "step_seconds": 0.015056688821299331,
+  "peak_GiB": 0.7691168785095215,
+  "parameters": 88728
+}

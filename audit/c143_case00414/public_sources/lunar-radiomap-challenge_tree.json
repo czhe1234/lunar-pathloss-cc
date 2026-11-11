@@ -1,0 +1,141 @@
+{
+  "sha": "1042c22faf772403b040bb707e469cdd40f56a19",
+  "url": "https://api.github.com/repos/anderspearson206/lunar-radiomap-challenge/git/trees/1042c22faf772403b040bb707e469cdd40f56a19",
+  "tree": [
+    {
+      "path": ".gitattributes",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ce4c4a8a5cd7bfa83bc0895db7323500d9ab10d",
+      "size": 165,
+      "url": "https://api.github.com/repos/anderspearson206/lunar-radiomap-challenge/git/blobs/4ce4c4a8a5cd7bfa83bc0895db7323500d9ab10d"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd408da259f63ca3990ee040e8f744afae6ef9ff",
+      "size": 257,
+      "url": "https://api.github.com/repos/anderspearson206/lunar-radiomap-challenge/git/blobs/bd408da259f63ca3990ee040e8f744afae6ef9ff"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dba9f21fb8ebf5a241ab7271cfd1336bac604112",
+      "size": 1104,
+      "url": "https://api.github.com/repos/anderspearson206/lunar-radiomap-challenge/git/blobs/dba9f21fb8ebf5a241ab7271cfd1336bac604112"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8acbc36d359e72150cdca857bedf00444f838aae",
+      "size": 8927,
+      "url": "https://api.github.com/repos/anderspearson206/lunar-radiomap-challenge/git/blobs/8acbc36d359e72150cdca857bedf00444f838aae"
+    },
+    {
+      "path": "RadioUNet",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3db8d7d8f610f6bd025b1195337b8129210c35b7",
+      "url": "https://api.github.com/repos/anderspearson206/lunar-radiomap-challenge/git/trees/3db8d7d8f610f6bd025b1195337b8129210c35b7"
+    },
+    {
+      "path": "RadioUNet/LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24d87bfc00341ac1367ca2a3d900010644463a48",
+      "size": 1066,
+      "url": "https://api.github.com/repos/anderspearson206/lunar-radiomap-challenge/git/blobs/24d87bfc00341ac1367ca2a3d900010644463a48"
+    },
+    {
+      "path": "RadioUNet/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "742a1d0eb222bb31bb8d59ad4e60ef7849ede51d",
+      "size": 1262,
+      "url": "https://api.github.com/repos/anderspearson206/lunar-radiomap-challenge/git/blobs/742a1d0eb222bb31bb8d59ad4e60ef7849ede51d"
+    },
+    {
+      "path": "RadioUNet/modules.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "112edc5551603493a6e0a01a9542801ec72ebb25",
+      "size": 10290,
+      "url": "https://api.github.com/repos/anderspearson206/lunar-radiomap-challenge/git/blobs/112edc5551603493a6e0a01a9542801ec72ebb25"
+    },
+    {
+      "path": "evaluate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f6808e6e62935eb504a96affec7b04c969e2a7b",
+      "size": 11915,
+      "url": "https://api.github.com/repos/anderspearson206/lunar-radiomap-challenge/git/blobs/5f6808e6e62935eb504a96affec7b04c969e2a7b"
+    },
+    {
+      "path": "lunar_dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6184716d61218927ef668f9bd93f6b9c06de4b58",
+      "size": 12854,
+      "url": "https://api.github.com/repos/anderspearson206/lunar-radiomap-challenge/git/blobs/6184716d61218927ef668f9bd93f6b9c06de4b58"
+    },
+    {
+      "path": "metrics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d93af4591298bff8432a92dd2606d3e28bdf8062",
+      "size": 9518,
+      "url": "https://api.github.com/repos/anderspearson206/lunar-radiomap-challenge/git/blobs/d93af4591298bff8432a92dd2606d3e28bdf8062"
+    },
+    {
+      "path": "notebooks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e544fdd5c43c9ca3b888966231a61e0798ab5736",
+      "url": "https://api.github.com/repos/anderspearson206/lunar-radiomap-challenge/git/trees/e544fdd5c43c9ca3b888966231a61e0798ab5736"
+    },
+    {
+      "path": "notebooks/lunar_starter.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a5f9becfea7d02ff07f1ef31c15e282021190ec",
+      "size": 23138,
+      "url": "https://api.github.com/repos/anderspearson206/lunar-radiomap-challenge/git/blobs/8a5f9becfea7d02ff07f1ef31c15e282021190ec"
+    },
+    {
+      "path": "radiounet.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1084674bc0d9eb1df7a4421c824d153cc3c76d6",
+      "size": 2472,
+      "url": "https://api.github.com/repos/anderspearson206/lunar-radiomap-challenge/git/blobs/e1084674bc0d9eb1df7a4421c824d153cc3c76d6"
+    },
+    {
+      "path": "requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a71a1fec59f5da82c3e7993ec5fc02cbb57345f5",
+      "size": 546,
+      "url": "https://api.github.com/repos/anderspearson206/lunar-radiomap-challenge/git/blobs/a71a1fec59f5da82c3e7993ec5fc02cbb57345f5"
+    },
+    {
+      "path": "score_submission.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9a96f5ef9c24e3d6dd8ebe6a6fccead25b9fc23",
+      "size": 11635,
+      "url": "https://api.github.com/repos/anderspearson206/lunar-radiomap-challenge/git/blobs/f9a96f5ef9c24e3d6dd8ebe6a6fccead25b9fc23"
+    },
+    {
+      "path": "train.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46f31c1cc7e5fb580d9fd95767bf7c5282fcdc91",
+      "size": 21543,
+      "url": "https://api.github.com/repos/anderspearson206/lunar-radiomap-challenge/git/blobs/46f31c1cc7e5fb580d9fd95767bf7c5282fcdc91"
+    }
+  ],
+  "truncated": false
+}

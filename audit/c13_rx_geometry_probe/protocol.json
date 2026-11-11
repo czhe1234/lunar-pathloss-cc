@@ -1,0 +1,8 @@
+{
+  "question": "Does an unrepresented RX height fraction or surface quantization explain remaining C10 error?",
+  "geometry_calibration": "1024 FIT terrains, disjoint512/512 calibration and confirmation",
+  "residual_calibration": "C10 frozen FIT residual statistics, tested on unchanged internal DEV; no official VAL",
+  "no_training_at_diagnostic_stage": true,
+  "all_work_CC": true,
+  "GPU_only": "GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0"
+}

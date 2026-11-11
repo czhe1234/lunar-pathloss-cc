@@ -1,0 +1,16 @@
+{
+  "zero_initialization_equivalence_passed": true,
+  "CPU_only": true,
+  "results": [
+    {
+      "conditional": false,
+      "parent_max_difference_normalized": 0.0,
+      "parameters": 9043580
+    },
+    {
+      "conditional": true,
+      "parent_max_difference_normalized": 0.0,
+      "parameters": 9043580
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "prediction_directory": "runs/b0_raw_s20261031/predictions/train_dev_bf16",
+  "source_split": "train",
+  "evaluation_split": "development",
+  "maps_per_band": 2562,
+  "calculation": "NumPy float64 error squared and summed over unpacked mask==1, pooled before square root",
+  "bands": {
+    "415": {
+      "sse": 3874538949.793106,
+      "valid_pixels": 166639132,
+      "rmse_db": 4.821936847611239,
+      "all_pixel_rmse_diagnostic": 4.929074418126645,
+      "groups": {
+        "single": {
+          "maps": 573,
+          "valid_pixels": 37280666,
+          "sse": 827020496.5385838,
+          "rmse_db": 4.709950094049929
+        },
+        "multi": {
+          "maps": 1989,
+          "valid_pixels": 129358466,
+          "sse": 3047518453.254521,
+          "rmse_db": 4.853731448035749
+        }
+      },
+      "distance_m_bins": [
+        {
+          "low": 0,
+          "high": 32,
+          "valid_pixels": 7707879,
+          "rmse_db": 1.2793585877608464
+        },
+        {
+          "low": 32,
+          "high": 64,
+          "valid_pixels": 19713956,
+          "rmse_db": 2.3452008801172077
+        },
+        {
+          "low": 64,
+          "high": 128,
+          "valid_pixels": 56578326,
+          "rmse_db": 4.030088992488245
+        },
+        {
+          "low": 128,
+          "high": 256,
+          "valid_pixels": 79643914,
+          "rmse_db": 5.821325419677379
+        },
+        {
+          "low": 256,
+          "high": null,
+          "valid_pixels": 2995057,
+          "rmse_db": 6.728987331328506
+        }
+      ],
+      "terrain_relief_m_bins": [
+        {
+          "low": 0,
+          "high": 10,
+          "valid_pixels": 13893507,
+          "rmse_db": 5.062545293037422
+        },
+        {
+          "low": 10,
+          "high": 30,
+          "valid_pixels": 55492662,
+          "rmse_db": 4.4620642474816945
+        },
+        {
+          "low": 30,
+          "high": 60,
+          "valid_pixels": 24127931,
+          "rmse_db": 4.756046333005913
+        },
+        {
+          "low": 60,
+          "high": 120,
+          "valid_pixels": 60974734,
+          "rmse_db": 5.019082465644768
+        },
+        {
+          "low": 120,
+          "high": null,
+          "valid_pixels": 12150298,
+          "rmse_db": 5.225687703226353
+        }
+      ]
+    },
+    "58": {
+      "sse": 6778442346.251292,
+      "valid_pixels": 152634019,
+      "rmse_db": 6.664065904412509,
+      "all_pixel_rmse_diagnostic": 7.415667802612312,
+      "groups": {
+        "single": {
+          "maps": 573,
+          "valid_pixels": 33254112,
+          "sse": 1434061468.316572,
+          "rmse_db": 6.566912141120514
+        },
+        "multi": {
+          "maps": 1989,
+          "valid_pixels": 119379907,
+          "sse": 5344380877.93473,
+          "rmse_db": 6.6908775606002475
+        }
+      },
+      "distance_m_bins": [
+        {
+          "low": 0,
+          "high": 32,
+          "valid_pixels": 7707879,
+          "rmse_db": 1.313798315408988
+        },
+        {
+          "low": 32,
+          "high": 64,
+          "valid_pixels": 19686591,
+          "rmse_db": 3.4425557508332885
+        },
+        {
+          "low": 64,
+          "high": 128,
+          "valid_pixels": 54921010,
+          "rmse_db": 6.0493839334450445
+        },
+        {
+          "low": 128,
+          "high": 256,
+          "valid_pixels": 68204475,
+          "rmse_db": 8.00490739475666
+        },
+        {
+          "low": 256,
+          "high": null,
+          "valid_pixels": 2114064,
+          "rmse_db": 8.466744146111632
+        }
+      ],
+      "terrain_relief_m_bins": [
+        {
+          "low": 0,
+          "high": 10,
+          "valid_pixels": 12991896,
+          "rmse_db": 7.044705886863992
+        },
+        {
+          "low": 10,
+          "high": 30,
+          "valid_pixels": 51107257,
+          "rmse_db": 6.158262922474211
+        },
+        {
+          "low": 30,
+          "high": 60,
+          "valid_pixels": 21714920,
+          "rmse_db": 6.390786449609669
+        },
+        {
+          "low": 60,
+          "high": 120,
+          "valid_pixels": 55374711,
+          "rmse_db": 7.0169151026608505
+        },
+        {
+          "low": 120,
+          "high": null,
+          "valid_pixels": 11445235,
+          "rmse_db": 7.131628164444061
+        }
+      ]
+    }
+  },
+  "goal_met_on_official_validation": false,
+  "seconds": 10.099598407745361,
+  "same_prediction_numpy_torch_absolute_difference_db": {
+    "415": 0.0,
+    "58": 3.552713678800501e-15
+  },
+  "same_prediction_scorers_agree_within_1e_minus8_db": true,
+  "all_verification_checks_passed": true,
+  "inference_replay_absolute_difference_db": {
+    "415": 2.5221479602599572e-05,
+    "58": 8.07755898710738e-05
+  },
+  "inference_replay_agrees_within_1e_minus3_db": true,
+  "verification_scope": "Scorers compare the SAME saved predictions at 1e-8 dB. Separately rerun GPU inference may differ numerically and is checked at 1e-3 dB. This is not a change to the 1 dB performance target."
+}
