@@ -7,6 +7,7 @@ C145、C146 已完成。C147 Sionna 反射次数对照也已完成；没有新�
 C145 状态见 `audit/c145_capacity/controller_status.json`。C148 参数锚定对照及独立核验已完成：从 selected12 完整恢复，λ=0.1，新增32轮至绝对epoch44；复用原C145同轮次控制曲线，未重跑控制组。选中epoch16，留出RMSE仅比selected12降低0.002986/0.000802 dB；高频配对地形95% CI跨0，末轮双频再次恶化。当前判断：参数锚定减缓过拟合，未实质突破泛化瓶颈，结束本配置追加训练，不自动延长或扫λ/seed。候选 `runs/c148_parameter_anchor/best_monitor.pt`，完整FIT/monitor/尾区/原好区、同轮对照、CI与80/48开发分组见 `audit/c148_generalization/comparison_summary.json`；复核见同目录 `verification.json`。两组均为开发数据，未使用官方VAL，不能称盲测或官方改进。
 
 ## 环境与有效约定
+源码发布：`https://github.com/czhe1234/lunar-pathloss-cc` 的 `main` 已公开。按用户2026-11-15明确授权，保留并公开旧C144提交历史。当前源码快照包含C145–C148与SwanLab源码、算法协议和固定网格查表；新增训练记录、数据库、原始数据、模型及预测仍保留服务器。交付清单与远端核验见 `deliveries/github_lunar_pathloss_cc_20261115/inventory.json`、`upload_verification.json`；旧Git历史完整备份为同目录 `private_history_before_sync.bundle`。CC原目录仍是科研源，不是Git工作树；Git工作副本位置见交付核验。
 模型环境 `.venv/bin/python` 已安装 SwanLab SDK；独立看板环境 `.venv-swanlab/bin/python`。Python 3.11.16，SwanLab 0.10.5，swanboard 0.1.10b2。旧 `.venv-tracking` 仅保留作 MLflow 历史来源。
 保持 CC 独立实现。不读取或复用其他 AI 的代码、模型、特征、方案和结论。父目录 `data/` 的顶层发布格式原始文件可只读使用；版本见 `audit/raw_audit.json`。
 有效像素掩码只用于损失和计分，不作输入。两个频段分别累计平方误差及有效像素数。遵守数据隔离及比赛限制。

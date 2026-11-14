@@ -9,8 +9,8 @@
   "source_files": [
     {
       "path": "HANDOFF.md",
-      "bytes": 6493,
-      "sha256": "c932a5b5908ea8137bb971cebe5cfb486577768e80ec79ecc1047f561bba6d4f",
+      "bytes": 7114,
+      "sha256": "d2223eca41cb083682d9b1bbaf8a5c5e55e90e51c95049901dcc5ac986f7d7c0",
       "source_mode": "0o644",
       "reason": "root_source_or_dependency",
       "source_identity": "byte_identical"
