@@ -1,7 +1,0 @@
-{
-  "all_C43_parameters_initially_identical": true,
-  "C43_parameters": 6089570,
-  "C44_parameters": 6099154,
-  "added_parameters": 9584,
-  "change": "ordered128-point profile encoder with nominal and empirical-raster-phase clearances; base Model is unchanged"
-}

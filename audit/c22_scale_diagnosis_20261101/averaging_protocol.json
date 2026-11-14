@@ -1,7 +1,0 @@
-{
-  "created_utc": "2026-11-01T11:54:08.920218Z",
-  "question": "Do late-iterate fluctuations hide a useful common predictor?",
-  "method": "Arithmetic mean of4000/5000/6000 model parameters, applied to both continuation learning-rate arms. No optimizer updates.",
-  "comparison": "Same fixed FIT/DEV panels against selected single checkpoint, then completeDEV if both panel bands improve>=0.05 versus continuation start.",
-  "design_status": "Adaptive follow-up motivated by oscillating4000-step metrics; later checkpoints not yet observed. No officialVAL used."
-}

@@ -1,8 +1,0 @@
-{
-  "model_sha256": [
-    "e6dbc4ff9eb1f08bcde879f26effab0821b77f019cd74035d7dd4e9c77921a99",
-    "e6dbc4ff9eb1f08bcde879f26effab0821b77f019cd74035d7dd4e9c77921a99"
-  ],
-  "equal": true,
-  "optimizer": "fresh AdamW for both; parent optimizer not reused because new parameters are added"
-}

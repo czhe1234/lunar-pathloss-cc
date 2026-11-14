@@ -1,0 +1,38 @@
+{
+  "campaign_id": "C147_sionna_reflections",
+  "created": "2026-11-14",
+  "question": "Do Sionna paths with up to2/3 ground reflections repair errors relative to1 reflection and the existing solver?",
+  "parent_run": "C146",
+  "terrains": 8,
+  "diagnostic_pixels": 256,
+  "quadrature_per_triangle": 4,
+  "samples_per_src": 65536,
+  "seeds": [
+    13,
+    37
+  ],
+  "receiver_batch": 16,
+  "maximum_total_interactions": 8,
+  "maximum_reflections": 3,
+  "refraction": true,
+  "cumulative_reflection_caps_from_same_paths": true,
+  "sionna_version": "1.1.0",
+  "backend": "cuda_ad_mono_polarized",
+  "aggregation": "Noncoherent sum of path powers; RX iso VH power sum; mean four points per receiver triangle; same native donor weights; average seed powers before dB.",
+  "primary_regions": "Fixed C82 absolute error>=5dB, under/over separately; ordinary C82good<=1; all selected points; common positive gain.",
+  "metric": "NumPy FP64 RMSE, signed bias, >=5dB fraction; zeros penalized at common gain floor1e-30 and counted explicitly.",
+  "material": "setup.json",
+  "input_identity": "setup.json and targets.json",
+  "baseline_reuse": "Seven existing C121 power128 caches; 00414 only uncached baseline computed; no completed direct or learned experiments repeated.",
+  "scope": "8 deliberately selected diagnostic terrains and256 pixels; not full-map benchmark or official VAL; no training/calibration.",
+  "noise_gate": "Compare paired tail-RMSE gain R1-R3 in both seeds; if gain differs by>0.1dB, sampling follow-up required before a stable conclusion.",
+  "material_gain_threshold_dB": 0.05,
+  "sampling_followup_max_samples": 262144,
+  "source_sha256": {
+    "src/c147_paths.py": "75650d1a1344f50e189f3a72f5228a8c04ce1f6511f4b9a57185b00e3bbebb2b",
+    "src/c147_score.py": "c8564bf008a1b7afa09b8a1792b2937f2d0eede1e46413e348c889ac0de9b99e",
+    "src/c147_record.py": "f8787c908efde4a2105b313470ebd19f03cdf1cf785441b92324fe8e710b925b",
+    "src/c147_baseline.py": "9ad4885bd744e349b1b54cd915fad22fcb5f4f842ad10799959a5cd53af9fa69",
+    "scripts/c147_run_cuda.sh": "2cded92c09248c821e9eecc59647dce66dffeb8311cf873152f82792225883d9"
+  }
+}

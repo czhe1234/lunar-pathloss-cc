@@ -1,7 +1,0 @@
-{
-  "question": "Does applying the strongest C9 phase-zero height hypothesis to the whole ordered profile improve the remaining errors?",
-  "fixed": "C9 data sampling, learner and training parameters; append14 deterministic profile transforms",
-  "no_actual_TX_claim": true,
-  "official_validation_used": false,
-  "promotion": "Keep C9 unless both bands improve materially. This is a branch gate, not the end of the overall task."
-}

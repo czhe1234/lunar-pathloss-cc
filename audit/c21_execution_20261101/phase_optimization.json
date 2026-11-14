@@ -1,6 +1,0 @@
-{
-  "seconds": 0.5712974071502686,
-  "max_abs_difference": 4.991888999938965e-07,
-  "rms": 7.156933712337832e-09,
-  "note": "Removed asinh/sinh inverse roundtrip, mathematically identity; phase signs remain checked"
-}

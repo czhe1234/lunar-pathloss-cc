@@ -1,8 +1,0 @@
-{
-  "chosen": "C10 phase geometry",
-  "reason": "Same sampled DEV points: C10 2.948508/3.387647 vs C9 3.016435/3.402882; both improve. GPU phase features bring warm pilot latency back to ~0.33s.",
-  "full_DEV_verification": "C9 full-map 3.022660/3.405284 passed; C10 full-map verification runs concurrently with fixed refit; official export waits for it.",
-  "full_refit": "All official TRAIN maps,64 uniform pixels per map,1200 trees per band, same parameters and seed. No official VAL labels or score used for selection.",
-  "GPU3": "Exact UUID only,15% process allocation cap; actual pilot peak1.14GB",
-  "phase_numerical_replay": "CPU versus GPU phase features caused prediction RMSE<8.7e-5dB on4 full maps; exact forest arithmetic checked separately."
-}

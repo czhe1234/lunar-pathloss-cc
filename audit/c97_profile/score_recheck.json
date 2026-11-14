@@ -1,5 +1,0 @@
-{
-  "passed": true,
-  "tolerance_db": 2e-06,
-  "note": "Independent float64 dot-product scoring of saved float32 predictions matches primary score; confirmation only."
-}

@@ -1,7 +1,0 @@
-- [x] Read CC rules and current C38/C21 records
-- [x] Freeze subsets, metric and baseline
-- [x] Implement and verify encoder and sparse attention
-- [x] Benchmark batch and run FIT64 A/B/C
-- [x] Analyze FIT64 and run FIT256 matched continuation
-- [x] Independently score both FP32 panels and hold full-FIT expansion pending adequate fitting
-- [x] Report full results and limitations

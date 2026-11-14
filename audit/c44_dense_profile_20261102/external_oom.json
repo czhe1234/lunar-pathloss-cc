@@ -1,6 +1,0 @@
-{
-  "cause": "Another process occupied73.55GiB on GPU1; model failed during an early forward. Exact optimizer step cannot be recovered from the log.",
-  "old_attempt": "runs/c44_profile_fit64_external_oom",
-  "action": "Preserve attempt; restart same seed/order on allowed H100 GPU3 after C43 replay. Check available memory and reserve expected peak in allocator.",
-  "optimizer_steps_before_failure": "Not logged; fewer than40 (no first throughput record). No checkpoint or comparable training result."
-}

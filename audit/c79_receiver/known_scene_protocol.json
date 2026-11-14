@@ -1,4 +1,0 @@
-{
-  "question": "Before interpreting another negative physics test, verify that the counter predicts an observable we actually know. Targets for positive control are the recorded direct-only output and fraction of illuminated receiver triangles from our earlier original Sionna simulation, N=4,000,000 with exact input mesh and TX.",
-  "comparisons": "Identical receivers inside C78 continuous clear bound; same known N and launch direction vs adversarial azimuth +0.013 rad and TX height +0.25m, at identical positions. Baseline predicts continuum direct power. Compare RMSE, correlation and direct hit coverage. Also report actual weak-label AUC vs wrong phase at 4M and 4B, on full-enumeration subsets (expected count <=96 on every weighted face); do not conflate unavailable source conditions with an irreducible bound. No training; no official validation fit."
-}

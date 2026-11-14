@@ -1,6 +1,0 @@
-{
-  "file": "audit/generation_alignment_20261101/official_sources/sionna_1_1_0_mesh_radio_map.py",
-  "url": "https://github.com/NVlabs/sionna-rt/blob/v1.1.0/src/sionna/rt/radio_map_solvers/mesh_radio_map.py",
-  "sha256": "a0483d6ea1c93f86363c2636c427dbf78ba0b159883e67fa57c9e2a2dc93234d",
-  "bytes": 12948
-}

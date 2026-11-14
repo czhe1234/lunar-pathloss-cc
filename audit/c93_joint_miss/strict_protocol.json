@@ -1,4 +1,0 @@
-{
-  "endpoint": "Directly target the narrow prior-study definition: clear, actual PL above the conservative direct FSPL+3 dB threshold, and both C82 and three-bounce C92 at or below that threshold. Excludes already-recognized deficits even if both underestimate depth. Frozen geometry flow inputs only. Separate reference positives/conditional depth under this strict definition; no neural training.",
-  "method": "Use 80 disjoint calibration terrains, exact neighbor search in fixed 24-D geometry, 5-fold terrain OOF operating point, score selection and then confirmation. Weak positions/false alarms scored among all true valid clear points and automatic replacements over the entire uniformly sampled panel. No C82/C92 fields are inputs to the locator."
-}

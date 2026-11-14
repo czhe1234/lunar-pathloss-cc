@@ -1,9 +1,0 @@
-{
-  "arm": "old",
-  "score": {
-    "old": 2.710693151396387,
-    "new": 2.7108470128941766,
-    "delta": 2.711098929897247
-  },
-  "source": "48 TRAIN monitor terrains before checking confirmation"
-}

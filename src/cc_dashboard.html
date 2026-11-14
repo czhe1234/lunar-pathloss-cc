@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="apple-mobile-web-app-title" content="SwanLab">
+<meta name="color-scheme" content="light">
+<link rel="icon" href="/assets/logo-Bcs4N9ro.ico">
+<title>SwanLab · Lunar CC 实验进展</title>
+<style>
+:root{--bg:#f5f7f8;--paper:#fff;--ink:#182524;--muted:#64716f;--line:#e2e8e6;--green:#267760;--red:#ad4e47;--blue:#4576ae;--teal:#2c9188;--amber:#916b31}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:80px}body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}
+a{color:var(--green);text-decoration:none}a:hover{text-decoration:underline}button,select{font:inherit}button,a,select{touch-action:manipulation}button{cursor:pointer}
+.top{position:sticky;top:0;z-index:10;background:#fffefef5;border-bottom:1px solid var(--line);backdrop-filter:blur(10px)}.top-inner{max-width:1240px;margin:auto;min-height:62px;padding:10px 28px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:10px;font-size:17px;font-weight:700;color:var(--ink)}.brand img{width:29px;height:29px}.brand small{font-size:13px;font-weight:400;color:var(--muted)}.nav{display:flex;gap:23px;font-size:13px}.native{font-size:12px;border:1px solid var(--line);border-radius:7px;padding:6px 10px;white-space:nowrap}
+main{max-width:1240px;margin:0 auto;padding:28px 28px 50px}.heading{display:flex;justify-content:space-between;align-items:end;gap:18px}.eyebrow{font-size:11px;letter-spacing:.12em;color:var(--muted);font-weight:650}.heading h1{font-size:29px;letter-spacing:-.04em;line-height:1.35;margin:5px 0 6px}.muted{color:var(--muted)}.small{font-size:12px}.status-line{font-size:12px;color:var(--muted);text-align:right}.dot{display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--green);margin-right:6px}.chips{display:flex;gap:7px;flex-wrap:wrap;margin-top:12px}.chip{font-size:11px;border:1px solid var(--line);background:#fff;border-radius:99px;padding:3px 9px;color:var(--muted)}
+.toolbar{display:flex;align-items:center;justify-content:space-between;gap:14px;margin:23px 0 18px;flex-wrap:wrap}.select-group{display:flex;align-items:center;gap:10px}.select-group select{background:#fff;border:1px solid #cbd5d0;border-radius:8px;padding:9px 33px 9px 12px;color:var(--ink);font-weight:600;max-width:100%}.segment{display:flex;padding:3px;background:#e9eeec;border-radius:8px;gap:2px}.segment button{border:0;border-radius:6px;background:transparent;color:var(--muted);padding:6px 12px;font-size:12px;white-space:nowrap}.segment button.active{background:#fff;color:var(--ink);box-shadow:0 1px 4px #12251b12}.segment button:disabled{opacity:.4;cursor:default}
+section{margin-bottom:26px}.section-title{display:flex;justify-content:space-between;align-items:center;gap:14px;margin:0 0 12px}.section-title h2{font-size:17px;font-weight:650;margin:0}.number{font-size:11px;color:#8b9692;letter-spacing:.08em;margin-right:9px;font-variant-numeric:tabular-nums}.cards{display:grid;grid-template-columns:1fr 1fr 1.25fr 1.45fr;gap:12px}.card,.panel{background:var(--paper);border:1px solid var(--line);border-radius:12px}.card{padding:17px 18px;min-height:156px}.card-label{font-size:12px;color:var(--muted)}.big{font-size:27px;font-weight:650;letter-spacing:-.04em;line-height:1.3;margin:7px 0 5px;font-variant-numeric:tabular-nums}.big small{font-size:13px;font-weight:400;letter-spacing:0;color:var(--muted)}.card p{margin:6px 0 0;font-size:11px;color:var(--muted);line-height:1.65}.bar{height:4px;background:#e9efec;border-radius:4px;margin-top:12px;overflow:hidden}.bar i{display:block;height:100%;background:#7e9f8b}.gain-pair{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:8px 0 4px}.gain-pair b{display:block;font-size:22px;letter-spacing:-.03em;font-variant-numeric:tabular-nums}.gain-pair span{font-size:10px;color:var(--muted)}.positive{color:var(--green)}.negative{color:var(--red)}.neutral{color:var(--muted)}.badge{font-size:10px;border-radius:5px;padding:3px 6px;background:#edf5ef;color:var(--green);display:inline-block}.badge.bad{background:#faf0ed;color:var(--red)}.badge.soft{background:#f6f0e4;color:var(--amber)}.decision{background:#fcfaf5;border-color:#e6dfcd}.decision .big{font-size:20px;line-height:1.5;color:#765c32}.scope{font-size:11px;color:var(--muted);margin-top:11px;line-height:1.8}
+.panel{padding:18px}.chart-tools{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:0 0 13px}.legend{display:flex;gap:17px;flex-wrap:wrap;font-size:11px;color:var(--muted)}.legend i{display:inline-block;width:17px;height:0;border-top:2px solid;margin-right:5px;vertical-align:middle}.legend i.dash{border-top-style:dashed}.chart-controls{display:flex;gap:12px;align-items:center;font-size:11px;color:var(--muted)}.chart-controls input{accent-color:var(--green);vertical-align:middle}.plots{display:grid;grid-template-columns:1fr 1fr;gap:22px}.plot-title{font-size:13px;font-weight:600;margin:2px 0 4px}.plot-title span{float:right;color:var(--muted);font-size:10px;font-weight:400}.plot{position:relative;min-width:0}.plot svg{display:block;width:100%;height:auto;overflow:visible}.tip{position:absolute;pointer-events:none;background:#fffefef5;border:1px solid var(--line);box-shadow:0 7px 25px #16241b13;border-radius:8px;padding:8px 11px;font-size:11px;z-index:2;min-width:155px}.tip b{display:block;margin-bottom:3px}.tip div{display:flex;justify-content:space-between;gap:15px}.chart-foot{display:flex;gap:12px;justify-content:space-between;font-size:11px;color:var(--muted);margin-top:8px;flex-wrap:wrap}.x-caption{text-align:center;font-size:10px;color:var(--muted);margin-top:-2px}
+.table-scroll{overflow:auto}.table-panel{padding:0;overflow:hidden}table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums;font-size:12px;white-space:nowrap}th{text-align:left;font-weight:500;color:var(--muted);font-size:11px;background:#fafcfb;border-bottom:1px solid var(--line);padding:11px 16px}td{padding:12px 16px;border-bottom:1px solid #eef2f0}tbody tr:last-child td{border:0}tbody tr.current{background:#f1f6f3}tbody tr.baseline{background:#f9faf9}td.label{font-weight:550}td .sub{display:block;color:var(--muted);font-size:10px;font-weight:400;margin-top:1px}.pair{font-variant-numeric:tabular-nums}.slash{color:#a8b1ad;margin:0 5px}.table-note{padding:11px 16px;font-size:10px;color:var(--muted);border-top:1px solid var(--line);background:#fcfdfc}.row-open{background:none;border:0;color:var(--green);font-size:11px;padding:3px 5px}.table-head-tools{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+details{background:#fff;border:1px solid var(--line);border-radius:10px;margin-bottom:12px}summary{cursor:pointer;padding:13px 17px;font-size:12px;color:var(--muted)}.details-body{padding:0 17px 17px;font-size:12px}.source-list{padding-left:18px;margin:10px 0}.source-list li{margin:4px 0}.footer{font-size:10px;color:#87918c;display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap;margin-top:20px}.empty{padding:20px;color:var(--muted);font-size:12px}.loading{padding:60px;text-align:center;color:var(--muted)}.error{background:#fff0ed;border:1px solid #edd1cb;padding:14px;border-radius:9px;color:var(--red);margin:20px 0}.hidden{display:none!important}
+@media(max-width:1000px){.cards{grid-template-columns:1fr 1fr}.nav{display:none}.heading h1{font-size:26px}.card{min-height:145px}.plots{gap:15px}}
+@media(max-width:650px){main{padding:20px 15px}.top-inner{padding:10px 15px;gap:10px}.brand small{display:none}.native{font-size:10px}.heading{align-items:start}.heading h1{font-size:24px}.status-line{max-width:120px}.toolbar{align-items:stretch;margin-top:18px}.select-group{width:100%}.select-group select{flex:1;font-size:12px}.cards{gap:8px}.card{padding:13px;min-height:148px}.big{font-size:24px}.gain-pair{gap:5px}.gain-pair b{font-size:18px}.decision .big{font-size:17px}.plots{grid-template-columns:1fr;gap:22px}.panel{padding:13px}.chart-controls{width:100%;justify-content:space-between}.section-title{align-items:start;flex-wrap:wrap}.section-title h2{font-size:16px}th,td{padding:10px 12px}.scope{font-size:10px}.number{margin-right:6px}.table-head-tools{width:100%}}
+.reading-help{border:1px solid #dbe5df;background:#f1f7f3;border-radius:9px;padding:12px 15px;font-size:12px;line-height:1.9;margin-bottom:17px;color:#395648}.reading-help strong{color:#244b3c}.plot-meaning{font-size:12px;line-height:1.85;color:#52655d;margin:9px 0 0;padding:10px 12px;border-radius:7px;background:#f5f8f6}.meaning-status{display:block;color:#285c48;font-weight:600;margin-bottom:3px}</style>
+</head>
+<body data-cc-dashboard="1">
+<header class="top"><div class="top-inner">
+<a class="brand" href="/"><img src="/assets/logo-B8QFqpI4.png" alt=""><span>SwanLab <small>/ CC 项目</small></span></a>
+<nav class="nav"><a href="#progress">进度与判断</a><a href="#curves">效果曲线</a><a href="#regions">难区表现</a><a href="#compare">实验对比</a></nav>
+<a class="native" href="/?native=1">全部原始记录 ↗</a>
+</div></header>
+<main>
+<div class="heading"><div><div class="eyebrow">月面信号预测 · 实验总览</div><h1>实验进展与训练判断</h1><div class="muted small" id="headline">读取服务器记录…</div></div><div class="status-line"><span class="dot" id="connection-dot"></span><span id="connection">正在连接</span><br><span id="updated">—</span></div></div>
+<div class="chips"><span class="chip">服务器本地 · 原始记录保留</span><span class="chip">RMSE（预测误差）：越低越好</span><span class="chip">本轮未使用官方验证集</span></div>
+<div id="error" class="error hidden" role="alert"></div>
+<div id="loading" class="loading">正在读取已有日志和复核结果…</div>
+<div id="content" class="hidden">
+<div class="toolbar"><div class="select-group"><label for="profile" class="muted small">查看实验</label><select id="profile" aria-label="查看实验"></select></div><div class="select-group"><div class="segment" id="checkpoint"><button data-checkpoint="selected" class="active">最佳保存版本</button><button data-checkpoint="last">结束时的版本</button></div><a id="native-link" class="small" href="#">原始曲线 ↗</a></div></div>
+<section id="progress"><div class="section-title"><h2><span class="number">01</span>进度与继续训练的价值</h2></div><div class="cards" id="cards"></div><div id="scope" class="scope"></div></section>
+<section id="curves"><div class="section-title"><h2><span class="number">02</span>训练过的地形变准了，换地形还准吗？</h2><span class="small muted" id="curve-sample"></span></div>
+<div class="panel"><div class="reading-help"><strong>先这样读图：</strong>曲线把一批位置的“预测值与真实值的差距”汇总成一个误差数值。横轴往右表示训练更久；纵轴为 RMSE（预测误差，单位 dB），越低越准。<br><strong>重点看蓝线：</strong>蓝线低于灰色虚线，才说明在留出地形上超过 C82。绿线下降而蓝线上升，说明训练过的地形越来越准，换到留出地形却变差。</div><div class="chart-tools"><div class="legend"><span><i style="color:var(--teal)"></i>绿线：训练过的地形</span><span><i style="color:var(--blue)"></i>蓝线：本次训练留出的地形</span><span><i class="dash" style="color:#65766d"></i>灰色虚线：C82 在同一批留出地形</span></div><div class="chart-controls"><label><input id="show-fit" type="checkbox" checked> 显示训练过的地形</label><div class="segment" id="range"><button data-range="all" class="active">全程</button><button data-range="early">前 64 轮</button></div></div></div><div class="plots" id="plots"></div><div class="chart-foot"><span id="curve-note"></span><span>鼠标移到曲线上可看数值 · 数字越低越准</span></div></div></section>
+<section id="regions"><div class="section-title"><h2><span class="number">03</span>原来容易预测错的位置，有没有改善？</h2><span class="small muted">每格：415 MHz / 5.775 GHz，单位 dB</span></div><div class="panel table-panel"><div class="table-scroll"><table><thead><tr><th>区域</th><th>C82</th><th id="region-candidate">最佳保存版本</th><th>相对 C82 的改善</th></tr></thead><tbody id="region-body"></tbody></table></div><div class="table-note">绿色正数表示误差减少，红色负数表示误差增加。“原来容易错的位置”指 C82 误差至少5dB的位置；“原来较准的位置”指误差不超过1dB的位置。</div></div></section>
+<section id="compare"><div class="section-title"><h2><span class="number">04</span>与原来的参照方法 C82 相比</h2><div class="table-head-tools"><div class="segment" id="scope-switch"><button data-scope="monitor" class="active">地形留出评测</button><button data-scope="confirmation">确认集</button></div></div></div><div class="panel table-panel"><div class="table-scroll"><table><thead><tr><th>实验 / 模型版本</th><th>评测 RMSE (dB)<br>415 MHz / 5.775 GHz</th><th>相对 C82 的改善<br>415 MHz / 5.775 GHz</th><th>大误差区改善<br>415 MHz / 5.775 GHz</th><th>整次训练耗时</th><th>判断</th><th></th></tr></thead><tbody id="compare-body"></tbody></table></div><div class="table-note" id="compare-note"></div></div></section>
+<details id="physics"><summary>物理诊断 · C147 的反射次数对照</summary><div id="physics-body" class="details-body"></div></details>
+<details id="sources"><summary>评测范围、有效像素和原始来源</summary><div class="details-body"><div id="source-note"></div><div id="counts"></div><ul class="source-list" id="source-list"></ul></div></details>
+<div class="footer"><span>本页只读取已有记录；未启动训练、推理或重新评测。原始明细由 SwanLab 保存。</span><span>官方目标：双频 ≤1 dB；开发集结果不能替代官方成绩。</span></div>
+</div></main>
+<script>
+'use strict';
+let data=null,current='',checkpoint='selected',scope='monitor',range='all',showFit=true,lastSignature='';
+const $=id=>document.getElementById(id);
+const ccRegionNames={"训练集 · 全部": "训练过的地形 · 全部位置", "训练集 · 固定大误差区": "训练过的地形 · 原来容易错的位置", "留出地形 · 全部": "留出地形 · 全部位置", "留出地形 · 固定大误差区": "留出地形 · 原来容易错的位置", "留出地形 · 原本较准区域": "留出地形 · 原来较准的位置"};
+const cn=x=>String(ccRegionNames[x]|| (x==null?'':x)).replace('冻结 C82 + 15.2M 参数残差分支。','固定 C82 的结果，再训练一个修正网络。').replace('15.2M 参数网络；训练与推理均移除 C82，仅改变快速求解器特征。','两个网络大小相同，都不使用 C82 的输出；区别是是否使用求解器信息。').replace('相对当前分支 FIT 留出。反复用于开发，C82 校准曾见其中 80 个地形。','这些地形没有用于本次分支训练；开发时曾反复参考，其中80个地形也曾参与C82校准。').replace(/\bFIT\b/g,'训练集').replace(/\bmonitor\b/g,'开发评测集').replace(/\bVAL\b/g,'验证集').replace(/选中权重/g,'最佳保存版本').replace(/最后权重/g,'结束时的版本').replace(/当前权重/g,'当前版本');
+const esc=x=>cn(x).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const num=(x,n=4)=>x==null||!Number.isFinite(x)?'—':x.toFixed(n);
+const sign=x=>x==null?'—':(x>0?'+':'')+num(x);
+const tone=x=>x==null||Math.abs(x)<1e-12?'neutral':x>0?'positive':'negative';
+const pair=(v,delta=false)=>!v?'<span class="neutral">未记录</span>':v.map(x=>'<span class="'+(delta?tone(x):'')+'">'+(delta?sign(x):num(x))+'</span>').join('<span class="slash">/</span>');
+const axisTitle=x=>String(x).includes('轮')?'Epoch（'+x+'）':'Step（'+x+'）';
+const hours=x=>x==null?'未记录':(x/3600).toFixed(2)+' 小时';
+const duration=x=>x==null?'未记录':x===0?'0（已结束）':x<60?Math.ceil(x)+' 秒':x<3600?Math.ceil(x/60)+' 分钟':(x/3600).toFixed(2)+' 小时';
+function profile(){return data.profiles.find(x=>x.id===current)||data.profiles[0]}
+function cp(p){return p.checkpoints[checkpoint]||p.checkpoints.last}
+function verdict(row){if(row.kind==='baseline')return '<span class="badge">参照</span>';if(row.gain==null)return '<span class="badge soft">缺同口径参照</span>';if(row.beats_both)return '<span class="badge">'+(row.profile==='c145'?'双频小幅改善':'双频改善')+'</span>';if(row.gain.every(x=>x<=0))return '<span class="badge bad">双频未超过</span>';return '<span class="badge soft">仅一频改善</span>'}
+function render(){
+ const p=profile();current=p.id;if(!p.checkpoints[checkpoint])checkpoint='last';
+ $('headline').textContent=data.records.running?data.records.running+' 条记录正在运行；下方按真实进度更新。':'当前没有已接入的训练在运行，'+data.records.finished+' 条实验记录已结束。';
+ const options=data.profiles.map(x=>'<option value="'+esc(x.id)+'">'+esc(x.label)+'</option>').join('');
+ if($('profile').innerHTML!==options)$('profile').innerHTML=options;$('profile').value=current;
+ document.querySelectorAll('[data-checkpoint]').forEach(b=>{b.disabled=!p.checkpoints[b.dataset.checkpoint];b.classList.toggle('active',b.dataset.checkpoint===checkpoint)});
+ $('native-link').href=p.native;
+ const c=cp(p),row=c.row,gain=row.gain;
+ const gainHTML=gain?'<div class="gain-pair">'+gain.map((x,i)=>'<div><b class="'+tone(x)+'">'+sign(x)+'</b><span>'+(i===0?'415 MHz':'5.775 GHz')+' · dB</span></div>').join('')+'</div>'+verdict(row):'<div class="big neutral">等待参照</div>';
+ const finished=p.status==='complete';
+ const fraction=finished?100:p.total_epochs&&p.epoch!=null?Math.min(100,100*p.epoch/p.total_epochs):0;
+ $('cards').innerHTML=
+ '<div class="card"><div class="card-label">训练进度 · '+(finished?'已结束':p.status==='running'?'进行中':'已停止')+'</div><div class="big">'+(p.epoch==null?'—':p.epoch)+' <small>轮</small></div><div class="small">'+esc(p.progress_text)+'</div><div class="bar"><i style="width:'+fraction+'%"></i></div><p>'+esc(p.updates==null?'更新步数未记录':p.updates.toLocaleString()+' 次参数更新')+' · 预计剩余 '+duration(p.eta_seconds)+'</p></div>'+
+ '<div class="card"><div class="card-label">累计训练阶段耗时</div><div class="big">'+(p.elapsed_seconds==null?'—':(p.elapsed_seconds/3600).toFixed(2))+' <small>小时</small></div><p>'+esc(p.elapsed_note)+'</p><p>'+(p.best_epoch==null?'最好权重尚未记录':'原实验选出的最佳版本：第 '+p.best_epoch+' 轮')+'</p></div>'+
+ '<div class="card"><div class="card-label">相对 C82，预测误差改善了多少</div>'+gainHTML+'<p>当前 '+(row.evaluation?row.evaluation.map(x=>num(x)).join(' / '):'未记录')+' · C82 '+(row.C82?row.C82.map(x=>num(x)).join(' / '):'未记录')+'</p><p>同一批留出地形上的评测 · '+(checkpoint==='selected'?'最佳保存版本':'最后 / 最新版本')+(row.epoch==null?'':' · 第 '+row.epoch+' 轮')+'</p></div>'+
+ '<div class="card decision"><div class="card-label">继续同配置训练的价值</div><div class="big">'+esc(p.id==='c145'?'不建议只靠延长这次训练':p.decision)+'</div><p>'+esc(p.id==='c145'?'早期保存的版本稍好于 C82。之后训练得更久，训练过的地形更准，留出地形却更差；后续训练没有保住早期收益。':p.reason)+'</p></div>';
+ $('scope').textContent=cn((p.method_note||'')+' '+p.scope_note);
+ $('region-candidate').textContent=checkpoint==='selected'?'最佳保存版本 · 第 '+row.epoch+' 轮':'最后 / 最新版本 · 第 '+(row.epoch==null?'—':row.epoch)+' 轮';
+ $('region-body').innerHTML=c.regions.length?c.regions.map(r=>'<tr><td class="label">'+esc(r.label)+'</td><td>'+pair(r.baseline)+'</td><td>'+pair(r.candidate)+'</td><td>'+pair(r.gain,true)+'</td></tr>').join(''):'<tr><td colspan="4" class="empty">尚未记录同口径区域评测；不填充或推算。</td></tr>';
+ $('counts').innerHTML='<p class="muted small">以下为当前版本各区域参与计分的位置数量（415 MHz / 5.775 GHz）：</p>'+c.regions.map(r=>'<div class="small">'+esc(r.label)+'：'+r.count.map(x=>x.toLocaleString()).join(' / ')+'</div>').join('');
+ $('source-note').textContent=cn(p.scope_note)+' 最佳保存版本来自原实验的双频联合选择，不拼接各频段的独立最好结果。';
+ $('source-list').innerHTML=p.sources.map(k=>'<li><a target="_blank" rel="noopener" href="'+data.sources[k].url+'">'+esc(data.sources[k].path)+'</a></li>').join('');
+ renderPlots();renderComparison();
+}
+function renderComparison(){
+ const p=profile(),table=data.comparison[scope];
+ $('compare-body').innerHTML=table.rows.map(r=>'<tr class="'+(r.kind==='baseline'?'baseline':r.profile===current&&r.checkpoint===checkpoint?'current':'')+'"><td class="label">'+esc(r.label)+'<span class="sub">'+(r.epoch==null?'同面板原始参照':'第 '+r.epoch+' 轮')+'</span></td><td>'+pair(r.evaluation)+'</td><td>'+pair(r.gain,true)+'</td><td>'+pair(r.tail_gain,true)+'</td><td title="'+esc(r.cost_note)+'">'+hours(r.cost_seconds)+(r.profile&&r.profile.startsWith('c146')?'<span class="sub">两臂合计</span>':'')+'</td><td>'+verdict(r)+'</td><td>'+(r.profile?'<button class="row-open" data-open="'+r.profile+'" data-cp="'+r.checkpoint+'">看曲线</button>':'')+'</td></tr>').join('');
+ $('compare-note').textContent=cn(table.title)+'。'+cn(table.note)+' 改善为正表示优于 C82。重复权重行不重复累加训练成本。';
+ $('compare-body').querySelectorAll('[data-open]').forEach(b=>b.addEventListener('click',()=>{current=b.dataset.open;checkpoint=b.dataset.cp;render();$('curves').scrollIntoView({behavior:'smooth'})}));
+}
+function renderPlots(){
+ const p=profile(),train=p.series.fit||[],monitor=p.series.monitor||[];
+ const epochs=[...train,...monitor].map(x=>x[0]);const maxEpoch=epochs.length?Math.max(...epochs):0;
+ $('curve-sample').textContent=monitor.length+' 次实测评测';
+ $('curve-note').textContent=p.id==='c145'?'两个频段展示同一个模型版本：按原规则选出第 12 轮；结束时为第 764 轮。':'曲线只连接已记录的完整面板评测点；未补造中间轮数。';
+ $('plots').innerHTML=[0,1].map(band=>'<div class="plot"><div class="plot-title">'+(band===0?'415 MHz':'5.775 GHz')+'<span>RMSE (dB)</span></div><div id="plot-'+band+'"></div><div class="x-caption">'+esc(axisTitle(p.x_title))+'</div></div>').join('');
+ for(let band=0;band<2;band++)drawPlot($('plot-'+band),p,band,maxEpoch);
+ const chosen=p.checkpoints.selected,ended=p.checkpoints.last;
+ for(let band=0;band<2;band++){
+  const host=$('plot-'+band).parentElement,box=document.createElement('p');box.className='plot-meaning';
+  let message='这张图比较同一个模型在训练地形和留出地形上的预测误差，数值越低越准确。';
+  if(chosen&&ended&&chosen.row.gain&&ended.row.gain){
+   const g=chosen.row.gain[band],last=ended.row.gain[band];
+   message='原实验选出的版本在第 '+chosen.row.epoch+' 轮，该频段比 C82 的误差'+(g>0?'少 ':'多 ')+num(Math.abs(g))+' dB。到第 '+ended.row.epoch+' 轮时，留出地形误差比 C82 '+(last>0?'少 ':'多 ')+num(Math.abs(last))+' dB。';
+  }
+  box.innerHTML='<span class="meaning-status">从完整训练记录看</span>'+esc(message);host.appendChild(box);
+ }
+
+}
+function drawPlot(host,p,band,maxEpoch){
+ const available=[...(p.series.fit||[]),...(p.series.monitor||[])].map(v=>v[0]);
+ if(!available.length){host.innerHTML='<div class="empty">等待真实评测记录</div>';return}
+ const lo=Math.min(...available),hi=range==='early'?Math.min(maxEpoch,Math.max(lo,64)):maxEpoch;
+ const base=p.baseline||{};
+ let series=[{label:'本次训练留出的地形',color:'#4576ae',points:(p.series.monitor||[]).filter(x=>x[0]<=hi).map(x=>[x[0],x[band+1]])}];
+ if(showFit)series.unshift({label:'训练过的地形',color:'#2c9188',points:(p.series.fit||[]).filter(x=>x[0]<=hi).map(x=>[x[0],x[band+1]])});
+ if(base.monitor)series.push({label:'C82 在留出地形',color:'#65766d',dash:true,points:[[lo,base.monitor[band]],[hi,base.monitor[band]]]});
+ const values=series.flatMap(s=>s.points.map(x=>x[1])).filter(Number.isFinite);if(!values.length){host.innerHTML='<div class="empty">尚无双频成对评测</div>';return}
+ const minV=Math.min(...values),maxV=Math.max(...values),pad=Math.max((maxV-minV)*.10,.015);
+ const ymin=Math.max(0,minV-pad),ymax=maxV+pad;
+ const w=540,h=250,L=48,R=16,T=18,B=34,pw=w-L-R,ph=h-T-B;
+ const X=x=>L+(x-lo)/(hi-lo||1)*pw,Y=y=>T+(ymax-y)/(ymax-ymin||1)*ph;
+ let svg='<svg viewBox="0 0 '+w+' '+h+'" role="img" aria-label="'+(band===0?'415 MHz':'5.775 GHz')+'训练与评测 RMSE (dB) 曲线">';
+ for(let i=0;i<=4;i++){const y=ymin+(ymax-ymin)*i/4,yy=Y(y);svg+='<line x1="'+L+'" y1="'+yy+'" x2="'+(w-R)+'" y2="'+yy+'" stroke="#edf1ef"/><text x="'+(L-9)+'" y="'+(yy+4)+'" text-anchor="end" fill="#82908a" font-size="10">'+y.toFixed(ymax-ymin<.25?3:2)+'</text>'}
+ for(let i=0;i<=4;i++){const x=lo+(hi-lo)*i/4,xx=X(x);svg+='<text x="'+xx+'" y="'+(h-10)+'" text-anchor="middle" fill="#82908a" font-size="10">'+Math.round(x)+'</text>'}
+ svg+='<line x1="'+L+'" y1="'+(h-B)+'" x2="'+(w-R)+'" y2="'+(h-B)+'" stroke="#d5deda"/>';
+ for(const s of series){if(!s.points.length)continue;svg+='<polyline fill="none" stroke="'+s.color+'" stroke-width="'+(s.dash?1.3:2)+'" '+(s.dash?'stroke-dasharray="5 4"':'')+' points="'+s.points.map(v=>X(v[0]).toFixed(2)+','+Y(v[1]).toFixed(2)).join(' ')+'"/>'}
+ if(p.best_epoch!=null&&p.best_epoch>=lo&&p.best_epoch<=hi){const xx=X(p.best_epoch);svg+='<line x1="'+xx+'" y1="'+T+'" x2="'+xx+'" y2="'+(h-B)+'" stroke="#b7aa89" stroke-dasharray="3 4"/><text x="'+Math.min(xx+5,w-80)+'" y="12" fill="#8b7751" font-size="9">选中 '+p.best_epoch+' 轮</text>'}
+ svg+='<line class="hover-line" x1="0" x2="0" y1="'+T+'" y2="'+(h-B)+'" stroke="#bbc8c0" style="display:none"/><rect class="hover-area" x="'+L+'" y="'+T+'" width="'+pw+'" height="'+ph+'" fill="transparent"/></svg><div class="tip" hidden></div>';
+ host.innerHTML=svg;const el=host.querySelector('svg'),tip=host.querySelector('.tip'),cross=host.querySelector('.hover-line');
+ const realEpochs=[...new Set(series.filter(s=>!s.dash).flatMap(s=>s.points.map(v=>v[0])))].sort((a,b)=>a-b);
+ const area=host.querySelector('.hover-area');
+ area.addEventListener('pointermove',event=>{const box=el.getBoundingClientRect(),u=(event.clientX-box.left)/box.width*w;const epoch=lo+(u-L)/pw*(hi-lo);const at=realEpochs.reduce((a,b)=>Math.abs(b-epoch)<Math.abs(a-epoch)?b:a,realEpochs[0]);if(at==null)return;cross.style.display='';cross.setAttribute('x1',X(at));cross.setAttribute('x2',X(at));tip.innerHTML='<b>'+esc(axisTitle(p.x_title))+' '+at+'</b>'+series.map(s=>{const point=s.dash?s.points[0]:s.points.find(v=>v[0]===at);return '<div><span style="color:'+s.color+'">'+s.label+'</span><strong>'+(point?num(point[1]):'该轮未评测')+'</strong></div>'}).join('');tip.hidden=false;tip.style.left=Math.min(Math.max(0,event.clientX-box.left+12),Math.max(0,box.width-210))+'px';tip.style.top='30px'});
+ area.addEventListener('pointerleave',()=>{tip.hidden=true;cross.style.display='none'});
+}
+function renderPhysics(){
+ const f=data.physics;
+ $('physics-body').innerHTML='<p>'+esc(f.scope)+'</p><div class="table-scroll"><table><thead><tr><th>求解器</th><th>全部采样点 RMSE</th><th>大误差区 RMSE</th></tr></thead><tbody>'+f.rows.map(r=>'<tr><td>'+esc(r.label)+'</td><td>'+pair(r.all)+'</td><td>'+pair(r.tail)+'</td></tr>').join('')+'</tbody></table></div><p>1 → 3 次反射的大误差区改善：'+pair(f.gain_R1_minus_R3_tail,true)+' dB。</p><p class="muted">'+esc(f.note)+'</p><a href="'+f.native+'">查看 SwanLab 原始记录 ↗</a>';
+}
+async function refresh(){
+ try{
+  const response=await fetch('/cc/data.json',{cache:'no-store'});if(!response.ok)throw new Error('服务器返回 '+response.status);
+  const next=await response.json(),signature=JSON.stringify([next.records,next.profiles,next.comparison,next.physics]);
+  data=next;if(!current)current=data.default_profile;
+  if(signature!==lastSignature){lastSignature=signature;render();if($('physics').open)renderPhysics()}
+  $('updated').textContent='读取于 '+new Date().toLocaleTimeString('zh-CN',{hour12:false});
+  $('connection').textContent='自动更新';$('connection-dot').style.background='var(--green)';$('loading').classList.add('hidden');$('content').classList.remove('hidden');$('error').classList.add('hidden');
+ }catch(error){$('connection').textContent='读取中断';$('connection-dot').style.background='var(--red)';$('error').textContent='读取记录失败：'+error.message+'。保留上次已读取的结果，稍后自动重试。';$('error').classList.remove('hidden');$('loading').classList.add('hidden')}
+}
+$('profile').addEventListener('change',e=>{current=e.target.value;checkpoint=profile().checkpoints.selected?'selected':'last';render()});
+document.querySelectorAll('[data-checkpoint]').forEach(b=>b.addEventListener('click',()=>{checkpoint=b.dataset.checkpoint;render()}));
+document.querySelectorAll('[data-range]').forEach(b=>b.addEventListener('click',()=>{range=b.dataset.range;document.querySelectorAll('[data-range]').forEach(x=>x.classList.toggle('active',x===b));renderPlots()}));
+document.querySelectorAll('[data-scope]').forEach(b=>b.addEventListener('click',()=>{scope=b.dataset.scope;document.querySelectorAll('[data-scope]').forEach(x=>x.classList.toggle('active',x===b));renderComparison()}));
+$('show-fit').addEventListener('change',e=>{showFit=e.target.checked;renderPlots()});
+$('physics').addEventListener('toggle',()=>{if($('physics').open&&data)renderPhysics()});
+refresh();setInterval(()=>{if(!document.hidden)refresh()},15000);
+</script>
+</body></html>

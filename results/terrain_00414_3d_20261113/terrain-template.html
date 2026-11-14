@@ -1,0 +1,141 @@
+<div id="lunar-terrain-00414">
+  <style>
+    #lunar-terrain-00414 { color: var(--foreground); }
+    #lunar-terrain-00414 .terrain-heading { display: flex; flex-wrap: wrap; align-items: baseline; gap: calc(var(--font-size-base) * .5); padding-right: 95px; }
+    #lunar-terrain-00414 .terrain-chart { width: 100%; height: 520px; }
+    #lunar-terrain-00414 .terrain-caption { display: flex; flex-wrap: wrap; gap: calc(var(--font-size-base) * .75); }
+    @media(max-width: 480px) { #lunar-terrain-00414 .terrain-chart { height: 410px; } }
+  </style>
+  <div class="terrain-heading">
+    <h2>00414_00 · 三维地形</h2>
+    <span class="text-small text-muted">256 × 256 高度点 · 0–27.97 米</span>
+  </div>
+  <div class="terrain-chart" role="img" aria-label="根据样本00414_00的全部65536个高度点生成的三维地形。菱形标记发射点，圆形标记核查接收点。可拖动旋转。"></div>
+  <div class="terrain-caption text-small text-muted">
+    <span>水平坐标：网格列、行</span>
+    <span>高度：米</span>
+    <span>TX 名义离地 3 米 · RX 名义离地 1 米</span>
+  </div>
+  <script type="application/json" class="terrain-data">__TERRAIN_DATA__</script>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/plotly.js-dist-min@2.35.2/plotly.min.js"></script>
+<script>
+(function () {
+  const root = document.getElementById("lunar-terrain-00414");
+  const chart = root.querySelector(".terrain-chart");
+  const data = JSON.parse(root.querySelector(".terrain-data").textContent);
+  const raw = atob(data.heights_base64);
+  const bytes = Uint8Array.from(raw, function (c) { return c.charCodeAt(0); });
+  const dv = new DataView(bytes.buffer);
+  const z = Array.from({length: 256}, function (_, row) {
+    return Array.from({length: 256}, function (_, col) {
+      return dv.getFloat32((row * 256 + col) * 4, true);
+    });
+  });
+  const indices = Array.from({length: 256}, function (_, i) { return i; });
+  const state = window.openai && window.openai.widgetState;
+  let camera = state && state.privateContent && state.privateContent.camera;
+  if (!camera) camera = {eye: {x: 1.4, y: -1.5, z: .85}, center: {x: 0, y: 0, z: -.12}};
+  let ready = false;
+
+  function rgb(token) {
+    const p = document.createElement("span");
+    p.style.color = "var(" + token + ", var(--foreground))";
+    p.style.display = "none";
+    root.appendChild(p);
+    const color = getComputedStyle(p).color;
+    p.remove();
+    const cv = document.createElement("canvas");
+    cv.width = cv.height = 1;
+    const ctx = cv.getContext("2d");
+    ctx.fillStyle = color;
+    ctx.fillRect(0, 0, 1, 1);
+    return Array.from(ctx.getImageData(0, 0, 1, 1).data).slice(0, 3);
+  }
+  function css(c) { return "rgb(" + c.map(Math.round).join(",") + ")"; }
+  function mix(a, b, w) { return a.map(function (v, i) { return v * (1 - w) + b[i] * w; }); }
+  function build() {
+    const bg = rgb("--background");
+    const fg = rgb("--foreground");
+    const muted = rgb("--muted-foreground");
+    const border = rgb("--border");
+    const terrain = rgb("--viz-series-1");
+    const tx = rgb("--viz-series-2");
+    const rx = rgb("--viz-series-3");
+    const fontSize = parseFloat(getComputedStyle(root).getPropertyValue("--font-size-base")) || 14;
+    const series = [{
+      type: "surface", x: indices, y: indices, z: z,
+      colorscale: [[0, css(mix(bg, terrain, .16))], [.5, css(mix(bg, terrain, .55))], [1, css(terrain)]],
+      cmin: data.zmin, cmax: data.zmax,
+      colorbar: {title: {text: "高度（米）", font: {color: css(fg), size: fontSize}},
+        tickfont: {color: css(muted), size: fontSize}, thickness: 12, len: .7,
+        outlinewidth: 0, tickvals: [0, 10, 20, 28]},
+      lighting: {ambient: .55, diffuse: .8, specular: .15, roughness: .8},
+      lightposition: {x: -100, y: -100, z: 150},
+      hovertemplate: "列 %{x} · 行 %{y}<br>高度 %{z:.3f} 米<extra></extra>"
+    }];
+    data.markers.forEach(function (m, i) {
+      const col = i === 0 ? tx : rx;
+      series.push({type: "scatter3d", mode: "lines",
+        x: [m.col, m.col], y: [m.row, m.row], z: [m.ground, m.height],
+        line: {color: css(col), width: 5}, hoverinfo: "skip", showlegend: false});
+      series.push({type: "scatter3d", mode: "markers+text",
+        x: [m.col], y: [m.row], z: [m.height],
+        marker: {size: 6, color: css(col), symbol: i === 0 ? "diamond" : "circle",
+          line: {width: 1, color: css(bg)}},
+        text: [m.label], textfont: {color: css(fg), size: fontSize}, textposition: "top center",
+        hovertemplate: m.label + "<br>列 " + m.col + " · 行 " + m.row
+          + "<br>地面高度 " + m.ground.toFixed(3) + " 米"
+          + "<br>名义离地 " + m.agl + " 米<extra></extra>", showlegend: false});
+    });
+    const commonAxis = {showbackground: false, gridcolor: css(border), linecolor: css(border),
+      tickfont: {color: css(muted), size: fontSize}, zeroline: false, showspikes: false};
+    const layout = {
+      margin: {l: 0, r: 28, t: 6, b: 0},
+      font: {family: getComputedStyle(root).fontFamily, size: fontSize, color: css(fg)},
+      paper_bgcolor: "rgba(0,0,0,0)", plot_bgcolor: "rgba(0,0,0,0)",
+      uirevision: "terrain00414",
+      scene: {
+        bgcolor: "rgba(0,0,0,0)", camera: camera, aspectmode: "manual",
+        aspectratio: {x: 1, y: 1, z: (data.zmax + 4) / 255},
+        xaxis: Object.assign({}, commonAxis, {title: {text: "列", font: {color: css(fg)}}, range: [-4,259], tickvals: [0,64,128,192,255]}),
+        yaxis: Object.assign({}, commonAxis, {title: {text: "行", font: {color: css(fg)}}, range: [-4,259], tickvals: [0,64,128,192,255]}),
+        zaxis: Object.assign({}, commonAxis, {title: {text: "高度（米）", font: {color: css(fg)}}, range: [-1,data.zmax+4], tickvals: [0,10,20,30]})
+      }
+    };
+    const config = {responsive: true, displaylogo: false, scrollZoom: true,
+      displayModeBar: "hover", modeBarButtonsToRemove: ["toImage", "resetCameraLastSave3d"]};
+    return Plotly.react(chart, series, layout, config).then(function () {
+      if (!ready) {
+        chart.on("plotly_relayout", function (event) {
+          if (event["scene.camera"]) {
+            camera = event["scene.camera"];
+            if (window.openai && window.openai.setWidgetState) {
+              window.openai.setWidgetState({
+                modelContent: {sample: "00414_00"},
+                privateContent: {camera: camera}
+              }).catch(function () {});
+            }
+          }
+        });
+        ready = true;
+      }
+    });
+  }
+  build();
+  let frame;
+  new ResizeObserver(function () {
+    cancelAnimationFrame(frame);
+    frame = requestAnimationFrame(function () { if (ready) Plotly.Plots.resize(chart); });
+  }).observe(root);
+  new MutationObserver(function () { if (ready) build(); })
+    .observe(document.documentElement, {attributes: true, attributeFilter: ["class", "style", "data-theme"]});
+  if (window.matchMedia) window.matchMedia("(prefers-color-scheme: dark)")
+    .addEventListener("change", function () { if (ready) build(); });
+  window.addEventListener("openai:set_globals", function (event) {
+    const next = event.detail && event.detail.globals && event.detail.globals.widgetState;
+    const restored = next && next.privateContent && next.privateContent.camera;
+    if (restored && ready) { camera = restored; Plotly.relayout(chart, {"scene.camera": camera}); }
+  });
+})();
+</script>

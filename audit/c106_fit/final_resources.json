@@ -1,8 +1,0 @@
-{
-  "allowed_gpu_state": "1, GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009, 14 MiB, 0 %\n3, GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0, 14 MiB, 0 %\n4, GPU-70b6fceb-c7c4-9467-3c81-097c9284c160, 14 MiB, 0 %\n",
-  "own_training_pid_check_returncode": 1,
-  "own_training_pid_state": "",
-  "training_results_complete": true,
-  "official_val_used": false,
-  "expanded_training": false
-}

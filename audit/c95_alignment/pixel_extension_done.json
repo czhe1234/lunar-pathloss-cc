@@ -1,1 +1,0 @@
-{"maps": 44, "configs": ["pixel_x_-1", "pixel_x_-0.5", "pixel_x_-0.25", "pixel_x_+0.25", "pixel_x_+0.5", "pixel_x_+1", "pixel_y_-1", "pixel_y_-0.5", "pixel_y_-0.25", "pixel_y_+0.25", "pixel_y_+0.5", "pixel_y_+1", "pixel_vertices", "pixel_integer", "pixel_half"], "note": "Common finite pool support required for fair evaluation; confirm needs new solver donors."}

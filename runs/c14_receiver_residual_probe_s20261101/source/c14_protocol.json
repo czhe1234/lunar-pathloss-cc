@@ -1,9 +1,0 @@
-{
-  "question": "Does fine receiver neighborhood plus within-cell occlusion variation predict heldout C10 residual beyond adding capacity to the same inputs?",
-  "control": "400-tree residual models on the original294 inputs",
-  "candidate": "same residual models with103 receiver descriptors",
-  "selection": "unchanged FIT and DEV points; original targets/masks; no official VAL",
-  "promotion": "candidate improves each band at least5% relative to C10 and exceeds same-input residual control by at least1 percentage point per band",
-  "scope": "bounded diagnostic residual trial, no full refit unless gate passes",
-  "physics_limit": "sampled subcell geometry is not recovered original measurement cell geometry"
-}

@@ -1,9 +1,0 @@
-{
-  "pid": 846571,
-  "command": [
-    "./run_gpu.sh",
-    "4",
-    "src/c119_confirm.py"
-  ],
-  "time": 1793808336.5720065
-}

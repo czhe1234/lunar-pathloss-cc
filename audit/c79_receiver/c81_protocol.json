@@ -1,8 +1,0 @@
-{
-  "hypothesis": "At the same input grazing band C76 predicts an average loss. Train a small native-triangle, two-state mixture with TRAIN-only weak-state labels as an auxiliary loss. Test whether it localizes individual weak cells on previously unseen terrains. C78 measured 18.5 vs 0.27% risk and <40% recall; oracle flags demonstrate potentially large benefit but are unavailable at inference.",
-  "fit": "80 TRAIN development terrains, all 480 TX maps; 48 separate development terrains, all 148 maps for epoch choice; confirmation 484 other TRAIN terrains, all 1934 maps. No official validation for training or tuning. Frozen C76 research counterpart as input; availability at test via deployed C76.",
-  "inputs": "H, TX, C76 prediction, cached H/TX-only terrain geometry plus signed plane-angle details of each of three receiver triangles. No labels or actual masks at inference. Masks only weight losses and evaluation.",
-  "controls": "Exactly same initialized architecture, examples, optimizer, permutation and budget. Plain two-state prediction trained using masked squared pathloss only versus an additional supervised weak-state and conditional magnitude loss. State score is never supplied as an input.",
-  "selection": "32 epochs, identical cosine decay, select by mean of two terrain-panel global masked RMSE on 48 terrains. Compare both against C76 and against each other on 484 terrains, using all pixels.",
-  "gate": "Require >=0.08 dB full and >=0.15 dB clear improvement in BOTH bands plus >=0.05 dB clear advantage on the matched mechanistic control. Major requires >=0.30 dB in each band on complete official validation. No tune on 484 or official. Record any smaller genuine result as such."
-}

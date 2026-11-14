@@ -1,5 +1,0 @@
-{
-  "epochs": 8,
-  "seconds": 62.62436389550567,
-  "selection": "48 TRAIN terrain score; no official VAL used"
-}

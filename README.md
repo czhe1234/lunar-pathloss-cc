@@ -1,48 +1,40 @@
 # lunar-pathloss-cc
 
-月球双频路损预测项目的 CC 源码与研究记录。源码快照覆盖 C82 冻结模型及 截至 C144 的训练、评测和物理排查。
+月球双频路损预测项目的 CC 源码。当前源码覆盖至 C148，包括 C145 能力对照、C146 求解器特征消融、C147 Sionna 反射深度对照，以及 C148 参数锚定对照。
 
-输入是一块 256×256 高程图和发射机 TX 的像素位置。输出是 415 MHz、5.775 GHz 的 256×256 路损图，单位 dB。目标是两个频段的官方固定验证 RMSE 都不高于 1 dB。
+输入为地形高程图、TX 位置及各阶段定义的几何与物理特征；输出为 415 MHz、5.775 GHz 的路损图，单位 dB。官方目标与当前研究停点见 [HANDOFF.md](HANDOFF.md)。开发集结果不等同于官方固定验证成绩。C148 已完成；参数锚定减缓过拟合，未实质突破泛化瓶颈，当前配置不再追加训练。C148 相比原最佳开发版本仅改善约 0.0030 / 0.0008 dB，高频配对地形 95% CI 跨 0；这不是官方验证分数，也不构成稳定的双频突破。
 
-## 当前结果
+## 代码入口
 
-冻结版本为 C82。完整官方固定验证集共 680 块地形、每频段 2330 张图。
+- [src/](src/)：模型、训练、推理、几何和物理计算，以及科学核验源码。
+- [scripts/](scripts/)：数据处理、评价、看板服务与原有实验控制入口。
+- [audit/](audit/)：辅助核查源码与不可变 protocol.json 算法/划分配置。
+- [runs/](runs/)、[releases/](releases/)、[features/](features/)：现存阶段源码快照；不包含模型权重、运行配置快照或生成数据。
+- [tracking/README.md](tracking/README.md)：服务器本地 SwanLab 的接入与查看说明。
+- [SOURCE_SNAPSHOT.json](SOURCE_SNAPSHOT.json)：公开源文件、来源说明和 SHA256 清单。
 
-| 频段 | 有效像素 RMSE |
-| --- | ---: |
-| 415 MHz | 2.246377 dB |
-| 5.775 GHz | 2.579150 dB |
+当前主要入口为 [src/c145_train.py](src/c145_train.py)、[src/c146_train.py](src/c146_train.py)、[src/c147_sionna.py](src/c147_sionna.py)、[src/c148_train.py](src/c148_train.py)、[src/c148_report.py](src/c148_report.py)。各阶段保持原始代码，不自动重跑已有实验。
 
-这些数值来自本地按官方算法计算的完整固定验证。最新 C144 检查的是 00414_00 的连续范围视线净空。结果和适用条件见对应报告。
+## 环境与运行资产
 
-## 文件入口
+模型环境使用 Python 3.11、PyTorch 2.6.0+cu124；现有依赖记录保存在 [requirements.lock.txt](requirements.lock.txt) 与 [requirements.c6.lock.txt](requirements.c6.lock.txt)。看板固定使用 SwanLab 0.10.5、swanboard 0.1.10b2，安装清单见 [tracking/requirements.txt](tracking/requirements.txt) 及其 lock 文件。
 
-- [HANDOFF.md](HANDOFF.md) 记录当前接续点、数据范围、模型组成和已完成检查。
-- [STATUS.md](STATUS.md) 保存当前状态和历史实验。
-- [src/](src/) 保存模型、训练、推理、物理计算和排查源码。
-- [scripts/](scripts/) 保存评价、核查和数据处理入口。
-- [results/](results/) 保存研究报告和图表。
-- [audit/](audit/) 保存检查代码、小型配置、指标和选定的复现输入。
-- [runs/](runs/) 和 [releases/](releases/) 保存对应阶段的源码、配置与小型记录。
-- [SOURCE_SNAPSHOT.json](SOURCE_SNAPSHOT.json) 列出本次上传文件的大小和 SHA256。
+此仓库是源码导出，不是附带完整运行资产的可直接复现实验包。正式原始数据、地形/TX/标签数组、冻结模型权重、预测、批量物理特征与缓存仍留在服务器。训练、推理和看板需要相应资产；从空白 clone 直接运行这些入口不会自动获得数据或权重。
 
-## 数据与运行环境
+代码和 HANDOFF 中保留原始相对路径及服务器路径，以维持源文件身份。某些路径指向未公开的运行资产或原始实验记录；它们不在本仓库中。历史阶段源码可能保留当时的环境接口。GPU 启动脚本针对原服务器的目录和许可 UUID，不能直接视为其他机器的设备配置。
 
-科研源目录为服务器 `/home/chenzhe/work/lunar-pathloss-rm-challenge/CC`。原始官方数据位于同级 `../data/`。代码通过各阶段固定配置定位训练权重、批量特征和缓存。这些运行资产仍由服务器的实验目录提供。
+两个 src/c70_centroid_lookup*.npz 是固定网格的索引/插值权重源查表，不是地形、标签或模型权重。三维地形展示仅保留带数据占位符的 HTML 模板，未发布填充后的地形实例。
 
-已使用 Python 3.11、PyTorch 2.6.0+cu124。当前 CPU 检查环境的 NumPy 为 2.2.6，SciPy 为 1.15.3。固定 RT 环境为 Sionna RT 1.1.0、Mitsuba 3.6.2、DrJit 1.0.3。原依赖记录见 [requirements.lock.txt](requirements.lock.txt) 和 [requirements.c6.lock.txt](requirements.c6.lock.txt)。
+第三方地形生成示例 notebook 保留全部单元源码；输出、执行计数和附件已清除，原始版本仍在服务器，清单记录原版与导出版 SHA256。
 
-`run_gpu.sh` 沿用 transformer 的项目路径和允许设备 UUID。服务器上运行时应先按 [GPU_POLICY.md](GPU_POLICY.md) 核查空闲设备。其他机器需要配置自己的项目路径与设备。
+## 实验记录留在服务器
 
-## 最近的单样本检查
+后续实验记录统一使用服务器本地 SwanLab，模式固定为 local。不会向云端同步。此源码快照不携带 SwanLab/MLflow 数据库、训练 history/progress、日志、PID/状态文件、指标明细、核验记录或模型产物。
 
-- [C142/C143 报告](results/C142_C143_CUDA与00414逐级核查_20261111.md) 保存固定 LLVM/CUDA 对照、TX 高度和接收导出核查。
-- [C144 报告](results/C144_00414连续视线净空核查_20261111.md) 保存连续 TX 区域、两种地形剖分和三个接收单元的净空界。
-- 主入口为 [src/c144_visibility_certificate.py](src/c144_visibility_certificate.py)。
-- 独立核验入口为 [audit/c144_visibility/independent_check.py](audit/c144_visibility/independent_check.py)。
+旧 C144 提交保留当时已有的实验记录和诊断资产，本次按用户授权保留历史并公开；上述排除规则针对当前源码快照。
 
-C144 只需要 NumPy、SciPy、官方发布数据和已保存的轻量复现输入。仓库保留了该检查用到的 C141/C142 输入及 C144 证据。主脚本保护已有输出，重新计算时应在工作副本中使用新的输出目录。
+[tracking/env.sh](tracking/env.sh) 与 [src/cc_tracking.py](src/cc_tracking.py) 保留本地记录配置；[src/cc_dashboard.py](src/cc_dashboard.py)、[src/cc_dashboard.html](src/cc_dashboard.html) 和 [scripts/serve_tracking.py](scripts/serve_tracking.py) 为看板源码。查看已有记录仍需访问原服务器本地记录目录。
 
-## 快照范围
+## 第三方源码
 
-仓库包含项目源码、构建脚本、配置、研究文档、小型指标和选定复现资产。完整训练、推理和旧实验复现还需要相应的官方数据、训练权重与生成缓存。第三方文件保留原有许可证或 SPDX 标记。
+部分核查目录保留第三方源码的原版权、来源或 SPDX 标记。Sionna 修改版求解器对应的 Apache-2.0 许可证保存在 [audit/c95_alignment/solver_variants/LICENSE](audit/c95_alignment/solver_variants/LICENSE)。本次同步不改变这些文件的许可。

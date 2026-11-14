@@ -1,8 +1,0 @@
-{
-  "pid": 2192980,
-  "args": [
-    "./run_gpu.sh",
-    "3",
-    "src/c40_rt_flat.py"
-  ]
-}

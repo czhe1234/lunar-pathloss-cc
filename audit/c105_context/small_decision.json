@@ -1,9 +1,0 @@
-{
-  "bothband_sse_reduction_atleast25percent": true,
-  "relative_sse_reduction": [
-    0.4133780857067407,
-    0.4812791255071174
-  ],
-  "limitedpilot_only": true,
-  "target_1db_not_achieved_on_small": true
-}

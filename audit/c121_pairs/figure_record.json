@@ -1,8 +1,0 @@
-{
-  "source": "audit/c121_pairs/pair_report.json; published TRAIN H/PL; audit/c88_mesh/base.npy",
-  "script": "scripts/c121_figure.py",
-  "export": "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/results/C121_pair_9435.png",
-  "surface": "internal_review",
-  "claim": "Same H/TX and similar local terrain do not imply the same correction direction. Does not prove missing raw inputs.",
-  "review": "Rendered, inspected, moved colorbar units above bars, increased spacing and tight export to remove overlap/clipping; inspected revised image."
-}

@@ -1,8 +1,0 @@
-{
-  "status": "passed",
-  "files": 2,
-  "method": "SHA256andbytecount",
-  "local_root": "/Users/chenzhe/Desktop/transformer/CC",
-  "report_sha256": "1339cb19697bdb905ee0e7dfce9eb8671678705370e4910bd15b2037dbbc334b",
-  "summary_sha256": "81813f4e4441c245f6702c875f4a29745cdef5397de8da94c0d517ef1b1090f0"
-}

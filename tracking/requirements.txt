@@ -1,0 +1,2 @@
+swanlab[dashboard]==0.10.5
+swanboard==0.1.10b2

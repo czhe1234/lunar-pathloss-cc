@@ -1,4 +1,0 @@
-{
-  "pid": 3082403,
-  "purpose": "Canonical FP32 replay of 6 selected checkpoints after their training finishes; no extra training"
-}

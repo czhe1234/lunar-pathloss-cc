@@ -1,6 +1,0 @@
-{
-  "created_utc": "2026-11-01T11:59:42.561613Z",
-  "scope": "After both arms finish, compare single-best and fixed late-weight average using same fixedDEV128 combinedRMSE. Evaluate the selected option per arm on completeDEV2562.",
-  "amendment": "CompleteDEV is used for both diagnostic arms even when the small-panel0.05dB trigger is not reached, to verify the negative finding beyond a128-map panel. This does not grant officialVAL promotion.",
-  "officialVAL_promotion": "Requires completeDEV improvement in both bands over C10 and supporting paired uncertainty; no officialVAL used for tuning."
-}

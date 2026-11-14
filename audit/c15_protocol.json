@@ -1,8 +1,0 @@
-{
-  "question": "Can a continuous dual-band residual MLP fit the same available information substantially better than independent C10 trees?",
-  "data": "unchanged C10 FIT and DEV sampled pixels, no official VAL",
-  "new_measurement_information": false,
-  "promotion": "at least5 percent lower RMSE in BOTH bands on sampled DEV; only then consider full-map implementation",
-  "run_limit": "one architecture, seed20261101, max8000 updates, early stop4000 updates without mean-MSE improvement",
-  "GPU": "only physical3 UUID,15 percent process memory cap"
-}

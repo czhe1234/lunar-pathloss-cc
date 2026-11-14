@@ -1,3 +1,0 @@
-{
-  "basis": "Original C92 used input-only finite integration, with seeds derived from row index. This affects the reference-cohort definition and is not a blind model feature. Fix all height/TX, direct and specular terms, interpolation and official TRAIN labels; repeat the same one to three diffuse integrals with two prespecified constant seeds independent of ID. Quantify how many original shared misses remain shared under all three physical estimates, and repeat blind precision, recall and power for stable positives. Matched close TX pairs additionally use a common seed to isolate changes when TX moves."
-}

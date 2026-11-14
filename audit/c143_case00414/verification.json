@@ -1,8 +1,0 @@
-{
-  "time": "2026-11-11T14:25:25.937597+08:00",
-  "raw_label_and_mask_checked": true,
-  "native_power_independently_recomputed": true,
-  "report_links_checked": true,
-  "gpu_snapshot": "1, GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009, 16533 MiB, 100 %\n3, GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0, 60365 MiB, 100 %\n4, GPU-70b6fceb-c7c4-9467-3c81-097c9284c160, 117 MiB, 0 %\n",
-  "other_CC_processes_excluding_probe_ancestors": []
-}

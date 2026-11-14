@@ -1,0 +1,69 @@
+{
+  "campaign_id": "C148_parameter_anchor",
+  "created_utc": "2026-11-14T18:29:21.104839+00:00",
+  "question": "Does one source-parameter anchor preserve or improve C145 cross-terrain generalization under matched continued training?",
+  "base_protocol": "audit/c145_capacity/protocol.json",
+  "base_protocol_sha256": "9502bde8794231abe074d4bda1559aa5be5662b9b7455adaab6176a2d74483e2",
+  "parent_checkpoint": "runs/c145_capacity_native/best_monitor.pt",
+  "parent_checkpoint_sha256": "dc29592a8150857ad23e21f9cb355117f0794f2508329ea7b94e84b6faa688d8",
+  "anchor_model_sha256": "2f13de5e344462264b9184d20ab920d89d645899c2820f0799e334947cb55cd7",
+  "parent_absolute_epoch": 12,
+  "parent_additional_epoch": 4,
+  "parent_optimizer_step": 1408,
+  "l2sp_lambda": 0.1,
+  "anchor_norm_sq": 25448.7329673,
+  "additional_epochs": 32,
+  "allow_shared": true,
+  "l2sp_definition": "lambda*sum((theta-theta_selected12)^2)/sum(theta_selected12^2); original data objective unchanged",
+  "lambda_selection": "Single predeclared lambda, no monitor sweep. FIT-only late data-loss reduction=.192119, late relative distance=2.844452; critical lambda=.06754, round upward to.1.",
+  "control": "Reuse C145 original continuation trajectory absolute epochs16..44 and same parent. Do not retrain completed control.",
+  "fixed_conditions": [
+    "network",
+    "parent model/optimizer/scheduler/RNG/order generator",
+    "FIT/monitor panel IDs and masks",
+    "data loss normalization",
+    "AdamW and scheduler rule/data-only input",
+    "batch size",
+    "32 further epochs"
+  ],
+  "actual_LR_policy": "Original ReduceLROnPlateau using original full FIT data objective only; record any divergence from historical LR trajectory.",
+  "selection": "Original joint mean monitor RMSE; retain parent, selected and last. No official VAL selection.",
+  "success": "Candidate checkpoint improves BOTH monitor frequency RMSEs versus selected12 and C82; report full FIT/tail/original-good regions and same checkpoint for both bands.",
+  "non_success": "Only reducing late3.03 or returning to parent/C82 is not a new method gain. If selected remains parent, report no improvement.",
+  "stop_budget": "32 additional epochs, no automatic extension or lambda/seed scan.",
+  "evaluation_scope": {
+    "fit": {
+      "maps": 2815,
+      "terrains": 1984
+    },
+    "monitor": {
+      "maps": 628,
+      "terrains": 128
+    },
+    "FIT_is_official_full_TRAIN": false,
+    "monitor_is_fresh_blind": false,
+    "monitor_terrains_previously_seen_by_C82_calibrator": 80,
+    "official_VAL_used": false
+  },
+  "official_VAL_used": false,
+  "source_sha256": {
+    "src/c145_train.py": "4054cef189cd31654f26087a8dd4fa2b904db1ba3fbc06d7e8c9bc5cedb7abea",
+    "src/c123_lossless.py": "229ea2e183215398dc9901270ab03d9577e2c55875cb294e67ecc87456d7d5fe",
+    "src/c105_context.py": "c5ff5adc8c5945973ef776c5c637d7ac2a49fe09caa35490052b98a923b36e45",
+    "src/c99_data.py": "162decb3c191e112f735ff98c889754c58bf42c09188de308e249254ffca9ee5",
+    "src/cc_core.py": "6c256bb62bf08a44bbd7223cd149346b7b39c41df84a58028efd46fc9c14b093",
+    "src/cc_tracking.py": "b55f6eca1d87513657708fd47772e1c922aa06361378aa7dfbcb69a152d95655",
+    "src/c148_train.py": "3f1effc80aa91b452544a38272fb08f6f217e19ffa8c4228c918df6777f628e6"
+  },
+  "gpu_uuid": "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+  "deduplication": {
+    "scope": "60 current related source files and33 current protocol/result files; no archives searched",
+    "completed_not_repeated": [
+      "C145 early checkpoint selection/full training",
+      "C106 weight decay/LR variants",
+      "C129 fitting/readout controls"
+    ],
+    "new_factor": "L2-SP relative to selected12 parameters; distinct from output mixing/shrinkage"
+  },
+  "runner": "CC existing protocol/controller/SwanLab via SSH; analysis-campaign artifact/bash_exec backend not available in this environment."
+}

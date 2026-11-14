@@ -1,9 +1,0 @@
-{
-  "source": "/home/chenzhe/work/lunar-pathloss-rm-challenge/CC/runs/c72_observed",
-  "source_epoch": 20,
-  "monitor": [
-    2.281660884551252,
-    2.5851610070806013
-  ],
-  "optimizer_restored": false
-}

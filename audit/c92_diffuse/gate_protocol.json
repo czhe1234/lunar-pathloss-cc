@@ -1,5 +1,0 @@
-{
-  "basis": "On 48 TRAIN selector terrains a label-assisted convex mix of C82 and the full physical estimate could lower sampled RMSE by .326/.471 dB; adding just the extra scattering to C82 has an oracle gain of .00046/.0396. Test if H/TX can route the complementary physical prediction before using the confirmation oracle.",
-  "fit": "80 TRAIN calibrating terrains. Scalar gate is trained with squared physical discrepancy as the example weight to minimize dB MSE of the mixed predictor. 48 distinct TRAIN terrains select trees and scale. Freeze selection before scoring 484 confirmation terrains. Gates for 1 bounce, 3 bounces and geometry-matched shuffled extra scatter. Same promotion threshold both bands 0.08.",
-  "bounds": "Oracle uses true labels only for ceiling; no oracle output is submitted."
-}
