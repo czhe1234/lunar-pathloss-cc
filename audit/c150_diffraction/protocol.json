@@ -1,0 +1,100 @@
+{
+  "campaign": "C150",
+  "purpose": "Registered deterministic diffraction features for isolated residual-prior A/B",
+  "source_sha256": {
+    "src/c150_diffraction.py": "2ab780cbbcf2464f690aac6160f0e8df996a6a3641456e8ddcffe5a27c7ed72e",
+    "src/c150_diffraction.cu": "8985a9c137ca45d700b1a09d3de09077d2e25f6baccedadcff84e614986a4d52",
+    "src/c150_reference.py": "22141304c3035b8538012bc47e0ca8f6945ed1163be0e7400f192375d7566459"
+  },
+  "reference": "https://www.itu.int/dms_pubrec/itu-r/rec/p/R-REC-P.526-16-202511-I%21%21PDF-E.pdf",
+  "original_panels_protocol_sha256": "9502bde8794231abe074d4bda1559aa5be5662b9b7455adaab6176a2d74483e2",
+  "ordered_IDs": "C145 fit2815 then monitor628; no overlap",
+  "ordered_ids_sha256": "6e5f56232dc7a282b18eab86dee07acdfb0dae5969fe691d385a88e1c2c3269d",
+  "shape": [
+    3443,
+    12,
+    256,
+    256
+  ],
+  "dtype": "float32",
+  "channel_names": [
+    "nu415",
+    "t415",
+    "I415",
+    "Ld415",
+    "Lb415",
+    "nu5775",
+    "t5775",
+    "I5775",
+    "Ld5775",
+    "Lb5775",
+    "FSPL415",
+    "FSPL5775"
+  ],
+  "feature_directory": "features/c150_diffraction/part0of1",
+  "raw_diffraction_channels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "Deygout_channels": [
+    3,
+    8
+  ],
+  "FSPL_channels": [
+    10,
+    11
+  ],
+  "frequency_hz": [
+    415000000.0,
+    5775000000.0
+  ],
+  "wavelength_m": [
+    0.722391465060241,
+    0.05191211393939394
+  ],
+  "geometry_convention": {
+    "terrain": "anti0 piecewise planar h[0..255,0..255]",
+    "spacing_m": 1.003921568627451,
+    "TX": "x=tc*255/256,y=(tr+1)*255/256,z=floor(h[min(tr+1,255),tc])+3",
+    "RX": "x,y use linspace(1/3,255-1/3,256); z=triangle terrain(x,y)+1",
+    "FSPL": "20log10(4pi*d3D/lambda), true registered 3D distance; no model/floor fitting"
+  },
+  "nu_max": "Analytic continuous-triangle extrema (endpoints plus t=a/(b+2a) for e=a+bt); not midpoint marching",
+  "positive_integral": "Exact integral of max(nu(t),0)dt over normalized t; split every triangle and zero of e. Primitive (2a+b)asin(sqrt(t))-b*sqrt(t(1-t)), scaled sqrt(2/(lambda*d2D)).",
+  "Deygout": "Classical at-most-three-edge approximation: root J(nu) when nu>-.78, at most one left and one right subpath obstruction; secondary requires nu>1e-9. Stop if root J=0. No empirical ITU C/T correction and no deeper recursion.",
+  "knife_edge_J": "max(0,6.9+20log10(sqrt((nu-.1)^2+1)+nu-.1)) for nu>-.78, else0; P526eq31",
+  "Bullington": "P526-16section4.5.1eq49-57, Ce=0 local plane; LoS and trans-horizon construction plus tapered correction with d_km=d_m/1000; not complete delta-Bullington/spherical-Earth and not strict bounds",
+  "numerical_policy": {
+    "internal_arithmetic": "Float64 analytic geometry; primary node stays Float64 for secondary geometry",
+    "outputs": "Float32; reported nu(lambda1)/t rounded like C149; internal J uses raw Float64 root",
+    "endpoint_obstacles": "Known secondary obstacle endpoints lie exactly on terrain; snap their numerical zero, do not create automatic6dB edges",
+    "secondary_positive_nu_tolerance": 1e-09,
+    "Bullington_tangent_height_tolerance_m": 1e-10,
+    "nonfinite_policy": "No arbitrary nu/loss caps; reject invalid terminal clearance or degenerate paths",
+    "sampling": "Continuous affine-segment calculation is exact between mesh intersections, including extrema; no omitted sub-metre features"
+  },
+  "C149_reuse": "Monitor nu(lambda1)/t reused only as saved feature outputs after agreement check; Float32 C149 argmax never defines Deygout geometry. Fresh analytic primary is required by the new integral/Bullington/secondary quantities.",
+  "deduplication": {
+    "not_repeated": [
+      "C109 legacy integer-coordinate 32-sample ordered/permuted Fresnel profiles",
+      "C130 legacy sparse three Fresnel ridge nodes",
+      "C147 reflection-depth comparison",
+      "C148 parameter-anchor sweeps"
+    ],
+    "new": "Registered analytic Ipos + explicit Deygout/Bullington loss and teacher-free prior A/B"
+  },
+  "solver_channels": "Existing45c73 unchanged; no solver power re-export/floor change",
+  "labels_read": false,
+  "masks_read": false,
+  "C82_read": false,
+  "network_or_training_executed": false,
+  "official_VAL_used": false
+}

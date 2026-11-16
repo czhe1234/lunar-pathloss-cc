@@ -1,0 +1,183 @@
+{
+  "campaign": "C149_C150_C151",
+  "user_directive": "audit/c149_c151/directive.md",
+  "directive_sha256": "dbc485efd7aeda225c613d0acb8604257ed0d027b7b0180b563cf2f323fdb07a",
+  "created_utc": "2026-11-14T21:32:32.873608+00:00",
+  "stage_order": [
+    "C149",
+    "C150",
+    "C151a",
+    "C151b"
+  ],
+  "current_stage": "complete",
+  "status": "complete_no_generalization_gate_pass",
+  "base_split_protocol": "audit/c145_capacity/protocol.json",
+  "base_protocol_sha256": "9502bde8794231abe074d4bda1559aa5be5662b9b7455adaab6176a2d74483e2",
+  "panels": {
+    "fit": {
+      "maps": 2815,
+      "ordered_ids_sha256": "e08435c9998092acca963937159973f79ee0a112a3c87648973558e63a2d8d2c"
+    },
+    "monitor": {
+      "maps": 628,
+      "ordered_ids_sha256": "d5eef35b41596cda359a959fa72b6a35936fa9684a68ab120f25c0abd00c3500"
+    }
+  },
+  "reference_monitor_RMSE_dB": {
+    "C82": [
+      2.1463905073492664,
+      2.41801448492553
+    ],
+    "C145_selected12": [
+      2.1412210108233403,
+      2.4082364795626496
+    ]
+  },
+  "comparators": [
+    "C82",
+    "C145_selected12"
+  ],
+  "gate": {
+    "difference": "candidate_RMSE-reference_RMSE",
+    "bootstrap_unit": "terrain with all corresponding maps and valid pixels",
+    "replicates": 2000,
+    "seed": 145073,
+    "confidence": 0.95,
+    "required": "upper endpoint < 0 for BOTH bands against BOTH references before any budget extension",
+    "selection": "one same checkpoint minimizing joint mean monitor RMSE; no per-band checkpoint picks",
+    "limits": "repeatedly used development monitor; not selection-adjusted or fresh blind; no official VAL"
+  },
+  "training_initial_budget": {
+    "epochs_per_arm": 12,
+    "full_FIT_maps": 2815,
+    "batch": 8,
+    "optimizer_updates_per_arm": 4224,
+    "extension": "not authorized unless mechanism gate passes; finite extension must be announced/frozen before start",
+    "schedule": "Same C1238fullFIT cosine8-horizon+AdamWresetat9+C1454fullFIT; warmup100 in both phases; batch8; identical A/B."
+  },
+  "hard_constraints": [
+    "mask loss/scoring only, never model input",
+    "same FIT/monitor split",
+    "no L2SP sweeps or selected12 continuation",
+    "no LR/seed sweeps or Sionna max_depth tweaks",
+    "do not rerun completed experiments",
+    "all compute in CC on transformer",
+    "all persistent records local SwanLab using .venv/bin/python",
+    "no cross-project or other-AI artifacts"
+  ],
+  "approved_GPU_UUIDs": [
+    "GPU-6b53c3c2-3071-5dfb-f306-2f2f142f8009",
+    "GPU-9a72820b-a8c2-0a94-2297-4f65afc67eb0",
+    "GPU-70b6fceb-c7c4-9467-3c81-097c9284c160"
+  ],
+  "allow_shared_GPU": true,
+  "known_dedup": [
+    "C48 Fresnel corridor already done",
+    "C109 ordered/permuted 32-point Fresnel ray sequence already done",
+    "C130 recursive Fresnel ridge node probes already done"
+  ],
+  "new_mechanism_candidates": [
+    "registered exact-profile Deygout/Bullington numerical losses plus FSPL+Deygout output baseline A/B",
+    "global backbone spatial physics propagation with parameter-matched controls",
+    "shared TX polar grid and inverse warp, distinct from old per-RX ray pooling"
+  ],
+  "scientific_qualifications": [
+    "C73 highest is a face/quadrature-averaged transformed proxy, not single-ray exact maximum",
+    "solver floor applies normalized Q=P*d_face^2 and cached Float16 coding, not recoverable exact raw clamp rate",
+    "no solver-backprop dead gradients for frozen cached features",
+    "Deygout and Bullington are approximations, not guaranteed bounds",
+    "no geometry frequency-blind cause assumption before audit"
+  ],
+  "runner": "SSH functions.exec fallback; bash_exec/artifact campaign APIs unavailable. Existing CC protocol/status/SwanLab records used; no duplicate PLAN/CHECKLIST.",
+  "C149_protocol_sha256": "faa21d83e6a1d7d21154f75ebe9106c50ccace594d050e9e4da04f4a7b2ff70f",
+  "C149_summary_sha256": "125361b33737a44aa2d02450fb638d801d7600597656e990027f23994edb52b0",
+  "C149_summary": "audit/c149_error_audit/summary.json",
+  "C150_feature_protocol_sha256": "31a3dee100aaf1c011ec2d054051dc568aabdeb52236d804083c55947ff958b1",
+  "C150_training_protocol_sha256": "77696e3db34d68ef8f70f99192029afa6f5170f0c832e173da4dac9246f8fc5e",
+  "C150_feature_cache_sha256": "a0dad028caf4af3221684559c9e946ac86e32b64466b44b30793a20984b021ab",
+  "C150_summary_sha256": "ba284e8cb9245c0183fb1498ea263b1379e91df33c9bc33be1e559749a8072c3",
+  "C151a_protocol_sha256": "572da5f34ca4aa56af1407a582e5d48c7dbbcfb8d991272e0efafb71e702c24c",
+  "C151a_summary_sha256": "bfc5d3632473aa72ad07225b2ee18dfe75a7cd695ecc176cb79a676e01292fda",
+  "C151b_protocol_sha256": "1c881b5ab247527f4024e852d37f2da7d3772ce84d85f1ce5a249240101c266b",
+  "finished_utc": "2026-11-14T23:34:19.255182+00:00",
+  "verified_stage_results": {
+    "C150": {
+      "summary": "audit/c150_diffraction_training/comparison_summary.json",
+      "summary_sha256": "ba284e8cb9245c0183fb1498ea263b1379e91df33c9bc33be1e559749a8072c3",
+      "arms": {
+        "A": {
+          "selected_epoch": 12,
+          "monitor_RMSE_dB": [
+            2.412450347475804,
+            3.0707513730024947
+          ],
+          "gate_passed": false
+        },
+        "B": {
+          "selected_epoch": 12,
+          "monitor_RMSE_dB": [
+            2.4334181520284175,
+            3.1252025720939316
+          ],
+          "gate_passed": false
+        }
+      },
+      "budget_scale_allowed": false
+    },
+    "C151a": {
+      "summary": "audit/c151_global/comparison_summary.json",
+      "summary_sha256": "bfc5d3632473aa72ad07225b2ee18dfe75a7cd695ecc176cb79a676e01292fda",
+      "arms": {
+        "A": {
+          "selected_epoch": 12,
+          "monitor_RMSE_dB": [
+            2.4281882286984393,
+            3.008244603222985
+          ],
+          "gate_passed": false
+        },
+        "B": {
+          "selected_epoch": 8,
+          "monitor_RMSE_dB": [
+            2.3678495090483236,
+            2.795411618453474
+          ],
+          "gate_passed": false
+        }
+      },
+      "budget_scale_allowed": false
+    },
+    "C151b": {
+      "summary": "audit/c151_polar/comparison_summary.json",
+      "summary_sha256": "f6f2d4e6aff2dc6fbab7d1c69a90c2e079e03a0ebbdbf1c2d10518700f06ff04",
+      "arms": {
+        "A": {
+          "selected_epoch": 8,
+          "monitor_RMSE_dB": [
+            2.3590450173563573,
+            2.7783269438013414
+          ],
+          "gate_passed": false
+        },
+        "B": {
+          "selected_epoch": 8,
+          "monitor_RMSE_dB": [
+            2.3611955202128927,
+            2.8091000801708583
+          ],
+          "gate_passed": false
+        }
+      },
+      "budget_scale_allowed": false
+    }
+  },
+  "generalization_gate_passed": false,
+  "official_VAL_used": false,
+  "automatic_further_training": false,
+  "remaining_limits": [
+    "All new networks are teacher-free; historical model comparisons are performance gates, not single-factor feature tests.",
+    "Both raw-grid basic11 and registered diffraction/FSPL remain; their input-semantics effect was not isolated.",
+    "High-frequency FIT and monitor can both worsen after the frozen epoch9 optimizer reset; this does not establish overfitting or reset causation.",
+    "Polar comparison includes sampling/interpolation/support as well as radial routing; no claim against all polar methods."
+  ]
+}

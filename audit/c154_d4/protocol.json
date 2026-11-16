@@ -1,0 +1,125 @@
+{
+  "campaign": "C154_D4",
+  "created_utc": "2026-11-16T07:23:01.610392+00:00",
+  "control_protocol_sha256": "49662b53e3bb0a3193075f67e9b913213986f73c34b3a648c90df1368c16ee4e",
+  "scope": "CPU preflight only; no training/inference/feature export",
+  "all_metadata_maps": 3443,
+  "geometric_maps": [
+    {
+      "map_id": 4,
+      "sample_id": "00004_00"
+    },
+    {
+      "map_id": 5,
+      "sample_id": "00005_00"
+    },
+    {
+      "map_id": 59,
+      "sample_id": "00009_00"
+    },
+    {
+      "map_id": 112,
+      "sample_id": "00012_00"
+    },
+    {
+      "map_id": 951,
+      "sample_id": "00172_00"
+    },
+    {
+      "map_id": 1011,
+      "sample_id": "00180_02"
+    },
+    {
+      "map_id": 1484,
+      "sample_id": "00316_00"
+    },
+    {
+      "map_id": 1953,
+      "sample_id": "00451_01"
+    },
+    {
+      "map_id": 1819,
+      "sample_id": "00414_00"
+    }
+  ],
+  "actions": [
+    "R0",
+    "R90",
+    "R180",
+    "R270",
+    "R0_mirrorX_first",
+    "R90_mirrorX_first",
+    "R180_mirrorX_first",
+    "R270_mirrorX_first"
+  ],
+  "definition": "Horizontal mirror first, then np.rot90 CCW in image coordinates",
+  "raw_channels": 68,
+  "vector_pairs_raw_zero_based": [
+    [
+      3,
+      4
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      32,
+      33
+    ]
+  ],
+  "scalar_channels": "All remaining raw68; C82 slots56:58 remain literal zero; frequencies are never exchanged",
+  "cache_policy": "Read existing caches only, no new feature extraction dataset",
+  "gate": {
+    "tensor": "group/inverse exact, zero slots exact, label/mask/loss permutation invariant",
+    "geometry": "For all8 actions, raw terrain/TX transformed with unchanged canonical definitions must represent the same3D TX and receiver surface",
+    "tolerances": {
+      "coordinate_m": 1e-09,
+      "surface_m": 1e-09,
+      "FSPL_dB": 5e-05,
+      "CPU_basic_abs": 5e-05
+    },
+    "failure_action": "Do not start the conditional C153+D4 training; do not change input geometry/network/loss/budget to force a pass"
+  },
+  "source_sha256": {
+    "src/c154_d4_consistency.py": "5242ceaeed75c730f79af56110033141f0c9cacd76859b97464a6f4df0d4fdd2",
+    "src/c153_train.py": "495beeb9835d131cdcfe9b9551f73662532d5a4e669dd76366c88b495475368f",
+    "src/c153_report.py": "a805256ebbfabf2d7b7df7b3f7d281bbff5b32686de1bba721a7c44d642a6bee",
+    "src/c151_field.py": "91a405e9aece9687f186f12e5ac4d0fc7cc965b125cdfc66bb57021fa86b2596",
+    "src/c150_train.py": "384e158e3e0f2b6e6d1de853378e629b7eaa08e8b9992261a2a7941e474352ee",
+    "src/c150_field.py": "1a717f4fe7db547ae13f7ce762c9b32634999a028e045c5023f9a4f12e9d16de",
+    "src/c146_data.py": "754dc0ad010c4358701e73336ef3755b77dcaa886829cd300b789364a79d4c64",
+    "src/c3_geometry.py": "f441476c0725eeb8bc92005b6d10fd2226e7696a5760df448af3824203d30cc9",
+    "src/c70_geometry.py": "cdc47920ebbca03a636b67d73581b447d4f3dfc6a408eefe7d40cd501ca372b8",
+    "src/c70_geometry.cu": "19e1acaa79e1f64e6c10bf83ef6a09bfa3c148050df8436d4ae0081987a3609b",
+    "src/c72_native_features.py": "7177efb8e761043d4529cc2a7ea735f21a548ceb7a53d9c89409324456d08327",
+    "src/c73_compact.py": "b78d27abf25a520463d3a109dd1e8f9eb242a77a34e6ad74c6b5b04824b43de3",
+    "src/c67_physics.py": "a652e3f120abbbe94a5b60903541b2deb575e0caa0ed89ff98403f83561ac2d5",
+    "src/c69_registered.py": "6f170939b6f06029e41e657b984065ae77611f4b7382a82654274797e307cd46",
+    "src/c150_reference.py": "22141304c3035b8538012bc47e0ca8f6945ed1163be0e7400f192375d7566459",
+    "src/c150_diffraction.cu": "8985a9c137ca45d700b1a09d3de09077d2e25f6baccedadcff84e614986a4d52",
+    "src/cc_tracking.py": "b55f6eca1d87513657708fd47772e1c922aa06361378aa7dfbcb69a152d95655"
+  },
+  "protected_readonly_sha256": {
+    "audit/c101_residual/base0of1/prediction.npy": "ab1a3aa804ed56fb8b57c3cfdb062ce94bfaf090ee685c04b5b4e4ab2aae94ec",
+    "audit/c88_mesh/base.npy": "44199b41a3388151135256c435f69ef29686eebbef66f07f45e520e8a3e02c6a",
+    "runs/c145_capacity_native/best_monitor.pt": "dc29592a8150857ad23e21f9cb355117f0794f2508329ea7b94e84b6faa688d8",
+    "runs/c145_capacity_native/best_fit.pt": "734fc201a41821fc436cb3392f7f3e1e3c1ec5dfa8c35302702f0f23791a7cc9",
+    "runs/c145_capacity_native/last.pt": "61581f33dbdc13c5e1b97ecc6b76e31c622417ac47dac314115c00508ad57d82",
+    "runs/c145_capacity_native/selected_export.json": "b2fb91f40e4c735902ad7840637d5554765a200e6d847e62afe73ff01558ea57",
+    "runs/c145_capacity_native/selected_verified.json": "6dcb229e6d9a0d4d73725e646064e4f00e923c4752b73e46681bd685fb0646ff",
+    "runs/c145_capacity_native/selected_terrain_sse.npz": "29659e427c02d50570da797b1c151a2cdd7bafebf9792de6fb993c09406e413f",
+    "runs/c145_capacity_native/selected_fit_prediction.npy": "6fbfca52b8972d92ab1da306cf22f637dfce48381f67e1b3b23cd03c5ec82b88",
+    "runs/c145_capacity_native/selected_monitor_prediction.npy": "351f2a5ed813ef293728b0c4af95a4f3b0f08a85b47f1a0628d79dc544dae4c9",
+    "audit/c153_standalone_c151a/protocol.json": "49662b53e3bb0a3193075f67e9b913213986f73c34b3a648c90df1368c16ee4e",
+    "runs/c153_standalone_c151a/selected.pt": "b50ba7f7b988a5897e589a88c3f9c20965bdb2e561890170d8e0f4e90d6994f0",
+    "runs/c153_standalone_c151a/last.pt": "7cf82bc04caffed890390f3896e33d22c1b09245856306afec28b46e30720015",
+    "runs/c153_standalone_c151a/initial.pt": "1949fe8627736b1878e1770a04aecd1060b3f3d3cffbf082da215cd85ad8364c",
+    "runs/c153_standalone_c151a/history.json": "7eaa6947353bb685e56d2f6c91cbb8cd1d10d7db99069d7a22631b2836d79e68",
+    "runs/c153_standalone_c151a/result.json": "1d3db8e674f6733e159fc25dacbb2c2beeb1bf92a89ae0c57aa180a25f61922e",
+    "runs/c153_standalone_c151a/selected_fit_prediction.npy": "cce5cacd1ca118518c63033e0a3383faf86ec40562608be78f2ec0eec0288d7d",
+    "runs/c153_standalone_c151a/selected_monitor_prediction.npy": "fec8e80c113cef5ca01fb000ffb55a3cd699d8c841476fd63e3bb11f7ced4002",
+    "runs/c153_standalone_c151a/selected_export.json": "0c47fdb18dbbe30143abb19f1e49ced492d6b7837522b55d457e7ee8474ec6fc",
+    "runs/c153_standalone_c151a/selected_verified.json": "6a061fcde5929f5a50792640a7b66ea51d750bc3f845a10f4849d1bdf83e9833"
+  }
+}

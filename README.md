@@ -1,8 +1,8 @@
 # lunar-pathloss-cc
 
-月球双频路损预测项目的 CC 源码。当前源码覆盖至 C148，包括 C145 能力对照、C146 求解器特征消融、C147 Sionna 反射深度对照，以及 C148 参数锚定对照。
+月球双频路损预测项目的 CC 源码。当前源码覆盖至 C156，包括 C145–C148 原有对照，以及 C149–C156 的误差拆解、绕射特征、全局输入对齐、独立基线、D4 一致性检查、轻量 ConvNeXt-UNet 和纯 CPU 分量归因核查。
 
-输入为地形高程图、TX 位置及各阶段定义的几何与物理特征；输出为 415 MHz、5.775 GHz 的路损图，单位 dB。官方目标与当前研究停点见 [HANDOFF.md](HANDOFF.md)。开发集结果不等同于官方固定验证成绩。C148 已完成；参数锚定减缓过拟合，未实质突破泛化瓶颈，当前配置不再追加训练。C148 相比原最佳开发版本仅改善约 0.0030 / 0.0008 dB，高频配对地形 95% CI 跨 0；这不是官方验证分数，也不构成稳定的双频突破。
+输入为地形高程图、TX 位置及各阶段定义的几何与物理特征；输出为 415 MHz、5.775 GHz 的路损图，单位 dB。官方目标与当前研究停点见 [HANDOFF.md](HANDOFF.md)。开发集结果不等同于官方固定验证成绩。当前 C156 纯 CPU 核查已完成；没有重跑训练或旧实验。C155 的 FIT/monitor 差距缩小，但仍未超过 C82。C156 将高精度基本盘定位到局部/图网络修正及互补融合；共同大错包含衰减过强和不足，不能统一解释为多重深绕射。具体证据与限制见 HANDOFF。当前任务完成后停止，不自动开启训练。
 
 ## 代码入口
 
@@ -13,7 +13,13 @@
 - [tracking/README.md](tracking/README.md)：服务器本地 SwanLab 的接入与查看说明。
 - [SOURCE_SNAPSHOT.json](SOURCE_SNAPSHOT.json)：公开源文件、来源说明和 SHA256 清单。
 
-当前主要入口为 [src/c145_train.py](src/c145_train.py)、[src/c146_train.py](src/c146_train.py)、[src/c147_sionna.py](src/c147_sionna.py)、[src/c148_train.py](src/c148_train.py)、[src/c148_report.py](src/c148_report.py)。各阶段保持原始代码，不自动重跑已有实验。
+近期入口：
+
+- C149–C152：[误差拆解](src/c149_error_audit.py)、[绕射训练](src/c150_train.py)、[全局对齐](src/c151_train.py)、[公平基线](src/c152_train.py)。
+- C153–C155：[独立基线](src/c153_train.py)、[D4 一致性检查](src/c154_d4_consistency.py)、[ConvNeXt-UNet](src/c155_field.py) 与 [训练](src/c155_train.py)。
+- C156：[CPU 归因](src/c156_attribution.py)、[独立核验](src/c156_verify.py)、[区域绘图](src/c156_figures.py)。
+
+各阶段不自动重跑已有实验。
 
 ## 环境与运行资产
 

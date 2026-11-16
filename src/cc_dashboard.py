@@ -167,9 +167,123 @@ def attach_c148_evidence(profile, cfg, record):
         return []
 
 
+def native_history_paths():
+    """Associate only current run metadata; never search historical archives."""
+    found = {}
+    for path in [* (ROOT / "runs").glob("*/tracking.json"),
+                 * (ROOT / "runs").glob("*/*/tracking.json")]:
+        try:
+            tracking = json.loads(path.read_text())
+            found[Path(tracking["dir"]).name] = path.parent
+        except (OSError, KeyError, TypeError, ValueError):
+            continue
+    return found
+
+
+def attach_native_history(profile, cfg, record, directory):
+    """Read committed evaluation/selection metadata without selecting or scoring."""
+    if directory is None or cfg.get("campaign") == "C148":
+        return []
+    try:
+        config = json.loads((directory / "config.json").read_text())
+        history = json.loads((directory / "history.json").read_text())
+        result_path, export_path = directory / "result.json", directory / "selected_export.json"
+        result = json.loads(result_path.read_text()) if result_path.exists() else {}
+        exported = json.loads(export_path.read_text()) if export_path.exists() else {}
+        if (not history or config.get("campaign") != cfg.get("campaign")
+                or config.get("arm") != cfg.get("arm")
+                or config.get("protocol_sha256") != cfg.get("protocol_sha256")
+                or config.get("panels") != cfg.get("panels")):
+            return []
+        if result and (result.get("protocol_sha256") != config.get("protocol_sha256")
+                       or result.get("arm") != config.get("arm")):
+            return []
+        last = history[-1]
+        selected_epoch = result.get("selected_epoch", exported.get("training_state", {}).get("epoch"))
+        selected = next((point for point in history if point["epoch"] == selected_epoch), None)
+        if (selected is not None and
+                (not (directory / exported.get("checkpoint", "")).is_file()
+                 or exported.get("training_state", {}).get("epoch") != selected_epoch
+                 or exported.get("model_sha256") != selected.get("predictor_sha256"))):
+            selected = None
+        complete = result.get("status") == "complete"
+        if complete and (last["epoch"] != result["epochs"]
+                         or last["evaluation"]["monitor"]["rmse"] != result["last_monitor_RMSE_dB"]
+                         or selected is None
+                         or selected["evaluation"]["monitor"]["rmse"] != result["selected_monitor_RMSE_dB"]):
+            return []
+        elapsed = result.get("elapsed_seconds", last.get("elapsed_seconds", profile["elapsed_seconds"]))
+        checkpoints, rows = {}, []
+        for tag, title, point in (("selected", "选中权重", selected),
+                                  ("last", "最后权重" if complete else "最新记录", last)):
+            if point is None:
+                continue
+            evaluation = point["evaluation"]
+            monitor = evaluation["monitor"]
+            group = monitor.get("groups", {})
+            all_group, tail = group.get("all", {}), group.get("tail", {})
+            baseline = all_group.get("C82_RMSE", profile["baseline"].get("monitor"))
+            row = result_row(record["name"] + " · " + title, point["epoch"],
+                             evaluation["fit"]["rmse"], monitor["rmse"], baseline,
+                             tail.get("RMSE"), tail.get("C82_RMSE"), elapsed,
+                             "整次训练累计，含评测；两版本共享该耗时")
+            row.update(profile=profile["id"], checkpoint=tag)
+            regions = []
+            for panel, panel_title in (("fit", "训练集"), ("monitor", "留出地形")):
+                for name, title_region in (("all", "全部"), ("tail", "固定大误差区"),
+                                            ("C82_good", "原本较准区域")):
+                    value = evaluation[panel].get("groups", {}).get(name)
+                    if value is not None:
+                        regions.append({"label": panel_title + " · " + title_region,
+                            "candidate": value["RMSE"], "baseline": value.get("C82_RMSE"),
+                            "gain": gains(value.get("C82_RMSE"), value["RMSE"]), "count": value["count"]})
+            checkpoints[tag] = {"row": row, "regions": regions}
+            rows.append(row)
+        profile.update(checkpoints=checkpoints, best_epoch=selected["epoch"] if selected else None,
+                       epoch=last["epoch"], updates=last.get("updates", profile["updates"]),
+                       elapsed_seconds=elapsed, elapsed_note="原始 history/result 记录，含评测",
+                       series={panel: [[point["epoch"], *point["evaluation"][panel]["rmse"]]
+                                       for point in history] for panel in ("fit", "monitor")},
+                       method_note=(cfg.get("_cc_dashboard") or {}).get("method_note","同一数据划分；输入与输出先验定义见原实验配置。"),
+                       decision="固定预算已完成，不自动延长训练" if complete else "按既定训练预算继续",
+                       reason="选中轮次直接读取原实验保存记录，按双频联合规则选出；"
+                              "选中与末轮指标均来自原始评估，独立复核状态以实验报告为准。",
+                       evidence=["未重算评测或补造中间曲线；区域数据直接读取原 history.json。"])
+        if complete:
+            profile.update(status="complete", eta_seconds=0,
+                           progress_text=f"已完成 · {last['epoch']} / {result['epochs']} 轮")
+        else:
+            profile["progress_text"] = str(last["epoch"]) + " 轮（最近一次完整评估）"
+            progress_path = directory / "progress.json"
+            if progress_path.exists():
+                progress = json.loads(progress_path.read_text())
+                if (progress.get("stage") == "training" and progress.get("arm") == config.get("arm")
+                        and progress.get("updates", -1) >= profile["updates"]):
+                    for key in ("epoch", "updates", "elapsed_seconds", "eta_seconds"):
+                        if progress.get(key) is not None:
+                            profile[key] = progress[key]
+                    profile["progress_text"] = (f"第 {progress['epoch']} / {progress['epochs']} 轮"
+                                                f" · {progress['batch']} / {progress['batches']} 批")
+                    profile["elapsed_note"] = "原始 progress.json 实时进度；曲线仍仅显示完整评估"
+        for name, path in (("history", directory / "history.json"), ("result", result_path),
+                           ("progress", directory / "progress.json")):
+            if path.exists():
+                key = profile["id"] + "_" + name
+                SOURCES[key] = str(path.relative_to(ROOT))
+                profile["sources"].append(key)
+        # Only the original common ordered panel may enter the shared C82 table.
+        common = json.loads((ROOT / "audit/c145_capacity/protocol.json").read_text())["panels"]
+        return rows if config.get("panels") == common else []
+    except (OSError, KeyError, TypeError, ValueError):
+        return []
+
+
 def build():
     # Optional final evidence is exposed only while the current validation passes.
     SOURCES.pop("c148_summary", None)
+    for key in list(SOURCES):
+        if key.startswith("native_"):
+            SOURCES.pop(key)
     a, h145, initial, phases = read("c145_summary"), read("c145_history"), read("c145_initial"), read("c145_phases")
     b, h146, done146, physics = read("c146_summary"), read("c146_history"), read("c146_complete"), read("c147_summary")
     assert a["status"] == "complete_identity_checked" and b["status"] == "verified"
@@ -282,6 +396,7 @@ def build():
             "sources": ["c146_summary", "c146_history", "c146_complete"],
         })
     # Future runs are shown from native records. Missing references stay missing.
+    history_paths = native_history_paths()
     for record in native:
         if record["run_id"] in imported:
             continue
@@ -294,6 +409,9 @@ def build():
         dc = cfg.get("_cc_dashboard") or {}
         if not isinstance(dc, dict):
             dc = {}
+        if (str(cfg.get("run_kind", "")).startswith("analysis.") or dc.get("kind") == "analysis"
+                or (history_paths.get(record["run_id"]) and (history_paths[record["run_id"]] / "invalid_attempt.json").exists())):
+            continue
         keys = ["progress/epoch", "progress/total_epochs", "progress/updates", "time/elapsed_seconds", "time/eta_seconds",
                 "fit/RMSE_415MHz_dB", "fit/RMSE_5p775GHz_dB",
                 "monitor/RMSE_415MHz_dB", "monitor/RMSE_5p775GHz_dB"]
@@ -328,6 +446,7 @@ def build():
         profile_id = "native_" + str(record["id"])
         profile = {
             "id": profile_id, "label": record["name"], "kind": "training",
+            "native_id": record["id"], "created_at": record["create_time"],
             "status": "running" if record["status"] == 0 else "complete" if record["status"] == 1 else "stopped",
             "native": "/experiment/" + str(record["id"]) + "/chart", "epoch": epoch, "total_epochs": total,
             "progress_text": (str(epoch) + (" / " + str(total) if total else "") + " 轮") if epoch is not None else "等待真实进度记录",
@@ -340,6 +459,7 @@ def build():
             "decision": "等待同口径评测证据", "reason": "只展示真实记录；未配置的 C82 参照、最好权重和耗时不作推断。",
             "evidence": [], "sources": [],
         }
+        shared_rows.extend(attach_native_history(profile, cfg, record, history_paths.get(record["run_id"])))
         shared_rows.extend(attach_c148_evidence(profile, cfg, record))
         profiles.append(profile)
     native_db.close()
@@ -350,10 +470,11 @@ def build():
         phys_rows.append({"label": label, "all": model["all"]["rmse"], "tail": model["tail"]["rmse"]})
     return {
         "schema": 1, "updated_at": datetime.now(timezone.utc).isoformat(), "official_VAL_used": False,
-        "records": {"total": len(native), "running": sum(x["status"] == 0 for x in native),
+        "records": {"total": len(native), "running": sum(p["status"] == "running" for p in profiles if p["kind"] == "training"),
                     "finished": sum(x["status"] == 1 for x in native)},
-        "default_profile": next((p["id"] for p in profiles if p["status"] == "running"),
-                                next((p["id"] for p in profiles if "c148_summary" in p.get("sources", [])), "c145")),
+        "default_profile": max(
+            (p for p in profiles if p["kind"] == "training"),
+            key=lambda p: (p["status"] == "running", p.get("native_id", 0)))["id"],
         "profiles": profiles,
         "comparison": {
             "monitor": {"title": "同一地形留出评测 · 628 图 / 128 地形", "rows": shared_rows, "note": scope_note},

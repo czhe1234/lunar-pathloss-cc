@@ -1,16 +1,16 @@
 {
   "schema": 2,
-  "created_utc": "2026-11-14T20:47:03.292285+00:00",
+  "created_utc": "2026-11-16T11:09:29.040870+00:00",
   "source_root": "CC",
-  "latest_experiment_source": "C148",
+  "latest_experiment_source": "C156",
   "scope": "Current project source, immutable algorithm protocols, local tracking integration and fixed-grid source assets only.",
   "runtime_records_uploaded": false,
   "data_weights_or_predictions_uploaded": false,
   "source_files": [
     {
       "path": "HANDOFF.md",
-      "bytes": 7114,
-      "sha256": "d2223eca41cb083682d9b1bbaf8a5c5e55e90e51c95049901dcc5ac986f7d7c0",
+      "bytes": 20170,
+      "sha256": "fae3985f77e58da3217a264973ea0b6c74283e3f4264f9c3f18bc7dfc08eeaf1",
       "source_mode": "0o644",
       "reason": "root_source_or_dependency",
       "source_identity": "byte_identical"
@@ -443,6 +443,126 @@
       "path": "audit/c148_generalization/protocol.json",
       "bytes": 3873,
       "sha256": "d097e6714ab443c7db7b47a3bac151ec1a8d7b9d393d94ce369913646772b9fd",
+      "source_mode": "0o664",
+      "reason": "immutable_algorithm_protocol",
+      "source_identity": "byte_identical"
+    },
+    {
+      "path": "audit/c149_c151/protocol.json",
+      "bytes": 7298,
+      "sha256": "b11cc72a2772af6d433a4bf6ed9392eaa26eee1c779f4736762705908cc7ee60",
+      "source_mode": "0o664",
+      "reason": "immutable_algorithm_protocol",
+      "source_identity": "byte_identical"
+    },
+    {
+      "path": "audit/c149_error_audit/protocol.json",
+      "bytes": 9148,
+      "sha256": "faa21d83e6a1d7d21154f75ebe9106c50ccace594d050e9e4da04f4a7b2ff70f",
+      "source_mode": "0o664",
+      "reason": "immutable_algorithm_protocol",
+      "source_identity": "byte_identical"
+    },
+    {
+      "path": "audit/c149_error_audit/supplement_bias_gt_bins.py",
+      "bytes": 15041,
+      "sha256": "4b576a54b1c1c068600c02efb8d0bc19ec213265168c9b0d306c151a3fa8c79c",
+      "source_mode": "0o664",
+      "reason": "current_project_source",
+      "source_identity": "byte_identical"
+    },
+    {
+      "path": "audit/c150_diffraction/protocol.json",
+      "bytes": 4228,
+      "sha256": "31a3dee100aaf1c011ec2d054051dc568aabdeb52236d804083c55947ff958b1",
+      "source_mode": "0o664",
+      "reason": "immutable_algorithm_protocol",
+      "source_identity": "byte_identical"
+    },
+    {
+      "path": "audit/c150_diffraction_training/protocol.json",
+      "bytes": 49541,
+      "sha256": "77696e3db34d68ef8f70f99192029afa6f5170f0c832e173da4dac9246f8fc5e",
+      "source_mode": "0o664",
+      "reason": "immutable_algorithm_protocol",
+      "source_identity": "byte_identical"
+    },
+    {
+      "path": "audit/c151_global/protocol.json",
+      "bytes": 51857,
+      "sha256": "572da5f34ca4aa56af1407a582e5d48c7dbbcfb8d991272e0efafb71e702c24c",
+      "source_mode": "0o664",
+      "reason": "immutable_algorithm_protocol",
+      "source_identity": "byte_identical"
+    },
+    {
+      "path": "audit/c151_polar/protocol.json",
+      "bytes": 55421,
+      "sha256": "1c881b5ab247527f4024e852d37f2da7d3772ce84d85f1ce5a249240101c266b",
+      "source_mode": "0o664",
+      "reason": "immutable_algorithm_protocol",
+      "source_identity": "byte_identical"
+    },
+    {
+      "path": "audit/c152_fair_global/invalid_global_input_sources/c152_field.py",
+      "bytes": 1648,
+      "sha256": "ad0ac2ca9dac7f98d6c72b7a802c029ab12514ae5c687eccfc5b04ab045a2bd8",
+      "source_mode": "0o664",
+      "reason": "current_project_source",
+      "source_identity": "byte_identical"
+    },
+    {
+      "path": "audit/c152_fair_global/invalid_global_input_sources/c152_train.py",
+      "bytes": 31796,
+      "sha256": "004e0be28f5ddd41e884dda2c3d7046ac93ebba561e91621ee7461af00418de3",
+      "source_mode": "0o664",
+      "reason": "current_project_source",
+      "source_identity": "byte_identical"
+    },
+    {
+      "path": "audit/c152_fair_global/protocol.json",
+      "bytes": 52410,
+      "sha256": "0c98951fef84ca040293916b905587544864892a910aca1a32a2a10bb5b9d306",
+      "source_mode": "0o664",
+      "reason": "immutable_algorithm_protocol",
+      "source_identity": "byte_identical"
+    },
+    {
+      "path": "audit/c153_standalone_c151a/protocol.json",
+      "bytes": 51040,
+      "sha256": "49662b53e3bb0a3193075f67e9b913213986f73c34b3a648c90df1368c16ee4e",
+      "source_mode": "0o664",
+      "reason": "immutable_algorithm_protocol",
+      "source_identity": "byte_identical"
+    },
+    {
+      "path": "audit/c154_d4/protocol.json",
+      "bytes": 6077,
+      "sha256": "9232404dd3ee9b3a7e0284816660ad54328fc0ea121d8b46b5c22b457e3d6a11",
+      "source_mode": "0o664",
+      "reason": "immutable_algorithm_protocol",
+      "source_identity": "byte_identical"
+    },
+    {
+      "path": "audit/c155_unet/protocol.json",
+      "bytes": 58009,
+      "sha256": "2f05bae9d2e807c5c4b1f5498b825c62d3f7abd75f4e1c9959c552ce243369d4",
+      "source_mode": "0o664",
+      "reason": "immutable_algorithm_protocol",
+      "source_identity": "byte_identical"
+    },
+    {
+      "path": "audit/c156_attribution/academic.mplstyle",
+      "bytes": 737,
+      "sha256": "773e8f6bc1147d1f1d93f68d8c194c971409f14b170c5043dd11975631a573c0",
+      "source_mode": "0o664",
+      "reason": "scientific_plot_style_source",
+      "source_identity": "byte_identical"
+    },
+    {
+      "path": "audit/c156_attribution/protocol.json",
+      "bytes": 17598,
+      "sha256": "a8155659915c0214ffbbaca96667f9a66c109b6a3f4904d767b83b09723480ea",
       "source_mode": "0o664",
       "reason": "immutable_algorithm_protocol",
       "source_identity": "byte_identical"
@@ -12026,8 +12146,8 @@
     },
     {
       "path": "scripts/configure_swanlab_view.py",
-      "bytes": 8174,
-      "sha256": "4bc4e1bb482e6a27336839ac30512dd8682a6e01347db906121f77ca85cc7861",
+      "bytes": 18366,
+      "sha256": "797c3234705970b00f17dd102a364bcf18e37a3c70663314f8d971a6283d8d6e",
       "source_mode": "0o664",
       "reason": "current_project_source",
       "source_identity": "byte_identical"
@@ -13537,9 +13657,281 @@
       "source_identity": "byte_identical"
     },
     {
+      "path": "src/c149_error_audit.py",
+      "bytes": 28113,
+      "sha256": "7df5d85e5e2618ec881ae92bb244d3773af785ce9f3632e5d0ab828777e30d9c",
+      "source_mode": "0o664",
+      "reason": "current_project_source",
+      "source_identity": "byte_identical"
+    },
+    {
+      "path": "src/c149_profiles.cu",
+      "bytes": 3514,
+      "sha256": "8c626eaaef2c55d4b051cf7c185a1bf38da1f1a465cae84e39b5ad10a3e75f29",
+      "source_mode": "0o664",
+      "reason": "current_project_source",
+      "source_identity": "byte_identical"
+    },
+    {
       "path": "src/c14_receiver_geometry.py",
       "bytes": 2546,
       "sha256": "d47897b2ff4e4a91e8229b92a64c31cc06c979edb963e522370f385cc2b80bfb",
+      "source_mode": "0o664",
+      "reason": "current_project_source",
+      "source_identity": "byte_identical"
+    },
+    {
+      "path": "src/c150_diffraction.cu",
+      "bytes": 7235,
+      "sha256": "8985a9c137ca45d700b1a09d3de09077d2e25f6baccedadcff84e614986a4d52",
+      "source_mode": "0o664",
+      "reason": "current_project_source",
+      "source_identity": "byte_identical"
+    },
+    {
+      "path": "src/c150_diffraction.py",
+      "bytes": 19965,
+      "sha256": "2ab780cbbcf2464f690aac6160f0e8df996a6a3641456e8ddcffe5a27c7ed72e",
+      "source_mode": "0o664",
+      "reason": "current_project_source",
+      "source_identity": "byte_identical"
+    },
+    {
+      "path": "src/c150_field.py",
+      "bytes": 1954,
+      "sha256": "1a717f4fe7db547ae13f7ce762c9b32634999a028e045c5023f9a4f12e9d16de",
+      "source_mode": "0o664",
+      "reason": "current_project_source",
+      "source_identity": "byte_identical"
+    },
+    {
+      "path": "src/c150_reference.py",
+      "bytes": 20182,
+      "sha256": "22141304c3035b8538012bc47e0ca8f6945ed1163be0e7400f192375d7566459",
+      "source_mode": "0o664",
+      "reason": "current_project_source",
+      "source_identity": "byte_identical"
+    },
+    {
+      "path": "src/c150_report.py",
+      "bytes": 33274,
+      "sha256": "fd610dbed1a121cf2965a892e4a39f900e8aef59099e489bb317cecfa6a0ab66",
+      "source_mode": "0o664",
+      "reason": "current_project_source",
+      "source_identity": "byte_identical"
+    },
+    {
+      "path": "src/c150_train.py",
+      "bytes": 38403,
+      "sha256": "384e158e3e0f2b6e6d1de853378e629b7eaa08e8b9992261a2a7941e474352ee",
+      "source_mode": "0o664",
+      "reason": "current_project_source",
+      "source_identity": "byte_identical"
+    },
+    {
+      "path": "src/c151_field.py",
+      "bytes": 4163,
+      "sha256": "91a405e9aece9687f186f12e5ac4d0fc7cc965b125cdfc66bb57021fa86b2596",
+      "source_mode": "0o664",
+      "reason": "current_project_source",
+      "source_identity": "byte_identical"
+    },
+    {
+      "path": "src/c151_polar.py",
+      "bytes": 21076,
+      "sha256": "13aba7b2770fe53a11cd4a07c004ef0430064ed4cb183afa8f8040943bf9cceb",
+      "source_mode": "0o664",
+      "reason": "current_project_source",
+      "source_identity": "byte_identical"
+    },
+    {
+      "path": "src/c151_report.py",
+      "bytes": 22852,
+      "sha256": "0dea4eedf4855aa5dfcd921e9c3fd4bb68eb357a24f6fc2eb34c64be0ce2736d",
+      "source_mode": "0o664",
+      "reason": "current_project_source",
+      "source_identity": "byte_identical"
+    },
+    {
+      "path": "src/c151_train.py",
+      "bytes": 33201,
+      "sha256": "2c84b91257aaa865ff44cac29901bdc635e80a47a6b4da0288ea704609decc30",
+      "source_mode": "0o664",
+      "reason": "current_project_source",
+      "source_identity": "byte_identical"
+    },
+    {
+      "path": "src/c151b_field.py",
+      "bytes": 3127,
+      "sha256": "6f17401c6f0ed4f7b3251aa34994eb1cf14f921cbe42864992cc8336c3978836",
+      "source_mode": "0o664",
+      "reason": "current_project_source",
+      "source_identity": "byte_identical"
+    },
+    {
+      "path": "src/c151b_train.py",
+      "bytes": 39622,
+      "sha256": "e71fdf66b6dda87bcd9756f4271e06754bc14b49911acd120f557118821884e6",
+      "source_mode": "0o664",
+      "reason": "current_project_source",
+      "source_identity": "byte_identical"
+    },
+    {
+      "path": "src/c152_field.py",
+      "bytes": 1781,
+      "sha256": "f253864cbad44751d521f815936dba824ce305b5f20a109fd99865c9d7fb19f7",
+      "source_mode": "0o664",
+      "reason": "current_project_source",
+      "source_identity": "byte_identical"
+    },
+    {
+      "path": "src/c152_los_diagnostic.py",
+      "bytes": 9092,
+      "sha256": "db7d393448406205b80ddab20fab6c53d4821da7f49383f3b5d0ceb6e3430ea3",
+      "source_mode": "0o664",
+      "reason": "current_project_source",
+      "source_identity": "byte_identical"
+    },
+    {
+      "path": "src/c152_report.py",
+      "bytes": 7670,
+      "sha256": "832f19df04260659c98454c345e91f6bf54196f5c2cf578287b73ab27a1a2e2e",
+      "source_mode": "0o664",
+      "reason": "current_project_source",
+      "source_identity": "byte_identical"
+    },
+    {
+      "path": "src/c152_train.py",
+      "bytes": 32413,
+      "sha256": "40f1b20c896f1ff12401438a4a28126da165129e6e3441c939bc5f4c6100411a",
+      "source_mode": "0o664",
+      "reason": "current_project_source",
+      "source_identity": "byte_identical"
+    },
+    {
+      "path": "src/c153_diagnostic.py",
+      "bytes": 8017,
+      "sha256": "21c76dcab012a026bef9845762fda547423db0b85857a03ee45fb5e368430e18",
+      "source_mode": "0o664",
+      "reason": "current_project_source",
+      "source_identity": "byte_identical"
+    },
+    {
+      "path": "src/c153_report.py",
+      "bytes": 5982,
+      "sha256": "a805256ebbfabf2d7b7df7b3f7d281bbff5b32686de1bba721a7c44d642a6bee",
+      "source_mode": "0o664",
+      "reason": "current_project_source",
+      "source_identity": "byte_identical"
+    },
+    {
+      "path": "src/c153_train.py",
+      "bytes": 27023,
+      "sha256": "495beeb9835d131cdcfe9b9551f73662532d5a4e669dd76366c88b495475368f",
+      "source_mode": "0o664",
+      "reason": "current_project_source",
+      "source_identity": "byte_identical"
+    },
+    {
+      "path": "src/c154_d4_consistency.py",
+      "bytes": 20525,
+      "sha256": "5242ceaeed75c730f79af56110033141f0c9cacd76859b97464a6f4df0d4fdd2",
+      "source_mode": "0o664",
+      "reason": "current_project_source",
+      "source_identity": "byte_identical"
+    },
+    {
+      "path": "src/c154_d4_verify.py",
+      "bytes": 2566,
+      "sha256": "209c0ae3b5cd0ee7a3d13d68270722ee39428fe1242056ae2b628ef60b5f74d1",
+      "source_mode": "0o664",
+      "reason": "current_project_source",
+      "source_identity": "byte_identical"
+    },
+    {
+      "path": "src/c155_field.py",
+      "bytes": 2605,
+      "sha256": "194ab72ac8d4338615c1700b1f33629d533f1e98503ab4fbc6fc4fad4e9d0af0",
+      "source_mode": "0o664",
+      "reason": "current_project_source",
+      "source_identity": "byte_identical"
+    },
+    {
+      "path": "src/c155_grazing.py",
+      "bytes": 8533,
+      "sha256": "e66fb27c0950c486becd1654c48e46cc22fdaa03f7ca7ecb47b647682a429406",
+      "source_mode": "0o664",
+      "reason": "current_project_source",
+      "source_identity": "byte_identical"
+    },
+    {
+      "path": "src/c155_report.py",
+      "bytes": 10549,
+      "sha256": "866c26df649635f8b4be955829d1835c9c159d0119f2e778c3aec47397ffa963",
+      "source_mode": "0o664",
+      "reason": "current_project_source",
+      "source_identity": "byte_identical"
+    },
+    {
+      "path": "src/c155_train.py",
+      "bytes": 33045,
+      "sha256": "7e1d3f8bfedcd6a9c53fc6639843a415783a907222c7a12c50fa3c26a16b371f",
+      "source_mode": "0o664",
+      "reason": "current_project_source",
+      "source_identity": "byte_identical"
+    },
+    {
+      "path": "src/c156_attribution.py",
+      "bytes": 23060,
+      "sha256": "ab092de9a34218420b25082fee0d7a502ab6ae8a2d1171344de01b0cc19433e2",
+      "source_mode": "0o664",
+      "reason": "current_project_source",
+      "source_identity": "byte_identical"
+    },
+    {
+      "path": "src/c156_counts.cpp",
+      "bytes": 2801,
+      "sha256": "3a12edacfc3f7c25b0a9ea65faae51bcf6564b32fbdb17efa1cbb427a08247dd",
+      "source_mode": "0o664",
+      "reason": "current_project_source",
+      "source_identity": "byte_identical"
+    },
+    {
+      "path": "src/c156_data.py",
+      "bytes": 7288,
+      "sha256": "11afe904ddb1972acedbf011b5c48cda55dc662b8390e21b86733a80bc938716",
+      "source_mode": "0o664",
+      "reason": "current_project_source",
+      "source_identity": "byte_identical"
+    },
+    {
+      "path": "src/c156_figures.py",
+      "bytes": 4659,
+      "sha256": "b1af40fa1bc81d966d41301c4ce89df4f5410bc42fe6c2a6ba387cae639cef9e",
+      "source_mode": "0o664",
+      "reason": "current_project_source",
+      "source_identity": "byte_identical"
+    },
+    {
+      "path": "src/c156_preflight.py",
+      "bytes": 8142,
+      "sha256": "e74ded0e9f05f8387088a4e7ab0c270d0248e528581f9c766b43a396dc7dca3e",
+      "source_mode": "0o664",
+      "reason": "current_project_source",
+      "source_identity": "byte_identical"
+    },
+    {
+      "path": "src/c156_report.py",
+      "bytes": 8118,
+      "sha256": "ca0d1ed32c3f653ec3e02a90a580a1b287890f70a2b48c3d00f1a1dd6416360f",
+      "source_mode": "0o664",
+      "reason": "current_project_source",
+      "source_identity": "byte_identical"
+    },
+    {
+      "path": "src/c156_verify.py",
+      "bytes": 12906,
+      "sha256": "a1df3f495c482cc92300f05afd6687caaf1cc46d2174dfe895e36520533dc35a",
       "source_mode": "0o664",
       "reason": "current_project_source",
       "source_identity": "byte_identical"
@@ -15578,16 +15970,16 @@
     },
     {
       "path": "src/cc_dashboard.html",
-      "bytes": 30078,
-      "sha256": "f11d754012b578c76995e116b4ccef394ed8bdfd45daacbdda69a7a90ad92305",
+      "bytes": 30723,
+      "sha256": "b57facd4229c42a707b258828d3836b5b257df542b4201d7d7f6aef2f35feba6",
       "source_mode": "0o664",
       "reason": "canonical_UI_source",
       "source_identity": "byte_identical"
     },
     {
       "path": "src/cc_dashboard.py",
-      "bytes": 24727,
-      "sha256": "b68c919e7e0f3dc9a74181942d7658cd9725303c50a36c95c91fad9b9ccb2558",
+      "bytes": 32600,
+      "sha256": "19b2f20a2680f2b4695892d4f48488734aff62ae183d4b55ec4f7ce4869a9d92",
       "source_mode": "0o664",
       "reason": "current_project_source",
       "source_identity": "byte_identical"
@@ -15652,8 +16044,8 @@
   "generated_files": [
     {
       "path": "README.md",
-      "bytes": 4239,
-      "sha256": "39eee7a6936dc0353f75532851e9f9cb8f5669050406557722027a39c9816785",
+      "bytes": 4642,
+      "sha256": "39e22449bdc92a3d487252421b10d3daaafa1ea15f8b0c67b68cca293e4d5900",
       "reason": "generated_public_source_documentation"
     },
     {
@@ -15671,5 +16063,6 @@
     "Model weights, fitted coefficients, predictions and generated bulk features",
     "Filled terrain/GT HTML instances, reports and figure outputs",
     "Environments, compiled libraries, archives and delivery snapshots"
-  ]
+  ],
+  "previous_public_commit": "bfcda974025d6515257dd127c9b66a74634dbb6c"
 }

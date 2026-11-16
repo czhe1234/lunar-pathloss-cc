@@ -45,7 +45,10 @@ details{background:#fff;border:1px solid var(--line);border-radius:10px;margin-b
 </div></main>
 <script>
 'use strict';
-let data=null,current='',checkpoint='selected',scope='monitor',range='all',showFit=true,lastSignature='';
+let data=null,current='',checkpoint='selected',scope='monitor',range='all',showFit=true,lastSignature='',manualSelection=false;
+const preferenceKey='cc-dashboard-selection-v1';
+try{const saved=JSON.parse(localStorage.getItem(preferenceKey)||'null');if(saved&&typeof saved.profile==='string'){current=saved.profile;checkpoint=saved.checkpoint==='last'?'last':'selected';manualSelection=true}}catch(error){}
+function rememberSelection(){manualSelection=true;try{localStorage.setItem(preferenceKey,JSON.stringify({profile:current,checkpoint}))}catch(error){}}
 const $=id=>document.getElementById(id);
 const ccRegionNames={"训练集 · 全部": "训练过的地形 · 全部位置", "训练集 · 固定大误差区": "训练过的地形 · 原来容易错的位置", "留出地形 · 全部": "留出地形 · 全部位置", "留出地形 · 固定大误差区": "留出地形 · 原来容易错的位置", "留出地形 · 原本较准区域": "留出地形 · 原来较准的位置"};
 const cn=x=>String(ccRegionNames[x]|| (x==null?'':x)).replace('冻结 C82 + 15.2M 参数残差分支。','固定 C82 的结果，再训练一个修正网络。').replace('15.2M 参数网络；训练与推理均移除 C82，仅改变快速求解器特征。','两个网络大小相同，都不使用 C82 的输出；区别是是否使用求解器信息。').replace('相对当前分支 FIT 留出。反复用于开发，C82 校准曾见其中 80 个地形。','这些地形没有用于本次分支训练；开发时曾反复参考，其中80个地形也曾参与C82校准。').replace(/\bFIT\b/g,'训练集').replace(/\bmonitor\b/g,'开发评测集').replace(/\bVAL\b/g,'验证集').replace(/选中权重/g,'最佳保存版本').replace(/最后权重/g,'结束时的版本').replace(/当前权重/g,'当前版本');
@@ -88,7 +91,7 @@ function renderComparison(){
  const p=profile(),table=data.comparison[scope];
  $('compare-body').innerHTML=table.rows.map(r=>'<tr class="'+(r.kind==='baseline'?'baseline':r.profile===current&&r.checkpoint===checkpoint?'current':'')+'"><td class="label">'+esc(r.label)+'<span class="sub">'+(r.epoch==null?'同面板原始参照':'第 '+r.epoch+' 轮')+'</span></td><td>'+pair(r.evaluation)+'</td><td>'+pair(r.gain,true)+'</td><td>'+pair(r.tail_gain,true)+'</td><td title="'+esc(r.cost_note)+'">'+hours(r.cost_seconds)+(r.profile&&r.profile.startsWith('c146')?'<span class="sub">两臂合计</span>':'')+'</td><td>'+verdict(r)+'</td><td>'+(r.profile?'<button class="row-open" data-open="'+r.profile+'" data-cp="'+r.checkpoint+'">看曲线</button>':'')+'</td></tr>').join('');
  $('compare-note').textContent=cn(table.title)+'。'+cn(table.note)+' 改善为正表示优于 C82。重复权重行不重复累加训练成本。';
- $('compare-body').querySelectorAll('[data-open]').forEach(b=>b.addEventListener('click',()=>{current=b.dataset.open;checkpoint=b.dataset.cp;render();$('curves').scrollIntoView({behavior:'smooth'})}));
+ $('compare-body').querySelectorAll('[data-open]').forEach(b=>b.addEventListener('click',()=>{current=b.dataset.open;checkpoint=b.dataset.cp;rememberSelection();render();$('curves').scrollIntoView({behavior:'smooth'})}));
 }
 function renderPlots(){
  const p=profile(),train=p.series.fit||[],monitor=p.series.monitor||[];
@@ -143,14 +146,15 @@ async function refresh(){
  try{
   const response=await fetch('/cc/data.json',{cache:'no-store'});if(!response.ok)throw new Error('服务器返回 '+response.status);
   const next=await response.json(),signature=JSON.stringify([next.records,next.profiles,next.comparison,next.physics]);
-  data=next;if(!current)current=data.default_profile;
+  data=next;
+  if(!manualSelection||!data.profiles.some(p=>p.id===current)){manualSelection=false;current=data.default_profile;checkpoint=profile().checkpoints.selected?'selected':'last'}
   if(signature!==lastSignature){lastSignature=signature;render();if($('physics').open)renderPhysics()}
   $('updated').textContent='读取于 '+new Date().toLocaleTimeString('zh-CN',{hour12:false});
   $('connection').textContent='自动更新';$('connection-dot').style.background='var(--green)';$('loading').classList.add('hidden');$('content').classList.remove('hidden');$('error').classList.add('hidden');
  }catch(error){$('connection').textContent='读取中断';$('connection-dot').style.background='var(--red)';$('error').textContent='读取记录失败：'+error.message+'。保留上次已读取的结果，稍后自动重试。';$('error').classList.remove('hidden');$('loading').classList.add('hidden')}
 }
-$('profile').addEventListener('change',e=>{current=e.target.value;checkpoint=profile().checkpoints.selected?'selected':'last';render()});
-document.querySelectorAll('[data-checkpoint]').forEach(b=>b.addEventListener('click',()=>{checkpoint=b.dataset.checkpoint;render()}));
+$('profile').addEventListener('change',e=>{current=e.target.value;checkpoint=profile().checkpoints.selected?'selected':'last';rememberSelection();render()});
+document.querySelectorAll('[data-checkpoint]').forEach(b=>b.addEventListener('click',()=>{checkpoint=b.dataset.checkpoint;rememberSelection();render()}));
 document.querySelectorAll('[data-range]').forEach(b=>b.addEventListener('click',()=>{range=b.dataset.range;document.querySelectorAll('[data-range]').forEach(x=>x.classList.toggle('active',x===b));renderPlots()}));
 document.querySelectorAll('[data-scope]').forEach(b=>b.addEventListener('click',()=>{scope=b.dataset.scope;document.querySelectorAll('[data-scope]').forEach(x=>x.classList.toggle('active',x===b));renderComparison()}));
 $('show-fit').addEventListener('change',e=>{showFit=e.target.checked;renderPlots()});
