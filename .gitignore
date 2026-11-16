@@ -75,3 +75,5 @@ hosts.yml
 /results/**
 !/results/**/
 !/results/terrain_00414_3d_20261113/terrain-template.html
+
+!/results/c146_live/academic.mplstyle

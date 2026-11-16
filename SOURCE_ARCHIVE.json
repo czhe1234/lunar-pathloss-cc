@@ -1,0 +1,2905 @@
+{
+  "schema": 1,
+  "archive_root": "archive/20261117_cc_cleanup",
+  "files": [
+    {
+      "source": "runs/b0_raw_s20261031/predictions/train_dev_bf16/source/input_features.py",
+      "target": "archive/20261117_cc_cleanup/runs/b0_raw_s20261031/predictions/train_dev_bf16/source/input_features.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/b0_raw_s20261031/predictions/train_dev_bf16/source/input_features.py",
+      "sha256": "9c9a35f817826996af903d890068055809c27a7dd82c4eaf0093af59367e4f4f",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c10_full_refit_s20261101/predictions/val_full_gpu_c10_fast_fresh/source/c10_phase_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c10_full_refit_s20261101/predictions/val_full_gpu_c10_fast_fresh/source/c10_phase_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c10_full_refit_s20261101/predictions/val_full_gpu_c10_fast_fresh/source/c10_phase_geometry.py",
+      "sha256": "811a13597a0a215075909bed45a89b97449b64e1794041c52c3f96ad94852826",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c10_full_refit_s20261101/predictions/val_full_gpu_c10_fast_fresh/source/c3_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c10_full_refit_s20261101/predictions/val_full_gpu_c10_fast_fresh/source/c3_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c10_full_refit_s20261101/predictions/val_full_gpu_c10_fast_fresh/source/c3_geometry.py",
+      "sha256": "f441476c0725eeb8bc92005b6d10fd2226e7696a5760df448af3824203d30cc9",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c10_full_refit_s20261101/predictions/val_full_gpu_c10_fast_fresh/source/c4_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c10_full_refit_s20261101/predictions/val_full_gpu_c10_fast_fresh/source/c4_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c10_full_refit_s20261101/predictions/val_full_gpu_c10_fast_fresh/source/c4_geometry.py",
+      "sha256": "5f4145162e155d2af2df46abd21e1db072f51c425ad3a4ad39fb9a202e800d47",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c10_full_refit_s20261101/predictions/val_full_gpu_c10_fast_fresh/source/c7_surface_features.py",
+      "target": "archive/20261117_cc_cleanup/runs/c10_full_refit_s20261101/predictions/val_full_gpu_c10_fast_fresh/source/c7_surface_features.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c10_full_refit_s20261101/predictions/val_full_gpu_c10_fast_fresh/source/c7_surface_features.py",
+      "sha256": "d6048599ef969d04ff73611f25877d98a084ca4160db1f6343872035be0b7383",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c10_full_refit_s20261101/predictions/val_full_gpu_c10_fast_fresh/source/c8_tx_context.py",
+      "target": "archive/20261117_cc_cleanup/runs/c10_full_refit_s20261101/predictions/val_full_gpu_c10_fast_fresh/source/c8_tx_context.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c10_full_refit_s20261101/predictions/val_full_gpu_c10_fast_fresh/source/c8_tx_context.py",
+      "sha256": "3ffb3dec22666ce9093c51a09184a392cc74cef8a45050fcdeb36dd549ee0227",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c10_full_refit_s20261101/predictions/val_full_gpu_c10_fast_fresh/source/c9_extra_gpu.py",
+      "target": "archive/20261117_cc_cleanup/runs/c10_full_refit_s20261101/predictions/val_full_gpu_c10_fast_fresh/source/c9_extra_gpu.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c10_full_refit_s20261101/predictions/val_full_gpu_c10_fast_fresh/source/c9_extra_gpu.py",
+      "sha256": "6a1e1a35768ff9e6160e0a799059f0bcecbaba7373065439e3083f658163bc23",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c10_full_refit_s20261101/predictions/val_full_gpu_c10_fast_fresh_first4/source/c10_phase_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c10_full_refit_s20261101/predictions/val_full_gpu_c10_fast_fresh_first4/source/c10_phase_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c10_full_refit_s20261101/predictions/val_full_gpu_c10_fast_fresh_first4/source/c10_phase_geometry.py",
+      "sha256": "811a13597a0a215075909bed45a89b97449b64e1794041c52c3f96ad94852826",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c10_full_refit_s20261101/predictions/val_full_gpu_c10_fast_fresh_first4/source/c3_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c10_full_refit_s20261101/predictions/val_full_gpu_c10_fast_fresh_first4/source/c3_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c10_full_refit_s20261101/predictions/val_full_gpu_c10_fast_fresh_first4/source/c3_geometry.py",
+      "sha256": "f441476c0725eeb8bc92005b6d10fd2226e7696a5760df448af3824203d30cc9",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c10_full_refit_s20261101/predictions/val_full_gpu_c10_fast_fresh_first4/source/c4_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c10_full_refit_s20261101/predictions/val_full_gpu_c10_fast_fresh_first4/source/c4_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c10_full_refit_s20261101/predictions/val_full_gpu_c10_fast_fresh_first4/source/c4_geometry.py",
+      "sha256": "5f4145162e155d2af2df46abd21e1db072f51c425ad3a4ad39fb9a202e800d47",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c10_full_refit_s20261101/predictions/val_full_gpu_c10_fast_fresh_first4/source/c7_surface_features.py",
+      "target": "archive/20261117_cc_cleanup/runs/c10_full_refit_s20261101/predictions/val_full_gpu_c10_fast_fresh_first4/source/c7_surface_features.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c10_full_refit_s20261101/predictions/val_full_gpu_c10_fast_fresh_first4/source/c7_surface_features.py",
+      "sha256": "d6048599ef969d04ff73611f25877d98a084ca4160db1f6343872035be0b7383",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c10_full_refit_s20261101/predictions/val_full_gpu_c10_fast_fresh_first4/source/c8_tx_context.py",
+      "target": "archive/20261117_cc_cleanup/runs/c10_full_refit_s20261101/predictions/val_full_gpu_c10_fast_fresh_first4/source/c8_tx_context.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c10_full_refit_s20261101/predictions/val_full_gpu_c10_fast_fresh_first4/source/c8_tx_context.py",
+      "sha256": "3ffb3dec22666ce9093c51a09184a392cc74cef8a45050fcdeb36dd549ee0227",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c10_full_refit_s20261101/predictions/val_full_gpu_c10_fast_fresh_first4/source/c9_extra_gpu.py",
+      "target": "archive/20261117_cc_cleanup/runs/c10_full_refit_s20261101/predictions/val_full_gpu_c10_fast_fresh_first4/source/c9_extra_gpu.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c10_full_refit_s20261101/predictions/val_full_gpu_c10_fast_fresh_first4/source/c9_extra_gpu.py",
+      "sha256": "6a1e1a35768ff9e6160e0a799059f0bcecbaba7373065439e3083f658163bc23",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c10_full_refit_s20261101/source/c10_phase_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c10_full_refit_s20261101/source/c10_phase_geometry.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c10_full_refit_s20261101/source/c10_phase_geometry.py",
+      "sha256": "811a13597a0a215075909bed45a89b97449b64e1794041c52c3f96ad94852826",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c10_full_refit_s20261101/source/c3_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c10_full_refit_s20261101/source/c3_geometry.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c10_full_refit_s20261101/source/c3_geometry.py",
+      "sha256": "f441476c0725eeb8bc92005b6d10fd2226e7696a5760df448af3824203d30cc9",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c10_full_refit_s20261101/source/c4_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c10_full_refit_s20261101/source/c4_geometry.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c10_full_refit_s20261101/source/c4_geometry.py",
+      "sha256": "5f4145162e155d2af2df46abd21e1db072f51c425ad3a4ad39fb9a202e800d47",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c10_full_refit_s20261101/source/c7_surface_features.py",
+      "target": "archive/20261117_cc_cleanup/runs/c10_full_refit_s20261101/source/c7_surface_features.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c10_full_refit_s20261101/source/c7_surface_features.py",
+      "sha256": "d6048599ef969d04ff73611f25877d98a084ca4160db1f6343872035be0b7383",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c10_full_refit_s20261101/source/c8_tx_context.py",
+      "target": "archive/20261117_cc_cleanup/runs/c10_full_refit_s20261101/source/c8_tx_context.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c10_full_refit_s20261101/source/c8_tx_context.py",
+      "sha256": "3ffb3dec22666ce9093c51a09184a392cc74cef8a45050fcdeb36dd549ee0227",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c10_full_refit_s20261101/source/c9_extra_gpu.py",
+      "target": "archive/20261117_cc_cleanup/runs/c10_full_refit_s20261101/source/c9_extra_gpu.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c10_full_refit_s20261101/source/c9_extra_gpu.py",
+      "sha256": "6a1e1a35768ff9e6160e0a799059f0bcecbaba7373065439e3083f658163bc23",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c10_points_phase_geometry_s20261101/predictions/train_dev_gpu_c10_fast_fresh/source/c10_phase_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c10_points_phase_geometry_s20261101/predictions/train_dev_gpu_c10_fast_fresh/source/c10_phase_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c10_points_phase_geometry_s20261101/predictions/train_dev_gpu_c10_fast_fresh/source/c10_phase_geometry.py",
+      "sha256": "811a13597a0a215075909bed45a89b97449b64e1794041c52c3f96ad94852826",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c10_points_phase_geometry_s20261101/predictions/train_dev_gpu_c10_fast_fresh/source/c3_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c10_points_phase_geometry_s20261101/predictions/train_dev_gpu_c10_fast_fresh/source/c3_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c10_points_phase_geometry_s20261101/predictions/train_dev_gpu_c10_fast_fresh/source/c3_geometry.py",
+      "sha256": "f441476c0725eeb8bc92005b6d10fd2226e7696a5760df448af3824203d30cc9",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c10_points_phase_geometry_s20261101/predictions/train_dev_gpu_c10_fast_fresh/source/c4_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c10_points_phase_geometry_s20261101/predictions/train_dev_gpu_c10_fast_fresh/source/c4_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c10_points_phase_geometry_s20261101/predictions/train_dev_gpu_c10_fast_fresh/source/c4_geometry.py",
+      "sha256": "5f4145162e155d2af2df46abd21e1db072f51c425ad3a4ad39fb9a202e800d47",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c10_points_phase_geometry_s20261101/predictions/train_dev_gpu_c10_fast_fresh/source/c7_surface_features.py",
+      "target": "archive/20261117_cc_cleanup/runs/c10_points_phase_geometry_s20261101/predictions/train_dev_gpu_c10_fast_fresh/source/c7_surface_features.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c10_points_phase_geometry_s20261101/predictions/train_dev_gpu_c10_fast_fresh/source/c7_surface_features.py",
+      "sha256": "d6048599ef969d04ff73611f25877d98a084ca4160db1f6343872035be0b7383",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c10_points_phase_geometry_s20261101/predictions/train_dev_gpu_c10_fast_fresh/source/c8_tx_context.py",
+      "target": "archive/20261117_cc_cleanup/runs/c10_points_phase_geometry_s20261101/predictions/train_dev_gpu_c10_fast_fresh/source/c8_tx_context.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c10_points_phase_geometry_s20261101/predictions/train_dev_gpu_c10_fast_fresh/source/c8_tx_context.py",
+      "sha256": "3ffb3dec22666ce9093c51a09184a392cc74cef8a45050fcdeb36dd549ee0227",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c10_points_phase_geometry_s20261101/predictions/train_dev_gpu_c10_fast_fresh/source/c9_extra_gpu.py",
+      "target": "archive/20261117_cc_cleanup/runs/c10_points_phase_geometry_s20261101/predictions/train_dev_gpu_c10_fast_fresh/source/c9_extra_gpu.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c10_points_phase_geometry_s20261101/predictions/train_dev_gpu_c10_fast_fresh/source/c9_extra_gpu.py",
+      "sha256": "6a1e1a35768ff9e6160e0a799059f0bcecbaba7373065439e3083f658163bc23",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c10_points_phase_geometry_s20261101/predictions/train_dev_gpu_c10_fast_fresh_first4/source/c10_phase_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c10_points_phase_geometry_s20261101/predictions/train_dev_gpu_c10_fast_fresh_first4/source/c10_phase_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c10_points_phase_geometry_s20261101/predictions/train_dev_gpu_c10_fast_fresh_first4/source/c10_phase_geometry.py",
+      "sha256": "811a13597a0a215075909bed45a89b97449b64e1794041c52c3f96ad94852826",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c10_points_phase_geometry_s20261101/predictions/train_dev_gpu_c10_fast_fresh_first4/source/c3_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c10_points_phase_geometry_s20261101/predictions/train_dev_gpu_c10_fast_fresh_first4/source/c3_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c10_points_phase_geometry_s20261101/predictions/train_dev_gpu_c10_fast_fresh_first4/source/c3_geometry.py",
+      "sha256": "f441476c0725eeb8bc92005b6d10fd2226e7696a5760df448af3824203d30cc9",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c10_points_phase_geometry_s20261101/predictions/train_dev_gpu_c10_fast_fresh_first4/source/c4_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c10_points_phase_geometry_s20261101/predictions/train_dev_gpu_c10_fast_fresh_first4/source/c4_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c10_points_phase_geometry_s20261101/predictions/train_dev_gpu_c10_fast_fresh_first4/source/c4_geometry.py",
+      "sha256": "5f4145162e155d2af2df46abd21e1db072f51c425ad3a4ad39fb9a202e800d47",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c10_points_phase_geometry_s20261101/predictions/train_dev_gpu_c10_fast_fresh_first4/source/c7_surface_features.py",
+      "target": "archive/20261117_cc_cleanup/runs/c10_points_phase_geometry_s20261101/predictions/train_dev_gpu_c10_fast_fresh_first4/source/c7_surface_features.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c10_points_phase_geometry_s20261101/predictions/train_dev_gpu_c10_fast_fresh_first4/source/c7_surface_features.py",
+      "sha256": "d6048599ef969d04ff73611f25877d98a084ca4160db1f6343872035be0b7383",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c10_points_phase_geometry_s20261101/predictions/train_dev_gpu_c10_fast_fresh_first4/source/c8_tx_context.py",
+      "target": "archive/20261117_cc_cleanup/runs/c10_points_phase_geometry_s20261101/predictions/train_dev_gpu_c10_fast_fresh_first4/source/c8_tx_context.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c10_points_phase_geometry_s20261101/predictions/train_dev_gpu_c10_fast_fresh_first4/source/c8_tx_context.py",
+      "sha256": "3ffb3dec22666ce9093c51a09184a392cc74cef8a45050fcdeb36dd549ee0227",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c10_points_phase_geometry_s20261101/predictions/train_dev_gpu_c10_fast_fresh_first4/source/c9_extra_gpu.py",
+      "target": "archive/20261117_cc_cleanup/runs/c10_points_phase_geometry_s20261101/predictions/train_dev_gpu_c10_fast_fresh_first4/source/c9_extra_gpu.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c10_points_phase_geometry_s20261101/predictions/train_dev_gpu_c10_fast_fresh_first4/source/c9_extra_gpu.py",
+      "sha256": "6a1e1a35768ff9e6160e0a799059f0bcecbaba7373065439e3083f658163bc23",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c10_points_phase_geometry_s20261101/predictions/train_dev_gpu_c10_fresh_first4/source/c10_phase_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c10_points_phase_geometry_s20261101/predictions/train_dev_gpu_c10_fresh_first4/source/c10_phase_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c10_points_phase_geometry_s20261101/predictions/train_dev_gpu_c10_fresh_first4/source/c10_phase_geometry.py",
+      "sha256": "23dfa0da2fea46a7cfe44c26bec67d57ee58590af266f133a763c9a9d633663e",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c10_points_phase_geometry_s20261101/predictions/train_dev_gpu_c10_fresh_first4/source/c3_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c10_points_phase_geometry_s20261101/predictions/train_dev_gpu_c10_fresh_first4/source/c3_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c10_points_phase_geometry_s20261101/predictions/train_dev_gpu_c10_fresh_first4/source/c3_geometry.py",
+      "sha256": "f441476c0725eeb8bc92005b6d10fd2226e7696a5760df448af3824203d30cc9",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c10_points_phase_geometry_s20261101/predictions/train_dev_gpu_c10_fresh_first4/source/c4_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c10_points_phase_geometry_s20261101/predictions/train_dev_gpu_c10_fresh_first4/source/c4_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c10_points_phase_geometry_s20261101/predictions/train_dev_gpu_c10_fresh_first4/source/c4_geometry.py",
+      "sha256": "5f4145162e155d2af2df46abd21e1db072f51c425ad3a4ad39fb9a202e800d47",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c10_points_phase_geometry_s20261101/predictions/train_dev_gpu_c10_fresh_first4/source/c7_surface_features.py",
+      "target": "archive/20261117_cc_cleanup/runs/c10_points_phase_geometry_s20261101/predictions/train_dev_gpu_c10_fresh_first4/source/c7_surface_features.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c10_points_phase_geometry_s20261101/predictions/train_dev_gpu_c10_fresh_first4/source/c7_surface_features.py",
+      "sha256": "d6048599ef969d04ff73611f25877d98a084ca4160db1f6343872035be0b7383",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c10_points_phase_geometry_s20261101/predictions/train_dev_gpu_c10_fresh_first4/source/c8_tx_context.py",
+      "target": "archive/20261117_cc_cleanup/runs/c10_points_phase_geometry_s20261101/predictions/train_dev_gpu_c10_fresh_first4/source/c8_tx_context.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c10_points_phase_geometry_s20261101/predictions/train_dev_gpu_c10_fresh_first4/source/c8_tx_context.py",
+      "sha256": "3ffb3dec22666ce9093c51a09184a392cc74cef8a45050fcdeb36dd549ee0227",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c10_points_phase_geometry_s20261101/predictions/train_dev_gpu_c10_fresh_first4/source/c9_extra_gpu.py",
+      "target": "archive/20261117_cc_cleanup/runs/c10_points_phase_geometry_s20261101/predictions/train_dev_gpu_c10_fresh_first4/source/c9_extra_gpu.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c10_points_phase_geometry_s20261101/predictions/train_dev_gpu_c10_fresh_first4/source/c9_extra_gpu.py",
+      "sha256": "6a1e1a35768ff9e6160e0a799059f0bcecbaba7373065439e3083f658163bc23",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c10_points_phase_geometry_s20261101/source/c8_tx_context.py",
+      "target": "archive/20261117_cc_cleanup/runs/c10_points_phase_geometry_s20261101/source/c8_tx_context.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c10_points_phase_geometry_s20261101/source/c8_tx_context.py",
+      "sha256": "3ffb3dec22666ce9093c51a09184a392cc74cef8a45050fcdeb36dd549ee0227",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c12_points_consistent_height_s20261101/source/c12_material_features.py",
+      "target": "archive/20261117_cc_cleanup/runs/c12_points_consistent_height_s20261101/source/c12_material_features.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c12_points_consistent_height_s20261101/source/c12_material_features.py",
+      "sha256": "d59885b9f19fc533c7eab841f251498070943294bb70a06dfb2ee6e02252a143",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c12_points_consistent_height_s20261101/source/c12_surface_features.py",
+      "target": "archive/20261117_cc_cleanup/runs/c12_points_consistent_height_s20261101/source/c12_surface_features.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c12_points_consistent_height_s20261101/source/c12_surface_features.py",
+      "sha256": "21df6e4274f965e3c2278f99fa8277a0165c2de0382c3e6adca9ad2cbf17e673",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c12_points_consistent_height_s20261101/source/c8_tx_context.py",
+      "target": "archive/20261117_cc_cleanup/runs/c12_points_consistent_height_s20261101/source/c8_tx_context.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c12_points_consistent_height_s20261101/source/c8_tx_context.py",
+      "sha256": "3ffb3dec22666ce9093c51a09184a392cc74cef8a45050fcdeb36dd549ee0227",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c14_receiver_residual_probe_s20261101/source/c14_receiver_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c14_receiver_residual_probe_s20261101/source/c14_receiver_geometry.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c14_receiver_residual_probe_s20261101/source/c14_receiver_geometry.py",
+      "sha256": "d47897b2ff4e4a91e8229b92a64c31cc06c979edb963e522370f385cc2b80bfb",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c17_spatial_residual_s20261101/source/c17_spatial_residual.py",
+      "target": "archive/20261117_cc_cleanup/runs/c17_spatial_residual_s20261101/source/c17_spatial_residual.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c17_spatial_residual_s20261101/source/c17_spatial_residual.py",
+      "sha256": "95cd02ba34bca971f366d67204a29b3a37979b14039d0928fafa372e33708841",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c21_pair_s20261123/source/c21_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c21_pair_s20261123/source/c21_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c21_pair_s20261123/source/c21_model.py",
+      "sha256": "3ad80f8b8a9c491fa7372bc5f334372822ce5575617ad9365e97d7870d7582b4",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c21r1_pair_s20261123/source/c21_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c21r1_pair_s20261123/source/c21_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c21r1_pair_s20261123/source/c21_model.py",
+      "sha256": "3ad80f8b8a9c491fa7372bc5f334372822ce5575617ad9365e97d7870d7582b4",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c21r1_pair_s20261123/source/c21_model_r1.py",
+      "target": "archive/20261117_cc_cleanup/runs/c21r1_pair_s20261123/source/c21_model_r1.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c21r1_pair_s20261123/source/c21_model_r1.py",
+      "sha256": "3ce00e17040ffeafebf88a8e60aaeb8b43c1250da4edfebf000905bc51e6be95",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c22_fit128_rewarm/source/c21_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c22_fit128_rewarm/source/c21_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c22_fit128_rewarm/source/c21_model.py",
+      "sha256": "3ad80f8b8a9c491fa7372bc5f334372822ce5575617ad9365e97d7870d7582b4",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c22_fit128_rewarm/source/c21_model_r1.py",
+      "target": "archive/20261117_cc_cleanup/runs/c22_fit128_rewarm/source/c21_model_r1.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c22_fit128_rewarm/source/c21_model_r1.py",
+      "sha256": "3ce00e17040ffeafebf88a8e60aaeb8b43c1250da4edfebf000905bc51e6be95",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c22_fit128_rewarm_smoke/source/c21_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c22_fit128_rewarm_smoke/source/c21_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c22_fit128_rewarm_smoke/source/c21_model.py",
+      "sha256": "3ad80f8b8a9c491fa7372bc5f334372822ce5575617ad9365e97d7870d7582b4",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c22_fit128_rewarm_smoke/source/c21_model_r1.py",
+      "target": "archive/20261117_cc_cleanup/runs/c22_fit128_rewarm_smoke/source/c21_model_r1.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c22_fit128_rewarm_smoke/source/c21_model_r1.py",
+      "sha256": "3ce00e17040ffeafebf88a8e60aaeb8b43c1250da4edfebf000905bc51e6be95",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c22_full_low/source/c21_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c22_full_low/source/c21_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c22_full_low/source/c21_model.py",
+      "sha256": "3ad80f8b8a9c491fa7372bc5f334372822ce5575617ad9365e97d7870d7582b4",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c22_full_low/source/c21_model_r1.py",
+      "target": "archive/20261117_cc_cleanup/runs/c22_full_low/source/c21_model_r1.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c22_full_low/source/c21_model_r1.py",
+      "sha256": "3ce00e17040ffeafebf88a8e60aaeb8b43c1250da4edfebf000905bc51e6be95",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c22_full_low_smoke/source/c21_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c22_full_low_smoke/source/c21_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c22_full_low_smoke/source/c21_model.py",
+      "sha256": "3ad80f8b8a9c491fa7372bc5f334372822ce5575617ad9365e97d7870d7582b4",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c22_full_low_smoke/source/c21_model_r1.py",
+      "target": "archive/20261117_cc_cleanup/runs/c22_full_low_smoke/source/c21_model_r1.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c22_full_low_smoke/source/c21_model_r1.py",
+      "sha256": "3ce00e17040ffeafebf88a8e60aaeb8b43c1250da4edfebf000905bc51e6be95",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c22_full_rewarm/source/c21_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c22_full_rewarm/source/c21_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c22_full_rewarm/source/c21_model.py",
+      "sha256": "3ad80f8b8a9c491fa7372bc5f334372822ce5575617ad9365e97d7870d7582b4",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c22_full_rewarm/source/c21_model_r1.py",
+      "target": "archive/20261117_cc_cleanup/runs/c22_full_rewarm/source/c21_model_r1.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c22_full_rewarm/source/c21_model_r1.py",
+      "sha256": "3ce00e17040ffeafebf88a8e60aaeb8b43c1250da4edfebf000905bc51e6be95",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c22_full_rewarm_smoke/source/c21_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c22_full_rewarm_smoke/source/c21_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c22_full_rewarm_smoke/source/c21_model.py",
+      "sha256": "3ad80f8b8a9c491fa7372bc5f334372822ce5575617ad9365e97d7870d7582b4",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c22_full_rewarm_smoke/source/c21_model_r1.py",
+      "target": "archive/20261117_cc_cleanup/runs/c22_full_rewarm_smoke/source/c21_model_r1.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c22_full_rewarm_smoke/source/c21_model_r1.py",
+      "sha256": "3ce00e17040ffeafebf88a8e60aaeb8b43c1250da4edfebf000905bc51e6be95",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c23_fit128_pair/source/c21_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c23_fit128_pair/source/c21_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c23_fit128_pair/source/c21_model.py",
+      "sha256": "3ad80f8b8a9c491fa7372bc5f334372822ce5575617ad9365e97d7870d7582b4",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c23_fit128_pair/source/c21_model_r1.py",
+      "target": "archive/20261117_cc_cleanup/runs/c23_fit128_pair/source/c21_model_r1.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c23_fit128_pair/source/c21_model_r1.py",
+      "sha256": "3ce00e17040ffeafebf88a8e60aaeb8b43c1250da4edfebf000905bc51e6be95",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c23_fit128_pair/source/c23_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c23_fit128_pair/source/c23_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c23_fit128_pair/source/c23_model.py",
+      "sha256": "c1e92209de2df6027643e072d578286bf7fd0b022104d2a5bed033f558eb2592",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c24_fit128_standard/source/c21_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c24_fit128_standard/source/c21_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c24_fit128_standard/source/c21_model.py",
+      "sha256": "3ad80f8b8a9c491fa7372bc5f334372822ce5575617ad9365e97d7870d7582b4",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c24_fit128_standard/source/c21_model_r1.py",
+      "target": "archive/20261117_cc_cleanup/runs/c24_fit128_standard/source/c21_model_r1.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c24_fit128_standard/source/c21_model_r1.py",
+      "sha256": "3ce00e17040ffeafebf88a8e60aaeb8b43c1250da4edfebf000905bc51e6be95",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c24_fit128_standard/source/c24_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c24_fit128_standard/source/c24_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c24_fit128_standard/source/c24_model.py",
+      "sha256": "b03a97c31927b42400cd94d4f7ae605cd5143271097dd4d0e35c89148bb7f37e",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c24_fit128_standard_headlr/source/c21_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c24_fit128_standard_headlr/source/c21_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c24_fit128_standard_headlr/source/c21_model.py",
+      "sha256": "3ad80f8b8a9c491fa7372bc5f334372822ce5575617ad9365e97d7870d7582b4",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c24_fit128_standard_headlr/source/c21_model_r1.py",
+      "target": "archive/20261117_cc_cleanup/runs/c24_fit128_standard_headlr/source/c21_model_r1.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c24_fit128_standard_headlr/source/c21_model_r1.py",
+      "sha256": "3ce00e17040ffeafebf88a8e60aaeb8b43c1250da4edfebf000905bc51e6be95",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c24_fit128_standard_headlr/source/c24_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c24_fit128_standard_headlr/source/c24_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c24_fit128_standard_headlr/source/c24_model.py",
+      "sha256": "b03a97c31927b42400cd94d4f7ae605cd5143271097dd4d0e35c89148bb7f37e",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c24_fit128_wide/source/c21_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c24_fit128_wide/source/c21_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c24_fit128_wide/source/c21_model.py",
+      "sha256": "3ad80f8b8a9c491fa7372bc5f334372822ce5575617ad9365e97d7870d7582b4",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c24_fit128_wide/source/c21_model_r1.py",
+      "target": "archive/20261117_cc_cleanup/runs/c24_fit128_wide/source/c21_model_r1.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c24_fit128_wide/source/c21_model_r1.py",
+      "sha256": "3ce00e17040ffeafebf88a8e60aaeb8b43c1250da4edfebf000905bc51e6be95",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c24_fit128_wide/source/c24_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c24_fit128_wide/source/c24_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c24_fit128_wide/source/c24_model.py",
+      "sha256": "b03a97c31927b42400cd94d4f7ae605cd5143271097dd4d0e35c89148bb7f37e",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c25_batch32_scaled/source/c21_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c25_batch32_scaled/source/c21_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c25_batch32_scaled/source/c21_model.py",
+      "sha256": "3ad80f8b8a9c491fa7372bc5f334372822ce5575617ad9365e97d7870d7582b4",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c25_batch32_scaled/source/c21_model_r1.py",
+      "target": "archive/20261117_cc_cleanup/runs/c25_batch32_scaled/source/c21_model_r1.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c25_batch32_scaled/source/c21_model_r1.py",
+      "sha256": "3ce00e17040ffeafebf88a8e60aaeb8b43c1250da4edfebf000905bc51e6be95",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c25_batch32_scaled_smoke/source/c21_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c25_batch32_scaled_smoke/source/c21_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c25_batch32_scaled_smoke/source/c21_model.py",
+      "sha256": "3ad80f8b8a9c491fa7372bc5f334372822ce5575617ad9365e97d7870d7582b4",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c25_batch32_scaled_smoke/source/c21_model_r1.py",
+      "target": "archive/20261117_cc_cleanup/runs/c25_batch32_scaled_smoke/source/c21_model_r1.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c25_batch32_scaled_smoke/source/c21_model_r1.py",
+      "sha256": "3ce00e17040ffeafebf88a8e60aaeb8b43c1250da4edfebf000905bc51e6be95",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c25_batch64_scaled/source/c21_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c25_batch64_scaled/source/c21_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c25_batch64_scaled/source/c21_model.py",
+      "sha256": "3ad80f8b8a9c491fa7372bc5f334372822ce5575617ad9365e97d7870d7582b4",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c25_batch64_scaled/source/c21_model_r1.py",
+      "target": "archive/20261117_cc_cleanup/runs/c25_batch64_scaled/source/c21_model_r1.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c25_batch64_scaled/source/c21_model_r1.py",
+      "sha256": "3ce00e17040ffeafebf88a8e60aaeb8b43c1250da4edfebf000905bc51e6be95",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c25_batch64_scaled_smoke/source/c21_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c25_batch64_scaled_smoke/source/c21_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c25_batch64_scaled_smoke/source/c21_model.py",
+      "sha256": "3ad80f8b8a9c491fa7372bc5f334372822ce5575617ad9365e97d7870d7582b4",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c25_batch64_scaled_smoke/source/c21_model_r1.py",
+      "target": "archive/20261117_cc_cleanup/runs/c25_batch64_scaled_smoke/source/c21_model_r1.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c25_batch64_scaled_smoke/source/c21_model_r1.py",
+      "sha256": "3ce00e17040ffeafebf88a8e60aaeb8b43c1250da4edfebf000905bc51e6be95",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c25_batch64_unscaled/source/c21_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c25_batch64_unscaled/source/c21_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c25_batch64_unscaled/source/c21_model.py",
+      "sha256": "3ad80f8b8a9c491fa7372bc5f334372822ce5575617ad9365e97d7870d7582b4",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c25_batch64_unscaled/source/c21_model_r1.py",
+      "target": "archive/20261117_cc_cleanup/runs/c25_batch64_unscaled/source/c21_model_r1.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c25_batch64_unscaled/source/c21_model_r1.py",
+      "sha256": "3ce00e17040ffeafebf88a8e60aaeb8b43c1250da4edfebf000905bc51e6be95",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c25_batch64_unscaled_smoke/source/c21_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c25_batch64_unscaled_smoke/source/c21_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c25_batch64_unscaled_smoke/source/c21_model.py",
+      "sha256": "3ad80f8b8a9c491fa7372bc5f334372822ce5575617ad9365e97d7870d7582b4",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c25_batch64_unscaled_smoke/source/c21_model_r1.py",
+      "target": "archive/20261117_cc_cleanup/runs/c25_batch64_unscaled_smoke/source/c21_model_r1.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c25_batch64_unscaled_smoke/source/c21_model_r1.py",
+      "sha256": "3ce00e17040ffeafebf88a8e60aaeb8b43c1250da4edfebf000905bc51e6be95",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c27_fit128_coarse/source/c21_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c27_fit128_coarse/source/c21_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c27_fit128_coarse/source/c21_model.py",
+      "sha256": "3ad80f8b8a9c491fa7372bc5f334372822ce5575617ad9365e97d7870d7582b4",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c27_fit128_coarse/source/c21_model_r1.py",
+      "target": "archive/20261117_cc_cleanup/runs/c27_fit128_coarse/source/c21_model_r1.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c27_fit128_coarse/source/c21_model_r1.py",
+      "sha256": "3ce00e17040ffeafebf88a8e60aaeb8b43c1250da4edfebf000905bc51e6be95",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c27_fit128_coarse/source/c27_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c27_fit128_coarse/source/c27_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c27_fit128_coarse/source/c27_model.py",
+      "sha256": "d646937398391dbb66fecdff0e56271f11ee048e6d0d720ec9d056b23a687e40",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c27_fit128_coarse_smoke/source/c21_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c27_fit128_coarse_smoke/source/c21_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c27_fit128_coarse_smoke/source/c21_model.py",
+      "sha256": "3ad80f8b8a9c491fa7372bc5f334372822ce5575617ad9365e97d7870d7582b4",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c27_fit128_coarse_smoke/source/c21_model_r1.py",
+      "target": "archive/20261117_cc_cleanup/runs/c27_fit128_coarse_smoke/source/c21_model_r1.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c27_fit128_coarse_smoke/source/c21_model_r1.py",
+      "sha256": "3ce00e17040ffeafebf88a8e60aaeb8b43c1250da4edfebf000905bc51e6be95",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c27_fit128_coarse_smoke/source/c27_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c27_fit128_coarse_smoke/source/c27_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c27_fit128_coarse_smoke/source/c27_model.py",
+      "sha256": "d646937398391dbb66fecdff0e56271f11ee048e6d0d720ec9d056b23a687e40",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c27_fit128_fine/source/c21_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c27_fit128_fine/source/c21_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c27_fit128_fine/source/c21_model.py",
+      "sha256": "3ad80f8b8a9c491fa7372bc5f334372822ce5575617ad9365e97d7870d7582b4",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c27_fit128_fine/source/c21_model_r1.py",
+      "target": "archive/20261117_cc_cleanup/runs/c27_fit128_fine/source/c21_model_r1.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c27_fit128_fine/source/c21_model_r1.py",
+      "sha256": "3ce00e17040ffeafebf88a8e60aaeb8b43c1250da4edfebf000905bc51e6be95",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c27_fit128_fine/source/c27_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c27_fit128_fine/source/c27_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c27_fit128_fine/source/c27_model.py",
+      "sha256": "d646937398391dbb66fecdff0e56271f11ee048e6d0d720ec9d056b23a687e40",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c27_fit128_fine_smoke/source/c21_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c27_fit128_fine_smoke/source/c21_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c27_fit128_fine_smoke/source/c21_model.py",
+      "sha256": "3ad80f8b8a9c491fa7372bc5f334372822ce5575617ad9365e97d7870d7582b4",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c27_fit128_fine_smoke/source/c21_model_r1.py",
+      "target": "archive/20261117_cc_cleanup/runs/c27_fit128_fine_smoke/source/c21_model_r1.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c27_fit128_fine_smoke/source/c21_model_r1.py",
+      "sha256": "3ce00e17040ffeafebf88a8e60aaeb8b43c1250da4edfebf000905bc51e6be95",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c27_fit128_fine_smoke/source/c27_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c27_fit128_fine_smoke/source/c27_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c27_fit128_fine_smoke/source/c27_model.py",
+      "sha256": "d646937398391dbb66fecdff0e56271f11ee048e6d0d720ec9d056b23a687e40",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c27_fit128_none/source/c21_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c27_fit128_none/source/c21_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c27_fit128_none/source/c21_model.py",
+      "sha256": "3ad80f8b8a9c491fa7372bc5f334372822ce5575617ad9365e97d7870d7582b4",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c27_fit128_none/source/c21_model_r1.py",
+      "target": "archive/20261117_cc_cleanup/runs/c27_fit128_none/source/c21_model_r1.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c27_fit128_none/source/c21_model_r1.py",
+      "sha256": "3ce00e17040ffeafebf88a8e60aaeb8b43c1250da4edfebf000905bc51e6be95",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c27_fit128_none/source/c27_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c27_fit128_none/source/c27_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c27_fit128_none/source/c27_model.py",
+      "sha256": "d646937398391dbb66fecdff0e56271f11ee048e6d0d720ec9d056b23a687e40",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c27_fit128_none_smoke/source/c21_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c27_fit128_none_smoke/source/c21_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c27_fit128_none_smoke/source/c21_model.py",
+      "sha256": "3ad80f8b8a9c491fa7372bc5f334372822ce5575617ad9365e97d7870d7582b4",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c27_fit128_none_smoke/source/c21_model_r1.py",
+      "target": "archive/20261117_cc_cleanup/runs/c27_fit128_none_smoke/source/c21_model_r1.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c27_fit128_none_smoke/source/c21_model_r1.py",
+      "sha256": "3ce00e17040ffeafebf88a8e60aaeb8b43c1250da4edfebf000905bc51e6be95",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c27_fit128_none_smoke/source/c27_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c27_fit128_none_smoke/source/c27_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c27_fit128_none_smoke/source/c27_model.py",
+      "sha256": "d646937398391dbb66fecdff0e56271f11ee048e6d0d720ec9d056b23a687e40",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c28_anchor_only/source/c21_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c28_anchor_only/source/c21_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c28_anchor_only/source/c21_model.py",
+      "sha256": "3ad80f8b8a9c491fa7372bc5f334372822ce5575617ad9365e97d7870d7582b4",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c28_anchor_only/source/c21_model_r1.py",
+      "target": "archive/20261117_cc_cleanup/runs/c28_anchor_only/source/c21_model_r1.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c28_anchor_only/source/c21_model_r1.py",
+      "sha256": "3ce00e17040ffeafebf88a8e60aaeb8b43c1250da4edfebf000905bc51e6be95",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c28_anchor_only_smoke/source/c21_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c28_anchor_only_smoke/source/c21_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c28_anchor_only_smoke/source/c21_model.py",
+      "sha256": "3ad80f8b8a9c491fa7372bc5f334372822ce5575617ad9365e97d7870d7582b4",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c28_anchor_only_smoke/source/c21_model_r1.py",
+      "target": "archive/20261117_cc_cleanup/runs/c28_anchor_only_smoke/source/c21_model_r1.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c28_anchor_only_smoke/source/c21_model_r1.py",
+      "sha256": "3ce00e17040ffeafebf88a8e60aaeb8b43c1250da4edfebf000905bc51e6be95",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c28_joint/source/c21_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c28_joint/source/c21_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c28_joint/source/c21_model.py",
+      "sha256": "3ad80f8b8a9c491fa7372bc5f334372822ce5575617ad9365e97d7870d7582b4",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c28_joint/source/c21_model_r1.py",
+      "target": "archive/20261117_cc_cleanup/runs/c28_joint/source/c21_model_r1.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c28_joint/source/c21_model_r1.py",
+      "sha256": "3ce00e17040ffeafebf88a8e60aaeb8b43c1250da4edfebf000905bc51e6be95",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c28_joint_smoke/source/c21_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c28_joint_smoke/source/c21_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c28_joint_smoke/source/c21_model.py",
+      "sha256": "3ad80f8b8a9c491fa7372bc5f334372822ce5575617ad9365e97d7870d7582b4",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c28_joint_smoke/source/c21_model_r1.py",
+      "target": "archive/20261117_cc_cleanup/runs/c28_joint_smoke/source/c21_model_r1.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c28_joint_smoke/source/c21_model_r1.py",
+      "sha256": "3ce00e17040ffeafebf88a8e60aaeb8b43c1250da4edfebf000905bc51e6be95",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c28_project_other/source/c21_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c28_project_other/source/c21_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c28_project_other/source/c21_model.py",
+      "sha256": "3ad80f8b8a9c491fa7372bc5f334372822ce5575617ad9365e97d7870d7582b4",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c28_project_other/source/c21_model_r1.py",
+      "target": "archive/20261117_cc_cleanup/runs/c28_project_other/source/c21_model_r1.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c28_project_other/source/c21_model_r1.py",
+      "sha256": "3ce00e17040ffeafebf88a8e60aaeb8b43c1250da4edfebf000905bc51e6be95",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c28_project_other_smoke/source/c21_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c28_project_other_smoke/source/c21_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c28_project_other_smoke/source/c21_model.py",
+      "sha256": "3ad80f8b8a9c491fa7372bc5f334372822ce5575617ad9365e97d7870d7582b4",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c28_project_other_smoke/source/c21_model_r1.py",
+      "target": "archive/20261117_cc_cleanup/runs/c28_project_other_smoke/source/c21_model_r1.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c28_project_other_smoke/source/c21_model_r1.py",
+      "sha256": "3ce00e17040ffeafebf88a8e60aaeb8b43c1250da4edfebf000905bc51e6be95",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c29_fit128_high_bf16/source/c21_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c29_fit128_high_bf16/source/c21_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c29_fit128_high_bf16/source/c21_model.py",
+      "sha256": "3ad80f8b8a9c491fa7372bc5f334372822ce5575617ad9365e97d7870d7582b4",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c29_fit128_high_bf16/source/c21_model_r1.py",
+      "target": "archive/20261117_cc_cleanup/runs/c29_fit128_high_bf16/source/c21_model_r1.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c29_fit128_high_bf16/source/c21_model_r1.py",
+      "sha256": "3ce00e17040ffeafebf88a8e60aaeb8b43c1250da4edfebf000905bc51e6be95",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c29_fit128_high_bf16/source/c24_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c29_fit128_high_bf16/source/c24_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c29_fit128_high_bf16/source/c24_model.py",
+      "sha256": "b03a97c31927b42400cd94d4f7ae605cd5143271097dd4d0e35c89148bb7f37e",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c29_fit128_high_bf16_smoke/source/c21_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c29_fit128_high_bf16_smoke/source/c21_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c29_fit128_high_bf16_smoke/source/c21_model.py",
+      "sha256": "3ad80f8b8a9c491fa7372bc5f334372822ce5575617ad9365e97d7870d7582b4",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c29_fit128_high_bf16_smoke/source/c21_model_r1.py",
+      "target": "archive/20261117_cc_cleanup/runs/c29_fit128_high_bf16_smoke/source/c21_model_r1.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c29_fit128_high_bf16_smoke/source/c21_model_r1.py",
+      "sha256": "3ce00e17040ffeafebf88a8e60aaeb8b43c1250da4edfebf000905bc51e6be95",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c29_fit128_high_bf16_smoke/source/c24_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c29_fit128_high_bf16_smoke/source/c24_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c29_fit128_high_bf16_smoke/source/c24_model.py",
+      "sha256": "b03a97c31927b42400cd94d4f7ae605cd5143271097dd4d0e35c89148bb7f37e",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c29_fit128_high_fp32_smoke/source/c21_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c29_fit128_high_fp32_smoke/source/c21_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c29_fit128_high_fp32_smoke/source/c21_model.py",
+      "sha256": "3ad80f8b8a9c491fa7372bc5f334372822ce5575617ad9365e97d7870d7582b4",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c29_fit128_high_fp32_smoke/source/c21_model_r1.py",
+      "target": "archive/20261117_cc_cleanup/runs/c29_fit128_high_fp32_smoke/source/c21_model_r1.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c29_fit128_high_fp32_smoke/source/c21_model_r1.py",
+      "sha256": "3ce00e17040ffeafebf88a8e60aaeb8b43c1250da4edfebf000905bc51e6be95",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c29_fit128_high_fp32_smoke/source/c24_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c29_fit128_high_fp32_smoke/source/c24_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c29_fit128_high_fp32_smoke/source/c24_model.py",
+      "sha256": "b03a97c31927b42400cd94d4f7ae605cd5143271097dd4d0e35c89148bb7f37e",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c29_fit128_mid_bf16/source/c21_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c29_fit128_mid_bf16/source/c21_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c29_fit128_mid_bf16/source/c21_model.py",
+      "sha256": "3ad80f8b8a9c491fa7372bc5f334372822ce5575617ad9365e97d7870d7582b4",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c29_fit128_mid_bf16/source/c21_model_r1.py",
+      "target": "archive/20261117_cc_cleanup/runs/c29_fit128_mid_bf16/source/c21_model_r1.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c29_fit128_mid_bf16/source/c21_model_r1.py",
+      "sha256": "3ce00e17040ffeafebf88a8e60aaeb8b43c1250da4edfebf000905bc51e6be95",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c29_fit128_mid_bf16/source/c24_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c29_fit128_mid_bf16/source/c24_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c29_fit128_mid_bf16/source/c24_model.py",
+      "sha256": "b03a97c31927b42400cd94d4f7ae605cd5143271097dd4d0e35c89148bb7f37e",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c32_cold/source/c21_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c32_cold/source/c21_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c32_cold/source/c21_model.py",
+      "sha256": "3ad80f8b8a9c491fa7372bc5f334372822ce5575617ad9365e97d7870d7582b4",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c32_cold/source/c21_model_r1.py",
+      "target": "archive/20261117_cc_cleanup/runs/c32_cold/source/c21_model_r1.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c32_cold/source/c21_model_r1.py",
+      "sha256": "3ce00e17040ffeafebf88a8e60aaeb8b43c1250da4edfebf000905bc51e6be95",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c32_cold/source/c32_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c32_cold/source/c32_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c32_cold/source/c32_model.py",
+      "sha256": "1fa73a59b52eba7c574352922cde23cf4c5d4d866ccf2f939a00b5db9943da92",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c32_cold_smoke/source/c21_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c32_cold_smoke/source/c21_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c32_cold_smoke/source/c21_model.py",
+      "sha256": "3ad80f8b8a9c491fa7372bc5f334372822ce5575617ad9365e97d7870d7582b4",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c32_cold_smoke/source/c21_model_r1.py",
+      "target": "archive/20261117_cc_cleanup/runs/c32_cold_smoke/source/c21_model_r1.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c32_cold_smoke/source/c21_model_r1.py",
+      "sha256": "3ce00e17040ffeafebf88a8e60aaeb8b43c1250da4edfebf000905bc51e6be95",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c32_cold_smoke/source/c32_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c32_cold_smoke/source/c32_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c32_cold_smoke/source/c32_model.py",
+      "sha256": "1fa73a59b52eba7c574352922cde23cf4c5d4d866ccf2f939a00b5db9943da92",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c32_warm/source/c21_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c32_warm/source/c21_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c32_warm/source/c21_model.py",
+      "sha256": "3ad80f8b8a9c491fa7372bc5f334372822ce5575617ad9365e97d7870d7582b4",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c32_warm/source/c21_model_r1.py",
+      "target": "archive/20261117_cc_cleanup/runs/c32_warm/source/c21_model_r1.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c32_warm/source/c21_model_r1.py",
+      "sha256": "3ce00e17040ffeafebf88a8e60aaeb8b43c1250da4edfebf000905bc51e6be95",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c32_warm/source/c32_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c32_warm/source/c32_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c32_warm/source/c32_model.py",
+      "sha256": "1fa73a59b52eba7c574352922cde23cf4c5d4d866ccf2f939a00b5db9943da92",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c32_warm_frozen/source/c21_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c32_warm_frozen/source/c21_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c32_warm_frozen/source/c21_model.py",
+      "sha256": "3ad80f8b8a9c491fa7372bc5f334372822ce5575617ad9365e97d7870d7582b4",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c32_warm_frozen/source/c21_model_r1.py",
+      "target": "archive/20261117_cc_cleanup/runs/c32_warm_frozen/source/c21_model_r1.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c32_warm_frozen/source/c21_model_r1.py",
+      "sha256": "3ce00e17040ffeafebf88a8e60aaeb8b43c1250da4edfebf000905bc51e6be95",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c32_warm_frozen/source/c32_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c32_warm_frozen/source/c32_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c32_warm_frozen/source/c32_model.py",
+      "sha256": "1fa73a59b52eba7c574352922cde23cf4c5d4d866ccf2f939a00b5db9943da92",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c32_warm_frozen_smoke/source/c21_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c32_warm_frozen_smoke/source/c21_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c32_warm_frozen_smoke/source/c21_model.py",
+      "sha256": "3ad80f8b8a9c491fa7372bc5f334372822ce5575617ad9365e97d7870d7582b4",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c32_warm_frozen_smoke/source/c21_model_r1.py",
+      "target": "archive/20261117_cc_cleanup/runs/c32_warm_frozen_smoke/source/c21_model_r1.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c32_warm_frozen_smoke/source/c21_model_r1.py",
+      "sha256": "3ce00e17040ffeafebf88a8e60aaeb8b43c1250da4edfebf000905bc51e6be95",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c32_warm_frozen_smoke/source/c32_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c32_warm_frozen_smoke/source/c32_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c32_warm_frozen_smoke/source/c32_model.py",
+      "sha256": "1fa73a59b52eba7c574352922cde23cf4c5d4d866ccf2f939a00b5db9943da92",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c32_warm_smoke/source/c21_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c32_warm_smoke/source/c21_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c32_warm_smoke/source/c21_model.py",
+      "sha256": "3ad80f8b8a9c491fa7372bc5f334372822ce5575617ad9365e97d7870d7582b4",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c32_warm_smoke/source/c21_model_r1.py",
+      "target": "archive/20261117_cc_cleanup/runs/c32_warm_smoke/source/c21_model_r1.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c32_warm_smoke/source/c21_model_r1.py",
+      "sha256": "3ce00e17040ffeafebf88a8e60aaeb8b43c1250da4edfebf000905bc51e6be95",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c32_warm_smoke/source/c32_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c32_warm_smoke/source/c32_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c32_warm_smoke/source/c32_model.py",
+      "sha256": "1fa73a59b52eba7c574352922cde23cf4c5d4d866ccf2f939a00b5db9943da92",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c34_periodic8/model_source.py",
+      "target": "archive/20261117_cc_cleanup/runs/c34_periodic8/model_source.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c34_periodic8/model_source.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c34_periodic8/predictions/train_dev_c34_fresh_first16_shard0of1/source/c10_phase_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c34_periodic8/predictions/train_dev_c34_fresh_first16_shard0of1/source/c10_phase_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c34_periodic8/predictions/train_dev_c34_fresh_first16_shard0of1/source/c10_phase_geometry.py",
+      "sha256": "811a13597a0a215075909bed45a89b97449b64e1794041c52c3f96ad94852826",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c34_periodic8/predictions/train_dev_c34_fresh_first16_shard0of1/source/c34_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c34_periodic8/predictions/train_dev_c34_fresh_first16_shard0of1/source/c34_model.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c34_periodic8/predictions/train_dev_c34_fresh_first16_shard0of1/source/c34_model.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c34_periodic8/predictions/train_dev_c34_fresh_first16_shard0of1/source/c3_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c34_periodic8/predictions/train_dev_c34_fresh_first16_shard0of1/source/c3_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c34_periodic8/predictions/train_dev_c34_fresh_first16_shard0of1/source/c3_geometry.py",
+      "sha256": "f441476c0725eeb8bc92005b6d10fd2226e7696a5760df448af3824203d30cc9",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c34_periodic8/predictions/train_dev_c34_fresh_first16_shard0of1/source/c4_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c34_periodic8/predictions/train_dev_c34_fresh_first16_shard0of1/source/c4_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c34_periodic8/predictions/train_dev_c34_fresh_first16_shard0of1/source/c4_geometry.py",
+      "sha256": "5f4145162e155d2af2df46abd21e1db072f51c425ad3a4ad39fb9a202e800d47",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c34_periodic8/predictions/train_dev_c34_fresh_first16_shard0of1/source/c7_surface_features.py",
+      "target": "archive/20261117_cc_cleanup/runs/c34_periodic8/predictions/train_dev_c34_fresh_first16_shard0of1/source/c7_surface_features.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c34_periodic8/predictions/train_dev_c34_fresh_first16_shard0of1/source/c7_surface_features.py",
+      "sha256": "d6048599ef969d04ff73611f25877d98a084ca4160db1f6343872035be0b7383",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c34_periodic8/predictions/train_dev_c34_fresh_first16_shard0of1/source/c8_tx_context.py",
+      "target": "archive/20261117_cc_cleanup/runs/c34_periodic8/predictions/train_dev_c34_fresh_first16_shard0of1/source/c8_tx_context.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c34_periodic8/predictions/train_dev_c34_fresh_first16_shard0of1/source/c8_tx_context.py",
+      "sha256": "3ffb3dec22666ce9093c51a09184a392cc74cef8a45050fcdeb36dd549ee0227",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c34_periodic8/predictions/train_dev_c34_fresh_first16_shard0of1/source/c9_extra_gpu.py",
+      "target": "archive/20261117_cc_cleanup/runs/c34_periodic8/predictions/train_dev_c34_fresh_first16_shard0of1/source/c9_extra_gpu.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c34_periodic8/predictions/train_dev_c34_fresh_first16_shard0of1/source/c9_extra_gpu.py",
+      "sha256": "6a1e1a35768ff9e6160e0a799059f0bcecbaba7373065439e3083f658163bc23",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c34_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c10_phase_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c34_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c10_phase_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c34_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c10_phase_geometry.py",
+      "sha256": "811a13597a0a215075909bed45a89b97449b64e1794041c52c3f96ad94852826",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c34_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c34_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c34_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c34_model.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c34_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c34_model.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c34_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c3_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c34_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c3_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c34_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c3_geometry.py",
+      "sha256": "f441476c0725eeb8bc92005b6d10fd2226e7696a5760df448af3824203d30cc9",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c34_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c4_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c34_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c4_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c34_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c4_geometry.py",
+      "sha256": "5f4145162e155d2af2df46abd21e1db072f51c425ad3a4ad39fb9a202e800d47",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c34_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c7_surface_features.py",
+      "target": "archive/20261117_cc_cleanup/runs/c34_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c7_surface_features.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c34_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c7_surface_features.py",
+      "sha256": "d6048599ef969d04ff73611f25877d98a084ca4160db1f6343872035be0b7383",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c34_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c8_tx_context.py",
+      "target": "archive/20261117_cc_cleanup/runs/c34_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c8_tx_context.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c34_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c8_tx_context.py",
+      "sha256": "3ffb3dec22666ce9093c51a09184a392cc74cef8a45050fcdeb36dd549ee0227",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c34_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c9_extra_gpu.py",
+      "target": "archive/20261117_cc_cleanup/runs/c34_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c9_extra_gpu.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c34_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c9_extra_gpu.py",
+      "sha256": "6a1e1a35768ff9e6160e0a799059f0bcecbaba7373065439e3083f658163bc23",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c34_ple1/model_source.py",
+      "target": "archive/20261117_cc_cleanup/runs/c34_ple1/model_source.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c34_ple1/model_source.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c34_ple8/model_source.py",
+      "target": "archive/20261117_cc_cleanup/runs/c34_ple8/model_source.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c34_ple8/model_source.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c34_smoke_periodic/model_source.py",
+      "target": "archive/20261117_cc_cleanup/runs/c34_smoke_periodic/model_source.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c34_smoke_periodic/model_source.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c34_smoke_ple/model_source.py",
+      "target": "archive/20261117_cc_cleanup/runs/c34_smoke_ple/model_source.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c34_smoke_ple/model_source.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c35_periodic8/model_source.py",
+      "target": "archive/20261117_cc_cleanup/runs/c35_periodic8/model_source.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c35_periodic8/model_source.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c35_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c10_phase_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c35_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c10_phase_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c35_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c10_phase_geometry.py",
+      "sha256": "811a13597a0a215075909bed45a89b97449b64e1794041c52c3f96ad94852826",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c35_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c34_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c35_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c34_model.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c35_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c34_model.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c35_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c3_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c35_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c3_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c35_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c3_geometry.py",
+      "sha256": "f441476c0725eeb8bc92005b6d10fd2226e7696a5760df448af3824203d30cc9",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c35_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c4_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c35_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c4_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c35_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c4_geometry.py",
+      "sha256": "5f4145162e155d2af2df46abd21e1db072f51c425ad3a4ad39fb9a202e800d47",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c35_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c7_surface_features.py",
+      "target": "archive/20261117_cc_cleanup/runs/c35_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c7_surface_features.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c35_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c7_surface_features.py",
+      "sha256": "d6048599ef969d04ff73611f25877d98a084ca4160db1f6343872035be0b7383",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c35_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c8_tx_context.py",
+      "target": "archive/20261117_cc_cleanup/runs/c35_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c8_tx_context.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c35_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c8_tx_context.py",
+      "sha256": "3ffb3dec22666ce9093c51a09184a392cc74cef8a45050fcdeb36dd549ee0227",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c35_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c9_extra_gpu.py",
+      "target": "archive/20261117_cc_cleanup/runs/c35_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c9_extra_gpu.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c35_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c9_extra_gpu.py",
+      "sha256": "6a1e1a35768ff9e6160e0a799059f0bcecbaba7373065439e3083f658163bc23",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c35_ple8/model_source.py",
+      "target": "archive/20261117_cc_cleanup/runs/c35_ple8/model_source.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c35_ple8/model_source.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c36_physical_periodic8/base_model_source.py",
+      "target": "archive/20261117_cc_cleanup/runs/c36_physical_periodic8/base_model_source.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c36_physical_periodic8/base_model_source.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c36_physical_periodic8/model_source.py",
+      "target": "archive/20261117_cc_cleanup/runs/c36_physical_periodic8/model_source.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c36_physical_periodic8/model_source.py",
+      "sha256": "9d7cf2344279df8ba71f8dea8afb1672bde2e41e5398ec69cbf796b458712ffd",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c37_full_refit/model_source.py",
+      "target": "archive/20261117_cc_cleanup/runs/c37_full_refit/model_source.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c37_full_refit/model_source.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c37_full_refit/predictions/val_full_c34_fresh_shard0of1/source/c10_phase_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c37_full_refit/predictions/val_full_c34_fresh_shard0of1/source/c10_phase_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c37_full_refit/predictions/val_full_c34_fresh_shard0of1/source/c10_phase_geometry.py",
+      "sha256": "811a13597a0a215075909bed45a89b97449b64e1794041c52c3f96ad94852826",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c37_full_refit/predictions/val_full_c34_fresh_shard0of1/source/c34_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c37_full_refit/predictions/val_full_c34_fresh_shard0of1/source/c34_model.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c37_full_refit/predictions/val_full_c34_fresh_shard0of1/source/c34_model.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c37_full_refit/predictions/val_full_c34_fresh_shard0of1/source/c3_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c37_full_refit/predictions/val_full_c34_fresh_shard0of1/source/c3_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c37_full_refit/predictions/val_full_c34_fresh_shard0of1/source/c3_geometry.py",
+      "sha256": "f441476c0725eeb8bc92005b6d10fd2226e7696a5760df448af3824203d30cc9",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c37_full_refit/predictions/val_full_c34_fresh_shard0of1/source/c4_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c37_full_refit/predictions/val_full_c34_fresh_shard0of1/source/c4_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c37_full_refit/predictions/val_full_c34_fresh_shard0of1/source/c4_geometry.py",
+      "sha256": "5f4145162e155d2af2df46abd21e1db072f51c425ad3a4ad39fb9a202e800d47",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c37_full_refit/predictions/val_full_c34_fresh_shard0of1/source/c7_surface_features.py",
+      "target": "archive/20261117_cc_cleanup/runs/c37_full_refit/predictions/val_full_c34_fresh_shard0of1/source/c7_surface_features.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c37_full_refit/predictions/val_full_c34_fresh_shard0of1/source/c7_surface_features.py",
+      "sha256": "d6048599ef969d04ff73611f25877d98a084ca4160db1f6343872035be0b7383",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c37_full_refit/predictions/val_full_c34_fresh_shard0of1/source/c8_tx_context.py",
+      "target": "archive/20261117_cc_cleanup/runs/c37_full_refit/predictions/val_full_c34_fresh_shard0of1/source/c8_tx_context.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c37_full_refit/predictions/val_full_c34_fresh_shard0of1/source/c8_tx_context.py",
+      "sha256": "3ffb3dec22666ce9093c51a09184a392cc74cef8a45050fcdeb36dd549ee0227",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c37_full_refit/predictions/val_full_c34_fresh_shard0of1/source/c9_extra_gpu.py",
+      "target": "archive/20261117_cc_cleanup/runs/c37_full_refit/predictions/val_full_c34_fresh_shard0of1/source/c9_extra_gpu.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c37_full_refit/predictions/val_full_c34_fresh_shard0of1/source/c9_extra_gpu.py",
+      "sha256": "6a1e1a35768ff9e6160e0a799059f0bcecbaba7373065439e3083f658163bc23",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c37_wide_periodic8/model_source.py",
+      "target": "archive/20261117_cc_cleanup/runs/c37_wide_periodic8/model_source.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c37_wide_periodic8/model_source.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c10_phase_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c10_phase_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c10_phase_geometry.py",
+      "sha256": "811a13597a0a215075909bed45a89b97449b64e1794041c52c3f96ad94852826",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c34_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c34_model.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c34_model.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c3_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c3_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c3_geometry.py",
+      "sha256": "f441476c0725eeb8bc92005b6d10fd2226e7696a5760df448af3824203d30cc9",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c4_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c4_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c4_geometry.py",
+      "sha256": "5f4145162e155d2af2df46abd21e1db072f51c425ad3a4ad39fb9a202e800d47",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c7_surface_features.py",
+      "target": "archive/20261117_cc_cleanup/runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c7_surface_features.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c7_surface_features.py",
+      "sha256": "d6048599ef969d04ff73611f25877d98a084ca4160db1f6343872035be0b7383",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c8_tx_context.py",
+      "target": "archive/20261117_cc_cleanup/runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c8_tx_context.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c8_tx_context.py",
+      "sha256": "3ffb3dec22666ce9093c51a09184a392cc74cef8a45050fcdeb36dd549ee0227",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c9_extra_gpu.py",
+      "target": "archive/20261117_cc_cleanup/runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c9_extra_gpu.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard0of3/source/c9_extra_gpu.py",
+      "sha256": "6a1e1a35768ff9e6160e0a799059f0bcecbaba7373065439e3083f658163bc23",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard1of3/source/c10_phase_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard1of3/source/c10_phase_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard1of3/source/c10_phase_geometry.py",
+      "sha256": "811a13597a0a215075909bed45a89b97449b64e1794041c52c3f96ad94852826",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard1of3/source/c34_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard1of3/source/c34_model.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard1of3/source/c34_model.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard1of3/source/c3_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard1of3/source/c3_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard1of3/source/c3_geometry.py",
+      "sha256": "f441476c0725eeb8bc92005b6d10fd2226e7696a5760df448af3824203d30cc9",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard1of3/source/c4_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard1of3/source/c4_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard1of3/source/c4_geometry.py",
+      "sha256": "5f4145162e155d2af2df46abd21e1db072f51c425ad3a4ad39fb9a202e800d47",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard1of3/source/c7_surface_features.py",
+      "target": "archive/20261117_cc_cleanup/runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard1of3/source/c7_surface_features.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard1of3/source/c7_surface_features.py",
+      "sha256": "d6048599ef969d04ff73611f25877d98a084ca4160db1f6343872035be0b7383",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard1of3/source/c8_tx_context.py",
+      "target": "archive/20261117_cc_cleanup/runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard1of3/source/c8_tx_context.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard1of3/source/c8_tx_context.py",
+      "sha256": "3ffb3dec22666ce9093c51a09184a392cc74cef8a45050fcdeb36dd549ee0227",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard1of3/source/c9_extra_gpu.py",
+      "target": "archive/20261117_cc_cleanup/runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard1of3/source/c9_extra_gpu.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard1of3/source/c9_extra_gpu.py",
+      "sha256": "6a1e1a35768ff9e6160e0a799059f0bcecbaba7373065439e3083f658163bc23",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard2of3/source/c10_phase_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard2of3/source/c10_phase_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard2of3/source/c10_phase_geometry.py",
+      "sha256": "811a13597a0a215075909bed45a89b97449b64e1794041c52c3f96ad94852826",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard2of3/source/c34_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard2of3/source/c34_model.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard2of3/source/c34_model.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard2of3/source/c3_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard2of3/source/c3_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard2of3/source/c3_geometry.py",
+      "sha256": "f441476c0725eeb8bc92005b6d10fd2226e7696a5760df448af3824203d30cc9",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard2of3/source/c4_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard2of3/source/c4_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard2of3/source/c4_geometry.py",
+      "sha256": "5f4145162e155d2af2df46abd21e1db072f51c425ad3a4ad39fb9a202e800d47",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard2of3/source/c7_surface_features.py",
+      "target": "archive/20261117_cc_cleanup/runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard2of3/source/c7_surface_features.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard2of3/source/c7_surface_features.py",
+      "sha256": "d6048599ef969d04ff73611f25877d98a084ca4160db1f6343872035be0b7383",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard2of3/source/c8_tx_context.py",
+      "target": "archive/20261117_cc_cleanup/runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard2of3/source/c8_tx_context.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard2of3/source/c8_tx_context.py",
+      "sha256": "3ffb3dec22666ce9093c51a09184a392cc74cef8a45050fcdeb36dd549ee0227",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard2of3/source/c9_extra_gpu.py",
+      "target": "archive/20261117_cc_cleanup/runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard2of3/source/c9_extra_gpu.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c37_wide_periodic8/predictions/train_dev_c34_fresh_shard2of3/source/c9_extra_gpu.py",
+      "sha256": "6a1e1a35768ff9e6160e0a799059f0bcecbaba7373065439e3083f658163bc23",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c38_1024_continue/model_source.py",
+      "target": "archive/20261117_cc_cleanup/runs/c38_1024_continue/model_source.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c38_1024_continue/model_source.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard0of3/source/c10_phase_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard0of3/source/c10_phase_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard0of3/source/c10_phase_geometry.py",
+      "sha256": "811a13597a0a215075909bed45a89b97449b64e1794041c52c3f96ad94852826",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard0of3/source/c34_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard0of3/source/c34_model.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard0of3/source/c34_model.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard0of3/source/c3_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard0of3/source/c3_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard0of3/source/c3_geometry.py",
+      "sha256": "f441476c0725eeb8bc92005b6d10fd2226e7696a5760df448af3824203d30cc9",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard0of3/source/c4_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard0of3/source/c4_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard0of3/source/c4_geometry.py",
+      "sha256": "5f4145162e155d2af2df46abd21e1db072f51c425ad3a4ad39fb9a202e800d47",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard0of3/source/c7_surface_features.py",
+      "target": "archive/20261117_cc_cleanup/runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard0of3/source/c7_surface_features.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard0of3/source/c7_surface_features.py",
+      "sha256": "d6048599ef969d04ff73611f25877d98a084ca4160db1f6343872035be0b7383",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard0of3/source/c8_tx_context.py",
+      "target": "archive/20261117_cc_cleanup/runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard0of3/source/c8_tx_context.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard0of3/source/c8_tx_context.py",
+      "sha256": "3ffb3dec22666ce9093c51a09184a392cc74cef8a45050fcdeb36dd549ee0227",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard0of3/source/c9_extra_gpu.py",
+      "target": "archive/20261117_cc_cleanup/runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard0of3/source/c9_extra_gpu.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard0of3/source/c9_extra_gpu.py",
+      "sha256": "6a1e1a35768ff9e6160e0a799059f0bcecbaba7373065439e3083f658163bc23",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard1of3/source/c10_phase_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard1of3/source/c10_phase_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard1of3/source/c10_phase_geometry.py",
+      "sha256": "811a13597a0a215075909bed45a89b97449b64e1794041c52c3f96ad94852826",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard1of3/source/c34_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard1of3/source/c34_model.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard1of3/source/c34_model.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard1of3/source/c3_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard1of3/source/c3_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard1of3/source/c3_geometry.py",
+      "sha256": "f441476c0725eeb8bc92005b6d10fd2226e7696a5760df448af3824203d30cc9",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard1of3/source/c4_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard1of3/source/c4_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard1of3/source/c4_geometry.py",
+      "sha256": "5f4145162e155d2af2df46abd21e1db072f51c425ad3a4ad39fb9a202e800d47",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard1of3/source/c7_surface_features.py",
+      "target": "archive/20261117_cc_cleanup/runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard1of3/source/c7_surface_features.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard1of3/source/c7_surface_features.py",
+      "sha256": "d6048599ef969d04ff73611f25877d98a084ca4160db1f6343872035be0b7383",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard1of3/source/c8_tx_context.py",
+      "target": "archive/20261117_cc_cleanup/runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard1of3/source/c8_tx_context.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard1of3/source/c8_tx_context.py",
+      "sha256": "3ffb3dec22666ce9093c51a09184a392cc74cef8a45050fcdeb36dd549ee0227",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard1of3/source/c9_extra_gpu.py",
+      "target": "archive/20261117_cc_cleanup/runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard1of3/source/c9_extra_gpu.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard1of3/source/c9_extra_gpu.py",
+      "sha256": "6a1e1a35768ff9e6160e0a799059f0bcecbaba7373065439e3083f658163bc23",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard2of3/source/c10_phase_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard2of3/source/c10_phase_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard2of3/source/c10_phase_geometry.py",
+      "sha256": "811a13597a0a215075909bed45a89b97449b64e1794041c52c3f96ad94852826",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard2of3/source/c34_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard2of3/source/c34_model.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard2of3/source/c34_model.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard2of3/source/c3_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard2of3/source/c3_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard2of3/source/c3_geometry.py",
+      "sha256": "f441476c0725eeb8bc92005b6d10fd2226e7696a5760df448af3824203d30cc9",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard2of3/source/c4_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard2of3/source/c4_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard2of3/source/c4_geometry.py",
+      "sha256": "5f4145162e155d2af2df46abd21e1db072f51c425ad3a4ad39fb9a202e800d47",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard2of3/source/c7_surface_features.py",
+      "target": "archive/20261117_cc_cleanup/runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard2of3/source/c7_surface_features.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard2of3/source/c7_surface_features.py",
+      "sha256": "d6048599ef969d04ff73611f25877d98a084ca4160db1f6343872035be0b7383",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard2of3/source/c8_tx_context.py",
+      "target": "archive/20261117_cc_cleanup/runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard2of3/source/c8_tx_context.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard2of3/source/c8_tx_context.py",
+      "sha256": "3ffb3dec22666ce9093c51a09184a392cc74cef8a45050fcdeb36dd549ee0227",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard2of3/source/c9_extra_gpu.py",
+      "target": "archive/20261117_cc_cleanup/runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard2of3/source/c9_extra_gpu.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c38_1024_continue/predictions/train_dev_c34_fresh_shard2of3/source/c9_extra_gpu.py",
+      "sha256": "6a1e1a35768ff9e6160e0a799059f0bcecbaba7373065439e3083f658163bc23",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c38_1024_continue_failed_probe_index/model_source.py",
+      "target": "archive/20261117_cc_cleanup/runs/c38_1024_continue_failed_probe_index/model_source.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c38_1024_continue_failed_probe_index/model_source.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c38_full_refit/model_source.py",
+      "target": "archive/20261117_cc_cleanup/runs/c38_full_refit/model_source.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c38_full_refit/model_source.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c38_full_refit/predictions/val_full_c34_fresh_shard0of3/source/c10_phase_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c38_full_refit/predictions/val_full_c34_fresh_shard0of3/source/c10_phase_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c38_full_refit/predictions/val_full_c34_fresh_shard0of3/source/c10_phase_geometry.py",
+      "sha256": "811a13597a0a215075909bed45a89b97449b64e1794041c52c3f96ad94852826",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c38_full_refit/predictions/val_full_c34_fresh_shard0of3/source/c34_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c38_full_refit/predictions/val_full_c34_fresh_shard0of3/source/c34_model.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c38_full_refit/predictions/val_full_c34_fresh_shard0of3/source/c34_model.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c38_full_refit/predictions/val_full_c34_fresh_shard0of3/source/c3_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c38_full_refit/predictions/val_full_c34_fresh_shard0of3/source/c3_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c38_full_refit/predictions/val_full_c34_fresh_shard0of3/source/c3_geometry.py",
+      "sha256": "f441476c0725eeb8bc92005b6d10fd2226e7696a5760df448af3824203d30cc9",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c38_full_refit/predictions/val_full_c34_fresh_shard0of3/source/c4_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c38_full_refit/predictions/val_full_c34_fresh_shard0of3/source/c4_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c38_full_refit/predictions/val_full_c34_fresh_shard0of3/source/c4_geometry.py",
+      "sha256": "5f4145162e155d2af2df46abd21e1db072f51c425ad3a4ad39fb9a202e800d47",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c38_full_refit/predictions/val_full_c34_fresh_shard0of3/source/c7_surface_features.py",
+      "target": "archive/20261117_cc_cleanup/runs/c38_full_refit/predictions/val_full_c34_fresh_shard0of3/source/c7_surface_features.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c38_full_refit/predictions/val_full_c34_fresh_shard0of3/source/c7_surface_features.py",
+      "sha256": "d6048599ef969d04ff73611f25877d98a084ca4160db1f6343872035be0b7383",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c38_full_refit/predictions/val_full_c34_fresh_shard0of3/source/c8_tx_context.py",
+      "target": "archive/20261117_cc_cleanup/runs/c38_full_refit/predictions/val_full_c34_fresh_shard0of3/source/c8_tx_context.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c38_full_refit/predictions/val_full_c34_fresh_shard0of3/source/c8_tx_context.py",
+      "sha256": "3ffb3dec22666ce9093c51a09184a392cc74cef8a45050fcdeb36dd549ee0227",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c38_full_refit/predictions/val_full_c34_fresh_shard0of3/source/c9_extra_gpu.py",
+      "target": "archive/20261117_cc_cleanup/runs/c38_full_refit/predictions/val_full_c34_fresh_shard0of3/source/c9_extra_gpu.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c38_full_refit/predictions/val_full_c34_fresh_shard0of3/source/c9_extra_gpu.py",
+      "sha256": "6a1e1a35768ff9e6160e0a799059f0bcecbaba7373065439e3083f658163bc23",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c38_full_refit/predictions/val_full_c34_fresh_shard1of3/source/c10_phase_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c38_full_refit/predictions/val_full_c34_fresh_shard1of3/source/c10_phase_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c38_full_refit/predictions/val_full_c34_fresh_shard1of3/source/c10_phase_geometry.py",
+      "sha256": "811a13597a0a215075909bed45a89b97449b64e1794041c52c3f96ad94852826",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c38_full_refit/predictions/val_full_c34_fresh_shard1of3/source/c34_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c38_full_refit/predictions/val_full_c34_fresh_shard1of3/source/c34_model.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c38_full_refit/predictions/val_full_c34_fresh_shard1of3/source/c34_model.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c38_full_refit/predictions/val_full_c34_fresh_shard1of3/source/c3_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c38_full_refit/predictions/val_full_c34_fresh_shard1of3/source/c3_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c38_full_refit/predictions/val_full_c34_fresh_shard1of3/source/c3_geometry.py",
+      "sha256": "f441476c0725eeb8bc92005b6d10fd2226e7696a5760df448af3824203d30cc9",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c38_full_refit/predictions/val_full_c34_fresh_shard1of3/source/c4_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c38_full_refit/predictions/val_full_c34_fresh_shard1of3/source/c4_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c38_full_refit/predictions/val_full_c34_fresh_shard1of3/source/c4_geometry.py",
+      "sha256": "5f4145162e155d2af2df46abd21e1db072f51c425ad3a4ad39fb9a202e800d47",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c38_full_refit/predictions/val_full_c34_fresh_shard1of3/source/c7_surface_features.py",
+      "target": "archive/20261117_cc_cleanup/runs/c38_full_refit/predictions/val_full_c34_fresh_shard1of3/source/c7_surface_features.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c38_full_refit/predictions/val_full_c34_fresh_shard1of3/source/c7_surface_features.py",
+      "sha256": "d6048599ef969d04ff73611f25877d98a084ca4160db1f6343872035be0b7383",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c38_full_refit/predictions/val_full_c34_fresh_shard1of3/source/c8_tx_context.py",
+      "target": "archive/20261117_cc_cleanup/runs/c38_full_refit/predictions/val_full_c34_fresh_shard1of3/source/c8_tx_context.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c38_full_refit/predictions/val_full_c34_fresh_shard1of3/source/c8_tx_context.py",
+      "sha256": "3ffb3dec22666ce9093c51a09184a392cc74cef8a45050fcdeb36dd549ee0227",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c38_full_refit/predictions/val_full_c34_fresh_shard1of3/source/c9_extra_gpu.py",
+      "target": "archive/20261117_cc_cleanup/runs/c38_full_refit/predictions/val_full_c34_fresh_shard1of3/source/c9_extra_gpu.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c38_full_refit/predictions/val_full_c34_fresh_shard1of3/source/c9_extra_gpu.py",
+      "sha256": "6a1e1a35768ff9e6160e0a799059f0bcecbaba7373065439e3083f658163bc23",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c38_full_refit/predictions/val_full_c34_fresh_shard2of3/source/c10_phase_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c38_full_refit/predictions/val_full_c34_fresh_shard2of3/source/c10_phase_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c38_full_refit/predictions/val_full_c34_fresh_shard2of3/source/c10_phase_geometry.py",
+      "sha256": "811a13597a0a215075909bed45a89b97449b64e1794041c52c3f96ad94852826",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c38_full_refit/predictions/val_full_c34_fresh_shard2of3/source/c34_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c38_full_refit/predictions/val_full_c34_fresh_shard2of3/source/c34_model.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c38_full_refit/predictions/val_full_c34_fresh_shard2of3/source/c34_model.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c38_full_refit/predictions/val_full_c34_fresh_shard2of3/source/c3_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c38_full_refit/predictions/val_full_c34_fresh_shard2of3/source/c3_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c38_full_refit/predictions/val_full_c34_fresh_shard2of3/source/c3_geometry.py",
+      "sha256": "f441476c0725eeb8bc92005b6d10fd2226e7696a5760df448af3824203d30cc9",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c38_full_refit/predictions/val_full_c34_fresh_shard2of3/source/c4_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c38_full_refit/predictions/val_full_c34_fresh_shard2of3/source/c4_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c38_full_refit/predictions/val_full_c34_fresh_shard2of3/source/c4_geometry.py",
+      "sha256": "5f4145162e155d2af2df46abd21e1db072f51c425ad3a4ad39fb9a202e800d47",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c38_full_refit/predictions/val_full_c34_fresh_shard2of3/source/c7_surface_features.py",
+      "target": "archive/20261117_cc_cleanup/runs/c38_full_refit/predictions/val_full_c34_fresh_shard2of3/source/c7_surface_features.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c38_full_refit/predictions/val_full_c34_fresh_shard2of3/source/c7_surface_features.py",
+      "sha256": "d6048599ef969d04ff73611f25877d98a084ca4160db1f6343872035be0b7383",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c38_full_refit/predictions/val_full_c34_fresh_shard2of3/source/c8_tx_context.py",
+      "target": "archive/20261117_cc_cleanup/runs/c38_full_refit/predictions/val_full_c34_fresh_shard2of3/source/c8_tx_context.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c38_full_refit/predictions/val_full_c34_fresh_shard2of3/source/c8_tx_context.py",
+      "sha256": "3ffb3dec22666ce9093c51a09184a392cc74cef8a45050fcdeb36dd549ee0227",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c38_full_refit/predictions/val_full_c34_fresh_shard2of3/source/c9_extra_gpu.py",
+      "target": "archive/20261117_cc_cleanup/runs/c38_full_refit/predictions/val_full_c34_fresh_shard2of3/source/c9_extra_gpu.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c38_full_refit/predictions/val_full_c34_fresh_shard2of3/source/c9_extra_gpu.py",
+      "sha256": "6a1e1a35768ff9e6160e0a799059f0bcecbaba7373065439e3083f658163bc23",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c39_256_continue/model_source.py",
+      "target": "archive/20261117_cc_cleanup/runs/c39_256_continue/model_source.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c39_256_continue/model_source.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c3_surface_profile_s20261031/source/c3_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c3_surface_profile_s20261031/source/c3_geometry.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c3_surface_profile_s20261031/source/c3_geometry.py",
+      "sha256": "f441476c0725eeb8bc92005b6d10fd2226e7696a5760df448af3824203d30cc9",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c3_surface_profile_s20261031/source/c3_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c3_surface_profile_s20261031/source/c3_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c3_surface_profile_s20261031/source/c3_model.py",
+      "sha256": "2746f4eca791117eb1ccc289f488e58f393df0bf35790cf2d13e1b2cbf91a0e0",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c42_rx_patch/model_source.py",
+      "target": "archive/20261117_cc_cleanup/runs/c42_rx_patch/model_source.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c42_rx_patch/model_source.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c42_rx_patch_cold_io/model_source.py",
+      "target": "archive/20261117_cc_cleanup/runs/c42_rx_patch_cold_io/model_source.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c42_rx_patch_cold_io/model_source.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c43_cnn_fit256/c43_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c43_cnn_fit256/c43_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c43_cnn_fit256/c43_model.py",
+      "sha256": "b6efca2f20bcf787d5043dfdf5f9803df76a585274fc3ecfefbd1003cf0ada68",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c43_cnn_fit64/c43_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c43_cnn_fit64/c43_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c43_cnn_fit64/c43_model.py",
+      "sha256": "b6efca2f20bcf787d5043dfdf5f9803df76a585274fc3ecfefbd1003cf0ada68",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c43_grid_fit256/c43_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c43_grid_fit256/c43_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c43_grid_fit256/c43_model.py",
+      "sha256": "b6efca2f20bcf787d5043dfdf5f9803df76a585274fc3ecfefbd1003cf0ada68",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c43_grid_fit64/c43_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c43_grid_fit64/c43_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c43_grid_fit64/c43_model.py",
+      "sha256": "b6efca2f20bcf787d5043dfdf5f9803df76a585274fc3ecfefbd1003cf0ada68",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c43_path_fit256/c43_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c43_path_fit256/c43_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c43_path_fit256/c43_model.py",
+      "sha256": "b6efca2f20bcf787d5043dfdf5f9803df76a585274fc3ecfefbd1003cf0ada68",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c43_path_fit64/c43_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c43_path_fit64/c43_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c43_path_fit64/c43_model.py",
+      "sha256": "b6efca2f20bcf787d5043dfdf5f9803df76a585274fc3ecfefbd1003cf0ada68",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c44_profile_fit64/c44_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c44_profile_fit64/c44_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c44_profile_fit64/c44_model.py",
+      "sha256": "188f559557d751f14610befcb7ea42ab751546210acd576acc39ea6d89e7d451",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c44_profile_fit64_external_oom/c44_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c44_profile_fit64_external_oom/c44_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c44_profile_fit64_external_oom/c44_model.py",
+      "sha256": "016514f6d1c05c11d772b3dab1823ec7576314932461e7d669f5633f2ee9755d",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c45_shuffled_fit64/c45_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c45_shuffled_fit64/c45_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c45_shuffled_fit64/c45_model.py",
+      "sha256": "a78cb0157e4d194b4e994e6f9e8b6f4c5e7e11386332f134ce9b32191111df86",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c46_residual_fit64/c46_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c46_residual_fit64/c46_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c46_residual_fit64/c46_model.py",
+      "sha256": "978b475af99f3d7657469b59710c9874bab8ae6e8e5962307f8d2fb44e09cf4b",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c47_attention_full/c34_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c47_attention_full/c34_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c47_attention_full/c34_model.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c47_attention_full/c47_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c47_attention_full/c47_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c47_attention_full/c47_model.py",
+      "sha256": "58ae38dcad4effc468cf436a46095ea1b664d9ddcff8c2748dfe97a730a4bb36",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c47_attention_full_baseline_batch_mismatch/c34_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c47_attention_full_baseline_batch_mismatch/c34_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c47_attention_full_baseline_batch_mismatch/c34_model.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c47_attention_full_baseline_batch_mismatch/c47_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c47_attention_full_baseline_batch_mismatch/c47_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c47_attention_full_baseline_batch_mismatch/c47_model.py",
+      "sha256": "58ae38dcad4effc468cf436a46095ea1b664d9ddcff8c2748dfe97a730a4bb36",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c47_attention_tiny/c34_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c47_attention_tiny/c34_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c47_attention_tiny/c34_model.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c47_attention_tiny/c47_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c47_attention_tiny/c47_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c47_attention_tiny/c47_model.py",
+      "sha256": "58ae38dcad4effc468cf436a46095ea1b664d9ddcff8c2748dfe97a730a4bb36",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c47_conv_full/c34_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c47_conv_full/c34_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c47_conv_full/c34_model.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c47_conv_full/c47_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c47_conv_full/c47_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c47_conv_full/c47_model.py",
+      "sha256": "58ae38dcad4effc468cf436a46095ea1b664d9ddcff8c2748dfe97a730a4bb36",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c47_conv_full_baseline_batch_mismatch/c34_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c47_conv_full_baseline_batch_mismatch/c34_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c47_conv_full_baseline_batch_mismatch/c34_model.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c47_conv_full_baseline_batch_mismatch/c47_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c47_conv_full_baseline_batch_mismatch/c47_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c47_conv_full_baseline_batch_mismatch/c47_model.py",
+      "sha256": "58ae38dcad4effc468cf436a46095ea1b664d9ddcff8c2748dfe97a730a4bb36",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c47_conv_tiny/c34_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c47_conv_tiny/c34_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c47_conv_tiny/c34_model.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c47_conv_tiny/c47_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c47_conv_tiny/c47_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c47_conv_tiny/c47_model.py",
+      "sha256": "58ae38dcad4effc468cf436a46095ea1b664d9ddcff8c2748dfe97a730a4bb36",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c47_flat_full/c34_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c47_flat_full/c34_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c47_flat_full/c34_model.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c47_flat_full/c47_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c47_flat_full/c47_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c47_flat_full/c47_model.py",
+      "sha256": "58ae38dcad4effc468cf436a46095ea1b664d9ddcff8c2748dfe97a730a4bb36",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c47_flat_full_baseline_batch_mismatch/c34_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c47_flat_full_baseline_batch_mismatch/c34_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c47_flat_full_baseline_batch_mismatch/c34_model.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c47_flat_full_baseline_batch_mismatch/c47_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c47_flat_full_baseline_batch_mismatch/c47_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c47_flat_full_baseline_batch_mismatch/c47_model.py",
+      "sha256": "58ae38dcad4effc468cf436a46095ea1b664d9ddcff8c2748dfe97a730a4bb36",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c47_flat_full_preflight_oom/c34_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c47_flat_full_preflight_oom/c34_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c47_flat_full_preflight_oom/c34_model.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c47_flat_full_preflight_oom/c47_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c47_flat_full_preflight_oom/c47_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c47_flat_full_preflight_oom/c47_model.py",
+      "sha256": "58ae38dcad4effc468cf436a46095ea1b664d9ddcff8c2748dfe97a730a4bb36",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c47_flat_tiny/c34_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c47_flat_tiny/c34_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c47_flat_tiny/c34_model.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c47_flat_tiny/c47_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c47_flat_tiny/c47_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c47_flat_tiny/c47_model.py",
+      "sha256": "58ae38dcad4effc468cf436a46095ea1b664d9ddcff8c2748dfe97a730a4bb36",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c48_both_full/c34_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c48_both_full/c34_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c48_both_full/c34_model.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c48_both_full/c47_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c48_both_full/c47_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c48_both_full/c47_model.py",
+      "sha256": "58ae38dcad4effc468cf436a46095ea1b664d9ddcff8c2748dfe97a730a4bb36",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c48_both_full/c48_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c48_both_full/c48_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c48_both_full/c48_model.py",
+      "sha256": "42353d80cc1525c57f70187d9af120aeb27688ab1e4a806c88a104b0a7281a6b",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c48_both_tiny/c34_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c48_both_tiny/c34_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c48_both_tiny/c34_model.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c48_both_tiny/c47_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c48_both_tiny/c47_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c48_both_tiny/c47_model.py",
+      "sha256": "58ae38dcad4effc468cf436a46095ea1b664d9ddcff8c2748dfe97a730a4bb36",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c48_both_tiny/c48_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c48_both_tiny/c48_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c48_both_tiny/c48_model.py",
+      "sha256": "42353d80cc1525c57f70187d9af120aeb27688ab1e4a806c88a104b0a7281a6b",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c48_patch_full/c34_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c48_patch_full/c34_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c48_patch_full/c34_model.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c48_patch_full/c47_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c48_patch_full/c47_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c48_patch_full/c47_model.py",
+      "sha256": "58ae38dcad4effc468cf436a46095ea1b664d9ddcff8c2748dfe97a730a4bb36",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c48_patch_full/c48_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c48_patch_full/c48_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c48_patch_full/c48_model.py",
+      "sha256": "42353d80cc1525c57f70187d9af120aeb27688ab1e4a806c88a104b0a7281a6b",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c48_patch_tiny/c34_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c48_patch_tiny/c34_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c48_patch_tiny/c34_model.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c48_patch_tiny/c47_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c48_patch_tiny/c47_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c48_patch_tiny/c47_model.py",
+      "sha256": "58ae38dcad4effc468cf436a46095ea1b664d9ddcff8c2748dfe97a730a4bb36",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c48_patch_tiny/c48_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c48_patch_tiny/c48_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c48_patch_tiny/c48_model.py",
+      "sha256": "42353d80cc1525c57f70187d9af120aeb27688ab1e4a806c88a104b0a7281a6b",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c49_transport_full/c34_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c49_transport_full/c34_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c49_transport_full/c34_model.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c49_transport_full/c47_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c49_transport_full/c47_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c49_transport_full/c47_model.py",
+      "sha256": "58ae38dcad4effc468cf436a46095ea1b664d9ddcff8c2748dfe97a730a4bb36",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c49_transport_full/c48_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c49_transport_full/c48_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c49_transport_full/c48_model.py",
+      "sha256": "42353d80cc1525c57f70187d9af120aeb27688ab1e4a806c88a104b0a7281a6b",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c49_transport_full/c49_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c49_transport_full/c49_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c49_transport_full/c49_model.py",
+      "sha256": "b5eb5b6bd0a8a4c58593aa8639b572dc5b8e9111a9411f5da4a309576a607329",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c49_transport_tiny/c34_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c49_transport_tiny/c34_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c49_transport_tiny/c34_model.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c49_transport_tiny/c47_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c49_transport_tiny/c47_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c49_transport_tiny/c47_model.py",
+      "sha256": "58ae38dcad4effc468cf436a46095ea1b664d9ddcff8c2748dfe97a730a4bb36",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c49_transport_tiny/c48_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c49_transport_tiny/c48_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c49_transport_tiny/c48_model.py",
+      "sha256": "42353d80cc1525c57f70187d9af120aeb27688ab1e4a806c88a104b0a7281a6b",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c49_transport_tiny/c49_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c49_transport_tiny/c49_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c49_transport_tiny/c49_model.py",
+      "sha256": "b5eb5b6bd0a8a4c58593aa8639b572dc5b8e9111a9411f5da4a309576a607329",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c49_unweighted_full/c34_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c49_unweighted_full/c34_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c49_unweighted_full/c34_model.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c49_unweighted_full/c47_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c49_unweighted_full/c47_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c49_unweighted_full/c47_model.py",
+      "sha256": "58ae38dcad4effc468cf436a46095ea1b664d9ddcff8c2748dfe97a730a4bb36",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c49_unweighted_full/c48_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c49_unweighted_full/c48_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c49_unweighted_full/c48_model.py",
+      "sha256": "42353d80cc1525c57f70187d9af120aeb27688ab1e4a806c88a104b0a7281a6b",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c49_unweighted_full/c49_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c49_unweighted_full/c49_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c49_unweighted_full/c49_model.py",
+      "sha256": "b5eb5b6bd0a8a4c58593aa8639b572dc5b8e9111a9411f5da4a309576a607329",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c49_unweighted_tiny/c34_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c49_unweighted_tiny/c34_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c49_unweighted_tiny/c34_model.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c49_unweighted_tiny/c47_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c49_unweighted_tiny/c47_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c49_unweighted_tiny/c47_model.py",
+      "sha256": "58ae38dcad4effc468cf436a46095ea1b664d9ddcff8c2748dfe97a730a4bb36",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c49_unweighted_tiny/c48_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c49_unweighted_tiny/c48_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c49_unweighted_tiny/c48_model.py",
+      "sha256": "42353d80cc1525c57f70187d9af120aeb27688ab1e4a806c88a104b0a7281a6b",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c49_unweighted_tiny/c49_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c49_unweighted_tiny/c49_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c49_unweighted_tiny/c49_model.py",
+      "sha256": "b5eb5b6bd0a8a4c58593aa8639b572dc5b8e9111a9411f5da4a309576a607329",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c4_critical_length_fast_s20261031/source/c3_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c4_critical_length_fast_s20261031/source/c3_geometry.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c4_critical_length_fast_s20261031/source/c3_geometry.py",
+      "sha256": "f441476c0725eeb8bc92005b6d10fd2226e7696a5760df448af3824203d30cc9",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c4_critical_length_fast_s20261031/source/c4_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c4_critical_length_fast_s20261031/source/c4_geometry.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c4_critical_length_fast_s20261031/source/c4_geometry.py",
+      "sha256": "5f4145162e155d2af2df46abd21e1db072f51c425ad3a4ad39fb9a202e800d47",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c4_critical_length_fast_s20261031/source/c4_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c4_critical_length_fast_s20261031/source/c4_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c4_critical_length_fast_s20261031/source/c4_model.py",
+      "sha256": "c84d9957e0a4e072d25cf797b64da119a4c616f6e128a0eb0960ebb9c9db4867",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c4_critical_length_s20261031/source/c3_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c4_critical_length_s20261031/source/c3_geometry.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c4_critical_length_s20261031/source/c3_geometry.py",
+      "sha256": "f441476c0725eeb8bc92005b6d10fd2226e7696a5760df448af3824203d30cc9",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c4_critical_length_s20261031/source/c4_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c4_critical_length_s20261031/source/c4_geometry.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c4_critical_length_s20261031/source/c4_geometry.py",
+      "sha256": "5f4145162e155d2af2df46abd21e1db072f51c425ad3a4ad39fb9a202e800d47",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c4_critical_length_s20261031/source/c4_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c4_critical_length_s20261031/source/c4_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c4_critical_length_s20261031/source/c4_model.py",
+      "sha256": "c84d9957e0a4e072d25cf797b64da119a4c616f6e128a0eb0960ebb9c9db4867",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c4_full_refit_s20261031/source/c3_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c4_full_refit_s20261031/source/c3_geometry.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c4_full_refit_s20261031/source/c3_geometry.py",
+      "sha256": "f441476c0725eeb8bc92005b6d10fd2226e7696a5760df448af3824203d30cc9",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c4_full_refit_s20261031/source/c4_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c4_full_refit_s20261031/source/c4_geometry.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c4_full_refit_s20261031/source/c4_geometry.py",
+      "sha256": "5f4145162e155d2af2df46abd21e1db072f51c425ad3a4ad39fb9a202e800d47",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c4_full_refit_s20261031/source/c4_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c4_full_refit_s20261031/source/c4_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c4_full_refit_s20261031/source/c4_model.py",
+      "sha256": "c84d9957e0a4e072d25cf797b64da119a4c616f6e128a0eb0960ebb9c9db4867",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c50_cooperative/c34_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c50_cooperative/c34_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c50_cooperative/c34_model.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c50_cooperative/c50_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c50_cooperative/c50_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c50_cooperative/c50_model.py",
+      "sha256": "0c3f2a05da3eb90b47b2435626ce800f7e94458bc8fd238ecc7c26e45a6097ed",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c52_adapter_full/c34_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c52_adapter_full/c34_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c52_adapter_full/c34_model.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c52_adapter_full/c47_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c52_adapter_full/c47_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c52_adapter_full/c47_model.py",
+      "sha256": "58ae38dcad4effc468cf436a46095ea1b664d9ddcff8c2748dfe97a730a4bb36",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c52_adapter_full/c48_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c52_adapter_full/c48_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c52_adapter_full/c48_model.py",
+      "sha256": "42353d80cc1525c57f70187d9af120aeb27688ab1e4a806c88a104b0a7281a6b",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c52_adapter_full/c52_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c52_adapter_full/c52_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c52_adapter_full/c52_model.py",
+      "sha256": "8ccf5446f26c78533273d05cb368d73539c2cdc624469eb9c2dab8cedcf6deb2",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c52_transport_full/c34_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c52_transport_full/c34_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c52_transport_full/c34_model.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c52_transport_full/c47_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c52_transport_full/c47_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c52_transport_full/c47_model.py",
+      "sha256": "58ae38dcad4effc468cf436a46095ea1b664d9ddcff8c2748dfe97a730a4bb36",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c52_transport_full/c48_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c52_transport_full/c48_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c52_transport_full/c48_model.py",
+      "sha256": "42353d80cc1525c57f70187d9af120aeb27688ab1e4a806c88a104b0a7281a6b",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c52_transport_full/c52_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c52_transport_full/c52_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c52_transport_full/c52_model.py",
+      "sha256": "8ccf5446f26c78533273d05cb368d73539c2cdc624469eb9c2dab8cedcf6deb2",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c54_high_transport/c34_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c54_high_transport/c34_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c54_high_transport/c34_model.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c54_high_transport/c47_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c54_high_transport/c47_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c54_high_transport/c47_model.py",
+      "sha256": "58ae38dcad4effc468cf436a46095ea1b664d9ddcff8c2748dfe97a730a4bb36",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c54_high_transport/c48_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c54_high_transport/c48_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c54_high_transport/c48_model.py",
+      "sha256": "42353d80cc1525c57f70187d9af120aeb27688ab1e4a806c88a104b0a7281a6b",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c54_high_transport/c49_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c54_high_transport/c49_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c54_high_transport/c49_model.py",
+      "sha256": "b5eb5b6bd0a8a4c58593aa8639b572dc5b8e9111a9411f5da4a309576a607329",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c54_low_attention/c34_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c54_low_attention/c34_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c54_low_attention/c34_model.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c54_low_attention/c47_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c54_low_attention/c47_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c54_low_attention/c47_model.py",
+      "sha256": "58ae38dcad4effc468cf436a46095ea1b664d9ddcff8c2748dfe97a730a4bb36",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c56_multibounce_full/c34_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c56_multibounce_full/c34_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c56_multibounce_full/c34_model.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c56_multibounce_full/c47_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c56_multibounce_full/c47_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c56_multibounce_full/c47_model.py",
+      "sha256": "58ae38dcad4effc468cf436a46095ea1b664d9ddcff8c2748dfe97a730a4bb36",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c56_multibounce_full/c48_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c56_multibounce_full/c48_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c56_multibounce_full/c48_model.py",
+      "sha256": "42353d80cc1525c57f70187d9af120aeb27688ab1e4a806c88a104b0a7281a6b",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c56_multibounce_full/c49_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c56_multibounce_full/c49_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c56_multibounce_full/c49_model.py",
+      "sha256": "b5eb5b6bd0a8a4c58593aa8639b572dc5b8e9111a9411f5da4a309576a607329",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c56_multibounce_full/c56_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c56_multibounce_full/c56_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c56_multibounce_full/c56_model.py",
+      "sha256": "a88ad7b9f838d345d3deaee24a927b0d647e7c60252cbf191540de97bf7b4520",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c59_narrow1024/model_source.py",
+      "target": "archive/20261117_cc_cleanup/runs/c59_narrow1024/model_source.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c59_narrow1024/model_source.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c59_narrow1024_preflight_index_failure/model_source.py",
+      "target": "archive/20261117_cc_cleanup/runs/c59_narrow1024_preflight_index_failure/model_source.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c59_narrow1024_preflight_index_failure/model_source.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c59_wide2048/model_source.py",
+      "target": "archive/20261117_cc_cleanup/runs/c59_wide2048/model_source.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c59_wide2048/model_source.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c59_wide2048_preflight_index_failure/model_source.py",
+      "target": "archive/20261117_cc_cleanup/runs/c59_wide2048_preflight_index_failure/model_source.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c59_wide2048_preflight_index_failure/model_source.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c5_cell_observation_s20261101/source/c3_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c5_cell_observation_s20261101/source/c3_geometry.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c5_cell_observation_s20261101/source/c3_geometry.py",
+      "sha256": "f441476c0725eeb8bc92005b6d10fd2226e7696a5760df448af3824203d30cc9",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c5_cell_observation_s20261101/source/c4_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c5_cell_observation_s20261101/source/c4_geometry.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c5_cell_observation_s20261101/source/c4_geometry.py",
+      "sha256": "5f4145162e155d2af2df46abd21e1db072f51c425ad3a4ad39fb9a202e800d47",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c5_cell_observation_s20261101/source/c4_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c5_cell_observation_s20261101/source/c4_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c5_cell_observation_s20261101/source/c4_model.py",
+      "sha256": "c84d9957e0a4e072d25cf797b64da119a4c616f6e128a0eb0960ebb9c9db4867",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c5_cell_observation_s20261101/source/c5_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c5_cell_observation_s20261101/source/c5_model.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c5_cell_observation_s20261101/source/c5_model.py",
+      "sha256": "da011a2cc2bcee998cf40657a712a952e9bf37fc54da9d4f32257fa4d9a1ac9d",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c61_local_full/c34_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c61_local_full/c34_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c61_local_full/c34_model.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c61_local_full/c46_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c61_local_full/c46_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c61_local_full/c46_model.py",
+      "sha256": "978b475af99f3d7657469b59710c9874bab8ae6e8e5962307f8d2fb44e09cf4b",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c61_local_full/c52_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c61_local_full/c52_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c61_local_full/c52_model.py",
+      "sha256": "8ccf5446f26c78533273d05cb368d73539c2cdc624469eb9c2dab8cedcf6deb2",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c61_local_full/c61_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c61_local_full/c61_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c61_local_full/c61_model.py",
+      "sha256": "f798c8a201f35abec0b5bb4ffd84b2bde7e067bb9bb309c759600052c0f8779e",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c61_local_tiny/c34_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c61_local_tiny/c34_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c61_local_tiny/c34_model.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c61_local_tiny/c46_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c61_local_tiny/c46_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c61_local_tiny/c46_model.py",
+      "sha256": "978b475af99f3d7657469b59710c9874bab8ae6e8e5962307f8d2fb44e09cf4b",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c61_local_tiny/c52_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c61_local_tiny/c52_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c61_local_tiny/c52_model.py",
+      "sha256": "8ccf5446f26c78533273d05cb368d73539c2cdc624469eb9c2dab8cedcf6deb2",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c61_local_tiny/c61_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c61_local_tiny/c61_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c61_local_tiny/c61_model.py",
+      "sha256": "f798c8a201f35abec0b5bb4ffd84b2bde7e067bb9bb309c759600052c0f8779e",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c61_local_tiny_preflight_unused_gradient/c34_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c61_local_tiny_preflight_unused_gradient/c34_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c61_local_tiny_preflight_unused_gradient/c34_model.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c61_local_tiny_preflight_unused_gradient/c46_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c61_local_tiny_preflight_unused_gradient/c46_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c61_local_tiny_preflight_unused_gradient/c46_model.py",
+      "sha256": "978b475af99f3d7657469b59710c9874bab8ae6e8e5962307f8d2fb44e09cf4b",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c61_local_tiny_preflight_unused_gradient/c52_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c61_local_tiny_preflight_unused_gradient/c52_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c61_local_tiny_preflight_unused_gradient/c52_model.py",
+      "sha256": "8ccf5446f26c78533273d05cb368d73539c2cdc624469eb9c2dab8cedcf6deb2",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c61_local_tiny_preflight_unused_gradient/c61_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c61_local_tiny_preflight_unused_gradient/c61_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c61_local_tiny_preflight_unused_gradient/c61_model.py",
+      "sha256": "f798c8a201f35abec0b5bb4ffd84b2bde7e067bb9bb309c759600052c0f8779e",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c61_path_full/c34_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c61_path_full/c34_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c61_path_full/c34_model.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c61_path_full/c46_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c61_path_full/c46_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c61_path_full/c46_model.py",
+      "sha256": "978b475af99f3d7657469b59710c9874bab8ae6e8e5962307f8d2fb44e09cf4b",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c61_path_full/c52_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c61_path_full/c52_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c61_path_full/c52_model.py",
+      "sha256": "8ccf5446f26c78533273d05cb368d73539c2cdc624469eb9c2dab8cedcf6deb2",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c61_path_full/c61_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c61_path_full/c61_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c61_path_full/c61_model.py",
+      "sha256": "f798c8a201f35abec0b5bb4ffd84b2bde7e067bb9bb309c759600052c0f8779e",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c61_path_tiny/c34_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c61_path_tiny/c34_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c61_path_tiny/c34_model.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c61_path_tiny/c46_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c61_path_tiny/c46_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c61_path_tiny/c46_model.py",
+      "sha256": "978b475af99f3d7657469b59710c9874bab8ae6e8e5962307f8d2fb44e09cf4b",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c61_path_tiny/c52_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c61_path_tiny/c52_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c61_path_tiny/c52_model.py",
+      "sha256": "8ccf5446f26c78533273d05cb368d73539c2cdc624469eb9c2dab8cedcf6deb2",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c61_path_tiny/c61_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c61_path_tiny/c61_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c61_path_tiny/c61_model.py",
+      "sha256": "f798c8a201f35abec0b5bb4ffd84b2bde7e067bb9bb309c759600052c0f8779e",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c62_dense_4maps/model_source.py",
+      "target": "archive/20261117_cc_cleanup/runs/c62_dense_4maps/model_source.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c62_dense_4maps/model_source.py",
+      "sha256": "f798c8a201f35abec0b5bb4ffd84b2bde7e067bb9bb309c759600052c0f8779e",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c62_dense_4maps_continue3000/model_source.py",
+      "target": "archive/20261117_cc_cleanup/runs/c62_dense_4maps_continue3000/model_source.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c62_dense_4maps_continue3000/model_source.py",
+      "sha256": "f798c8a201f35abec0b5bb4ffd84b2bde7e067bb9bb309c759600052c0f8779e",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c62_fixed_4maps/model_source.py",
+      "target": "archive/20261117_cc_cleanup/runs/c62_fixed_4maps/model_source.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c62_fixed_4maps/model_source.py",
+      "sha256": "f798c8a201f35abec0b5bb4ffd84b2bde7e067bb9bb309c759600052c0f8779e",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c62_fixed_4maps_continue3000/model_source.py",
+      "target": "archive/20261117_cc_cleanup/runs/c62_fixed_4maps_continue3000/model_source.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c62_fixed_4maps_continue3000/model_source.py",
+      "sha256": "f798c8a201f35abec0b5bb4ffd84b2bde7e067bb9bb309c759600052c0f8779e",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c63_dynamic_full/c34_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c63_dynamic_full/c34_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c63_dynamic_full/c34_model.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c63_dynamic_full/c46_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c63_dynamic_full/c46_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c63_dynamic_full/c46_model.py",
+      "sha256": "978b475af99f3d7657469b59710c9874bab8ae6e8e5962307f8d2fb44e09cf4b",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c63_dynamic_full/c52_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c63_dynamic_full/c52_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c63_dynamic_full/c52_model.py",
+      "sha256": "8ccf5446f26c78533273d05cb368d73539c2cdc624469eb9c2dab8cedcf6deb2",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c63_dynamic_full/c61_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c63_dynamic_full/c61_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c63_dynamic_full/c61_model.py",
+      "sha256": "f798c8a201f35abec0b5bb4ffd84b2bde7e067bb9bb309c759600052c0f8779e",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c63_fixed_full/c34_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c63_fixed_full/c34_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c63_fixed_full/c34_model.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c63_fixed_full/c46_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c63_fixed_full/c46_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c63_fixed_full/c46_model.py",
+      "sha256": "978b475af99f3d7657469b59710c9874bab8ae6e8e5962307f8d2fb44e09cf4b",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c63_fixed_full/c52_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c63_fixed_full/c52_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c63_fixed_full/c52_model.py",
+      "sha256": "8ccf5446f26c78533273d05cb368d73539c2cdc624469eb9c2dab8cedcf6deb2",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c63_fixed_full/c61_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c63_fixed_full/c61_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c63_fixed_full/c61_model.py",
+      "sha256": "f798c8a201f35abec0b5bb4ffd84b2bde7e067bb9bb309c759600052c0f8779e",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c65_high_full/c34_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c65_high_full/c34_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c65_high_full/c34_model.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c65_high_full/c47_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c65_high_full/c47_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c65_high_full/c47_model.py",
+      "sha256": "58ae38dcad4effc468cf436a46095ea1b664d9ddcff8c2748dfe97a730a4bb36",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c65_high_full/c48_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c65_high_full/c48_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c65_high_full/c48_model.py",
+      "sha256": "42353d80cc1525c57f70187d9af120aeb27688ab1e4a806c88a104b0a7281a6b",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c65_high_full/c49_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c65_high_full/c49_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c65_high_full/c49_model.py",
+      "sha256": "b5eb5b6bd0a8a4c58593aa8639b572dc5b8e9111a9411f5da4a309576a607329",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c65_low_full/c34_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c65_low_full/c34_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c65_low_full/c34_model.py",
+      "sha256": "d694ca972b2a79e275ee9f0f6372fd1b6bdebf01b2ff2c9a0547ceaf1b3cb1af",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c65_low_full/c47_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c65_low_full/c47_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c65_low_full/c47_model.py",
+      "sha256": "58ae38dcad4effc468cf436a46095ea1b664d9ddcff8c2748dfe97a730a4bb36",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c65_low_full/c48_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c65_low_full/c48_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c65_low_full/c48_model.py",
+      "sha256": "42353d80cc1525c57f70187d9af120aeb27688ab1e4a806c88a104b0a7281a6b",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c65_low_full/c49_model.py",
+      "target": "archive/20261117_cc_cleanup/runs/c65_low_full/c49_model.py",
+      "relative_symlink": "../../archive/20261117_cc_cleanup/runs/c65_low_full/c49_model.py",
+      "sha256": "b5eb5b6bd0a8a4c58593aa8639b572dc5b8e9111a9411f5da4a309576a607329",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c7_points_material_s20261101/source/c7_material_features.py",
+      "target": "archive/20261117_cc_cleanup/runs/c7_points_material_s20261101/source/c7_material_features.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c7_points_material_s20261101/source/c7_material_features.py",
+      "sha256": "8e307d80da1d3caaa6189c8dddf780636abe5c4826e60473511e4e6d8692b6c7",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c7_points_surface_s20261101/source/c7_surface_features.py",
+      "target": "archive/20261117_cc_cleanup/runs/c7_points_surface_s20261101/source/c7_surface_features.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c7_points_surface_s20261101/source/c7_surface_features.py",
+      "sha256": "d6048599ef969d04ff73611f25877d98a084ca4160db1f6343872035be0b7383",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c8_points_context_s20261101/predictions/train_dev_cpu_first4/source/c8_tx_context.py",
+      "target": "archive/20261117_cc_cleanup/runs/c8_points_context_s20261101/predictions/train_dev_cpu_first4/source/c8_tx_context.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c8_points_context_s20261101/predictions/train_dev_cpu_first4/source/c8_tx_context.py",
+      "sha256": "3ffb3dec22666ce9093c51a09184a392cc74cef8a45050fcdeb36dd549ee0227",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c8_points_context_s20261101/predictions/train_dev_gpu_fresh_first4/source/c3_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c8_points_context_s20261101/predictions/train_dev_gpu_fresh_first4/source/c3_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c8_points_context_s20261101/predictions/train_dev_gpu_fresh_first4/source/c3_geometry.py",
+      "sha256": "f441476c0725eeb8bc92005b6d10fd2226e7696a5760df448af3824203d30cc9",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c8_points_context_s20261101/predictions/train_dev_gpu_fresh_first4/source/c4_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c8_points_context_s20261101/predictions/train_dev_gpu_fresh_first4/source/c4_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c8_points_context_s20261101/predictions/train_dev_gpu_fresh_first4/source/c4_geometry.py",
+      "sha256": "5f4145162e155d2af2df46abd21e1db072f51c425ad3a4ad39fb9a202e800d47",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c8_points_context_s20261101/predictions/train_dev_gpu_fresh_first4/source/c8_tx_context.py",
+      "target": "archive/20261117_cc_cleanup/runs/c8_points_context_s20261101/predictions/train_dev_gpu_fresh_first4/source/c8_tx_context.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c8_points_context_s20261101/predictions/train_dev_gpu_fresh_first4/source/c8_tx_context.py",
+      "sha256": "3ffb3dec22666ce9093c51a09184a392cc74cef8a45050fcdeb36dd549ee0227",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c8_points_context_s20261101/source/c8_tx_context.py",
+      "target": "archive/20261117_cc_cleanup/runs/c8_points_context_s20261101/source/c8_tx_context.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c8_points_context_s20261101/source/c8_tx_context.py",
+      "sha256": "3ffb3dec22666ce9093c51a09184a392cc74cef8a45050fcdeb36dd549ee0227",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c9_points_combined_s20261101/predictions/train_dev_gpu_c9_fresh/source/c3_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c9_points_combined_s20261101/predictions/train_dev_gpu_c9_fresh/source/c3_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c9_points_combined_s20261101/predictions/train_dev_gpu_c9_fresh/source/c3_geometry.py",
+      "sha256": "f441476c0725eeb8bc92005b6d10fd2226e7696a5760df448af3824203d30cc9",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c9_points_combined_s20261101/predictions/train_dev_gpu_c9_fresh/source/c4_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c9_points_combined_s20261101/predictions/train_dev_gpu_c9_fresh/source/c4_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c9_points_combined_s20261101/predictions/train_dev_gpu_c9_fresh/source/c4_geometry.py",
+      "sha256": "5f4145162e155d2af2df46abd21e1db072f51c425ad3a4ad39fb9a202e800d47",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c9_points_combined_s20261101/predictions/train_dev_gpu_c9_fresh/source/c7_surface_features.py",
+      "target": "archive/20261117_cc_cleanup/runs/c9_points_combined_s20261101/predictions/train_dev_gpu_c9_fresh/source/c7_surface_features.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c9_points_combined_s20261101/predictions/train_dev_gpu_c9_fresh/source/c7_surface_features.py",
+      "sha256": "d6048599ef969d04ff73611f25877d98a084ca4160db1f6343872035be0b7383",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c9_points_combined_s20261101/predictions/train_dev_gpu_c9_fresh/source/c8_tx_context.py",
+      "target": "archive/20261117_cc_cleanup/runs/c9_points_combined_s20261101/predictions/train_dev_gpu_c9_fresh/source/c8_tx_context.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c9_points_combined_s20261101/predictions/train_dev_gpu_c9_fresh/source/c8_tx_context.py",
+      "sha256": "3ffb3dec22666ce9093c51a09184a392cc74cef8a45050fcdeb36dd549ee0227",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c9_points_combined_s20261101/predictions/train_dev_gpu_c9_fresh/source/c9_extra_gpu.py",
+      "target": "archive/20261117_cc_cleanup/runs/c9_points_combined_s20261101/predictions/train_dev_gpu_c9_fresh/source/c9_extra_gpu.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c9_points_combined_s20261101/predictions/train_dev_gpu_c9_fresh/source/c9_extra_gpu.py",
+      "sha256": "6a1e1a35768ff9e6160e0a799059f0bcecbaba7373065439e3083f658163bc23",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c9_points_combined_s20261101/predictions/train_dev_gpu_c9_fresh_first4/source/c3_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c9_points_combined_s20261101/predictions/train_dev_gpu_c9_fresh_first4/source/c3_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c9_points_combined_s20261101/predictions/train_dev_gpu_c9_fresh_first4/source/c3_geometry.py",
+      "sha256": "f441476c0725eeb8bc92005b6d10fd2226e7696a5760df448af3824203d30cc9",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c9_points_combined_s20261101/predictions/train_dev_gpu_c9_fresh_first4/source/c4_geometry.py",
+      "target": "archive/20261117_cc_cleanup/runs/c9_points_combined_s20261101/predictions/train_dev_gpu_c9_fresh_first4/source/c4_geometry.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c9_points_combined_s20261101/predictions/train_dev_gpu_c9_fresh_first4/source/c4_geometry.py",
+      "sha256": "5f4145162e155d2af2df46abd21e1db072f51c425ad3a4ad39fb9a202e800d47",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c9_points_combined_s20261101/predictions/train_dev_gpu_c9_fresh_first4/source/c7_surface_features.py",
+      "target": "archive/20261117_cc_cleanup/runs/c9_points_combined_s20261101/predictions/train_dev_gpu_c9_fresh_first4/source/c7_surface_features.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c9_points_combined_s20261101/predictions/train_dev_gpu_c9_fresh_first4/source/c7_surface_features.py",
+      "sha256": "d6048599ef969d04ff73611f25877d98a084ca4160db1f6343872035be0b7383",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c9_points_combined_s20261101/predictions/train_dev_gpu_c9_fresh_first4/source/c8_tx_context.py",
+      "target": "archive/20261117_cc_cleanup/runs/c9_points_combined_s20261101/predictions/train_dev_gpu_c9_fresh_first4/source/c8_tx_context.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c9_points_combined_s20261101/predictions/train_dev_gpu_c9_fresh_first4/source/c8_tx_context.py",
+      "sha256": "3ffb3dec22666ce9093c51a09184a392cc74cef8a45050fcdeb36dd549ee0227",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c9_points_combined_s20261101/predictions/train_dev_gpu_c9_fresh_first4/source/c9_extra_gpu.py",
+      "target": "archive/20261117_cc_cleanup/runs/c9_points_combined_s20261101/predictions/train_dev_gpu_c9_fresh_first4/source/c9_extra_gpu.py",
+      "relative_symlink": "../../../../../archive/20261117_cc_cleanup/runs/c9_points_combined_s20261101/predictions/train_dev_gpu_c9_fresh_first4/source/c9_extra_gpu.py",
+      "sha256": "6a1e1a35768ff9e6160e0a799059f0bcecbaba7373065439e3083f658163bc23",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c9_points_combined_s20261101/source/c8_tx_context.py",
+      "target": "archive/20261117_cc_cleanup/runs/c9_points_combined_s20261101/source/c8_tx_context.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c9_points_combined_s20261101/source/c8_tx_context.py",
+      "sha256": "3ffb3dec22666ce9093c51a09184a392cc74cef8a45050fcdeb36dd549ee0227",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "runs/c9_points_compact_s20261101/source/c8_tx_context.py",
+      "target": "archive/20261117_cc_cleanup/runs/c9_points_compact_s20261101/source/c8_tx_context.py",
+      "relative_symlink": "../../../archive/20261117_cc_cleanup/runs/c9_points_compact_s20261101/source/c8_tx_context.py",
+      "sha256": "3ffb3dec22666ce9093c51a09184a392cc74cef8a45050fcdeb36dd549ee0227",
+      "reason": "historical_source_snapshot"
+    },
+    {
+      "source": "scripts/c60_runtime_controller.py",
+      "target": "archive/20261117_cc_cleanup/scripts/c60_runtime_controller.py",
+      "relative_symlink": "../archive/20261117_cc_cleanup/scripts/c60_runtime_controller.py",
+      "sha256": "aed796a35903869ae2b97563fa4e683ec0b37703b43e31d663a776bc440c3d71",
+      "reason": "completed_one_off_launcher_or_prefetch"
+    },
+    {
+      "source": "scripts/c63_prefetch.py",
+      "target": "archive/20261117_cc_cleanup/scripts/c63_prefetch.py",
+      "relative_symlink": "../archive/20261117_cc_cleanup/scripts/c63_prefetch.py",
+      "sha256": "67d7d04b27b92338c0b95e4d4095e8e0e5068778a12597d2d2cee2d2edf5e388",
+      "reason": "completed_one_off_launcher_or_prefetch"
+    },
+    {
+      "source": "scripts/c64_phase_controller.py",
+      "target": "archive/20261117_cc_cleanup/scripts/c64_phase_controller.py",
+      "relative_symlink": "../archive/20261117_cc_cleanup/scripts/c64_phase_controller.py",
+      "sha256": "fbd7e444c5f4f01d728d27def985aa3a7621204d6bb3fc9ea47bb324b44c882a",
+      "reason": "completed_one_off_launcher_or_prefetch"
+    },
+    {
+      "source": "scripts/c65_final_artifacts.py",
+      "target": "archive/20261117_cc_cleanup/scripts/c65_final_artifacts.py",
+      "relative_symlink": "../archive/20261117_cc_cleanup/scripts/c65_final_artifacts.py",
+      "sha256": "a15e2e702bdf57c52b37451ce49059bbf8050af8d2da749b5b4e151716c92c50",
+      "reason": "completed_one_off_launcher_or_prefetch"
+    },
+    {
+      "source": "scripts/c65_start_refit.py",
+      "target": "archive/20261117_cc_cleanup/scripts/c65_start_refit.py",
+      "relative_symlink": "../archive/20261117_cc_cleanup/scripts/c65_start_refit.py",
+      "sha256": "bd5ea2d5a30412ffdffc5dca894c4610cd45be2bbfcb9848f49be60023c759e9",
+      "reason": "completed_one_off_launcher_or_prefetch"
+    },
+    {
+      "source": "src/c151b_field.py",
+      "target": "archive/20261117_cc_cleanup/src/c151b_field.py",
+      "relative_symlink": "../archive/20261117_cc_cleanup/src/c151b_field.py",
+      "sha256": "6f17401c6f0ed4f7b3251aa34994eb1cf14f921cbe42864992cc8336c3978836",
+      "reason": "completed_historical_model_definition"
+    },
+    {
+      "source": "src/c152_field.py",
+      "target": "archive/20261117_cc_cleanup/src/c152_field.py",
+      "relative_symlink": "../archive/20261117_cc_cleanup/src/c152_field.py",
+      "sha256": "f253864cbad44751d521f815936dba824ce305b5f20a109fd99865c9d7fb19f7",
+      "reason": "completed_historical_model_definition"
+    }
+  ],
+  "runtime_records_uploaded": false
+}
